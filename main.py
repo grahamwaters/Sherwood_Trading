@@ -8,10 +8,17 @@ import traceback
 from robin_stocks import robinhood as r
 import json
 import time
+# import timezone
+import pytz
+from pytz import timezone
+from datetime import datetime
+
 import csv
 from time import sleep
 import os
 from ratelimit import limits, sleep_and_retry
+signals_dict = {} # initialize the signals dictionary
+
 """
 finta supports the following indicators:
 * Simple Moving Average 'SMA'
@@ -180,7 +187,15 @@ def brain_module():
     for df in coins_dfs:
         crypto_historicals = df #todo check this is the correct df
         crypto_historicals_df = pd.DataFrame(crypto_historicals)
-        coin = str(crypto_historicals_df['symbol'][0])[:3] # remove the '-USD' from the coin name
+        if 'USD' in str(crypto_historicals_df['symbol'][0]):
+            coin = str(crypto_historicals_df['symbol'][0])[:3] # remove the '-USD' from the coin name
+        elif '-USD' in str(crypto_historicals_df['symbol'][0]):
+            coin = str(crypto_historicals_df['symbol'][0])[:4]
+        elif 'DOGE' in str(crypto_historicals_df['symbol'][0]):
+            coin = str("DOGE") #todo -- this is a hack, need to fix this
+        else:
+            coin = str(crypto_historicals_df['symbol'][0])
+
 
         buy_signal, sell_signal, hold_signal = signal_engine(df, coin)
         signals_dict[coin] = [buy_signal, sell_signal, hold_signal]
@@ -190,37 +205,45 @@ def brain_module():
 
     # this is where we will call the action_engine
     for coin in coins_list:
+        if coin == 'DOGE':
+            continue
+        try:
+            # get the signals for the coin
+            buy_signal = signals_dict[coin][0]
+            sell_signal = signals_dict[coin][1]
+            hold_signal = signals_dict[coin][2]
 
-        # get the signals for the coin
-        buy_signal = signals_dict[coin][0]
-        sell_signal = signals_dict[coin][1]
-        hold_signal = signals_dict[coin][2]
-
-        # if the buy signal is greater than the sell signal and the hold signal then buy the coin with 1% of the buying_power OR the next degree up from that value in the minimum order increment size for that coin
-        if buy_signal > sell_signal and buy_signal > hold_signal:
-            # buy the coin
-            order_crypto(symbol=coin,
-                            quantity_or_price=0.01,
-                            amount_in='dollars',
-                            side='buy')
-        # if the sell signal is greater than the buy signal and the hold signal then sell the coin with 1% of the buying_power OR the next degree up from that value in the minimum order increment size for that coin
-        elif sell_signal > buy_signal and sell_signal > hold_signal:
-            # sell the coin
-            order_crypto(symbol=coin,
-                            quantity_or_price=0.01,
-                            amount_in='dollars',
-                            side='sell')
-        # if the hold signal is greater than the buy signal and the sell signal then do nothing
-        elif hold_signal > buy_signal and hold_signal > sell_signal:
-            print(f'Hold {coin}...')
-        # if the buy signal is equal to the sell signal and the hold signal then do nothing
-        elif buy_signal == sell_signal and buy_signal == hold_signal:
-            print(f'Hold {coin}... as buy_signal == sell_signal == hold_signal')
-        # if the buy signal is equal to the sell signal then do nothing
-        elif buy_signal == sell_signal:
-            print(f'Hold {coin}... as buy_signal == sell_signal')
-        else:
+            # if the buy signal is greater than the sell signal and the hold signal then buy the coin with 1% of the buying_power OR the next degree up from that value in the minimum order increment size for that coin
+            if buy_signal > sell_signal and buy_signal > hold_signal:
+                # buy the coin
+                order_crypto(symbol=coin,
+                                quantity_or_price=0.01,
+                                amount_in='dollars',
+                                side='buy')
+            # if the sell signal is greater than the buy signal and the hold signal then sell the coin with 1% of the buying_power OR the next degree up from that value in the minimum order increment size for that coin
+            elif sell_signal > buy_signal and sell_signal > hold_signal:
+                # sell the coin
+                order_crypto(symbol=coin,
+                                quantity_or_price=0.01,
+                                amount_in='dollars',
+                                side='sell')
+            # if the hold signal is greater than the buy signal and the sell signal then do nothing
+            elif hold_signal > buy_signal and hold_signal > sell_signal:
+                print(f'Hold {coin}...')
+            # if the buy signal is equal to the sell signal and the hold signal then do nothing
+            elif buy_signal == sell_signal and buy_signal == hold_signal:
+                print(f'Hold {coin}... as buy_signal == sell_signal == hold_signal')
+            # if the buy signal is equal to the sell signal then do nothing
+            elif buy_signal == sell_signal:
+                print(f'Hold {coin}... as buy_signal == sell_signal')
+            else:
+                print(f'Hold {coin}... \n buy_signal: {buy_signal} \n sell_signal: {sell_signal} \n hold_signal: {hold_signal}')
+        except:
             print(f'Hold {coin}... \n buy_signal: {buy_signal} \n sell_signal: {sell_signal} \n hold_signal: {hold_signal}')
+            logging.info('  {} buy signal: {}'.format(coin, buy_signal))
+            logging.info('  {} sell signal: {}'.format(coin, sell_signal))
+            logging.info('  {} hold signal: {}'.format(coin, hold_signal))
+            continue
 
 def signal_engine(df, coin):
     # this is where we will calculate the signals for buys and sells for each coin
@@ -239,20 +262,36 @@ def signal_engine(df, coin):
     # also make sure the coin is in the df
     df['coin'] = coin
 
+    # cast all the values in these columns to floats
+    df['date'] = df['date'].astype(str)
+    logging.info('  df date: {}'.format(df['date']))
+    logging.info('casting df data to floats...')
+    df['open'] = df['open'].astype(float)
+    df['close'] = df['close'].astype(float)
+    df['high'] = df['high'].astype(float)
+    df['low'] = df['low'].astype(float)
+    df['volume'] = df['volume'].astype(float)
+
     # define the point system for buys and sells, give each signal a score
     buy_signal = 0
     sell_signal = 0
     hold_signal = 0
     # calculate the signals
-    rsi = TA.RSI(df)
-    macd = TA.MACD(df)
-    macd_signal = TA.MACD(df)['MACD_SIGNAL']
-    upper_bollingerband = TA.BBANDS(df)['BB_UPPER']
-    lower_bollingerband = TA.BBANDS(df)['BB_LOWER']
-    ma200 = TA.SMA(df, 200)
-    ma50 = TA.SMA(df, 50)
-    ma20 = TA.SMA(df, 20)
-    current_price = df['close_price'].iloc[-1]
+    """
+    The TA.RSI function expects a pandas DataFrame as input, with columns named 'open', 'high', 'low', and 'close'. The DataFrame should contain the price data for the asset you're analyzing.
+    """
+    rsi = TA.RSI(df[['open', 'high', 'low', 'close']]).to_list()[-1]
+    macd = TA.MACD(df)['MACD'].to_list()[-1]
+    macd_signal = TA.MACD(df)['SIGNAL'].to_list()[-1]
+    upper_bollingerband = TA.BBANDS(df)[
+        'BB_UPPER'
+        ].to_list()[-1]
+    lower_bollingerband = TA.BBANDS(df)[
+        'BB_LOWER'
+        ].to_list()[-1]
+    ma200 = TA.SMA(df, 200).to_list()[-1]
+    ma50 = TA.SMA(df, 50).to_list()[-1]
+    current_price = df['close'].iloc[-1]
     # todo: add the logic for the buys and sells
     # Buy if the Relative Strength Index (RSI) is below 30 and the Moving Average Convergence Divergence (MACD) is above 0. RSI values below 30 often indicate an oversold condition, suggesting the asset may be undervalued. A positive MACD suggests bullish (upward) momentum.
     if rsi < 30 and macd > 0:
@@ -356,7 +395,54 @@ def signal_engine(df, coin):
 
 def action_engine():
     # this is where we will execute the buys and sells
-    pass
+    # use order_crypto() to execute the buys and sells
+    # always buy with 1% of current buying power (amount_in='dollars')
+    # always sell with 100% of current position (amount_in='amount')
+    # use the side='buy' or side='sell' to specify the action
+    # use the symbol=coin to specify the coin
+    # use quantity_or_price=0.01 * float(buying_power) to specify the amount to buy
+    # use quantity_or_price=position to specify the amount to sell
+    # use info='buying_power' to get the current buying power
+    # use info='quantity' to get the current position
+
+    # get the current buying power
+    buying_power = r.profiles.load_account_profile(info='buying_power')
+
+    # iterate over the coins
+    for coin in signals_dict.keys():
+        # get the signals for the coin
+        buy_signal = signals_dict[coin][0]
+        sell_signal = signals_dict[coin][1]
+        hold_signal = signals_dict[coin][2]
+
+        # if there is any sell signal then cancel all orders for the coin first to prevent any open orders from conflicting with the sell order
+        if sell_signal > 0:
+            try:
+                r.orders.cancel_all_crypto_orders(symbol=coin)
+            except Exception as e:
+                print(e)
+                print(f'Unable to cancel orders for {coin}...')
+                logging.info(f'Unable to cancel orders for {coin}...{e}')
+
+        # get the current position for the coin
+        position = r.crypto.get_crypto_positions(info='quantity')
+
+        # if the buy signal is greater than the sell signal and the hold signal then buy the coin with 1% of the buying_power
+        if buy_signal > sell_signal and buy_signal > hold_signal:
+            # buy the coin
+            order_crypto(symbol=coin,
+                         quantity_or_price=0.01 * float(buying_power),
+                         amount_in='dollars',
+                         side='buy')
+
+        # if the sell signal is greater than the buy signal and the hold signal then sell the coin with 100% of the current position
+        elif sell_signal > buy_signal and sell_signal > hold_signal:
+            # sell the coin
+            order_crypto(symbol=coin,
+                         quantity_or_price=float(position),
+                         amount_in='amount',
+                         side='sell')
+
 
 def record_keeping_engine(coin, cost, quantity, side, current_price, buy_signal, sell_signal, hold_signal):
 
@@ -383,12 +469,30 @@ def record_keeping_engine(coin, cost, quantity, side, current_price, buy_signal,
         writer.writerow([coin, cost, quantity, side, current_price, buy_signal, sell_signal, hold_signal])
     logging.info(f'Wrote to coin_trades.csv')
 
+def is_daytime():
+    # return true if it is daytime and false if it is nighttime in CST
+    # get the current time in CST
+    current_time = datetime.now(timezone('US/Central'))
+    # get the current hour
+    current_hour = current_time.hour
+    # if the current hour is between 8am and 8pm then return true
+    if current_hour >= 8 and current_hour <= 20:
+        return True
+    # otherwise return false
+    else:
+        return False
 ## Main
 if __name__ == '__main__':
     login_setup()
-    # run brain module
-    brain_module()
-    # run action engine
-    action_engine()
-    # run record keeping engine
-    record_keeping_engine()
+    while True:
+        # run brain module
+        brain_module()
+        # run action engine
+        action_engine()
+        # run record keeping engine
+        record_keeping_engine()
+        # sleep for 5 minutes if daytime or 30 minutes if nighttime
+        if is_daytime():
+            time.sleep(300)
+        else:
+            time.sleep(1800)
