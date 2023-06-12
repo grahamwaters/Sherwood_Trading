@@ -19,6 +19,10 @@ from time import sleep
 import os
 from ratelimit import limits, sleep_and_retry
 signals_dict = {} # initialize the signals dictionary
+minimum_orders_coins= {}
+
+
+
 
 """
 finta supports the following indicators:
@@ -105,7 +109,7 @@ finta supports the following indicators:
 """
 ### ACTION FUNCTIONS ###
 @sleep_and_retry
-def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy'):
+def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):
     """
     The order_crypto function is used to place a crypto order.
 
@@ -117,32 +121,56 @@ def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy'):
     :doc-author: Trelent
     """
 
-
-
+    # Prepare input parameters
+    symbol = symbol.upper()
+    side = side.lower()
+    amount_in = amount_in.lower()
+    timeInForce = timeInForce.lower()
+    bp = float(bp)
+    # Configure quantity_or_price and amountIn based on the side of the transaction
     if side == 'buy':
         amountIn = 'dollars'
         quantity_or_price = float(quantity_or_price)
-        # only use 50% of the buying power
-        quantity_or_price = quantity_or_price * 0.5 #Note: limiting the buying power in this line
+
+        # only use 1% of buying power or the next number of dollars up to the minimum order amount for the coin
+        if bp is None:
+            # Fetch buying power from robinhood
+            profile = r.profiles.load_account_profile()
+            os.environ['PROFILE'] = profile  # set an env variable for the profile
+            bp = float(r.profiles.load_account_profile(info='buying_power'))  # get the buying power from the profile
+
+        # Calculate quantity_or_price based on buying power
+        quantity_or_price = bp * 0.01
+
+        # Get the minimum order amount for the coin
+        minimum_order_amount = minimum_orders_coins[symbol]
+
+        # Adjust quantity_or_price if it's less than the minimum order amount
+        if quantity_or_price < minimum_order_amount:
+            quantity_or_price = minimum_order_amount
+
     else:
         amountIn = 'quantity'
 
-    # cast the quantity_or_price to a string
+    # Prepare quantity_or_price for the order_crypto call
     quantity_or_price = str(quantity_or_price)
 
     try:
-        # use robin stocks to buy the coin
+        print(f'Attempting a {side} order of {quantity_or_price} {symbol}...')
+
+        # Execute the order using robin stocks
         r.orders.order_crypto(
             symbol=str(symbol),
             quantityOrPrice=float(quantity_or_price),
-            amountIn=str(amount_in), # either 'quantity' or 'dollars'
+            amountIn=str(amount_in),  # either 'quantity' or 'dollars'
             side=str(side),
             timeInForce='gtc',
             jsonify=True
         )
+
         print(f'{side.capitalize()}ing {quantity_or_price} {symbol}...')
-        print(Fore.GREEN + f'passed try statement in order! {side}' + Fore.RESET)
-        time.sleep(1) # sleep for 1 second
+        print(Fore.GREEN + f'Passed try statement in order! {side}' + Fore.RESET)
+        time.sleep(1)  # sleep for 1 second
     except Exception as e:
         raise e
 
@@ -183,15 +211,45 @@ def robin_getter(coin):
 def brain_module():
     # this is the main module that will call the other modules
     coins_list = ['BTC', 'ETH', 'ADA', 'DOGE', 'MATIC', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'SOL', 'AVAX', 'XLM', 'BCH', 'XTZ']
+    # fill the minimum_orders_coins dict with the minimum order amount for each coin
+    minimum_orders_coins = pd.DataFrame()
+    holdings_df = pd.DataFrame()
+    crypto_positions_df = r.crypto.get_crypto_positions()
+    # save this result to a json named `r_crypto_get_crypto_positions.json`
+    # if data folder doesn't exist, create it
+    if not os.path.exists('data'):
+        os.makedirs('data')
+    # save the crypto_positions_df to a json file
+    with open('data/r_crypto_get_crypto_positions.json', 'w') as f:
+        json.dump(crypto_positions_df, f)
+    # add the coins form coins_list to the first column of each of the dictionaries in the crypto_positions_df under the key `coin`
+    index_of_dict = 0
+    # add a blank column `coin` in the crypto_positions_df
+    crypto_positions_df[index_of_dict]['coin'] = ''
+    for coin in coins_list:
+        print(f'Adding {coin} to crypto_positions_df in the currency column...')
+        crypto_positions_df[index_of_dict]['coin'] = coin
+        index_of_dict += 1
+    # set the index of the crypto_positions_df to the `coin` column
+
+    # the min buy ammt is found at `currency`>`increment`
+    # the amount we own is found at `currency`>`quantity_available`
+    index_of_coin = 0
+    for coin in coins_list:
+        coin_name_long = str(crypto_positions_df[index_of_coin]['currency']['name'])
+        minimum_orders_coins[coin] = crypto_positions_df[index_of_coin]['currency']['increment']
+        #holdings_df[coin] = crypto_positions_df[index_of_coin]['currency']['quantity_available']
+        index_of_coin += 1
+    # this is where we will call the login_setup
     # this is where we will call the robin_getter
-    coins_dfs = []
+    coin_historicals_dfs = [] # this holds the historical data for each coin
     for coin in coins_list:
         crypto_available, crypto_historicals, crypto_price = robin_getter(coin)
-        coins_dfs.append(crypto_historicals)
+        coin_historicals_dfs.append(crypto_historicals)
     # this is where we will call the signal_engine
     logging.info('Calculating signals...')
     signals_dict = {}
-    for df in coins_dfs:
+    for df in coin_historicals_dfs:
         crypto_historicals = df #todo check this is the correct df
         crypto_historicals_df = pd.DataFrame(crypto_historicals)
         if 'USD' in str(crypto_historicals_df['symbol'][0]):
@@ -387,15 +445,15 @@ def signal_engine(df, coin):
     # (+): |||
     # (-): |||||
     # (0): ||||
-    print(f'(+): {buy_signal} ',end='')
-    print('|'*int(buy_signal))
-    print("")
-    print(f'(-): {sell_signal} ',end='')
-    print('|'*int(sell_signal))
-    print("")
-    print(f'(0): {hold_signal} ',end='')
-    print('|'*int(hold_signal))
-    print("")
+    # print(f'(+): {buy_signal} ',end='')
+    # print('|'*int(buy_signal))
+    # print("")
+    # print(f'(-): {sell_signal} ',end='')
+    # print('|'*int(sell_signal))
+    # print("")
+    # print(f'(0): {hold_signal} ',end='')
+    # print('|'*int(hold_signal))
+    # print("")
     print(f'(+): {buy_signal} (-): {sell_signal} (0): {hold_signal}')
 
     return buy_signal, sell_signal, hold_signal
@@ -448,7 +506,11 @@ def action_engine():
             order_crypto(symbol=coin,
                          quantity_or_price=0.01 * float(buying_power),
                          amount_in='dollars',
-                         side='buy')
+                         side='buy',
+                            bp = buying_power
+                            time_in_force='gtc')
+        # update bp (buying power)
+        buying_power -= 0.01 * float(buying_power)
 
         # if the sell signal is greater than the buy signal and the hold signal then sell the coin with 100% of the current position
         elif sell_signal > buy_signal and sell_signal > hold_signal:
@@ -456,7 +518,10 @@ def action_engine():
             order_crypto(symbol=coin,
                          quantity_or_price=float(position),
                          amount_in='amount',
-                         side='sell')
+                         side='sell',
+                         bp = buying_power
+                         time_in_force='gtc')
+
 
 
 
