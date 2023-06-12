@@ -1,4 +1,5 @@
 from finta import TA
+from colorama import Fore, Back, Style
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -116,8 +117,13 @@ def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy'):
     :doc-author: Trelent
     """
 
+
+
     if side == 'buy':
         amountIn = 'dollars'
+        quantity_or_price = float(quantity_or_price)
+        # only use 50% of the buying power
+        quantity_or_price = quantity_or_price * 0.5 #Note: limiting the buying power in this line
     else:
         amountIn = 'quantity'
 
@@ -135,6 +141,7 @@ def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy'):
             jsonify=True
         )
         print(f'{side.capitalize()}ing {quantity_or_price} {symbol}...')
+        print(Fore.GREEN + f'passed try statement in order! {side}' + Fore.RESET)
         time.sleep(1) # sleep for 1 second
     except Exception as e:
         raise e
@@ -407,7 +414,15 @@ def action_engine():
 
     # get the current buying power
     buying_power = r.profiles.load_account_profile(info='buying_power')
-
+    # cancel all open crypto orders
+    try:
+        r.orders.cancel_all_crypto_orders()
+        time.sleep(10)
+    except Exception as e:
+        print(e)
+        print('Unable to cancel orders...')
+        logging.info(f'Unable to cancel orders...{e}')
+    print(f'Buying power is {buying_power}')
     # iterate over the coins
     for coin in signals_dict.keys():
         # get the signals for the coin
@@ -442,6 +457,7 @@ def action_engine():
                          quantity_or_price=float(position),
                          amount_in='amount',
                          side='sell')
+
 
 
 def record_keeping_engine(coin, cost, quantity, side, current_price, buy_signal, sell_signal, hold_signal):
@@ -490,7 +506,8 @@ if __name__ == '__main__':
         # run action engine
         action_engine()
         # run record keeping engine
-        record_keeping_engine()
+        #record_keeping_engine(coin, cost, quantity, side, current_price, buy_signal, sell_signal, hold_signal)
+
         # sleep for 5 minutes if daytime or 30 minutes if nighttime
         if is_daytime():
             time.sleep(300)
