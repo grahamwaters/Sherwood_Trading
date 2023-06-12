@@ -1,0 +1,114 @@
+{
+  "botConfiguration": {
+    "technicalIndicators": {
+      "movingAverage": true,
+      "relativeStrengthIndex": true,
+      "bollingerBands": true,
+      "macd": true,
+      "macdSignalLine": true,
+      "macdHistogram": true,
+      "simpleMovingAverage": true,
+      "trailingStopLoss": true
+    },
+    "movingAverage": {
+      "interval": "1m",
+      "period": 20
+    },
+    "relativeStrengthIndex": {
+      "interval": "1m",
+      "period": 14
+    },
+    "bollingerBands": {
+      "interval": "1m",
+      "period": 20,
+      "standardDeviations": 2
+    },
+    "macd": {
+      "interval": "1m",
+      "fastPeriod": 12,
+      "slowPeriod": 26,
+      "signalPeriod": 9
+    },
+    "analysis_lag_seconds": 60,
+    "trade_lag_seconds": 60,
+    "signalStrength": {
+      "buyThreshold": 2,
+      "sellThreshold": 2,
+      "buyIncrements": {
+        "lowerBollingerRSI30": 1,
+        "macdCrossAboveSignal": 1
+      },
+      "sellIncrements": {
+        "upperBollingerRSI70": 1,
+        "macdCrossBelowSignal": 1
+      },
+      "buyDecrements": {
+        "macdCrossBelowSignal": 1
+      },
+      "sellDecrements": {
+        "macdCrossAboveSignal": 1
+      }
+    },
+    "orderExecution": {
+      "stopLoss": {
+        "initial": 0.01,
+        "trailing": 0.01
+      }
+    },
+    "reassessmentInterval": "5m"
+  },
+  "currencies": {
+    "BTC": {
+      "lastBoughtTime": "",
+      "lastBoughtPrice": 0.0
+    },
+    "ETH": {
+      "lastBoughtTime": "",
+      "lastBoughtPrice": 0.0
+    },
+    "SOL": {
+      "lastBoughtTime": "",
+      "lastBoughtPrice": 0.0
+    },
+    "MATIC": {
+      "lastBoughtTime": "",
+      "lastBoughtPrice": 0.0
+    },
+    "SHIB": {
+      "lastBoughtTime": "",
+      "lastBoughtPrice": 0.0
+    },
+    "AVAX": {
+      "lastBoughtTime": "",
+      "lastBoughtPrice": 0.0
+    },
+    "UNI": {
+      "lastBoughtTime": "",
+      "lastBoughtPrice": 0.0
+    },
+    "LTC": {
+      "lastBoughtTime": "",
+      "lastBoughtPrice": 0.0
+    },
+    "XLM": {
+      "lastBoughtTime": "",
+      "lastBoughtPrice": 0.0
+    },
+    "BCH": {
+      "lastBoughtTime": "",
+      "lastBoughtPrice": 0.0
+    },
+    "XTZ": {
+      "lastBoughtTime": "",
+      "lastBoughtPrice": 0.0
+    },
+    "AAVE": {
+      "lastBoughtTime": "",
+      "lastBoughtPrice": 0.0
+    },
+    "COMP": {
+      "lastBoughtTime": "",
+      "lastBoughtPrice": 0.0
+    }
+  }
+}

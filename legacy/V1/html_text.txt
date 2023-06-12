@@ -1,0 +1,413 @@
+<html itemscope itemtype="http://schema.org/Blog">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="canonical" href="https://drudge.com/" />
+<link rel="amphtml" href="https://drudge.com/m/" />
+<link rel="stylesheet" type="text/css" href="/frontstyle.css">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.drudge.com/retort">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Drudge Retort: The Other Side of the News</title>
+<meta name="verify-v1" content="I3rqnWdnMMPWUObaYAddy82YYooyLIEicmW0Leyyzl4=">
+<meta name="google-site-verification" content="5ZSdG58AvVecEWO2oH3IJy7ptubC9dzRA7mlaB-eKYc" />
+<meta name="robots" content="noodp" /><meta name="description" content="Headlines: Gov. Gavin Newsom Investigating after Migrants from Texas Left in Front of California Church; Texas Makes it Illegal for Transgender Kids to get Affirming Health Care; Boebert Still">
+<meta itemprop="name" content="Drudge Retort">
+<meta itemprop="description" content="Breaking news, politics, and commentary from the other side">
+<meta itemprop="image" content="https://drudge.com/">
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script></head>
+<body><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-631537-2', 'auto');
+  ga('send', 'pageview');
+</script><div class="loginbox"><form method="POST" action="/log-in">Username: <input id="username" name="username" size="6" value=""> Password: <input id="password" name="password" type="password" size="6" value=""> <input type="submit" name="command" value="Log In"> <a href="/join-site">Join</a></form></div>
+<p><!-- No breaking news --><p class="adlabel">Advertisement</p>
+<div class="ad_responsive">
+<p><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Drudge Retort, Homepage, ATF, Above Logo, Horizontal, Responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8378161688790357"
+     data-ad-slot="8823017626"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></p>
+</div><p><div align="center"><a href="https://drudge.com/weblog"><img border="0" src="/resources/logosmall.gif" width="304" height="47"></a></div><br>
+<div align="center"><table border="0" width="100%" class="full_news">
+<tr valign="top">
+<td width="33%" class="newscolumn">
+<div class="newslink">
+<!-- Begin News Headlines -->
+<div class="frontheadline"><a href="https://www.thedailybeast.com/twitter-hit-by-staggering-59-percent-drop-in-us-ad-sales-report">NYT: Twitter's U.S. Ad Sales Plunge 59%</a><span class="commentcount"> (<a href="https://drudge.com/news/267398/nyt-twitters-us-ad-sales-plunge-59">2 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.nytimes.com/2023/06/05/briefing/millennials-voting.html">Millennials Just Keep Voting</a><span class="commentcount"> (<a href="https://drudge.com/news/267394/millennials-just-keep-voting">1 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.hollywoodreporter.com/tv/tv-news/ron-desantis-vice-episode-pulled-showtime-1235506705/">Showtime Pulls 'Vice' Episode on Ron DeSantis</a><span class="commentcount"> (<a href="https://drudge.com/news/267386/showtime-pulls-vice-episode-ron-desantis">5 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.theguardian.com/football/2023/jun/04/i-say-goodbye-to-football-emotional-zlatan-ibrahimovic-ends-career-at-41">Zlatan Retires from Football</a><span class="commentcount"> (<a href="https://drudge.com/news/267378/zlatan-retires-football">5 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.npr.org/2023/06/03/1179941247/abortion-caitlin-bernard-indiana-doctor-medical-board?utm_source=fark&utm_medium=website&utm_content=link&ICID=ref_fark">Indiana Doctors Rally Around Dr. Caitlin Bernard</a><span class="commentcount"> (<a href="https://drudge.com/news/267368/indiana-doctors-rally-around-dr-caitlin">10 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://arstechnica.com/health/2023/06/pandemic-lessons-more-health-workers-less-faxing-an-ars-frontiers-recap/">Pandemic Lessons: More Health Workers, Less Faxing</a><span class="commentcount"> (<a href="https://drudge.com/news/267372/pandemic-lessons-more-health-workers-less">3 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.thedailybeast.com/ron-desantis-rips-donald-trump-over-congratulating-murderous-dictator-kim-jong-un">DeSantis Rips Trump for Congratulating Kim Jong Un</a><span class="commentcount"> (<a href="https://drudge.com/news/267360/desantis-rips-trump-congratulating-kim">5 comments</a>)</span> ...</div>
+<!-- End News Headlines -->
+</div>
+<div class="frontsection"><div class="ad_column_responsive">
+<p class="adlabel">Advertisement</p>
+<p><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Drudge Retort, Homepage, ATF, Left Column, Square, Responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8378161688790357"
+     data-ad-slot="6770696699"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></p>
+</div><div class="frontsection">
+<div class="sources">
+<p class="sources">Search the Retort:<br>
+<!-- SiteSearch Google -->
+<style type="text/css">
+@import url(https://www.google.com/cse/api/branding.css);
+</style>
+<div class="cse-branding-bottom" style="background-color:#FFFFCC;color:#000000">
+  <div class="cse-branding-form">
+    <form action="https://drudge.com/search-results" id="cse-search-box">
+      <div>
+        <input type="hidden" name="cx" value="partner-pub-8378161688790357:mwur61-wdus" />
+        <input type="hidden" name="cof" value="FORID:10" />
+        <input type="hidden" name="ie" value="ISO-8859-1" />
+        <input type="text" name="q" size="25" />
+        <input type="submit" name="sa" value="Search" />
+      </div>
+    </form>
+  </div>
+</div>
+<!-- SiteSearch Google -->
+</div>
+</div>
+<p class="sources">Search News:<br>
+<div align="center" class="news_search">
+<form method="GET" action="/searchnews.php">
+<input type="text" name="term" value="" size="20">
+<input type="submit" name="Send" value="Search">
+</form>
+</div>
+</div>
+<div class="frontsection">
+<div class="sources"><a href="http://www.alternet.org">AlterNet</a><br />
+<a href="http://americablog.org">Americablog</a><br />
+<a href="https://www.theatlantic.com/">Atlantic</a><br />
+<a href="http://www.balloon-juice.com/">Balloon Juice</a><br />
+<a href="http://www.blueoregon.com/">BlueOregon</a><br />
+<a href="http://www.bluenc.com/">BlueNC</a><br />
+<a href="https://www.bloomberg.com/politics">Bloomberg Politics</a><br />
+<a href="http://www.truth-out.org/buzzflash/">Buzzflash</a><br />
+<a href="http://www.commondreams.org/">Common Dreams</a><br />
+<a href="http://crooksandliars.com/">Crooks and Liars</a><br />
+<a href="http://www.crookedtimber.org/">Crooked Timber</a><br />
+<a href="http://www.thedailybeast.com/">Daily Beast</a><br />
+<a href="http://dailyhowler.blogspot.com/">Daily Howler</a><br />
+<a href="http://www.dailykos.com/">Daily Kos</a><br />
+<a href="http://www.democraticunderground.com/">Democratic Underground</a><br />
+<a href="https://democrats.org/">Democrats.Org</a><br />
+<a href="http://www.electoral-vote.com/">Electoral-Vote.Com</a><br />
+<a href="http://feministing.com/">Feministing</a><br />
+<a href="http://theangryliberal.blogspot.com/">Grey Matter</a><br />
+<a href="https://www.msnbc.com//hardball">Hardball</a><br />
+<a href="http://digbysblog.blogspot.com/">Hullabaloo</a><br />
+<a href="http://www.inthesetimes.com/">In These Times</a><br />
+<a href="https://www.lawfareblog.com/">Lawfare</a><br />
+<a href="http://www.liberaloasis.com/">Liberal Oasis</a><br />
+<a href="http://www.mahablog.com/">Mahablog</a><br />
+<a href="http://mediamatters.org/">Media Matters</a><br />
+<a href="http://www.metafilter.com/">MetaFilter</a><br />
+<a href="http://themoderatevoice.com/">Moderate Voice</a><br />
+<a href="http://www.motherjones.com/">Mother Jones</a><br />
+<a href="https://www.msnbc.com//">MSNBC</a><br />
+<a href="http://narconews.com/">NarcoNews</a><br />
+<a href="http://www.nbcnews.com/">NBC News</a><br />
+<a href="https://www.nytimes.com/">New York Times</a><br />
+<a href="http://www.theonion.com/">Onion</a><br />
+<a href="http://www.politicalwire.com/">Political Wire</a><br />
+<a href="http://www.politico.com/">Politico</a><br />
+<a href="http://thepopulist.buzz/">Populist Buzz</a><br />
+<a href="http://www.progressive.org/">Progressive</a><br />
+<a href="https://cpc-grijalva.house.gov/">Progressive Caucus</a><br />
+<a href="http://www.populist.com/">Progressive Populist</a><br />
+<a href="http://rawstory.com/">Raw Story</a><br />
+<a href="http://www.salon.com/">Salon</a><br />
+<a href="http://www.scotusblog.com/">Scotusblog</a><br />
+<a href="http://seeingtheforest.com/">Seeing the Forest</a><br />
+<a href="http://www.slate.com/">Slate</a><br />
+<a href="http://www.smirkingchimp.com/">Smirking Chimp</a><br />
+<a href="http://www.thesmokinggun.com/">Smoking Gun</a><br />
+<a href="http://www.talkingpointsmemo.com/">Talking Points Memo</a><br />
+<a href="https://townhallproject.com/">Town Hall Project</a><br />
+<a href="http://www.thenation.com/">The Nation</a><br />
+<a href="http://www.theroot.com/tag/politics">The Root</a><br />
+<a href="http://www.truthdig.com/">Truthdig</a><br />
+<a href="http://www.villagevoice.com/">Village Voice</a><br />
+<a href="https://www.washingtonpost.com/news/the-fix/">Washington Post</a><br />
+<a href="http://www.pbs.org/weta/washingtonweek/">Washington Week</a><br />
+<a href="https://www.stitcher.com/podcast/hangar-studios/words-matter-with-elise-jordan-and-steve-schmidt">Words Matter</a></div>
+</div>
+</td>
+<td width="33%" class="newscolumn">
+<div class="newslink">
+<!-- Begin News Headlines -->
+<div class="frontheadline"><a href="https://www.nbcnews.com/news/world/australia-kathleen-folbigg-pardoned-children-natural-causes-rcna87663">Australian Mother Convicted of Killing her Children Pardoned after 20 Years</a><span class="commentcount"> (<a href="https://drudge.com/news/267393/australian-mother-convicted-killing-her">1 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.axios.com/2023/06/04/chuck-todd-leave-meet-the-press">Chuck Todd to Leave NBC's 'Meet the Press'</a><span class="commentcount"> (<a href="https://drudge.com/news/267389/chuck-todd-leave-nbcs-meet-press">3 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.france24.com/en/france/20230603-le-pen-s-far-right-served-as-mouthpiece-for-the-kremlin-says-french-parliamentary-report">Le Pen's Far Right Served as Mouthpiece for the Kremlin, Says French Parliamentary Report</a><span class="commentcount"> (<a href="https://drudge.com/news/267379/le-pens-far-right-served-mouthpiece">8 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.theguardian.com/us-news/2023/jun/04/ron-desantis-lawsuits-cost-florida-taxpayers">Florida Taxpayers Pick Up Bill for Ron DeSantis's Culture War Lawsuits</a><span class="commentcount"> (<a href="https://drudge.com/news/267377/florida-taxpayers-pick-up-bill-ron">2 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.cnn.com/2023/06/02/us/new-mexico-murder-cold-case-confession/index.html">An Unprompted Confession of Murder</a><span class="commentcount"> (<a href="https://drudge.com/news/267365/unprompted-confession-murder">0 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.cnn.com/2023/06/02/opinions/india-youth-population-online-internet-employment-poonam/index.html">Slaves Forced to Commit Cyber Crimes</a><span class="commentcount"> (<a href="https://drudge.com/news/267361/slaves-forced-commit-cyber-crimes">4 comments</a>)</span> ...</div><div class="frontheadline noonerheadline"><a href="https://drudge.com/news/267384/retort-monday-nooner">Retort: The Monday Nooner</a><span class="commentcount"> (<a href="https://drudge.com/news/267384/retort-monday-nooner">52 comments</a>)</span> ...</div>
+<!-- End News Headlines -->
+</div>
+<p class="sources" align="center">
+<g:plusone annotation="inline" callback="Drudge Retort" href="https://drudge.com/" width="200"></g:plusone>
+</p>
+<div class="frontsection">
+<div class="sources"><a href="https://drudge.com/">Front Page</a><br>
+<a href="https://drudge.com/weblog">Breaking News</a><br>
+<a href="https://drudge.com/comments">Comments</a><br>
+<a href="https://drudge.com/flagged-comments">Flagged Comments</a><br>
+<a href="https://drudge.com/recent-flags">Recently Flagged</a><br>
+<a href="https://drudge.com/discussion">User Blogs</a><br>
+<a href="https://drudge.com/create-entry">Write a Blog Entry</a><br>
+<a href="https://drudge.com/create-poll">Create a Poll</a><br>
+<a href="https://drudge.com/edit-account">Edit Account</a><br>
+<a href="https://drudge.com/weekly-digest">Weekly Digest</a><br>
+<a href="https://drudge.com/stats">Stats Page</a><br>
+<a href="http://feeds.drudge.com/retort" rel="nofollow">RSS Feed</a><br>
+<a href="https://drudge.com/backpage">Back Page</a><br></div>
+</div>
+<div class="frontsection">
+<div class="sources"><a href="http://www.sportsfilter.com/">SportsFilter</a><br />
+<a href="http://workbench.cadenhead.org/">Workbench</a><br />
+<a href="http://www.uroulette.com/">URouLette.Com</a><br />
+<a href="http://cool.cc/">Cool.CC</a><br /></div>
+</div>
+<div class="frontsection">
+<div class="sources"><a href="https://www.pbs.org/newshour/author/yamiche-alcindor">Yamiche Alcindor</a><br />
+<a href="https://www.thenation.com/authors/eric-alterman/">Eric Alterman</a><br />
+<a href="https://www.theatlantic.com/author/natasha-bertrand/">Natasha Bertrand</a><br />
+<a href="https://www.washingtonpost.com/people/jonathan-capehart/">Jonathan Capehart</a><br />
+<a href="https://www.thedailybeast.com/author/margaret-carlson">Margaret Carlson</a><br />
+<a href="https://www.newyorker.com/contributors/jelani-cobb">Jelani Cobb</a><br />
+<a href="https://www.juancole.com/author/jcedit">Juan Cole</a><br />
+<a href="https://www.motherjones.com/author/david-corn/">David Corn</a><br />
+<a href="https://www.washingtonpost.com/people/robert-costa/">Robert Costa</a><br />
+<a href="https://www.newsweek.com/user/21492">John Dean</a><br />
+<a href="https://www.washingtonpost.com/people/ej-dionne-jr/">E.J. Dionne</a><br />
+<a href="https://www.nbcnews.com/pages/author/richard-engel">Richard Engel</a><br />
+<a href="https://www.washingtonpost.com/people/adam-entous/">Adam Entous</a><br />
+<a href="http://bradblog.com/?author=3">Brad Friedman</a><br />
+<a href="https://www.theatlantic.com/author/david-frum/">David Frum</a><br />
+<a href="https://www.washingtonpost.com/people/anne-gearan/">Anne Gearan</a><br />
+<a href="https://www.nytimes.com/column/michelle-goldberg">Michelle Goldberg</a><br />
+<a href="https://www.washingtonpost.com/people/shane-harris">Shane Harris</a><br />
+<a href="https://www.nytimes.com/by/astead-w-herndon">Astead Herndon</a><br />
+<a href="https://hightowerlowdown.org/">Jim Hightower</a><br />
+<a href="https://www.gq.com/contributor/julia-ioffe">Julia Ioffe</a><br />
+<a href="https://www.yahoo.com/author/michael-isikoff">Michael Isikoff</a><br />
+<a href="https://www.bloomberg.com/politics/authors/ASzQCOA5TQg/jennifer-jacobs">Jennifer Jacobs</a><br />
+<a href="https://blog.ucsusa.org/author/derrick-jackson">Derrick Jackson</a><br />
+<a href="https://drjasonjohnson.com/category/jason-johnson-in-the-media/jason-johnson-weekly-column/">Jason Johnson</a><br />
+<a href="https://www.bloomberg.com/politics/authors/ASQHEB-ilHw/sahil-kapur">Sahil Kapur</a><br />
+<a href="https://www.nytimes.com/by/annie-karni">Annie Karni</a><br />
+<a href="https://www.npr.org/people/122805042/tamara-keith">Tamara Keith</a><br />
+<a href="https://dankennedy.net/">Dan Kennedy</a><br />
+<a href="https://www.vox.com/authors/ezra-klein">Ezra Klein</a><br />
+<a href="https://www.nytimes.com/column/paul-krugman">Paul Krugman</a><br />
+<a href="https://www.axios.com/authors/jonathanswan">Jonathan Lemire</a><br />
+<a href="https://www.nytimes.com/by/david-leonhardt">David Leonhardt</a><br />
+<a href="https://www.washingtonpost.com/people/annie-linskey">Annie Linskey</a><br />
+<a href="https://slate.com/author/dahlia-lithwick">Dahlia Lithwick</a><br />
+<a href="https://www.msnbc.com/maddowblog">Rachel Maddow</a><br />
+<a href="https://www.npr.org/people/577125263/tim-mak">Tim Mak</a><br />
+<a href="https://www.washingtonpost.com/people/ruth-marcus/">Ruth Marcus</a><br />
+<a href="https://play.google.com/music/listen#/ps/I2dnwedy2q4ybrd2lq5cwemluoi">Simon Marks</a><br />
+<a href="https://www.washingtonexaminer.com/author/jamie-mcintyre">Jamie McIntyre</a><br />
+<a href="https://www.washingtonpost.com/people/greg-miller">Greg Miller</a><br />
+<a href="https://www.usnews.com/topics/author/susan-milligan">Susan Milligan</a><br />
+<a href="http://time.com/author/jay-newton-small/">Jay Newton-Small</a><br />
+<a href="https://www.thenation.com/authors/john-nichols/">John Nichols</a><br />
+<a href="http://www.chicagotribune.com/news/opinion/page/">Clarence Page</a><br />
+<a href="https://www.usatoday.com/staff/1198/susan-page/">Susan Page</a><br />
+<a href="https://www.gregpalast.com/">Greg Palast</a><br />
+<a href="https://abcnews.go.com/Author/Tara_Palmeri">Tara Palmeri</a><br />
+<a href="https://www.washingtonpost.com/people/ashley-parker">Ashley Parker</a><br />
+<a href="https://www.nytimes.com/by/jeremy-w-peters">Jeremy Peters</a><br />
+<a href="http://rall.com/">Ted Rall</a><br />
+<a href="https://www.npr.org/people/599484393/ayesha-rascoe">Ayesha Rascoe</a><br />
+<a href="https://www.nytimes.com/topic/person/steven-rattner">Steven Rattner</a><br />
+<a href="http://robertreich.org/">Robert Reich</a><br />
+<a href="https://www.msnbc.com/am-joy">Joy Reid</a><br />
+<a href="https://www.washingtonpost.com/people/eugene-robinson/">Eugene Robinson</a><br />
+<a href="https://www.nytimes.com/by/matthew-rosenberg">Matthew Rosenberg</a><br  />
+<a href="https://www.washingtonpost.com/people/jennifer-rubin/">Jennifer Rubin</a><br />
+<a href="https://www.washingtonpost.com/people/philip-rucker/">Philip Rucker</a><br />
+<a href="http://jeffsachs.org/">Jeffrey Sachs</a><br />
+<a href="https://www.washingtonpost.com/people/michael-scherer/">Michael Scherer</a><br />
+<a href="https://www.youtube.com/user/SamSeder">Sam Seder</a><br />
+<a href="https://www.nytimes.com/by/michael-d-shear">Michael Shear</a><br />
+<a href="https://www.theguardian.com/profile/sabrina-siddiqui">Sabrina Siddiqui</a><br />
+<a href="https://fivethirtyeight.com/contributors/nate-silver/">Nate Silver</a><br />
+<a href="https://www.thedailybeast.com/author/sam-stein">Sam Stein</a><br />
+<a href="https://www.latimes.com/la-bio-eli-stokols-staff.html">Eli Stokols</a><br />
+<a href="https://twitter.com/davidsirota">David Sirota</a><br />
+<a href="https://www.ft.com/gillian-tett">Gillian Tett</a><br />
+<a href="https://www.nytimes.com/by/glenn-thrush">Glenn Thrush</a><br />
+<a href="https://www.nytimes.com/by/michael-tomasky">Michael Tomasky</a><br />
+<a href="https://www.thenation.com/authors/tom-tomorrow/">Tom Tomorrow</a><br />
+<a href="https://www.nytimes.com/by/kenneth-p-vogel">Ken Vogel</a><br />
+<a href="https://www.washingtonpost.com/people/david-weigel/">Dave Weigel</a><br />
+<a href="https://www.washingtonpost.com/people/george-f-will">George Will</a><br />
+<a href="https://oliverwillis.com/">Oliver Willis</a><br />
+<a href="https://www.lawfareblog.com/contributors/bwittes">Benjamin Wittes</a><br />
+<a href="https://www.thedailybeast.com/author/betsy-woodruff">Betsy Woodruff</a><br />
+<a href="https://www.vox.com/authors/matthew-yglesias">Matthew Yglesias</a><br />
+</div>
+</div>
+</div>
+</td>
+<td width="33%" class="newscolumn">
+<div class="newslink">
+<!-- Begin News Headlines -->
+<div class="frontheadline"><a href="https://www.ksbw.com/article/gov-newsom-s-office-investigates-after-migrants-from-texas-are-left-in-front-of-sacramento-church-without-warning/44084655">Gov. Gavin Newsom Investigating after Migrants from Texas Left in Front of California Church</a><span class="commentcount"> (<a href="https://drudge.com/news/267381/gov-gavin-newsom-investigating-after">56 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.texastribune.org/2023/06/02/texas-gender-affirming-care-ban/">Texas Makes it Illegal for Transgender Kids to get Affirming Health Care</a><span class="commentcount"> (<a href="https://drudge.com/news/267366/texas-makes-illegal-transgender-kids">38 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.thedailybeast.com/rep-lauren-boebert-says-dna-proves-wrestler-stan-lane-not-her-father">Boebert Still Doesn't Know Who Her Father Is</a><span class="commentcount"> (<a href="https://drudge.com/news/267371/boebert-still-doesnt-know-her-father">33 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.theguardian.com/books/2023/jun/03/utah-school-district-book-of-morman-ban">Bible-Banning Schools May Remove Book of Mormon</a><span class="commentcount"> (<a href="https://drudge.com/news/267369/bible-banning-schools-may-remove-book">19 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.nytimes.com/2023/02/19/opinion/america-ukraine-war-russia.html">America Can't Go 'Wobbly' on Ukraine</a><span class="commentcount"> (<a href="https://drudge.com/news/267385/america-cant-go-wobbly-ukraine">18 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://thehill.com/homenews/house/4032484-greene-flips-on-public-release-of-jan-6-tapes-claims-it-could-put-the-security-of-the-capitol-at-risk/">Marjorie Taylor Greene Is Concerned About Capitol Security</a><span class="commentcount"> (<a href="https://drudge.com/news/267348/marjorie-taylor-greene-concerned">17 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://news.yahoo.com/crashed-plane-behind-d-c-015251405.html">Trump Donors Owned Crashed Plane Behind DC Chaos</a><span class="commentcount"> (<a href="https://drudge.com/news/267383/trump-donors-owned-crashed-plane-behind-dc">16 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.theguardian.com/football/2023/jun/03/manchester-city-manchester-united-fa-cup-final-match-report">Man City Defeats Man United in FA Cup</a><span class="commentcount"> (<a href="https://drudge.com/news/267362/man-city-defeats-man-united-fa-cup">14 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.digitaljournal.com/world/op-ed-while-republicans-battle-over-woke-what-does-woke-mean/article">OpEd: While GOP Battles over 'woke' - What Does 'woke' Mean?</a><span class="commentcount"> (<a href="https://drudge.com/news/267373/oped-while-gop-battles-over-woke">13 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://apnews.com/article/nikki-haley-russia-ukraine-president-republican-9e5d422940c55a3b76de278788480f83">Haley Campaign say she Misspoke When Suggesting U.S. Align with Russia</a><span class="commentcount"> (<a href="https://drudge.com/news/267367/haley-campaign-say-she-misspoke">13 comments</a>)</span> ...</div>
+<!-- End News Headlines -->
+</div>
+<div class="frontsection"><div class="ad_column_responsive">
+<p class="adlabel">Advertisement</p>
+<p><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Drudge Retort, Homepage, ATF, Right Column, Square, Responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8378161688790357"
+     data-ad-slot="5293963492"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></p>
+</div><div class="frontsection">
+<div class="sources">
+<p class="sources">Read the Retort using RSS:
+
+<p class="rsslink"><a href="http://feeds.drudge.com/retort" rel="nofollow"><img src="/resources/rss-icon.png" alt="Drudge Retort RSS feed" border="0" width="16" height="16"></a> <a href="http://feeds.drudge.com/retort" rel="nofollow">RSS Feed</a>
+</p>
+</div>
+</div>
+</div>
+<div class="frontsection">
+<div class="sources">
+<p>Send News Tip to the Retort<br>
+<div align="center">
+<form method="POST" action="/email">Headline:<br><input type="text" name="subject" size="20" id="newstipheadline"><br>Summary:<br><textarea name="comments" rows="11" cols="17" id="newstipcomment"></textarea><p><input type="submit" name="Send" value="Submit"><input type="hidden" name="who" value="workbench"><input type="hidden" name="scode" value="https://drudge.com/weblog"><input type="hidden" name="rcode" value="drudge"><input type="hidden" name="email" value="noone@example.com"></form></div>
+</div>
+</div>
+</div>
+<div class="frontsection">
+<p>RECENT COMMENTS:<br>
+<!-- Begin Recent Comments -->
+<div class="newslink">
+<div class="frontcomment">BellRinger on <a href="https://drudge.com/read-comment/267381/6838470">Gov. Gavin Newsom Investigating after Migrants from Texas Left in Front of California Church</a> ...</div><div class="frontcomment">SpeakSoftly on <a href="https://drudge.com/read-comment/267381/6838467">Gov. Gavin Newsom Investigating after Migrants from Texas Left in Front of California Church</a> ...</div><div class="frontcomment">oneironaut on <a href="https://drudge.com/read-comment/267381/6838464">Gov. Gavin Newsom Investigating after Migrants from Texas Left in Front of California Church</a> ...</div><div class="frontcomment">Sop on <a href="https://drudge.com/read-comment/267383/6838460">Trump Donors Owned Crashed Plane Behind DC Chaos</a> ...</div><div class="frontcomment">GalaxiePete on <a href="https://drudge.com/read-comment/267386/6838457">Showtime Pulls 'Vice' Episode on Ron DeSantis</a> ...</div><div class="frontcomment">LegallyYourDead on <a href="https://drudge.com/read-comment/267394/6838455">Millennials Just Keep Voting</a> ...</div><div class="frontcomment">LegallyYourDead on <a href="https://drudge.com/read-comment/267385/6838454">America Can't Go 'Wobbly' on Ukraine</a> ...</div><div class="frontcomment">LegallyYourDead on <a href="https://drudge.com/read-comment/267398/6838453">NYT: Twitter's U.S. Ad Sales Plunge 59%</a> ...</div><div class="frontcomment">LegallyYourDead on <a href="https://drudge.com/read-comment/267381/6838452">Gov. Gavin Newsom Investigating after Migrants from Texas Left in Front of California Church</a> ...</div><div class="frontcomment">Killjoy on <a href="https://drudge.com/read-comment/267379/6838451">Le Pen's Far Right Served as Mouthpiece for the Kremlin, Says French Parliamentary Report</a> ...</div>
+</div>
+<!-- End Recent Comments -->
+</div>
+</div>
+</td>
+<td width="150" class="ad_sidebar"><!-- Begin Amazon Sidebar -->
+<div class="ad_sidebar" align="center"><iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=14&l=ur1&category=audible&banner=03BDSSAY4DXTZVGDG4R2&f=ifr&linkID=d1edb61f55daffffcec92eb2774853d3&t=naviseek&tracking_id=naviseek" width="160" height="600" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0" sandbox="allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe></div>
+<!-- End Amazon Sidebar --></td>
+</tr>
+</table>
+<div class="mobile_news">
+<p class="dateheader">Hottest Stories</p>
+
+<div class="frontheadline"><a href="https://www.ksbw.com/article/gov-newsom-s-office-investigates-after-migrants-from-texas-are-left-in-front-of-sacramento-church-without-warning/44084655">Gov. Gavin Newsom Investigating after Migrants from Texas Left in Front of California Church</a><span class="commentcount"> (<a href="https://drudge.com/news/267381/gov-gavin-newsom-investigating-after">56 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.texastribune.org/2023/06/02/texas-gender-affirming-care-ban/">Texas Makes it Illegal for Transgender Kids to get Affirming Health Care</a><span class="commentcount"> (<a href="https://drudge.com/news/267366/texas-makes-illegal-transgender-kids">38 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.thedailybeast.com/rep-lauren-boebert-says-dna-proves-wrestler-stan-lane-not-her-father">Boebert Still Doesn't Know Who Her Father Is</a><span class="commentcount"> (<a href="https://drudge.com/news/267371/boebert-still-doesnt-know-her-father">33 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.theguardian.com/books/2023/jun/03/utah-school-district-book-of-morman-ban">Bible-Banning Schools May Remove Book of Mormon</a><span class="commentcount"> (<a href="https://drudge.com/news/267369/bible-banning-schools-may-remove-book">19 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.nytimes.com/2023/02/19/opinion/america-ukraine-war-russia.html">America Can't Go 'Wobbly' on Ukraine</a><span class="commentcount"> (<a href="https://drudge.com/news/267385/america-cant-go-wobbly-ukraine">18 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://thehill.com/homenews/house/4032484-greene-flips-on-public-release-of-jan-6-tapes-claims-it-could-put-the-security-of-the-capitol-at-risk/">Marjorie Taylor Greene Is Concerned About Capitol Security</a><span class="commentcount"> (<a href="https://drudge.com/news/267348/marjorie-taylor-greene-concerned">17 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://news.yahoo.com/crashed-plane-behind-d-c-015251405.html">Trump Donors Owned Crashed Plane Behind DC Chaos</a><span class="commentcount"> (<a href="https://drudge.com/news/267383/trump-donors-owned-crashed-plane-behind-dc">16 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.theguardian.com/football/2023/jun/03/manchester-city-manchester-united-fa-cup-final-match-report">Man City Defeats Man United in FA Cup</a><span class="commentcount"> (<a href="https://drudge.com/news/267362/man-city-defeats-man-united-fa-cup">14 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.digitaljournal.com/world/op-ed-while-republicans-battle-over-woke-what-does-woke-mean/article">OpEd: While GOP Battles over 'woke' - What Does 'woke' Mean?</a><span class="commentcount"> (<a href="https://drudge.com/news/267373/oped-while-gop-battles-over-woke">13 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://apnews.com/article/nikki-haley-russia-ukraine-president-republican-9e5d422940c55a3b76de278788480f83">Haley Campaign say she Misspoke When Suggesting U.S. Align with Russia</a><span class="commentcount"> (<a href="https://drudge.com/news/267367/haley-campaign-say-she-misspoke">13 comments</a>)</span> ...</div><div class="ad_column_responsive">
+<p class="adlabel">Advertisement</p>
+<p><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Drudge Retort, Homepage, ATF, Left Column, Square, Responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8378161688790357"
+     data-ad-slot="6770696699"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></p>
+</div><p class="dateheader">Newest Stories</p>
+
+<div class="frontheadline"><a href="https://www.thedailybeast.com/twitter-hit-by-staggering-59-percent-drop-in-us-ad-sales-report">NYT: Twitter's U.S. Ad Sales Plunge 59%</a><span class="commentcount"> (<a href="https://drudge.com/news/267398/nyt-twitters-us-ad-sales-plunge-59">2 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.nytimes.com/2023/06/05/briefing/millennials-voting.html">Millennials Just Keep Voting</a><span class="commentcount"> (<a href="https://drudge.com/news/267394/millennials-just-keep-voting">1 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.nbcnews.com/news/world/australia-kathleen-folbigg-pardoned-children-natural-causes-rcna87663">Australian Mother Convicted of Killing her Children Pardoned after 20 Years</a><span class="commentcount"> (<a href="https://drudge.com/news/267393/australian-mother-convicted-killing-her">1 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.axios.com/2023/06/04/chuck-todd-leave-meet-the-press">Chuck Todd to Leave NBC's 'Meet the Press'</a><span class="commentcount"> (<a href="https://drudge.com/news/267389/chuck-todd-leave-nbcs-meet-press">3 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.hollywoodreporter.com/tv/tv-news/ron-desantis-vice-episode-pulled-showtime-1235506705/">Showtime Pulls 'Vice' Episode on Ron DeSantis</a><span class="commentcount"> (<a href="https://drudge.com/news/267386/showtime-pulls-vice-episode-ron-desantis">5 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.france24.com/en/france/20230603-le-pen-s-far-right-served-as-mouthpiece-for-the-kremlin-says-french-parliamentary-report">Le Pen's Far Right Served as Mouthpiece for the Kremlin, Says French Parliamentary Report</a><span class="commentcount"> (<a href="https://drudge.com/news/267379/le-pens-far-right-served-mouthpiece">8 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.theguardian.com/football/2023/jun/04/i-say-goodbye-to-football-emotional-zlatan-ibrahimovic-ends-career-at-41">Zlatan Retires from Football</a><span class="commentcount"> (<a href="https://drudge.com/news/267378/zlatan-retires-football">5 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.theguardian.com/us-news/2023/jun/04/ron-desantis-lawsuits-cost-florida-taxpayers">Florida Taxpayers Pick Up Bill for Ron DeSantis's Culture War Lawsuits</a><span class="commentcount"> (<a href="https://drudge.com/news/267377/florida-taxpayers-pick-up-bill-ron">2 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.npr.org/2023/06/03/1179941247/abortion-caitlin-bernard-indiana-doctor-medical-board?utm_source=fark&utm_medium=website&utm_content=link&ICID=ref_fark">Indiana Doctors Rally Around Dr. Caitlin Bernard</a><span class="commentcount"> (<a href="https://drudge.com/news/267368/indiana-doctors-rally-around-dr-caitlin">10 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.cnn.com/2023/06/02/us/new-mexico-murder-cold-case-confession/index.html">An Unprompted Confession of Murder</a><span class="commentcount"> (<a href="https://drudge.com/news/267365/unprompted-confession-murder">0 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://arstechnica.com/health/2023/06/pandemic-lessons-more-health-workers-less-faxing-an-ars-frontiers-recap/">Pandemic Lessons: More Health Workers, Less Faxing</a><span class="commentcount"> (<a href="https://drudge.com/news/267372/pandemic-lessons-more-health-workers-less">3 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.thedailybeast.com/ron-desantis-rips-donald-trump-over-congratulating-murderous-dictator-kim-jong-un">DeSantis Rips Trump for Congratulating Kim Jong Un</a><span class="commentcount"> (<a href="https://drudge.com/news/267360/desantis-rips-trump-congratulating-kim">5 comments</a>)</span> ...</div><div class="frontheadline"><a href="https://www.cnn.com/2023/06/02/opinions/india-youth-population-online-internet-employment-poonam/index.html">Slaves Forced to Commit Cyber Crimes</a><span class="commentcount"> (<a href="https://drudge.com/news/267361/slaves-forced-commit-cyber-crimes">4 comments</a>)</span> ...</div><div class="frontheadline noonerheadline"><a href="https://drudge.com/news/267384/retort-monday-nooner">Retort: The Monday Nooner</a><span class="commentcount"> (<a href="https://drudge.com/news/267384/retort-monday-nooner">52 comments</a>)</span> ...</div>
+
+<p class="dateheader">Main Menu</p>
+
+<p class="sources"><a href="https://drudge.com/">Front Page</a><br>
+<a href="https://drudge.com/weblog">Breaking News</a><br>
+<a href="https://drudge.com/comments">Comments</a><br>
+<a href="https://drudge.com/flagged-comments">Flagged Comments</a><br>
+<a href="https://drudge.com/recent-flags">Recently Flagged</a><br>
+<a href="https://drudge.com/discussion">User Blogs</a><br>
+<a href="https://drudge.com/create-entry">Write a Blog Entry</a><br>
+<a href="https://drudge.com/create-poll">Create a Poll</a><br>
+<a href="https://drudge.com/edit-account">Edit Account</a><br>
+<a href="https://drudge.com/weekly-digest">Weekly Digest</a><br>
+<a href="https://drudge.com/stats">Stats Page</a><br>
+<a href="http://feeds.drudge.com/retort" rel="nofollow">RSS Feed</a><br>
+<a href="https://drudge.com/backpage">Back Page</a><br></p><!-- sources -->
+
+<p class="dateheader">Recent Comments</p>
+
+<div class="frontcomment">BellRinger on <a href="https://drudge.com/read-comment/267381/6838470">Gov. Gavin Newsom Investigating after Migrants from Texas Left in Front of California Church</a> ...</div><div class="frontcomment">SpeakSoftly on <a href="https://drudge.com/read-comment/267381/6838467">Gov. Gavin Newsom Investigating after Migrants from Texas Left in Front of California Church</a> ...</div><div class="frontcomment">oneironaut on <a href="https://drudge.com/read-comment/267381/6838464">Gov. Gavin Newsom Investigating after Migrants from Texas Left in Front of California Church</a> ...</div><div class="frontcomment">Sop on <a href="https://drudge.com/read-comment/267383/6838460">Trump Donors Owned Crashed Plane Behind DC Chaos</a> ...</div><div class="frontcomment">GalaxiePete on <a href="https://drudge.com/read-comment/267386/6838457">Showtime Pulls 'Vice' Episode on Ron DeSantis</a> ...</div><div class="frontcomment">LegallyYourDead on <a href="https://drudge.com/read-comment/267394/6838455">Millennials Just Keep Voting</a> ...</div><div class="frontcomment">LegallyYourDead on <a href="https://drudge.com/read-comment/267385/6838454">America Can't Go 'Wobbly' on Ukraine</a> ...</div><div class="frontcomment">LegallyYourDead on <a href="https://drudge.com/read-comment/267398/6838453">NYT: Twitter's U.S. Ad Sales Plunge 59%</a> ...</div><div class="frontcomment">LegallyYourDead on <a href="https://drudge.com/read-comment/267381/6838452">Gov. Gavin Newsom Investigating after Migrants from Texas Left in Front of California Church</a> ...</div><div class="frontcomment">Killjoy on <a href="https://drudge.com/read-comment/267379/6838451">Le Pen's Far Right Served as Mouthpiece for the Kremlin, Says French Parliamentary Report</a> ...</div>
+
+</div><!-- mobile news -->
+</div>
+<p class="bottombar"><a href="/">Home</a> |
+<a href="/weblog">Breaking News</a> |
+<a href="/comments">Comments</a> |
+<a href="/discussion">User Blogs</a> |
+<a href="/stats">Stats</a> |
+<a href="/backpage">Back Page</a> |
+<a href="http://feeds.drudge.com/retort" rel=\"nofollow\">RSS Feed</a> |
+<a href="//www.rssboard.org/rss-specification">RSS Spec</a> |
+<a href="/dmca">DMCA Compliance</a> |
+<a href="/privacy-policy">Privacy</a> |
+Copyright 2023 <a href="http://www.worldreadable.com/">World Readable</a></p><!-- Quantcast tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-wjyLwX_bEPD_-"
+});
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-wjyLwX_bEPD_-.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag --></body>
+</html>

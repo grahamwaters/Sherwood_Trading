@@ -1,0 +1,438 @@
+Error getting data for SHIB: 'NoneType' object is not subscriptable
+Error getting data for SHIB: 'NoneType' object is not subscriptable
+Error getting data for SHIB: 'NoneType' object is not subscriptable
+Error getting data for SHIB: 'NoneType' object is not subscriptable
+Error getting data for SHIB: 'NoneType' object is not subscriptable
+Error getting data for SHIB: 'NoneType' object is not subscriptable
+Error getting data for SHIB: 'NoneType' object is not subscriptable
+Error getting data for SHIB: 'NoneType' object is not subscriptable
+Error getting data for SHIB: 'NoneType' object is not subscriptable
+Error getting data for SHIB: 'NoneType' object is not subscriptable
+Error getting data for SHIB: 'NoneType' object is not subscriptable
+Error getting data for SHIB: 'NoneType' object is not subscriptable
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_81202/1803945746.py", line 96, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/48661800.py", line 106, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/301766862.py", line 55, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/301766862.py", line 55, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: '<' not supported between instances of 'float' and 'str', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/301766862.py", line 55, in main_loop
+    if current_price < minimum:
+TypeError: '<' not supported between instances of 'float' and 'str'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+Buying 0.12685000000000002 MATIC at 0.723236843905465...
+Buying 0.12685000000000002 MATIC at 0.723236843905465...
+Buying 0.12685000000000002 MATIC at 0.723236843905465...
+Buying 0.12685000000000002 MATIC at 0.723236843905465...
+An error occurred: could not convert string to float: '-', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/1294576324.py", line 55, in main_loop
+    minimum = float(minimum.replace(',', ''))
+ValueError: could not convert string to float: '-'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: could not convert string to float: '-', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/1294576324.py", line 55, in main_loop
+    minimum = float(minimum.replace(',', ''))
+ValueError: could not convert string to float: '-'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: could not convert string to float: '-', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/1294576324.py", line 55, in main_loop
+    minimum = float(minimum.replace(',', ''))
+ValueError: could not convert string to float: '-'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: could not convert string to float: '-', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_82965/1294576324.py", line 55, in main_loop
+    minimum = float(minimum.replace(',', ''))
+ValueError: could not convert string to float: '-'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+[32m [!] ---> Buying 0.12685000000000002 MATIC at 0.723236843905465...[39m
+An error occurred: could not convert string to float: '-', Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_97630/453296569.py", line 55, in main_loop
+    minimum = float(minimum.replace(',', ''))
+ValueError: could not convert string to float: '-'
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', 'args', 'with_traceback']
+An error occurred: No columns to parse from file, Traceback (most recent call last):
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_8936/1803945746.py", line 44, in main_loop
+    update_signals()
+  File "/var/folders/34/d1tlq3k91hb0lj6x90xpzb4r0000gn/T/ipykernel_8936/1078107314.py", line 4, in update_signals
+    transactions_df = pd.read_csv('transactions.csv')
+  File "/opt/anaconda3/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/opt/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/opt/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/opt/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/opt/anaconda3/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 69, in __init__
+    self._reader = parsers.TextReader(self.handles.handle, **kwds)
+  File "pandas/_libs/parsers.pyx", line 549, in pandas._libs.parsers.TextReader.__cinit__
+pandas.errors.EmptyDataError: No columns to parse from file
+, ['__cause__', '__class__', '__context__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__setstate__', '__sizeof__', '__str__', '__subclasshook__', '__suppress_context__', '__traceback__', '__weakref__', 'args', 'with_traceback']
+Error getting data for SHIB: 'NoneType' object is not subscriptable

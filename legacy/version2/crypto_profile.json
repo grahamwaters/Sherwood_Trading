@@ -1,0 +1,55 @@
+{
+    "apex_account_number": "664426764",
+    "created_at": "2022-01-27T19:52:28.255728-05:00",
+    "feature_statuses": [
+        {
+            "created_at": "2022-06-10T19:45:13.226558-04:00",
+            "feature": "deposits",
+            "reason_code": "",
+            "status": "active",
+            "updated_at": "2022-09-01T23:31:09.783153-04:00"
+        },
+        {
+            "created_at": "2022-06-10T19:45:13.215687-04:00",
+            "feature": "ny",
+            "reason_code": "",
+            "status": "active",
+            "updated_at": "2022-09-01T23:31:09.773601-04:00"
+        },
+        {
+            "created_at": "2022-06-10T19:45:13.204785-04:00",
+            "feature": "trading",
+            "reason_code": "",
+            "status": "active",
+            "updated_at": "2022-09-01T23:31:09.768204-04:00"
+        },
+        {
+            "created_at": "2022-09-01T23:31:09.779168-04:00",
+            "feature": "tx",
+            "reason_code": "tx_resident",
+            "status": "deactivated",
+            "updated_at": "2022-09-01T23:31:09.779155-04:00"
+        },
+        {
+            "created_at": "2022-06-10T19:45:13.237595-04:00",
+            "feature": "withdrawals",
+            "reason_code": "",
+            "status": "active",
+            "updated_at": "2022-09-01T23:31:09.787186-04:00"
+        }
+    ],
+    "funding_sources": [
+        {
+            "funding_source_type": "rhs_brokerage_account",
+            "status": "active",
+            "rhs_account_number": "664426764",
+            "feature_statuses": []
+        }
+    ],
+    "id": "61f33e4c-8cc5-497e-a296-f0f9691a030e",
+    "rhs_account_number": "664426764",
+    "status": "active",
+    "status_reason_code": "",
+    "updated_at": "2022-09-01T23:31:09.763686-04:00",
+    "user_id": "fdb82590-f23b-41e2-872f-dc5a40a073bc"
+}

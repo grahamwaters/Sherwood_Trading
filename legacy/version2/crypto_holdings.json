@@ -1,0 +1,704 @@
+[
+    {
+        "account_id": "61f33e4c-8cc5-497e-a296-f0f9691a030e",
+        "cost_bases": [
+            {
+                "currency_id": "1072fc76-1862-41ab-82c2-485837590762",
+                "direct_cost_basis": "1.011417322834645669",
+                "direct_quantity": "2.800000000000000000",
+                "direct_reward_cost_basis": "0.000000000000000000",
+                "direct_reward_quantity": "0.000000000000000000",
+                "direct_transfer_cost_basis": "0.000000000000000000",
+                "direct_transfer_quantity": "0.000000000000000000",
+                "id": "6358937c-6d30-46e3-b76b-abc2bf2c7834",
+                "intraday_cost_basis": "0.000000000000000000",
+                "intraday_quantity": "0.000000000000000000",
+                "marked_cost_basis": "0.000000000000000000",
+                "marked_quantity": "0.000000000000000000"
+            }
+        ],
+        "created_at": "2022-10-25T21:55:08.627884-04:00",
+        "currency": {
+            "brand_color": "",
+            "code": "ADA",
+            "crypto_type": "BASE_ASSET",
+            "display_only": false,
+            "id": "f5cd90c4-6058-4e2c-909d-2fe46bb80caf",
+            "increment": "0.000001000000000000",
+            "name": "Cardano",
+            "type": "cryptocurrency"
+        },
+        "id": "6358937c-3759-47f5-b3f1-32d74fae1ca3",
+        "quantity": "2.800000000000000000",
+        "quantity_available": "2.800000000000000000",
+        "quantity_held": "0.000000000000000000",
+        "quantity_held_for_buy": "0.000000000000000000",
+        "quantity_held_for_sell": "0.000000000000000000",
+        "quantity_staked": "0.000000000000000000",
+        "quantity_transferable": "2.800000000000000000",
+        "updated_at": "2023-06-07T01:00:54.483995-04:00"
+    },
+    {
+        "account_id": "61f33e4c-8cc5-497e-a296-f0f9691a030e",
+        "cost_bases": [
+            {
+                "currency_id": "1072fc76-1862-41ab-82c2-485837590762",
+                "direct_cost_basis": "0.000000000000000000",
+                "direct_quantity": "0.000000000000000000",
+                "direct_reward_cost_basis": "0.000000000000000000",
+                "direct_reward_quantity": "0.000000000000000000",
+                "direct_transfer_cost_basis": "0.000000000000000000",
+                "direct_transfer_quantity": "0.000000000000000000",
+                "id": "63589366-4dde-4709-84e1-1c33e45a09e8",
+                "intraday_cost_basis": "0.000000000000000000",
+                "intraday_quantity": "0.000000000000000000",
+                "marked_cost_basis": "0.000000000000000000",
+                "marked_quantity": "0.000000000000000000"
+            }
+        ],
+        "created_at": "2022-10-25T21:54:46.600396-04:00",
+        "currency": {
+            "brand_color": "",
+            "code": "AAVE",
+            "crypto_type": "BASE_ASSET",
+            "display_only": false,
+            "id": "884fd5dd-726a-4104-92c2-6d751f857827",
+            "increment": "0.000000000000000001",
+            "name": "Aave",
+            "type": "cryptocurrency"
+        },
+        "id": "63589366-5dd7-4ea5-8e2d-82c631c26725",
+        "quantity": "0.000000000000000000",
+        "quantity_available": "0.000000000000000000",
+        "quantity_held": "0.000000000000000000",
+        "quantity_held_for_buy": "0.000000000000000000",
+        "quantity_held_for_sell": "0.000000000000000000",
+        "quantity_staked": "0.000000000000000000",
+        "quantity_transferable": "0.000000000000000000",
+        "updated_at": "2023-06-04T16:47:30.794600-04:00"
+    },
+    {
+        "account_id": "61f33e4c-8cc5-497e-a296-f0f9691a030e",
+        "cost_bases": [
+            {
+                "currency_id": "1072fc76-1862-41ab-82c2-485837590762",
+                "direct_cost_basis": "0.000000000000000000",
+                "direct_quantity": "0.000000000000000000",
+                "direct_reward_cost_basis": "0.000000000000000000",
+                "direct_reward_quantity": "0.000000000000000000",
+                "direct_transfer_cost_basis": "0.000000000000000000",
+                "direct_transfer_quantity": "0.000000000000000000",
+                "id": "6358935a-c44f-492a-b779-57729060a553",
+                "intraday_cost_basis": "0.000000000000000000",
+                "intraday_quantity": "0.000000000000000000",
+                "marked_cost_basis": "0.000000000000000000",
+                "marked_quantity": "0.000000000000000000"
+            }
+        ],
+        "created_at": "2022-10-25T21:54:34.357790-04:00",
+        "currency": {
+            "brand_color": "",
+            "code": "XTZ",
+            "crypto_type": "BASE_ASSET",
+            "display_only": false,
+            "id": "fef27b16-5eca-45f3-ae04-7533f4665f7b",
+            "increment": "0.000001000000000000",
+            "name": "Tezos",
+            "type": "cryptocurrency"
+        },
+        "id": "6358935a-9f05-45ab-a22b-cf1381e48807",
+        "quantity": "0.000000000000000000",
+        "quantity_available": "0.000000000000000000",
+        "quantity_held": "0.000000000000000000",
+        "quantity_held_for_buy": "0.000000000000000000",
+        "quantity_held_for_sell": "0.000000000000000000",
+        "quantity_staked": "0.000000000000000000",
+        "quantity_transferable": "0.000000000000000000",
+        "updated_at": "2023-02-28T21:35:27.205605-05:00"
+    },
+    {
+        "account_id": "61f33e4c-8cc5-497e-a296-f0f9691a030e",
+        "cost_bases": [
+            {
+                "currency_id": "1072fc76-1862-41ab-82c2-485837590762",
+                "direct_cost_basis": "0.000000000000000000",
+                "direct_quantity": "0.000000000000000000",
+                "direct_reward_cost_basis": "0.000000000000000000",
+                "direct_reward_quantity": "0.000000000000000000",
+                "direct_transfer_cost_basis": "0.000000000000000000",
+                "direct_transfer_quantity": "0.000000000000000000",
+                "id": "62f1afeb-4f47-4223-9f61-8c64ea919f78",
+                "intraday_cost_basis": "0.000000000000000000",
+                "intraday_quantity": "0.000000000000000000",
+                "marked_cost_basis": "0.000000000000000000",
+                "marked_quantity": "0.000000000000000000"
+            }
+        ],
+        "created_at": "2022-08-08T20:52:59.036795-04:00",
+        "currency": {
+            "brand_color": "",
+            "code": "XLM",
+            "crypto_type": "BASE_ASSET",
+            "display_only": false,
+            "id": "2989eeb7-b6c7-4b3b-b099-a273ba346c38",
+            "increment": "0.000000010000000000",
+            "name": "Stellar Lumens",
+            "type": "cryptocurrency"
+        },
+        "id": "62f1afeb-a2c2-40d6-b20d-c8dee94998f6",
+        "quantity": "0.000000000000000000",
+        "quantity_available": "0.000000000000000000",
+        "quantity_held": "0.000000000000000000",
+        "quantity_held_for_buy": "0.000000000000000000",
+        "quantity_held_for_sell": "0.000000000000000000",
+        "quantity_staked": "0.000000000000000000",
+        "quantity_transferable": "0.000000000000000000",
+        "updated_at": "2023-02-19T19:14:08.731150-05:00"
+    },
+    {
+        "account_id": "61f33e4c-8cc5-497e-a296-f0f9691a030e",
+        "cost_bases": [
+            {
+                "currency_id": "1072fc76-1862-41ab-82c2-485837590762",
+                "direct_cost_basis": "0.000000000000000000",
+                "direct_quantity": "0.000000000000000000",
+                "direct_reward_cost_basis": "0.000000000000000000",
+                "direct_reward_quantity": "0.000000000000000000",
+                "direct_transfer_cost_basis": "0.000000000000000000",
+                "direct_transfer_quantity": "0.000000000000000000",
+                "id": "62f1afde-4b72-48e6-a5ed-843140f43a13",
+                "intraday_cost_basis": "0.000000000000000000",
+                "intraday_quantity": "0.000000000000000000",
+                "marked_cost_basis": "0.000000000000000000",
+                "marked_quantity": "0.000000000000000000"
+            }
+        ],
+        "created_at": "2022-08-08T20:52:46.775291-04:00",
+        "currency": {
+            "brand_color": "",
+            "code": "AVAX",
+            "crypto_type": "BASE_ASSET",
+            "display_only": false,
+            "id": "b8b501ae-e6d2-474c-8595-5049ff23d9f6",
+            "increment": "0.000000001000000000",
+            "name": "Avalanche",
+            "type": "cryptocurrency"
+        },
+        "id": "62f1afde-e0af-4022-b7fa-6a5b0271a568",
+        "quantity": "0.000000000000000000",
+        "quantity_available": "0.000000000000000000",
+        "quantity_held": "0.000000000000000000",
+        "quantity_held_for_buy": "0.000000000000000000",
+        "quantity_held_for_sell": "0.000000000000000000",
+        "quantity_staked": "0.000000000000000000",
+        "quantity_transferable": "0.000000000000000000",
+        "updated_at": "2023-02-28T20:48:12.083155-05:00"
+    },
+    {
+        "account_id": "61f33e4c-8cc5-497e-a296-f0f9691a030e",
+        "cost_bases": [
+            {
+                "currency_id": "1072fc76-1862-41ab-82c2-485837590762",
+                "direct_cost_basis": "1.098166666666666667",
+                "direct_quantity": "0.220000000000000000",
+                "direct_reward_cost_basis": "0.000000000000000000",
+                "direct_reward_quantity": "0.000000000000000000",
+                "direct_transfer_cost_basis": "0.000000000000000000",
+                "direct_transfer_quantity": "0.000000000000000000",
+                "id": "62d2ed01-7ced-4325-8394-bf7d40903023",
+                "intraday_cost_basis": "0.000000000000000000",
+                "intraday_quantity": "0.000000000000000000",
+                "marked_cost_basis": "0.000000000000000000",
+                "marked_quantity": "0.000000000000000000"
+            }
+        ],
+        "created_at": "2022-07-16T12:53:21.855131-04:00",
+        "currency": {
+            "brand_color": "",
+            "code": "UNI",
+            "crypto_type": "ERC20",
+            "display_only": false,
+            "id": "53820992-76d3-4db4-8611-0a9ec85d1a91",
+            "increment": "0.000000000000000001",
+            "name": "Uniswap",
+            "type": "cryptocurrency"
+        },
+        "id": "62d2ed01-0561-4fbf-b05e-f582e2b2727b",
+        "quantity": "0.220000000000000000",
+        "quantity_available": "0.220000000000000000",
+        "quantity_held": "0.000000000000000000",
+        "quantity_held_for_buy": "0.000000000000000000",
+        "quantity_held_for_sell": "0.000000000000000000",
+        "quantity_staked": "0.000000000000000000",
+        "quantity_transferable": "0.220000000000000000",
+        "updated_at": "2023-06-07T11:59:58.553700-04:00"
+    },
+    {
+        "account_id": "61f33e4c-8cc5-497e-a296-f0f9691a030e",
+        "cost_bases": [
+            {
+                "currency_id": "1072fc76-1862-41ab-82c2-485837590762",
+                "direct_cost_basis": "1.474626865671641791",
+                "direct_quantity": "0.200000000000000000",
+                "direct_reward_cost_basis": "0.000000000000000000",
+                "direct_reward_quantity": "0.000000000000000000",
+                "direct_transfer_cost_basis": "0.000000000000000000",
+                "direct_transfer_quantity": "0.000000000000000000",
+                "id": "62cf5695-f856-4c87-bd8e-cf4cade6527b",
+                "intraday_cost_basis": "0.000000000000000000",
+                "intraday_quantity": "0.000000000000000000",
+                "marked_cost_basis": "0.000000000000000000",
+                "marked_quantity": "0.000000000000000000"
+            }
+        ],
+        "created_at": "2022-07-13T19:34:45.881243-04:00",
+        "currency": {
+            "brand_color": "",
+            "code": "LINK",
+            "crypto_type": "ERC20",
+            "display_only": false,
+            "id": "8d47d48e-e49c-4e99-9c1e-154f53f2e685",
+            "increment": "0.000000000000000001",
+            "name": "Chainlink",
+            "type": "cryptocurrency"
+        },
+        "id": "62cf5695-501c-4fc0-b66a-29e399120448",
+        "quantity": "0.200000000000000000",
+        "quantity_available": "0.200000000000000000",
+        "quantity_held": "0.000000000000000000",
+        "quantity_held_for_buy": "0.000000000000000000",
+        "quantity_held_for_sell": "0.000000000000000000",
+        "quantity_staked": "0.000000000000000000",
+        "quantity_transferable": "0.200000000000000000",
+        "updated_at": "2023-06-05T01:38:10.280531-04:00"
+    },
+    {
+        "account_id": "61f33e4c-8cc5-497e-a296-f0f9691a030e",
+        "cost_bases": [
+            {
+                "currency_id": "1072fc76-1862-41ab-82c2-485837590762",
+                "direct_cost_basis": "1.529949653982316628",
+                "direct_quantity": "1.720000000000000000",
+                "direct_reward_cost_basis": "0.000000000000000000",
+                "direct_reward_quantity": "0.000000000000000000",
+                "direct_transfer_cost_basis": "0.000000000000000000",
+                "direct_transfer_quantity": "0.000000000000000000",
+                "id": "625b5a64-cfd4-4305-a906-797459f07a40",
+                "intraday_cost_basis": "0.000000000000000000",
+                "intraday_quantity": "0.000000000000000000",
+                "marked_cost_basis": "0.000000000000000000",
+                "marked_quantity": "0.000000000000000000"
+            }
+        ],
+        "created_at": "2022-04-16T20:08:04.496442-04:00",
+        "currency": {
+            "brand_color": "",
+            "code": "MATIC",
+            "crypto_type": "ERC20",
+            "display_only": false,
+            "id": "e465003a-4790-44c6-b4e3-a43e6144e849",
+            "increment": "0.000000000000000001",
+            "name": "Polygon",
+            "type": "cryptocurrency"
+        },
+        "id": "625b5a64-061c-4f32-a744-0eff86c667f5",
+        "quantity": "1.720000000000000000",
+        "quantity_available": "1.720000000000000000",
+        "quantity_held": "0.000000000000000000",
+        "quantity_held_for_buy": "0.000000000000000000",
+        "quantity_held_for_sell": "0.000000000000000000",
+        "quantity_staked": "0.000000000000000000",
+        "quantity_transferable": "1.720000000000000000",
+        "updated_at": "2023-06-08T12:58:34.493940-04:00"
+    },
+    {
+        "account_id": "61f33e4c-8cc5-497e-a296-f0f9691a030e",
+        "cost_bases": [
+            {
+                "currency_id": "1072fc76-1862-41ab-82c2-485837590762",
+                "direct_cost_basis": "3.000000000000000000",
+                "direct_quantity": "376256.000000000000000000",
+                "direct_reward_cost_basis": "0.000000000000000000",
+                "direct_reward_quantity": "0.000000000000000000",
+                "direct_transfer_cost_basis": "0.000000000000000000",
+                "direct_transfer_quantity": "0.000000000000000000",
+                "id": "625b5a59-db4f-4f9f-9387-c4c06adbc0ef",
+                "intraday_cost_basis": "1.000000000000000000",
+                "intraday_quantity": "125000.000000000000000000",
+                "marked_cost_basis": "0.000000000000000000",
+                "marked_quantity": "0.000000000000000000"
+            }
+        ],
+        "created_at": "2022-04-16T20:07:53.303763-04:00",
+        "currency": {
+            "brand_color": "",
+            "code": "SHIB",
+            "crypto_type": "ERC20",
+            "display_only": false,
+            "id": "5ed4e8a1-5dcf-40a2-bff5-2eda98352fd8",
+            "increment": "0.010000000000000000",
+            "name": "Shiba Inu",
+            "type": "cryptocurrency"
+        },
+        "id": "625b5a59-1c3f-417d-b064-3e117adb3d84",
+        "quantity": "376256.000000000000000000",
+        "quantity_available": "376256.000000000000000000",
+        "quantity_held": "0.000000000000000000",
+        "quantity_held_for_buy": "0.000000000000000000",
+        "quantity_held_for_sell": "0.000000000000000000",
+        "quantity_staked": "0.000000000000000000",
+        "quantity_transferable": "376256.000000000000000000",
+        "updated_at": "2023-06-09T14:37:47.549917-04:00"
+    },
+    {
+        "account_id": "61f33e4c-8cc5-497e-a296-f0f9691a030e",
+        "cost_bases": [
+            {
+                "currency_id": "1072fc76-1862-41ab-82c2-485837590762",
+                "direct_cost_basis": "1.000000000000000000",
+                "direct_quantity": "0.030500000000000000",
+                "direct_reward_cost_basis": "0.000000000000000000",
+                "direct_reward_quantity": "0.000000000000000000",
+                "direct_transfer_cost_basis": "0.000000000000000000",
+                "direct_transfer_quantity": "0.000000000000000000",
+                "id": "625b5a4d-98fd-4c74-bf9b-05b22a55c316",
+                "intraday_cost_basis": "0.000000000000000000",
+                "intraday_quantity": "0.000000000000000000",
+                "marked_cost_basis": "0.000000000000000000",
+                "marked_quantity": "0.000000000000000000"
+            }
+        ],
+        "created_at": "2022-04-16T20:07:41.107176-04:00",
+        "currency": {
+            "brand_color": "",
+            "code": "COMP",
+            "crypto_type": "ERC20",
+            "display_only": false,
+            "id": "6543a22c-2746-49ed-8518-4f67751ffd3e",
+            "increment": "0.000000000000000001",
+            "name": "Compound",
+            "type": "cryptocurrency"
+        },
+        "id": "625b5a4d-10dc-406a-ba21-d5db1249d83c",
+        "quantity": "0.030500000000000000",
+        "quantity_available": "0.030500000000000000",
+        "quantity_held": "0.000000000000000000",
+        "quantity_held_for_buy": "0.000000000000000000",
+        "quantity_held_for_sell": "0.000000000000000000",
+        "quantity_staked": "0.000000000000000000",
+        "quantity_transferable": "0.030500000000000000",
+        "updated_at": "2023-06-07T10:24:21.216362-04:00"
+    },
+    {
+        "account_id": "61f33e4c-8cc5-497e-a296-f0f9691a030e",
+        "cost_bases": [
+            {
+                "currency_id": "1072fc76-1862-41ab-82c2-485837590762",
+                "direct_cost_basis": "0.000000000000000000",
+                "direct_quantity": "0.000000000000000000",
+                "direct_reward_cost_basis": "0.000000000000000000",
+                "direct_reward_quantity": "0.000000000000000000",
+                "direct_transfer_cost_basis": "0.000000000000000000",
+                "direct_transfer_quantity": "0.000000000000000000",
+                "id": "625b5a3e-083f-4726-bbaa-d4769761b655",
+                "intraday_cost_basis": "0.000000000000000000",
+                "intraday_quantity": "0.000000000000000000",
+                "marked_cost_basis": "0.000000000000000000",
+                "marked_quantity": "0.000000000000000000"
+            }
+        ],
+        "created_at": "2022-04-16T20:07:26.603057-04:00",
+        "currency": {
+            "brand_color": "",
+            "code": "SOL",
+            "crypto_type": "BASE_ASSET",
+            "display_only": false,
+            "id": "c39cc1c2-2748-43b8-8779-30565ca4de2a",
+            "increment": "0.000000001000000000",
+            "name": "Solana",
+            "type": "cryptocurrency"
+        },
+        "id": "625b5a3e-ad59-4071-89f4-f9f35c8dc730",
+        "quantity": "0.000000000000000000",
+        "quantity_available": "0.000000000000000000",
+        "quantity_held": "0.000000000000000000",
+        "quantity_held_for_buy": "0.000000000000000000",
+        "quantity_held_for_sell": "0.000000000000000000",
+        "quantity_staked": "0.000000000000000000",
+        "quantity_transferable": "0.000000000000000000",
+        "updated_at": "2023-06-07T12:13:57.790829-04:00"
+    },
+    {
+        "account_id": "61f33e4c-8cc5-497e-a296-f0f9691a030e",
+        "cost_bases": [
+            {
+                "currency_id": "1072fc76-1862-41ab-82c2-485837590762",
+                "direct_cost_basis": "0.000000000000000000",
+                "direct_quantity": "0.000000000000000000",
+                "direct_reward_cost_basis": "0.000000000000000000",
+                "direct_reward_quantity": "0.000000000000000000",
+                "direct_transfer_cost_basis": "0.000000000000000000",
+                "direct_transfer_quantity": "0.000000000000000000",
+                "id": "621ea43d-e31d-41a8-848e-0a892f84573d",
+                "intraday_cost_basis": "0.000000000000000000",
+                "intraday_quantity": "0.000000000000000000",
+                "marked_cost_basis": "0.000000000000000000",
+                "marked_quantity": "0.000000000000000000"
+            }
+        ],
+        "created_at": "2022-03-01T17:54:53.048108-05:00",
+        "currency": {
+            "brand_color": "99C061",
+            "code": "BCH",
+            "crypto_type": "BASE_ASSET",
+            "display_only": false,
+            "id": "913a38ed-36f3-45fb-a967-fb6e30d4a7fb",
+            "increment": "0.000000010000000000",
+            "name": "Bitcoin Cash",
+            "type": "cryptocurrency"
+        },
+        "id": "621ea43d-825b-4caf-9f38-b6e47b2bc75b",
+        "quantity": "0.000000000000000000",
+        "quantity_available": "0.000000000000000000",
+        "quantity_held": "0.000000000000000000",
+        "quantity_held_for_buy": "0.000000000000000000",
+        "quantity_held_for_sell": "0.000000000000000000",
+        "quantity_staked": "0.000000000000000000",
+        "quantity_transferable": "0.000000000000000000",
+        "updated_at": "2023-03-01T00:48:30.122399-05:00"
+    },
+    {
+        "account_id": "61f33e4c-8cc5-497e-a296-f0f9691a030e",
+        "cost_bases": [
+            {
+                "currency_id": "1072fc76-1862-41ab-82c2-485837590762",
+                "direct_cost_basis": "0.000000000000000000",
+                "direct_quantity": "0.000000000000000000",
+                "direct_reward_cost_basis": "0.000000000000000000",
+                "direct_reward_quantity": "0.000000000000000000",
+                "direct_transfer_cost_basis": "0.000000000000000000",
+                "direct_transfer_quantity": "0.000000000000000000",
+                "id": "621ea430-832b-4bf0-a700-1768f8b856db",
+                "intraday_cost_basis": "0.000000000000000000",
+                "intraday_quantity": "0.000000000000000000",
+                "marked_cost_basis": "0.000000000000000000",
+                "marked_quantity": "0.000000000000000000"
+            }
+        ],
+        "created_at": "2022-03-01T17:54:40.856577-05:00",
+        "currency": {
+            "brand_color": "",
+            "code": "BSV",
+            "crypto_type": "BASE_ASSET",
+            "display_only": true,
+            "id": "4a7924c8-d554-47d6-8595-c4e522b0183a",
+            "increment": "0.000000010000000000",
+            "name": "Bitcoin SV",
+            "type": "cryptocurrency"
+        },
+        "id": "621ea430-2d31-428b-bbc2-c1240408ec76",
+        "quantity": "0.000000000000000000",
+        "quantity_available": "0.000000000000000000",
+        "quantity_held": "0.000000000000000000",
+        "quantity_held_for_buy": "0.000000000000000000",
+        "quantity_held_for_sell": "0.000000000000000000",
+        "quantity_staked": "0.000000000000000000",
+        "quantity_transferable": "0.000000000000000000",
+        "updated_at": "2023-01-26T07:38:57.715224-05:00"
+    },
+    {
+        "account_id": "61f33e4c-8cc5-497e-a296-f0f9691a030e",
+        "cost_bases": [
+            {
+                "currency_id": "1072fc76-1862-41ab-82c2-485837590762",
+                "direct_cost_basis": "1.000000000000000000",
+                "direct_quantity": "0.010711920000000000",
+                "direct_reward_cost_basis": "0.000000000000000000",
+                "direct_reward_quantity": "0.000000000000000000",
+                "direct_transfer_cost_basis": "0.000000000000000000",
+                "direct_transfer_quantity": "0.000000000000000000",
+                "id": "621ea408-380b-4520-9cd9-fdd600858a9f",
+                "intraday_cost_basis": "0.000000000000000000",
+                "intraday_quantity": "0.000000000000000000",
+                "marked_cost_basis": "0.000000000000000000",
+                "marked_quantity": "0.000000000000000000"
+            }
+        ],
+        "created_at": "2022-03-01T17:54:00.363046-05:00",
+        "currency": {
+            "brand_color": "BEBBBB",
+            "code": "LTC",
+            "crypto_type": "BASE_ASSET",
+            "display_only": false,
+            "id": "f9432751-b54d-4d84-b573-f06dc390b766",
+            "increment": "0.000000010000000000",
+            "name": "Litecoin",
+            "type": "cryptocurrency"
+        },
+        "id": "621ea408-7bd0-4fbf-8b35-29ba815f629f",
+        "quantity": "0.010711920000000000",
+        "quantity_available": "0.010711920000000000",
+        "quantity_held": "0.000000000000000000",
+        "quantity_held_for_buy": "0.000000000000000000",
+        "quantity_held_for_sell": "0.000000000000000000",
+        "quantity_staked": "0.000000000000000000",
+        "quantity_transferable": "0.010711920000000000",
+        "updated_at": "2023-06-05T00:57:54.784240-04:00"
+    },
+    {
+        "account_id": "61f33e4c-8cc5-497e-a296-f0f9691a030e",
+        "cost_bases": [
+            {
+                "currency_id": "1072fc76-1862-41ab-82c2-485837590762",
+                "direct_cost_basis": "1.000021481585152922",
+                "direct_quantity": "0.058801000000000000",
+                "direct_reward_cost_basis": "0.000000000000000000",
+                "direct_reward_quantity": "0.000000000000000000",
+                "direct_transfer_cost_basis": "0.000000000000000000",
+                "direct_transfer_quantity": "0.000000000000000000",
+                "id": "620e9ca6-e0b5-47ef-b80a-38d052b5c803",
+                "intraday_cost_basis": "1.000000000000000000",
+                "intraday_quantity": "0.058800000000000000",
+                "marked_cost_basis": "0.000000000000000000",
+                "marked_quantity": "0.000000000000000000"
+            }
+        ],
+        "created_at": "2022-02-17T14:06:14.608932-05:00",
+        "currency": {
+            "brand_color": "",
+            "code": "ETC",
+            "crypto_type": "BASE_ASSET",
+            "display_only": false,
+            "id": "ee3bcf3e-4ac7-4f0a-b887-4cea2b49ff70",
+            "increment": "0.000001000000000000",
+            "name": "Ethereum Classic",
+            "type": "cryptocurrency"
+        },
+        "id": "620e9ca6-9dca-4ff5-a2eb-3ff8d452a826",
+        "quantity": "0.058801000000000000",
+        "quantity_available": "0.058801000000000000",
+        "quantity_held": "0.000000000000000000",
+        "quantity_held_for_buy": "0.000000000000000000",
+        "quantity_held_for_sell": "0.000000000000000000",
+        "quantity_staked": "0.000000000000000000",
+        "quantity_transferable": "0.058801000000000000",
+        "updated_at": "2023-06-09T14:37:50.034056-04:00"
+    },
+    {
+        "account_id": "61f33e4c-8cc5-497e-a296-f0f9691a030e",
+        "cost_bases": [
+            {
+                "currency_id": "1072fc76-1862-41ab-82c2-485837590762",
+                "direct_cost_basis": "1.000000000000000000",
+                "direct_quantity": "13.200000000000000000",
+                "direct_reward_cost_basis": "0.000000000000000000",
+                "direct_reward_quantity": "0.000000000000000000",
+                "direct_transfer_cost_basis": "0.000000000000000000",
+                "direct_transfer_quantity": "0.000000000000000000",
+                "id": "61f343b7-76a0-409e-94e9-643350505b86",
+                "intraday_cost_basis": "0.000000000000000000",
+                "intraday_quantity": "0.000000000000000000",
+                "marked_cost_basis": "0.000000000000000000",
+                "marked_quantity": "0.000000000000000000"
+            }
+        ],
+        "created_at": "2022-01-27T20:15:35.668172-05:00",
+        "currency": {
+            "brand_color": "BEA649",
+            "code": "DOGE",
+            "crypto_type": "BASE_ASSET",
+            "display_only": false,
+            "id": "c6996ebc-2f9b-443a-b2c2-7ddf02e0ef3a",
+            "increment": "0.010000000000000000",
+            "name": "Dogecoin",
+            "type": "cryptocurrency"
+        },
+        "id": "61f343b7-85c1-4c79-bbc6-3b61d0202afb",
+        "quantity": "13.200000000000000000",
+        "quantity_available": "13.200000000000000000",
+        "quantity_held": "0.000000000000000000",
+        "quantity_held_for_buy": "0.000000000000000000",
+        "quantity_held_for_sell": "0.000000000000000000",
+        "quantity_staked": "0.000000000000000000",
+        "quantity_transferable": "13.200000000000000000",
+        "updated_at": "2023-03-05T10:06:43.466122-05:00"
+    },
+    {
+        "account_id": "61f33e4c-8cc5-497e-a296-f0f9691a030e",
+        "cost_bases": [
+            {
+                "currency_id": "1072fc76-1862-41ab-82c2-485837590762",
+                "direct_cost_basis": "13.989576685811529462",
+                "direct_quantity": "0.000526120000000000",
+                "direct_reward_cost_basis": "0.000000000000000000",
+                "direct_reward_quantity": "0.000000000000000000",
+                "direct_transfer_cost_basis": "0.000000000000000000",
+                "direct_transfer_quantity": "0.000000000000000000",
+                "id": "61f3438f-563e-4e8d-89ed-f83c17541881",
+                "intraday_cost_basis": "0.000000000000000000",
+                "intraday_quantity": "0.000000000000000000",
+                "marked_cost_basis": "0.000000000000000000",
+                "marked_quantity": "0.000000000000000000"
+            }
+        ],
+        "created_at": "2022-01-27T20:14:55.924522-05:00",
+        "currency": {
+            "brand_color": "EA963D",
+            "code": "BTC",
+            "crypto_type": "BASE_ASSET",
+            "display_only": false,
+            "id": "d674efea-e623-4396-9026-39574b92b093",
+            "increment": "0.000000010000000000",
+            "name": "Bitcoin",
+            "type": "cryptocurrency"
+        },
+        "id": "61f3438f-aae9-44a6-95a4-107eabc796a9",
+        "quantity": "0.000526120000000000",
+        "quantity_available": "0.000526120000000000",
+        "quantity_held": "0.000000000000000000",
+        "quantity_held_for_buy": "0.000000000000000000",
+        "quantity_held_for_sell": "0.000000000000000000",
+        "quantity_staked": "0.000000000000000000",
+        "quantity_transferable": "0.000526120000000000",
+        "updated_at": "2023-06-09T14:37:39.059715-04:00"
+    },
+    {
+        "account_id": "61f33e4c-8cc5-497e-a296-f0f9691a030e",
+        "cost_bases": [
+            {
+                "currency_id": "1072fc76-1862-41ab-82c2-485837590762",
+                "direct_cost_basis": "13.977230076316777180",
+                "direct_quantity": "0.007448000000000000",
+                "direct_reward_cost_basis": "0.000000000000000000",
+                "direct_reward_quantity": "0.000000000000000000",
+                "direct_transfer_cost_basis": "0.000000000000000000",
+                "direct_transfer_quantity": "0.000000000000000000",
+                "id": "61f33e54-5dac-413e-896d-24726e3cdea5",
+                "intraday_cost_basis": "0.000000000000000000",
+                "intraday_quantity": "0.000000000000000000",
+                "marked_cost_basis": "0.000000000000000000",
+                "marked_quantity": "0.000000000000000000"
+            }
+        ],
+        "created_at": "2022-01-27T19:52:36.593589-05:00",
+        "currency": {
+            "brand_color": "707DB5",
+            "code": "ETH",
+            "crypto_type": "BASE_ASSET",
+            "display_only": false,
+            "id": "c527c04a-394b-4a44-ae07-19b901ca609c",
+            "increment": "0.000000000000000001",
+            "name": "Ethereum",
+            "type": "cryptocurrency"
+        },
+        "id": "61f33e54-3109-41a7-aee6-7079578f049a",
+        "quantity": "0.007448000000000000",
+        "quantity_available": "0.002118000000000000",
+        "quantity_held": "0.000000000000000000",
+        "quantity_held_for_buy": "0.000000000000000000",
+        "quantity_held_for_sell": "0.005330000000000000",
+        "quantity_staked": "0.000000000000000000",
+        "quantity_transferable": "0.002118000000000000",
+        "updated_at": "2023-06-09T14:37:53.863005-04:00"
+    }
+]
