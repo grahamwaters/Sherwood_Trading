@@ -507,8 +507,8 @@ def action_engine():
                          quantity_or_price=0.01 * float(buying_power),
                          amount_in='dollars',
                          side='buy',
-                            bp = buying_power
-                            time_in_force='gtc')
+                         bp = buying_power,
+                         time_in_force='gtc')
         # update bp (buying power)
         buying_power -= 0.01 * float(buying_power)
 
@@ -519,7 +519,7 @@ def action_engine():
                          quantity_or_price=float(position),
                          amount_in='amount',
                          side='sell',
-                         bp = buying_power
+                         bp = buying_power,
                          time_in_force='gtc')
 
 
