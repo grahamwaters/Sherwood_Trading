@@ -419,3 +419,7 @@
 2023-06-11 21:28:37,079 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
 2023-06-11 21:28:37,518 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
 2023-06-11 21:28:37,792 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/f649e71a-543b-4fd8-9faa-bc6c2c9e3d21/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-06-11 21:28:37,924 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-11 21:28:38,118 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/f649e71a-543b-4fd8-9faa-bc6c2c9e3d21/ HTTP/1.1" 200 455
+2023-06-11 21:28:38,316 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-11 21:28:38,473 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
