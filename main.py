@@ -136,7 +136,7 @@ def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy'):
 
 def login_setup():
     # this is where we will setup the accounts details df and login to robinhood
-    with open('credentials.json') as f:
+    with open('config/credentials.json') as f:
         credentials = json.load(f)
     # login to robinhood
     login = r.login(credentials['username'], credentials['password'])
@@ -178,7 +178,10 @@ def brain_module():
     logging.info('Calculating signals...')
     signals_dict = {}
     for df in coins_dfs:
-        coin = str(df['symbol'][0])
+        crypto_historicals = df #todo check this is the correct df
+        crypto_historicals_df = pd.DataFrame(crypto_historicals)
+        coin = str(crypto_historicals_df['symbol'][0])[:3] # remove the '-USD' from the coin name
+
         buy_signal, sell_signal, hold_signal = signal_engine(df, coin)
         signals_dict[coin] = [buy_signal, sell_signal, hold_signal]
         logging.info('  {} buy signal: {}'.format(coin, buy_signal))
@@ -225,8 +228,14 @@ def signal_engine(df, coin):
     # using finta to calculate the signals
     # using robin_stocks to execute the buys and sells
 
+    # cast the inputs to the correct formats first
+    df = pd.DataFrame(df)
+    coin = str(coin) # make sure the coin is a string
+
     # filter the df to only include the columns we need
     df = df[['begins_at', 'open_price', 'close_price', 'high_price', 'low_price', 'volume']]
+    # rename the columns to be compatible with finta
+    df = df.rename(columns={'begins_at': 'date', 'open_price': 'open', 'close_price': 'close', 'high_price': 'high', 'low_price': 'low', 'volume': 'volume'})
     # also make sure the coin is in the df
     df['coin'] = coin
 
@@ -350,6 +359,18 @@ def action_engine():
     pass
 
 def record_keeping_engine(coin, cost, quantity, side, current_price, buy_signal, sell_signal, hold_signal):
+
+    # cast the inputs to their proper types
+    coin = str(coin)
+    cost = float(cost)
+    quantity = float(quantity)
+    side = str(side)
+    current_price = float(current_price)
+    buy_signal = int(buy_signal) #note: this will throw an error if buy_signal is a float, so we need to cast it to an int
+    sell_signal = int(sell_signal)
+    hold_signal = int(hold_signal)
+
+
     # this is where we will record the buys and sells to a csv file named `coin_trades.csv` with headers `coin`, `cost`, `quantity`, `side`, `current_price`, `buy_signal`, `sell_signal`, `hold_signal`
     logging.info(f'Writing to coin_trades.csv...')
     # open the csv file
