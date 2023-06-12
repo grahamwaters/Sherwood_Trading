@@ -512,4 +512,5 @@ if __name__ == '__main__':
         if is_daytime():
             time.sleep(300)
         else:
+            print('Sleeping for 30 minutes...')
             time.sleep(1800)
