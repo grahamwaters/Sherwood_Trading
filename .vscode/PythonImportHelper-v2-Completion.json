@@ -1,0 +1,3613 @@
+[
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "robin_stocks",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "pytz",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytz",
+        "description": "pytz",
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "colorama",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "colorama",
+        "description": "colorama",
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "RateLimitException",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "ic",
+        "importPath": "icecream",
+        "description": "icecream",
+        "isExtraImport": true,
+        "detail": "icecream",
+        "documentation": {}
+    },
+    {
+        "label": "ic",
+        "importPath": "icecream",
+        "description": "icecream",
+        "isExtraImport": true,
+        "detail": "icecream",
+        "documentation": {}
+    },
+    {
+        "label": "ic",
+        "importPath": "icecream",
+        "description": "icecream",
+        "isExtraImport": true,
+        "detail": "icecream",
+        "documentation": {}
+    },
+    {
+        "label": "ic",
+        "importPath": "icecream",
+        "description": "icecream",
+        "isExtraImport": true,
+        "detail": "icecream",
+        "documentation": {}
+    },
+    {
+        "label": "ic",
+        "importPath": "icecream",
+        "description": "icecream",
+        "isExtraImport": true,
+        "detail": "icecream",
+        "documentation": {}
+    },
+    {
+        "label": "ic",
+        "importPath": "icecream",
+        "description": "icecream",
+        "isExtraImport": true,
+        "detail": "icecream",
+        "documentation": {}
+    },
+    {
+        "label": "ic",
+        "importPath": "icecream",
+        "description": "icecream",
+        "isExtraImport": true,
+        "detail": "icecream",
+        "documentation": {}
+    },
+    {
+        "label": "ic",
+        "importPath": "icecream",
+        "description": "icecream",
+        "isExtraImport": true,
+        "detail": "icecream",
+        "documentation": {}
+    },
+    {
+        "label": "pyotp",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyotp",
+        "description": "pyotp",
+        "detail": "pyotp",
+        "documentation": {}
+    },
+    {
+        "label": "robin_stocks.robinhood",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "robin_stocks.robinhood",
+        "description": "robin_stocks.robinhood",
+        "detail": "robin_stocks.robinhood",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "spacy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "spacy",
+        "description": "spacy",
+        "detail": "spacy",
+        "documentation": {}
+    },
+    {
+        "label": "nltk",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "nltk",
+        "description": "nltk",
+        "detail": "nltk",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "fuzz",
+        "importPath": "fuzzywuzzy",
+        "description": "fuzzywuzzy",
+        "isExtraImport": true,
+        "detail": "fuzzywuzzy",
+        "documentation": {}
+    },
+    {
+        "label": "newspaper",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "newspaper",
+        "description": "newspaper",
+        "detail": "newspaper",
+        "documentation": {}
+    },
+    {
+        "label": "Article",
+        "importPath": "newspaper",
+        "description": "newspaper",
+        "isExtraImport": true,
+        "detail": "newspaper",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "newspaper",
+        "description": "newspaper",
+        "isExtraImport": true,
+        "detail": "newspaper",
+        "documentation": {}
+    },
+    {
+        "label": "ArticleException",
+        "importPath": "newspaper",
+        "description": "newspaper",
+        "isExtraImport": true,
+        "detail": "newspaper",
+        "documentation": {}
+    },
+    {
+        "label": "SentimentIntensityAnalyzer",
+        "importPath": "nltk.sentiment.vader",
+        "description": "nltk.sentiment.vader",
+        "isExtraImport": true,
+        "detail": "nltk.sentiment.vader",
+        "documentation": {}
+    },
+    {
+        "label": "SentimentIntensityAnalyzer",
+        "importPath": "nltk.sentiment.vader",
+        "description": "nltk.sentiment.vader",
+        "isExtraImport": true,
+        "detail": "nltk.sentiment.vader",
+        "documentation": {}
+    },
+    {
+        "label": "ray",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ray",
+        "description": "ray",
+        "detail": "ray",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "importPath": "pandas_datareader",
+        "description": "pandas_datareader",
+        "isExtraImport": true,
+        "detail": "pandas_datareader",
+        "documentation": {}
+    },
+    {
+        "label": "yfinance",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "yfinance",
+        "description": "yfinance",
+        "detail": "yfinance",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "exit",
+        "importPath": "sys",
+        "description": "sys",
+        "isExtraImport": true,
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "exit",
+        "importPath": "sys",
+        "description": "sys",
+        "isExtraImport": true,
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "exit",
+        "importPath": "sys",
+        "description": "sys",
+        "isExtraImport": true,
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "exit",
+        "importPath": "sys",
+        "description": "sys",
+        "isExtraImport": true,
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "exit",
+        "importPath": "sys",
+        "description": "sys",
+        "isExtraImport": true,
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "traceback",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.dates",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.dates",
+        "description": "matplotlib.dates",
+        "detail": "matplotlib.dates",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.ticker",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.ticker",
+        "description": "matplotlib.ticker",
+        "detail": "matplotlib.ticker",
+        "documentation": {}
+    },
+    {
+        "label": "ast",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ast",
+        "description": "ast",
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.animation",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.animation",
+        "description": "matplotlib.animation",
+        "detail": "matplotlib.animation",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "TA",
+        "importPath": "finta",
+        "description": "finta",
+        "isExtraImport": true,
+        "detail": "finta",
+        "documentation": {}
+    },
+    {
+        "label": "TA",
+        "importPath": "finta",
+        "description": "finta",
+        "isExtraImport": true,
+        "detail": "finta",
+        "documentation": {}
+    },
+    {
+        "label": "logging,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging.",
+        "description": "logging.",
+        "detail": "logging.",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "AnalystBot",
+        "kind": 6,
+        "importPath": "legacy.V1.analystbot",
+        "description": "legacy.V1.analystbot",
+        "peekOfCode": "class AnalystBot:\n    def __init__(self, ticker):\n        self.ticker = ticker\n        self.buy_signal_strength = 0\n        self.sell_signal_strength = 0\n        self.stop_loss = None\n        self.trailing_stop_loss = None\n        self.purchase_price = None\n    async def analyze(self):\n        while True:",
+        "detail": "legacy.V1.analystbot",
+        "documentation": {}
+    },
+    {
+        "label": "CryptoBot",
+        "kind": 6,
+        "importPath": "legacy.V1.final",
+        "description": "legacy.V1.final",
+        "peekOfCode": "class CryptoBot:\n    def __init__(self, strategy):\n        print(Fore.WHITE + \"Initializing CryptoBot...\" + Style.RESET_ALL)\n        self.strategy = strategy\n        self.portfolio = pd.DataFrame()\n        self.coin_positions = pd.DataFrame()\n    @sleep_and_retry\n    async def get_account_info(self):\n        print(Fore.WHITE + \"Getting account info...\" + Style.RESET_ALL)\n        accountinfo = r.build_user_profile()",
+        "detail": "legacy.V1.final",
+        "documentation": {}
+    },
+    {
+        "label": "AnalystBot",
+        "kind": 6,
+        "importPath": "legacy.V1.final",
+        "description": "legacy.V1.final",
+        "peekOfCode": "class AnalystBot(CryptoBot):\n    def __init__(self, config):\n        print(Fore.YELLOW + \"Initializing AnalystBot...\" + Style.RESET_ALL)\n        super().__init__(config)\n        self.currencies = config['currencies']\n        self.bot_config = config['botConfiguration']\n        self.current_price = None\n        self.current_holdings = None\n        self.last_check = None\n        self.buy_signal_strength = 0",
+        "detail": "legacy.V1.final",
+        "documentation": {}
+    },
+    {
+        "label": "MerchantBot",
+        "kind": 6,
+        "importPath": "legacy.V1.final",
+        "description": "legacy.V1.final",
+        "peekOfCode": "class MerchantBot(CryptoBot):\n    def __init__(self, strategy):\n        print(Fore.GREEN + \"Initializing MerchantBot...\" + Style.RESET_ALL)\n        super().__init__(strategy)\n        self.start_time = datetime.now()\n        self.analyst_bot = AnalystBot(self.strategy)\n    @sleep_and_retry\n    def get_quantity(self, ticker):\n        print(Fore.GREEN + f\"Getting quantity for {ticker}...\" + Style.RESET_ALL)\n        positions = r.get_crypto_positions()",
+        "detail": "legacy.V1.final",
+        "documentation": {}
+    },
+    {
+        "label": "load_files",
+        "kind": 2,
+        "importPath": "legacy.V1.final",
+        "description": "legacy.V1.final",
+        "peekOfCode": "def load_files():\n    print(Fore.WHITE + \"Loading files...\" + Style.RESET_ALL)\n    with open('strategy.json', 'r') as f:\n        strategy = json.load(f)\n    with open('secrets.json', 'r') as f:\n        credentials = json.load(f)\n    return strategy, credentials\ndef login_to_robinhood(credentials):\n    print(Fore.WHITE + \"Logging in to Robinhood...\" + Style.RESET_ALL)\n    r.login(credentials['username'], credentials['password'])",
+        "detail": "legacy.V1.final",
+        "documentation": {}
+    },
+    {
+        "label": "login_to_robinhood",
+        "kind": 2,
+        "importPath": "legacy.V1.final",
+        "description": "legacy.V1.final",
+        "peekOfCode": "def login_to_robinhood(credentials):\n    print(Fore.WHITE + \"Logging in to Robinhood...\" + Style.RESET_ALL)\n    r.login(credentials['username'], credentials['password'])\ndef main():\n    print(Fore.WHITE + \"Starting main function...\" + Style.RESET_ALL)\n    strategy, credentials = load_files()\n    login_to_robinhood(credentials)\n    merchant = MerchantBot(strategy)\n    tasks = [merchant.trade_coin(currency) for currency in strategy[\"currencies\"]]\n    asyncio.run(asyncio.wait(tasks))",
+        "detail": "legacy.V1.final",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "legacy.V1.final",
+        "description": "legacy.V1.final",
+        "peekOfCode": "def main():\n    print(Fore.WHITE + \"Starting main function...\" + Style.RESET_ALL)\n    strategy, credentials = load_files()\n    login_to_robinhood(credentials)\n    merchant = MerchantBot(strategy)\n    tasks = [merchant.trade_coin(currency) for currency in strategy[\"currencies\"]]\n    asyncio.run(asyncio.wait(tasks))\n    print(Fore.WHITE + \"Main function completed.\" + Style.RESET_ALL)\n    return r.get_crypto_positions()\nimport time",
+        "detail": "legacy.V1.final",
+        "documentation": {}
+    },
+    {
+        "label": "ONMODE",
+        "kind": 5,
+        "importPath": "legacy.V1.final",
+        "description": "legacy.V1.final",
+        "peekOfCode": "ONMODE = True\nclass CryptoBot:\n    def __init__(self, strategy):\n        print(Fore.WHITE + \"Initializing CryptoBot...\" + Style.RESET_ALL)\n        self.strategy = strategy\n        self.portfolio = pd.DataFrame()\n        self.coin_positions = pd.DataFrame()\n    @sleep_and_retry\n    async def get_account_info(self):\n        print(Fore.WHITE + \"Getting account info...\" + Style.RESET_ALL)",
+        "detail": "legacy.V1.final",
+        "documentation": {}
+    },
+    {
+        "label": "BankerBot",
+        "kind": 6,
+        "importPath": "legacy.V1.main",
+        "description": "legacy.V1.main",
+        "peekOfCode": "class BankerBot:\n    def __init__(self, username, password, strategy):\n        self.username = username\n        self.password = password\n        self.strategy = strategy\n    async def run(self):\n        # Log in to Robinhood\n        r.login(self.username, self.password)\n        while True:\n            # Get the account information",
+        "detail": "legacy.V1.main",
+        "documentation": {}
+    },
+    {
+        "label": "AnalystBot",
+        "kind": 6,
+        "importPath": "legacy.V1.main",
+        "description": "legacy.V1.main",
+        "peekOfCode": "class AnalystBot:\n    def __init__(self, ticker, strategy):\n        self.ticker = ticker\n        self.strategy = strategy\n        self.buy_signal_strength = 0\n        self.sell_signal_strength = 0\n        self.stop_loss = None\n        self.trailing_stop_loss = None\n        self.purchase_price = None\n    async def analyze(self):",
+        "detail": "legacy.V1.main",
+        "documentation": {}
+    },
+    {
+        "label": "MerchantBot",
+        "kind": 6,
+        "importPath": "legacy.V1.main",
+        "description": "legacy.V1.main",
+        "peekOfCode": "class MerchantBot:\n    def __init__(self, ticker, analyst_bot, strategy):\n        self.ticker = ticker\n        self.analyst_bot = analyst_bot\n        self.strategy = strategy\n        self.position = None\n    async def trade(self):\n        while True:\n            # Fetch the current price\n            price = await self.get_price(self.ticker)",
+        "detail": "legacy.V1.main",
+        "documentation": {}
+    },
+    {
+        "label": "MonitorBot",
+        "kind": 6,
+        "importPath": "legacy.V1.main",
+        "description": "legacy.V1.main",
+        "peekOfCode": "class MonitorBot:\n    def __init__(self, bots, strategy):\n        self.bots = bots\n        self.strategy = strategy\n    async def monitor(self):\n        while True:\n            for bot in self.bots:\n                if isinstance(bot, AnalystBot):\n                    if bot.buy_signal_strength > 2 or bot.sell_signal_strength > 2:\n                        print(f\"Warning: AnalystBot for {bot.ticker} has a signal strength greater than 2.\")",
+        "detail": "legacy.V1.main",
+        "documentation": {}
+    },
+    {
+        "label": "ScribeBot",
+        "kind": 6,
+        "importPath": "legacy.V1.main",
+        "description": "legacy.V1.main",
+        "peekOfCode": "class ScribeBot:\n    def __init__(self, bots, strategy, log_file='bot_activity.log'):\n        self.bots = bots\n        self.strategy = strategy\n        self.log_file = log_file\n        logging.basicConfig(filename=self.log_file, level=logging.INFO)\n    async def log_activity(self):\n        while True:\n            for bot in self.bots:\n                if isinstance(bot, AnalystBot):",
+        "detail": "legacy.V1.main",
+        "documentation": {}
+    },
+    {
+        "label": "MerchantBot",
+        "kind": 6,
+        "importPath": "legacy.V1.merchantbot",
+        "description": "legacy.V1.merchantbot",
+        "peekOfCode": "class MerchantBot:\n    def __init__(self, ticker, analyst_bot):\n        self.ticker = ticker\n        self.analyst_bot = analyst_bot\n        self.position = None\n    async def trade(self):\n        while True:\n            # Fetch the current price\n            price = await self.get_price(self.ticker)\n            # If there's a strong buy signal and we don't have a position, buy",
+        "detail": "legacy.V1.merchantbot",
+        "documentation": {}
+    },
+    {
+        "label": "CryptoBot",
+        "kind": 6,
+        "importPath": "legacy.V1.moving_average_strategy",
+        "description": "legacy.V1.moving_average_strategy",
+        "peekOfCode": "class CryptoBot:\n    def __init__(self, strategy):\n        print(Fore.WHITE + \"Initializing CryptoBot...\" + Style.RESET_ALL)\n        self.strategy = strategy\n        self.portfolio = pd.DataFrame()\n        self.coin_positions = pd.DataFrame()\n        self.current_price = None\n        self.current_holdings = None\n        self.last_check = None\n        self.buy_signal_strength = 0",
+        "detail": "legacy.V1.moving_average_strategy",
+        "documentation": {}
+    },
+    {
+        "label": "AnalystBot",
+        "kind": 6,
+        "importPath": "legacy.V1.moving_average_strategy",
+        "description": "legacy.V1.moving_average_strategy",
+        "peekOfCode": "class AnalystBot(CryptoBot):\n    def __init__(self, config):\n        print(Fore.YELLOW + \"Initializing AnalystBot...\" + Style.RESET_ALL)\n        super().__init__(config)\n        self.currencies = config['currencies']\n        self.bot_config = config['botConfiguration']\n        self.current_price = None\n        self.current_holdings = None\n        self.last_check = None\n        self.buy_signal_strength = 0",
+        "detail": "legacy.V1.moving_average_strategy",
+        "documentation": {}
+    },
+    {
+        "label": "ONMODE",
+        "kind": 5,
+        "importPath": "legacy.V1.moving_average_strategy",
+        "description": "legacy.V1.moving_average_strategy",
+        "peekOfCode": "ONMODE = True\nclass CryptoBot:\n    def __init__(self, strategy):\n        print(Fore.WHITE + \"Initializing CryptoBot...\" + Style.RESET_ALL)\n        self.strategy = strategy\n        self.portfolio = pd.DataFrame()\n        self.coin_positions = pd.DataFrame()\n        self.current_price = None\n        self.current_holdings = None\n        self.last_check = None",
+        "detail": "legacy.V1.moving_average_strategy",
+        "documentation": {}
+    },
+    {
+        "label": "CryptoBot",
+        "kind": 6,
+        "importPath": "legacy.V1.refactored",
+        "description": "legacy.V1.refactored",
+        "peekOfCode": "class CryptoBot:\n    def __init__(self, strategy):\n        self.strategy = strategy\n        self.portfolio = pd.DataFrame()\n        self.coin_positions = pd.DataFrame()\n    async def get_account_info(self):\n        accountinfo = r.build_user_profile()\n        accountinfo['timestamp'] = datetime.datetime.now(pytz.timezone('US/Eastern'))\n        accountinfo['cash'] = float(accountinfo['cash'])\n        accountinfo['crypto_buying_power'] = float(accountinfo['cash'])",
+        "detail": "legacy.V1.refactored",
+        "documentation": {}
+    },
+    {
+        "label": "BankerBot",
+        "kind": 6,
+        "importPath": "legacy.V1.refactored",
+        "description": "legacy.V1.refactored",
+        "peekOfCode": "class BankerBot(CryptoBot):\n    def __init__(self, strategy):\n        super().__init__(strategy)\n        self.coin_positions = pd.DataFrame()\n        self.portfolio = pd.DataFrame()\n    async def get_coin_orders(self):\n        coin_orders = r.get_all_crypto_orders()\n        coin_orders = pd.DataFrame(coin_orders)\n        return coin_orders\nclass AnalystBot(CryptoBot):",
+        "detail": "legacy.V1.refactored",
+        "documentation": {}
+    },
+    {
+        "label": "AnalystBot",
+        "kind": 6,
+        "importPath": "legacy.V1.refactored",
+        "description": "legacy.V1.refactored",
+        "peekOfCode": "class AnalystBot(CryptoBot):\n    def __init__(self, config):\n        super().__init__(config)\n        self.currencies = config['currencies']\n        self.bot_config = config['botConfiguration']\n    async def calculate_moving_average(self, ticker):\n        price_history = await self.get_price_history(ticker)\n        price_history = price_history[:-1]\n        moving_average = sum(price_history) / len(price_history)\n        return moving_average",
+        "detail": "legacy.V1.refactored",
+        "documentation": {}
+    },
+    {
+        "label": "MerchantBot",
+        "kind": 6,
+        "importPath": "legacy.V1.refactored",
+        "description": "legacy.V1.refactored",
+        "peekOfCode": "class MerchantBot(CryptoBot):\n    def __init__(self, strategy):\n        super().__init__(strategy)\n        self.start_time = datetime.datetime.now()\n        self.analyst_bot = AnalystBot(self.strategy)\n    def get_quantity(self, ticker):\n        positions = r.get_crypto_positions()\n        for position in positions:\n            if position['currency']['code'] == ticker:\n                return float(position['quantity'])",
+        "detail": "legacy.V1.refactored",
+        "documentation": {}
+    },
+    {
+        "label": "load_files",
+        "kind": 2,
+        "importPath": "legacy.V1.refactored",
+        "description": "legacy.V1.refactored",
+        "peekOfCode": "def load_files():\n    with open('strategy.json', 'r') as f:\n        strategy = json.load(f)\n    with open('secrets.json', 'r') as f:\n        credentials = json.load(f)\n    return strategy, credentials\ndef login_to_robinhood(credentials):\n    r.login(credentials['username'], credentials['password'])\nclass CryptoBot:\n    def __init__(self, strategy):",
+        "detail": "legacy.V1.refactored",
+        "documentation": {}
+    },
+    {
+        "label": "login_to_robinhood",
+        "kind": 2,
+        "importPath": "legacy.V1.refactored",
+        "description": "legacy.V1.refactored",
+        "peekOfCode": "def login_to_robinhood(credentials):\n    r.login(credentials['username'], credentials['password'])\nclass CryptoBot:\n    def __init__(self, strategy):\n        self.strategy = strategy\n        self.portfolio = pd.DataFrame()\n        self.coin_positions = pd.DataFrame()\n    async def get_account_info(self):\n        accountinfo = r.build_user_profile()\n        accountinfo['timestamp'] = datetime.datetime.now(pytz.timezone('US/Eastern'))",
+        "detail": "legacy.V1.refactored",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "legacy.V1.refactored",
+        "description": "legacy.V1.refactored",
+        "peekOfCode": "def main():\n    strategy, credentials = load_files()\n    login_to_robinhood(credentials)\n    banker = BankerBot(strategy)\n    analyst = AnalystBot(strategy)\n    merchant = MerchantBot(strategy)\n    tasks = []\n    for currency in strategy[\"currencies\"]:\n        tasks.append(analyst.analyze_coin(currency))\n        tasks.append(merchant.trade_coin(currency))",
+        "detail": "legacy.V1.refactored",
+        "documentation": {}
+    },
+    {
+        "label": "Bot",
+        "kind": 6,
+        "importPath": "legacy.V1.refactoredmain",
+        "description": "legacy.V1.refactoredmain",
+        "peekOfCode": "class Bot:\n    def __init__(self, strategy):\n        self.strategy = strategy\n        self.analysis_lag_seconds = 30\n        self.trade_lag_seconds = 60\n    async def sleep(self, duration):\n        await asyncio.sleep(duration)\nclass BankerBot(Bot):\n    \"\"\"\n    BankerBot is a bot that manages the user's cash balance, coin positions, and orders on Robinhood.",
+        "detail": "legacy.V1.refactoredmain",
+        "documentation": {}
+    },
+    {
+        "label": "BankerBot",
+        "kind": 6,
+        "importPath": "legacy.V1.refactoredmain",
+        "description": "legacy.V1.refactoredmain",
+        "peekOfCode": "class BankerBot(Bot):\n    \"\"\"\n    BankerBot is a bot that manages the user's cash balance, coin positions, and orders on Robinhood.\n    :param Bot: The base class for all bots. See `Bot <#bot>`_ for more information.\n    :type Bot: class\n    \"\"\"\n    def __init__(self, portfolio):\n        super().__init__(strategy)\n        self.username = username\n        self.password = password",
+        "detail": "legacy.V1.refactoredmain",
+        "documentation": {}
+    },
+    {
+        "label": "AnalystBot",
+        "kind": 6,
+        "importPath": "legacy.V1.refactoredmain",
+        "description": "legacy.V1.refactoredmain",
+        "peekOfCode": "class AnalystBot(Bot):\n    def __init__(self, ticker, strategy):\n        super().__init__(strategy)\n        self.ticker = ticker\n        self.buy_signal_strength = 0\n        self.sell_signal_strength = 0\n        self.stop_loss = None\n        self.trailing_stop_loss = None\n        self.purchase_price = None\n    async def analyze(self):",
+        "detail": "legacy.V1.refactoredmain",
+        "documentation": {}
+    },
+    {
+        "label": "MerchantBot",
+        "kind": 6,
+        "importPath": "legacy.V1.refactoredmain",
+        "description": "legacy.V1.refactoredmain",
+        "peekOfCode": "class MerchantBot(Bot):\n    def __init__(self, ticker, analyst_bot, strategy):\n        super().__init__(strategy)\n        self.ticker = ticker\n        self.analyst_bot = analyst_bot\n        self.position = None\n        self.purchase_price = None\n        self.stop_loss = None\n        self.trailing_stop_loss = None\n    # fetch_price_from_api and get_price are the same function",
+        "detail": "legacy.V1.refactoredmain",
+        "documentation": {}
+    },
+    {
+        "label": "MonitorBot",
+        "kind": 6,
+        "importPath": "legacy.V1.refactoredmain",
+        "description": "legacy.V1.refactoredmain",
+        "peekOfCode": "class MonitorBot(Bot):\n    def __init__(self, bots, strategy):\n        super().__init__(strategy)\n        self.bots = bots\n        self.ticker = None\n        self.position = None\n        self.purchase_price = None\n        self.stop_loss = None\n        self.trailing_stop_loss = None\n        self.buy_signal_strength = None",
+        "detail": "legacy.V1.refactoredmain",
+        "documentation": {}
+    },
+    {
+        "label": "ScribeBot",
+        "kind": 6,
+        "importPath": "legacy.V1.refactoredmain",
+        "description": "legacy.V1.refactoredmain",
+        "peekOfCode": "class ScribeBot(Bot):\n    def __init__(self, strategy):\n        super().__init__(strategy)\n    # if a bot does something then log it\n    async def log(self):\n        pass\n    async def run(self):\n        pass\nasync def main():\n    # Import the strategy",
+        "detail": "legacy.V1.refactoredmain",
+        "documentation": {}
+    },
+    {
+        "label": "totp",
+        "kind": 5,
+        "importPath": "legacy.V1.robin_stocks_tags",
+        "description": "legacy.V1.robin_stocks_tags",
+        "peekOfCode": "totp = pyotp.TOTP(os.environ['robin_mfa']).now()\nlogin = r.login(os.environ['robin_username'],\n                os.environ['robin_password'], store_session=True, mfa_code=totp)\n# Get 500 technology stocks data.\nstocks = r.request_get(\n    \"https://api.robinhood.com/midlands/tags/tag/technology/\")\nprint(\n    f\"\\nthere are a total of {stocks['membership_count']} technology stocks, currently viewing {len(stocks['instruments'])}\")\n# Turn the raw dictionary into a list of strings using the filter_data function.\n# This list of strings are the urls for the quote data of each stock.",
+        "detail": "legacy.V1.robin_stocks_tags",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 5,
+        "importPath": "legacy.V1.robin_stocks_tags",
+        "description": "legacy.V1.robin_stocks_tags",
+        "peekOfCode": "login = r.login(os.environ['robin_username'],\n                os.environ['robin_password'], store_session=True, mfa_code=totp)\n# Get 500 technology stocks data.\nstocks = r.request_get(\n    \"https://api.robinhood.com/midlands/tags/tag/technology/\")\nprint(\n    f\"\\nthere are a total of {stocks['membership_count']} technology stocks, currently viewing {len(stocks['instruments'])}\")\n# Turn the raw dictionary into a list of strings using the filter_data function.\n# This list of strings are the urls for the quote data of each stock.\n# The quote data can be retrieved using get_instrument_by_url() or",
+        "detail": "legacy.V1.robin_stocks_tags",
+        "documentation": {}
+    },
+    {
+        "label": "stocks",
+        "kind": 5,
+        "importPath": "legacy.V1.robin_stocks_tags",
+        "description": "legacy.V1.robin_stocks_tags",
+        "peekOfCode": "stocks = r.request_get(\n    \"https://api.robinhood.com/midlands/tags/tag/technology/\")\nprint(\n    f\"\\nthere are a total of {stocks['membership_count']} technology stocks, currently viewing {len(stocks['instruments'])}\")\n# Turn the raw dictionary into a list of strings using the filter_data function.\n# This list of strings are the urls for the quote data of each stock.\n# The quote data can be retrieved using get_instrument_by_url() or\n# by using request_get to query the url directly.\ndata = r.filter_data(stocks, 'instruments')\nfirst = data[0]",
+        "detail": "legacy.V1.robin_stocks_tags",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "legacy.V1.robin_stocks_tags",
+        "description": "legacy.V1.robin_stocks_tags",
+        "peekOfCode": "data = r.filter_data(stocks, 'instruments')\nfirst = data[0]\nfirst_data = r.request_get(first)\nprint(\"\\n======the quote data for the first entry is=====\\n\")\nprint(first_data)\nprint(\"\\ngetting the rest of the quote data now. This may take a minute....\")\nfull_quote_data = [r.request_get(x) for x in data]\nprint(\"Now I am getting the filter data...\")\n#I can also filter the data\nmargin_quote_data = []",
+        "detail": "legacy.V1.robin_stocks_tags",
+        "documentation": {}
+    },
+    {
+        "label": "first",
+        "kind": 5,
+        "importPath": "legacy.V1.robin_stocks_tags",
+        "description": "legacy.V1.robin_stocks_tags",
+        "peekOfCode": "first = data[0]\nfirst_data = r.request_get(first)\nprint(\"\\n======the quote data for the first entry is=====\\n\")\nprint(first_data)\nprint(\"\\ngetting the rest of the quote data now. This may take a minute....\")\nfull_quote_data = [r.request_get(x) for x in data]\nprint(\"Now I am getting the filter data...\")\n#I can also filter the data\nmargin_quote_data = []\nfor entry in data:",
+        "detail": "legacy.V1.robin_stocks_tags",
+        "documentation": {}
+    },
+    {
+        "label": "first_data",
+        "kind": 5,
+        "importPath": "legacy.V1.robin_stocks_tags",
+        "description": "legacy.V1.robin_stocks_tags",
+        "peekOfCode": "first_data = r.request_get(first)\nprint(\"\\n======the quote data for the first entry is=====\\n\")\nprint(first_data)\nprint(\"\\ngetting the rest of the quote data now. This may take a minute....\")\nfull_quote_data = [r.request_get(x) for x in data]\nprint(\"Now I am getting the filter data...\")\n#I can also filter the data\nmargin_quote_data = []\nfor entry in data:\n    quote_data = r.request_get(entry)",
+        "detail": "legacy.V1.robin_stocks_tags",
+        "documentation": {}
+    },
+    {
+        "label": "full_quote_data",
+        "kind": 5,
+        "importPath": "legacy.V1.robin_stocks_tags",
+        "description": "legacy.V1.robin_stocks_tags",
+        "peekOfCode": "full_quote_data = [r.request_get(x) for x in data]\nprint(\"Now I am getting the filter data...\")\n#I can also filter the data\nmargin_quote_data = []\nfor entry in data:\n    quote_data = r.request_get(entry)\n    if float(quote_data['margin_initial_ratio']) > 0.5:\n        margin_quote_data.append(quote_data)\nprint(f\"There are {len(margin_quote_data)} entries that fit the criteria.\")",
+        "detail": "legacy.V1.robin_stocks_tags",
+        "documentation": {}
+    },
+    {
+        "label": "margin_quote_data",
+        "kind": 5,
+        "importPath": "legacy.V1.robin_stocks_tags",
+        "description": "legacy.V1.robin_stocks_tags",
+        "peekOfCode": "margin_quote_data = []\nfor entry in data:\n    quote_data = r.request_get(entry)\n    if float(quote_data['margin_initial_ratio']) > 0.5:\n        margin_quote_data.append(quote_data)\nprint(f\"There are {len(margin_quote_data)} entries that fit the criteria.\")",
+        "detail": "legacy.V1.robin_stocks_tags",
+        "documentation": {}
+    },
+    {
+        "label": "check_for_trade_signals",
+        "kind": 2,
+        "importPath": "legacy.V1.sherwood",
+        "description": "legacy.V1.sherwood",
+        "peekOfCode": "def check_for_trade_signals(sentiment_scores):\n    trades = []\n    for company, sentiment_score in sentiment_scores.items():\n        if sentiment_score > 0.05:  # This is an example threshold for buying\n            trades.append((company, 'BUY'))\n        elif sentiment_score < -0.05:  # This is an example threshold for selling\n            trades.append((company, 'SELL'))\n    return trades\n# @ray.remote\n# def update_influence(company, influence_dict, sentence, sentiment_score):",
+        "detail": "legacy.V1.sherwood",
+        "documentation": {}
+    },
+    {
+        "label": "get_articles",
+        "kind": 2,
+        "importPath": "legacy.V1.sherwood",
+        "description": "legacy.V1.sherwood",
+        "peekOfCode": "def get_articles(url):\n    # use newspaper3k to get articles\n    paper = newspaper.build(url, memoize_articles=False)\n    articles = []\n    for article in tqdm(paper.articles):\n        # update the tqdm message in blue with the article title\n        try:\n            tqdm.write(Fore.BLUE + str(article.title))\n        except:\n            pass",
+        "detail": "legacy.V1.sherwood",
+        "documentation": {}
+    },
+    {
+        "label": "get_sentiment_scores",
+        "kind": 2,
+        "importPath": "legacy.V1.sherwood",
+        "description": "legacy.V1.sherwood",
+        "peekOfCode": "def get_sentiment_scores(articles):\n    sentiment_scores = {}\n    for article in articles:\n        sentiment_scores[article] = calculate_sentiment_of_sentence_containing_crypto(article)\n    return sentiment_scores\ndef getTicker(company_name):\n    \"\"\"\n    The getTicker function takes in a company name and returns the ticker symbol for that company.\n    It does this by using the Yahoo Finance API to search for a given company, then returning\n    the first result's ticker symbol.",
+        "detail": "legacy.V1.sherwood",
+        "documentation": {}
+    },
+    {
+        "label": "getTicker",
+        "kind": 2,
+        "importPath": "legacy.V1.sherwood",
+        "description": "legacy.V1.sherwood",
+        "peekOfCode": "def getTicker(company_name):\n    \"\"\"\n    The getTicker function takes in a company name and returns the ticker symbol for that company.\n    It does this by using the Yahoo Finance API to search for a given company, then returning\n    the first result's ticker symbol.\n    \"\"\"\n    yfinance = \"https://query2.finance.yahoo.com/v1/finance/search\"\n    user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36'\n    params = {\"q\": company_name, \"quotes_count\": 1, \"country\": \"United States\"}\n    res = requests.get(url=yfinance, params=params, headers={'User-Agent': user_agent})",
+        "detail": "legacy.V1.sherwood",
+        "documentation": {}
+    },
+    {
+        "label": "execute_trades",
+        "kind": 2,
+        "importPath": "legacy.V1.sherwood",
+        "description": "legacy.V1.sherwood",
+        "peekOfCode": "def execute_trades(trades):\n    profile = r.profiles.load_account_profile()\n    holdings = r.build_holdings()\n    owned_stocks = list(holdings.keys())\n    buying_power = float(profile['buying_power'])\n    for trade in tqdm(trades):\n        # update the tqdm message with trade details\n        tqdm.write(f'{trade[1]} {trade[0]}')\n        company, action = trade\n        try:",
+        "detail": "legacy.V1.sherwood",
+        "documentation": {}
+    },
+    {
+        "label": "get_articles_from_news_source",
+        "kind": 2,
+        "importPath": "legacy.V1.sherwood",
+        "description": "legacy.V1.sherwood",
+        "peekOfCode": "def get_articles_from_news_source(news_source):\n    # use newspaper3k to get articles\n    paper = newspaper.build(news_source, memoize_articles=False)\n    articles = []\n    for article in paper.articles:\n        try:\n            tqdm.write(Fore.BLUE + str(article.title))\n        except:\n            pass\n        try:",
+        "detail": "legacy.V1.sherwood",
+        "documentation": {}
+    },
+    {
+        "label": "check_for_stop_loss_orders",
+        "kind": 2,
+        "importPath": "legacy.V1.sherwood",
+        "description": "legacy.V1.sherwood",
+        "peekOfCode": "def check_for_stop_loss_orders():\n    while True:\n        try:\n            cryptos = r.crypto.get_crypto_positions()\n            for crypto in cryptos:\n                current_price = r.crypto.get_crypto_quote(crypto['currency']['code'], info='mark_price')\n                if current_price is None or not isinstance(current_price, (int, float)):\n                    print(f\"Error getting current price for {crypto['currency']['code']}\")\n                    continue\n                stop_loss_price = float(current_price) * 0.99",
+        "detail": "legacy.V1.sherwood",
+        "documentation": {}
+    },
+    {
+        "label": "remove_duplicates",
+        "kind": 2,
+        "importPath": "legacy.V1.sherwood",
+        "description": "legacy.V1.sherwood",
+        "peekOfCode": "def remove_duplicates(articles):\n    unique_articles = []\n    for article in tqdm(articles):\n        try:\n            tqdm.write(Fore.BLUE + str(article.title))\n        except:\n            pass\n        if not any(fuzz.ratio(article, unique_article) > 80 for unique_article in unique_articles):\n            unique_articles.append(article)\n    return unique_articles",
+        "detail": "legacy.V1.sherwood",
+        "documentation": {}
+    },
+    {
+        "label": "get_articles_from_news_sources",
+        "kind": 2,
+        "importPath": "legacy.V1.sherwood",
+        "description": "legacy.V1.sherwood",
+        "peekOfCode": "def get_articles_from_news_sources(news_sources):\n    # using newspaper3k to get articles\n    all_articles = []\n    news_dict = {}\n    # build the newspapers first\n    for news_source in news_sources:\n        articles = newspaper.build(news_source, memoize_articles=False).articles\n        for article in articles:\n            try:\n                news_dict[news_source][article.title] = article",
+        "detail": "legacy.V1.sherwood",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "legacy.V1.sherwood",
+        "description": "legacy.V1.sherwood",
+        "peekOfCode": "username = secrets['username']\npassword = secrets['password']\nlogin = r.login(username, password)\n# Initialize NLP tools\nnltk.download('vader_lexicon', quiet=True)\nsia = SentimentIntensityAnalyzer()\nnlp = spacy.load('en_core_web_sm')\ncryptocurrencies = [\n    'BTC',\n    'ETH',",
+        "detail": "legacy.V1.sherwood",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "legacy.V1.sherwood",
+        "description": "legacy.V1.sherwood",
+        "peekOfCode": "password = secrets['password']\nlogin = r.login(username, password)\n# Initialize NLP tools\nnltk.download('vader_lexicon', quiet=True)\nsia = SentimentIntensityAnalyzer()\nnlp = spacy.load('en_core_web_sm')\ncryptocurrencies = [\n    'BTC',\n    'ETH',\n    'DOGE',",
+        "detail": "legacy.V1.sherwood",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 5,
+        "importPath": "legacy.V1.sherwood",
+        "description": "legacy.V1.sherwood",
+        "peekOfCode": "login = r.login(username, password)\n# Initialize NLP tools\nnltk.download('vader_lexicon', quiet=True)\nsia = SentimentIntensityAnalyzer()\nnlp = spacy.load('en_core_web_sm')\ncryptocurrencies = [\n    'BTC',\n    'ETH',\n    'DOGE',\n    'LTC',",
+        "detail": "legacy.V1.sherwood",
+        "documentation": {}
+    },
+    {
+        "label": "sia",
+        "kind": 5,
+        "importPath": "legacy.V1.sherwood",
+        "description": "legacy.V1.sherwood",
+        "peekOfCode": "sia = SentimentIntensityAnalyzer()\nnlp = spacy.load('en_core_web_sm')\ncryptocurrencies = [\n    'BTC',\n    'ETH',\n    'DOGE',\n    'LTC',\n    'ETC',\n    'BCH',\n    'BSV',",
+        "detail": "legacy.V1.sherwood",
+        "documentation": {}
+    },
+    {
+        "label": "nlp",
+        "kind": 5,
+        "importPath": "legacy.V1.sherwood",
+        "description": "legacy.V1.sherwood",
+        "peekOfCode": "nlp = spacy.load('en_core_web_sm')\ncryptocurrencies = [\n    'BTC',\n    'ETH',\n    'DOGE',\n    'LTC',\n    'ETC',\n    'BCH',\n    'BSV',\n    'XRP',",
+        "detail": "legacy.V1.sherwood",
+        "documentation": {}
+    },
+    {
+        "label": "cryptocurrencies",
+        "kind": 5,
+        "importPath": "legacy.V1.sherwood",
+        "description": "legacy.V1.sherwood",
+        "peekOfCode": "cryptocurrencies = [\n    'BTC',\n    'ETH',\n    'DOGE',\n    'LTC',\n    'ETC',\n    'BCH',\n    'BSV',\n    'XRP',\n    'ADA',",
+        "detail": "legacy.V1.sherwood",
+        "documentation": {}
+    },
+    {
+        "label": "influence_dict",
+        "kind": 5,
+        "importPath": "legacy.V1.sherwood",
+        "description": "legacy.V1.sherwood",
+        "peekOfCode": "influence_dict = {\n    \"MSFT\": 0.0\n    }\n# Define utility functions\nget_company_names = lambda text: list(set([ent.text for ent in nlp(text).ents if ent.label_ == 'ORG' or ent.text in cryptocurrencies]))\ncalculate_sentiment = lambda text: sia.polarity_scores(text)['compound']\nlevenshtein_similarity_check = lambda new_article, articles_list: any(fuzz.ratio(new_article, article) > 80 for article in articles_list)\nget_crypto_names = lambda article_text: [crypto for crypto in cryptocurrencies if crypto in article_text]\ncalculate_sentiment_of_sentence_containing_crypto = lambda article_text: sum(sia.polarity_scores(sentence)[\"compound\"] for sentence in article_text.split('. ') for crypto in cryptocurrencies if crypto in sentence) / len([sentence for sentence in article_text.split('. ') for crypto in cryptocurrencies if crypto in sentence]) if [sentence for sentence in article_text.split('. ') for crypto in cryptocurrencies if crypto in sentence] else 0\n@ray.remote",
+        "detail": "legacy.V1.sherwood",
+        "documentation": {}
+    },
+    {
+        "label": "get_company_names",
+        "kind": 5,
+        "importPath": "legacy.V1.sherwood",
+        "description": "legacy.V1.sherwood",
+        "peekOfCode": "get_company_names = lambda text: list(set([ent.text for ent in nlp(text).ents if ent.label_ == 'ORG' or ent.text in cryptocurrencies]))\ncalculate_sentiment = lambda text: sia.polarity_scores(text)['compound']\nlevenshtein_similarity_check = lambda new_article, articles_list: any(fuzz.ratio(new_article, article) > 80 for article in articles_list)\nget_crypto_names = lambda article_text: [crypto for crypto in cryptocurrencies if crypto in article_text]\ncalculate_sentiment_of_sentence_containing_crypto = lambda article_text: sum(sia.polarity_scores(sentence)[\"compound\"] for sentence in article_text.split('. ') for crypto in cryptocurrencies if crypto in sentence) / len([sentence for sentence in article_text.split('. ') for crypto in cryptocurrencies if crypto in sentence]) if [sentence for sentence in article_text.split('. ') for crypto in cryptocurrencies if crypto in sentence] else 0\n@ray.remote\ndef check_for_trade_signals(sentiment_scores):\n    trades = []\n    for company, sentiment_score in sentiment_scores.items():\n        if sentiment_score > 0.05:  # This is an example threshold for buying",
+        "detail": "legacy.V1.sherwood",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_sentiment",
+        "kind": 5,
+        "importPath": "legacy.V1.sherwood",
+        "description": "legacy.V1.sherwood",
+        "peekOfCode": "calculate_sentiment = lambda text: sia.polarity_scores(text)['compound']\nlevenshtein_similarity_check = lambda new_article, articles_list: any(fuzz.ratio(new_article, article) > 80 for article in articles_list)\nget_crypto_names = lambda article_text: [crypto for crypto in cryptocurrencies if crypto in article_text]\ncalculate_sentiment_of_sentence_containing_crypto = lambda article_text: sum(sia.polarity_scores(sentence)[\"compound\"] for sentence in article_text.split('. ') for crypto in cryptocurrencies if crypto in sentence) / len([sentence for sentence in article_text.split('. ') for crypto in cryptocurrencies if crypto in sentence]) if [sentence for sentence in article_text.split('. ') for crypto in cryptocurrencies if crypto in sentence] else 0\n@ray.remote\ndef check_for_trade_signals(sentiment_scores):\n    trades = []\n    for company, sentiment_score in sentiment_scores.items():\n        if sentiment_score > 0.05:  # This is an example threshold for buying\n            trades.append((company, 'BUY'))",
+        "detail": "legacy.V1.sherwood",
+        "documentation": {}
+    },
+    {
+        "label": "levenshtein_similarity_check",
+        "kind": 5,
+        "importPath": "legacy.V1.sherwood",
+        "description": "legacy.V1.sherwood",
+        "peekOfCode": "levenshtein_similarity_check = lambda new_article, articles_list: any(fuzz.ratio(new_article, article) > 80 for article in articles_list)\nget_crypto_names = lambda article_text: [crypto for crypto in cryptocurrencies if crypto in article_text]\ncalculate_sentiment_of_sentence_containing_crypto = lambda article_text: sum(sia.polarity_scores(sentence)[\"compound\"] for sentence in article_text.split('. ') for crypto in cryptocurrencies if crypto in sentence) / len([sentence for sentence in article_text.split('. ') for crypto in cryptocurrencies if crypto in sentence]) if [sentence for sentence in article_text.split('. ') for crypto in cryptocurrencies if crypto in sentence] else 0\n@ray.remote\ndef check_for_trade_signals(sentiment_scores):\n    trades = []\n    for company, sentiment_score in sentiment_scores.items():\n        if sentiment_score > 0.05:  # This is an example threshold for buying\n            trades.append((company, 'BUY'))\n        elif sentiment_score < -0.05:  # This is an example threshold for selling",
+        "detail": "legacy.V1.sherwood",
+        "documentation": {}
+    },
+    {
+        "label": "get_crypto_names",
+        "kind": 5,
+        "importPath": "legacy.V1.sherwood",
+        "description": "legacy.V1.sherwood",
+        "peekOfCode": "get_crypto_names = lambda article_text: [crypto for crypto in cryptocurrencies if crypto in article_text]\ncalculate_sentiment_of_sentence_containing_crypto = lambda article_text: sum(sia.polarity_scores(sentence)[\"compound\"] for sentence in article_text.split('. ') for crypto in cryptocurrencies if crypto in sentence) / len([sentence for sentence in article_text.split('. ') for crypto in cryptocurrencies if crypto in sentence]) if [sentence for sentence in article_text.split('. ') for crypto in cryptocurrencies if crypto in sentence] else 0\n@ray.remote\ndef check_for_trade_signals(sentiment_scores):\n    trades = []\n    for company, sentiment_score in sentiment_scores.items():\n        if sentiment_score > 0.05:  # This is an example threshold for buying\n            trades.append((company, 'BUY'))\n        elif sentiment_score < -0.05:  # This is an example threshold for selling\n            trades.append((company, 'SELL'))",
+        "detail": "legacy.V1.sherwood",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_sentiment_of_sentence_containing_crypto",
+        "kind": 5,
+        "importPath": "legacy.V1.sherwood",
+        "description": "legacy.V1.sherwood",
+        "peekOfCode": "calculate_sentiment_of_sentence_containing_crypto = lambda article_text: sum(sia.polarity_scores(sentence)[\"compound\"] for sentence in article_text.split('. ') for crypto in cryptocurrencies if crypto in sentence) / len([sentence for sentence in article_text.split('. ') for crypto in cryptocurrencies if crypto in sentence]) if [sentence for sentence in article_text.split('. ') for crypto in cryptocurrencies if crypto in sentence] else 0\n@ray.remote\ndef check_for_trade_signals(sentiment_scores):\n    trades = []\n    for company, sentiment_score in sentiment_scores.items():\n        if sentiment_score > 0.05:  # This is an example threshold for buying\n            trades.append((company, 'BUY'))\n        elif sentiment_score < -0.05:  # This is an example threshold for selling\n            trades.append((company, 'SELL'))\n    return trades",
+        "detail": "legacy.V1.sherwood",
+        "documentation": {}
+    },
+    {
+        "label": "news_sources",
+        "kind": 5,
+        "importPath": "legacy.V1.sherwood",
+        "description": "legacy.V1.sherwood",
+        "peekOfCode": "news_sources = [\n    'https://www.drudge.com/',\n    'https://www.bloomberg.com/',\n    'https://www.marketwatch.com/',\n    'https://www.fool.com/',\n    'https://www.businessinsider.com/',\n    'https://www.axios.com/',\n    'https://www.politico.com/',\n    'https://www.theatlantic.com/',\n    'https://www.newyorker.com/',",
+        "detail": "legacy.V1.sherwood",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_news_sources",
+        "kind": 5,
+        "importPath": "legacy.V1.sherwood",
+        "description": "legacy.V1.sherwood",
+        "peekOfCode": "crypto_news_sources = [\n    'https://cointelegraph.com/tags/robinhood',\n    'https://finance.yahoo.com/news/',\n    'https://finance.yahoo.com/cryptocurrencies/',\n    'https://www.coindesk.com/',\n    'https://cryptonews.com/',\n    'https://crypto.news/',\n    'https://www.cryptoglobe.com/latest/',\n    'https://www.cryptocraft.com/',\n    'https://www.cryptopolitan.com/',",
+        "detail": "legacy.V1.sherwood",
+        "documentation": {}
+    },
+    {
+        "label": "Broker",
+        "kind": 6,
+        "importPath": "legacy.V1.supportmaterial",
+        "description": "legacy.V1.supportmaterial",
+        "peekOfCode": "class Broker:\n    @staticmethod\n    def form_data(tik): # could use 12Data if was rich enough\n        yf.pdr_override()\n        ohlc = pdr.get_data_yahoo(tickers=tik,\n                                  period=\"4d\", # []\n                                  interval=\"1h\") # [1m, 2m, 5m, 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1wk, 1mo, 3mo]\n        ohlc = ohlc.astype(float)\n        plt.style.use('ggplot')\n        # Extracting Data for plotting",
+        "detail": "legacy.V1.supportmaterial",
+        "documentation": {}
+    },
+    {
+        "label": "M",
+        "kind": 5,
+        "importPath": "legacy.V1.supportmaterial",
+        "description": "legacy.V1.supportmaterial",
+        "peekOfCode": "M = datetime.today().minute\nh = datetime.today().hour\nd = datetime.today().day\nm = datetime.today().month\ny = datetime.today().year\nstart = datetime(y-1, m, d)\nend = datetime(y, m, d)\nclass Broker:\n    @staticmethod\n    def form_data(tik): # could use 12Data if was rich enough",
+        "detail": "legacy.V1.supportmaterial",
+        "documentation": {}
+    },
+    {
+        "label": "h",
+        "kind": 5,
+        "importPath": "legacy.V1.supportmaterial",
+        "description": "legacy.V1.supportmaterial",
+        "peekOfCode": "h = datetime.today().hour\nd = datetime.today().day\nm = datetime.today().month\ny = datetime.today().year\nstart = datetime(y-1, m, d)\nend = datetime(y, m, d)\nclass Broker:\n    @staticmethod\n    def form_data(tik): # could use 12Data if was rich enough\n        yf.pdr_override()",
+        "detail": "legacy.V1.supportmaterial",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "legacy.V1.supportmaterial",
+        "description": "legacy.V1.supportmaterial",
+        "peekOfCode": "d = datetime.today().day\nm = datetime.today().month\ny = datetime.today().year\nstart = datetime(y-1, m, d)\nend = datetime(y, m, d)\nclass Broker:\n    @staticmethod\n    def form_data(tik): # could use 12Data if was rich enough\n        yf.pdr_override()\n        ohlc = pdr.get_data_yahoo(tickers=tik,",
+        "detail": "legacy.V1.supportmaterial",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "legacy.V1.supportmaterial",
+        "description": "legacy.V1.supportmaterial",
+        "peekOfCode": "m = datetime.today().month\ny = datetime.today().year\nstart = datetime(y-1, m, d)\nend = datetime(y, m, d)\nclass Broker:\n    @staticmethod\n    def form_data(tik): # could use 12Data if was rich enough\n        yf.pdr_override()\n        ohlc = pdr.get_data_yahoo(tickers=tik,\n                                  period=\"4d\", # []",
+        "detail": "legacy.V1.supportmaterial",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "legacy.V1.supportmaterial",
+        "description": "legacy.V1.supportmaterial",
+        "peekOfCode": "y = datetime.today().year\nstart = datetime(y-1, m, d)\nend = datetime(y, m, d)\nclass Broker:\n    @staticmethod\n    def form_data(tik): # could use 12Data if was rich enough\n        yf.pdr_override()\n        ohlc = pdr.get_data_yahoo(tickers=tik,\n                                  period=\"4d\", # []\n                                  interval=\"1h\") # [1m, 2m, 5m, 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1wk, 1mo, 3mo]",
+        "detail": "legacy.V1.supportmaterial",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "kind": 5,
+        "importPath": "legacy.V1.supportmaterial",
+        "description": "legacy.V1.supportmaterial",
+        "peekOfCode": "start = datetime(y-1, m, d)\nend = datetime(y, m, d)\nclass Broker:\n    @staticmethod\n    def form_data(tik): # could use 12Data if was rich enough\n        yf.pdr_override()\n        ohlc = pdr.get_data_yahoo(tickers=tik,\n                                  period=\"4d\", # []\n                                  interval=\"1h\") # [1m, 2m, 5m, 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1wk, 1mo, 3mo]\n        ohlc = ohlc.astype(float)",
+        "detail": "legacy.V1.supportmaterial",
+        "documentation": {}
+    },
+    {
+        "label": "end",
+        "kind": 5,
+        "importPath": "legacy.V1.supportmaterial",
+        "description": "legacy.V1.supportmaterial",
+        "peekOfCode": "end = datetime(y, m, d)\nclass Broker:\n    @staticmethod\n    def form_data(tik): # could use 12Data if was rich enough\n        yf.pdr_override()\n        ohlc = pdr.get_data_yahoo(tickers=tik,\n                                  period=\"4d\", # []\n                                  interval=\"1h\") # [1m, 2m, 5m, 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1wk, 1mo, 3mo]\n        ohlc = ohlc.astype(float)\n        plt.style.use('ggplot')",
+        "detail": "legacy.V1.supportmaterial",
+        "documentation": {}
+    },
+    {
+        "label": "get_company_names",
+        "kind": 2,
+        "importPath": "legacy.V1.trading_strategy_sentiment",
+        "description": "legacy.V1.trading_strategy_sentiment",
+        "peekOfCode": "def get_company_names(text):\n    # Use Spacy's NER to identify company names\n    doc = nlp(text)\n    company_names = [ent.text for ent in doc.ents if ent.label_ == 'ORG']\n    return company_names\ndef calculate_sentiment(text):\n    # Calculate sentiment score using NLTK's SentimentIntensityAnalyzer\n    sentiment = sia.polarity_scores(text)\n    sentiment_score = sentiment['compound']\n    return sentiment_score",
+        "detail": "legacy.V1.trading_strategy_sentiment",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_sentiment",
+        "kind": 2,
+        "importPath": "legacy.V1.trading_strategy_sentiment",
+        "description": "legacy.V1.trading_strategy_sentiment",
+        "peekOfCode": "def calculate_sentiment(text):\n    # Calculate sentiment score using NLTK's SentimentIntensityAnalyzer\n    sentiment = sia.polarity_scores(text)\n    sentiment_score = sentiment['compound']\n    return sentiment_score\ndef get_news_sentiment():\n    # Fetch news articles from Newspaper4k using the company names\n    # and calculate sentiment for each article\n    sentiment_scores = {}\n    url = 'https://www.drudge.com/'",
+        "detail": "legacy.V1.trading_strategy_sentiment",
+        "documentation": {}
+    },
+    {
+        "label": "get_news_sentiment",
+        "kind": 2,
+        "importPath": "legacy.V1.trading_strategy_sentiment",
+        "description": "legacy.V1.trading_strategy_sentiment",
+        "peekOfCode": "def get_news_sentiment():\n    # Fetch news articles from Newspaper4k using the company names\n    # and calculate sentiment for each article\n    sentiment_scores = {}\n    url = 'https://www.drudge.com/'\n    response = requests.get(url)\n    html = response.text\n    company_names = get_company_names(html)\n    for company in company_names:\n        # Fetch news articles using requests",
+        "detail": "legacy.V1.trading_strategy_sentiment",
+        "documentation": {}
+    },
+    {
+        "label": "generate_trades",
+        "kind": 2,
+        "importPath": "legacy.V1.trading_strategy_sentiment",
+        "description": "legacy.V1.trading_strategy_sentiment",
+        "peekOfCode": "def generate_trades():\n    # Get sentiment scores for news articles\n    sentiment_scores = get_news_sentiment()\n    # Determine trading decisions based on sentiment scores\n    trades = []\n    for company, sentiment_score in sentiment_scores.items():\n        if sentiment_score > 0.2:\n            # Generate buy signal for companies with positive sentiment\n            trades.append((company, 'BUY'))\n        elif sentiment_score < -0.2:",
+        "detail": "legacy.V1.trading_strategy_sentiment",
+        "documentation": {}
+    },
+    {
+        "label": "execute_trades",
+        "kind": 2,
+        "importPath": "legacy.V1.trading_strategy_sentiment",
+        "description": "legacy.V1.trading_strategy_sentiment",
+        "peekOfCode": "def execute_trades():\n    # Generate trading signals based on sentiment scores\n    trades = generate_trades()\n    # Get buying power\n    profile = r.profiles.load_account_profile()\n    buying_power = float(profile['buying_power'])\n    # Execute trades using Robinhood\n    for trade in tqdm(trades):\n        company, action = trade\n        # Calculate position size (not exceeding 1% of buying power)",
+        "detail": "legacy.V1.trading_strategy_sentiment",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "legacy.V1.trading_strategy_sentiment",
+        "description": "legacy.V1.trading_strategy_sentiment",
+        "peekOfCode": "username = secrets['username']\npassword = secrets['password']\nlogin = r.login(username, password)\n# Initialize sentiment analyzer and Spacy NER\nsia = SentimentIntensityAnalyzer()\nnlp = spacy.load('en_core_web_sm')\ndef get_company_names(text):\n    # Use Spacy's NER to identify company names\n    doc = nlp(text)\n    company_names = [ent.text for ent in doc.ents if ent.label_ == 'ORG']",
+        "detail": "legacy.V1.trading_strategy_sentiment",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "legacy.V1.trading_strategy_sentiment",
+        "description": "legacy.V1.trading_strategy_sentiment",
+        "peekOfCode": "password = secrets['password']\nlogin = r.login(username, password)\n# Initialize sentiment analyzer and Spacy NER\nsia = SentimentIntensityAnalyzer()\nnlp = spacy.load('en_core_web_sm')\ndef get_company_names(text):\n    # Use Spacy's NER to identify company names\n    doc = nlp(text)\n    company_names = [ent.text for ent in doc.ents if ent.label_ == 'ORG']\n    return company_names",
+        "detail": "legacy.V1.trading_strategy_sentiment",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 5,
+        "importPath": "legacy.V1.trading_strategy_sentiment",
+        "description": "legacy.V1.trading_strategy_sentiment",
+        "peekOfCode": "login = r.login(username, password)\n# Initialize sentiment analyzer and Spacy NER\nsia = SentimentIntensityAnalyzer()\nnlp = spacy.load('en_core_web_sm')\ndef get_company_names(text):\n    # Use Spacy's NER to identify company names\n    doc = nlp(text)\n    company_names = [ent.text for ent in doc.ents if ent.label_ == 'ORG']\n    return company_names\ndef calculate_sentiment(text):",
+        "detail": "legacy.V1.trading_strategy_sentiment",
+        "documentation": {}
+    },
+    {
+        "label": "sia",
+        "kind": 5,
+        "importPath": "legacy.V1.trading_strategy_sentiment",
+        "description": "legacy.V1.trading_strategy_sentiment",
+        "peekOfCode": "sia = SentimentIntensityAnalyzer()\nnlp = spacy.load('en_core_web_sm')\ndef get_company_names(text):\n    # Use Spacy's NER to identify company names\n    doc = nlp(text)\n    company_names = [ent.text for ent in doc.ents if ent.label_ == 'ORG']\n    return company_names\ndef calculate_sentiment(text):\n    # Calculate sentiment score using NLTK's SentimentIntensityAnalyzer\n    sentiment = sia.polarity_scores(text)",
+        "detail": "legacy.V1.trading_strategy_sentiment",
+        "documentation": {}
+    },
+    {
+        "label": "nlp",
+        "kind": 5,
+        "importPath": "legacy.V1.trading_strategy_sentiment",
+        "description": "legacy.V1.trading_strategy_sentiment",
+        "peekOfCode": "nlp = spacy.load('en_core_web_sm')\ndef get_company_names(text):\n    # Use Spacy's NER to identify company names\n    doc = nlp(text)\n    company_names = [ent.text for ent in doc.ents if ent.label_ == 'ORG']\n    return company_names\ndef calculate_sentiment(text):\n    # Calculate sentiment score using NLTK's SentimentIntensityAnalyzer\n    sentiment = sia.polarity_scores(text)\n    sentiment_score = sentiment['compound']",
+        "detail": "legacy.V1.trading_strategy_sentiment",
+        "documentation": {}
+    },
+    {
+        "label": "get_crypto_data",
+        "kind": 2,
+        "importPath": "legacy.version2.Untitled-1",
+        "description": "legacy.version2.Untitled-1",
+        "peekOfCode": "def get_crypto_data(cryptos, crypto_data):\n    for crypto in tqdm(cryptos):\n        try:\n            #print(f'Getting data for {crypto}, please wait...',end='')\n            # Get historical data\n            historicals = r.get_crypto_historicals(crypto, interval='day', span='week')\n            current_price = historicals[-1]['close_price']\n            historical_prices = [x['close_price'] for x in historicals]\n            # Load account profile\n            profile = r.profiles.load_account_profile()",
+        "detail": "legacy.version2.Untitled-1",
+        "documentation": {}
+    },
+    {
+        "label": "update_signals",
+        "kind": 2,
+        "importPath": "legacy.version2.Untitled-1",
+        "description": "legacy.version2.Untitled-1",
+        "peekOfCode": "def update_signals():\n    stop_loss = 0.95 # 5% loss\n    take_profit = 1.03 # 3% profit\n    transactions_df = pd.read_csv('transactions.csv')\n    def process_prices(x):\n        if isinstance(x, str):\n            return [float(price) for price in x.strip('[]').split(',')]\n        return [float(price) for price in x]\n    def calculate_pct_change(historical_prices, current_price):\n        historical_prices_last_5 = historical_prices[-5:]",
+        "detail": "legacy.version2.Untitled-1",
+        "documentation": {}
+    },
+    {
+        "label": "order_crypto",
+        "kind": 2,
+        "importPath": "legacy.version2.Untitled-1",
+        "description": "legacy.version2.Untitled-1",
+        "peekOfCode": "def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy'):\n    \"\"\"\n    The order_crypto function is used to place a crypto order.\n    :param symbol: Specify the coin you want to buy\n    :param quantity_or_price: Specify the amount of crypto you want to buy or sell\n    :param amount_in: Specify the amount of money you want to spend on buying a coin\n    :param side: Specify whether you want to buy or sell the coin\n    :return: A dictionary with the following keys:\n    :doc-author: Trelent\n    \"\"\"",
+        "detail": "legacy.version2.Untitled-1",
+        "documentation": {}
+    },
+    {
+        "label": "is_daytime",
+        "kind": 2,
+        "importPath": "legacy.version2.Untitled-1",
+        "description": "legacy.version2.Untitled-1",
+        "peekOfCode": "def is_daytime():\n    # CHECK TIME OF DAY IN CENTRAL STANDARD TIME\n    current_time = datetime.datetime.now()\n    if current_time.hour >= 11 and current_time.hour <= 23:\n        return True\n    else:\n        return False\nprint(f'I can only play with {buying_power} dollars')\ndef main_loop():\n    \"\"\"",
+        "detail": "legacy.version2.Untitled-1",
+        "documentation": {}
+    },
+    {
+        "label": "main_loop",
+        "kind": 2,
+        "importPath": "legacy.version2.Untitled-1",
+        "description": "legacy.version2.Untitled-1",
+        "peekOfCode": "def main_loop():\n    \"\"\"\n    The main_loop function is the main function of this program. It runs every ten minutes and updates the signals for each coin, then checks if we own any coins or not. If we do, it will check to see if there are any sell signals (signal &lt; -0.5) and sell 70% of our holdings in that coin; otherwise, it will check to see if there are buy signals (signal &gt; 0.5) and buy 50% of 1% of our buying power worth in that coin.\n    :return: The following:\n    :doc-author: Trelent\n    \"\"\"\n    global crypto_data\n    while True:\n        # cancel all orders\n        r.cancel_all_crypto_orders()",
+        "detail": "legacy.version2.Untitled-1",
+        "documentation": {}
+    },
+    {
+        "label": "panic_mode",
+        "kind": 5,
+        "importPath": "legacy.version2.Untitled-1",
+        "description": "legacy.version2.Untitled-1",
+        "peekOfCode": "panic_mode = False # set to True to sell all crypto positions immediately\n# List of cryptocurrencies to trade\ncryptos = ['BTC', 'ETH', 'ADA', 'DOGE', 'MATIC', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'SOL', 'AVAX', 'XLM', 'BCH', 'XTZ']\n# log file\nlogger = logging.getLogger('crypto_trader')\nlogger.setLevel(logging.DEBUG)\nfh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)\nlogger.addHandler(fh)\n# import datetime now",
+        "detail": "legacy.version2.Untitled-1",
+        "documentation": {}
+    },
+    {
+        "label": "cryptos",
+        "kind": 5,
+        "importPath": "legacy.version2.Untitled-1",
+        "description": "legacy.version2.Untitled-1",
+        "peekOfCode": "cryptos = ['BTC', 'ETH', 'ADA', 'DOGE', 'MATIC', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'SOL', 'AVAX', 'XLM', 'BCH', 'XTZ']\n# log file\nlogger = logging.getLogger('crypto_trader')\nlogger.setLevel(logging.DEBUG)\nfh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)\nlogger.addHandler(fh)\n# import datetime now\nfrom datetime import datetime\n# import now function",
+        "detail": "legacy.version2.Untitled-1",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "legacy.version2.Untitled-1",
+        "description": "legacy.version2.Untitled-1",
+        "peekOfCode": "logger = logging.getLogger('crypto_trader')\nlogger.setLevel(logging.DEBUG)\nfh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)\nlogger.addHandler(fh)\n# import datetime now\nfrom datetime import datetime\n# import now function\nfrom datetime import datetime\n# import time",
+        "detail": "legacy.version2.Untitled-1",
+        "documentation": {}
+    },
+    {
+        "label": "fh",
+        "kind": 5,
+        "importPath": "legacy.version2.Untitled-1",
+        "description": "legacy.version2.Untitled-1",
+        "peekOfCode": "fh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)\nlogger.addHandler(fh)\n# import datetime now\nfrom datetime import datetime\n# import now function\nfrom datetime import datetime\n# import time\nimport time\nnow = datetime.now()",
+        "detail": "legacy.version2.Untitled-1",
+        "documentation": {}
+    },
+    {
+        "label": "now",
+        "kind": 5,
+        "importPath": "legacy.version2.Untitled-1",
+        "description": "legacy.version2.Untitled-1",
+        "peekOfCode": "now = datetime.now()\n# Initialize an empty dataframe to store crypto data\ncrypto_data = pd.DataFrame()\ndef get_crypto_data(cryptos, crypto_data):\n    for crypto in tqdm(cryptos):\n        try:\n            #print(f'Getting data for {crypto}, please wait...',end='')\n            # Get historical data\n            historicals = r.get_crypto_historicals(crypto, interval='day', span='week')\n            current_price = historicals[-1]['close_price']",
+        "detail": "legacy.version2.Untitled-1",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_data",
+        "kind": 5,
+        "importPath": "legacy.version2.Untitled-1",
+        "description": "legacy.version2.Untitled-1",
+        "peekOfCode": "crypto_data = pd.DataFrame()\ndef get_crypto_data(cryptos, crypto_data):\n    for crypto in tqdm(cryptos):\n        try:\n            #print(f'Getting data for {crypto}, please wait...',end='')\n            # Get historical data\n            historicals = r.get_crypto_historicals(crypto, interval='day', span='week')\n            current_price = historicals[-1]['close_price']\n            historical_prices = [x['close_price'] for x in historicals]\n            # Load account profile",
+        "detail": "legacy.version2.Untitled-1",
+        "documentation": {}
+    },
+    {
+        "label": "color_options",
+        "kind": 5,
+        "importPath": "legacy.version2.Untitled-1",
+        "description": "legacy.version2.Untitled-1",
+        "peekOfCode": "color_options = [\n    Fore.BLACK,\n    Fore.RED,\n    Fore.GREEN,\n    Fore.YELLOW,\n    Fore.BLUE,\n    Fore.MAGENTA,\n    Fore.CYAN,\n    Fore.WHITE,\n    Fore.LIGHTBLACK_EX,",
+        "detail": "legacy.version2.Untitled-1",
+        "documentation": {}
+    },
+    {
+        "label": "background_options",
+        "kind": 5,
+        "importPath": "legacy.version2.Untitled-1",
+        "description": "legacy.version2.Untitled-1",
+        "peekOfCode": "background_options = [\n    Back.BLACK,\n    Back.RED,\n    Back.GREEN,\n    Back.YELLOW,\n    Back.BLUE,\n    Back.MAGENTA,\n    Back.CYAN,\n    Back.WHITE,\n    Back.LIGHTBLACK_EX,",
+        "detail": "legacy.version2.Untitled-1",
+        "documentation": {}
+    },
+    {
+        "label": "style_options",
+        "kind": 5,
+        "importPath": "legacy.version2.Untitled-1",
+        "description": "legacy.version2.Untitled-1",
+        "peekOfCode": "style_options = [\n    Style.DIM,\n    Style.NORMAL,\n    Style.BRIGHT,\n]\n# %% [markdown]\n# def update_signals():\n#     stop_loss = 0.95 # 5% loss\n#     take_profit = 1.03 # 3% profit\n#     try:",
+        "detail": "legacy.version2.Untitled-1",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_data",
+        "kind": 5,
+        "importPath": "legacy.version2.Untitled-1",
+        "description": "legacy.version2.Untitled-1",
+        "peekOfCode": "crypto_data = get_crypto_data(cryptos, crypto_data)\ncrypto_data.to_csv('crypto_data.csv', index=False)\n# show the dataframe\ncrypto_data.head()\n# %%\ndir(r)\n# %%\ndir(r.orders)\n# %%\nimport time",
+        "detail": "legacy.version2.Untitled-1",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_data",
+        "kind": 5,
+        "importPath": "legacy.version2.Untitled-1",
+        "description": "legacy.version2.Untitled-1",
+        "peekOfCode": "crypto_data = pd.read_csv('crypto_data.csv', converters={'historical_prices': eval})\nbuying_power = float(r.profiles.load_account_profile(info='crypto_buying_power')) * 0.60 # only use 60% of the buying power\ndef is_daytime():\n    # CHECK TIME OF DAY IN CENTRAL STANDARD TIME\n    current_time = datetime.datetime.now()\n    if current_time.hour >= 11 and current_time.hour <= 23:\n        return True\n    else:\n        return False\nprint(f'I can only play with {buying_power} dollars')",
+        "detail": "legacy.version2.Untitled-1",
+        "documentation": {}
+    },
+    {
+        "label": "buying_power",
+        "kind": 5,
+        "importPath": "legacy.version2.Untitled-1",
+        "description": "legacy.version2.Untitled-1",
+        "peekOfCode": "buying_power = float(r.profiles.load_account_profile(info='crypto_buying_power')) * 0.60 # only use 60% of the buying power\ndef is_daytime():\n    # CHECK TIME OF DAY IN CENTRAL STANDARD TIME\n    current_time = datetime.datetime.now()\n    if current_time.hour >= 11 and current_time.hour <= 23:\n        return True\n    else:\n        return False\nprint(f'I can only play with {buying_power} dollars')\ndef main_loop():",
+        "detail": "legacy.version2.Untitled-1",
+        "documentation": {}
+    },
+    {
+        "label": "Total_Calls",
+        "kind": 5,
+        "importPath": "legacy.version2.Your markdown is mostly accurate. but th",
+        "description": "legacy.version2.Your markdown is mostly accurate. but th",
+        "peekOfCode": "Total_Calls = 5N + 2\nwhere N is the number of coins we are trading. If we are trading 10 coins, then the total number of calls to the Robinhood API\nis 52.",
+        "detail": "legacy.version2.Your markdown is mostly accurate. but th",
+        "documentation": {}
+    },
+    {
+        "label": "get_crypto_data",
+        "kind": 2,
+        "importPath": "legacy.version2.debug",
+        "description": "legacy.version2.debug",
+        "peekOfCode": "def get_crypto_data(cryptos, crypto_data):\n    for crypto in tqdm(cryptos):\n        try:\n           # ic()\n            #print(f'Getting data for {crypto}, please wait...',end='')\n            # Get historical data\n            historicals = r.get_crypto_historicals(crypto, interval='day', span='week')\n            current_price = historicals[-1]['close_price']\n            historical_prices = [x['close_price'] for x in historicals]\n            # Load account profile",
+        "detail": "legacy.version2.debug",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_pct_change_5h",
+        "kind": 2,
+        "importPath": "legacy.version2.debug",
+        "description": "legacy.version2.debug",
+        "peekOfCode": "def calculate_pct_change_5h(historical_prices, current_price):\n    try:\n        historical_prices_last_5 = historical_prices[-5:]\n        if all(price != 0.0 for price in historical_prices_last_5):\n            return (current_price - historical_prices_last_5[-1]) / historical_prices_last_5[-1]\n        else:\n            for price in reversed(historical_prices_last_5):\n                if price != 0.0:\n                    return (current_price - price) / price\n        return 0.0",
+        "detail": "legacy.version2.debug",
+        "documentation": {}
+    },
+    {
+        "label": "convert_to_float_list",
+        "kind": 2,
+        "importPath": "legacy.version2.debug",
+        "description": "legacy.version2.debug",
+        "peekOfCode": "def convert_to_float_list(x):\n    if isinstance(x, str):\n        return [float(price) for price in x.strip('[]').split(',')]\n    elif isinstance(x, list):\n        return [float(i) for i in x]\n    else:\n        return [x]  # if x is not iterable, return it as a single item list\ndef update_signals(crypto_data):\n    \"\"\"\n    The update_signals function takes in a dataframe of crypto_data and updates the signal column based on various conditions.",
+        "detail": "legacy.version2.debug",
+        "documentation": {}
+    },
+    {
+        "label": "update_signals",
+        "kind": 2,
+        "importPath": "legacy.version2.debug",
+        "description": "legacy.version2.debug",
+        "peekOfCode": "def update_signals(crypto_data):\n    \"\"\"\n    The update_signals function takes in a dataframe of crypto_data and updates the signal column based on various conditions.\n    The function first converts the current price to a float, then calculates take profit and stop loss values for each row.\n    It then converts historical prices to floats, changes all columns except for symbol to numeric values,\n    and calculates pct change 5h using calculate_pct_change_5h function. It sets all signals equal to 0 initially (no signal),\n    then updates them based on different conditions such as rsi &lt; 30 &amp; macd &gt; 0 or current price &gt; ma200.\n    :param crypto_data: Pass in the dataframe that contains all the crypto data\n    :return: A dataframe with the following columns:\n    :doc-author: Trelent",
+        "detail": "legacy.version2.debug",
+        "documentation": {}
+    },
+    {
+        "label": "order_crypto",
+        "kind": 2,
+        "importPath": "legacy.version2.debug",
+        "description": "legacy.version2.debug",
+        "peekOfCode": "def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy'):\n    \"\"\"\n    The order_crypto function is used to place a crypto order.\n    :param symbol: Specify the coin you want to buy\n    :param quantity_or_price: Specify the amount of crypto you want to buy or sell\n    :param amount_in: Specify the amount of money you want to spend on buying a coin\n    :param side: Specify whether you want to buy or sell the coin\n    :return: A dictionary with the following keys:\n    :doc-author: Trelent\n    \"\"\"",
+        "detail": "legacy.version2.debug",
+        "documentation": {}
+    },
+    {
+        "label": "is_daytime",
+        "kind": 2,
+        "importPath": "legacy.version2.debug",
+        "description": "legacy.version2.debug",
+        "peekOfCode": "def is_daytime():\n    # CHECK TIME OF DAY IN CENTRAL STANDARD TIME\n    current_time = datetime.datetime.now()\n    if current_time.hour >= 11 and current_time.hour <= 23:\n        return True\n    else:\n        return False\nprint(f'I can only play with {buying_power} dollars')\n# %%\ndef main_loop():",
+        "detail": "legacy.version2.debug",
+        "documentation": {}
+    },
+    {
+        "label": "main_loop",
+        "kind": 2,
+        "importPath": "legacy.version2.debug",
+        "description": "legacy.version2.debug",
+        "peekOfCode": "def main_loop():\n    \"\"\"\n    The main_loop function is the main function that runs the entire program.\n    It will run forever, and it will check for signals every 5 minutes during\n    the day time (9am-4pm) and every 30 minutes at night. It will also cancel all orders before running.\n    :return: The crypto_data dataframe\n    :doc-author: Trelent\n    \"\"\"\n    global crypto_data\n    while True:",
+        "detail": "legacy.version2.debug",
+        "documentation": {}
+    },
+    {
+        "label": "panic_mode",
+        "kind": 5,
+        "importPath": "legacy.version2.debug",
+        "description": "legacy.version2.debug",
+        "peekOfCode": "panic_mode = False # set to True to sell all crypto positions immediately\n# List of cryptocurrencies to trade\ncryptos = ['BTC', 'ETH', 'ADA', 'DOGE', 'MATIC', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'SOL', 'AVAX', 'XLM', 'BCH', 'XTZ']\ncryptos = ['BTC', 'ETH', 'ADA'] #todo remove this; it is for testing purposes only\ncrypto_data = pd.DataFrame()\n# log file\nlogger = logging.getLogger('crypto_trader')\nlogger.setLevel(logging.DEBUG)\nfh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)",
+        "detail": "legacy.version2.debug",
+        "documentation": {}
+    },
+    {
+        "label": "cryptos",
+        "kind": 5,
+        "importPath": "legacy.version2.debug",
+        "description": "legacy.version2.debug",
+        "peekOfCode": "cryptos = ['BTC', 'ETH', 'ADA', 'DOGE', 'MATIC', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'SOL', 'AVAX', 'XLM', 'BCH', 'XTZ']\ncryptos = ['BTC', 'ETH', 'ADA'] #todo remove this; it is for testing purposes only\ncrypto_data = pd.DataFrame()\n# log file\nlogger = logging.getLogger('crypto_trader')\nlogger.setLevel(logging.DEBUG)\nfh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)\nlogger.addHandler(fh)\n# import datetime now",
+        "detail": "legacy.version2.debug",
+        "documentation": {}
+    },
+    {
+        "label": "cryptos",
+        "kind": 5,
+        "importPath": "legacy.version2.debug",
+        "description": "legacy.version2.debug",
+        "peekOfCode": "cryptos = ['BTC', 'ETH', 'ADA'] #todo remove this; it is for testing purposes only\ncrypto_data = pd.DataFrame()\n# log file\nlogger = logging.getLogger('crypto_trader')\nlogger.setLevel(logging.DEBUG)\nfh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)\nlogger.addHandler(fh)\n# import datetime now\nfrom datetime import datetime",
+        "detail": "legacy.version2.debug",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_data",
+        "kind": 5,
+        "importPath": "legacy.version2.debug",
+        "description": "legacy.version2.debug",
+        "peekOfCode": "crypto_data = pd.DataFrame()\n# log file\nlogger = logging.getLogger('crypto_trader')\nlogger.setLevel(logging.DEBUG)\nfh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)\nlogger.addHandler(fh)\n# import datetime now\nfrom datetime import datetime\n# import now function",
+        "detail": "legacy.version2.debug",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "legacy.version2.debug",
+        "description": "legacy.version2.debug",
+        "peekOfCode": "logger = logging.getLogger('crypto_trader')\nlogger.setLevel(logging.DEBUG)\nfh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)\nlogger.addHandler(fh)\n# import datetime now\nfrom datetime import datetime\n# import now function\nfrom datetime import datetime\n# import time",
+        "detail": "legacy.version2.debug",
+        "documentation": {}
+    },
+    {
+        "label": "fh",
+        "kind": 5,
+        "importPath": "legacy.version2.debug",
+        "description": "legacy.version2.debug",
+        "peekOfCode": "fh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)\nlogger.addHandler(fh)\n# import datetime now\nfrom datetime import datetime\n# import now function\nfrom datetime import datetime\n# import time\nimport time\nnow = datetime.now()",
+        "detail": "legacy.version2.debug",
+        "documentation": {}
+    },
+    {
+        "label": "now",
+        "kind": 5,
+        "importPath": "legacy.version2.debug",
+        "description": "legacy.version2.debug",
+        "peekOfCode": "now = datetime.now()\nbuying_limiter = 0.60 # limits buys to 60% of buying power\n# Initialize an empty dataframe to store crypto data\ncrypto_data = pd.DataFrame()\ndef get_crypto_data(cryptos, crypto_data):\n    for crypto in tqdm(cryptos):\n        try:\n           # ic()\n            #print(f'Getting data for {crypto}, please wait...',end='')\n            # Get historical data",
+        "detail": "legacy.version2.debug",
+        "documentation": {}
+    },
+    {
+        "label": "buying_limiter",
+        "kind": 5,
+        "importPath": "legacy.version2.debug",
+        "description": "legacy.version2.debug",
+        "peekOfCode": "buying_limiter = 0.60 # limits buys to 60% of buying power\n# Initialize an empty dataframe to store crypto data\ncrypto_data = pd.DataFrame()\ndef get_crypto_data(cryptos, crypto_data):\n    for crypto in tqdm(cryptos):\n        try:\n           # ic()\n            #print(f'Getting data for {crypto}, please wait...',end='')\n            # Get historical data\n            historicals = r.get_crypto_historicals(crypto, interval='day', span='week')",
+        "detail": "legacy.version2.debug",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_data",
+        "kind": 5,
+        "importPath": "legacy.version2.debug",
+        "description": "legacy.version2.debug",
+        "peekOfCode": "crypto_data = pd.DataFrame()\ndef get_crypto_data(cryptos, crypto_data):\n    for crypto in tqdm(cryptos):\n        try:\n           # ic()\n            #print(f'Getting data for {crypto}, please wait...',end='')\n            # Get historical data\n            historicals = r.get_crypto_historicals(crypto, interval='day', span='week')\n            current_price = historicals[-1]['close_price']\n            historical_prices = [x['close_price'] for x in historicals]",
+        "detail": "legacy.version2.debug",
+        "documentation": {}
+    },
+    {
+        "label": "color_options",
+        "kind": 5,
+        "importPath": "legacy.version2.debug",
+        "description": "legacy.version2.debug",
+        "peekOfCode": "color_options = [\n    Fore.BLACK,\n    Fore.RED,\n    Fore.GREEN,\n    Fore.YELLOW,\n    Fore.BLUE,\n    Fore.MAGENTA,\n    Fore.CYAN,\n    Fore.WHITE,\n    Fore.LIGHTBLACK_EX,",
+        "detail": "legacy.version2.debug",
+        "documentation": {}
+    },
+    {
+        "label": "background_options",
+        "kind": 5,
+        "importPath": "legacy.version2.debug",
+        "description": "legacy.version2.debug",
+        "peekOfCode": "background_options = [\n    Back.BLACK,\n    Back.RED,\n    Back.GREEN,\n    Back.YELLOW,\n    Back.BLUE,\n    Back.MAGENTA,\n    Back.CYAN,\n    Back.WHITE,\n    Back.LIGHTBLACK_EX,",
+        "detail": "legacy.version2.debug",
+        "documentation": {}
+    },
+    {
+        "label": "style_options",
+        "kind": 5,
+        "importPath": "legacy.version2.debug",
+        "description": "legacy.version2.debug",
+        "peekOfCode": "style_options = [\n    Style.DIM,\n    Style.NORMAL,\n    Style.BRIGHT,\n]\n# %%\nimport pandas as pd\nimport numpy as np\nfrom tqdm import tqdm\nfrom colorama import Fore, Back",
+        "detail": "legacy.version2.debug",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_data",
+        "kind": 5,
+        "importPath": "legacy.version2.debug",
+        "description": "legacy.version2.debug",
+        "peekOfCode": "crypto_data = get_crypto_data(cryptos, crypto_data)\ncrypto_data.to_csv('crypto_data.csv', index=False)\n# show the dataframe\ncrypto_data.head()\n# %%\ndir(r.orders)\n# %%\nimport time\nimport datetime\nfrom ratelimit import limits, sleep_and_retry",
+        "detail": "legacy.version2.debug",
+        "documentation": {}
+    },
+    {
+        "label": "buying_limiter",
+        "kind": 5,
+        "importPath": "legacy.version2.debug",
+        "description": "legacy.version2.debug",
+        "peekOfCode": "buying_limiter = 0.60 # only use 60% of the buying power\n# Read the crypto_data.csv file with the correct data types\ncrypto_data = pd.read_csv('crypto_data.csv', converters={'historical_prices': eval})\nbuying_power = float(r.profiles.load_account_profile(info='crypto_buying_power')) * float(buying_limiter) # only use 60% of the buying power\ndef is_daytime():\n    # CHECK TIME OF DAY IN CENTRAL STANDARD TIME\n    current_time = datetime.datetime.now()\n    if current_time.hour >= 11 and current_time.hour <= 23:\n        return True\n    else:",
+        "detail": "legacy.version2.debug",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_data",
+        "kind": 5,
+        "importPath": "legacy.version2.debug",
+        "description": "legacy.version2.debug",
+        "peekOfCode": "crypto_data = pd.read_csv('crypto_data.csv', converters={'historical_prices': eval})\nbuying_power = float(r.profiles.load_account_profile(info='crypto_buying_power')) * float(buying_limiter) # only use 60% of the buying power\ndef is_daytime():\n    # CHECK TIME OF DAY IN CENTRAL STANDARD TIME\n    current_time = datetime.datetime.now()\n    if current_time.hour >= 11 and current_time.hour <= 23:\n        return True\n    else:\n        return False\nprint(f'I can only play with {buying_power} dollars')",
+        "detail": "legacy.version2.debug",
+        "documentation": {}
+    },
+    {
+        "label": "buying_power",
+        "kind": 5,
+        "importPath": "legacy.version2.debug",
+        "description": "legacy.version2.debug",
+        "peekOfCode": "buying_power = float(r.profiles.load_account_profile(info='crypto_buying_power')) * float(buying_limiter) # only use 60% of the buying power\ndef is_daytime():\n    # CHECK TIME OF DAY IN CENTRAL STANDARD TIME\n    current_time = datetime.datetime.now()\n    if current_time.hour >= 11 and current_time.hour <= 23:\n        return True\n    else:\n        return False\nprint(f'I can only play with {buying_power} dollars')\n# %%",
+        "detail": "legacy.version2.debug",
+        "documentation": {}
+    },
+    {
+        "label": "CryptoTrader",
+        "kind": 6,
+        "importPath": "legacy.version2.import logging",
+        "description": "legacy.version2.import logging",
+        "peekOfCode": "class CryptoTrader:\n    def __init__(self, cryptos, username, password):\n        self.r = None\n        self.logger = None\n        self.username = username\n        self.password = password\n        self.cryptos = cryptos\n        self.panic_mode = False\n        self.crypto_data = pd.DataFrame()\n        self.setup_logging()",
+        "detail": "legacy.version2.import logging",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "legacy.version2.import logging",
+        "description": "legacy.version2.import logging",
+        "peekOfCode": "def main():\n    cryptos = ['BTC', 'ETH', 'ADA', 'DOGE', 'MATIC', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'SOL', 'AVAX', 'XLM', 'BCH', 'XTZ']\n    trader = CryptoTrader(cryptos, 'username', 'password')\n    trader.get_crypto_data()\nif __name__ == '__main__':\n    main()",
+        "detail": "legacy.version2.import logging",
+        "documentation": {}
+    },
+    {
+        "label": "TraderClass",
+        "kind": 6,
+        "importPath": "legacy.version2.main",
+        "description": "legacy.version2.main",
+        "peekOfCode": "class TraderClass:\n    def __init__(self):\n        # read credentials from file\n        with open('secrets.json') as f:\n            data = json.load(f)\n            username = data['username']\n            password = data['password']\n        self.username = username\n        self.password = password\n        self.login = r.login(self.username, self.password)",
+        "detail": "legacy.version2.main",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "kind": 2,
+        "importPath": "legacy.version2.main",
+        "description": "legacy.version2.main",
+        "peekOfCode": "def sleep_and_retry(func):\n    time.sleep(1)\n    return func\nimport pandas as pd\ndef create_position_dataframes(data):\n    position_dataframes = {}\n    for symbol, details in data.items():\n        position_df = pd.DataFrame.from_dict(details, orient='index').T\n        position_dataframes[symbol] = position_df\n    return position_dataframes",
+        "detail": "legacy.version2.main",
+        "documentation": {}
+    },
+    {
+        "label": "create_position_dataframes",
+        "kind": 2,
+        "importPath": "legacy.version2.main",
+        "description": "legacy.version2.main",
+        "peekOfCode": "def create_position_dataframes(data):\n    position_dataframes = {}\n    for symbol, details in data.items():\n        position_df = pd.DataFrame.from_dict(details, orient='index').T\n        position_dataframes[symbol] = position_df\n    return position_dataframes\nclass TraderClass:\n    def __init__(self):\n        # read credentials from file\n        with open('secrets.json') as f:",
+        "detail": "legacy.version2.main",
+        "documentation": {}
+    },
+    {
+        "label": "trader",
+        "kind": 5,
+        "importPath": "legacy.version2.main",
+        "description": "legacy.version2.main",
+        "peekOfCode": "trader = TraderClass()\n# run for 1 hour on BTC\ntrader.main_loop('BTC')",
+        "detail": "legacy.version2.main",
+        "documentation": {}
+    },
+    {
+        "label": "TraderClass",
+        "kind": 6,
+        "importPath": "legacy.version2.main2",
+        "description": "legacy.version2.main2",
+        "peekOfCode": "class TraderClass:\n    def __init__(self):\n        # read credentials from file\n        with open('secrets.json') as f:\n            data = json.load(f)\n            username = data['username']\n            password = data['password']\n        self.username = username\n        self.password = password\n        self.login()",
+        "detail": "legacy.version2.main2",
+        "documentation": {}
+    },
+    {
+        "label": "trader",
+        "kind": 5,
+        "importPath": "legacy.version2.main2",
+        "description": "legacy.version2.main2",
+        "peekOfCode": "trader = TraderClass()\nprint(trader.holdings)\ntime.sleep(random.randint(1, 5))\nprint(trader.profile)\nprint(f'Equity: {trader.equity}')\nport_cash = trader.profile['portfolio_cash']\nos.environ['PORTFOLIO_CASH'] = port_cash\nos.environ['BUYING_POWER'] = trader.profile['buying_power']\nprint(f\"Total Cash: {float(port_cash) + trader.total_profit}\")\nprint(f'Total Profit: {trader.total_profit}')",
+        "detail": "legacy.version2.main2",
+        "documentation": {}
+    },
+    {
+        "label": "port_cash",
+        "kind": 5,
+        "importPath": "legacy.version2.main2",
+        "description": "legacy.version2.main2",
+        "peekOfCode": "port_cash = trader.profile['portfolio_cash']\nos.environ['PORTFOLIO_CASH'] = port_cash\nos.environ['BUYING_POWER'] = trader.profile['buying_power']\nprint(f\"Total Cash: {float(port_cash) + trader.total_profit}\")\nprint(f'Total Profit: {trader.total_profit}')\nprint(f'Total Profit Percent: {trader.total_profit_percent}')\nprint(f'Running trading strategy...')\ntrader.run_trading_strategy()",
+        "detail": "legacy.version2.main2",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ['PORTFOLIO_CASH']",
+        "kind": 5,
+        "importPath": "legacy.version2.main2",
+        "description": "legacy.version2.main2",
+        "peekOfCode": "os.environ['PORTFOLIO_CASH'] = port_cash\nos.environ['BUYING_POWER'] = trader.profile['buying_power']\nprint(f\"Total Cash: {float(port_cash) + trader.total_profit}\")\nprint(f'Total Profit: {trader.total_profit}')\nprint(f'Total Profit Percent: {trader.total_profit_percent}')\nprint(f'Running trading strategy...')\ntrader.run_trading_strategy()",
+        "detail": "legacy.version2.main2",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ['BUYING_POWER']",
+        "kind": 5,
+        "importPath": "legacy.version2.main2",
+        "description": "legacy.version2.main2",
+        "peekOfCode": "os.environ['BUYING_POWER'] = trader.profile['buying_power']\nprint(f\"Total Cash: {float(port_cash) + trader.total_profit}\")\nprint(f'Total Profit: {trader.total_profit}')\nprint(f'Total Profit Percent: {trader.total_profit_percent}')\nprint(f'Running trading strategy...')\ntrader.run_trading_strategy()",
+        "detail": "legacy.version2.main2",
+        "documentation": {}
+    },
+    {
+        "label": "get_crypto_data",
+        "kind": 2,
+        "importPath": "legacy.version2.no_comments",
+        "description": "legacy.version2.no_comments",
+        "peekOfCode": "def get_crypto_data(cryptos, crypto_data):\n    for crypto in tqdm(cryptos):\n        try:\n            historicals = r.get_crypto_historicals(crypto, interval='day', span='week')\n            current_price = historicals[-1]['close_price']\n            historical_prices = [x['close_price'] for x in historicals]\n            profile = r.profiles.load_account_profile()\n            buying_power = profile['buying_power']\n            positions = r.crypto.get_crypto_positions()\n            print(f'found {len(positions)} positions.')",
+        "detail": "legacy.version2.no_comments",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_pct_change_5h",
+        "kind": 2,
+        "importPath": "legacy.version2.no_comments",
+        "description": "legacy.version2.no_comments",
+        "peekOfCode": "def calculate_pct_change_5h(historical_prices, current_price):\n    try:\n        historical_prices_last_5 = historical_prices[-5:]\n        if all(price != 0.0 for price in historical_prices_last_5):\n            return (current_price - historical_prices_last_5[-1]) / historical_prices_last_5[-1]\n        else:\n            for price in reversed(historical_prices_last_5):\n                if price != 0.0:\n                    return (current_price - price) / price\n        return 0.0",
+        "detail": "legacy.version2.no_comments",
+        "documentation": {}
+    },
+    {
+        "label": "convert_to_float_list",
+        "kind": 2,
+        "importPath": "legacy.version2.no_comments",
+        "description": "legacy.version2.no_comments",
+        "peekOfCode": "def convert_to_float_list(x):\n    if isinstance(x, str):\n        return [float(price) for price in x.strip('[]').split(',')]\n    elif isinstance(x, list):\n        return [float(i) for i in x]\n    else:\n        return [x]\ndef update_signals(crypto_data):\n    \"\"\"\n    The update_signals function takes in a dataframe of crypto_data and updates the signal column based on various conditions.",
+        "detail": "legacy.version2.no_comments",
+        "documentation": {}
+    },
+    {
+        "label": "update_signals",
+        "kind": 2,
+        "importPath": "legacy.version2.no_comments",
+        "description": "legacy.version2.no_comments",
+        "peekOfCode": "def update_signals(crypto_data):\n    \"\"\"\n    The update_signals function takes in a dataframe of crypto_data and updates the signal column based on various conditions.\n    The function first converts the current price to a float, then calculates take profit and stop loss values for each row.\n    It then converts historical prices to floats, changes all columns except for symbol to numeric values,\n    and calculates pct change 5h using calculate_pct_change_5h function. It sets all signals equal to 0 initially (no signal),\n    then updates them based on different conditions such as rsi &lt; 30 &amp; macd &gt; 0 or current price &gt; ma200.\n    :param crypto_data: Pass in the dataframe that contains all the crypto data\n    :return: A dataframe with the following columns:\n    :doc-author: Trelent",
+        "detail": "legacy.version2.no_comments",
+        "documentation": {}
+    },
+    {
+        "label": "order_crypto",
+        "kind": 2,
+        "importPath": "legacy.version2.no_comments",
+        "description": "legacy.version2.no_comments",
+        "peekOfCode": "def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy'):\n    \"\"\"\n    The order_crypto function is used to place a crypto order.\n    :param symbol: Specify the coin you want to buy\n    :param quantity_or_price: Specify the amount of crypto you want to buy or sell\n    :param amount_in: Specify the amount of money you want to spend on buying a coin\n    :param side: Specify whether you want to buy or sell the coin\n    :return: A dictionary with the following keys:\n    :doc-author: Trelent\n    \"\"\"",
+        "detail": "legacy.version2.no_comments",
+        "documentation": {}
+    },
+    {
+        "label": "is_daytime",
+        "kind": 2,
+        "importPath": "legacy.version2.no_comments",
+        "description": "legacy.version2.no_comments",
+        "peekOfCode": "def is_daytime():\n    current_time = datetime.datetime.now()\n    if current_time.hour >= 11 and current_time.hour <= 23:\n        return True\n    else:\n        return False\nprint(f'I can only play with {buying_power} dollars')\ndef main_loop():\n    \"\"\"\n    The main_loop function is the main function that runs the entire program.",
+        "detail": "legacy.version2.no_comments",
+        "documentation": {}
+    },
+    {
+        "label": "main_loop",
+        "kind": 2,
+        "importPath": "legacy.version2.no_comments",
+        "description": "legacy.version2.no_comments",
+        "peekOfCode": "def main_loop():\n    \"\"\"\n    The main_loop function is the main function that runs the entire program.\n    It will run forever, and it will check for signals every 5 minutes during\n    the day time (9am-4pm) and every 30 minutes at night. It will also cancel all orders before running.\n    :return: The crypto_data dataframe\n    :doc-author: Trelent\n    \"\"\"\n    global crypto_data\n    while True:",
+        "detail": "legacy.version2.no_comments",
+        "documentation": {}
+    },
+    {
+        "label": "panic_mode",
+        "kind": 5,
+        "importPath": "legacy.version2.no_comments",
+        "description": "legacy.version2.no_comments",
+        "peekOfCode": "panic_mode = False\ncryptos = ['BTC', 'ETH', 'ADA', 'DOGE', 'MATIC', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'SOL', 'AVAX', 'XLM', 'BCH', 'XTZ']\ncryptos = ['BTC', 'ETH', 'ADA']\ncrypto_data = pd.DataFrame()\nlogger = logging.getLogger('crypto_trader')\nlogger.setLevel(logging.DEBUG)\nfh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)\nlogger.addHandler(fh)\nfrom datetime import datetime",
+        "detail": "legacy.version2.no_comments",
+        "documentation": {}
+    },
+    {
+        "label": "cryptos",
+        "kind": 5,
+        "importPath": "legacy.version2.no_comments",
+        "description": "legacy.version2.no_comments",
+        "peekOfCode": "cryptos = ['BTC', 'ETH', 'ADA', 'DOGE', 'MATIC', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'SOL', 'AVAX', 'XLM', 'BCH', 'XTZ']\ncryptos = ['BTC', 'ETH', 'ADA']\ncrypto_data = pd.DataFrame()\nlogger = logging.getLogger('crypto_trader')\nlogger.setLevel(logging.DEBUG)\nfh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)\nlogger.addHandler(fh)\nfrom datetime import datetime\nfrom datetime import datetime",
+        "detail": "legacy.version2.no_comments",
+        "documentation": {}
+    },
+    {
+        "label": "cryptos",
+        "kind": 5,
+        "importPath": "legacy.version2.no_comments",
+        "description": "legacy.version2.no_comments",
+        "peekOfCode": "cryptos = ['BTC', 'ETH', 'ADA']\ncrypto_data = pd.DataFrame()\nlogger = logging.getLogger('crypto_trader')\nlogger.setLevel(logging.DEBUG)\nfh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)\nlogger.addHandler(fh)\nfrom datetime import datetime\nfrom datetime import datetime\nimport time",
+        "detail": "legacy.version2.no_comments",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_data",
+        "kind": 5,
+        "importPath": "legacy.version2.no_comments",
+        "description": "legacy.version2.no_comments",
+        "peekOfCode": "crypto_data = pd.DataFrame()\nlogger = logging.getLogger('crypto_trader')\nlogger.setLevel(logging.DEBUG)\nfh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)\nlogger.addHandler(fh)\nfrom datetime import datetime\nfrom datetime import datetime\nimport time\nnow = datetime.now()",
+        "detail": "legacy.version2.no_comments",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "legacy.version2.no_comments",
+        "description": "legacy.version2.no_comments",
+        "peekOfCode": "logger = logging.getLogger('crypto_trader')\nlogger.setLevel(logging.DEBUG)\nfh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)\nlogger.addHandler(fh)\nfrom datetime import datetime\nfrom datetime import datetime\nimport time\nnow = datetime.now()\nbuying_limiter = 0.60",
+        "detail": "legacy.version2.no_comments",
+        "documentation": {}
+    },
+    {
+        "label": "fh",
+        "kind": 5,
+        "importPath": "legacy.version2.no_comments",
+        "description": "legacy.version2.no_comments",
+        "peekOfCode": "fh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)\nlogger.addHandler(fh)\nfrom datetime import datetime\nfrom datetime import datetime\nimport time\nnow = datetime.now()\nbuying_limiter = 0.60\ncrypto_data = pd.DataFrame()\ndef get_crypto_data(cryptos, crypto_data):",
+        "detail": "legacy.version2.no_comments",
+        "documentation": {}
+    },
+    {
+        "label": "now",
+        "kind": 5,
+        "importPath": "legacy.version2.no_comments",
+        "description": "legacy.version2.no_comments",
+        "peekOfCode": "now = datetime.now()\nbuying_limiter = 0.60\ncrypto_data = pd.DataFrame()\ndef get_crypto_data(cryptos, crypto_data):\n    for crypto in tqdm(cryptos):\n        try:\n            historicals = r.get_crypto_historicals(crypto, interval='day', span='week')\n            current_price = historicals[-1]['close_price']\n            historical_prices = [x['close_price'] for x in historicals]\n            profile = r.profiles.load_account_profile()",
+        "detail": "legacy.version2.no_comments",
+        "documentation": {}
+    },
+    {
+        "label": "buying_limiter",
+        "kind": 5,
+        "importPath": "legacy.version2.no_comments",
+        "description": "legacy.version2.no_comments",
+        "peekOfCode": "buying_limiter = 0.60\ncrypto_data = pd.DataFrame()\ndef get_crypto_data(cryptos, crypto_data):\n    for crypto in tqdm(cryptos):\n        try:\n            historicals = r.get_crypto_historicals(crypto, interval='day', span='week')\n            current_price = historicals[-1]['close_price']\n            historical_prices = [x['close_price'] for x in historicals]\n            profile = r.profiles.load_account_profile()\n            buying_power = profile['buying_power']",
+        "detail": "legacy.version2.no_comments",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_data",
+        "kind": 5,
+        "importPath": "legacy.version2.no_comments",
+        "description": "legacy.version2.no_comments",
+        "peekOfCode": "crypto_data = pd.DataFrame()\ndef get_crypto_data(cryptos, crypto_data):\n    for crypto in tqdm(cryptos):\n        try:\n            historicals = r.get_crypto_historicals(crypto, interval='day', span='week')\n            current_price = historicals[-1]['close_price']\n            historical_prices = [x['close_price'] for x in historicals]\n            profile = r.profiles.load_account_profile()\n            buying_power = profile['buying_power']\n            positions = r.crypto.get_crypto_positions()",
+        "detail": "legacy.version2.no_comments",
+        "documentation": {}
+    },
+    {
+        "label": "color_options",
+        "kind": 5,
+        "importPath": "legacy.version2.no_comments",
+        "description": "legacy.version2.no_comments",
+        "peekOfCode": "color_options = [\n    Fore.BLACK,\n    Fore.RED,\n    Fore.GREEN,\n    Fore.YELLOW,\n    Fore.BLUE,\n    Fore.MAGENTA,\n    Fore.CYAN,\n    Fore.WHITE,\n    Fore.LIGHTBLACK_EX,",
+        "detail": "legacy.version2.no_comments",
+        "documentation": {}
+    },
+    {
+        "label": "background_options",
+        "kind": 5,
+        "importPath": "legacy.version2.no_comments",
+        "description": "legacy.version2.no_comments",
+        "peekOfCode": "background_options = [\n    Back.BLACK,\n    Back.RED,\n    Back.GREEN,\n    Back.YELLOW,\n    Back.BLUE,\n    Back.MAGENTA,\n    Back.CYAN,\n    Back.WHITE,\n    Back.LIGHTBLACK_EX,",
+        "detail": "legacy.version2.no_comments",
+        "documentation": {}
+    },
+    {
+        "label": "style_options",
+        "kind": 5,
+        "importPath": "legacy.version2.no_comments",
+        "description": "legacy.version2.no_comments",
+        "peekOfCode": "style_options = [\n    Style.DIM,\n    Style.NORMAL,\n    Style.BRIGHT,\n]\nimport pandas as pd\nimport numpy as np\nfrom tqdm import tqdm\nfrom colorama import Fore, Back\ndef calculate_pct_change_5h(historical_prices, current_price):",
+        "detail": "legacy.version2.no_comments",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_data",
+        "kind": 5,
+        "importPath": "legacy.version2.no_comments",
+        "description": "legacy.version2.no_comments",
+        "peekOfCode": "crypto_data = get_crypto_data(cryptos, crypto_data)\ncrypto_data.to_csv('crypto_data.csv', index=False)\ncrypto_data.head()\ndir(r.orders)\nimport time\nimport datetime\nfrom ratelimit import limits, sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy'):\n    \"\"\"\n    The order_crypto function is used to place a crypto order.",
+        "detail": "legacy.version2.no_comments",
+        "documentation": {}
+    },
+    {
+        "label": "buying_limiter",
+        "kind": 5,
+        "importPath": "legacy.version2.no_comments",
+        "description": "legacy.version2.no_comments",
+        "peekOfCode": "buying_limiter = 0.60\ncrypto_data = pd.read_csv('crypto_data.csv', converters={'historical_prices': eval})\nbuying_power = float(r.profiles.load_account_profile(info='crypto_buying_power')) * float(buying_limiter)\ndef is_daytime():\n    current_time = datetime.datetime.now()\n    if current_time.hour >= 11 and current_time.hour <= 23:\n        return True\n    else:\n        return False\nprint(f'I can only play with {buying_power} dollars')",
+        "detail": "legacy.version2.no_comments",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_data",
+        "kind": 5,
+        "importPath": "legacy.version2.no_comments",
+        "description": "legacy.version2.no_comments",
+        "peekOfCode": "crypto_data = pd.read_csv('crypto_data.csv', converters={'historical_prices': eval})\nbuying_power = float(r.profiles.load_account_profile(info='crypto_buying_power')) * float(buying_limiter)\ndef is_daytime():\n    current_time = datetime.datetime.now()\n    if current_time.hour >= 11 and current_time.hour <= 23:\n        return True\n    else:\n        return False\nprint(f'I can only play with {buying_power} dollars')\ndef main_loop():",
+        "detail": "legacy.version2.no_comments",
+        "documentation": {}
+    },
+    {
+        "label": "buying_power",
+        "kind": 5,
+        "importPath": "legacy.version2.no_comments",
+        "description": "legacy.version2.no_comments",
+        "peekOfCode": "buying_power = float(r.profiles.load_account_profile(info='crypto_buying_power')) * float(buying_limiter)\ndef is_daytime():\n    current_time = datetime.datetime.now()\n    if current_time.hour >= 11 and current_time.hour <= 23:\n        return True\n    else:\n        return False\nprint(f'I can only play with {buying_power} dollars')\ndef main_loop():\n    \"\"\"",
+        "detail": "legacy.version2.no_comments",
+        "documentation": {}
+    },
+    {
+        "label": "get_crypto_data",
+        "kind": 2,
+        "importPath": "legacy.version2.notebookv4",
+        "description": "legacy.version2.notebookv4",
+        "peekOfCode": "def get_crypto_data(cryptos, crypto_data):\n    for crypto in tqdm(cryptos):\n        try:\n            #print(f'Getting data for {crypto}, please wait...',end='')\n            # Get historical data\n            historicals = r.get_crypto_historicals(crypto, interval='day', span='week')\n            current_price = historicals[-1]['close_price']\n            historical_prices = [x['close_price'] for x in historicals]\n            # Load account profile\n            profile = r.profiles.load_account_profile()",
+        "detail": "legacy.version2.notebookv4",
+        "documentation": {}
+    },
+    {
+        "label": "update_signals",
+        "kind": 2,
+        "importPath": "legacy.version2.notebookv4",
+        "description": "legacy.version2.notebookv4",
+        "peekOfCode": "def update_signals():\n    stop_loss = 0.95 # 5% loss\n    take_profit = 1.03 # 3% profit\n    try:\n        # Generate trading signals based on technical indicators\n        for index, row in tqdm(crypto_data.iterrows()):\n            # Convert historical_prices to a list if it's not already\n            if isinstance(row['historical_prices'], str):\n                historical_prices = [float(price) for price in row['historical_prices'].strip('[]').split(',')]\n            else:",
+        "detail": "legacy.version2.notebookv4",
+        "documentation": {}
+    },
+    {
+        "label": "order_crypto",
+        "kind": 2,
+        "importPath": "legacy.version2.notebookv4",
+        "description": "legacy.version2.notebookv4",
+        "peekOfCode": "def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy'):\n    \"\"\"\n    The order_crypto function is used to place a crypto order.\n    :param symbol: Specify the coin you want to buy\n    :param quantity_or_price: Specify the amount of crypto you want to buy or sell\n    :param amount_in: Specify the amount of money you want to spend on buying a coin\n    :param side: Specify whether you want to buy or sell the coin\n    :return: A dictionary with the following keys:\n    :doc-author: Trelent\n    \"\"\"",
+        "detail": "legacy.version2.notebookv4",
+        "documentation": {}
+    },
+    {
+        "label": "is_daytime",
+        "kind": 2,
+        "importPath": "legacy.version2.notebookv4",
+        "description": "legacy.version2.notebookv4",
+        "peekOfCode": "def is_daytime():\n    # CHECK TIME OF DAY IN CENTRAL STANDARD TIME\n    current_time = datetime.datetime.now()\n    if current_time.hour >= 11 and current_time.hour <= 23:\n        return True\n    else:\n        return False\nprint(f'I can only play with {buying_power} dollars')\ndef main_loop():\n    \"\"\"",
+        "detail": "legacy.version2.notebookv4",
+        "documentation": {}
+    },
+    {
+        "label": "main_loop",
+        "kind": 2,
+        "importPath": "legacy.version2.notebookv4",
+        "description": "legacy.version2.notebookv4",
+        "peekOfCode": "def main_loop():\n    \"\"\"\n    The main_loop function is the main function of this program. It runs every ten minutes and updates the signals for each coin, then checks if we own any coins or not. If we do, it will check to see if there are any sell signals (signal &lt; -0.5) and sell 70% of our holdings in that coin; otherwise, it will check to see if there are buy signals (signal &gt; 0.5) and buy 50% of 1% of our buying power worth in that coin.\n    :return: The following:\n    :doc-author: Trelent\n    \"\"\"\n    global crypto_data\n    while True:\n        # cancel all orders\n        r.cancel_all_crypto_orders()",
+        "detail": "legacy.version2.notebookv4",
+        "documentation": {}
+    },
+    {
+        "label": "panic_mode",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv4",
+        "description": "legacy.version2.notebookv4",
+        "peekOfCode": "panic_mode = False # set to True to sell all crypto positions immediately\n# List of cryptocurrencies to trade\ncryptos = ['BTC', 'ETH', 'ADA', 'DOGE', 'MATIC', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'SOL', 'AVAX', 'XLM', 'BCH', 'XTZ']\n# create a dataframe to store transactions (this is where we can get the `buy_price` from later)\ntransactions = pd.DataFrame()\n# log file\nlogger = logging.getLogger('crypto_trader')\nlogger.setLevel(logging.DEBUG)\nfh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)",
+        "detail": "legacy.version2.notebookv4",
+        "documentation": {}
+    },
+    {
+        "label": "cryptos",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv4",
+        "description": "legacy.version2.notebookv4",
+        "peekOfCode": "cryptos = ['BTC', 'ETH', 'ADA', 'DOGE', 'MATIC', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'SOL', 'AVAX', 'XLM', 'BCH', 'XTZ']\n# create a dataframe to store transactions (this is where we can get the `buy_price` from later)\ntransactions = pd.DataFrame()\n# log file\nlogger = logging.getLogger('crypto_trader')\nlogger.setLevel(logging.DEBUG)\nfh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)\nlogger.addHandler(fh)\n# import datetime now",
+        "detail": "legacy.version2.notebookv4",
+        "documentation": {}
+    },
+    {
+        "label": "transactions",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv4",
+        "description": "legacy.version2.notebookv4",
+        "peekOfCode": "transactions = pd.DataFrame()\n# log file\nlogger = logging.getLogger('crypto_trader')\nlogger.setLevel(logging.DEBUG)\nfh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)\nlogger.addHandler(fh)\n# import datetime now\nfrom datetime import datetime\n# import now function",
+        "detail": "legacy.version2.notebookv4",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv4",
+        "description": "legacy.version2.notebookv4",
+        "peekOfCode": "logger = logging.getLogger('crypto_trader')\nlogger.setLevel(logging.DEBUG)\nfh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)\nlogger.addHandler(fh)\n# import datetime now\nfrom datetime import datetime\n# import now function\nfrom datetime import datetime\n# import time",
+        "detail": "legacy.version2.notebookv4",
+        "documentation": {}
+    },
+    {
+        "label": "fh",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv4",
+        "description": "legacy.version2.notebookv4",
+        "peekOfCode": "fh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)\nlogger.addHandler(fh)\n# import datetime now\nfrom datetime import datetime\n# import now function\nfrom datetime import datetime\n# import time\nimport time\nnow = datetime.now()",
+        "detail": "legacy.version2.notebookv4",
+        "documentation": {}
+    },
+    {
+        "label": "now",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv4",
+        "description": "legacy.version2.notebookv4",
+        "peekOfCode": "now = datetime.now()\n# Initialize an empty dataframe to store crypto data\ncrypto_data = pd.DataFrame()\ndef get_crypto_data(cryptos, crypto_data):\n    for crypto in tqdm(cryptos):\n        try:\n            #print(f'Getting data for {crypto}, please wait...',end='')\n            # Get historical data\n            historicals = r.get_crypto_historicals(crypto, interval='day', span='week')\n            current_price = historicals[-1]['close_price']",
+        "detail": "legacy.version2.notebookv4",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_data",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv4",
+        "description": "legacy.version2.notebookv4",
+        "peekOfCode": "crypto_data = pd.DataFrame()\ndef get_crypto_data(cryptos, crypto_data):\n    for crypto in tqdm(cryptos):\n        try:\n            #print(f'Getting data for {crypto}, please wait...',end='')\n            # Get historical data\n            historicals = r.get_crypto_historicals(crypto, interval='day', span='week')\n            current_price = historicals[-1]['close_price']\n            historical_prices = [x['close_price'] for x in historicals]\n            # Load account profile",
+        "detail": "legacy.version2.notebookv4",
+        "documentation": {}
+    },
+    {
+        "label": "color_options",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv4",
+        "description": "legacy.version2.notebookv4",
+        "peekOfCode": "color_options = [\n    Fore.BLACK,\n    Fore.RED,\n    Fore.GREEN,\n    Fore.YELLOW,\n    Fore.BLUE,\n    Fore.MAGENTA,\n    Fore.CYAN,\n    Fore.WHITE,\n    Fore.LIGHTBLACK_EX,",
+        "detail": "legacy.version2.notebookv4",
+        "documentation": {}
+    },
+    {
+        "label": "background_options",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv4",
+        "description": "legacy.version2.notebookv4",
+        "peekOfCode": "background_options = [\n    Back.BLACK,\n    Back.RED,\n    Back.GREEN,\n    Back.YELLOW,\n    Back.BLUE,\n    Back.MAGENTA,\n    Back.CYAN,\n    Back.WHITE,\n    Back.LIGHTBLACK_EX,",
+        "detail": "legacy.version2.notebookv4",
+        "documentation": {}
+    },
+    {
+        "label": "style_options",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv4",
+        "description": "legacy.version2.notebookv4",
+        "peekOfCode": "style_options = [\n    Style.DIM,\n    Style.NORMAL,\n    Style.BRIGHT,\n]\n# %%\ndef update_signals():\n    stop_loss = 0.95 # 5% loss\n    take_profit = 1.03 # 3% profit\n    try:",
+        "detail": "legacy.version2.notebookv4",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_data",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv4",
+        "description": "legacy.version2.notebookv4",
+        "peekOfCode": "crypto_data = get_crypto_data(cryptos, crypto_data)\ncrypto_data.to_csv('crypto_data.csv', index=False)\n# show the dataframe\ncrypto_data.head()\n# %%\ndir(r)\n# %%\ndir(r.orders)\n# %%\nimport time",
+        "detail": "legacy.version2.notebookv4",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_data",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv4",
+        "description": "legacy.version2.notebookv4",
+        "peekOfCode": "crypto_data = pd.read_csv('crypto_data.csv', converters={'historical_prices': eval})\nbuying_power = float(r.profiles.load_account_profile(info='crypto_buying_power')) * 0.60 # only use 60% of the buying power\ndef is_daytime():\n    # CHECK TIME OF DAY IN CENTRAL STANDARD TIME\n    current_time = datetime.datetime.now()\n    if current_time.hour >= 11 and current_time.hour <= 23:\n        return True\n    else:\n        return False\nprint(f'I can only play with {buying_power} dollars')",
+        "detail": "legacy.version2.notebookv4",
+        "documentation": {}
+    },
+    {
+        "label": "buying_power",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv4",
+        "description": "legacy.version2.notebookv4",
+        "peekOfCode": "buying_power = float(r.profiles.load_account_profile(info='crypto_buying_power')) * 0.60 # only use 60% of the buying power\ndef is_daytime():\n    # CHECK TIME OF DAY IN CENTRAL STANDARD TIME\n    current_time = datetime.datetime.now()\n    if current_time.hour >= 11 and current_time.hour <= 23:\n        return True\n    else:\n        return False\nprint(f'I can only play with {buying_power} dollars')\ndef main_loop():",
+        "detail": "legacy.version2.notebookv4",
+        "documentation": {}
+    },
+    {
+        "label": "get_crypto_data",
+        "kind": 2,
+        "importPath": "legacy.version2.notebookv5",
+        "description": "legacy.version2.notebookv5",
+        "peekOfCode": "def get_crypto_data(cryptos, crypto_data):\n    for crypto in tqdm(cryptos):\n        try:\n            #print(f'Getting data for {crypto}, please wait...',end='')\n            # Get historical data\n            historicals = r.get_crypto_historicals(crypto, interval='day', span='week')\n            current_price = historicals[-1]['close_price']\n            historical_prices = [x['close_price'] for x in historicals]\n            # Load account profile\n            profile = r.profiles.load_account_profile()",
+        "detail": "legacy.version2.notebookv5",
+        "documentation": {}
+    },
+    {
+        "label": "update_signals",
+        "kind": 2,
+        "importPath": "legacy.version2.notebookv5",
+        "description": "legacy.version2.notebookv5",
+        "peekOfCode": "def update_signals():\n    stop_loss = 0.95 # 5% loss\n    take_profit = 1.03 # 3% profit\n    transactions_df = pd.read_csv('transactions.csv')\n    def process_prices(x):\n        if isinstance(x, str):\n            return [float(price) for price in x.strip('[]').split(',')]\n        return [float(price) for price in x]\n    def calculate_pct_change(historical_prices, current_price):\n        historical_prices_last_5 = historical_prices[-5:]",
+        "detail": "legacy.version2.notebookv5",
+        "documentation": {}
+    },
+    {
+        "label": "order_crypto",
+        "kind": 2,
+        "importPath": "legacy.version2.notebookv5",
+        "description": "legacy.version2.notebookv5",
+        "peekOfCode": "def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy'):\n    \"\"\"\n    The order_crypto function is used to place a crypto order.\n    :param symbol: Specify the coin you want to buy\n    :param quantity_or_price: Specify the amount of crypto you want to buy or sell\n    :param amount_in: Specify the amount of money you want to spend on buying a coin\n    :param side: Specify whether you want to buy or sell the coin\n    :return: A dictionary with the following keys:\n    :doc-author: Trelent\n    \"\"\"",
+        "detail": "legacy.version2.notebookv5",
+        "documentation": {}
+    },
+    {
+        "label": "is_daytime",
+        "kind": 2,
+        "importPath": "legacy.version2.notebookv5",
+        "description": "legacy.version2.notebookv5",
+        "peekOfCode": "def is_daytime():\n    # CHECK TIME OF DAY IN CENTRAL STANDARD TIME\n    current_time = datetime.datetime.now()\n    if current_time.hour >= 11 and current_time.hour <= 23:\n        return True\n    else:\n        return False\nprint(f'I can only play with {buying_power} dollars')\ndef main_loop():\n    \"\"\"",
+        "detail": "legacy.version2.notebookv5",
+        "documentation": {}
+    },
+    {
+        "label": "main_loop",
+        "kind": 2,
+        "importPath": "legacy.version2.notebookv5",
+        "description": "legacy.version2.notebookv5",
+        "peekOfCode": "def main_loop():\n    \"\"\"\n    The main_loop function is the main function of this program. It runs every ten minutes and updates the signals for each coin, then checks if we own any coins or not. If we do, it will check to see if there are any sell signals (signal &lt; -0.5) and sell 70% of our holdings in that coin; otherwise, it will check to see if there are buy signals (signal &gt; 0.5) and buy 50% of 1% of our buying power worth in that coin.\n    :return: The following:\n    :doc-author: Trelent\n    \"\"\"\n    global crypto_data\n    while True:\n        # cancel all orders\n        r.cancel_all_crypto_orders()",
+        "detail": "legacy.version2.notebookv5",
+        "documentation": {}
+    },
+    {
+        "label": "panic_mode",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv5",
+        "description": "legacy.version2.notebookv5",
+        "peekOfCode": "panic_mode = False # set to True to sell all crypto positions immediately\n# List of cryptocurrencies to trade\ncryptos = ['BTC', 'ETH', 'ADA', 'DOGE', 'MATIC', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'SOL', 'AVAX', 'XLM', 'BCH', 'XTZ']\n# create a dataframe to store transactions (this is where we can get the `buy_price` from later)\ntransactions = pd.DataFrame()\n# log file\nlogger = logging.getLogger('crypto_trader')\nlogger.setLevel(logging.DEBUG)\nfh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)",
+        "detail": "legacy.version2.notebookv5",
+        "documentation": {}
+    },
+    {
+        "label": "cryptos",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv5",
+        "description": "legacy.version2.notebookv5",
+        "peekOfCode": "cryptos = ['BTC', 'ETH', 'ADA', 'DOGE', 'MATIC', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'SOL', 'AVAX', 'XLM', 'BCH', 'XTZ']\n# create a dataframe to store transactions (this is where we can get the `buy_price` from later)\ntransactions = pd.DataFrame()\n# log file\nlogger = logging.getLogger('crypto_trader')\nlogger.setLevel(logging.DEBUG)\nfh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)\nlogger.addHandler(fh)\n# import datetime now",
+        "detail": "legacy.version2.notebookv5",
+        "documentation": {}
+    },
+    {
+        "label": "transactions",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv5",
+        "description": "legacy.version2.notebookv5",
+        "peekOfCode": "transactions = pd.DataFrame()\n# log file\nlogger = logging.getLogger('crypto_trader')\nlogger.setLevel(logging.DEBUG)\nfh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)\nlogger.addHandler(fh)\n# import datetime now\nfrom datetime import datetime\n# import now function",
+        "detail": "legacy.version2.notebookv5",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv5",
+        "description": "legacy.version2.notebookv5",
+        "peekOfCode": "logger = logging.getLogger('crypto_trader')\nlogger.setLevel(logging.DEBUG)\nfh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)\nlogger.addHandler(fh)\n# import datetime now\nfrom datetime import datetime\n# import now function\nfrom datetime import datetime\n# import time",
+        "detail": "legacy.version2.notebookv5",
+        "documentation": {}
+    },
+    {
+        "label": "fh",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv5",
+        "description": "legacy.version2.notebookv5",
+        "peekOfCode": "fh = logging.FileHandler('crypto_trader.log')\nfh.setLevel(logging.DEBUG)\nlogger.addHandler(fh)\n# import datetime now\nfrom datetime import datetime\n# import now function\nfrom datetime import datetime\n# import time\nimport time\nimport json",
+        "detail": "legacy.version2.notebookv5",
+        "documentation": {}
+    },
+    {
+        "label": "now",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv5",
+        "description": "legacy.version2.notebookv5",
+        "peekOfCode": "now = datetime.now()\n# log in to robinhood\nwith open('./V2/secrets.json', 'r') as f:\n    username = json.load(f)['username']\n    password = json.load(f)['password']\n    r.login(username, password)\n# Initialize an empty dataframe to store crypto data\ncrypto_data = pd.DataFrame()\ndef get_crypto_data(cryptos, crypto_data):\n    for crypto in tqdm(cryptos):",
+        "detail": "legacy.version2.notebookv5",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_data",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv5",
+        "description": "legacy.version2.notebookv5",
+        "peekOfCode": "crypto_data = pd.DataFrame()\ndef get_crypto_data(cryptos, crypto_data):\n    for crypto in tqdm(cryptos):\n        try:\n            #print(f'Getting data for {crypto}, please wait...',end='')\n            # Get historical data\n            historicals = r.get_crypto_historicals(crypto, interval='day', span='week')\n            current_price = historicals[-1]['close_price']\n            historical_prices = [x['close_price'] for x in historicals]\n            # Load account profile",
+        "detail": "legacy.version2.notebookv5",
+        "documentation": {}
+    },
+    {
+        "label": "color_options",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv5",
+        "description": "legacy.version2.notebookv5",
+        "peekOfCode": "color_options = [\n    Fore.BLACK,\n    Fore.RED,\n    Fore.GREEN,\n    Fore.YELLOW,\n    Fore.BLUE,\n    Fore.MAGENTA,\n    Fore.CYAN,\n    Fore.WHITE,\n    Fore.LIGHTBLACK_EX,",
+        "detail": "legacy.version2.notebookv5",
+        "documentation": {}
+    },
+    {
+        "label": "background_options",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv5",
+        "description": "legacy.version2.notebookv5",
+        "peekOfCode": "background_options = [\n    Back.BLACK,\n    Back.RED,\n    Back.GREEN,\n    Back.YELLOW,\n    Back.BLUE,\n    Back.MAGENTA,\n    Back.CYAN,\n    Back.WHITE,\n    Back.LIGHTBLACK_EX,",
+        "detail": "legacy.version2.notebookv5",
+        "documentation": {}
+    },
+    {
+        "label": "style_options",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv5",
+        "description": "legacy.version2.notebookv5",
+        "peekOfCode": "style_options = [\n    Style.DIM,\n    Style.NORMAL,\n    Style.BRIGHT,\n]\n# %%\ndef update_signals():\n    stop_loss = 0.95 # 5% loss\n    take_profit = 1.03 # 3% profit\n    transactions_df = pd.read_csv('transactions.csv')",
+        "detail": "legacy.version2.notebookv5",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_data",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv5",
+        "description": "legacy.version2.notebookv5",
+        "peekOfCode": "crypto_data = get_crypto_data(cryptos, crypto_data)\ncrypto_data.to_csv('crypto_data.csv', index=False)\n# show the dataframe\ncrypto_data.head()\n# %%\ndir(r)\n# %%\ndir(r.orders)\n# %%\nimport time",
+        "detail": "legacy.version2.notebookv5",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_data",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv5",
+        "description": "legacy.version2.notebookv5",
+        "peekOfCode": "crypto_data = pd.read_csv('crypto_data.csv', converters={'historical_prices': eval})\nbuying_power = float(r.profiles.load_account_profile(info='crypto_buying_power')) * 0.60 # only use 60% of the buying power\ndef is_daytime():\n    # CHECK TIME OF DAY IN CENTRAL STANDARD TIME\n    current_time = datetime.datetime.now()\n    if current_time.hour >= 11 and current_time.hour <= 23:\n        return True\n    else:\n        return False\nprint(f'I can only play with {buying_power} dollars')",
+        "detail": "legacy.version2.notebookv5",
+        "documentation": {}
+    },
+    {
+        "label": "buying_power",
+        "kind": 5,
+        "importPath": "legacy.version2.notebookv5",
+        "description": "legacy.version2.notebookv5",
+        "peekOfCode": "buying_power = float(r.profiles.load_account_profile(info='crypto_buying_power')) * 0.60 # only use 60% of the buying power\ndef is_daytime():\n    # CHECK TIME OF DAY IN CENTRAL STANDARD TIME\n    current_time = datetime.datetime.now()\n    if current_time.hour >= 11 and current_time.hour <= 23:\n        return True\n    else:\n        return False\nprint(f'I can only play with {buying_power} dollars')\ndef main_loop():",
+        "detail": "legacy.version2.notebookv5",
+        "documentation": {}
+    },
+    {
+        "label": "TraderClass",
+        "kind": 6,
+        "importPath": "legacy.version2.v3",
+        "description": "legacy.version2.v3",
+        "peekOfCode": "class TraderClass:\n    def __init__(self):\n        \"\"\"\n        The __init__ function is called when the class is instantiated.\n        It's used to initialize variables and do other setup for the object.\n        :param self: Represent the instance of the class\n        :return: The object that is created\n        :doc-author: Trelent\n        \"\"\"\n        with open('secrets.json') as f:",
+        "detail": "legacy.version2.v3",
+        "documentation": {}
+    },
+    {
+        "label": "TrailingStopLoss",
+        "kind": 6,
+        "importPath": "legacy.version2.v3",
+        "description": "legacy.version2.v3",
+        "peekOfCode": "class TrailingStopLoss:\n    def __init__(self, symbol, trader):\n        \"\"\"\n        The __init__ function is called when the class is instantiated.\n        It sets up the object with all of its instance variables and other things it needs to function properly.\n        :param self: Represent the instance of the class\n        :param symbol: Identify the stock that is being traded\n        :param trader: Access the trader's account balance and to execute trades\n        :return: Nothing, it is a constructor\n        :doc-author: Trelent",
+        "detail": "legacy.version2.v3",
+        "documentation": {}
+    },
+    {
+        "label": "trader",
+        "kind": 5,
+        "importPath": "legacy.version2.v3",
+        "description": "legacy.version2.v3",
+        "peekOfCode": "trader = TraderClass()\ntrader.run_trading_strategy()",
+        "detail": "legacy.version2.v3",
+        "documentation": {}
+    },
+    {
+        "label": "order_crypto",
+        "kind": 2,
+        "importPath": "alt_main_withgpt4",
+        "description": "alt_main_withgpt4",
+        "peekOfCode": "def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()\n    side = side.lower() if type(side) == str else str(side).lower()\n    amount_in = amount_in.lower() if side == 'sell' else 'dollars'\n    timeInForce = timeInForce.lower()\n    #print(Fore.GREEN + f'{side} {quantity_or_price} {symbol}...' + Fore.RESET)",
+        "detail": "alt_main_withgpt4",
+        "documentation": {}
+    },
+    {
+        "label": "login_setup",
+        "kind": 2,
+        "importPath": "alt_main_withgpt4",
+        "description": "alt_main_withgpt4",
+        "peekOfCode": "def login_setup():\n    #ic()\n    global BUYING_POWER\n    with open('config/credentials.json') as f:\n        credentials = json.load(f)\n    login = r.login(credentials['username'], credentials['password'])\n    account_details = r.profiles.load_account_profile(info=None)\n    if isinstance(account_details, dict):\n        account_details_df = pd.DataFrame(account_details, index=[0])\n    else:",
+        "detail": "alt_main_withgpt4",
+        "documentation": {}
+    },
+    {
+        "label": "robin_getter",
+        "kind": 2,
+        "importPath": "alt_main_withgpt4",
+        "description": "alt_main_withgpt4",
+        "peekOfCode": "def robin_getter(coin):\n    #ic()\n    crypto_available_on_robinhood = r.crypto.get_crypto_currency_pairs()\n    crypto_historicals = r.crypto.get_crypto_historicals(str(coin), \"5minute\", \"day\", \"24_7\", info=None)\n    crypto_price = r.crypto.get_crypto_quote(str(coin))\n    return crypto_available_on_robinhood, crypto_historicals, crypto_price\n@sleep_and_retry\ndef get_crypto_positions_in_account():\n    #ic()\n    crypto_positions = r.crypto.get_crypto_positions()",
+        "detail": "alt_main_withgpt4",
+        "documentation": {}
+    },
+    {
+        "label": "get_crypto_positions_in_account",
+        "kind": 2,
+        "importPath": "alt_main_withgpt4",
+        "description": "alt_main_withgpt4",
+        "peekOfCode": "def get_crypto_positions_in_account():\n    #ic()\n    crypto_positions = r.crypto.get_crypto_positions()\n    positions_dict = {}\n    for position in crypto_positions:\n        symbol = position['currency']['code']\n        quantity = float(position['quantity_available'])\n        positions_dict[symbol] = {\n            'quantity': quantity\n        }",
+        "detail": "alt_main_withgpt4",
+        "documentation": {}
+    },
+    {
+        "label": "brain_module",
+        "kind": 2,
+        "importPath": "alt_main_withgpt4",
+        "description": "alt_main_withgpt4",
+        "peekOfCode": "def brain_module():\n    #ic()\n    \"\"\"\n    The brain_module function is the main function of this program. It does the following:\n        1) Gets a list of coins to trade from an env variable called COINS_LIST\n        2) Gets a dictionary of crypto I own from an env variable called CRYPTO_I_OWN\n        3) Creates a dataframe with columns for each coin in COINS_LIST and rows for each coin in CRYPTO_I OWN,\n            where the values are how much crypto I own (in dollars). This dataframe is saved as holdings.csv.\n    :return: A dictionary of the signals for each coin\n    :doc-author: Trelent",
+        "detail": "alt_main_withgpt4",
+        "documentation": {}
+    },
+    {
+        "label": "signal_engine",
+        "kind": 2,
+        "importPath": "alt_main_withgpt4",
+        "description": "alt_main_withgpt4",
+        "peekOfCode": "def signal_engine(df, coin):\n    #ic()\n    global signals_dict\n    global crypto_I_own\n    df = pd.DataFrame(df)\n    coin = str(coin)\n    df = df[['begins_at', 'open_price', 'close_price', 'high_price', 'low_price', 'volume']]\n    df = df.rename(columns={'begins_at': 'date', 'open_price': 'open', 'close_price': 'close', 'high_price': 'high', 'low_price': 'low', 'volume': 'volume'})\n    df['coin'] = coin\n    df['date'] = df['date'].astype(str)",
+        "detail": "alt_main_withgpt4",
+        "documentation": {}
+    },
+    {
+        "label": "action_engine",
+        "kind": 2,
+        "importPath": "alt_main_withgpt4",
+        "description": "alt_main_withgpt4",
+        "peekOfCode": "def action_engine():\n    \"\"\"\n    The action_engine function is the main function that executes all of the other functions.\n    It takes no arguments, but it does require a signals_dict variable to be defined in order to work properly.\n    The action_engine function will iterate through each coin in the signals_dict and execute an order based on\n    the signal values for that coin.\n    :return: A dictionary of signals for each coin\n    :doc-author: Trelent\n    \"\"\"\n    global signals_dict",
+        "detail": "alt_main_withgpt4",
+        "documentation": {}
+    },
+    {
+        "label": "is_daytime",
+        "kind": 2,
+        "importPath": "alt_main_withgpt4",
+        "description": "alt_main_withgpt4",
+        "peekOfCode": "def is_daytime():\n    #ic()\n    current_time = datetime.now(timezone('US/Central'))\n    current_hour = current_time.hour\n    if current_hour >= 8 and current_hour <= 20:\n        return True\n    else:\n        return False\nif __name__ == '__main__':\n    login_setup()",
+        "detail": "alt_main_withgpt4",
+        "documentation": {}
+    },
+    {
+        "label": "signals_dict",
+        "kind": 5,
+        "importPath": "alt_main_withgpt4",
+        "description": "alt_main_withgpt4",
+        "peekOfCode": "signals_dict = {}\nminimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\npercentage_in_play = 0.60 # 60% of buying power is in play at any given time\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()\n    global BUYING_POWER",
+        "detail": "alt_main_withgpt4",
+        "documentation": {}
+    },
+    {
+        "label": "minimum_orders_coins",
+        "kind": 5,
+        "importPath": "alt_main_withgpt4",
+        "description": "alt_main_withgpt4",
+        "peekOfCode": "minimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\npercentage_in_play = 0.60 # 60% of buying power is in play at any given time\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()\n    global BUYING_POWER\n    if symbol is None:",
+        "detail": "alt_main_withgpt4",
+        "documentation": {}
+    },
+    {
+        "label": "percentage_in_play",
+        "kind": 5,
+        "importPath": "alt_main_withgpt4",
+        "description": "alt_main_withgpt4",
+        "peekOfCode": "percentage_in_play = 0.60 # 60% of buying power is in play at any given time\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()\n    side = side.lower() if type(side) == str else str(side).lower()\n    amount_in = amount_in.lower() if side == 'sell' else 'dollars'",
+        "detail": "alt_main_withgpt4",
+        "documentation": {}
+    },
+    {
+        "label": "order_crypto",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a crypto order.\n    :param symbol: Specify the coin you want to buy\n    :param quantity_or_price: Specify the amount of crypto you want to buy or sell\n    :param amount_in: Specify the amount of money you want to spend on buying a coin\n    :param side: Specify whether you want to buy or sell the coin\n    :return: A dictionary with the following keys:\n    :doc-author: Trelent\n    \"\"\"",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "login_setup",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def login_setup():\n    \"\"\"\n    The login_setup function is used to login to the robinhood account and get the account details.\n    :return: The account_details_df and the login\n    :doc-author: Trelent\n    \"\"\"\n    # this is where we will setup the accounts details df and login to robinhood\n    with open('config/credentials.json') as f:\n        credentials = json.load(f)\n    # login to robinhood",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "robin_getter",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def robin_getter(coin):\n    \"\"\"\n    The robin_getter function is used to get the available crypto currencies, historical data and current price of a given coin.\n        Args:\n            coin (str): The name of the cryptocurrency you want to get information on.\n    :param coin: Get the data for that coin\n    :return: A tuple of 3 items\n    :doc-author: Trelent\n    \"\"\"\n    # this is where we will get the data from robinhood",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "get_crypto_positions_in_account",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def get_crypto_positions_in_account():\n    # Get all crypto positions\n    crypto_positions = r.crypto.get_crypto_positions()\n    # Initialize an empty dictionary to store the positions\n    positions_dict = {}\n    # Iterate over the positions and store the coin information in the dictionary\n    for position in crypto_positions:\n        # Get the coin symbol\n        symbol = position['currency']['code']\n        # Get the quantity of the coin",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "brain_module",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def brain_module():\n    \"\"\"\n    The brain_module function is the main function that calls all of the other functions.\n    It will call robin_getter to get data from Robinhood, then it will call signal_engine to calculate signals for each coin, and finally it will call action_engine which takes actions based on those signals.\n    :return: The following:\n    :doc-author: Trelent\n    \"\"\"\n    # this is the main module that will call the other modules\n    coins_list = ['BTC', 'ETH', 'ADA', 'DOGE', 'MATIC', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'SOL', 'AVAX', 'XLM', 'BCH', 'XTZ']\n    # fill the minimum_orders_coins dict with the minimum order amount for each coin",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "signal_engine",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def signal_engine(df, coin):\n    # this is where we will calculate the signals for buys and sells for each coin\n    # assume we are already logged in\n    # using finta to calculate the signals\n    # using robin_stocks to execute the buys and sells\n    # cast the inputs to the correct formats first\n    df = pd.DataFrame(df)\n    coin = str(coin) # make sure the coin is a string\n    # filter the df to only include the columns we need\n    df = df[['begins_at', 'open_price', 'close_price', 'high_price', 'low_price', 'volume']]",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "action_engine",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def action_engine():\n    \"\"\"\n    The action_engine function is the main function that executes all of the buys and sells.\n    It uses order_crypto() to execute the buys and sells.\n    It always buys with 1% of current buying power (amount_in='dollars').\n    It always sells with 100% of current position (amount_in='amount').\n    The side parameter can be set to 'buy' or 'sell' to specify which action should be taken.  The symbol parameter specifies which coin should be bought or sold, while quantity_or_price specifies how much money should go into each buy order, or how many coins are in each sell order\n    :return: A dictionary of the positions after executing the buys and sells\n    :doc-author: Trelent\n    \"\"\"",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "record_keeping_engine",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def record_keeping_engine(coin, cost, quantity, side, current_price, buy_signal, sell_signal, hold_signal):\n    # cast the inputs to their proper types\n    coin = str(coin)\n    cost = float(cost)\n    quantity = float(quantity)\n    side = str(side)\n    current_price = float(current_price)\n    buy_signal = int(buy_signal) #note: this will throw an error if buy_signal is a float, so we need to cast it to an int\n    sell_signal = int(sell_signal)\n    hold_signal = int(hold_signal)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "is_daytime",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def is_daytime():\n    # return true if it is daytime and false if it is nighttime in CST\n    # get the current time in CST\n    current_time = datetime.now(timezone('US/Central'))\n    # get the current hour\n    current_hour = current_time.hour\n    # if the current hour is between 8am and 8pm then return true\n    if current_hour >= 8 and current_hour <= 20:\n        return True\n    # otherwise return false",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "signals_dict",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "signals_dict = {} # initialize the signals dictionary\nminimum_orders_coins= {}\nfrom datetime import datetime\nfrom tqdm import tqdm\n\"\"\"\nfinta supports the following indicators:\n* Simple Moving Average 'SMA'\n* Simple Moving Median 'SMM'\n* Smoothed Simple Moving Average 'SSMA'\n* Exponential Moving Average 'EMA'",
+        "detail": "main",
+        "documentation": {}
+    }
+]
