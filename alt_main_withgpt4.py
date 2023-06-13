@@ -22,7 +22,7 @@ import pandas as pd
 percentage_in_play = 0.60 # 60% of buying power is in play at any given time
 
 RESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders
-
+stop_loss_percent = 0.05 # 5% stop loss
 
 @sleep_and_retry
 def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):
@@ -356,6 +356,7 @@ def signal_engine(df, coin):
     #ic()
     global signals_dict
     global crypto_I_own
+    global stop_loss_percent
     df = pd.DataFrame(df)
     coin = str(coin)
     df = df[['begins_at', 'open_price', 'close_price', 'high_price', 'low_price', 'volume']]
@@ -369,9 +370,27 @@ def signal_engine(df, coin):
     df['high'] = df['high'].astype(float)
     df['low'] = df['low'].astype(float)
     df['volume'] = df['volume'].astype(float)
+
+
     buy_signal = 0
     sell_signal = 0
     hold_signal = 0
+    # Add a new variable to keep track of the highest price reached
+    highest_price = df['close'].iloc[0]
+    # Add a new variable to keep track of the purchase price
+    purchase_price = df['close'].iloc[0]
+
+    for i in range(len(df)):
+        current_price = df['close'].iloc[i]
+        # Update the highest price reached
+        if current_price > highest_price:
+            highest_price = current_price
+        # Check if the price has dropped by more than the stop loss percent from the highest price
+        if current_price < highest_price * (1 - stop_loss_percent / 100):
+            sell_signal += 1
+            # Reset the highest price
+            highest_price = current_price
+
     rsi = TA.RSI(df[['open', 'high', 'low', 'close']]).to_list()[-1]
     macd = TA.MACD(df)['MACD'].to_list()[-1]
     macd_signal = TA.MACD(df)['SIGNAL'].to_list()[-1]
@@ -514,6 +533,9 @@ if __name__ == '__main__':
             if is_daytime():
                 print('daytime mode')
                 #print('Sleeping for 5 minutes...')
+                for i in tqdm(range(300)):
+
+
                 time.sleep(300)
             else:
                 #print('Sleeping for 10 minutes...')

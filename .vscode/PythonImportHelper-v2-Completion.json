@@ -3489,7 +3489,7 @@
         "kind": 2,
         "importPath": "alt_main_withgpt4",
         "description": "alt_main_withgpt4",
-        "peekOfCode": "def signal_engine(df, coin):\n    #ic()\n    global signals_dict\n    global crypto_I_own\n    df = pd.DataFrame(df)\n    coin = str(coin)\n    df = df[['begins_at', 'open_price', 'close_price', 'high_price', 'low_price', 'volume']]\n    df = df.rename(columns={'begins_at': 'date', 'open_price': 'open', 'close_price': 'close', 'high_price': 'high', 'low_price': 'low', 'volume': 'volume'})\n    df['coin'] = coin\n    df['date'] = df['date'].astype(str)",
+        "peekOfCode": "def signal_engine(df, coin):\n    #ic()\n    global signals_dict\n    global crypto_I_own\n    global stop_loss_percent\n    df = pd.DataFrame(df)\n    coin = str(coin)\n    df = df[['begins_at', 'open_price', 'close_price', 'high_price', 'low_price', 'volume']]\n    df = df.rename(columns={'begins_at': 'date', 'open_price': 'open', 'close_price': 'close', 'high_price': 'high', 'low_price': 'low', 'volume': 'volume'})\n    df['coin'] = coin",
         "detail": "alt_main_withgpt4",
         "documentation": {}
     },
@@ -3516,7 +3516,7 @@
         "kind": 5,
         "importPath": "alt_main_withgpt4",
         "description": "alt_main_withgpt4",
-        "peekOfCode": "signals_dict = {}\nminimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\npercentage_in_play = 0.60 # 60% of buying power is in play at any given time\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()",
+        "peekOfCode": "signals_dict = {}\nminimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\npercentage_in_play = 0.60 # 60% of buying power is in play at any given time\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):",
         "detail": "alt_main_withgpt4",
         "documentation": {}
     },
@@ -3525,7 +3525,7 @@
         "kind": 5,
         "importPath": "alt_main_withgpt4",
         "description": "alt_main_withgpt4",
-        "peekOfCode": "minimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\npercentage_in_play = 0.60 # 60% of buying power is in play at any given time\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()\n    global BUYING_POWER",
+        "peekOfCode": "minimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\npercentage_in_play = 0.60 # 60% of buying power is in play at any given time\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()",
         "detail": "alt_main_withgpt4",
         "documentation": {}
     },
@@ -3534,7 +3534,7 @@
         "kind": 5,
         "importPath": "alt_main_withgpt4",
         "description": "alt_main_withgpt4",
-        "peekOfCode": "percentage_in_play = 0.60 # 60% of buying power is in play at any given time\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()\n    side = side.lower() if type(side) == str else str(side).lower()",
+        "peekOfCode": "percentage_in_play = 0.60 # 60% of buying power is in play at any given time\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()",
         "detail": "alt_main_withgpt4",
         "documentation": {}
     },
@@ -3543,7 +3543,16 @@
         "kind": 5,
         "importPath": "alt_main_withgpt4",
         "description": "alt_main_withgpt4",
-        "peekOfCode": "RESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()\n    side = side.lower() if type(side) == str else str(side).lower()\n    amount_in = amount_in.lower() if side == 'sell' else 'dollars'",
+        "peekOfCode": "RESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()\n    side = side.lower() if type(side) == str else str(side).lower()",
+        "detail": "alt_main_withgpt4",
+        "documentation": {}
+    },
+    {
+        "label": "stop_loss_percent",
+        "kind": 5,
+        "importPath": "alt_main_withgpt4",
+        "description": "alt_main_withgpt4",
+        "peekOfCode": "stop_loss_percent = 0.05 # 5% stop loss\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()\n    side = side.lower() if type(side) == str else str(side).lower()\n    amount_in = amount_in.lower() if side == 'sell' else 'dollars'",
         "detail": "alt_main_withgpt4",
         "documentation": {}
     },
