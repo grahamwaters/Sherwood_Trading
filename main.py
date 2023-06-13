@@ -20,7 +20,8 @@ import os
 from ratelimit import limits, sleep_and_retry
 signals_dict = {} # initialize the signals dictionary
 minimum_orders_coins= {}
-
+from datetime import datetime
+from tqdm import tqdm
 
 
 
@@ -177,6 +178,13 @@ def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=
 #### END ACTION FUNCTIONS ####
 
 def login_setup():
+    """
+    The login_setup function is used to login to the robinhood account and get the account details.
+
+    :return: The account_details_df and the login
+    :doc-author: Trelent
+    """
+
     # this is where we will setup the accounts details df and login to robinhood
     with open('config/credentials.json') as f:
         credentials = json.load(f)
@@ -199,56 +207,158 @@ def login_setup():
     return account_details_df, login
 
 def robin_getter(coin):
+    """
+    The robin_getter function is used to get the available crypto currencies, historical data and current price of a given coin.
+        Args:
+            coin (str): The name of the cryptocurrency you want to get information on.
+
+    :param coin: Get the data for that coin
+    :return: A tuple of 3 items
+    :doc-author: Trelent
+    """
+
+
     # this is where we will get the data from robinhood
     # as we are logged in, list the crypto we can buy and sell
-    crypto_available = r.crypto.get_crypto_currency_pairs()
+    crypto_available_on_robinhood = r.crypto.get_crypto_currency_pairs()
     # get the historical data for the crypto
     crypto_historicals = r.crypto.get_crypto_historicals(str(coin), "5minute", "day")
     # get the current price of the crypto should be the latest in the historicals
     crypto_price = r.crypto.get_crypto_quote(str(coin)) #todo check this is the latest price or is it ok to take the last price in the historicals
-    return crypto_available, crypto_historicals, crypto_price #note: should crypto_price be a df or a float?
+
+
+    return crypto_available_on_robinhood, crypto_historicals, crypto_price #note: should crypto_price be a df or a float?
+
+#^getting the crypto position for a coin
+@sleep_and_retry
+def get_crypto_positions_in_account():
+    # Get all crypto positions
+    crypto_positions = r.crypto.get_crypto_positions()
+
+    # Initialize an empty dictionary to store the positions
+    positions_dict = {}
+
+    # Iterate over the positions and store the coin information in the dictionary
+    for position in crypto_positions:
+        # Get the coin symbol
+        symbol = position['currency']['code']
+
+        # Get the quantity of the coin
+        quantity = float(position['quantity_available'])
+
+        # Get the average buy price of the coin
+        #!average_buy_price = float(position['average_buy_price'])
+
+        # Store the coin information in the dictionary
+        positions_dict[symbol] = {
+            'quantity': quantity
+            #!'average_buy_price': average_buy_price
+        }
+
+    return positions_dict
+
+
 
 def brain_module():
+    """
+    The brain_module function is the main function that calls all of the other functions.
+    It will call robin_getter to get data from Robinhood, then it will call signal_engine to calculate signals for each coin, and finally it will call action_engine which takes actions based on those signals.
+
+    :return: The following:
+    :doc-author: Trelent
+    """
+
     # this is the main module that will call the other modules
     coins_list = ['BTC', 'ETH', 'ADA', 'DOGE', 'MATIC', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'SOL', 'AVAX', 'XLM', 'BCH', 'XTZ']
     # fill the minimum_orders_coins dict with the minimum order amount for each coin
     minimum_orders_coins = pd.DataFrame()
     holdings_df = pd.DataFrame()
-    crypto_positions_df = r.crypto.get_crypto_positions()
+
+    # Usage
+    crypto_positions_dict = get_crypto_positions_in_account()
+    crypto_positions_df = pd.DataFrame(crypto_positions_dict) #todo check this is the correct way to do this
+    #### print the crypto_positions_dict
+    # populate the holdings_df with the crypto_positions_dict
+    crypto_I_own = {}
+    for key, value in crypto_positions_dict.items():
+        holdings_df[key] = float(value['quantity'])
+        crypto_I_own[key] = float(value['quantity'])
+
+
+
+
     # save this result to a json named `r_crypto_get_crypto_positions.json`
     # if data folder doesn't exist, create it
     if not os.path.exists('data'):
         os.makedirs('data')
-    # save the crypto_positions_df to a json file
-    with open('data/r_crypto_get_crypto_positions.json', 'w') as f:
-        json.dump(crypto_positions_df, f)
-    # add the coins form coins_list to the first column of each of the dictionaries in the crypto_positions_df under the key `coin`
-    index_of_dict = 0
-    # add a blank column `coin` in the crypto_positions_df
-    crypto_positions_df[index_of_dict]['coin'] = ''
-    for coin in coins_list:
-        print(f'Adding {coin} to crypto_positions_df in the currency column...')
-        crypto_positions_df[index_of_dict]['coin'] = coin
-        index_of_dict += 1
-    # set the index of the crypto_positions_df to the `coin` column
+    # save the crypto_I_own to a json file
+    with open('data/crypto_I_own.json', 'w') as fp:
+        json.dump(crypto_I_own, fp)
+
+    # create the crypto_positions_df from coins_I_own and the crypto_positions_df from robinhood
+    crypto_positions_df = pd.DataFrame(crypto_I_own, index=[0])
+
+
 
     # the min buy ammt is found at `currency`>`increment`
     # the amount we own is found at `currency`>`quantity_available`
+    print(f'Getting the minimum order amount for each coin...')
     index_of_coin = 0
-    for coin in coins_list:
-        coin_name_long = str(crypto_positions_df[index_of_coin]['currency']['name'])
-        minimum_orders_coins[coin] = crypto_positions_df[index_of_coin]['currency']['increment']
-        #holdings_df[coin] = crypto_positions_df[index_of_coin]['currency']['quantity_available']
+    for coin in tqdm(coins_list):
+        tqdm.write(f'Getting the minimum order amount for {coin}...')
+        coin_info = r.crypto.get_crypto_info(coin)
+        coin_info_df = pd.DataFrame(coin_info, index=[index_of_coin])
+        minimum_orders_coins = minimum_orders_coins.append(coin_info_df)
         index_of_coin += 1
-    # this is where we will call the login_setup
+
+
     # this is where we will call the robin_getter
     coin_historicals_dfs = [] # this holds the historical data for each coin
-    for coin in coins_list:
-        crypto_available, crypto_historicals, crypto_price = robin_getter(coin)
+    for coin in tqdm(coins_list):
+        tqdm.write(f'Getting the historical data for {coin}...')
+        crypto_available_on_robinhood, crypto_historicals, crypto_price = robin_getter(coin)
         coin_historicals_dfs.append(crypto_historicals)
+        # print(Fore.BLUE + '>> debug: crypto_available_on_robinhood: ', crypto_historicals)
+        print(Fore.BLUE + '>> debug: crypto_available_on_robinhood: ', type(crypto_historicals))
+        crypto_data = {
+            "coin": coin,
+            "crypto_available_on_robinhood": crypto_available_on_robinhood,
+            "crypto_historicals": crypto_historicals,
+            "coin_mark_price": crypto_price['mark_price'],
+            "coin_ask_price": crypto_price['ask_price'],
+            "coin_bid_price": crypto_price['bid_price'],
+            "coin_high_price": crypto_price['high_price'],
+            "coin_low_price": crypto_price['low_price'],
+            "coin_open_price": crypto_price['open_price']
+        }
+        # add the crypto_data to the holdings_df
+        holdings_df[coin] = crypto_data
+        # print(Fore.BLUE + '>> debug: crypto_data: ', crypto_data)
+        # print(Fore.BLUE + '>> debug: holdings_df: ', holdings_df)
+        # print(Fore.BLUE + '>> debug: holdings_df: ', type(holdings_df))
+        # print(Fore.BLUE + '>> debug: holdings_df: ', holdings_df[coin])
+        # print(Fore.BLUE + '>> debug: holdings_df: ', type(holdings_df[coin]))
+    # save this result to a json named `r_crypto_get_crypto_positions.json`
+    # if data folder doesn't exist, create it
+    if not os.path.exists('data'):
+        os.makedirs('data')
+    # save the crypto_I_own to a json file
+    with open('data/crypto_I_own.json', 'w') as fp:
+        json.dump(crypto_I_own, fp)
+
+    # save the holdings_df to a json file
+    with open('data/holdings_df.json', 'w') as fp:
+        json.dump(holdings_df, fp)
+
+    # save the minimum_orders_coins to a json file
+    with open('data/minimum_orders_coins.json', 'w') as fp:
+        json.dump(minimum_orders_coins, fp)
+
     # this is where we will call the signal_engine
     logging.info('Calculating signals...')
+
     signals_dict = {}
+
     for df in coin_historicals_dfs:
         crypto_historicals = df #todo check this is the correct df
         crypto_historicals_df = pd.DataFrame(crypto_historicals)
@@ -261,15 +371,11 @@ def brain_module():
         else:
             coin = str(crypto_historicals_df['symbol'][0])
 
-
+        logging.info('  Calculating signals for {}...'.format(coin))
         buy_signal, sell_signal, hold_signal = signal_engine(df, coin)
         signals_dict[coin] = [buy_signal, sell_signal, hold_signal]
-        logging.info('  {} buy signal: {}'.format(coin, buy_signal))
-        logging.info('  {} sell signal: {}'.format(coin, sell_signal))
-        logging.info('  {} hold signal: {}'.format(coin, hold_signal))
-
     # this is where we will call the action_engine
-    for coin in coins_list:
+    for coin in tqdm(coins_list):
         if coin == 'DOGE':
             continue
         try:
@@ -282,16 +388,28 @@ def brain_module():
             if buy_signal > sell_signal and buy_signal > hold_signal:
                 # buy the coin
                 order_crypto(symbol=coin,
-                                quantity_or_price=0.01,
+                                quantity_or_price=0.01* float(holdings_df[coin]),
                                 amount_in='dollars',
-                                side='buy')
+                                side='buy',
+                                timeInForce='gtc')
+                print(f'Buying {coin}...')
+                time.sleep(1)
             # if the sell signal is greater than the buy signal and the hold signal then sell the coin with 1% of the buying_power OR the next degree up from that value in the minimum order increment size for that coin
             elif sell_signal > buy_signal and sell_signal > hold_signal:
+
+                # check if we have enough of the coin to sell
+                if float(holdings_df[coin]) < 0.01 or coin not in holdings_df.columns:
+                    print(f'Not enough {coin} to sell...')
+                    continue
+
                 # sell the coin
-                order_crypto(symbol=coin,
-                                quantity_or_price=0.01,
+                order_crypto(symbol=str(coin),
+                                quantity_or_price=0.80 * float(holdings_df[coin]),
                                 amount_in='dollars',
-                                side='sell')
+                                side='sell',
+                                timeInForce='gtc')
+                print(f'Selling {coin}...')
+                time.sleep(1)
             # if the hold signal is greater than the buy signal and the sell signal then do nothing
             elif hold_signal > buy_signal and hold_signal > sell_signal:
                 print(f'Hold {coin}...')
@@ -303,7 +421,10 @@ def brain_module():
                 print(f'Hold {coin}... as buy_signal == sell_signal')
             else:
                 print(f'Hold {coin}... \n buy_signal: {buy_signal} \n sell_signal: {sell_signal} \n hold_signal: {hold_signal}')
-        except:
+        except Exception as e:
+            # show the traceback
+            traceback.print_exc()
+            logging.info(' {} is the error'.format(e))
             print(f'Hold {coin}... \n buy_signal: {buy_signal} \n sell_signal: {sell_signal} \n hold_signal: {hold_signal}')
             logging.info('  {} buy signal: {}'.format(coin, buy_signal))
             logging.info('  {} sell signal: {}'.format(coin, sell_signal))
@@ -459,6 +580,16 @@ def signal_engine(df, coin):
     return buy_signal, sell_signal, hold_signal
 
 def action_engine():
+    """
+    The action_engine function is the main function that executes all of the buys and sells.
+    It uses order_crypto() to execute the buys and sells.
+    It always buys with 1% of current buying power (amount_in='dollars').
+    It always sells with 100% of current position (amount_in='amount').
+    The side parameter can be set to 'buy' or 'sell' to specify which action should be taken.  The symbol parameter specifies which coin should be bought or sold, while quantity_or_price specifies how much money should go into each buy order, or how many coins are in each sell order
+
+    :return: A dictionary of the positions after executing the buys and sells
+    :doc-author: Trelent
+    """
     # this is where we will execute the buys and sells
     # use order_crypto() to execute the buys and sells
     # always buy with 1% of current buying power (amount_in='dollars')
@@ -482,7 +613,7 @@ def action_engine():
         logging.info(f'Unable to cancel orders...{e}')
     print(f'Buying power is {buying_power}')
     # iterate over the coins
-    for coin in signals_dict.keys():
+    for coin in tqdm(signals_dict.keys(), total=len(signals_dict.keys())):
         # get the signals for the coin
         buy_signal = signals_dict[coin][0]
         sell_signal = signals_dict[coin][1]
@@ -508,9 +639,9 @@ def action_engine():
                          amount_in='dollars',
                          side='buy',
                          bp = buying_power,
-                         time_in_force='gtc')
-        # update bp (buying power)
-        buying_power -= 0.01 * float(buying_power)
+                         timeInForce='gtc')
+            # update bp (buying power)
+            buying_power -= 0.01 * float(buying_power)
 
         # if the sell signal is greater than the buy signal and the hold signal then sell the coin with 100% of the current position
         elif sell_signal > buy_signal and sell_signal > hold_signal:
@@ -520,7 +651,7 @@ def action_engine():
                          amount_in='amount',
                          side='sell',
                          bp = buying_power,
-                         time_in_force='gtc')
+                         timeInForce='gtc')
 
 
 
