@@ -21,6 +21,9 @@ import pandas as pd
 
 percentage_in_play = 0.60 # 60% of buying power is in play at any given time
 
+RESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders
+
+
 @sleep_and_retry
 def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):
     #ic()
@@ -59,7 +62,13 @@ def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=
     except Exception as e:
         print(Fore.RED + f'Failed try statement in order! {side} because \n{e}' + Fore.RESET)
 
-    print(Fore.GREEN + f'order for a {side} of {symbol} at ${quantity_or_price} {amount_in} was successful!' + Fore.RESET)
+    if side == 'sell':
+        print(Fore.GREEN + f'Sold {quantity_or_price} {symbol}!' + Fore.RESET)
+        pass
+    else:
+        print(Fore.GREEN + f'Bought ${quantity_or_price} {symbol}!' + Fore.RESET)
+        pass
+    return
 def login_setup():
     #ic()
     global BUYING_POWER
@@ -100,6 +109,26 @@ def get_crypto_positions_in_account():
             'quantity': quantity
         }
     return positions_dict
+
+
+def resetter():
+    if RESET:
+        # sell all positions of crypto
+        crypto_positions = r.crypto.get_crypto_positions()
+        for position in crypto_positions:
+            symbol = position['currency']['code']
+            quantity = float(position['quantity_available'])
+            order_crypto(symbol, quantity, side='sell')
+        # delete all orders
+        orders = r.orders.get_all_open_crypto_orders()
+        for order in orders:
+            r.orders.cancel_crypto_order(order['id'])
+
+@sleep_and_retry
+def get_account():
+    #ic()
+    account = r.profiles.load_account_profile(info=None)
+    return account
 
 def brain_module():
     #ic()
@@ -201,16 +230,16 @@ def brain_module():
         crypto_historicals = df
         crypto_historicals_df = pd.DataFrame(crypto_historicals)
         if 'USD' in str(crypto_historicals_df['symbol'][0]):
-            ic()
+            #ic()
             coin = str(crypto_historicals_df['symbol'][0])[:3]
         elif '-USD' in str(crypto_historicals_df['symbol'][0]):
-            ic()
+            #ic()
             coin = str(crypto_historicals_df['symbol'][0])[:4]
         elif 'DOGE' in str(crypto_historicals_df['symbol'][0]):
-            ic()
+            #ic()
             coin = str("DOGE")
         else:
-            ic()
+            #ic()
             coin = str(crypto_historicals_df['symbol'][0])
         logging.info('  Calculating signals for {}...'.format(coin))
         buy_signal, sell_signal, hold_signal = signal_engine(df, coin)
@@ -252,6 +281,24 @@ def brain_module():
                                 amount_in='dollars',  # dollars
                                 side='buy',  # buy
                                 timeInForce='gtc')  # good till cancel
+                # update buying power
+                iteration = 0
+                # while True:
+                #     ic()
+                #     BUYING_POWER = float(get_account()['buying_power'])
+
+                #     new_buying_power = BUYING_POWER - max(1.00, 0.10 * BUYING_POWER)
+
+                #     if BUYING_POWER != new_buying_power:
+                #         BUYING_POWER = new_buying_power
+                #     elif iteration == 10:
+                #         break
+                #     else:
+                #         break
+
+                #     time.sleep(10)
+                BUYING_POWER -= max(1.00, 0.10 * BUYING_POWER)
+            #^ signal is that we should sell
             elif sell_signal > buy_signal and sell_signal > hold_signal:
                 coins_I_own = crypto_I_own
                 # convert to dict with ast
@@ -453,7 +500,11 @@ def is_daytime():
     else:
         return False
 if __name__ == '__main__':
+
     login_setup()
+    if RESET:
+        resetter() # reset the crypto_I_own variable
+
     loop_count = 0
     while True:
         ic()
@@ -467,7 +518,19 @@ if __name__ == '__main__':
             else:
                 #print('Sleeping for 10 minutes...')
                 time.sleep(600)
+
+
+            if loop_count % 20 == 0:
+                # then we update our buying power
+                try:
+                    BUYING_POWER = float(pd.DataFrame(r.profiles.load_account_profile(info=None))['onbp'])
+                except Exception as e:
+                    logging.info(f'Error line 528ish to update buying power...{e}')
+                    BUYING_POWER = float(pd.DataFrame(r.profiles.load_account_profile(info=None))['onbp'].iloc[0])
+
             loop_count += 1
+
+
         except Exception as e:
             r.orders.cancel_all_crypto_orders()
             logging.info(f'Exception occurred: {e}')
