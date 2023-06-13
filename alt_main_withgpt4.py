@@ -277,13 +277,15 @@ def brain_module():
                 time.sleep(1)
             elif hold_signal > buy_signal and hold_signal > sell_signal:
                 #print(f'Hold {coin}...')
-                ic()
+                #ic()
+                pass
             elif buy_signal == sell_signal and buy_signal == hold_signal:
                 #print(f'Hold {coin}... as buy_signal == sell_signal == hold_signal')
-                ic()
+                #ic()
+                pass
             elif buy_signal == sell_signal:
                 #print(f'Hold {coin}... as buy_signal == sell_signal')
-                ic()
+                pass
             else:
                 ic()
                 #print(f'Hold {coin}... \n buy_signal: {buy_signal} \n sell_signal: {sell_signal} \n hold_signal: {hold_signal}')
