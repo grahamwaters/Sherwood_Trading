@@ -40,7 +40,7 @@ def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=
             bp = BUYING_POWER
         # bp = float(bp)
         if symbol == 'DOG': symbol = 'DOGE' #todo hacked in
-        quantity_or_price = min(quantity_or_price, BUYING_POWER * 0.01, minimum_orders_coins.get(symbol, float('inf')))
+        quantity_or_price = max(quantity_or_price, BUYING_POWER * 0.01, minimum_orders_coins.get(symbol, float('inf')))
         time.sleep(random.randint(1, 3))
         #print(f'Set quantity_or_price to {quantity_or_price} {symbol}...')
         #print(f'Quantity_or_price is {quantity_or_price} {symbol}...')
@@ -213,6 +213,9 @@ def brain_module():
         signals_dict[coin] = [buy_signal, sell_signal, hold_signal]
     for coin in coins_list:
         # ic()
+        if coin not in signals_dict.keys():
+            # add it with 0 signals
+            signals_dict[coin] = [0, 0, 0]
         if coin == 'DOGE':
             continue
         try:
@@ -224,14 +227,27 @@ def brain_module():
             buy_signal = signals_dict[coin][0] if type(signals_dict[coin][0]) == int else int(signals_dict[coin][0])
             sell_signal = signals_dict[coin][1] if type(signals_dict[coin][1]) == int else int(signals_dict[coin][1])
             hold_signal = signals_dict[coin][2] if type(signals_dict[coin][2]) == int else int(signals_dict[coin][2])
+            #^ signal is that we should buy
             if buy_signal > sell_signal and buy_signal > hold_signal:
                 cryptoiownlist = crypto_I_own
                 # use env vars to use order_crypto
                 if type(crypto_I_own) == dict and coin in crypto_I_own.keys():
-                    if float(crypto_I_own[coin]) > 0.01:
-                        # this is a coin we already own, and we have more than 0.01 of it
-                        ic()
-                        pass
+                    # get avg number of holdings for all other coins in the portfolio
+                    # avg_holdings [float(crypto_I_own[coin]) for coin in crypto_I_own.keys() if coin != coin and float(crypto_I_own[coin]) > 0.01]
+                    # avg_holdings = sum(avg_holdings) / len(avg_holdings)
+                    # if float(crypto_I_own[coin]) > avg_holdings:
+                    #     # we own this coin, and we have more than the avg holdings
+                    #     ic()
+                    #     pass
+                    # else:
+                    #     # we own this coin, but we have less than the avg holdings so we can buy more
+                    #     order_crypto(symbol=str(coin),  # coin
+                    #             quantity_or_price=max(1.00,0.10 * float(BUYING_POWER)),  # 5% of buying power
+                    #             amount_in='dollars',  # dollars
+                    #             side='buy',  # buy
+                    #             timeInForce='gtc')
+                    #     continue
+                    pass
                 elif type(crypto_I_own) == str and coin in crypto_I_own:
                     if float(crypto_I_own[coin]) > 0.01:
                         #print(f'Already own {coin}...')
@@ -295,6 +311,9 @@ def brain_module():
     # SET THE GLOBAL VARIABLE `crypto_signals` TO THE `signals_dict` VARIABLE
     global crypto_signals
     crypto_signals = signals_dict
+
+
+
 def signal_engine(df, coin):
     #ic()
     global signals_dict
@@ -391,7 +410,7 @@ def action_engine():
 
         position = r.crypto.get_crypto_positions(info='quantity')
         position = float(position['quantity_available']) if type(position) == dict else 0
-
+        print(f'position: {position}')
         if sell_signal > 0 and position > 0:
             try:
                 order_crypto(symbol=coin,
