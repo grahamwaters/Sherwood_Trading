@@ -17,13 +17,14 @@ minimum_orders_coins = {}
 import ast
 import re
 import pandas as pd
-
+import asyncio
 
 percentage_in_play = 0.60 # 60% of buying power is in play at any given time
-
+loop_count = 0
 RESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders
 stop_loss_percent = 0.05 # 5% stop loss
-
+verboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys
+BUYING_POWER = 0.0 #! this is a global variable that is set to your buying power
 @sleep_and_retry
 def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):
     #ic()
@@ -63,14 +64,24 @@ def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=
         print(Fore.RED + f'Failed try statement in order! {side} because \n{e}' + Fore.RESET)
 
     if side == 'sell':
-        print(Fore.GREEN + f'Sold {quantity_or_price} {symbol}!' + Fore.RESET)
+        if verboseMode:
+            current_price = float(r.crypto.get_crypto_quote(symbol)['mark_price'])
+            print(Fore.RED + f'Sell order for {quantity_or_price} {symbol} worth ${quantity_or_price*current_price}' + Fore.RESET)
         pass
     else:
-        print(Fore.GREEN + f'Bought ${quantity_or_price} {symbol}!' + Fore.RESET)
+        if verboseMode:
+            print(Fore.GREEN + f'Buy order at ${quantity_or_price} of {symbol}' + Fore.RESET)
         pass
     return
 def login_setup():
-    #ic()
+    """
+    The login_setup function is used to log into the Robinhood API and return a dataframe of account details.
+    It also sets up logging for debugging purposes.
+
+    :return: A dataframe and a login object
+    :doc-author: Trelent
+    """
+
     global BUYING_POWER
 
     with open('config/credentials.json') as f:
@@ -350,10 +361,19 @@ def brain_module():
     global crypto_signals
     crypto_signals = signals_dict
 
-
-
 def signal_engine(df, coin):
-    #ic()
+    """
+    The signal_engine function takes in a dataframe of historical price data and returns a buy, sell, or hold signal.
+    The function first checks if the current price is less than the highest_price * (stop_loss percent). If it is then it will return a sell signal.
+    If not then it will check for other signals: RSI &lt; 30 and MACD &gt; 0; RSI &gt; 70 and MACD &lt; 0; MACD &gt; macd_signal and current_price &gt; ma200;
+    MACD &lt; macd_signal and current_price &lt; ma200; lower bollingerband crossed up by
+
+    :param df: Pass the dataframe to the function
+    :param coin: Pass the coin name to the function
+    :return: A buy_signal, sell_signal, and hold_signal
+    :doc-author: Trelent
+    """
+
     global signals_dict
     global crypto_I_own
     global stop_loss_percent
@@ -374,22 +394,28 @@ def signal_engine(df, coin):
 
     buy_signal = 0
     sell_signal = 0
+    sell_strength = 0 #todo the magnitude of the sell signal
     hold_signal = 0
     # Add a new variable to keep track of the highest price reached
     highest_price = df['close'].iloc[0]
     # Add a new variable to keep track of the purchase price
     purchase_price = df['close'].iloc[0]
 
-    for i in range(len(df)):
-        current_price = df['close'].iloc[i]
-        # Update the highest price reached
-        if current_price > highest_price:
-            highest_price = current_price
-        # Check if the price has dropped by more than the stop loss percent from the highest price
-        if current_price < highest_price * (1 - stop_loss_percent / 100):
-            sell_signal += 1
-            # Reset the highest price
-            highest_price = current_price
+    # #* this should be looking at coin specific data
+    # for m in range(len(df)):
+    #     current_price = df['close'].iloc[m]
+    #     # Update the highest price reached
+    #     if current_price > highest_price:
+    #         highest_price = current_price
+    #     # Check if the price has dropped by more than the stop loss percent from the highest price
+    #     if current_price < highest_price * (1 - stop_loss_percent / 100):
+    #         sell_signal = 1
+    #         sell_strength += 1
+    #         # Reset the highest price
+    #         highest_price = current_price
+
+    # todo -- this above needs to be considered again I don't like how it is working
+
 
     rsi = TA.RSI(df[['open', 'high', 'low', 'close']]).to_list()[-1]
     macd = TA.MACD(df)['MACD'].to_list()[-1]
@@ -425,10 +451,20 @@ def signal_engine(df, coin):
         sell_signal += 1
     else:
         hold_signal += 1
-    # logging.info('  {} buy signal: {}'.format(coin, buy_signal))
-    # logging.info('  {} sell signal: {}'.format(coin, sell_signal))
-    # logging.info('  {} hold signal: {}'.format(coin, hold_signal))
-    print(f' --> {coin} buy signal: {buy_signal} | sell signal: {sell_signal} | hold signal: {hold_signal}')
+    print(f' --> {coin} (+): {buy_signal} | (-): {sell_signal} | (!): {hold_signal}')
+    # sell and buy cannot both be true so do the one that is largest
+    if buy_signal > sell_signal and buy_signal > hold_signal:
+        buy_signal = 1
+        sell_signal = 0
+        hold_signal = 0
+    elif sell_signal > buy_signal and sell_signal > hold_signal:
+        buy_signal = 0
+        sell_signal = 1
+        hold_signal = 0
+    elif hold_signal > buy_signal and hold_signal > sell_signal:
+        buy_signal = 0
+        sell_signal = 0
+        hold_signal = 1
     return buy_signal, sell_signal, hold_signal
 
 def action_engine():
@@ -471,18 +507,20 @@ def action_engine():
         print(f'position: {position}')
         # signal is a sell signal and we already own the coin
         if sell_signal > 0 and position > 0:
+            ic()
             try:
                 order_crypto(symbol=coin,
                              quantity_or_price=position,
                              amount_in='amount',
                              side='sell',
-                             bp=BUYING_POWER + 0.25 * buy_signal, # add $0.25 for each increase in buy_signal
+                             bp=BUYING_POWER,
                              timeInForce='gtc')
             except Exception as e:
                 logging.info(f'Unable to generate orders for {coin}...{e}')
         # signal is a buy signal and we don't already own the coin
         # and if we can afford to buy the coin
         if buy_signal > sell_signal and buy_signal > hold_signal and position == 0 and BUYING_POWER > 0:
+            ic()
             order_value = 0.01 * BUYING_POWER
             order_crypto(symbol=coin,
                          #*quantity_or_price=order_value if order_value > 1.00 else 1.00,
@@ -496,6 +534,7 @@ def action_engine():
             print(f'I just bought {order_value} of {coin}... for ${order_value}...')
         # signal is a sell signal and we already own the coin
         elif sell_signal > buy_signal and sell_signal > hold_signal:
+            ic()
             order_crypto(symbol=coin,
                          quantity_or_price= float(position),
                          amount_in='amount',
@@ -518,42 +557,85 @@ def is_daytime():
         return True
     else:
         return False
-if __name__ == '__main__':
 
-    login_setup()
-    if RESET:
-        resetter() # reset the crypto_I_own variable
+import asyncio
+from concurrent.futures import ThreadPoolExecutor
+from tqdm import tqdm
+from datetime import datetime
+from pytz import timezone
 
-    loop_count = 0
+
+
+
+#! ##############################
+#! ASYNC FUNCTIONS
+#! ##############################
+
+import asyncio
+from tqdm import tqdm
+from datetime import datetime
+from pytz import timezone
+
+# set up an asynchronous function to run the main loop
+async def main():
     while True:
-        ic()
-        try:
-            brain_module()
-            action_engine()
-            if is_daytime():
-                print('daytime mode')
-                #print('Sleeping for 5 minutes...')
-                for i in tqdm(range(300)):
+        await asyncio.to_thread(brain_module) # update signals
+        await asyncio.to_thread(action_engine) # execute orders
+        if is_daytime():
+            print('daytime mode')
+            print('Sleeping for 5 minutes...')
+            for i in tqdm(range(300)):
+                await asyncio.sleep(1)
+        else:
+            print('Sleeping for 10 minutes...')
+            for i in tqdm(range(600)):
+                await asyncio.sleep(1)
 
+# async function to check buying power every 3 minutes
+async def update_buying_power():
+    ic()
+    while True:
+        account_details_df = pd.DataFrame(await asyncio.to_thread(r.profiles.load_account_profile, info=None), index=[0])
+        BUYING_POWER = float(account_details_df['onbp'])
+        print(Fore.BLUE + f'BUYING_POWER: {BUYING_POWER}')
+        await asyncio.sleep(180) # sleep for 3 minutes
 
-                time.sleep(300)
-            else:
-                #print('Sleeping for 10 minutes...')
-                time.sleep(600)
+# run the asynchronous functions to run the main function and the update BUYING_POWER function simultaneously
+async def run_async_functions(loop_count, BUYING_POWER):
+    ic()
+    loop_count += 1
+    await asyncio.gather(main(), update_buying_power())
 
+def main_looper():
+    ic()
+    loop_count = 0
+    start_date = datetime.now(timezone('US/Central'))
+    BUYING_POWER = 0
+    starting_equity = BUYING_POWER
+    try:
+        asyncio.run(run_async_functions(loop_count, BUYING_POWER))
+    except Exception as e:
+        raise e
 
-            if loop_count % 20 == 0:
-                # then we update our buying power
-                try:
-                    BUYING_POWER = float(pd.DataFrame(r.profiles.load_account_profile(info=None))['onbp'])
-                except Exception as e:
-                    logging.info(f'Error line 528ish to update buying power...{e}')
-                    BUYING_POWER = float(pd.DataFrame(r.profiles.load_account_profile(info=None))['onbp'].iloc[0])
+    while True:
+        if loop_count % 20 == 0:
+            # print our buying power, and profit since our start date
+            print(f'BUYING_POWER: {BUYING_POWER}')
+            print(f'Profit: {BUYING_POWER - starting_equity}')
+            print(f'Profit %: {((BUYING_POWER - starting_equity) / starting_equity) * 100}')
+            print(f'Loop count: {loop_count}')
+            print(f'Running for {datetime.now(timezone("US/Central")) - start_date}')
 
-            loop_count += 1
+        # print the buying power every 5 minutes
+        print('Sleeping for 5 minutes...')
+        for i in tqdm(range(300)):
+            time.sleep(1)
 
-
-        except Exception as e:
-            r.orders.cancel_all_crypto_orders()
-            logging.info(f'Exception occurred: {e}')
-            time.sleep(1200) # sleep for 20 minutes
+# run the main looper function
+print('Starting main looper function...')
+login_setup()
+try:
+    # login to robinhood
+    main_looper()
+except Exception as e:
+    pass

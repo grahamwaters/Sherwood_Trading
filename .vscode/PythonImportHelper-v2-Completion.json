@@ -146,6 +146,14 @@
         "documentation": {}
     },
     {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
         "label": "numpy",
         "kind": 6,
         "isExtraImport": true,
@@ -350,6 +358,22 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "timedelta",
         "importPath": "datetime",
         "description": "datetime",
@@ -374,11 +398,51 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "pytz",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "pytz",
         "description": "pytz",
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
         "detail": "pytz",
         "documentation": {}
     },
@@ -872,6 +936,54 @@
         "documentation": {}
     },
     {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
         "label": "tqdm",
         "importPath": "tqdm",
         "description": "tqdm",
@@ -1240,11 +1352,35 @@
         "documentation": {}
     },
     {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
         "label": "time",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "time",
         "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
         "detail": "time",
         "documentation": {}
     },
@@ -1329,6 +1465,14 @@
         "description": "os",
         "isExtraImport": true,
         "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "ic",
+        "importPath": "icecream",
+        "description": "icecream",
+        "isExtraImport": true,
+        "detail": "icecream",
         "documentation": {}
     },
     {
@@ -1667,6 +1811,14 @@
         "documentation": {}
     },
     {
+        "label": "TA",
+        "importPath": "finta",
+        "description": "finta",
+        "isExtraImport": true,
+        "detail": "finta",
+        "documentation": {}
+    },
+    {
         "label": "logging,",
         "kind": 6,
         "isExtraImport": true,
@@ -1682,6 +1834,14 @@
         "importPath": "re",
         "description": "re",
         "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "ThreadPoolExecutor",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
+        "isExtraImport": true,
+        "detail": "concurrent.futures",
         "documentation": {}
     },
     {
@@ -3435,7 +3595,7 @@
         "kind": 2,
         "importPath": "alt_main_withgpt4",
         "description": "alt_main_withgpt4",
-        "peekOfCode": "def login_setup():\n    #ic()\n    global BUYING_POWER\n    with open('config/credentials.json') as f:\n        credentials = json.load(f)\n    login = r.login(credentials['username'], credentials['password'])\n    account_details = r.profiles.load_account_profile(info=None)\n    if isinstance(account_details, dict):\n        account_details_df = pd.DataFrame(account_details, index=[0])\n    else:",
+        "peekOfCode": "def login_setup():\n    \"\"\"\n    The login_setup function is used to log into the Robinhood API and return a dataframe of account details.\n    It also sets up logging for debugging purposes.\n    :return: A dataframe and a login object\n    :doc-author: Trelent\n    \"\"\"\n    global BUYING_POWER\n    with open('config/credentials.json') as f:\n        credentials = json.load(f)",
         "detail": "alt_main_withgpt4",
         "documentation": {}
     },
@@ -3489,7 +3649,7 @@
         "kind": 2,
         "importPath": "alt_main_withgpt4",
         "description": "alt_main_withgpt4",
-        "peekOfCode": "def signal_engine(df, coin):\n    #ic()\n    global signals_dict\n    global crypto_I_own\n    global stop_loss_percent\n    df = pd.DataFrame(df)\n    coin = str(coin)\n    df = df[['begins_at', 'open_price', 'close_price', 'high_price', 'low_price', 'volume']]\n    df = df.rename(columns={'begins_at': 'date', 'open_price': 'open', 'close_price': 'close', 'high_price': 'high', 'low_price': 'low', 'volume': 'volume'})\n    df['coin'] = coin",
+        "peekOfCode": "def signal_engine(df, coin):\n    \"\"\"\n    The signal_engine function takes in a dataframe of historical price data and returns a buy, sell, or hold signal.\n    The function first checks if the current price is less than the highest_price * (stop_loss percent). If it is then it will return a sell signal.\n    If not then it will check for other signals: RSI &lt; 30 and MACD &gt; 0; RSI &gt; 70 and MACD &lt; 0; MACD &gt; macd_signal and current_price &gt; ma200;\n    MACD &lt; macd_signal and current_price &lt; ma200; lower bollingerband crossed up by\n    :param df: Pass the dataframe to the function\n    :param coin: Pass the coin name to the function\n    :return: A buy_signal, sell_signal, and hold_signal\n    :doc-author: Trelent",
         "detail": "alt_main_withgpt4",
         "documentation": {}
     },
@@ -3507,7 +3667,16 @@
         "kind": 2,
         "importPath": "alt_main_withgpt4",
         "description": "alt_main_withgpt4",
-        "peekOfCode": "def is_daytime():\n    #ic()\n    current_time = datetime.now(timezone('US/Central'))\n    current_hour = current_time.hour\n    if current_hour >= 8 and current_hour <= 20:\n        return True\n    else:\n        return False\nif __name__ == '__main__':\n    login_setup()",
+        "peekOfCode": "def is_daytime():\n    #ic()\n    current_time = datetime.now(timezone('US/Central'))\n    current_hour = current_time.hour\n    if current_hour >= 8 and current_hour <= 20:\n        return True\n    else:\n        return False\nimport asyncio\nfrom concurrent.futures import ThreadPoolExecutor",
+        "detail": "alt_main_withgpt4",
+        "documentation": {}
+    },
+    {
+        "label": "main_looper",
+        "kind": 2,
+        "importPath": "alt_main_withgpt4",
+        "description": "alt_main_withgpt4",
+        "peekOfCode": "def main_looper():\n    ic()\n    loop_count = 0\n    start_date = datetime.now(timezone('US/Central'))\n    BUYING_POWER = 0\n    starting_equity = BUYING_POWER\n    try:\n        asyncio.run(run_async_functions(loop_count, BUYING_POWER))\n    except Exception as e:\n        raise e",
         "detail": "alt_main_withgpt4",
         "documentation": {}
     },
@@ -3516,7 +3685,7 @@
         "kind": 5,
         "importPath": "alt_main_withgpt4",
         "description": "alt_main_withgpt4",
-        "peekOfCode": "signals_dict = {}\nminimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\npercentage_in_play = 0.60 # 60% of buying power is in play at any given time\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):",
+        "peekOfCode": "signals_dict = {}\nminimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\nimport asyncio\npercentage_in_play = 0.60 # 60% of buying power is in play at any given time\nloop_count = 0\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss",
         "detail": "alt_main_withgpt4",
         "documentation": {}
     },
@@ -3525,7 +3694,7 @@
         "kind": 5,
         "importPath": "alt_main_withgpt4",
         "description": "alt_main_withgpt4",
-        "peekOfCode": "minimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\npercentage_in_play = 0.60 # 60% of buying power is in play at any given time\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()",
+        "peekOfCode": "minimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\nimport asyncio\npercentage_in_play = 0.60 # 60% of buying power is in play at any given time\nloop_count = 0\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\nverboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys",
         "detail": "alt_main_withgpt4",
         "documentation": {}
     },
@@ -3534,7 +3703,16 @@
         "kind": 5,
         "importPath": "alt_main_withgpt4",
         "description": "alt_main_withgpt4",
-        "peekOfCode": "percentage_in_play = 0.60 # 60% of buying power is in play at any given time\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()",
+        "peekOfCode": "percentage_in_play = 0.60 # 60% of buying power is in play at any given time\nloop_count = 0\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\nverboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys\nBUYING_POWER = 0.0 #! this is a global variable that is set to your buying power\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()\n    global BUYING_POWER",
+        "detail": "alt_main_withgpt4",
+        "documentation": {}
+    },
+    {
+        "label": "loop_count",
+        "kind": 5,
+        "importPath": "alt_main_withgpt4",
+        "description": "alt_main_withgpt4",
+        "peekOfCode": "loop_count = 0\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\nverboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys\nBUYING_POWER = 0.0 #! this is a global variable that is set to your buying power\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()\n    global BUYING_POWER\n    if symbol is None:",
         "detail": "alt_main_withgpt4",
         "documentation": {}
     },
@@ -3543,7 +3721,7 @@
         "kind": 5,
         "importPath": "alt_main_withgpt4",
         "description": "alt_main_withgpt4",
-        "peekOfCode": "RESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()\n    side = side.lower() if type(side) == str else str(side).lower()",
+        "peekOfCode": "RESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\nverboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys\nBUYING_POWER = 0.0 #! this is a global variable that is set to your buying power\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()\n    global BUYING_POWER\n    if symbol is None:\n        return",
         "detail": "alt_main_withgpt4",
         "documentation": {}
     },
@@ -3552,7 +3730,25 @@
         "kind": 5,
         "importPath": "alt_main_withgpt4",
         "description": "alt_main_withgpt4",
-        "peekOfCode": "stop_loss_percent = 0.05 # 5% stop loss\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()\n    side = side.lower() if type(side) == str else str(side).lower()\n    amount_in = amount_in.lower() if side == 'sell' else 'dollars'",
+        "peekOfCode": "stop_loss_percent = 0.05 # 5% stop loss\nverboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys\nBUYING_POWER = 0.0 #! this is a global variable that is set to your buying power\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()",
+        "detail": "alt_main_withgpt4",
+        "documentation": {}
+    },
+    {
+        "label": "verboseMode",
+        "kind": 5,
+        "importPath": "alt_main_withgpt4",
+        "description": "alt_main_withgpt4",
+        "peekOfCode": "verboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys\nBUYING_POWER = 0.0 #! this is a global variable that is set to your buying power\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()\n    side = side.lower() if type(side) == str else str(side).lower()",
+        "detail": "alt_main_withgpt4",
+        "documentation": {}
+    },
+    {
+        "label": "BUYING_POWER",
+        "kind": 5,
+        "importPath": "alt_main_withgpt4",
+        "description": "alt_main_withgpt4",
+        "peekOfCode": "BUYING_POWER = 0.0 #! this is a global variable that is set to your buying power\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()\n    side = side.lower() if type(side) == str else str(side).lower()\n    amount_in = amount_in.lower() if side == 'sell' else 'dollars'",
         "detail": "alt_main_withgpt4",
         "documentation": {}
     },
@@ -3644,6 +3840,231 @@
         "description": "main",
         "peekOfCode": "signals_dict = {} # initialize the signals dictionary\nminimum_orders_coins= {}\nfrom datetime import datetime\nfrom tqdm import tqdm\n\"\"\"\nfinta supports the following indicators:\n* Simple Moving Average 'SMA'\n* Simple Moving Median 'SMM'\n* Smoothed Simple Moving Average 'SSMA'\n* Exponential Moving Average 'EMA'",
         "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "order_crypto",
+        "kind": 2,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if isinstance(symbol, str) else str(symbol).upper()\n    side = side.lower() if isinstance(side, str) else str(side).lower()\n    amount_in = amount_in.lower() if side == 'sell' else 'dollars'\n    timeInForce = timeInForce.lower()\n    if side == 'buy':\n        profile = r.profiles.load_account_profile()",
+        "detail": "main2",
+        "documentation": {}
+    },
+    {
+        "label": "login_setup",
+        "kind": 2,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "def login_setup():\n    ic()\n    global BUYING_POWER\n    with open('config/credentials.json') as f:\n        credentials = json.load(f)\n    login = r.login(credentials['username'], credentials['password'])\n    account_details = r.profiles.load_account_profile(info=None)\n    if isinstance(account_details, dict):\n        account_details_df = pd.DataFrame(account_details, index=[0])\n    else:",
+        "detail": "main2",
+        "documentation": {}
+    },
+    {
+        "label": "robin_getter",
+        "kind": 2,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "def robin_getter(coin):\n    ic()\n    crypto_available_on_robinhood = r.crypto.get_crypto_currency_pairs()\n    crypto_historicals = r.crypto.get_crypto_historicals(str(coin), \"5minute\", \"day\", \"24_7\", info=None)\n    crypto_price = r.crypto.get_crypto_quote(str(coin))\n    return crypto_available_on_robinhood, crypto_historicals, crypto_price\n@sleep_and_retry\ndef get_my_price(coin):\n    crypto_price = r.crypto.get_crypto_quote(str(coin))\n    my_price = float(crypto_price['mark_price'])",
+        "detail": "main2",
+        "documentation": {}
+    },
+    {
+        "label": "get_my_price",
+        "kind": 2,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "def get_my_price(coin):\n    crypto_price = r.crypto.get_crypto_quote(str(coin))\n    my_price = float(crypto_price['mark_price'])\n    return my_price\n# Get crypto positions function\n# use limits to set a rate limit of no more than 1 call per 2 seconds\n# @limits(calls=1, period=2)\n@sleep_and_retry\ndef get_crypto_positions_in_account():\n    ic()",
+        "detail": "main2",
+        "documentation": {}
+    },
+    {
+        "label": "get_crypto_positions_in_account",
+        "kind": 2,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "def get_crypto_positions_in_account():\n    ic()\n    crypto_positions = r.crypto.get_crypto_positions()\n    positions_dict = {}\n    for position in crypto_positions:\n        symbol = position['currency']['code']\n        quantity = float(position['quantity_available'])\n        positions_dict[symbol] = {\n            'quantity': quantity\n        }",
+        "detail": "main2",
+        "documentation": {}
+    },
+    {
+        "label": "resetter",
+        "kind": 2,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "def resetter():\n    ic()\n    if RESET:\n        crypto_positions = r.crypto.get_crypto_positions()\n        for position in crypto_positions:\n            symbol = position['currency']['code']\n            quantity = float(position['quantity_available'])\n            order_crypto(symbol, quantity, side='sell')\n        orders = r.orders.get_all_open_crypto_orders()\n        for order in orders:",
+        "detail": "main2",
+        "documentation": {}
+    },
+    {
+        "label": "get_account",
+        "kind": 2,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "def get_account():\n    account = r.profiles.load_account_profile(info=None)\n    return account\n# Brain module function\ndef brain_module():\n    ic()\n    global crypto_I_own\n    global holdings_df\n    global minimum_orders_coins\n    global crypto_positions_df",
+        "detail": "main2",
+        "documentation": {}
+    },
+    {
+        "label": "brain_module",
+        "kind": 2,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "def brain_module():\n    ic()\n    global crypto_I_own\n    global holdings_df\n    global minimum_orders_coins\n    global crypto_positions_df\n    global BUYING_POWER\n    coins_list = [\n        'BTC', 'ETH', 'ADA', 'DOGE', 'MATIC', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK',\n        'COMP', 'USDC', 'SOL', 'AVAX', 'XLM', 'BCH', 'XTZ'",
+        "detail": "main2",
+        "documentation": {}
+    },
+    {
+        "label": "signal_engine",
+        "kind": 2,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "def signal_engine(df, coin):\n    ic()\n    global signals_dict\n    global crypto_I_own\n    global stop_loss_percent\n    df = pd.DataFrame(df)\n    coin = str(coin)\n    df = df[['begins_at', 'open_price', 'close_price', 'high_price', 'low_price', 'volume']]\n    df = df.rename(columns={'begins_at': 'date', 'open_price': 'open', 'close_price': 'close', 'high_price': 'high', 'low_price': 'low', 'volume': 'volume'})\n    df['coin'] = coin",
+        "detail": "main2",
+        "documentation": {}
+    },
+    {
+        "label": "action_engine",
+        "kind": 2,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "def action_engine():\n    global signals_dict\n    global crypto_I_own\n    global loop_count\n    global BUYING_POWER\n    BUYING_POWER = float(r.profiles.load_account_profile(info='buying_power'))\n    time.sleep(20)\n    print(f'crypto_I_own: {crypto_I_own}')\n    for coin in signals_dict.keys():\n        buy_signal = int(signals_dict[coin][0])",
+        "detail": "main2",
+        "documentation": {}
+    },
+    {
+        "label": "is_daytime",
+        "kind": 2,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "def is_daytime():\n    current_time = datetime.now(timezone('US/Central'))\n    current_hour = current_time.hour\n    if current_hour >= 8 and current_hour <= 20:\n        return True\n    else:\n        return False\n# Main function\nasync def main():\n    while True:",
+        "detail": "main2",
+        "documentation": {}
+    },
+    {
+        "label": "main_looper",
+        "kind": 2,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "def main_looper():\n    ic()\n    loop_count = 0\n    start_date = datetime.now(timezone('US/Central'))\n    BUYING_POWER = 0\n    starting_equity = BUYING_POWER\n    try:\n        asyncio.run(run_async_functions(loop_count, BUYING_POWER))\n    except Exception as e:\n        raise e",
+        "detail": "main2",
+        "documentation": {}
+    },
+    {
+        "label": "signals_dict",
+        "kind": 5,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "signals_dict = {}\nminimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\nimport asyncio\n# Constants\npercentage_in_play = 0.60\nstop_loss_percent = 0.05\nverboseMode = True",
+        "detail": "main2",
+        "documentation": {}
+    },
+    {
+        "label": "minimum_orders_coins",
+        "kind": 5,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "minimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\nimport asyncio\n# Constants\npercentage_in_play = 0.60\nstop_loss_percent = 0.05\nverboseMode = True\n# Global variables",
+        "detail": "main2",
+        "documentation": {}
+    },
+    {
+        "label": "percentage_in_play",
+        "kind": 5,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "percentage_in_play = 0.60\nstop_loss_percent = 0.05\nverboseMode = True\n# Global variables\nsignals_dict = {}\nminimum_orders_coins = {}\ncrypto_I_own = {}\nholdings_df = None\ncrypto_positions_df = None\nBUYING_POWER = 0.0",
+        "detail": "main2",
+        "documentation": {}
+    },
+    {
+        "label": "stop_loss_percent",
+        "kind": 5,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "stop_loss_percent = 0.05\nverboseMode = True\n# Global variables\nsignals_dict = {}\nminimum_orders_coins = {}\ncrypto_I_own = {}\nholdings_df = None\ncrypto_positions_df = None\nBUYING_POWER = 0.0\nloop_count = 0",
+        "detail": "main2",
+        "documentation": {}
+    },
+    {
+        "label": "verboseMode",
+        "kind": 5,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "verboseMode = True\n# Global variables\nsignals_dict = {}\nminimum_orders_coins = {}\ncrypto_I_own = {}\nholdings_df = None\ncrypto_positions_df = None\nBUYING_POWER = 0.0\nloop_count = 0\nRESET = False",
+        "detail": "main2",
+        "documentation": {}
+    },
+    {
+        "label": "signals_dict",
+        "kind": 5,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "signals_dict = {}\nminimum_orders_coins = {}\ncrypto_I_own = {}\nholdings_df = None\ncrypto_positions_df = None\nBUYING_POWER = 0.0\nloop_count = 0\nRESET = False\n# import traceback\n# Order crypto function",
+        "detail": "main2",
+        "documentation": {}
+    },
+    {
+        "label": "minimum_orders_coins",
+        "kind": 5,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "minimum_orders_coins = {}\ncrypto_I_own = {}\nholdings_df = None\ncrypto_positions_df = None\nBUYING_POWER = 0.0\nloop_count = 0\nRESET = False\n# import traceback\n# Order crypto function\n# @limits(calls=1, period=2)  # Adjust the rate limit as per your requirements",
+        "detail": "main2",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_I_own",
+        "kind": 5,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "crypto_I_own = {}\nholdings_df = None\ncrypto_positions_df = None\nBUYING_POWER = 0.0\nloop_count = 0\nRESET = False\n# import traceback\n# Order crypto function\n# @limits(calls=1, period=2)  # Adjust the rate limit as per your requirements\n@sleep_and_retry",
+        "detail": "main2",
+        "documentation": {}
+    },
+    {
+        "label": "holdings_df",
+        "kind": 5,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "holdings_df = None\ncrypto_positions_df = None\nBUYING_POWER = 0.0\nloop_count = 0\nRESET = False\n# import traceback\n# Order crypto function\n# @limits(calls=1, period=2)  # Adjust the rate limit as per your requirements\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):",
+        "detail": "main2",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_positions_df",
+        "kind": 5,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "crypto_positions_df = None\nBUYING_POWER = 0.0\nloop_count = 0\nRESET = False\n# import traceback\n# Order crypto function\n# @limits(calls=1, period=2)  # Adjust the rate limit as per your requirements\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    global BUYING_POWER",
+        "detail": "main2",
+        "documentation": {}
+    },
+    {
+        "label": "BUYING_POWER",
+        "kind": 5,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "BUYING_POWER = 0.0\nloop_count = 0\nRESET = False\n# import traceback\n# Order crypto function\n# @limits(calls=1, period=2)  # Adjust the rate limit as per your requirements\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    global BUYING_POWER\n    if symbol is None:",
+        "detail": "main2",
+        "documentation": {}
+    },
+    {
+        "label": "loop_count",
+        "kind": 5,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "loop_count = 0\nRESET = False\n# import traceback\n# Order crypto function\n# @limits(calls=1, period=2)  # Adjust the rate limit as per your requirements\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    global BUYING_POWER\n    if symbol is None:\n        return",
+        "detail": "main2",
+        "documentation": {}
+    },
+    {
+        "label": "RESET",
+        "kind": 5,
+        "importPath": "main2",
+        "description": "main2",
+        "peekOfCode": "RESET = False\n# import traceback\n# Order crypto function\n# @limits(calls=1, period=2)  # Adjust the rate limit as per your requirements\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if isinstance(symbol, str) else str(symbol).upper()",
+        "detail": "main2",
         "documentation": {}
     }
 ]
