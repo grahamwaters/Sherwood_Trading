@@ -369,7 +369,6 @@ def signal_engine(df, coin):
         sell_signal += 1
     else:
         hold_signal += 1
-    print(f' --> {coin} (+): {buy_signal} | (-): {sell_signal} | (!): {hold_signal}')
     buy_strength = buy_signal
     sell_strength = sell_signal
     hold_strength = hold_signal
@@ -385,7 +384,8 @@ def signal_engine(df, coin):
     elif hold_signal > buy_signal and hold_signal > sell_signal:
         buy_signal = 0
         sell_signal = 0
-        hold_signal = 1 + hold_signal * 0.05
+        hold_signal = 1 + hold_strength * 0.05
+    print(f' --> {coin} (+): {buy_signal} | (-): {sell_signal} | (!): {hold_signal}')
     return buy_signal, sell_signal, hold_signal
 
 # Action engine function
