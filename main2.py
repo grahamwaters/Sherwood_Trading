@@ -106,7 +106,7 @@ def login_setup():
 # Robinhood getter function
 @sleep_and_retry
 def robin_getter(coin):
-    ic()
+    # ic()
     crypto_available_on_robinhood = r.crypto.get_crypto_currency_pairs()
     crypto_historicals = r.crypto.get_crypto_historicals(str(coin), "5minute", "day", "24_7", info=None)
     crypto_price = r.crypto.get_crypto_quote(str(coin))
@@ -161,10 +161,17 @@ def brain_module():
     global minimum_orders_coins
     global crypto_positions_df
     global BUYING_POWER
+
+
     coins_list = [
         'BTC', 'ETH', 'ADA', 'DOGE', 'MATIC', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK',
         'COMP', 'USDC', 'SOL', 'AVAX', 'XLM', 'BCH', 'XTZ'
     ]
+
+    # on June 27th 2023 ADA will be removed from the list
+    # if datetime.datetime.now() > datetime.datetime(2023, 6, 27):
+    #     coins_list.remove('ADA')
+
     os.environ['COINS_LIST'] = str(coins_list)
     minimum_orders_coins = pd.DataFrame()
     holdings_df = pd.DataFrame()
@@ -316,7 +323,7 @@ def brain_module():
 
 # Signal engine function
 def signal_engine(df, coin):
-    ic()
+    # ic()
     global signals_dict
     global crypto_I_own
     global stop_loss_percent
@@ -338,7 +345,6 @@ def signal_engine(df, coin):
     sell_strength = 0
     hold_signal = 0
     highest_price = df['close'].iloc[0]
-    purchase_price = df['close'].iloc[0]
     rsi = TA.RSI(df[['open', 'high', 'low', 'close']]).to_list()[-1]
     macd = TA.MACD(df)['MACD'].to_list()[-1]
     macd_signal = TA.MACD(df)['SIGNAL'].to_list()[-1]
@@ -347,6 +353,13 @@ def signal_engine(df, coin):
     ma200 = TA.SMA(df, 200).to_list()[-1]
     ma50 = TA.SMA(df, 50).to_list()[-1]
     current_price = df['close'].iloc[-1]
+    # Check for peaks and dips within a five-hour window
+    window_prices = df['close'].iloc[-12:].tolist()  # 5 hours = 12 five-minute intervals
+    lowest_price = min(window_prices) # Lowest price in the last five hours
+    highest_price = max(window_prices) # Highest price in the last five hours
+    price_change = highest_price - lowest_price # Price change in the last five hours
+    percent_change = (price_change / lowest_price) * 100 # Percent change in the last five hours
+    # Check for peaks and dips within a one-hour window
     if rsi < 30 and macd > 0:
         buy_signal += 1
     elif rsi > 70 and macd < 0:
@@ -369,6 +382,31 @@ def signal_engine(df, coin):
         sell_signal += 1
     else:
         hold_signal += 1
+    # If the latest point in the window is beyond (up/down) the median of the window in the (up/down) direction, then (buy/sell) signal is increased by 1
+    # If the current price is above the median of the window from the last five hours but less than the highest price in the last five hours, then sell signal is increased by 1
+    if current_price > np.median(window_prices) and current_price < highest_price:
+        logging.info(f'current price: {current_price}, rsi: {rsi} --> sell signal increased by 1 to {sell_signal + 1}')
+        sell_signal += 1
+    elif current_price > np.median(window_prices) and current_price == highest_price and rsi > 70:
+        logging.info(f'current price: {current_price}, rsi: {rsi} --> sell signal increased by 1 to {sell_signal + 1}')
+        sell_signal += 1
+    elif current_price < np.median(window_prices) and current_price > lowest_price:
+        logging.info(f'current price: {current_price}, rsi: {rsi} --> buy signal increased by 1 to {buy_signal + 1}')
+        buy_signal += 1
+    elif current_price < np.median(window_prices) and current_price == lowest_price and rsi < 30:
+        logging.info(f'current price: {current_price}, rsi: {rsi} --> buy signal increased by 1 to {buy_signal + 1}')
+        buy_signal += 1 # If the current price is the lowest price in the last five hours and rsi is less than 30, then buy signal is increased by 1
+    elif current_price < np.median(window_prices):
+        logging.info(f'current price: {current_price}, rsi: {rsi} --> buy signal increased by 1 to {buy_signal + 1}')
+        sell_signal += 1
+
+
+    if percent_change > 1:
+        if current_price == lowest_price:
+            sell_signal += 2
+        elif current_price == highest_price:
+            buy_signal += 2
+
     buy_strength = buy_signal
     sell_strength = sell_signal
     hold_strength = hold_signal
@@ -405,7 +443,7 @@ def action_engine():
         position = float(position['quantity_available']) if isinstance(position, dict) else 0
         print(f'position: {position}')
         if sell_signal > 0 and position > 0:
-            ic()
+            # ic()
             try:
                 order_crypto(symbol=coin,
                              quantity_or_price=position,
@@ -416,7 +454,7 @@ def action_engine():
             except Exception as e:
                 logging.info(f'Unable to generate orders for {coin}...{e}')
         if buy_signal > sell_signal and buy_signal > hold_signal and position == 0 and BUYING_POWER > 0:
-            ic()
+            # ic()
             order_value = 0.01 * BUYING_POWER
             order_crypto(symbol=coin,
                          quantity_or_price=BUYING_POWER + 0.25 * buy_signal,
@@ -428,7 +466,7 @@ def action_engine():
             print(f'BUYING_POWER: {BUYING_POWER}')
             print(f'I just bought {order_value} of {coin}... for ${order_value}...')
         elif sell_signal > buy_signal and sell_signal > hold_signal:
-            ic()
+            #
             order_crypto(symbol=coin,
                          quantity_or_price=float(position),
                          amount_in='amount',
@@ -465,7 +503,7 @@ async def main():
                 await asyncio.sleep(1)
 
 async def update_buying_power():
-    ic()
+    # ic()
     while True:
         account_details_df = pd.DataFrame(await asyncio.to_thread(r.profiles.load_account_profile, info=None), index=[0])
         BUYING_POWER = float(account_details_df['onbp'])
@@ -473,12 +511,12 @@ async def update_buying_power():
         await asyncio.sleep(180)
 
 async def run_async_functions(loop_count, BUYING_POWER):
-    ic()
+    # ic()
     loop_count += 1
     await asyncio.gather(main(), update_buying_power())
 
 def main_looper():
-    ic()
+    # ic()
     loop_count = 0
     start_date = datetime.now(timezone('US/Central'))
     BUYING_POWER = 0

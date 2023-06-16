@@ -3865,7 +3865,7 @@
         "kind": 2,
         "importPath": "main2",
         "description": "main2",
-        "peekOfCode": "def robin_getter(coin):\n    ic()\n    crypto_available_on_robinhood = r.crypto.get_crypto_currency_pairs()\n    crypto_historicals = r.crypto.get_crypto_historicals(str(coin), \"5minute\", \"day\", \"24_7\", info=None)\n    crypto_price = r.crypto.get_crypto_quote(str(coin))\n    return crypto_available_on_robinhood, crypto_historicals, crypto_price\n@sleep_and_retry\ndef get_my_price(coin):\n    crypto_price = r.crypto.get_crypto_quote(str(coin))\n    my_price = float(crypto_price['mark_price'])",
+        "peekOfCode": "def robin_getter(coin):\n    # ic()\n    crypto_available_on_robinhood = r.crypto.get_crypto_currency_pairs()\n    crypto_historicals = r.crypto.get_crypto_historicals(str(coin), \"5minute\", \"day\", \"24_7\", info=None)\n    crypto_price = r.crypto.get_crypto_quote(str(coin))\n    return crypto_available_on_robinhood, crypto_historicals, crypto_price\n@sleep_and_retry\ndef get_my_price(coin):\n    crypto_price = r.crypto.get_crypto_quote(str(coin))\n    my_price = float(crypto_price['mark_price'])",
         "detail": "main2",
         "documentation": {}
     },
@@ -3919,7 +3919,7 @@
         "kind": 2,
         "importPath": "main2",
         "description": "main2",
-        "peekOfCode": "def signal_engine(df, coin):\n    ic()\n    global signals_dict\n    global crypto_I_own\n    global stop_loss_percent\n    df = pd.DataFrame(df)\n    coin = str(coin)\n    df = df[['begins_at', 'open_price', 'close_price', 'high_price', 'low_price', 'volume']]\n    df = df.rename(columns={'begins_at': 'date', 'open_price': 'open', 'close_price': 'close', 'high_price': 'high', 'low_price': 'low', 'volume': 'volume'})\n    df['coin'] = coin",
+        "peekOfCode": "def signal_engine(df, coin):\n    # ic()\n    global signals_dict\n    global crypto_I_own\n    global stop_loss_percent\n    df = pd.DataFrame(df)\n    coin = str(coin)\n    df = df[['begins_at', 'open_price', 'close_price', 'high_price', 'low_price', 'volume']]\n    df = df.rename(columns={'begins_at': 'date', 'open_price': 'open', 'close_price': 'close', 'high_price': 'high', 'low_price': 'low', 'volume': 'volume'})\n    df['coin'] = coin",
         "detail": "main2",
         "documentation": {}
     },
@@ -3946,7 +3946,7 @@
         "kind": 2,
         "importPath": "main2",
         "description": "main2",
-        "peekOfCode": "def main_looper():\n    ic()\n    loop_count = 0\n    start_date = datetime.now(timezone('US/Central'))\n    BUYING_POWER = 0\n    starting_equity = BUYING_POWER\n    try:\n        asyncio.run(run_async_functions(loop_count, BUYING_POWER))\n    except Exception as e:\n        raise e",
+        "peekOfCode": "def main_looper():\n    # ic()\n    loop_count = 0\n    start_date = datetime.now(timezone('US/Central'))\n    BUYING_POWER = 0\n    starting_equity = BUYING_POWER\n    try:\n        asyncio.run(run_async_functions(loop_count, BUYING_POWER))\n    except Exception as e:\n        raise e",
         "detail": "main2",
         "documentation": {}
     },

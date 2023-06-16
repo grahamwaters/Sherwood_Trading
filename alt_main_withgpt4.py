@@ -158,7 +158,7 @@ def brain_module():
     global minimum_orders_coins
     global crypto_positions_df
     global BUYING_POWER
-    coins_list = ['BTC', 'ETH', 'ADA', 'DOGE', 'MATIC', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'SOL', 'AVAX', 'XLM', 'BCH', 'XTZ']
+    coins_list = ['BTC', 'ETH', 'DOGE', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'AVAX', 'XLM', 'BCH', 'XTZ']
     # set an env variable for the coins list
     os.environ['COINS_LIST'] = str(coins_list)
     minimum_orders_coins = pd.DataFrame()
