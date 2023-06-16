@@ -46,8 +46,11 @@ def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=
         if symbol == 'DOG': symbol = 'DOGE' #todo hacked in
         quantity_or_price=max(1.00,0.10 * float(BUYING_POWER))
 
-
-
+        if quantity_or_price > BUYING_POWER:
+            # if the quantity_or_price greater than we have then skip
+            if verboseMode:
+                print(Fore.RED + f'Not enough buying power to buy {quantity_or_price} {symbol}...' + Fore.RESET)
+            return
         time.sleep(random.randint(1, 3))
         #print(f'Set quantity_or_price to {quantity_or_price} {symbol}...')
         #print(f'Quantity_or_price is {quantity_or_price} {symbol}...')
