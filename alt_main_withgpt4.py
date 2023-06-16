@@ -101,6 +101,8 @@ def login_setup():
     logging.info('Started')
     BUYING_POWER = float(account_details_df['onbp']) #! this is a global variable
     return account_details_df, login
+
+@sleep_and_retry
 def robin_getter(coin):
     #ic()
     crypto_available_on_robinhood = r.crypto.get_crypto_currency_pairs()
@@ -400,19 +402,6 @@ def signal_engine(df, coin):
     highest_price = df['close'].iloc[0]
     # Add a new variable to keep track of the purchase price
     purchase_price = df['close'].iloc[0]
-
-    # #* this should be looking at coin specific data
-    # for m in range(len(df)):
-    #     current_price = df['close'].iloc[m]
-    #     # Update the highest price reached
-    #     if current_price > highest_price:
-    #         highest_price = current_price
-    #     # Check if the price has dropped by more than the stop loss percent from the highest price
-    #     if current_price < highest_price * (1 - stop_loss_percent / 100):
-    #         sell_signal = 1
-    #         sell_strength += 1
-    #         # Reset the highest price
-    #         highest_price = current_price
 
     # todo -- this above needs to be considered again I don't like how it is working
 
