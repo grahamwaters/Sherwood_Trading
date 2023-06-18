@@ -186,7 +186,7 @@ def brain_module():
         fp.write(holdings_json)
     logging.info('Calculating signals...')
     signals_dict = {}
-    for df in coin_historicals_dfs:
+    for df in tqdm(coin_historicals_dfs):
         crypto_historicals = df
         crypto_historicals_df = pd.DataFrame(crypto_historicals)
         if 'USD' in str(crypto_historicals_df['symbol'][0]):
@@ -200,7 +200,7 @@ def brain_module():
         logging.info('  Calculating signals for {}...'.format(coin))
         buy_signal, sell_signal, hold_signal = signal_engine(df, coin)
         signals_dict[coin] = [buy_signal, sell_signal, hold_signal]
-    for coin in coins_list:
+    for coin in tqdm(coins_list):
         if coin not in signals_dict.keys():
             signals_dict[coin] = [0, 0, 0]
         if coin == 'DOGE':
@@ -267,6 +267,9 @@ def brain_module():
     os.environ['CRYPTO_SIGNALS'] = str(signals_dict)
     global crypto_signals
     crypto_signals = signals_dict
+import json
+import os
+
 def signal_engine(df, coin):
     """
     The signal_engine function takes in a dataframe of historical price data and returns a buy, sell, or hold signal.
@@ -281,36 +284,58 @@ def signal_engine(df, coin):
     global signals_dict
     global crypto_I_own
     global stop_loss_percent
+
     df = pd.DataFrame(df)
     coin = str(coin)
     df = df[['begins_at', 'open_price', 'close_price', 'high_price', 'low_price', 'volume']]
     df = df.rename(columns={'begins_at': 'date', 'open_price': 'open', 'close_price': 'close', 'high_price': 'high', 'low_price': 'low', 'volume': 'volume'})
     df['coin'] = coin
     df['date'] = df['date'].astype(str)
+
     logging.info('casting df data to floats...')
     df['open'] = df['open'].astype(float)
     df['close'] = df['close'].astype(float)
     df['high'] = df['high'].astype(float)
     df['low'] = df['low'].astype(float)
     df['volume'] = df['volume'].astype(float)
+
     buy_signal = 0
     sell_signal = 0
     sell_strength = 0
     hold_signal = 0
+
     highest_price = df['close'].iloc[0]
     purchase_price = df['close'].iloc[0]
+
     rsi = TA.RSI(df[['open', 'high', 'low', 'close']]).to_list()[-1]
     macd = TA.MACD(df)['MACD'].to_list()[-1]
     macd_signal = TA.MACD(df)['SIGNAL'].to_list()[-1]
-    upper_bollingerband = TA.BBANDS(df)[
-        'BB_UPPER'
-        ].to_list()[-1]
-    lower_bollingerband = TA.BBANDS(df)[
-        'BB_LOWER'
-        ].to_list()[-1]
+    upper_bollingerband = TA.BBANDS(df)['BB_UPPER'].to_list()[-1]
+    lower_bollingerband = TA.BBANDS(df)['BB_LOWER'].to_list()[-1]
     ma200 = TA.SMA(df, 200).to_list()[-1]
     ma50 = TA.SMA(df, 50).to_list()[-1]
     current_price = df['close'].iloc[-1]
+
+    # Load purchase prices from JSON file
+    with open('data/purchase_prices.json', 'r') as f:
+        purchase_prices = json.load(f)
+
+    if coin not in purchase_prices:
+        purchase_prices[coin] = purchase_price
+
+    previous_price = purchase_prices[coin]
+
+    if current_price < previous_price:
+        # Sell all coins if price dips below purchase price
+        sell_signal += 1
+
+    if current_price > highest_price:
+        highest_price = current_price
+
+    if current_price < highest_price * (1 - stop_loss_percent):
+        # Trigger a sell signal of 2 if price drops below stop loss threshold
+        sell_signal = 2
+
     if rsi < 30 and macd > 0:
         buy_signal += 1
     elif rsi > 70 and macd < 0:
@@ -333,7 +358,9 @@ def signal_engine(df, coin):
         sell_signal += 1
     else:
         hold_signal += 1
+
     print(f' --> {coin} (+): {buy_signal} | (-): {sell_signal} | (!): {hold_signal}')
+
     if buy_signal > sell_signal and buy_signal > hold_signal:
         buy_signal = 1
         sell_signal = 0
@@ -346,13 +373,16 @@ def signal_engine(df, coin):
         buy_signal = 0
         sell_signal = 0
         hold_signal = 1
+
     global TOTAL_CRYPTO_DOLLARS
     global BUYING_POWER
     global threshold_total_crypto_per_coin
     global crypto_I_own
+
     for coin in crypto_I_own:
         TOTAL_CRYPTO_DOLLARS += crypto_I_own[coin] * current_price
         break
+
     if TOTAL_CRYPTO_DOLLARS > TOTAL_CRYPTO_DOLLARS * threshold_total_crypto_per_coin:
         if buy_signal == 1:
             buy_signal = 0
@@ -362,7 +392,13 @@ def signal_engine(df, coin):
             sell_signal = 1
             hold_signal = 0
             buy_signal = 0
+
+    # Save updated purchase prices to JSON file
+    with open('data/purchase_prices.json', 'w') as f:
+        json.dump(purchase_prices, f)
+
     return buy_signal, sell_signal, hold_signal
+
 def action_engine():
     """
     The action_engine function is the main function that executes all of the other functions.
