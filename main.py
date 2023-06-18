@@ -389,6 +389,7 @@ def signal_engine(df, coin):
     global stop_loss_percent
     global TOTAL_CRYPTO_DOLLARS
     global BUYING_POWER
+    global ticking_iterator
     global threshold_total_crypto_per_coin
 
 
