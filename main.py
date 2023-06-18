@@ -4,6 +4,7 @@ from datetime import datetime, timedelta
 import matplotlib.pyplot as plt, pandas as pd, numpy as np
 import logging, traceback, json, time, csv, os
 from robin_stocks import robinhood as r
+import statistics
 # import icecream
 from icecream import ic
 from pytz import timezone
@@ -19,7 +20,8 @@ import re
 import pandas as pd
 import asyncio
 PERCENTAGE_IN_PLAY = 0.60 # 60% of buying power is in play at any given time
-percentage_in_play = 0.60 # 60% of buying power is in play at any given time
+ticking_iterator = 0 # this is a global variable that is set to the number of times the loop has run
+percentage_in_play = PERCENTAGE_IN_PLAY # 60% of buying power is in play at any given time
 loop_count = 0
 RESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders
 stop_loss_percent = 0.05 # 5% stop loss
@@ -161,6 +163,7 @@ def brain_module():
     :doc-author: Trelent
     """
     global crypto_I_own
+    global ticking_iterator
     global holdings_df
     global minimum_orders_coins
     global crypto_positions_df
@@ -384,6 +387,10 @@ def signal_engine(df, coin):
     global signals_dict
     global crypto_I_own
     global stop_loss_percent
+    global TOTAL_CRYPTO_DOLLARS
+    global BUYING_POWER
+    global threshold_total_crypto_per_coin
+
 
     df = pd.DataFrame(df)
     coin = str(coin)
@@ -447,6 +454,23 @@ def signal_engine(df, coin):
     else:
         hold_signal += 1
     print(f' --> {coin} (+): {buy_signal} | (-): {sell_signal} | (!): {hold_signal}')
+
+    # if the total value of the holding position is more than the median of the portfolio then sell the total position
+    ticking_iterator += 1
+    if ticking_iterator % 10 == 0:
+        values_positions = []
+        for coin in crypto_I_own:
+            current_price = df['close'].iloc[-1]
+            values_positions.append(current_price * float(crypto_I_own[coin]))
+
+        median_portfolio = statistics.median(values_positions)
+        value_position = current_price * crypto_I_own[coin]
+
+        if value_position > median_portfolio:
+            ic()
+            sell_signal += 1
+
+
     # sell and buy cannot both be true so do the one that is largest
     if buy_signal > sell_signal and buy_signal > hold_signal:
         buy_signal = 1
@@ -463,10 +487,7 @@ def signal_engine(df, coin):
 
     # No coin should represent more than 10% of the portfolio
     # if it does then hold on buys while proceeding with sells
-    global TOTAL_CRYPTO_DOLLARS
-    global BUYING_POWER
-    global threshold_total_crypto_per_coin
-    global crypto_I_own
+
 
     for coin in crypto_I_own:
         # await get_crypto_dollars(coin) # this will update the TOTAL_CRYPTO_DOLLARS variable #note: this would be the syntax if this was an async function, instead we will use the global variable
