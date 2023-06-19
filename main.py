@@ -657,12 +657,40 @@ async def get_total_crypto_dollars():
         await asyncio.sleep(300) # sleep for 5 minutes
 # set up an asynchronous function to run the main loop
 async def main():
+    global loop_count
+    global starting_equity
+    global BUYING_POWER
+    global start_date # the date the program started running
+    global TOTAL_CRYPTO_DOLLARS
     while True:
         # cancel any outstanding orders
         r.orders.cancel_all_crypto_orders()
         time.sleep(30)
         await asyncio.to_thread(brain_module) # update signals
         await asyncio.to_thread(action_engine) # execute orders
+        if loop_count % 20 == 0:
+            # print our buying power, and profit since our start date
+            print(f'BUYING_POWER: {BUYING_POWER}')
+            print(f'Profit: {BUYING_POWER - starting_equity}')
+            print(f'Profit %: {((BUYING_POWER - starting_equity) / starting_equity) * 100}')
+            print(f'Loop count: {loop_count}')
+            print(f'Running for {datetime.now(timezone("US/Central")) - start_date}')
+        if loop_count % 10 == 0:
+            # todo -- this could be good or bad
+            print(Fore.BLUE + 'selling half of every position...' + Fore.RESET)
+            # sell half of every position
+            for coin in crypto_I_own:
+                position = float(crypto_I_own[coin])
+                if position > 0:
+                    order_crypto(symbol=coin,
+                                 quantity_or_price=position/2,
+                                 amount_in='amount',
+                                 side='sell',
+                                 bp=BUYING_POWER,
+                                 timeInForce='gtc')
+                    # BUYING_POWER += position/2
+                    time.sleep(0.25)
+                    crypto_I_own[coin] = position/2
         if is_daytime():
             print('daytime mode')
             print('Sleeping for 5 minutes...')
