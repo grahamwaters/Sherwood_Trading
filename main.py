@@ -249,7 +249,6 @@ async def log_file_size_checker():
                     f.writelines(lines[num_lines_to_remove:])
         await asyncio.sleep(1200)
 
-
 @sleep_and_retry
 def get_account():
     """
@@ -917,6 +916,96 @@ def main_looper():
 # run the main looper function
 print('Starting main looper function...')
 login_setup()
+
+
+#& Stocks Functions
+
+#& Stock function one: buy one dollar of one of the top ten moving stocks of the day
+def stock_function_one():
+    global BUYING_POWER
+    global stock_I_own
+    global stock_dict
+    global day_trade_count
+    global day_trade_limit
+
+    # get the top ten moving stocks of the day
+    top_ten_movers = r.get_top_movers('up')
+    # get the top ten stocks of the day
+    top_ten_stocks = top_ten_movers['results']
+    # get the top ten stocks of the day as a list
+    top_ten_stocks_list = [stock['symbol'] for stock in top_ten_stocks]
+    # get the top ten stocks of the day as a string
+    top_ten_stocks_string = ', '.join(top_ten_stocks_list)
+    # get the top ten stocks of the day as a dataframe
+    top_ten_stocks_df = pd.DataFrame(top_ten_stocks)
+    # get the top ten stocks of the day as a dataframe
+    top_ten_stocks_df = top_ten_stocks_df.set_index('symbol')
+    # get the top ten stocks of the day as a dataframe
+    top_ten_stocks_df = top_ten_stocks_df[['description', 'last_trade_price', 'last_extended_hours_trade_price', 'previous_close']]
+    # get the top ten stocks of the day as a dataframe
+    top_ten_stocks_df = top_ten_stocks_df.rename(columns={'description': 'name', 'last_trade_price': 'current_price', 'last_extended_hours_trade_price': 'after_hours_price', 'previous_close': 'previous_close_price'})
+    # now we have a dataframe of the top ten stocks of the day
+    # we can randomly pick one of these stocks to buy
+    # we want to buy a fractional share of one of these stocks valued at 1 dollar
+    # we can use the BUYING_POWER variable to determine how much of a fractional share we can buy
+    if BUYING_POWER > 2.00:
+        stock_spend = 1.05
+    else:
+        return
+    # randomly pick one of the top ten stocks of the day
+    stock_to_buy = random.choice(top_ten_stocks_list)
+    # get the current price of the stock
+    stock_price = top_ten_stocks_df.loc[stock_to_buy]['current_price']
+    # make a market buy order for the stock
+    try:
+        r.orders.order_buy_fractional_by_price(stock_to_buy, stock_spend)
+        # add the stock to the stock_I_own dictionary
+        stock_I_own[stock_to_buy] = stock_spend
+        # subtract the stock_spend from the BUYING_POWER
+        BUYING_POWER -= stock_spend
+        # log the purchase
+        logging.info(f'Purchased {stock_spend} of {stock_to_buy} at {stock_price}')
+        # print the purchase
+        print(f'Purchased {stock_spend} of {stock_to_buy} at {stock_price}')
+        day_trade_count += 1
+        # create a stop loss order for the stock at 1% below the current price
+        # get the current price of the stock
+        stock_price = top_ten_stocks_df.loc[stock_to_buy]['current_price']
+        # create a stop loss order for the stock at 5% below the current price
+        stop_loss_price = stock_price * 0.95
+        # create a stop loss order for the stock at 1% below the current price
+        r.orders.order_sell_stop_loss(stock_to_buy, stock_spend, stop_loss_price)
+        # log the stop loss order
+        logging.info(f'Stop loss order for {stock_to_buy} at {stop_loss_price}')
+        # print the stop loss order
+        print(f'Stop loss order for {stock_to_buy} at {stop_loss_price}')
+
+    except Exception as e:
+        logging.error(e)
+        print(e)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 if RESET:
     areyousure = print(Fore.RED + 'warning destructive action, are you sure? Will commence in 10 seconds...' + Style.RESET_ALL)

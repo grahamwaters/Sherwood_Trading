@@ -4773,6 +4773,15 @@
         "documentation": {}
     },
     {
+        "label": "stock_function_one",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def stock_function_one():\n    global BUYING_POWER\n    global stock_I_own\n    global stock_dict\n    global day_trade_count\n    global day_trade_limit\n    # get the top ten moving stocks of the day\n    top_ten_movers = r.get_top_movers('up')\n    # get the top ten stocks of the day\n    top_ten_stocks = top_ten_movers['results']",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
         "label": "verboseMode",
         "kind": 5,
         "importPath": "main",

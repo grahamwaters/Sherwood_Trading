@@ -1391,3 +1391,244 @@
 2023-06-20 14:36:34,446 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
 2023-06-20 14:36:34,540 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/76637d50-c702-4ed1-bcb5-5b0732a81f48/?interval=5minute&span=hour&bounds=24_7 HTTP/1.1" 200 None
 2023-06-20 14:38:55,917 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 2980
+2023-06-20 14:41:35,543 Resetting dropped connection: nummus.robinhood.com
+2023-06-20 14:41:35,885 https://nummus.robinhood.com:443 "GET /orders/ HTTP/1.1" 200 77443
+2023-06-20 14:41:36,067 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTA2LTE5KzE5JTNBMjAlM0ExNS4xMzgyNzklMkIwMCUzQTAw HTTP/1.1" 200 76522
+2023-06-20 14:41:36,328 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTA2LTE4KzIwJTNBNTglM0ExNC45MDAzODIlMkIwMCUzQTAw HTTP/1.1" 200 73904
+2023-06-20 14:41:36,547 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTA2LTE3KzIyJTNBNTAlM0EzNS43MzI3NTUlMkIwMCUzQTAw HTTP/1.1" 200 73221
+2023-06-20 14:41:36,731 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTA2LTE3KzE4JTNBMDQlM0EzOS4yODg2MDElMkIwMCUzQTAw HTTP/1.1" 200 75491
+2023-06-20 14:41:36,916 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTA2LTE2KzE0JTNBMzAlM0E1NS43NjQ1ODMlMkIwMCUzQTAw HTTP/1.1" 200 76726
+2023-06-20 14:41:37,094 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTA2LTE1KzE4JTNBMDQlM0EwOC40OTMwNzglMkIwMCUzQTAw HTTP/1.1" 200 73802
+2023-06-20 14:41:37,318 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTA2LTE0KzAwJTNBMTMlM0E0OC4wMTE0MTAlMkIwMCUzQTAw HTTP/1.1" 200 77601
+2023-06-20 14:41:37,519 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTA2LTEzKzE5JTNBNTUlM0E0My4xMTA1ODglMkIwMCUzQTAw HTTP/1.1" 200 74433
+2023-06-20 14:41:37,760 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTA2LTEzKzE0JTNBMDQlM0E1MS4wMzk5NDklMkIwMCUzQTAw HTTP/1.1" 200 77172
+2023-06-20 14:41:37,937 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTA2LTEzKzAxJTNBNTAlM0ExMS45Nzc3ODElMkIwMCUzQTAw HTTP/1.1" 200 77673
+2023-06-20 14:41:38,166 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTA2LTEyKzIzJTNBNTclM0E0MC42NDk2OTQlMkIwMCUzQTAw HTTP/1.1" 200 76157
+2023-06-20 14:41:38,537 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTA2LTEyKzIwJTNBNTglM0E1OC4xNjE2MDglMkIwMCUzQTAw HTTP/1.1" 200 76609
+2023-06-20 14:41:38,814 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTA2LTEwKzIwJTNBMzglM0EwMS4wNzY3MjglMkIwMCUzQTAw HTTP/1.1" 200 76383
+2023-06-20 14:41:39,073 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTA2LTEwKzE0JTNBNTklM0E0Ny4zNzY0MDIlMkIwMCUzQTAw HTTP/1.1" 200 75337
+2023-06-20 14:41:39,370 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTA2LTEwKzA3JTNBMzUlM0ExNC45NzIzOTklMkIwMCUzQTAw HTTP/1.1" 200 77088
+2023-06-20 14:41:39,655 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTA2LTEwKzA2JTNBMTYlM0ExNC4zODcyOTElMkIwMCUzQTAw HTTP/1.1" 200 76605
+2023-06-20 14:41:39,956 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTA2LTEwKzA0JTNBNTYlM0E1NC4xMjE3ODUlMkIwMCUzQTAw HTTP/1.1" 200 78003
+2023-06-20 14:41:40,182 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTA2LTEwKzAyJTNBNDYlM0EyOC40NjUwNTUlMkIwMCUzQTAw HTTP/1.1" 200 77287
+2023-06-20 14:41:40,381 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTA2LTA0KzAzJTNBMzYlM0ExNi4yODA1MTIlMkIwMCUzQTAw HTTP/1.1" 200 78196
+2023-06-20 14:41:40,574 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAzLTAxKzAxJTNBNDglM0EwNi4xMDE1NjAlMkIwMCUzQTAw HTTP/1.1" 200 79295
+2023-06-20 14:41:40,780 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTI4KzIzJTNBNDclM0E1Ny45OTEzMjklMkIwMCUzQTAw HTTP/1.1" 200 79280
+2023-06-20 14:41:41,045 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTI4KzE4JTNBMjQlM0ExOC4wMTcyNTYlMkIwMCUzQTAw HTTP/1.1" 200 77838
+2023-06-20 14:41:41,227 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTI4KzE1JTNBMTQlM0E1MC43NjQ3NDYlMkIwMCUzQTAw HTTP/1.1" 200 77283
+2023-06-20 14:41:41,428 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTI4KzExJTNBMTUlM0EwNy4wMjA2NDclMkIwMCUzQTAw HTTP/1.1" 200 76528
+2023-06-20 14:41:41,619 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTI4KzA5JTNBMzElM0EyNC4xMDg5MzYlMkIwMCUzQTAw HTTP/1.1" 200 78157
+2023-06-20 14:41:41,792 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTI4KzA2JTNBNDQlM0EwOS4wNDUwMjUlMkIwMCUzQTAw HTTP/1.1" 200 76696
+2023-06-20 14:41:41,954 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTI4KzA1JTNBMjElM0EyMy4zMDM3OTYlMkIwMCUzQTAw HTTP/1.1" 200 75007
+2023-06-20 14:41:42,147 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTI4KzA0JTNBMDIlM0E0My4zMTc1NTAlMkIwMCUzQTAw HTTP/1.1" 200 77956
+2023-06-20 14:41:42,293 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTI4KzAyJTNBNDAlM0E0MS45Mzg4MjElMkIwMCUzQTAw HTTP/1.1" 200 77980
+2023-06-20 14:41:42,525 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTI4KzAwJTNBMjclM0ExOS44MjUwMDMlMkIwMCUzQTAw HTTP/1.1" 200 77044
+2023-06-20 14:41:42,681 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTI3KzIxJTNBNDYlM0E1My41ODIzODklMkIwMCUzQTAw HTTP/1.1" 200 76254
+2023-06-20 14:41:42,866 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTI3KzE5JTNBMDQlM0E1Mi45NjA0MzIlMkIwMCUzQTAw HTTP/1.1" 200 76678
+2023-06-20 14:41:43,113 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTI2KzIyJTNBMzklM0EzOC44OTQ0MzUlMkIwMCUzQTAw HTTP/1.1" 200 75949
+2023-06-20 14:41:43,321 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTI2KzE5JTNBMDclM0EyMC40MzA2MDElMkIwMCUzQTAw HTTP/1.1" 200 77992
+2023-06-20 14:41:43,525 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTI1KzE4JTNBMjYlM0EzMi44NjQzNzklMkIwMCUzQTAw HTTP/1.1" 200 75660
+2023-06-20 14:41:43,677 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTI0KzIxJTNBNTglM0E1NS4xNTMxNjYlMkIwMCUzQTAw HTTP/1.1" 200 76989
+2023-06-20 14:41:43,900 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTI0KzAyJTNBMzAlM0ExNS44ODQwNzclMkIwMCUzQTAw HTTP/1.1" 200 77618
+2023-06-20 14:41:44,353 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTIzKzAzJTNBMDklM0EzOS4wODQ2NDYlMkIwMCUzQTAw HTTP/1.1" 200 77632
+2023-06-20 14:41:44,589 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTIyKzA5JTNBNTMlM0E1NC44OTA3MTUlMkIwMCUzQTAw HTTP/1.1" 200 78650
+2023-06-20 14:41:44,701 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTIyKzAxJTNBMzYlM0E1MS44NjA4MzAlMkIwMCUzQTAw HTTP/1.1" 200 77158
+2023-06-20 14:41:44,908 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTIyKzAwJTNBMjclM0E0Ny42NTM2NjYlMkIwMCUzQTAw HTTP/1.1" 200 77529
+2023-06-20 14:41:45,100 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTIxKzIyJTNBNDglM0EyOC4wOTY3OTMlMkIwMCUzQTAw HTTP/1.1" 200 77766
+2023-06-20 14:41:45,290 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTIxKzE4JTNBMzclM0E0OC42Nzk5OTklMkIwMCUzQTAw HTTP/1.1" 200 78509
+2023-06-20 14:41:45,437 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTIxKzE2JTNBMTIlM0EzMC4yMTc4NzYlMkIwMCUzQTAw HTTP/1.1" 200 77054
+2023-06-20 14:41:45,624 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTIxKzA3JTNBMDYlM0EyOC41OTE3MzElMkIwMCUzQTAw HTTP/1.1" 200 76995
+2023-06-20 14:41:45,779 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTIxKzA1JTNBNTElM0EzNy40ODIwODAlMkIwMCUzQTAw HTTP/1.1" 200 77168
+2023-06-20 14:41:45,952 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTIxKzAyJTNBMDYlM0E1Ny4wNDA4MzMlMkIwMCUzQTAw HTTP/1.1" 200 76469
+2023-06-20 14:41:46,148 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTIwKzIzJTNBMTUlM0EwNy4yNTk2NjclMkIwMCUzQTAw HTTP/1.1" 200 77578
+2023-06-20 14:41:46,275 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTIwKzE5JTNBNDAlM0EyNy41OTI2MDYlMkIwMCUzQTAw HTTP/1.1" 200 77593
+2023-06-20 14:41:46,453 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTIwKzE4JTNBNDAlM0EyNC4xMzA3NTUlMkIwMCUzQTAw HTTP/1.1" 200 78709
+2023-06-20 14:41:46,672 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTIwKzAxJTNBNTclM0EzOS42OTIwOTUlMkIwMCUzQTAw HTTP/1.1" 200 77771
+2023-06-20 14:41:46,783 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTE5KzEzJTNBMDMlM0E0MS4xMzMxOTQlMkIwMCUzQTAw HTTP/1.1" 200 77307
+2023-06-20 14:41:46,924 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTE4KzAyJTNBNTQlM0EyNy4xOTExMjIlMkIwMCUzQTAw HTTP/1.1" 200 76780
+2023-06-20 14:41:47,072 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTE3KzE2JTNBMTQlM0ExNC40ODAyNjYlMkIwMCUzQTAw HTTP/1.1" 200 78858
+2023-06-20 14:41:47,314 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTE2KzIzJTNBNDQlM0E1Ny44NjgyODQlMkIwMCUzQTAw HTTP/1.1" 200 77238
+2023-06-20 14:41:47,522 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIzLTAyLTE0KzA0JTNBMzYlM0EyMi4zMjEwMzklMkIwMCUzQTAw HTTP/1.1" 200 77669
+2023-06-20 14:41:47,722 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA5LTE1KzA0JTNBMTclM0ExMC45MzgxNDMlMkIwMCUzQTAw HTTP/1.1" 200 76906
+2023-06-20 14:41:47,852 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA4LTIzKzE1JTNBMDElM0EzNy42NTA1MDElMkIwMCUzQTAw HTTP/1.1" 200 77531
+2023-06-20 14:41:48,035 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA4LTIxKzIwJTNBNTklM0E0NC4xMjA5MDglMkIwMCUzQTAw HTTP/1.1" 200 75447
+2023-06-20 14:41:48,246 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA4LTIxKzE4JTNBMjglM0E0Ny44MTQ3NzElMkIwMCUzQTAw HTTP/1.1" 200 71617
+2023-06-20 14:41:48,414 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA4LTIxKzE2JTNBNTclM0E1Ni40ODU2MTUlMkIwMCUzQTAw HTTP/1.1" 200 75293
+2023-06-20 14:41:48,606 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA4LTIwKzE3JTNBNDclM0E0OS43ODkyODElMkIwMCUzQTAw HTTP/1.1" 200 76248
+2023-06-20 14:41:48,782 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA4LTIwKzE1JTNBNTUlM0EzMS42ODc2MTIlMkIwMCUzQTAw HTTP/1.1" 200 75637
+2023-06-20 14:41:48,922 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA4LTIwKzE0JTNBNDUlM0ExMC43NDQzMjklMkIwMCUzQTAw HTTP/1.1" 200 74496
+2023-06-20 14:41:49,131 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA4LTIwKzAyJTNBMTclM0EzNi4xMTkxNTElMkIwMCUzQTAw HTTP/1.1" 200 77411
+2023-06-20 14:41:49,296 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA4LTExKzE5JTNBMTElM0ExOC4zMjAzNjYlMkIwMCUzQTAw HTTP/1.1" 200 77478
+2023-06-20 14:41:49,422 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA4LTExKzA4JTNBMTUlM0E1NS4wNDkwMzklMkIwMCUzQTAw HTTP/1.1" 200 76715
+2023-06-20 14:41:49,605 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA4LTExKzAzJTNBMjElM0EwNS4yNzE2NzglMkIwMCUzQTAw HTTP/1.1" 200 73334
+2023-06-20 14:41:50,037 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA4LTExKzAxJTNBNTUlM0E1OC45NTA5NTIlMkIwMCUzQTAw HTTP/1.1" 200 61523
+2023-06-20 14:41:50,189 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA4LTExKzAwJTNBNTYlM0EwMS40NTI4MjQlMkIwMCUzQTAw HTTP/1.1" 200 61476
+2023-06-20 14:41:50,340 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA4LTEwKzIzJTNBNDglM0EzOS4zMTIxOTQlMkIwMCUzQTAw HTTP/1.1" 200 64849
+2023-06-20 14:41:50,539 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA4LTEwKzIxJTNBMDIlM0EyMi4zNjQ3MDUlMkIwMCUzQTAw HTTP/1.1" 200 75647
+2023-06-20 14:41:50,745 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA4LTEwKzA0JTNBMjQlM0EyNS44MDE4NjglMkIwMCUzQTAw HTTP/1.1" 200 74373
+2023-06-20 14:41:51,010 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA4LTA5KzIzJTNBMDMlM0EzNS4yMjUxODYlMkIwMCUzQTAw HTTP/1.1" 200 69018
+2023-06-20 14:41:51,146 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA4LTA5KzA1JTNBMDclM0EyNS4xOTMyMTElMkIwMCUzQTAw HTTP/1.1" 200 61938
+2023-06-20 14:41:51,287 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA4LTA5KzA0JTNBMzclM0EzNC41NzQzMTElMkIwMCUzQTAw HTTP/1.1" 200 65905
+2023-06-20 14:41:51,544 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA4LTA5KzAzJTNBNDElM0E1Ny40OTkzMjQlMkIwMCUzQTAw HTTP/1.1" 200 66576
+2023-06-20 14:41:51,707 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA4LTA5KzAzJTNBMDYlM0E0Ny4wNTAzNTIlMkIwMCUzQTAw HTTP/1.1" 200 62809
+2023-06-20 14:41:51,915 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA4LTA5KzAyJTNBMjklM0ExNy4yODYyNTUlMkIwMCUzQTAw HTTP/1.1" 200 72726
+2023-06-20 14:41:52,036 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA4LTA5KzAwJTNBMzYlM0E1OS44MjY2ODIlMkIwMCUzQTAw HTTP/1.1" 200 76571
+2023-06-20 14:41:52,221 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA3LTIzKzAyJTNBNDYlM0E1Ni45MTczMjElMkIwMCUzQTAw HTTP/1.1" 200 75553
+2023-06-20 14:41:52,437 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTA3LTEzKzIxJTNBNDYlM0EzNy4yMTEwNjclMkIwMCUzQTAw HTTP/1.1" 200 77748
+2023-06-20 14:41:52,558 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTAzLTIzKzE0JTNBNTElM0EyMC41MjIzNDQlMkIwMCUzQTAw HTTP/1.1" 200 78092
+2023-06-20 14:41:52,720 https://nummus.robinhood.com:443 "GET /orders/?cursor=cD0yMDIyLTAzLTE2KzAyJTNBNDElM0E0Mi4xODU5ODIlMkIwMCUzQTAw HTTP/1.1" 200 63503
+2023-06-20 14:42:23,020 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 2980
+2023-06-20 14:42:23,446 https://nummus.robinhood.com:443 "GET /holdings/ HTTP/1.1" 200 23037
+2023-06-20 14:42:23,630 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:23,776 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:23,993 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/3d961844-d360-45fc-989b-f6fca761d511/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:42:24,176 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:24,265 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/3d961844-d360-45fc-989b-f6fca761d511/ HTTP/1.1" 200 459
+2023-06-20 14:42:24,425 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:24,665 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:24,789 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/76637d50-c702-4ed1-bcb5-5b0732a81f48/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:42:25,034 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:25,126 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/76637d50-c702-4ed1-bcb5-5b0732a81f48/ HTTP/1.1" 200 444
+2023-06-20 14:42:25,338 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:25,671 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:25,764 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/1ef78e1b-049b-4f12-90e5-555dcf2fe204/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:42:26,006 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:26,096 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/1ef78e1b-049b-4f12-90e5-555dcf2fe204/ HTTP/1.1" 200 429
+2023-06-20 14:42:26,306 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:26,515 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:26,611 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/2d189ddb-bc0d-4aa4-bd6b-cd72e6679cd0/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:42:26,875 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:27,040 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/2d189ddb-bc0d-4aa4-bd6b-cd72e6679cd0/ HTTP/1.1" 200 447
+2023-06-20 14:42:27,159 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:27,404 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:27,564 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/7b577ce3-489d-4269-9408-796a0d1abb3a/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:42:27,716 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:27,807 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/7b577ce3-489d-4269-9408-796a0d1abb3a/ HTTP/1.1" 200 436
+2023-06-20 14:42:27,963 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:28,319 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:28,445 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/33316259-af8c-4f31-86a4-c5c07e12d625/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:42:28,623 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:28,712 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/33316259-af8c-4f31-86a4-c5c07e12d625/ HTTP/1.1" 200 452
+2023-06-20 14:42:28,843 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:29,138 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:29,235 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/f649e71a-543b-4fd8-9faa-bc6c2c9e3d21/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:42:29,423 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:29,508 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/f649e71a-543b-4fd8-9faa-bc6c2c9e3d21/ HTTP/1.1" 200 458
+2023-06-20 14:42:29,660 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:30,008 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:30,185 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/383280b1-ff53-43fc-9c84-f01afd0989cd/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:42:30,302 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:30,392 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/383280b1-ff53-43fc-9c84-f01afd0989cd/ HTTP/1.1" 200 444
+2023-06-20 14:42:30,539 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:30,733 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:30,861 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/9f0a3a2e-e72e-4361-bf15-91d962487922/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:42:31,044 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:31,132 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/9f0a3a2e-e72e-4361-bf15-91d962487922/ HTTP/1.1" 200 440
+2023-06-20 14:42:31,250 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:31,430 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:31,589 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/715af4b3-26d0-4cd0-ad07-7a1cf5dc734a/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:42:31,864 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:31,949 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/715af4b3-26d0-4cd0-ad07-7a1cf5dc734a/ HTTP/1.1" 200 428
+2023-06-20 14:42:32,068 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:32,281 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:32,375 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/3a3d9131-b627-4782-95e6-aeb874558e99/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:42:32,519 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:32,611 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/3a3d9131-b627-4782-95e6-aeb874558e99/ HTTP/1.1" 200 382
+2023-06-20 14:42:32,806 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:32,952 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:33,078 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/f62a25b6-31c0-4c92-846d-3c8105627b62/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:42:33,332 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:33,417 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/f62a25b6-31c0-4c92-846d-3c8105627b62/ HTTP/1.1" 200 444
+2023-06-20 14:42:33,563 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:33,762 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:33,955 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/7a04fe7a-e3a8-4a07-8c35-d0fec9f35569/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:42:34,133 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:34,227 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/7a04fe7a-e3a8-4a07-8c35-d0fec9f35569/ HTTP/1.1" 200 453
+2023-06-20 14:42:34,380 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:34,524 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:34,650 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/2f2b77c4-e426-4271-ae49-18d5cb296d3a/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:42:34,902 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:34,960 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/2f2b77c4-e426-4271-ae49-18d5cb296d3a/ HTTP/1.1" 200 438
+2023-06-20 14:42:35,181 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:35,426 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:35,522 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:42:35,774 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:35,861 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/ HTTP/1.1" 200 438
+2023-06-20 14:42:35,875 Calculating signals...
+2023-06-20 14:42:35,877   Calculating signals for BTC...
+2023-06-20 14:42:35,882 casting df data to floats...
+2023-06-20 14:42:35,919   Calculating signals for ETH...
+2023-06-20 14:42:35,923 casting df data to floats...
+2023-06-20 14:42:35,952   Calculating signals for DOG...
+2023-06-20 14:42:35,957 casting df data to floats...
+2023-06-20 14:42:35,989   Calculating signals for SHI...
+2023-06-20 14:42:35,993 casting df data to floats...
+2023-06-20 14:42:36,023   Calculating signals for ETC...
+2023-06-20 14:42:36,028 casting df data to floats...
+2023-06-20 14:42:36,060   Calculating signals for UNI...
+2023-06-20 14:42:36,069 casting df data to floats...
+2023-06-20 14:42:36,108   Calculating signals for AAV...
+2023-06-20 14:42:36,113 casting df data to floats...
+2023-06-20 14:42:36,146   Calculating signals for LTC...
+2023-06-20 14:42:36,152 casting df data to floats...
+2023-06-20 14:42:36,190   Calculating signals for LIN...
+2023-06-20 14:42:36,194 casting df data to floats...
+2023-06-20 14:42:36,225   Calculating signals for COM...
+2023-06-20 14:42:36,230 casting df data to floats...
+2023-06-20 14:42:36,263   Calculating signals for USD...
+2023-06-20 14:42:36,267 casting df data to floats...
+2023-06-20 14:42:36,298   Calculating signals for AVA...
+2023-06-20 14:42:36,303 casting df data to floats...
+2023-06-20 14:42:36,335   Calculating signals for XLM...
+2023-06-20 14:42:36,340 casting df data to floats...
+2023-06-20 14:42:36,374   Calculating signals for BCH...
+2023-06-20 14:42:36,379 casting df data to floats...
+2023-06-20 14:42:36,414   Calculating signals for XTZ...
+2023-06-20 14:42:36,419 casting df data to floats...
+2023-06-20 14:42:36,541 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 2980
+2023-06-20 14:42:36,619 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 2980
+2023-06-20 14:42:36,693 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 2980
+2023-06-20 14:42:36,763 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 2980
+2023-06-20 14:42:36,840 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 2980
+2023-06-20 14:42:37,000 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 2980
+2023-06-20 14:42:37,084 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 2980
+2023-06-20 14:42:37,158 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 2980
+2023-06-20 14:42:37,271 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 2980
+2023-06-20 14:42:57,278 Finished executing orders for 2023-06-20 14:42:57.277189-05:00...
+2023-06-20 14:42:57,490 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:57,603 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/6f2afc32-702e-41ad-b232-ed26b77c1943/?interval=5minute&span=hour&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:42:57,741 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:57,827 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/f649e71a-543b-4fd8-9faa-bc6c2c9e3d21/?interval=5minute&span=hour&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:42:57,979 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:58,067 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/?interval=5minute&span=hour&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:42:58,215 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:58,306 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/7a04fe7a-e3a8-4a07-8c35-d0fec9f35569/?interval=5minute&span=hour&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:42:58,499 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:58,559 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/f62a25b6-31c0-4c92-846d-3c8105627b62/?interval=5minute&span=hour&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:42:58,707 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:58,807 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/33316259-af8c-4f31-86a4-c5c07e12d625/?interval=5minute&span=hour&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:42:59,022 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:59,112 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/9f0a3a2e-e72e-4361-bf15-91d962487922/?interval=5minute&span=hour&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:42:59,233 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:59,296 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/b668301c-44f9-4fbf-88e4-8140846f15ba/?interval=5minute&span=hour&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:42:59,427 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:59,543 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/2d189ddb-bc0d-4aa4-bd6b-cd72e6679cd0/?interval=5minute&span=hour&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:42:59,761 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:42:59,859 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/715af4b3-26d0-4cd0-ad07-7a1cf5dc734a/?interval=5minute&span=hour&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:43:00,066 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:43:00,163 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/0cdc8c93-fbda-462f-94b7-26353d87a009/?interval=5minute&span=hour&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:43:00,309 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:43:00,400 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/2f2b77c4-e426-4271-ae49-18d5cb296d3a/?interval=5minute&span=hour&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:43:00,591 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:43:00,653 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/086a8f9f-6c39-43fa-ac9f-57952f4a1ba6/?interval=5minute&span=hour&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:43:00,781 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:43:01,127 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/383280b1-ff53-43fc-9c84-f01afd0989cd/?interval=5minute&span=hour&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:43:01,346 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:43:01,435 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/7b577ce3-489d-4269-9408-796a0d1abb3a/?interval=5minute&span=hour&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:43:01,639 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:43:01,699 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/1ef78e1b-049b-4f12-90e5-555dcf2fe204/?interval=5minute&span=hour&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:43:01,911 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:43:02,003 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/3d961844-d360-45fc-989b-f6fca761d511/?interval=5minute&span=hour&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:43:02,163 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62031
+2023-06-20 14:43:02,229 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/76637d50-c702-4ed1-bcb5-5b0732a81f48/?interval=5minute&span=hour&bounds=24_7 HTTP/1.1" 200 None
+2023-06-20 14:45:23,190 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 2980
