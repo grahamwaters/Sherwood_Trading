@@ -4804,7 +4804,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "current_prices_dict = {}\nsignals_dict = {}\nminimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\nimport asyncio\nPERCENTAGE_IN_PLAY = 0.40 # 60% of buying power is in play at any given time\nticking_iterator = 0 # this is a global variable that is set to the number of times the loop has run\npercentage_in_play = PERCENTAGE_IN_PLAY # 60% of buying power is in play at any given time",
+        "peekOfCode": "current_prices_dict = {}\nsignals_dict = {}\nminimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\nimport asyncio\nPERCENTAGE_IN_PLAY = 0.40 # 40% of buying power is in play at any given time\nticking_iterator = 0 # this is a global variable that is set to the number of times the loop has run\npercentage_in_play = PERCENTAGE_IN_PLAY # % of buying power is in play at any given time",
         "detail": "main",
         "documentation": {}
     },
@@ -4813,7 +4813,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "signals_dict = {}\nminimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\nimport asyncio\nPERCENTAGE_IN_PLAY = 0.40 # 60% of buying power is in play at any given time\nticking_iterator = 0 # this is a global variable that is set to the number of times the loop has run\npercentage_in_play = PERCENTAGE_IN_PLAY # 60% of buying power is in play at any given time\nloop_count = 0",
+        "peekOfCode": "signals_dict = {}\nminimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\nimport asyncio\nPERCENTAGE_IN_PLAY = 0.40 # 40% of buying power is in play at any given time\nticking_iterator = 0 # this is a global variable that is set to the number of times the loop has run\npercentage_in_play = PERCENTAGE_IN_PLAY # % of buying power is in play at any given time\nloop_count = 0",
         "detail": "main",
         "documentation": {}
     },
@@ -4822,7 +4822,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "minimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\nimport asyncio\nPERCENTAGE_IN_PLAY = 0.40 # 60% of buying power is in play at any given time\nticking_iterator = 0 # this is a global variable that is set to the number of times the loop has run\npercentage_in_play = PERCENTAGE_IN_PLAY # 60% of buying power is in play at any given time\nloop_count = 0\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders",
+        "peekOfCode": "minimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\nimport asyncio\nPERCENTAGE_IN_PLAY = 0.40 # 40% of buying power is in play at any given time\nticking_iterator = 0 # this is a global variable that is set to the number of times the loop has run\npercentage_in_play = PERCENTAGE_IN_PLAY # % of buying power is in play at any given time\nloop_count = 0\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders",
         "detail": "main",
         "documentation": {}
     },
@@ -4831,7 +4831,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "PERCENTAGE_IN_PLAY = 0.40 # 60% of buying power is in play at any given time\nticking_iterator = 0 # this is a global variable that is set to the number of times the loop has run\npercentage_in_play = PERCENTAGE_IN_PLAY # 60% of buying power is in play at any given time\nloop_count = 0\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\nverboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys\nBUYING_POWER = 0.0 #! this is a global variable that is set to your buying power\nTOTAL_CRYPTO_DOLLARS = 0.0 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\nthreshold_total_crypto_per_coin = 0.10 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)",
+        "peekOfCode": "PERCENTAGE_IN_PLAY = 0.40 # 40% of buying power is in play at any given time\nticking_iterator = 0 # this is a global variable that is set to the number of times the loop has run\npercentage_in_play = PERCENTAGE_IN_PLAY # % of buying power is in play at any given time\nloop_count = 0\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\nverboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys\nBUYING_POWER = 0.0 #! this is a global variable that is set to your buying power\nTOTAL_CRYPTO_DOLLARS = 0.0 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\nthreshold_total_crypto_per_coin = 0.10 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)",
         "detail": "main",
         "documentation": {}
     },
@@ -4840,7 +4840,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "ticking_iterator = 0 # this is a global variable that is set to the number of times the loop has run\npercentage_in_play = PERCENTAGE_IN_PLAY # 60% of buying power is in play at any given time\nloop_count = 0\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\nverboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys\nBUYING_POWER = 0.0 #! this is a global variable that is set to your buying power\nTOTAL_CRYPTO_DOLLARS = 0.0 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\nthreshold_total_crypto_per_coin = 0.10 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\ncrypto_I_own = {} #! this is a global variable that is set to the coins you own",
+        "peekOfCode": "ticking_iterator = 0 # this is a global variable that is set to the number of times the loop has run\npercentage_in_play = PERCENTAGE_IN_PLAY # % of buying power is in play at any given time\nloop_count = 0\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\nverboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys\nBUYING_POWER = 0.0 #! this is a global variable that is set to your buying power\nTOTAL_CRYPTO_DOLLARS = 0.0 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\nthreshold_total_crypto_per_coin = 0.10 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\ncrypto_I_own = {} #! this is a global variable that is set to the coins you own",
         "detail": "main",
         "documentation": {}
     },
@@ -4849,7 +4849,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "percentage_in_play = PERCENTAGE_IN_PLAY # 60% of buying power is in play at any given time\nloop_count = 0\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\nverboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys\nBUYING_POWER = 0.0 #! this is a global variable that is set to your buying power\nTOTAL_CRYPTO_DOLLARS = 0.0 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\nthreshold_total_crypto_per_coin = 0.10 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\ncrypto_I_own = {} #! this is a global variable that is set to the coins you own\n@sleep_and_retry",
+        "peekOfCode": "percentage_in_play = PERCENTAGE_IN_PLAY # % of buying power is in play at any given time\nloop_count = 0\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\nverboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys\nBUYING_POWER = 0.0 #! this is a global variable that is set to your buying power\nTOTAL_CRYPTO_DOLLARS = 0.0 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\nthreshold_total_crypto_per_coin = 0.10 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\ncrypto_I_own = {} #! this is a global variable that is set to the coins you own\n@sleep_and_retry",
         "detail": "main",
         "documentation": {}
     },

@@ -51,9 +51,9 @@ import ast
 import re
 import pandas as pd
 import asyncio
-PERCENTAGE_IN_PLAY = 0.40 # 60% of buying power is in play at any given time
+PERCENTAGE_IN_PLAY = 0.40 # 40% of buying power is in play at any given time
 ticking_iterator = 0 # this is a global variable that is set to the number of times the loop has run
-percentage_in_play = PERCENTAGE_IN_PLAY # 60% of buying power is in play at any given time
+percentage_in_play = PERCENTAGE_IN_PLAY # % of buying power is in play at any given time
 loop_count = 0
 RESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders
 stop_loss_percent = 0.05 # 5% stop loss
