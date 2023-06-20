@@ -188,6 +188,28 @@ def resetter():
             if order['side'] == 'buy':
                 r.orders.cancel_crypto_order(order['id'])
                 print(f'Cancelled buy order {order["id"]}...')
+
+
+# make an async function that checks the size of the log file and removes lines from the start of the file to maintain a rolling log of 1000 lines
+async def log_file_size_checker():
+    """
+    The log_file_size_checker function is an async function that checks the size of the log file and removes lines from the start of the file to maintain a rolling log of 1000 lines.
+    :return: None
+    :doc-author: Trelent
+    """
+    while True:
+        #ic()
+        with open('logs/robinhood.log', 'r') as f:
+            lines = f.readlines()
+            if len(lines) > 1000: # if the log file is greater than 1000 lines
+                # find how many lines to remove
+                num_lines_to_remove = len(lines) - 1000
+                # remove the first num_lines_to_remove lines
+                with open('logs/robinhood.log', 'w') as f:
+                    f.writelines(lines[num_lines_to_remove:])
+        await asyncio.sleep(1200)
+
+
 @sleep_and_retry
 def get_account():
     """
@@ -700,6 +722,7 @@ async def main():
                         # Update the buying power
                         BUYING_POWER += sell_quantity
                         time.sleep(0.25)
+                        print(Fore.GREEN + f'I checked historical data and decided to sell {sell_quantity} of {coin}...' + Fore.RESET)
                         # Update the position
                         crypto_I_own[coin] = position - sell_quantity
 
@@ -733,9 +756,11 @@ async def update_buying_power():
 async def run_async_functions(loop_count, BUYING_POWER):
     ic()
     loop_count += 1
+    # gather will run the functions simultaneously
     await asyncio.gather(main(),
                          update_buying_power(),
-                         get_total_crypto_dollars())
+                         get_total_crypto_dollars(),
+                         log_file_size_checker())
 def main_looper():
 
     while True:
