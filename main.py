@@ -28,13 +28,22 @@ from tqdm import tqdm
 from datetime import datetime
 from pytz import timezone
 
+# float(stop_loss_percent) = 0.05 # 5% stop loss #! this is a global variable that is set to the percent of the stop loss
+verboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys
+tracking_dict = {
+    'BTC':{
+        'last_buyin_price': 0.0, # the price of the last buyin
+        'last_buyin_usd': 0.0, # how much USD was spent on the last buyin
+        'last_buyin_amountcoins': 0.0, # how many coins were bought in the last buyin
+        'trigger_stoploss_price': 0.0, # the price at which the stoploss will trigger
+        'trigger_stoploss_coin_pct': 0.0, # the percent of holdings of the coin to sell at the stoploss
+        'last_buyin_time' : datetime.now(timezone('US/Eastern')), # the time of the last buyin
+        'last_buyin_total' : 0.0, # the total amount of the last buyin
+        'last_buyin_total_usd' : 0.0, # the total amount of the last buyin in USD
+    }
+}
 
-
-
-
-
-
-
+current_prices_dict = {}
 
 signals_dict = {}
 minimum_orders_coins = {}
@@ -120,11 +129,31 @@ def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=
 def login_setup():
     """
     The login_setup function is used to log into the Robinhood API and return a dataframe of account details.
-    It also sets up logging for debugging purposes.
+    It also sets up the global variables BUYING_POWER, stop_loss_percent, and tracking_dict.
+
+
     :return: A dataframe and a login object
     :doc-author: Trelent
     """
+
     global BUYING_POWER
+    # global tracking_dict
+
+    # # now fill tracking dict with the coins we own and their current price
+    # for coin in crypto_I_own:
+    #     time.sleep(random.randint(1, 3))
+    #     sub_dict = {
+    #             'last_buyin_price' : float(r.crypto.get_crypto_quote(coin)['mark_price']),
+    #             'last_buyin_time' : datetime.datetime.now(),
+    #             'last_buyin_amountcoins' : crypto_I_own[coin],
+    #             'last_buyin_total' : crypto_I_own[coin] * float(r.crypto.get_crypto_quote(coin)['mark_price']),
+    #             'last_buyin_total_dollars' : crypto_I_own[coin] * float(r.crypto.get_crypto_quote(coin)['mark_price']),
+    #             'trigger_stoploss_price' : float(r.crypto.get_crypto_quote(coin)['mark_price']) * (1 - float(stop_loss_percent)), #! this is a global variable
+    #             'trigger_stoploss_coin_pct' : float(stop_loss_percent), #! this is a global variable
+    #         }
+    #     tracking_dict[coin] = sub_dict
+
+
     with open('config/credentials.json') as f:
         credentials = json.load(f)
     login = r.login(credentials['username'], credentials['password'])
@@ -141,6 +170,7 @@ def login_setup():
     logging.info('Started')
     BUYING_POWER = float(account_details_df['onbp']) #! this is a global variable
     return account_details_df, login
+
 @sleep_and_retry
 def robin_getter(coin):
     """
@@ -152,9 +182,12 @@ def robin_getter(coin):
     :return: A tuple of three items
     :doc-author: Trelent
     """
+    # global current_prices_dict
     crypto_available_on_robinhood = r.crypto.get_crypto_currency_pairs()
     crypto_historicals = r.crypto.get_crypto_historicals(str(coin), "5minute", "day", "24_7", info=None)
     crypto_price = r.crypto.get_crypto_quote(str(coin))
+    #update the dictionary for the current price and coin name
+    # current_prices_dict[coin] = float(crypto_price['mark_price'])
     return crypto_available_on_robinhood, crypto_historicals, crypto_price
 @sleep_and_retry
 def get_crypto_positions_in_account():
@@ -243,6 +276,11 @@ def brain_module():
     global minimum_orders_coins
     global crypto_positions_df
     global BUYING_POWER
+
+    # #& new method of stop loss
+    # #crypto_I_own = tracking_dict
+    ic()
+
     coins_list = ['BTC', 'ETH', 'DOGE', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'AVAX', 'XLM', 'BCH', 'XTZ']
     # set an env variable for the coins list
     os.environ['COINS_LIST'] = str(coins_list)
@@ -451,6 +489,10 @@ def signal_engine(df, coin):
     global BUYING_POWER
     global ticking_iterator
     global threshold_total_crypto_per_coin
+
+    #& new method of stop loss
+    #crypto_I_own = tracking_dict
+
     df = pd.DataFrame(df)
     coin = str(coin)
     df = df[['begins_at', 'open_price', 'close_price', 'high_price', 'low_price', 'volume']]
@@ -505,6 +547,15 @@ def signal_engine(df, coin):
         buy_signal += 1
     elif current_price < ma200 and ma50 > ma200:
         sell_signal += 1
+    elif current_price == highest_price and rsi > 70:
+        sell_signal += 1
+    elif current_price == highest_price and rsi < 30:
+        buy_signal += 1
+    elif current_price == highest_price and macd > 0:
+        # this could indicate a buy signal
+        buy_signal += 1
+    elif current_price == highest_price and macd < 0:
+        sell_signal += 1
     else:
         hold_signal += 1
     print(f' --> {coin} (+): {buy_signal} | (-): {sell_signal} | (!): {hold_signal}')
@@ -550,6 +601,7 @@ def signal_engine(df, coin):
             buy_signal = 0
     #todo -- implement the deltaR strategy (check your ScanThing Files)
     return buy_signal, sell_signal, hold_signal
+@sleep_and_retry
 def action_engine():
     """
     The action_engine function is the main function that executes orders based on signals.
@@ -563,6 +615,11 @@ def action_engine():
     global crypto_I_own
     global loop_count
     global BUYING_POWER
+
+    #& new method of stop loss
+    #crypto_I_own = tracking_dict
+
+
     BUYING_POWER = float(r.profiles.load_account_profile(info='buying_power'))
     time.sleep(20)
     print(f'crypto_I_own: {crypto_I_own}')
@@ -638,6 +695,7 @@ async def get_total_crypto_dollars():
     print(Fore.BLUE + 'Updating the portfolio value...' + Fore.RESET)
     # Get prices for ['BTC', 'ETH', 'DOGE', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'AVAX', 'XLM', 'BCH', 'XTZ']
     for coin in tqdm(crypto_I_own.keys()):
+        ic()
         # Getting the current price of each coin
         print(Back.YELLOW + Fore.BLACK + f'Getting the current price of {coin}...' + Fore.RESET + Back.RESET, end = '')
         try:
@@ -654,10 +712,12 @@ async def get_total_crypto_dollars():
 
     # sleep for 5 minutes if it's daytime
     if is_daytime():
+        ic()
         print(Fore.BLUE + 'Sleeping for 3 minutes...' + Fore.RESET)
         await asyncio.sleep(170) #^ sleep for 3 minutes - 10 seconds lagging behind the 3 minute mark
     else:
         print(Fore.BLUE + 'Sleeping for 5 minutes...' + Fore.RESET)
+        ic()
         await asyncio.sleep(300) # sleep for 5 minutes
 # set up an asynchronous function to run the main loop
 async def main():
@@ -672,12 +732,14 @@ async def main():
     global starting_equity
     starting_equity = BUYING_POWER # set the starting equity
     start_date = datetime.now(timezone('US/Central')) # set the start date
+    #& new method of stop loss
+    #crypto_I_own = tracking_dict
     # starting equity will be updated to the current value of the portfolio
     # every 5 minutes
     while True:
         # cancel any outstanding orders
         # create a print statement ascii art for the startup of the program that is the word 'Sherwood' with a tree on either side
-
+        ic()
         ascii_art_startup = """
             🌲       🌲
         🌲   Sherwood    🌲
@@ -740,7 +802,7 @@ async def main():
             if BUYING_POWER - starting_equity > 0:
                 print(Fore.GREEN + f'Profit % since start of day: {((BUYING_POWER - starting_equity) / starting_equity) * 100:.2f}' + Fore.RESET)
             else:
-                print(Fore.RED + f'Profit % since start of day: $({((BUYING_POWER - starting_equity) / starting_equity) * 100:.2f})' + Fore.RESET)
+                print(Fore.RED + f'Profit USD since start of day: $({((BUYING_POWER - starting_equity) / starting_equity) * 100:.2f})' + Fore.RESET)
             print(f'Profit % since start of day: {((BUYING_POWER - starting_equity) / starting_equity) * 100:.2f}')
             print('Sleeping for 5 minutes...')
             for i in tqdm(range(300)):
@@ -749,10 +811,59 @@ async def main():
             print('Sleeping for 10 minutes...')
             for i in tqdm(range(600)):
                 await asyncio.sleep(1)
+
+async def check_stop_loss_prices():
+    global tracking_dict
+    global crypto_I_own
+    global current_prices_dict
+    print(Fore.YELLOW + 'Checking stop loss prices...' + Fore.RESET)
+    while True:
+        for coin, coin_data in tracking_dict.items():
+            stop_loss_price = coin_data['trigger_stoploss_price']
+            coin_pct_to_sell = coin_data['trigger_stoploss_coin_pct']
+
+            # Get the current price of the coin
+            # if it is not in the current prices dict, then we need to add it
+            if coin not in current_prices_dict:
+                crypto_price = r.crypto.get_crypto_quote(str(coin))
+                current_price = float(crypto_price['mark_price'])
+                current_prices_dict[coin] = current_price
+            else:
+                current_price = current_prices_dict[coin]
+
+
+            if current_price < stop_loss_price:
+                # Calculate the amount of coin to sell based on the percentage
+                coin_holdings = crypto_I_own.get(coin, 0)
+                coin_to_sell = coin_holdings * coin_pct_to_sell
+
+                if coin_to_sell > 0:
+                    # Sell the coin
+                    try:
+                        order_crypto(symbol=coin, quantity_or_price=coin_to_sell, amount_in='amount', side='sell')
+                        print(f"Selling {coin_to_sell} {coin} due to stop loss at {stop_loss_price}")
+                    except Exception as e:
+                        print(f"Error occurred while selling {coin}: {e}")
+
+        # Reasign the crypto_I_own dict's values to match the tracking dicts volumes for each coin
+        for coin, coin_data in tracking_dict.items():
+            try:
+                coin_volume = coin_data['volume']
+                crypto_I_own[coin] = coin_volume
+            except Exception as e:
+                print(f"Error occurred while updating crypto_I_own dict: {e}")
+
+        # Sleep for 3 minutes before checking again
+        await asyncio.sleep(180)
 # async function to check buying power every 3 minutes
 @sleep_and_retry
 async def update_buying_power():
     ic()
+    global crypto_I_own
+    global tracking_dict
+    #& new method of stop loss
+    #crypto_I_own = tracking_dict
+
     while True:
         account_details_df = pd.DataFrame(await asyncio.to_thread(r.profiles.load_account_profile, info=None), index=[0])
         BUYING_POWER = float(account_details_df['onbp'])

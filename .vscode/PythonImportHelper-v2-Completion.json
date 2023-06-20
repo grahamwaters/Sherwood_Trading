@@ -318,6 +318,14 @@
         "documentation": {}
     },
     {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -784,7 +792,39 @@
         "documentation": {}
     },
     {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
         "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
         "importPath": "colorama",
         "description": "colorama",
         "isExtraImport": true,
@@ -1496,6 +1536,14 @@
         "documentation": {}
     },
     {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
         "label": "sleep_and_retry",
         "importPath": "ratelimit",
         "description": "ratelimit",
@@ -1669,6 +1717,14 @@
         "isExtraImport": true,
         "importPath": "time",
         "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
         "detail": "time",
         "documentation": {}
     },
@@ -2114,6 +2170,31 @@
         "documentation": {}
     },
     {
+        "label": "statistics",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "statistics",
+        "description": "statistics",
+        "detail": "statistics",
+        "documentation": {}
+    },
+    {
+        "label": "ThreadPoolExecutor",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
+        "isExtraImport": true,
+        "detail": "concurrent.futures",
+        "documentation": {}
+    },
+    {
+        "label": "ThreadPoolExecutor",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
+        "isExtraImport": true,
+        "detail": "concurrent.futures",
+        "documentation": {}
+    },
+    {
         "label": "exit",
         "importPath": "sys",
         "description": "sys",
@@ -2178,23 +2259,6 @@
         "importPath": "matplotlib.animation",
         "description": "matplotlib.animation",
         "detail": "matplotlib.animation",
-        "documentation": {}
-    },
-    {
-        "label": "statistics",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "statistics",
-        "description": "statistics",
-        "detail": "statistics",
-        "documentation": {}
-    },
-    {
-        "label": "ThreadPoolExecutor",
-        "importPath": "concurrent.futures",
-        "description": "concurrent.futures",
-        "isExtraImport": true,
-        "detail": "concurrent.futures",
         "documentation": {}
     },
     {
@@ -3363,7 +3427,7 @@
         "kind": 2,
         "importPath": "legacy.V6_june17.refinedmain",
         "description": "legacy.V6_june17.refinedmain",
-        "peekOfCode": "def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()\n    side = side.lower() if type(side) == str else str(side).lower()\n    amount_in = amount_in.lower() if side == 'sell' else 'dollars'\n    timeInForce = timeInForce.lower()\n    if side == 'buy':\n        profile = r.profiles.load_account_profile()",
+        "peekOfCode": "def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.\n    :param symbol: Specify the crypto symbol you want to trade\n    :param quantity_or_price: Determine the amount of crypto to buy or sell\n    :param amount_in: Specify whether the quantity_or_price parameter is in dollars or shares\n    :param side: Determine whether to buy or sell\n    :param bp: Set the buying power for a buy order\n    :param timeInForce: Specify the duration of the order\n    :return: A dict with the following keys:",
         "detail": "legacy.V6_june17.refinedmain",
         "documentation": {}
     },
@@ -3381,7 +3445,7 @@
         "kind": 2,
         "importPath": "legacy.V6_june17.refinedmain",
         "description": "legacy.V6_june17.refinedmain",
-        "peekOfCode": "def robin_getter(coin):\n    crypto_available_on_robinhood = r.crypto.get_crypto_currency_pairs()\n    crypto_historicals = r.crypto.get_crypto_historicals(str(coin), \"5minute\", \"day\", \"24_7\", info=None)\n    crypto_price = r.crypto.get_crypto_quote(str(coin))\n    return crypto_available_on_robinhood, crypto_historicals, crypto_price\n@sleep_and_retry\ndef get_crypto_positions_in_account():\n    crypto_positions = r.crypto.get_crypto_positions()\n    positions_dict = {}\n    for position in crypto_positions:",
+        "peekOfCode": "def robin_getter(coin):\n    \"\"\"\n    The robin_getter function is a function that takes in a coin as an argument and returns the following:\n        1. A list of all crypto currencies available on Robinhood\n        2. The historicals for the given coin, with 5 minute intervals, over 24 hours (24_7)\n        3. The current price of the given coin\n    :param coin: Specify which coin you want to get the data for\n    :return: A tuple of three items\n    :doc-author: Trelent\n    \"\"\"",
         "detail": "legacy.V6_june17.refinedmain",
         "documentation": {}
     },
@@ -3390,7 +3454,7 @@
         "kind": 2,
         "importPath": "legacy.V6_june17.refinedmain",
         "description": "legacy.V6_june17.refinedmain",
-        "peekOfCode": "def get_crypto_positions_in_account():\n    crypto_positions = r.crypto.get_crypto_positions()\n    positions_dict = {}\n    for position in crypto_positions:\n        symbol = position['currency']['code']\n        quantity = float(position['quantity_available'])\n        positions_dict[symbol] = {\n            'quantity': quantity\n        }\n    return positions_dict",
+        "peekOfCode": "def get_crypto_positions_in_account():\n    \"\"\"\n    The get_crypto_positions_in_account function returns a dictionary of the crypto positions in your account.\n    The keys are the symbols, and the values are dictionaries with one key: quantity.\n    :return: A dictionary of all crypto positions in the account\n    :doc-author: Trelent\n    \"\"\"\n    crypto_positions = r.crypto.get_crypto_positions()\n    positions_dict = {}\n    for position in crypto_positions:",
         "detail": "legacy.V6_june17.refinedmain",
         "documentation": {}
     },
@@ -3399,7 +3463,7 @@
         "kind": 2,
         "importPath": "legacy.V6_june17.refinedmain",
         "description": "legacy.V6_june17.refinedmain",
-        "peekOfCode": "def resetter():\n    if RESET:\n        crypto_positions = r.crypto.get_crypto_positions()\n        for position in crypto_positions:\n            symbol = position['currency']['code']\n            quantity = float(position['quantity_available'])\n            order_crypto(symbol, quantity, side='sell')\n        orders = r.orders.get_all_open_crypto_orders()\n        for order in orders:\n            r.orders.cancel_crypto_order(order['id'])",
+        "peekOfCode": "def resetter():\n    \"\"\"\n    The resetter function is used to reset the crypto portfolio.\n    It does this by selling all positions of crypto and deleting all orders.\n    :return: A boolean value\n    :doc-author: Trelent\n    \"\"\"\n    if RESET:\n        crypto_positions = r.crypto.get_crypto_positions()\n        for position in crypto_positions:",
         "detail": "legacy.V6_june17.refinedmain",
         "documentation": {}
     },
@@ -3408,7 +3472,7 @@
         "kind": 2,
         "importPath": "legacy.V6_june17.refinedmain",
         "description": "legacy.V6_june17.refinedmain",
-        "peekOfCode": "def get_account():\n    account = r.profiles.load_account_profile(info=None)\n    return account\ndef brain_module():\n    \"\"\"\n    The brain_module function is the main function of this program. It does the following:\n        1) Gets a list of coins to trade from an env variable called COINS_LIST\n        2) Gets a dictionary of crypto I own from an env variable called CRYPTO_I_OWN\n        3) Creates a dataframe with columns for each coin in COINS_LIST and rows for each coin in CRYPTO_I OWN,\n            where the values are how much crypto I own (in dollars). This dataframe is saved as holdings.csv.",
+        "peekOfCode": "def get_account():\n    \"\"\"\n    The get_account function returns the account information for a user.\n    :return: A dictionary\n    :doc-author: Trelent\n    \"\"\"\n    account = r.profiles.load_account_profile(info=None)\n    return account\ndef brain_module():\n    \"\"\"",
         "detail": "legacy.V6_june17.refinedmain",
         "documentation": {}
     },
@@ -3417,7 +3481,7 @@
         "kind": 2,
         "importPath": "legacy.V6_june17.refinedmain",
         "description": "legacy.V6_june17.refinedmain",
-        "peekOfCode": "def brain_module():\n    \"\"\"\n    The brain_module function is the main function of this program. It does the following:\n        1) Gets a list of coins to trade from an env variable called COINS_LIST\n        2) Gets a dictionary of crypto I own from an env variable called CRYPTO_I_OWN\n        3) Creates a dataframe with columns for each coin in COINS_LIST and rows for each coin in CRYPTO_I OWN,\n            where the values are how much crypto I own (in dollars). This dataframe is saved as holdings.csv.\n    :return: A dictionary of the signals for each coin\n    :doc-author: Trelent\n    \"\"\"",
+        "peekOfCode": "def brain_module():\n    \"\"\"\n    The brain_module function is the main function of this module. It does the following:\n        1. Gets a list of coins to trade from `coins_list` variable\n        2. Gets the minimum order amount for each coin in `coins_list` and saves it as a csv file called 'data/minimum_orders_coins'\n        3. For each coin in `coins_list`, gets its historical data, price, and whether or not it's available on Robinhood (i.e., if you can buy/sell it)\n            - Saves all that info into a dictionary called holdings dict which is\n    :return: The global variable `crypto_signals`\n    :doc-author: Trelent\n    \"\"\"",
         "detail": "legacy.V6_june17.refinedmain",
         "documentation": {}
     },
@@ -3426,7 +3490,7 @@
         "kind": 2,
         "importPath": "legacy.V6_june17.refinedmain",
         "description": "legacy.V6_june17.refinedmain",
-        "peekOfCode": "def signal_engine(df, coin):\n    \"\"\"\n    The signal_engine function takes in a dataframe of historical price data and returns a buy, sell, or hold signal.\n    The function first checks if the current price is less than the highest_price * (stop_loss percent). If it is then it will return a sell signal.\n    If not then it will check for other signals: RSI &lt; 30 and MACD &gt; 0; RSI &gt; 70 and MACD &lt; 0; MACD &gt; macd_signal and current_price &gt; ma200;\n    MACD &lt; macd_signal and current_price &lt; ma200; lower bollingerband crossed up by\n    :param df: Pass the dataframe to the function\n    :param coin: Pass the coin name to the function\n    :return: A buy_signal, sell_signal, and hold_signal\n    :doc-author: Trelent",
+        "peekOfCode": "def signal_engine(df, coin):\n    \"\"\"\n    The signal_engine function takes in a dataframe and a coin name.\n    It then performs technical analysis on the dataframe to determine if there is a buy, sell or hold signal.\n    The function returns three values: buy_signal, sell_signal and hold_signal which are all either 0 or 1.\n    :param df: Pass the dataframe of the coin we are analyzing\n    :param coin: Determine which coin to buy\n    :return: A buy signal, sell signal, and hold signal\n    :doc-author: Trelent\n    \"\"\"",
         "detail": "legacy.V6_june17.refinedmain",
         "documentation": {}
     },
@@ -3435,7 +3499,7 @@
         "kind": 2,
         "importPath": "legacy.V6_june17.refinedmain",
         "description": "legacy.V6_june17.refinedmain",
-        "peekOfCode": "def action_engine():\n    \"\"\"\n    The action_engine function is the main function that executes all of the other functions.\n    It takes no arguments, but it does require a signals_dict variable to be defined in order to work properly.\n    The action_engine function will iterate through each coin in the signals_dict and execute an order based on\n    the signal values for that coin.\n    :return: A dictionary of signals for each coin\n    :doc-author: Trelent\n    \"\"\"\n    global signals_dict",
+        "peekOfCode": "def action_engine():\n    \"\"\"\n    The action_engine function is the main function that executes orders based on signals.\n    It takes in a dictionary of coin symbols and their corresponding buy, sell, or hold signal.\n    The action_engine function then iterates through each coin symbol in the dictionary and\n    executes an order if it meets certain criteria:\n    :return: A dictionary of the form:\n    :doc-author: Trelent\n    \"\"\"\n    global signals_dict",
         "detail": "legacy.V6_june17.refinedmain",
         "documentation": {}
     },
@@ -3444,7 +3508,7 @@
         "kind": 2,
         "importPath": "legacy.V6_june17.refinedmain",
         "description": "legacy.V6_june17.refinedmain",
-        "peekOfCode": "def is_daytime():\n    current_time = datetime.now(timezone('US/Central'))\n    current_hour = current_time.hour\n    if current_hour >= 8 and current_hour <= 20:\n        return True\n    else:\n        return False\nimport asyncio\nfrom tqdm import tqdm\nfrom datetime import datetime",
+        "peekOfCode": "def is_daytime():\n    current_time = datetime.now(timezone('US/Central'))\n    current_hour = current_time.hour\n    if current_hour >= 8 and current_hour <= 20:\n        return True\n    else:\n        return False\n@sleep_and_retry\nasync def get_total_crypto_dollars():\n    \"\"\"",
         "detail": "legacy.V6_june17.refinedmain",
         "documentation": {}
     },
@@ -3453,7 +3517,16 @@
         "kind": 2,
         "importPath": "legacy.V6_june17.refinedmain",
         "description": "legacy.V6_june17.refinedmain",
-        "peekOfCode": "def main_looper():\n    ic()\n    loop_count = 0\n    start_date = datetime.now(timezone('US/Central'))\n    BUYING_POWER = 0\n    starting_equity = BUYING_POWER\n    try:\n        asyncio.run(run_async_functions(loop_count, BUYING_POWER))\n    except Exception as e:\n        raise e",
+        "peekOfCode": "def main_looper():\n    while True:\n        ic()\n        loop_count = 0\n        start_date = datetime.now(timezone('US/Central'))\n        BUYING_POWER = 0\n        starting_equity = BUYING_POWER\n        print(F'='*50)\n        print(Fore.GREEN + 'Buying Power is: {}'.format(BUYING_POWER) + Style.RESET_ALL)\n        print(Fore.GREEN + 'Total Profit is: ${}'.format(",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "tracking_dict",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "tracking_dict = {\n    'BTC':{\n        'last_buyin_price': 0.0,\n        'last_buyin_usd': 0.0,\n        'trigger_stoploss_price': 0.0,\n        'trigger_stoploss_coin_pct': 0.0,\n    }\n}\nsignals_dict = {}\nminimum_orders_coins = {}",
         "detail": "legacy.V6_june17.refinedmain",
         "documentation": {}
     },
@@ -3462,7 +3535,7 @@
         "kind": 5,
         "importPath": "legacy.V6_june17.refinedmain",
         "description": "legacy.V6_june17.refinedmain",
-        "peekOfCode": "signals_dict = {}\nminimum_orders_coins = {}\nimport ast\nimport pandas as pd\nimport asyncio\nPERCENTAGE_IN_PLAY = 0.60\npercentage_in_play = 0.60\nloop_count = 0\nRESET = False\nstop_loss_percent = 0.05",
+        "peekOfCode": "signals_dict = {}\nminimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\nimport asyncio\nPERCENTAGE_IN_PLAY = 0.40\nticking_iterator = 0\npercentage_in_play = PERCENTAGE_IN_PLAY\nloop_count = 0",
         "detail": "legacy.V6_june17.refinedmain",
         "documentation": {}
     },
@@ -3471,7 +3544,7 @@
         "kind": 5,
         "importPath": "legacy.V6_june17.refinedmain",
         "description": "legacy.V6_june17.refinedmain",
-        "peekOfCode": "minimum_orders_coins = {}\nimport ast\nimport pandas as pd\nimport asyncio\nPERCENTAGE_IN_PLAY = 0.60\npercentage_in_play = 0.60\nloop_count = 0\nRESET = False\nstop_loss_percent = 0.05\nverboseMode = True",
+        "peekOfCode": "minimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\nimport asyncio\nPERCENTAGE_IN_PLAY = 0.40\nticking_iterator = 0\npercentage_in_play = PERCENTAGE_IN_PLAY\nloop_count = 0\nRESET = False",
         "detail": "legacy.V6_june17.refinedmain",
         "documentation": {}
     },
@@ -3480,7 +3553,16 @@
         "kind": 5,
         "importPath": "legacy.V6_june17.refinedmain",
         "description": "legacy.V6_june17.refinedmain",
-        "peekOfCode": "PERCENTAGE_IN_PLAY = 0.60\npercentage_in_play = 0.60\nloop_count = 0\nRESET = False\nstop_loss_percent = 0.05\nverboseMode = True\nBUYING_POWER = 0.0\nTOTAL_CRYPTO_DOLLARS = 0.0\nthreshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}",
+        "peekOfCode": "PERCENTAGE_IN_PLAY = 0.40\nticking_iterator = 0\npercentage_in_play = PERCENTAGE_IN_PLAY\nloop_count = 0\nRESET = False\nstop_loss_percent = 0.05\nverboseMode = True\nBUYING_POWER = 0.0\nTOTAL_CRYPTO_DOLLARS = 0.0\nthreshold_total_crypto_per_coin = 0.10",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "ticking_iterator",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "ticking_iterator = 0\npercentage_in_play = PERCENTAGE_IN_PLAY\nloop_count = 0\nRESET = False\nstop_loss_percent = 0.05\nverboseMode = True\nBUYING_POWER = 0.0\nTOTAL_CRYPTO_DOLLARS = 0.0\nthreshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}",
         "detail": "legacy.V6_june17.refinedmain",
         "documentation": {}
     },
@@ -3489,7 +3571,7 @@
         "kind": 5,
         "importPath": "legacy.V6_june17.refinedmain",
         "description": "legacy.V6_june17.refinedmain",
-        "peekOfCode": "percentage_in_play = 0.60\nloop_count = 0\nRESET = False\nstop_loss_percent = 0.05\nverboseMode = True\nBUYING_POWER = 0.0\nTOTAL_CRYPTO_DOLLARS = 0.0\nthreshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}\n@sleep_and_retry",
+        "peekOfCode": "percentage_in_play = PERCENTAGE_IN_PLAY\nloop_count = 0\nRESET = False\nstop_loss_percent = 0.05\nverboseMode = True\nBUYING_POWER = 0.0\nTOTAL_CRYPTO_DOLLARS = 0.0\nthreshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}\n@sleep_and_retry",
         "detail": "legacy.V6_june17.refinedmain",
         "documentation": {}
     },
@@ -3507,7 +3589,7 @@
         "kind": 5,
         "importPath": "legacy.V6_june17.refinedmain",
         "description": "legacy.V6_june17.refinedmain",
-        "peekOfCode": "RESET = False\nstop_loss_percent = 0.05\nverboseMode = True\nBUYING_POWER = 0.0\nTOTAL_CRYPTO_DOLLARS = 0.0\nthreshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    global BUYING_POWER",
+        "peekOfCode": "RESET = False\nstop_loss_percent = 0.05\nverboseMode = True\nBUYING_POWER = 0.0\nTOTAL_CRYPTO_DOLLARS = 0.0\nthreshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"",
         "detail": "legacy.V6_june17.refinedmain",
         "documentation": {}
     },
@@ -3516,7 +3598,7 @@
         "kind": 5,
         "importPath": "legacy.V6_june17.refinedmain",
         "description": "legacy.V6_june17.refinedmain",
-        "peekOfCode": "stop_loss_percent = 0.05\nverboseMode = True\nBUYING_POWER = 0.0\nTOTAL_CRYPTO_DOLLARS = 0.0\nthreshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    global BUYING_POWER\n    if symbol is None:",
+        "peekOfCode": "stop_loss_percent = 0.05\nverboseMode = True\nBUYING_POWER = 0.0\nTOTAL_CRYPTO_DOLLARS = 0.0\nthreshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.",
         "detail": "legacy.V6_june17.refinedmain",
         "documentation": {}
     },
@@ -3525,7 +3607,7 @@
         "kind": 5,
         "importPath": "legacy.V6_june17.refinedmain",
         "description": "legacy.V6_june17.refinedmain",
-        "peekOfCode": "verboseMode = True\nBUYING_POWER = 0.0\nTOTAL_CRYPTO_DOLLARS = 0.0\nthreshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    global BUYING_POWER\n    if symbol is None:\n        return",
+        "peekOfCode": "verboseMode = True\nBUYING_POWER = 0.0\nTOTAL_CRYPTO_DOLLARS = 0.0\nthreshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.\n    :param symbol: Specify the crypto symbol you want to trade",
         "detail": "legacy.V6_june17.refinedmain",
         "documentation": {}
     },
@@ -3534,7 +3616,7 @@
         "kind": 5,
         "importPath": "legacy.V6_june17.refinedmain",
         "description": "legacy.V6_june17.refinedmain",
-        "peekOfCode": "BUYING_POWER = 0.0\nTOTAL_CRYPTO_DOLLARS = 0.0\nthreshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()",
+        "peekOfCode": "BUYING_POWER = 0.0\nTOTAL_CRYPTO_DOLLARS = 0.0\nthreshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.\n    :param symbol: Specify the crypto symbol you want to trade\n    :param quantity_or_price: Determine the amount of crypto to buy or sell",
         "detail": "legacy.V6_june17.refinedmain",
         "documentation": {}
     },
@@ -3543,7 +3625,7 @@
         "kind": 5,
         "importPath": "legacy.V6_june17.refinedmain",
         "description": "legacy.V6_june17.refinedmain",
-        "peekOfCode": "TOTAL_CRYPTO_DOLLARS = 0.0\nthreshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()\n    side = side.lower() if type(side) == str else str(side).lower()",
+        "peekOfCode": "TOTAL_CRYPTO_DOLLARS = 0.0\nthreshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.\n    :param symbol: Specify the crypto symbol you want to trade\n    :param quantity_or_price: Determine the amount of crypto to buy or sell\n    :param amount_in: Specify whether the quantity_or_price parameter is in dollars or shares",
         "detail": "legacy.V6_june17.refinedmain",
         "documentation": {}
     },
@@ -3552,7 +3634,7 @@
         "kind": 5,
         "importPath": "legacy.V6_june17.refinedmain",
         "description": "legacy.V6_june17.refinedmain",
-        "peekOfCode": "threshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()\n    side = side.lower() if type(side) == str else str(side).lower()\n    amount_in = amount_in.lower() if side == 'sell' else 'dollars'",
+        "peekOfCode": "threshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.\n    :param symbol: Specify the crypto symbol you want to trade\n    :param quantity_or_price: Determine the amount of crypto to buy or sell\n    :param amount_in: Specify whether the quantity_or_price parameter is in dollars or shares\n    :param side: Determine whether to buy or sell",
         "detail": "legacy.V6_june17.refinedmain",
         "documentation": {}
     },
@@ -3561,7 +3643,7 @@
         "kind": 5,
         "importPath": "legacy.V6_june17.refinedmain",
         "description": "legacy.V6_june17.refinedmain",
-        "peekOfCode": "crypto_I_own = {}\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()\n    side = side.lower() if type(side) == str else str(side).lower()\n    amount_in = amount_in.lower() if side == 'sell' else 'dollars'\n    timeInForce = timeInForce.lower()",
+        "peekOfCode": "crypto_I_own = {}\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.\n    :param symbol: Specify the crypto symbol you want to trade\n    :param quantity_or_price: Determine the amount of crypto to buy or sell\n    :param amount_in: Specify whether the quantity_or_price parameter is in dollars or shares\n    :param side: Determine whether to buy or sell\n    :param bp: Set the buying power for a buy order",
         "detail": "legacy.V6_june17.refinedmain",
         "documentation": {}
     },
@@ -4605,7 +4687,7 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def login_setup():\n    \"\"\"\n    The login_setup function is used to log into the Robinhood API and return a dataframe of account details.\n    It also sets up logging for debugging purposes.\n    :return: A dataframe and a login object\n    :doc-author: Trelent\n    \"\"\"\n    global BUYING_POWER\n    with open('config/credentials.json') as f:\n        credentials = json.load(f)",
+        "peekOfCode": "def login_setup():\n    \"\"\"\n    The login_setup function is used to log into the Robinhood API and return a dataframe of account details.\n    It also sets up the global variables BUYING_POWER, stop_loss_percent, and tracking_dict.\n    :return: A dataframe and a login object\n    :doc-author: Trelent\n    \"\"\"\n    global BUYING_POWER\n    # global tracking_dict\n    # # now fill tracking dict with the coins we own and their current price",
         "detail": "main",
         "documentation": {}
     },
@@ -4687,6 +4769,33 @@
         "importPath": "main",
         "description": "main",
         "peekOfCode": "def main_looper():\n    while True:\n        ic()\n        loop_count = 0\n        start_date = datetime.now(timezone('US/Central'))\n        BUYING_POWER = 0\n        starting_equity = BUYING_POWER\n        print(F'='*50)\n        print(Fore.GREEN + 'Buying Power is: {}'.format(BUYING_POWER) + Style.RESET_ALL)\n        print(Fore.GREEN + 'Total Profit is: ${}'.format(",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "verboseMode",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "verboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys\ntracking_dict = {\n    'BTC':{\n        'last_buyin_price': 0.0, # the price of the last buyin\n        'last_buyin_usd': 0.0, # how much USD was spent on the last buyin\n        'last_buyin_amountcoins': 0.0, # how many coins were bought in the last buyin\n        'trigger_stoploss_price': 0.0, # the price at which the stoploss will trigger\n        'trigger_stoploss_coin_pct': 0.0, # the percent of holdings of the coin to sell at the stoploss\n        'last_buyin_time' : datetime.now(timezone('US/Eastern')), # the time of the last buyin\n        'last_buyin_total' : 0.0, # the total amount of the last buyin",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "tracking_dict",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "tracking_dict = {\n    'BTC':{\n        'last_buyin_price': 0.0, # the price of the last buyin\n        'last_buyin_usd': 0.0, # how much USD was spent on the last buyin\n        'last_buyin_amountcoins': 0.0, # how many coins were bought in the last buyin\n        'trigger_stoploss_price': 0.0, # the price at which the stoploss will trigger\n        'trigger_stoploss_coin_pct': 0.0, # the percent of holdings of the coin to sell at the stoploss\n        'last_buyin_time' : datetime.now(timezone('US/Eastern')), # the time of the last buyin\n        'last_buyin_total' : 0.0, # the total amount of the last buyin\n        'last_buyin_total_usd' : 0.0, # the total amount of the last buyin in USD",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "current_prices_dict",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "current_prices_dict = {}\nsignals_dict = {}\nminimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\nimport asyncio\nPERCENTAGE_IN_PLAY = 0.40 # 60% of buying power is in play at any given time\nticking_iterator = 0 # this is a global variable that is set to the number of times the loop has run\npercentage_in_play = PERCENTAGE_IN_PLAY # 60% of buying power is in play at any given time",
         "detail": "main",
         "documentation": {}
     },
