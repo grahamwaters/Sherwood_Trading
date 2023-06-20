@@ -33,7 +33,7 @@ import ast
 import re
 import pandas as pd
 import asyncio
-PERCENTAGE_IN_PLAY = 0.60 # 60% of buying power is in play at any given time
+PERCENTAGE_IN_PLAY = 0.40 # 60% of buying power is in play at any given time
 ticking_iterator = 0 # this is a global variable that is set to the number of times the loop has run
 percentage_in_play = PERCENTAGE_IN_PLAY # 60% of buying power is in play at any given time
 loop_count = 0
@@ -63,8 +63,14 @@ def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=
         return
     symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()
     side = side.lower() if type(side) == str else str(side).lower()
-    amount_in = amount_in.lower() if side == 'sell' else 'dollars'
-    timeInForce = timeInForce.lower()
+    try:
+        amount_in = amount_in.lower() if side == 'sell' else 'dollars'
+
+        timeInForce = timeInForce.lower()
+    except Exception as e:
+        amount_in = float(amount_in)
+        timeInForce = 'gtc'
+
     #print(Fore.GREEN + f'{side} {quantity_or_price} {symbol}...' + Fore.RESET)
     if side == 'buy':
         profile = r.profiles.load_account_profile()
@@ -73,7 +79,7 @@ def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=
             bp = BUYING_POWER * percentage_in_play
         # bp = float(bp)
         if symbol == 'DOG': symbol = 'DOGE' #todo hacked in
-        quantity_or_price=max(1.10,0.10 * float(BUYING_POWER)) # give a ten cent buffer
+        quantity_or_price=max(1.05,0.10 * float(BUYING_POWER)) # give a ten cent buffer
         if quantity_or_price > BUYING_POWER:
             # if the quantity_or_price greater than we have then skip
             if verboseMode:
@@ -172,11 +178,16 @@ def resetter():
         for position in crypto_positions:
             symbol = position['currency']['code']
             quantity = float(position['quantity_available'])
-            order_crypto(symbol, quantity, side='sell')
-        # delete all orders
+            order_crypto(symbol,
+                        amount_in='quantity',
+                        quantity_or_price=quantity,
+                        side='sell')
+        # delete all buy orders
         orders = r.orders.get_all_open_crypto_orders()
         for order in orders:
-            r.orders.cancel_crypto_order(order['id'])
+            if order['side'] == 'buy':
+                r.orders.cancel_crypto_order(order['id'])
+                print(f'Cancelled buy order {order["id"]}...')
 @sleep_and_retry
 def get_account():
     """
@@ -596,22 +607,28 @@ async def get_total_crypto_dollars():
     # get the current price of each coin
     # add up the total value of each coin
     print(Fore.BLUE + 'Updating the portfolio value...' + Fore.RESET)
-    for coin in tqdm(crypto_I_own):
-        asyncio.sleep(1.0) # sleep for 1 second to avoid rate limiting
-        symbol = coin
-        # get the current price of the coin
-        current_price = float(r.crypto.get_crypto_quote(symbol=symbol)['mark_price'])
-        # get the number of coins owned
-        number_of_coins = float(crypto_I_own[coin])
-        # get the total value of the coins
-        total_value = current_price * number_of_coins
-        # add the total value to the total crypto dollars
-        TOTAL_CRYPTO_DOLLARS += float(total_value)
-    print(Fore.GREEN + f'\t\tTOTAL_CRYPTO_DOLLARS (c): ${TOTAL_CRYPTO_DOLLARS}')
+    # Get prices for ['BTC', 'ETH', 'DOGE', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'AVAX', 'XLM', 'BCH', 'XTZ']
+    for coin in tqdm(crypto_I_own.keys()):
+        # Getting the current price of each coin
+        print(Back.YELLOW + Fore.BLACK + f'Getting the current price of {coin}...' + Fore.RESET + Back.RESET, end = '')
+        try:
+            current_price = float(r.crypto.get_crypto_quote(coin, info='mark_price'))
+        except:
+            TOTAL_CRYPTO_DOLLARS += 0.0
+            print(Fore.RED + f'Unable to get the current price of {coin}...' + Fore.RESET)
+            continue
+        # Getting the total value of each coin
+        total_value = crypto_I_own[coin] * current_price
+        # Adding the total value to the TOTAL_CRYPTO_DOLLARS variable
+        TOTAL_CRYPTO_DOLLARS += total_value
+        print(Fore.GREEN + f'${total_value} of {coin}...\n\t total: ${TOTAL_CRYPTO_DOLLARS}' + Fore.RESET)
+
     # sleep for 5 minutes if it's daytime
     if is_daytime():
+        print(Fore.BLUE + 'Sleeping for 3 minutes...' + Fore.RESET)
         await asyncio.sleep(170) #^ sleep for 3 minutes - 10 seconds lagging behind the 3 minute mark
     else:
+        print(Fore.BLUE + 'Sleeping for 5 minutes...' + Fore.RESET)
         await asyncio.sleep(300) # sleep for 5 minutes
 # set up an asynchronous function to run the main loop
 async def main():
@@ -630,7 +647,17 @@ async def main():
     # every 5 minutes
     while True:
         # cancel any outstanding orders
+        # create a print statement ascii art for the startup of the program that is the word 'Sherwood' with a tree on either side
+
+        ascii_art_startup = """
+            🌲       🌲
+        🌲   Sherwood    🌲
+            🌲       🌲
+        """
+        print(Fore.GREEN + ascii_art_startup + Fore.RESET)
         r.orders.cancel_all_crypto_orders()
+        print(Fore.YELLOW + 'Cancelling all outstanding orders...' + Fore.RESET)
+        print(Fore.YELLOW + 'sleeping for 30 seconds...' + Fore.RESET)
         time.sleep(30)
         await asyncio.to_thread(brain_module) # update signals
         await asyncio.to_thread(action_engine) # execute orders
@@ -710,12 +737,20 @@ async def run_async_functions(loop_count, BUYING_POWER):
                          update_buying_power(),
                          get_total_crypto_dollars())
 def main_looper():
+
     while True:
         ic()
         loop_count = 0
         start_date = datetime.now(timezone('US/Central'))
         BUYING_POWER = 0
         starting_equity = BUYING_POWER
+
+        print(F'='*50)
+        print(Fore.GREEN + 'Buying Power is: {}'.format(BUYING_POWER) + Style.RESET_ALL)
+        print(Fore.GREEN + 'Total Profit is: ${}'.format(
+            BUYING_POWER - starting_equity) + Style.RESET_ALL)
+
+
         try:
             asyncio.run(run_async_functions(loop_count, BUYING_POWER))
         except Exception as e:
@@ -735,8 +770,15 @@ def main_looper():
 # run the main looper function
 print('Starting main looper function...')
 login_setup()
+
+if RESET:
+    areyousure = print(Fore.RED + 'warning destructive action, are you sure? Will commence in 10 seconds...' + Style.RESET_ALL)
+    time.sleep(10)
+    resetter()
+    time.sleep(120)
 try:
     # login to robinhood
+    print(f'Logging in to Robinhood... and beginning main looper function...')
     main_looper()
 except Exception as e:
     # sleep 60 minutes if there's an error
