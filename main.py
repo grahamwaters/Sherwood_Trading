@@ -1,6 +1,7 @@
 from finta import TA
 from colorama import Fore, Back, Style
 from datetime import datetime, timedelta
+import datetime
 import matplotlib.pyplot as plt, pandas as pd, numpy as np
 import logging, traceback, json, time, csv, os
 from robin_stocks import robinhood as r
@@ -13,6 +14,19 @@ import random
 import os
 from time import sleep
 from ratelimit import limits, sleep_and_retry
+import asyncio
+from concurrent.futures import ThreadPoolExecutor
+from tqdm import tqdm
+from datetime import datetime
+from pytz import timezone
+from colorama import Fore, Back, Style
+#! ##############################
+#! ASYNC FUNCTIONS
+#! ##############################
+import asyncio
+from tqdm import tqdm
+from datetime import datetime
+from pytz import timezone
 signals_dict = {}
 minimum_orders_coins = {}
 import ast
@@ -32,6 +46,17 @@ threshold_total_crypto_per_coin = 0.10 #! this is a global variable that is set 
 crypto_I_own = {} #! this is a global variable that is set to the coins you own
 @sleep_and_retry
 def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):
+    """
+    The order_crypto function is used to place a buy or sell order for a given crypto currency.
+    :param symbol: Specify the crypto symbol you want to trade
+    :param quantity_or_price: Determine the amount of crypto to buy or sell
+    :param amount_in: Specify whether the quantity_or_price parameter is in dollars or shares
+    :param side: Determine whether to buy or sell
+    :param bp: Set the buying power for a buy order
+    :param timeInForce: Specify the duration of the order
+    :return: A dict with the following keys:
+    :doc-author: Trelent
+    """
     #ic()
     global BUYING_POWER
     if symbol is None:
@@ -40,7 +65,6 @@ def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=
     side = side.lower() if type(side) == str else str(side).lower()
     amount_in = amount_in.lower() if side == 'sell' else 'dollars'
     timeInForce = timeInForce.lower()
-
     #print(Fore.GREEN + f'{side} {quantity_or_price} {symbol}...' + Fore.RESET)
     if side == 'buy':
         profile = r.profiles.load_account_profile()
@@ -50,7 +74,6 @@ def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=
         # bp = float(bp)
         if symbol == 'DOG': symbol = 'DOGE' #todo hacked in
         quantity_or_price=max(1.10,0.10 * float(BUYING_POWER)) # give a ten cent buffer
-
         if quantity_or_price > BUYING_POWER:
             # if the quantity_or_price greater than we have then skip
             if verboseMode:
@@ -69,7 +92,6 @@ def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=
         #print(Fore.GREEN + f'Passed try statement in order! {side}' + Fore.RESET)
     except Exception as e:
         print(Fore.RED + f'Failed try statement in order! {side} because \n{e}' + Fore.RESET)
-
     if side == 'sell':
         if verboseMode:
             current_price = float(r.crypto.get_crypto_quote(symbol)['mark_price'])
@@ -84,13 +106,10 @@ def login_setup():
     """
     The login_setup function is used to log into the Robinhood API and return a dataframe of account details.
     It also sets up logging for debugging purposes.
-
     :return: A dataframe and a login object
     :doc-author: Trelent
     """
-
     global BUYING_POWER
-
     with open('config/credentials.json') as f:
         credentials = json.load(f)
     login = r.login(credentials['username'], credentials['password'])
@@ -101,25 +120,36 @@ def login_setup():
         # convert to dict then to df
         print(Fore.BLUE + "DEBUGGING -> SETTING account_details to a dictionary" + Fore.RESET)
         account_details_df = pd.DataFrame(account_details.to_dict(), index=[0])
-
     if not os.path.exists('logs'):
         os.makedirs('logs')
     logging.basicConfig(filename='logs/robinhood.log', level=logging.DEBUG, format='%(asctime)s %(message)s')
     logging.info('Started')
     BUYING_POWER = float(account_details_df['onbp']) #! this is a global variable
     return account_details_df, login
-
 @sleep_and_retry
 def robin_getter(coin):
-    #ic()
+    """
+    The robin_getter function is a function that takes in a coin as an argument and returns the following:
+        1. A list of all crypto currencies available on Robinhood
+        2. The historicals for the given coin, with 5 minute intervals, over 24 hours (24_7)
+        3. The current price of the given coin
+    :param coin: Specify which coin you want to get the data for
+    :return: A tuple of three items
+    :doc-author: Trelent
+    """
     crypto_available_on_robinhood = r.crypto.get_crypto_currency_pairs()
     crypto_historicals = r.crypto.get_crypto_historicals(str(coin), "5minute", "day", "24_7", info=None)
     crypto_price = r.crypto.get_crypto_quote(str(coin))
     return crypto_available_on_robinhood, crypto_historicals, crypto_price
 @sleep_and_retry
 def get_crypto_positions_in_account():
+    """
+    The get_crypto_positions_in_account function returns a dictionary of the crypto positions in your account.
+    The keys are the symbols, and the values are dictionaries with one key: quantity.
+    :return: A dictionary of all crypto positions in the account
+    :doc-author: Trelent
+    """
     #ic()
-
     crypto_positions = r.crypto.get_crypto_positions()
     positions_dict = {}
     for position in crypto_positions:
@@ -129,9 +159,13 @@ def get_crypto_positions_in_account():
             'quantity': quantity
         }
     return positions_dict
-
-
 def resetter():
+    """
+    The resetter function is used to reset the crypto portfolio.
+    It does this by selling all positions of crypto and deleting all orders.
+    :return: A boolean value
+    :doc-author: Trelent
+    """
     if RESET:
         # sell all positions of crypto
         crypto_positions = r.crypto.get_crypto_positions()
@@ -143,23 +177,24 @@ def resetter():
         orders = r.orders.get_all_open_crypto_orders()
         for order in orders:
             r.orders.cancel_crypto_order(order['id'])
-
 @sleep_and_retry
 def get_account():
+    """
+    The get_account function returns the account information for a user.
+    :return: A dictionary
+    :doc-author: Trelent
+    """
     #ic()
     account = r.profiles.load_account_profile(info=None)
     return account
-
 def brain_module():
-    #ic()
     """
-    The brain_module function is the main function of this program. It does the following:
-        1) Gets a list of coins to trade from an env variable called COINS_LIST
-        2) Gets a dictionary of crypto I own from an env variable called CRYPTO_I_OWN
-        3) Creates a dataframe with columns for each coin in COINS_LIST and rows for each coin in CRYPTO_I OWN,
-            where the values are how much crypto I own (in dollars). This dataframe is saved as holdings.csv.
-
-    :return: A dictionary of the signals for each coin
+    The brain_module function is the main function of this module. It does the following:
+        1. Gets a list of coins to trade from `coins_list` variable
+        2. Gets the minimum order amount for each coin in `coins_list` and saves it as a csv file called 'data/minimum_orders_coins'
+        3. For each coin in `coins_list`, gets its historical data, price, and whether or not it's available on Robinhood (i.e., if you can buy/sell it)
+            - Saves all that info into a dictionary called holdings dict which is
+    :return: The global variable `crypto_signals`
     :doc-author: Trelent
     """
     global crypto_I_own
@@ -177,7 +212,6 @@ def brain_module():
     crypto_positions_df = pd.DataFrame(crypto_positions_dict)
     crypto_I_own = {} #note: this was where it was supposed to be initialized
     for key, value in crypto_positions_dict.items():
-
         holdings_df[key] = float(value['quantity'])
         crypto_I_own[key] = float(value['quantity'])
     if not os.path.exists('data'):
@@ -201,16 +235,10 @@ def brain_module():
             coin_info_df = pd.DataFrame(coin_info, index=[index_of_coin])
             minimum_orders_coins = minimum_orders_coins.append(coin_info_df)
             # save the minimum order amount for each coin
-
-
             index_of_coin += 1
         minimum_orders_coins = minimum_orders_coins.set_index('symbol')
         minimum_orders_coins.to_csv('data/minimum_orders_coins.csv')
     coin_historicals_dfs = []
-
-
-
-
     for coin in tqdm(coins_list):
         #ic()
         #tqdm.write(f'Getting the historical data for {coin}...')
@@ -307,16 +335,13 @@ def brain_module():
                 # while True:
                 #     ic()
                 #     BUYING_POWER = float(get_account()['buying_power'])
-
                 #     new_buying_power = BUYING_POWER - max(1.00, 0.10 * BUYING_POWER)
-
                 #     if BUYING_POWER != new_buying_power:
                 #         BUYING_POWER = new_buying_power
                 #     elif iteration == 10:
                 #         break
                 #     else:
                 #         break
-
                 #     time.sleep(10)
                 BUYING_POWER -= max(1.00, 0.10 * BUYING_POWER)
             #^ signal is that we should sell
@@ -340,7 +365,6 @@ def brain_module():
                                 amount_in='amount',
                                 side='sell',
                                 timeInForce='gtc')
-
                 #print(f'Selling {coin}...')
                 time.sleep(1)
             elif hold_signal > buy_signal and hold_signal > sell_signal:
@@ -370,20 +394,16 @@ def brain_module():
     # SET THE GLOBAL VARIABLE `crypto_signals` TO THE `signals_dict` VARIABLE
     global crypto_signals
     crypto_signals = signals_dict
-
 def signal_engine(df, coin):
     """
-    The signal_engine function takes in a dataframe of historical price data and returns a buy, sell, or hold signal.
-    The function first checks if the current price is less than the highest_price * (stop_loss percent). If it is then it will return a sell signal.
-    If not then it will check for other signals: RSI &lt; 30 and MACD &gt; 0; RSI &gt; 70 and MACD &lt; 0; MACD &gt; macd_signal and current_price &gt; ma200;
-    MACD &lt; macd_signal and current_price &lt; ma200; lower bollingerband crossed up by
-
-    :param df: Pass the dataframe to the function
-    :param coin: Pass the coin name to the function
-    :return: A buy_signal, sell_signal, and hold_signal
+    The signal_engine function takes in a dataframe and a coin name.
+    It then performs technical analysis on the dataframe to determine if there is a buy, sell or hold signal.
+    The function returns three values: buy_signal, sell_signal and hold_signal which are all either 0 or 1.
+    :param df: Pass the dataframe of the coin we are analyzing
+    :param coin: Determine which coin to buy
+    :return: A buy signal, sell signal, and hold signal
     :doc-author: Trelent
     """
-
     global signals_dict
     global crypto_I_own
     global stop_loss_percent
@@ -391,8 +411,6 @@ def signal_engine(df, coin):
     global BUYING_POWER
     global ticking_iterator
     global threshold_total_crypto_per_coin
-
-
     df = pd.DataFrame(df)
     coin = str(coin)
     df = df[['begins_at', 'open_price', 'close_price', 'high_price', 'low_price', 'volume']]
@@ -406,8 +424,6 @@ def signal_engine(df, coin):
     df['high'] = df['high'].astype(float)
     df['low'] = df['low'].astype(float)
     df['volume'] = df['volume'].astype(float)
-
-
     buy_signal = 0
     sell_signal = 0
     sell_strength = 0 #todo the magnitude of the sell signal
@@ -416,10 +432,7 @@ def signal_engine(df, coin):
     highest_price = df['close'].iloc[0]
     # Add a new variable to keep track of the purchase price
     purchase_price = df['close'].iloc[0]
-
     # todo -- this above needs to be considered again I don't like how it is working
-
-
     rsi = TA.RSI(df[['open', 'high', 'low', 'close']]).to_list()[-1]
     macd = TA.MACD(df)['MACD'].to_list()[-1]
     macd_signal = TA.MACD(df)['SIGNAL'].to_list()[-1]
@@ -455,7 +468,6 @@ def signal_engine(df, coin):
     else:
         hold_signal += 1
     print(f' --> {coin} (+): {buy_signal} | (-): {sell_signal} | (!): {hold_signal}')
-
     # if the total value of the holding position is more than the median of the portfolio then sell the total position
     ticking_iterator += 1
     if ticking_iterator % 10 == 0:
@@ -463,15 +475,11 @@ def signal_engine(df, coin):
         for coin in crypto_I_own:
             current_price = df['close'].iloc[-1]
             values_positions.append(current_price * float(crypto_I_own[coin]))
-
         median_portfolio = statistics.median(values_positions)
         value_position = current_price * crypto_I_own[coin]
-
         if value_position > median_portfolio:
             ic()
             sell_signal += 1
-
-
     # sell and buy cannot both be true so do the one that is largest
     if buy_signal > sell_signal and buy_signal > hold_signal:
         buy_signal = 1
@@ -485,11 +493,8 @@ def signal_engine(df, coin):
         buy_signal = 0
         sell_signal = 0
         hold_signal = 1
-
     # No coin should represent more than 10% of the portfolio
     # if it does then hold on buys while proceeding with sells
-
-
     for coin in crypto_I_own:
         # await get_crypto_dollars(coin) # this will update the TOTAL_CRYPTO_DOLLARS variable #note: this would be the syntax if this was an async function, instead we will use the global variable
         TOTAL_CRYPTO_DOLLARS += crypto_I_own[coin] * current_price # this will update the TOTAL_CRYPTO_DOLLARS variable
@@ -503,23 +508,15 @@ def signal_engine(df, coin):
             sell_signal = 1
             hold_signal = 0
             buy_signal = 0
-
     #todo -- implement the deltaR strategy (check your ScanThing Files)
-
-
-
-
     return buy_signal, sell_signal, hold_signal
-
-
 def action_engine():
     """
-    The action_engine function is the main function that executes all of the other functions.
-    It takes no arguments, but it does require a signals_dict variable to be defined in order to work properly.
-    The action_engine function will iterate through each coin in the signals_dict and execute an order based on
-    the signal values for that coin.
-
-    :return: A dictionary of signals for each coin
+    The action_engine function is the main function that executes orders based on signals.
+    It takes in a dictionary of coin symbols and their corresponding buy, sell, or hold signal.
+    The action_engine function then iterates through each coin symbol in the dictionary and
+    executes an order if it meets certain criteria:
+    :return: A dictionary of the form:
     :doc-author: Trelent
     """
     global signals_dict
@@ -527,26 +524,12 @@ def action_engine():
     global loop_count
     global BUYING_POWER
     BUYING_POWER = float(r.profiles.load_account_profile(info='buying_power'))
-
-    #signals_dict = os.environ['CRYPTO_SIGNALS'].replace('\n', '')  # this is a string
-
-    # force signals_dict to be 1, 0, or -1 for buy, hold, sell under each coin
-    # now make the string a dictionary by converting it to a list
-    # signals_dict = signals_dict.split(',')
-    # # now take this list and convert it to a dictionary
-    # signals_dict = dict(zip(signals_dict[::2], signals_dict[1::2]))
-    # # now convert the values in the dictionary to integers
-    # signals_dict = {k: int(v) for k, v in signals_dict.items()}
-    # signals_dict = ast.literal_eval(signals_dict)  # convert string to dict
-    # logging.info(f'  signals_dict: {signals_dict}')
-    # print(f'Buying power is ${BUYING_POWER}, proceeding with orders...')
     time.sleep(20)
     print(f'crypto_I_own: {crypto_I_own}')
     for coin in signals_dict.keys():  # iterate through each coin in the signals_dict
         buy_signal = int(signals_dict[coin][0])
         sell_signal = int(signals_dict[coin][1])
         hold_signal = int(signals_dict[coin][2])
-
         position = r.crypto.get_crypto_positions(info='quantity')
         position = float(position['quantity_available']) if type(position) == dict else 0
         print(f'position: {position}')
@@ -588,48 +571,23 @@ def action_engine():
                          timeInForce='gtc')
         else:
             logging.info(f'No action taken for {coin}...')
-
         time.sleep(random.randint(1, 5))
-
     logging.info(f'Finished executing orders for {datetime.now(timezone("US/Central"))}...')
-
 def is_daytime():
     #ic()
-
     current_time = datetime.now(timezone('US/Central'))
     current_hour = current_time.hour
     if current_hour >= 8 and current_hour <= 20:
         return True
     else:
         return False
-
-import asyncio
-from concurrent.futures import ThreadPoolExecutor
-from tqdm import tqdm
-from datetime import datetime
-from pytz import timezone
-from colorama import Fore, Back, Style
-
-
-
-#! ##############################
-#! ASYNC FUNCTIONS
-#! ##############################
-
-import asyncio
-from tqdm import tqdm
-from datetime import datetime
-from pytz import timezone
-
 @sleep_and_retry
 async def get_total_crypto_dollars():
     """
     The get_total_crypto_dollars function gets the total value of all crypto owned.
-
     :return: The total value of all the coins i own
     :doc-author: Trelent
     """
-
     global TOTAL_CRYPTO_DOLLARS
     global crypto_I_own
     global loop_count
@@ -662,6 +620,14 @@ async def main():
     global BUYING_POWER
     global start_date # the date the program started running
     global TOTAL_CRYPTO_DOLLARS
+    global crypto_I_own
+    global signals_dict
+    global loop_count
+    global starting_equity
+    starting_equity = BUYING_POWER # set the starting equity
+    start_date = datetime.now(timezone('US/Central')) # set the start date
+    # starting equity will be updated to the current value of the portfolio
+    # every 5 minutes
     while True:
         # cancel any outstanding orders
         r.orders.cancel_all_crypto_orders()
@@ -680,19 +646,41 @@ async def main():
             print(Fore.BLUE + 'selling half of every position...' + Fore.RESET)
             # sell half of every position
             for coin in crypto_I_own:
-                position = float(crypto_I_own[coin])
-                if position > 0:
-                    order_crypto(symbol=coin,
-                                 quantity_or_price=position/2,
-                                 amount_in='amount',
-                                 side='sell',
-                                 bp=BUYING_POWER,
-                                 timeInForce='gtc')
-                    # BUYING_POWER += position/2
-                    time.sleep(0.25)
-                    crypto_I_own[coin] = position/2
+                # check if the coin's price has been going down for the past three 5-minute periods
+                # if it has, sell half of the position
+                # if it hasn't, do nothing
+
+                # Get the historical data for the coin
+                historical_data = r.crypto.get_crypto_historicals(symbol=coin, interval='5minute', span='hour')
+
+                # Extract the relevant prices from historical data
+                prices = [float(data_point['close_price']) for data_point in historical_data]
+                current_price = prices[-1]
+                price_10_minutes_ago = prices[-3]
+                price_15_minutes_ago = prices[-4]
+
+                if price_15_minutes_ago > price_10_minutes_ago > current_price:
+                    # The price has been going down
+                    position = float(crypto_I_own[coin])
+                    if position > 0:
+                        sell_quantity = position / 2
+                        order_crypto(symbol=coin,
+                                    quantity_or_price=sell_quantity,
+                                    amount_in='amount',
+                                    side='sell',
+                                    bp=BUYING_POWER,
+                                    timeInForce='gtc')
+                        # Update the buying power
+                        BUYING_POWER += sell_quantity
+                        time.sleep(0.25)
+                        # Update the position
+                        crypto_I_own[coin] = position - sell_quantity
+
         if is_daytime():
             print('daytime mode')
+            # print how much up or down we are since the start of the day
+            print(f'Profit since start of day: {BUYING_POWER - starting_equity}')
+            print(f'Profit % since start of day: {((BUYING_POWER - starting_equity) / starting_equity) * 100}')
             print('Sleeping for 5 minutes...')
             for i in tqdm(range(300)):
                 await asyncio.sleep(1)
@@ -700,7 +688,6 @@ async def main():
             print('Sleeping for 10 minutes...')
             for i in tqdm(range(600)):
                 await asyncio.sleep(1)
-
 # async function to check buying power every 3 minutes
 @sleep_and_retry
 async def update_buying_power():
@@ -713,9 +700,8 @@ async def update_buying_power():
             BUYING_POWER = BUYING_POWER * PERCENTAGE_IN_PLAY
         else:
             BUYING_POWER = BUYING_POWER
-        print(Fore.BLUE + f'BUYING_POWER: {BUYING_POWER}')
+        print(Fore.BLUE + f'BUYING_POWER: {BUYING_POWER}' + Style.RESET_ALL)
         await asyncio.sleep(180) # sleep for 3 minutes
-
 # run the asynchronous functions to run the main function and the update BUYING_POWER function simultaneously
 async def run_async_functions(loop_count, BUYING_POWER):
     ic()
@@ -723,32 +709,29 @@ async def run_async_functions(loop_count, BUYING_POWER):
     await asyncio.gather(main(),
                          update_buying_power(),
                          get_total_crypto_dollars())
-
 def main_looper():
-    ic()
-    loop_count = 0
-    start_date = datetime.now(timezone('US/Central'))
-    BUYING_POWER = 0
-    starting_equity = BUYING_POWER
-    try:
-        asyncio.run(run_async_functions(loop_count, BUYING_POWER))
-    except Exception as e:
-        raise e
-
     while True:
-        if loop_count % 20 == 0:
-            # print our buying power, and profit since our start date
-            print(f'BUYING_POWER: {BUYING_POWER}')
-            print(f'Profit: {BUYING_POWER - starting_equity}')
-            print(f'Profit %: {((BUYING_POWER - starting_equity) / starting_equity) * 100}')
-            print(f'Loop count: {loop_count}')
-            print(f'Running for {datetime.now(timezone("US/Central")) - start_date}')
-
-        # print the buying power every 5 minutes
-        print('Sleeping for 5 minutes...')
-        for i in tqdm(range(300)):
-            time.sleep(1)
-
+        ic()
+        loop_count = 0
+        start_date = datetime.now(timezone('US/Central'))
+        BUYING_POWER = 0
+        starting_equity = BUYING_POWER
+        try:
+            asyncio.run(run_async_functions(loop_count, BUYING_POWER))
+        except Exception as e:
+            raise e
+        while True:
+            if loop_count % 20 == 0:
+                # print our buying power, and profit since our start date
+                print(f'BUYING_POWER: {BUYING_POWER}')
+                print(f'Profit: {BUYING_POWER - starting_equity}')
+                print(f'Profit %: {((BUYING_POWER - starting_equity) / starting_equity) * 100}')
+                print(f'Loop count: {loop_count}')
+                print(f'Running for {datetime.now(timezone("US/Central")) - start_date}')
+            # print the buying power every 5 minutes
+            print('Sleeping for 5 minutes...')
+            for i in tqdm(range(300)):
+                time.sleep(1)
 # run the main looper function
 print('Starting main looper function...')
 login_setup()
