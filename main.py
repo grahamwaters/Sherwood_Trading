@@ -27,6 +27,15 @@ import asyncio
 from tqdm import tqdm
 from datetime import datetime
 from pytz import timezone
+
+
+
+
+
+
+
+
+
 signals_dict = {}
 minimum_orders_coins = {}
 import ast
@@ -188,8 +197,6 @@ def resetter():
             if order['side'] == 'buy':
                 r.orders.cancel_crypto_order(order['id'])
                 print(f'Cancelled buy order {order["id"]}...')
-
-
 # make an async function that checks the size of the log file and removes lines from the start of the file to maintain a rolling log of 1000 lines
 async def log_file_size_checker():
     """
@@ -685,9 +692,9 @@ async def main():
         await asyncio.to_thread(action_engine) # execute orders
         if loop_count % 20 == 0:
             # print our buying power, and profit since our start date
-            print(f'BUYING_POWER: {BUYING_POWER}')
+            print(f'BUYING_POWER: ${BUYING_POWER}')
             print(f'Profit: {BUYING_POWER - starting_equity}')
-            print(f'Profit %: {((BUYING_POWER - starting_equity) / starting_equity) * 100}')
+            print(f'Profit %: {((BUYING_POWER - starting_equity) / starting_equity) * 100:.2f}')
             print(f'Loop count: {loop_count}')
             print(f'Running for {datetime.now(timezone("US/Central")) - start_date}')
         if loop_count % 10 == 0:
@@ -695,10 +702,6 @@ async def main():
             print(Fore.BLUE + 'selling half of every position...' + Fore.RESET)
             # sell half of every position
             for coin in crypto_I_own:
-                # check if the coin's price has been going down for the past three 5-minute periods
-                # if it has, sell half of the position
-                # if it hasn't, do nothing
-
                 # Get the historical data for the coin
                 historical_data = r.crypto.get_crypto_historicals(symbol=coin, interval='5minute', span='hour')
 
@@ -712,13 +715,18 @@ async def main():
                     # The price has been going down
                     position = float(crypto_I_own[coin])
                     if position > 0:
-                        sell_quantity = position / 2
-                        order_crypto(symbol=coin,
-                                    quantity_or_price=sell_quantity,
-                                    amount_in='amount',
-                                    side='sell',
-                                    bp=BUYING_POWER,
-                                    timeInForce='gtc')
+                        try:
+                            sell_quantity = position / 2
+                            order_crypto(symbol=coin,
+                                        quantity_or_price=sell_quantity,
+                                        amount_in='amount',
+                                        side='sell',
+                                        bp=BUYING_POWER,
+                                        timeInForce='gtc')
+                        except Exception as e:
+                            print(Fore.RED + f' [*] Unable to sell {sell_quantity} of {coin}...' + Fore.RESET)
+                            print(e)
+                            continue
                         # Update the buying power
                         BUYING_POWER += sell_quantity
                         time.sleep(0.25)
@@ -729,8 +737,11 @@ async def main():
         if is_daytime():
             print('daytime mode')
             # print how much up or down we are since the start of the day
-            print(f'Profit since start of day: {BUYING_POWER - starting_equity}')
-            print(f'Profit % since start of day: {((BUYING_POWER - starting_equity) / starting_equity) * 100}')
+            if BUYING_POWER - starting_equity > 0:
+                print(Fore.GREEN + f'Profit % since start of day: {((BUYING_POWER - starting_equity) / starting_equity) * 100:.2f}' + Fore.RESET)
+            else:
+                print(Fore.RED + f'Profit % since start of day: $({((BUYING_POWER - starting_equity) / starting_equity) * 100:.2f})' + Fore.RESET)
+            print(f'Profit % since start of day: {((BUYING_POWER - starting_equity) / starting_equity) * 100:.2f}')
             print('Sleeping for 5 minutes...')
             for i in tqdm(range(300)):
                 await asyncio.sleep(1)
@@ -750,7 +761,7 @@ async def update_buying_power():
             BUYING_POWER = BUYING_POWER * PERCENTAGE_IN_PLAY
         else:
             BUYING_POWER = BUYING_POWER
-        print(Fore.BLUE + f'BUYING_POWER: {BUYING_POWER}' + Style.RESET_ALL)
+        print(Fore.BLUE + f'BUYING_POWER: ${BUYING_POWER}' + Style.RESET_ALL)
         await asyncio.sleep(180) # sleep for 3 minutes
 # run the asynchronous functions to run the main function and the update BUYING_POWER function simultaneously
 async def run_async_functions(loop_count, BUYING_POWER):
@@ -785,7 +796,7 @@ def main_looper():
                 # print our buying power, and profit since our start date
                 print(f'BUYING_POWER: {BUYING_POWER}')
                 print(f'Profit: {BUYING_POWER - starting_equity}')
-                print(f'Profit %: {((BUYING_POWER - starting_equity) / starting_equity) * 100}')
+                print(f'Profit %: {((BUYING_POWER - starting_equity) / starting_equity) * 100:.2f}')
                 print(f'Loop count: {loop_count}')
                 print(f'Running for {datetime.now(timezone("US/Central")) - start_date}')
             # print the buying power every 5 minutes
