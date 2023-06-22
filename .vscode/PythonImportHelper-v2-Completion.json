@@ -146,6 +146,46 @@
         "documentation": {}
     },
     {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
         "label": "numpy",
         "kind": 6,
         "isExtraImport": true,
@@ -214,6 +254,102 @@
         "documentation": {}
     },
     {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -343,14 +479,6 @@
     },
     {
         "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timedelta",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -379,6 +507,78 @@
         "isExtraImport": true,
         "importPath": "pytz",
         "description": "pytz",
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
         "detail": "pytz",
         "documentation": {}
     },
@@ -576,151 +776,7 @@
         "documentation": {}
     },
     {
-        "label": "Back",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Style",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
         "label": "Fore",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Back",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Style",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Fore",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Back",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Fore",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Style",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Fore",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Style",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Fore",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Back",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Style",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Fore",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Back",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Style",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Fore",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Back",
         "importPath": "colorama",
         "description": "colorama",
         "isExtraImport": true,
@@ -869,6 +925,350 @@
         "description": "colorama",
         "isExtraImport": true,
         "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
         "documentation": {}
     },
     {
@@ -1128,6 +1528,78 @@
         "documentation": {}
     },
     {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
         "label": "limits",
         "importPath": "ratelimit",
         "description": "ratelimit",
@@ -1265,6 +1737,22 @@
         "documentation": {}
     },
     {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
         "label": "logging",
         "kind": 6,
         "isExtraImport": true,
@@ -1329,6 +1817,38 @@
         "description": "os",
         "isExtraImport": true,
         "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "ic",
+        "importPath": "icecream",
+        "description": "icecream",
+        "isExtraImport": true,
+        "detail": "icecream",
+        "documentation": {}
+    },
+    {
+        "label": "ic",
+        "importPath": "icecream",
+        "description": "icecream",
+        "isExtraImport": true,
+        "detail": "icecream",
+        "documentation": {}
+    },
+    {
+        "label": "ic",
+        "importPath": "icecream",
+        "description": "icecream",
+        "isExtraImport": true,
+        "detail": "icecream",
+        "documentation": {}
+    },
+    {
+        "label": "ic",
+        "importPath": "icecream",
+        "description": "icecream",
+        "isExtraImport": true,
+        "detail": "icecream",
         "documentation": {}
     },
     {
@@ -1557,43 +2077,51 @@
         "documentation": {}
     },
     {
-        "label": "exit",
-        "importPath": "sys",
-        "description": "sys",
+        "label": "TA",
+        "importPath": "finta",
+        "description": "finta",
         "isExtraImport": true,
-        "detail": "sys",
+        "detail": "finta",
         "documentation": {}
     },
     {
-        "label": "exit",
-        "importPath": "sys",
-        "description": "sys",
+        "label": "TA",
+        "importPath": "finta",
+        "description": "finta",
         "isExtraImport": true,
-        "detail": "sys",
+        "detail": "finta",
         "documentation": {}
     },
     {
-        "label": "exit",
-        "importPath": "sys",
-        "description": "sys",
+        "label": "TA",
+        "importPath": "finta",
+        "description": "finta",
         "isExtraImport": true,
-        "detail": "sys",
+        "detail": "finta",
         "documentation": {}
     },
     {
-        "label": "exit",
-        "importPath": "sys",
-        "description": "sys",
+        "label": "TA",
+        "importPath": "finta",
+        "description": "finta",
         "isExtraImport": true,
-        "detail": "sys",
+        "detail": "finta",
         "documentation": {}
     },
     {
-        "label": "exit",
-        "importPath": "sys",
-        "description": "sys",
+        "label": "TA",
+        "importPath": "finta",
+        "description": "finta",
         "isExtraImport": true,
-        "detail": "sys",
+        "detail": "finta",
+        "documentation": {}
+    },
+    {
+        "label": "TA",
+        "importPath": "finta",
+        "description": "finta",
+        "isExtraImport": true,
+        "detail": "finta",
         "documentation": {}
     },
     {
@@ -1603,6 +2131,107 @@
         "importPath": "traceback",
         "description": "traceback",
         "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "logging,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging.",
+        "description": "logging.",
+        "detail": "logging.",
+        "documentation": {}
+    },
+    {
+        "label": "ast",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ast",
+        "description": "ast",
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "statistics",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "statistics",
+        "description": "statistics",
+        "detail": "statistics",
+        "documentation": {}
+    },
+    {
+        "label": "ThreadPoolExecutor",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
+        "isExtraImport": true,
+        "detail": "concurrent.futures",
+        "documentation": {}
+    },
+    {
+        "label": "ThreadPoolExecutor",
+        "importPath": "concurrent.futures",
+        "description": "concurrent.futures",
+        "isExtraImport": true,
+        "detail": "concurrent.futures",
+        "documentation": {}
+    },
+    {
+        "label": "exit",
+        "importPath": "sys",
+        "description": "sys",
+        "isExtraImport": true,
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "exit",
+        "importPath": "sys",
+        "description": "sys",
+        "isExtraImport": true,
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "exit",
+        "importPath": "sys",
+        "description": "sys",
+        "isExtraImport": true,
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "exit",
+        "importPath": "sys",
+        "description": "sys",
+        "isExtraImport": true,
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "exit",
+        "importPath": "sys",
+        "description": "sys",
+        "isExtraImport": true,
+        "detail": "sys",
         "documentation": {}
     },
     {
@@ -1624,64 +2253,12 @@
         "documentation": {}
     },
     {
-        "label": "ast",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "ast",
-        "description": "ast",
-        "detail": "ast",
-        "documentation": {}
-    },
-    {
         "label": "matplotlib.animation",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "matplotlib.animation",
         "description": "matplotlib.animation",
         "detail": "matplotlib.animation",
-        "documentation": {}
-    },
-    {
-        "label": "csv",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "csv",
-        "description": "csv",
-        "detail": "csv",
-        "documentation": {}
-    },
-    {
-        "label": "TA",
-        "importPath": "finta",
-        "description": "finta",
-        "isExtraImport": true,
-        "detail": "finta",
-        "documentation": {}
-    },
-    {
-        "label": "TA",
-        "importPath": "finta",
-        "description": "finta",
-        "isExtraImport": true,
-        "detail": "finta",
-        "documentation": {}
-    },
-    {
-        "label": "logging,",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "logging.",
-        "description": "logging.",
-        "detail": "logging.",
-        "documentation": {}
-    },
-    {
-        "label": "re",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
         "documentation": {}
     },
     {
@@ -2393,6 +2970,681 @@
         "description": "legacy.V1.trading_strategy_sentiment",
         "peekOfCode": "nlp = spacy.load('en_core_web_sm')\ndef get_company_names(text):\n    # Use Spacy's NER to identify company names\n    doc = nlp(text)\n    company_names = [ent.text for ent in doc.ents if ent.label_ == 'ORG']\n    return company_names\ndef calculate_sentiment(text):\n    # Calculate sentiment score using NLTK's SentimentIntensityAnalyzer\n    sentiment = sia.polarity_scores(text)\n    sentiment_score = sentiment['compound']",
         "detail": "legacy.V1.trading_strategy_sentiment",
+        "documentation": {}
+    },
+    {
+        "label": "order_crypto",
+        "kind": 2,
+        "importPath": "legacy.V5.main",
+        "description": "legacy.V5.main",
+        "peekOfCode": "def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a crypto order.\n    :param symbol: Specify the coin you want to buy\n    :param quantity_or_price: Specify the amount of crypto you want to buy or sell\n    :param amount_in: Specify the amount of money you want to spend on buying a coin\n    :param side: Specify whether you want to buy or sell the coin\n    :return: A dictionary with the following keys:\n    :doc-author: Trelent\n    \"\"\"",
+        "detail": "legacy.V5.main",
+        "documentation": {}
+    },
+    {
+        "label": "login_setup",
+        "kind": 2,
+        "importPath": "legacy.V5.main",
+        "description": "legacy.V5.main",
+        "peekOfCode": "def login_setup():\n    \"\"\"\n    The login_setup function is used to login to the robinhood account and get the account details.\n    :return: The account_details_df and the login\n    :doc-author: Trelent\n    \"\"\"\n    # this is where we will setup the accounts details df and login to robinhood\n    with open('config/credentials.json') as f:\n        credentials = json.load(f)\n    # login to robinhood",
+        "detail": "legacy.V5.main",
+        "documentation": {}
+    },
+    {
+        "label": "robin_getter",
+        "kind": 2,
+        "importPath": "legacy.V5.main",
+        "description": "legacy.V5.main",
+        "peekOfCode": "def robin_getter(coin):\n    \"\"\"\n    The robin_getter function is used to get the available crypto currencies, historical data and current price of a given coin.\n        Args:\n            coin (str): The name of the cryptocurrency you want to get information on.\n    :param coin: Get the data for that coin\n    :return: A tuple of 3 items\n    :doc-author: Trelent\n    \"\"\"\n    # this is where we will get the data from robinhood",
+        "detail": "legacy.V5.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_crypto_positions_in_account",
+        "kind": 2,
+        "importPath": "legacy.V5.main",
+        "description": "legacy.V5.main",
+        "peekOfCode": "def get_crypto_positions_in_account():\n    # Get all crypto positions\n    crypto_positions = r.crypto.get_crypto_positions()\n    # Initialize an empty dictionary to store the positions\n    positions_dict = {}\n    # Iterate over the positions and store the coin information in the dictionary\n    for position in crypto_positions:\n        # Get the coin symbol\n        symbol = position['currency']['code']\n        # Get the quantity of the coin",
+        "detail": "legacy.V5.main",
+        "documentation": {}
+    },
+    {
+        "label": "brain_module",
+        "kind": 2,
+        "importPath": "legacy.V5.main",
+        "description": "legacy.V5.main",
+        "peekOfCode": "def brain_module():\n    \"\"\"\n    The brain_module function is the main function that calls all of the other functions.\n    It will call robin_getter to get data from Robinhood, then it will call signal_engine to calculate signals for each coin, and finally it will call action_engine which takes actions based on those signals.\n    :return: The following:\n    :doc-author: Trelent\n    \"\"\"\n    # this is the main module that will call the other modules\n    coins_list = ['BTC', 'ETH', 'ADA', 'DOGE', 'MATIC', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'SOL', 'AVAX', 'XLM', 'BCH', 'XTZ']\n    # fill the minimum_orders_coins dict with the minimum order amount for each coin",
+        "detail": "legacy.V5.main",
+        "documentation": {}
+    },
+    {
+        "label": "signal_engine",
+        "kind": 2,
+        "importPath": "legacy.V5.main",
+        "description": "legacy.V5.main",
+        "peekOfCode": "def signal_engine(df, coin):\n    # this is where we will calculate the signals for buys and sells for each coin\n    # assume we are already logged in\n    # using finta to calculate the signals\n    # using robin_stocks to execute the buys and sells\n    # cast the inputs to the correct formats first\n    df = pd.DataFrame(df)\n    coin = str(coin) # make sure the coin is a string\n    # filter the df to only include the columns we need\n    df = df[['begins_at', 'open_price', 'close_price', 'high_price', 'low_price', 'volume']]",
+        "detail": "legacy.V5.main",
+        "documentation": {}
+    },
+    {
+        "label": "action_engine",
+        "kind": 2,
+        "importPath": "legacy.V5.main",
+        "description": "legacy.V5.main",
+        "peekOfCode": "def action_engine():\n    \"\"\"\n    The action_engine function is the main function that executes all of the buys and sells.\n    It uses order_crypto() to execute the buys and sells.\n    It always buys with 1% of current buying power (amount_in='dollars').\n    It always sells with 100% of current position (amount_in='amount').\n    The side parameter can be set to 'buy' or 'sell' to specify which action should be taken.  The symbol parameter specifies which coin should be bought or sold, while quantity_or_price specifies how much money should go into each buy order, or how many coins are in each sell order\n    :return: A dictionary of the positions after executing the buys and sells\n    :doc-author: Trelent\n    \"\"\"",
+        "detail": "legacy.V5.main",
+        "documentation": {}
+    },
+    {
+        "label": "record_keeping_engine",
+        "kind": 2,
+        "importPath": "legacy.V5.main",
+        "description": "legacy.V5.main",
+        "peekOfCode": "def record_keeping_engine(coin, cost, quantity, side, current_price, buy_signal, sell_signal, hold_signal):\n    # cast the inputs to their proper types\n    coin = str(coin)\n    cost = float(cost)\n    quantity = float(quantity)\n    side = str(side)\n    current_price = float(current_price)\n    buy_signal = int(buy_signal) #note: this will throw an error if buy_signal is a float, so we need to cast it to an int\n    sell_signal = int(sell_signal)\n    hold_signal = int(hold_signal)",
+        "detail": "legacy.V5.main",
+        "documentation": {}
+    },
+    {
+        "label": "is_daytime",
+        "kind": 2,
+        "importPath": "legacy.V5.main",
+        "description": "legacy.V5.main",
+        "peekOfCode": "def is_daytime():\n    # return true if it is daytime and false if it is nighttime in CST\n    # get the current time in CST\n    current_time = datetime.now(timezone('US/Central'))\n    # get the current hour\n    current_hour = current_time.hour\n    # if the current hour is between 8am and 8pm then return true\n    if current_hour >= 8 and current_hour <= 20:\n        return True\n    # otherwise return false",
+        "detail": "legacy.V5.main",
+        "documentation": {}
+    },
+    {
+        "label": "signals_dict",
+        "kind": 5,
+        "importPath": "legacy.V5.main",
+        "description": "legacy.V5.main",
+        "peekOfCode": "signals_dict = {} # initialize the signals dictionary\nminimum_orders_coins= {}\nfrom datetime import datetime\nfrom tqdm import tqdm\n\"\"\"\nfinta supports the following indicators:\n* Simple Moving Average 'SMA'\n* Simple Moving Median 'SMM'\n* Smoothed Simple Moving Average 'SSMA'\n* Exponential Moving Average 'EMA'",
+        "detail": "legacy.V5.main",
+        "documentation": {}
+    },
+    {
+        "label": "order_crypto",
+        "kind": 2,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if isinstance(symbol, str) else str(symbol).upper()\n    side = side.lower() if isinstance(side, str) else str(side).lower()\n    amount_in = amount_in.lower() if side == 'sell' else 'dollars'\n    timeInForce = timeInForce.lower()\n    if side == 'buy':\n        profile = r.profiles.load_account_profile()",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "login_setup",
+        "kind": 2,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "def login_setup():\n    ic()\n    global BUYING_POWER\n    with open('config/credentials.json') as f:\n        credentials = json.load(f)\n    login = r.login(credentials['username'], credentials['password'])\n    account_details = r.profiles.load_account_profile(info=None)\n    if isinstance(account_details, dict):\n        account_details_df = pd.DataFrame(account_details, index=[0])\n    else:",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "robin_getter",
+        "kind": 2,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "def robin_getter(coin):\n    # ic()\n    crypto_available_on_robinhood = r.crypto.get_crypto_currency_pairs()\n    crypto_historicals = r.crypto.get_crypto_historicals(str(coin), \"5minute\", \"day\", \"24_7\", info=None)\n    crypto_price = r.crypto.get_crypto_quote(str(coin))\n    return crypto_available_on_robinhood, crypto_historicals, crypto_price\n@sleep_and_retry\ndef get_my_price(coin):\n    crypto_price = r.crypto.get_crypto_quote(str(coin))\n    my_price = float(crypto_price['mark_price'])",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "get_my_price",
+        "kind": 2,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "def get_my_price(coin):\n    crypto_price = r.crypto.get_crypto_quote(str(coin))\n    my_price = float(crypto_price['mark_price'])\n    return my_price\n# Get crypto positions function\n# use limits to set a rate limit of no more than 1 call per 2 seconds\n# @limits(calls=1, period=2)\n@sleep_and_retry\ndef get_crypto_positions_in_account():\n    ic()",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "get_crypto_positions_in_account",
+        "kind": 2,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "def get_crypto_positions_in_account():\n    ic()\n    crypto_positions = r.crypto.get_crypto_positions()\n    positions_dict = {}\n    for position in crypto_positions:\n        symbol = position['currency']['code']\n        quantity = float(position['quantity_available'])\n        positions_dict[symbol] = {\n            'quantity': quantity\n        }",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "resetter",
+        "kind": 2,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "def resetter():\n    ic()\n    if RESET:\n        crypto_positions = r.crypto.get_crypto_positions()\n        for position in crypto_positions:\n            symbol = position['currency']['code']\n            quantity = float(position['quantity_available'])\n            order_crypto(symbol, quantity, side='sell')\n        orders = r.orders.get_all_open_crypto_orders()\n        for order in orders:",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "get_account",
+        "kind": 2,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "def get_account():\n    account = r.profiles.load_account_profile(info=None)\n    return account\n# Brain module function\ndef brain_module():\n    ic()\n    global crypto_I_own\n    global holdings_df\n    global minimum_orders_coins\n    global crypto_positions_df",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "brain_module",
+        "kind": 2,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "def brain_module():\n    ic()\n    global crypto_I_own\n    global holdings_df\n    global minimum_orders_coins\n    global crypto_positions_df\n    global BUYING_POWER\n    coins_list = [\n        'BTC', 'ETH', 'ADA', 'DOGE', 'MATIC', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK',\n        'COMP', 'USDC', 'SOL', 'AVAX', 'XLM', 'BCH', 'XTZ'",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "signal_engine",
+        "kind": 2,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "def signal_engine(df, coin):\n    # ic()\n    global signals_dict\n    global crypto_I_own\n    global stop_loss_percent\n    df = pd.DataFrame(df)\n    coin = str(coin)\n    df = df[['begins_at', 'open_price', 'close_price', 'high_price', 'low_price', 'volume']]\n    df = df.rename(columns={'begins_at': 'date', 'open_price': 'open', 'close_price': 'close', 'high_price': 'high', 'low_price': 'low', 'volume': 'volume'})\n    df['coin'] = coin",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "action_engine",
+        "kind": 2,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "def action_engine():\n    global signals_dict\n    global crypto_I_own\n    global loop_count\n    global BUYING_POWER\n    BUYING_POWER = float(r.profiles.load_account_profile(info='buying_power'))\n    time.sleep(20)\n    print(f'crypto_I_own: {crypto_I_own}')\n    for coin in signals_dict.keys():\n        buy_signal = int(signals_dict[coin][0])",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "is_daytime",
+        "kind": 2,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "def is_daytime():\n    current_time = datetime.now(timezone('US/Central'))\n    current_hour = current_time.hour\n    if current_hour >= 8 and current_hour <= 20:\n        return True\n    else:\n        return False\n# Main function\nasync def main():\n    while True:",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "main_looper",
+        "kind": 2,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "def main_looper():\n    # ic()\n    loop_count = 0\n    start_date = datetime.now(timezone('US/Central'))\n    BUYING_POWER = 0\n    starting_equity = BUYING_POWER\n    try:\n        asyncio.run(run_async_functions(loop_count, BUYING_POWER))\n    except Exception as e:\n        raise e",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "signals_dict",
+        "kind": 5,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "signals_dict = {}\nminimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\nimport asyncio\n# Constants\npercentage_in_play = 0.60\nstop_loss_percent = 0.05\nverboseMode = True",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "minimum_orders_coins",
+        "kind": 5,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "minimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\nimport asyncio\n# Constants\npercentage_in_play = 0.60\nstop_loss_percent = 0.05\nverboseMode = True\n# Global variables",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "percentage_in_play",
+        "kind": 5,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "percentage_in_play = 0.60\nstop_loss_percent = 0.05\nverboseMode = True\n# Global variables\nsignals_dict = {}\nminimum_orders_coins = {}\ncrypto_I_own = {}\nholdings_df = None\ncrypto_positions_df = None\nBUYING_POWER = 0.0",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "stop_loss_percent",
+        "kind": 5,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "stop_loss_percent = 0.05\nverboseMode = True\n# Global variables\nsignals_dict = {}\nminimum_orders_coins = {}\ncrypto_I_own = {}\nholdings_df = None\ncrypto_positions_df = None\nBUYING_POWER = 0.0\nloop_count = 0",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "verboseMode",
+        "kind": 5,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "verboseMode = True\n# Global variables\nsignals_dict = {}\nminimum_orders_coins = {}\ncrypto_I_own = {}\nholdings_df = None\ncrypto_positions_df = None\nBUYING_POWER = 0.0\nloop_count = 0\nRESET = False",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "signals_dict",
+        "kind": 5,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "signals_dict = {}\nminimum_orders_coins = {}\ncrypto_I_own = {}\nholdings_df = None\ncrypto_positions_df = None\nBUYING_POWER = 0.0\nloop_count = 0\nRESET = False\n# import traceback\n# Order crypto function",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "minimum_orders_coins",
+        "kind": 5,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "minimum_orders_coins = {}\ncrypto_I_own = {}\nholdings_df = None\ncrypto_positions_df = None\nBUYING_POWER = 0.0\nloop_count = 0\nRESET = False\n# import traceback\n# Order crypto function\n# @limits(calls=1, period=2)  # Adjust the rate limit as per your requirements",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_I_own",
+        "kind": 5,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "crypto_I_own = {}\nholdings_df = None\ncrypto_positions_df = None\nBUYING_POWER = 0.0\nloop_count = 0\nRESET = False\n# import traceback\n# Order crypto function\n# @limits(calls=1, period=2)  # Adjust the rate limit as per your requirements\n@sleep_and_retry",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "holdings_df",
+        "kind": 5,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "holdings_df = None\ncrypto_positions_df = None\nBUYING_POWER = 0.0\nloop_count = 0\nRESET = False\n# import traceback\n# Order crypto function\n# @limits(calls=1, period=2)  # Adjust the rate limit as per your requirements\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_positions_df",
+        "kind": 5,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "crypto_positions_df = None\nBUYING_POWER = 0.0\nloop_count = 0\nRESET = False\n# import traceback\n# Order crypto function\n# @limits(calls=1, period=2)  # Adjust the rate limit as per your requirements\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    global BUYING_POWER",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "BUYING_POWER",
+        "kind": 5,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "BUYING_POWER = 0.0\nloop_count = 0\nRESET = False\n# import traceback\n# Order crypto function\n# @limits(calls=1, period=2)  # Adjust the rate limit as per your requirements\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    global BUYING_POWER\n    if symbol is None:",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "loop_count",
+        "kind": 5,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "loop_count = 0\nRESET = False\n# import traceback\n# Order crypto function\n# @limits(calls=1, period=2)  # Adjust the rate limit as per your requirements\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    global BUYING_POWER\n    if symbol is None:\n        return",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "RESET",
+        "kind": 5,
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "peekOfCode": "RESET = False\n# import traceback\n# Order crypto function\n# @limits(calls=1, period=2)  # Adjust the rate limit as per your requirements\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if isinstance(symbol, str) else str(symbol).upper()",
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "kind": 2,
+        "importPath": "legacy.V6_june17.main_refactored",
+        "description": "legacy.V6_june17.main_refactored",
+        "peekOfCode": "def setup():\n    global coins_list\n    global minimum_orders_coins\n    with open('data/CRYPTO_I_OWN.json') as f:\n        crypto_i_own = json.load(f)\n    BUYING_POWER[0] = float(r.profiles.load_account_profile(info=None)['onbp'])\n    with open('data/TOTAL_CRYPTO_DOLLARS.json') as f:\n        total_crypto_dollars = json.load(f)\n    with open('data/holdings_df.json') as f:\n        holdings_df = json.load(f)",
+        "detail": "legacy.V6_june17.main_refactored",
+        "documentation": {}
+    },
+    {
+        "label": "is_daytime",
+        "kind": 2,
+        "importPath": "legacy.V6_june17.main_refactored",
+        "description": "legacy.V6_june17.main_refactored",
+        "peekOfCode": "def is_daytime():\n    current_time = datetime.now(timezone('US/Central'))\n    current_hour = current_time.hour\n    return current_hour >= 8 and current_hour <= 20\n@sleep_and_retry\nasync def get_crypto_positions_in_account():\n    \"\"\"\n    The get_crypto_positions_in_account function returns a dictionary of the crypto positions in your account.\n    The keys are the currency codes, and the values are dictionaries containing information about each position.\n    :return: A dictionary of all the crypto positions in your account",
+        "detail": "legacy.V6_june17.main_refactored",
+        "documentation": {}
+    },
+    {
+        "label": "get_minimum_orders_coins",
+        "kind": 2,
+        "importPath": "legacy.V6_june17.main_refactored",
+        "description": "legacy.V6_june17.main_refactored",
+        "peekOfCode": "def get_minimum_orders_coins():\n    \"\"\"\n    The get_minimum_orders_coins function reads in the MINIMUM_ORDERS_COINS.csv file and returns a pandas dataframe\n        containing the minimum order sizes for each coin.\n    :return: A dataframe with the minimum orders for each coin\n    :doc-author: Trelent\n    \"\"\"\n    ic()\n    minimum_orders_coins = pd.read_csv('data/MINIMUM_ORDERS_COINS.csv', index_col=0)\n    return minimum_orders_coins",
+        "detail": "legacy.V6_june17.main_refactored",
+        "documentation": {}
+    },
+    {
+        "label": "is_daytime",
+        "kind": 2,
+        "importPath": "legacy.V6_june17.main_refactored",
+        "description": "legacy.V6_june17.main_refactored",
+        "peekOfCode": "def is_daytime():\n    \"\"\"\n    The is_daytime function returns a boolean value.\n    It checks the current time and if it is between 9am and 4pm, then it returns True.\n    Otherwise, it returns False.\n    :return: True if the current time is between 9am and 4pm, otherwise it returns false\n    :doc-author: Trelent\n    \"\"\"\n    ic()\n    now = datetime.now()",
+        "detail": "legacy.V6_june17.main_refactored",
+        "documentation": {}
+    },
+    {
+        "label": "BUYING_POWER",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.main_refactored",
+        "description": "legacy.V6_june17.main_refactored",
+        "peekOfCode": "BUYING_POWER = [0.00]\nPERCENTAGE_IN_PLAY = 0.60\ncoins_list = [] # the list of coins to trade\nminimum_orders_coins = pd.read_csv('data/minimum_orders_coins.csv', index_col='symbol')\ndef setup():\n    global coins_list\n    global minimum_orders_coins\n    with open('data/CRYPTO_I_OWN.json') as f:\n        crypto_i_own = json.load(f)\n    BUYING_POWER[0] = float(r.profiles.load_account_profile(info=None)['onbp'])",
+        "detail": "legacy.V6_june17.main_refactored",
+        "documentation": {}
+    },
+    {
+        "label": "PERCENTAGE_IN_PLAY",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.main_refactored",
+        "description": "legacy.V6_june17.main_refactored",
+        "peekOfCode": "PERCENTAGE_IN_PLAY = 0.60\ncoins_list = [] # the list of coins to trade\nminimum_orders_coins = pd.read_csv('data/minimum_orders_coins.csv', index_col='symbol')\ndef setup():\n    global coins_list\n    global minimum_orders_coins\n    with open('data/CRYPTO_I_OWN.json') as f:\n        crypto_i_own = json.load(f)\n    BUYING_POWER[0] = float(r.profiles.load_account_profile(info=None)['onbp'])\n    with open('data/TOTAL_CRYPTO_DOLLARS.json') as f:",
+        "detail": "legacy.V6_june17.main_refactored",
+        "documentation": {}
+    },
+    {
+        "label": "coins_list",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.main_refactored",
+        "description": "legacy.V6_june17.main_refactored",
+        "peekOfCode": "coins_list = [] # the list of coins to trade\nminimum_orders_coins = pd.read_csv('data/minimum_orders_coins.csv', index_col='symbol')\ndef setup():\n    global coins_list\n    global minimum_orders_coins\n    with open('data/CRYPTO_I_OWN.json') as f:\n        crypto_i_own = json.load(f)\n    BUYING_POWER[0] = float(r.profiles.load_account_profile(info=None)['onbp'])\n    with open('data/TOTAL_CRYPTO_DOLLARS.json') as f:\n        total_crypto_dollars = json.load(f)",
+        "detail": "legacy.V6_june17.main_refactored",
+        "documentation": {}
+    },
+    {
+        "label": "minimum_orders_coins",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.main_refactored",
+        "description": "legacy.V6_june17.main_refactored",
+        "peekOfCode": "minimum_orders_coins = pd.read_csv('data/minimum_orders_coins.csv', index_col='symbol')\ndef setup():\n    global coins_list\n    global minimum_orders_coins\n    with open('data/CRYPTO_I_OWN.json') as f:\n        crypto_i_own = json.load(f)\n    BUYING_POWER[0] = float(r.profiles.load_account_profile(info=None)['onbp'])\n    with open('data/TOTAL_CRYPTO_DOLLARS.json') as f:\n        total_crypto_dollars = json.load(f)\n    with open('data/holdings_df.json') as f:",
+        "detail": "legacy.V6_june17.main_refactored",
+        "documentation": {}
+    },
+    {
+        "label": "new_func",
+        "kind": 2,
+        "importPath": "legacy.V6_june17.refined_v2_main",
+        "description": "legacy.V6_june17.refined_v2_main",
+        "peekOfCode": "def new_func(account_details_df):\n    return account_details_df['onbp'][-1]\nif __name__ == '__main__':\n    # let's log in to Robinhood\n    with open('config/credentials.json') as json_file:\n        credentials = json.load(json_file)\n        r.login(username=credentials['username'], password=credentials['password'])\n    print(Fore.GREEN + 'Successfully logged in to Robinhood!' + Fore.RESET)\n    asyncio.run(main()) # Python 3.7+\n    # run the buying/selling loop",
+        "detail": "legacy.V6_june17.refined_v2_main",
+        "documentation": {}
+    },
+    {
+        "label": "signals_dict",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.refined_v2_main",
+        "description": "legacy.V6_june17.refined_v2_main",
+        "peekOfCode": "signals_dict = {}\nminimum_orders_coins = {}\n#^global variables\nverboseMode = True # set to True to see more output\npercentage_in_play = 0.60 # 60% of buying power will be used\nBUYING_POWER = 0 # initialize buying power\nRESET = False # set to True to reset all positions and orders\n#^global variables end\nasync def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    global BUYING_POWER",
+        "detail": "legacy.V6_june17.refined_v2_main",
+        "documentation": {}
+    },
+    {
+        "label": "minimum_orders_coins",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.refined_v2_main",
+        "description": "legacy.V6_june17.refined_v2_main",
+        "peekOfCode": "minimum_orders_coins = {}\n#^global variables\nverboseMode = True # set to True to see more output\npercentage_in_play = 0.60 # 60% of buying power will be used\nBUYING_POWER = 0 # initialize buying power\nRESET = False # set to True to reset all positions and orders\n#^global variables end\nasync def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    global BUYING_POWER\n    if symbol is None:",
+        "detail": "legacy.V6_june17.refined_v2_main",
+        "documentation": {}
+    },
+    {
+        "label": "verboseMode",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.refined_v2_main",
+        "description": "legacy.V6_june17.refined_v2_main",
+        "peekOfCode": "verboseMode = True # set to True to see more output\npercentage_in_play = 0.60 # 60% of buying power will be used\nBUYING_POWER = 0 # initialize buying power\nRESET = False # set to True to reset all positions and orders\n#^global variables end\nasync def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()",
+        "detail": "legacy.V6_june17.refined_v2_main",
+        "documentation": {}
+    },
+    {
+        "label": "percentage_in_play",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.refined_v2_main",
+        "description": "legacy.V6_june17.refined_v2_main",
+        "peekOfCode": "percentage_in_play = 0.60 # 60% of buying power will be used\nBUYING_POWER = 0 # initialize buying power\nRESET = False # set to True to reset all positions and orders\n#^global variables end\nasync def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()\n    side = side.lower() if type(side) == str else str(side).lower()",
+        "detail": "legacy.V6_june17.refined_v2_main",
+        "documentation": {}
+    },
+    {
+        "label": "BUYING_POWER",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.refined_v2_main",
+        "description": "legacy.V6_june17.refined_v2_main",
+        "peekOfCode": "BUYING_POWER = 0 # initialize buying power\nRESET = False # set to True to reset all positions and orders\n#^global variables end\nasync def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()\n    side = side.lower() if type(side) == str else str(side).lower()\n    amount_in = amount_in.lower() if side == 'sell' else 'dollars'",
+        "detail": "legacy.V6_june17.refined_v2_main",
+        "documentation": {}
+    },
+    {
+        "label": "RESET",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.refined_v2_main",
+        "description": "legacy.V6_june17.refined_v2_main",
+        "peekOfCode": "RESET = False # set to True to reset all positions and orders\n#^global variables end\nasync def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()\n    side = side.lower() if type(side) == str else str(side).lower()\n    amount_in = amount_in.lower() if side == 'sell' else 'dollars'\n    timeInForce = timeInForce.lower()",
+        "detail": "legacy.V6_june17.refined_v2_main",
+        "documentation": {}
+    },
+    {
+        "label": "order_crypto",
+        "kind": 2,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.\n    :param symbol: Specify the crypto symbol you want to trade\n    :param quantity_or_price: Determine the amount of crypto to buy or sell\n    :param amount_in: Specify whether the quantity_or_price parameter is in dollars or shares\n    :param side: Determine whether to buy or sell\n    :param bp: Set the buying power for a buy order\n    :param timeInForce: Specify the duration of the order\n    :return: A dict with the following keys:",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "login_setup",
+        "kind": 2,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "def login_setup():\n    \"\"\"\n    The login_setup function is used to log into the Robinhood API and return a dataframe of account details.\n    It also sets up logging for debugging purposes.\n    :return: A dataframe and a login object\n    :doc-author: Trelent\n    \"\"\"\n    global BUYING_POWER\n    with open('config/credentials.json') as f:\n        credentials = json.load(f)",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "robin_getter",
+        "kind": 2,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "def robin_getter(coin):\n    \"\"\"\n    The robin_getter function is a function that takes in a coin as an argument and returns the following:\n        1. A list of all crypto currencies available on Robinhood\n        2. The historicals for the given coin, with 5 minute intervals, over 24 hours (24_7)\n        3. The current price of the given coin\n    :param coin: Specify which coin you want to get the data for\n    :return: A tuple of three items\n    :doc-author: Trelent\n    \"\"\"",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "get_crypto_positions_in_account",
+        "kind": 2,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "def get_crypto_positions_in_account():\n    \"\"\"\n    The get_crypto_positions_in_account function returns a dictionary of the crypto positions in your account.\n    The keys are the symbols, and the values are dictionaries with one key: quantity.\n    :return: A dictionary of all crypto positions in the account\n    :doc-author: Trelent\n    \"\"\"\n    crypto_positions = r.crypto.get_crypto_positions()\n    positions_dict = {}\n    for position in crypto_positions:",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "resetter",
+        "kind": 2,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "def resetter():\n    \"\"\"\n    The resetter function is used to reset the crypto portfolio.\n    It does this by selling all positions of crypto and deleting all orders.\n    :return: A boolean value\n    :doc-author: Trelent\n    \"\"\"\n    if RESET:\n        crypto_positions = r.crypto.get_crypto_positions()\n        for position in crypto_positions:",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "get_account",
+        "kind": 2,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "def get_account():\n    \"\"\"\n    The get_account function returns the account information for a user.\n    :return: A dictionary\n    :doc-author: Trelent\n    \"\"\"\n    account = r.profiles.load_account_profile(info=None)\n    return account\ndef brain_module():\n    \"\"\"",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "brain_module",
+        "kind": 2,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "def brain_module():\n    \"\"\"\n    The brain_module function is the main function of this module. It does the following:\n        1. Gets a list of coins to trade from `coins_list` variable\n        2. Gets the minimum order amount for each coin in `coins_list` and saves it as a csv file called 'data/minimum_orders_coins'\n        3. For each coin in `coins_list`, gets its historical data, price, and whether or not it's available on Robinhood (i.e., if you can buy/sell it)\n            - Saves all that info into a dictionary called holdings dict which is\n    :return: The global variable `crypto_signals`\n    :doc-author: Trelent\n    \"\"\"",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "signal_engine",
+        "kind": 2,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "def signal_engine(df, coin):\n    \"\"\"\n    The signal_engine function takes in a dataframe and a coin name.\n    It then performs technical analysis on the dataframe to determine if there is a buy, sell or hold signal.\n    The function returns three values: buy_signal, sell_signal and hold_signal which are all either 0 or 1.\n    :param df: Pass the dataframe of the coin we are analyzing\n    :param coin: Determine which coin to buy\n    :return: A buy signal, sell signal, and hold signal\n    :doc-author: Trelent\n    \"\"\"",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "action_engine",
+        "kind": 2,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "def action_engine():\n    \"\"\"\n    The action_engine function is the main function that executes orders based on signals.\n    It takes in a dictionary of coin symbols and their corresponding buy, sell, or hold signal.\n    The action_engine function then iterates through each coin symbol in the dictionary and\n    executes an order if it meets certain criteria:\n    :return: A dictionary of the form:\n    :doc-author: Trelent\n    \"\"\"\n    global signals_dict",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "is_daytime",
+        "kind": 2,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "def is_daytime():\n    current_time = datetime.now(timezone('US/Central'))\n    current_hour = current_time.hour\n    if current_hour >= 8 and current_hour <= 20:\n        return True\n    else:\n        return False\n@sleep_and_retry\nasync def get_total_crypto_dollars():\n    \"\"\"",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "main_looper",
+        "kind": 2,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "def main_looper():\n    while True:\n        ic()\n        loop_count = 0\n        start_date = datetime.now(timezone('US/Central'))\n        BUYING_POWER = 0\n        starting_equity = BUYING_POWER\n        print(F'='*50)\n        print(Fore.GREEN + 'Buying Power is: {}'.format(BUYING_POWER) + Style.RESET_ALL)\n        print(Fore.GREEN + 'Total Profit is: ${}'.format(",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "tracking_dict",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "tracking_dict = {\n    'BTC':{\n        'last_buyin_price': 0.0,\n        'last_buyin_usd': 0.0,\n        'trigger_stoploss_price': 0.0,\n        'trigger_stoploss_coin_pct': 0.0,\n    }\n}\nsignals_dict = {}\nminimum_orders_coins = {}",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "signals_dict",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "signals_dict = {}\nminimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\nimport asyncio\nPERCENTAGE_IN_PLAY = 0.40\nticking_iterator = 0\npercentage_in_play = PERCENTAGE_IN_PLAY\nloop_count = 0",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "minimum_orders_coins",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "minimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\nimport asyncio\nPERCENTAGE_IN_PLAY = 0.40\nticking_iterator = 0\npercentage_in_play = PERCENTAGE_IN_PLAY\nloop_count = 0\nRESET = False",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "PERCENTAGE_IN_PLAY",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "PERCENTAGE_IN_PLAY = 0.40\nticking_iterator = 0\npercentage_in_play = PERCENTAGE_IN_PLAY\nloop_count = 0\nRESET = False\nstop_loss_percent = 0.05\nverboseMode = True\nBUYING_POWER = 0.0\nTOTAL_CRYPTO_DOLLARS = 0.0\nthreshold_total_crypto_per_coin = 0.10",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "ticking_iterator",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "ticking_iterator = 0\npercentage_in_play = PERCENTAGE_IN_PLAY\nloop_count = 0\nRESET = False\nstop_loss_percent = 0.05\nverboseMode = True\nBUYING_POWER = 0.0\nTOTAL_CRYPTO_DOLLARS = 0.0\nthreshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "percentage_in_play",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "percentage_in_play = PERCENTAGE_IN_PLAY\nloop_count = 0\nRESET = False\nstop_loss_percent = 0.05\nverboseMode = True\nBUYING_POWER = 0.0\nTOTAL_CRYPTO_DOLLARS = 0.0\nthreshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}\n@sleep_and_retry",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "loop_count",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "loop_count = 0\nRESET = False\nstop_loss_percent = 0.05\nverboseMode = True\nBUYING_POWER = 0.0\nTOTAL_CRYPTO_DOLLARS = 0.0\nthreshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "RESET",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "RESET = False\nstop_loss_percent = 0.05\nverboseMode = True\nBUYING_POWER = 0.0\nTOTAL_CRYPTO_DOLLARS = 0.0\nthreshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "stop_loss_percent",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "stop_loss_percent = 0.05\nverboseMode = True\nBUYING_POWER = 0.0\nTOTAL_CRYPTO_DOLLARS = 0.0\nthreshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "verboseMode",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "verboseMode = True\nBUYING_POWER = 0.0\nTOTAL_CRYPTO_DOLLARS = 0.0\nthreshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.\n    :param symbol: Specify the crypto symbol you want to trade",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "BUYING_POWER",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "BUYING_POWER = 0.0\nTOTAL_CRYPTO_DOLLARS = 0.0\nthreshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.\n    :param symbol: Specify the crypto symbol you want to trade\n    :param quantity_or_price: Determine the amount of crypto to buy or sell",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "TOTAL_CRYPTO_DOLLARS",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "TOTAL_CRYPTO_DOLLARS = 0.0\nthreshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.\n    :param symbol: Specify the crypto symbol you want to trade\n    :param quantity_or_price: Determine the amount of crypto to buy or sell\n    :param amount_in: Specify whether the quantity_or_price parameter is in dollars or shares",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "threshold_total_crypto_per_coin",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "threshold_total_crypto_per_coin = 0.10\ncrypto_I_own = {}\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.\n    :param symbol: Specify the crypto symbol you want to trade\n    :param quantity_or_price: Determine the amount of crypto to buy or sell\n    :param amount_in: Specify whether the quantity_or_price parameter is in dollars or shares\n    :param side: Determine whether to buy or sell",
+        "detail": "legacy.V6_june17.refinedmain",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_I_own",
+        "kind": 5,
+        "importPath": "legacy.V6_june17.refinedmain",
+        "description": "legacy.V6_june17.refinedmain",
+        "peekOfCode": "crypto_I_own = {}\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.\n    :param symbol: Specify the crypto symbol you want to trade\n    :param quantity_or_price: Determine the amount of crypto to buy or sell\n    :param amount_in: Specify whether the quantity_or_price parameter is in dollars or shares\n    :param side: Determine whether to buy or sell\n    :param bp: Set the buying power for a buy order",
+        "detail": "legacy.V6_june17.refinedmain",
         "documentation": {}
     },
     {
@@ -3424,226 +4676,433 @@
     {
         "label": "order_crypto",
         "kind": 2,
-        "importPath": "alt_main_withgpt4",
-        "description": "alt_main_withgpt4",
-        "peekOfCode": "def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()\n    side = side.lower() if type(side) == str else str(side).lower()\n    amount_in = amount_in.lower() if side == 'sell' else 'dollars'\n    timeInForce = timeInForce.lower()\n    #print(Fore.GREEN + f'{side} {quantity_or_price} {symbol}...' + Fore.RESET)",
-        "detail": "alt_main_withgpt4",
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.\n    :param symbol: Specify the crypto symbol you want to trade\n    :param quantity_or_price: Determine the amount of crypto to buy or sell\n    :param amount_in: Specify whether the quantity_or_price parameter is in dollars or shares\n    :param side: Determine whether to buy or sell\n    :param bp: Set the buying power for a buy order\n    :param timeInForce: Specify the duration of the order\n    :return: A dict with the following keys:",
+        "detail": "main",
         "documentation": {}
     },
     {
         "label": "login_setup",
         "kind": 2,
-        "importPath": "alt_main_withgpt4",
-        "description": "alt_main_withgpt4",
-        "peekOfCode": "def login_setup():\n    #ic()\n    global BUYING_POWER\n    with open('config/credentials.json') as f:\n        credentials = json.load(f)\n    login = r.login(credentials['username'], credentials['password'])\n    account_details = r.profiles.load_account_profile(info=None)\n    if isinstance(account_details, dict):\n        account_details_df = pd.DataFrame(account_details, index=[0])\n    else:",
-        "detail": "alt_main_withgpt4",
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def login_setup():\n    \"\"\"\n    The login_setup function is used to log into the Robinhood API and return a dataframe of account details.\n    It also sets up the global variables BUYING_POWER, stop_loss_percent, and tracking_dict.\n    :return: A dataframe and a login object\n    :doc-author: Trelent\n    \"\"\"\n    global BUYING_POWER\n    # global tracking_dict\n    # # now fill tracking dict with the coins we own and their current price",
+        "detail": "main",
         "documentation": {}
     },
     {
         "label": "robin_getter",
         "kind": 2,
-        "importPath": "alt_main_withgpt4",
-        "description": "alt_main_withgpt4",
-        "peekOfCode": "def robin_getter(coin):\n    #ic()\n    crypto_available_on_robinhood = r.crypto.get_crypto_currency_pairs()\n    crypto_historicals = r.crypto.get_crypto_historicals(str(coin), \"5minute\", \"day\", \"24_7\", info=None)\n    crypto_price = r.crypto.get_crypto_quote(str(coin))\n    return crypto_available_on_robinhood, crypto_historicals, crypto_price\n@sleep_and_retry\ndef get_crypto_positions_in_account():\n    #ic()\n    crypto_positions = r.crypto.get_crypto_positions()",
-        "detail": "alt_main_withgpt4",
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def robin_getter(coin):\n    \"\"\"\n    The robin_getter function is a function that takes in a coin as an argument and returns the following:\n        1. A list of all crypto currencies available on Robinhood\n        2. The historicals for the given coin, with 5 minute intervals, over 24 hours (24_7)\n        3. The current price of the given coin\n    :param coin: Specify which coin you want to get the data for\n    :return: A tuple of three items\n    :doc-author: Trelent\n    \"\"\"",
+        "detail": "main",
         "documentation": {}
     },
     {
         "label": "get_crypto_positions_in_account",
         "kind": 2,
-        "importPath": "alt_main_withgpt4",
-        "description": "alt_main_withgpt4",
-        "peekOfCode": "def get_crypto_positions_in_account():\n    #ic()\n    crypto_positions = r.crypto.get_crypto_positions()\n    positions_dict = {}\n    for position in crypto_positions:\n        symbol = position['currency']['code']\n        quantity = float(position['quantity_available'])\n        positions_dict[symbol] = {\n            'quantity': quantity\n        }",
-        "detail": "alt_main_withgpt4",
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def get_crypto_positions_in_account():\n    \"\"\"\n    The get_crypto_positions_in_account function returns a dictionary of the crypto positions in your account.\n    The keys are the symbols, and the values are dictionaries with one key: quantity.\n    :return: A dictionary of all crypto positions in the account\n    :doc-author: Trelent\n    \"\"\"\n    #ic()\n    crypto_positions = r.crypto.get_crypto_positions()\n    positions_dict = {}",
+        "detail": "main",
         "documentation": {}
     },
     {
         "label": "resetter",
         "kind": 2,
-        "importPath": "alt_main_withgpt4",
-        "description": "alt_main_withgpt4",
-        "peekOfCode": "def resetter():\n    if RESET:\n        # sell all positions of crypto\n        crypto_positions = r.crypto.get_crypto_positions()\n        for position in crypto_positions:\n            symbol = position['currency']['code']\n            quantity = float(position['quantity_available'])\n            order_crypto(symbol, quantity, side='sell')\n        # delete all orders\n        orders = r.orders.get_all_open_crypto_orders()",
-        "detail": "alt_main_withgpt4",
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def resetter():\n    \"\"\"\n    The resetter function is used to reset the crypto portfolio.\n    It does this by selling all positions of crypto and deleting all orders.\n    :return: A boolean value\n    :doc-author: Trelent\n    \"\"\"\n    if RESET:\n        # sell all positions of crypto\n        crypto_positions = r.crypto.get_crypto_positions()",
+        "detail": "main",
         "documentation": {}
     },
     {
         "label": "get_account",
         "kind": 2,
-        "importPath": "alt_main_withgpt4",
-        "description": "alt_main_withgpt4",
-        "peekOfCode": "def get_account():\n    #ic()\n    account = r.profiles.load_account_profile(info=None)\n    return account\ndef brain_module():\n    #ic()\n    \"\"\"\n    The brain_module function is the main function of this program. It does the following:\n        1) Gets a list of coins to trade from an env variable called COINS_LIST\n        2) Gets a dictionary of crypto I own from an env variable called CRYPTO_I_OWN",
-        "detail": "alt_main_withgpt4",
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def get_account():\n    \"\"\"\n    The get_account function returns the account information for a user.\n    :return: A dictionary\n    :doc-author: Trelent\n    \"\"\"\n    #ic()\n    account = r.profiles.load_account_profile(info=None)\n    return account\ndef brain_module():",
+        "detail": "main",
         "documentation": {}
     },
     {
         "label": "brain_module",
         "kind": 2,
-        "importPath": "alt_main_withgpt4",
-        "description": "alt_main_withgpt4",
-        "peekOfCode": "def brain_module():\n    #ic()\n    \"\"\"\n    The brain_module function is the main function of this program. It does the following:\n        1) Gets a list of coins to trade from an env variable called COINS_LIST\n        2) Gets a dictionary of crypto I own from an env variable called CRYPTO_I_OWN\n        3) Creates a dataframe with columns for each coin in COINS_LIST and rows for each coin in CRYPTO_I OWN,\n            where the values are how much crypto I own (in dollars). This dataframe is saved as holdings.csv.\n    :return: A dictionary of the signals for each coin\n    :doc-author: Trelent",
-        "detail": "alt_main_withgpt4",
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def brain_module():\n    \"\"\"\n    The brain_module function is the main function of this module. It does the following:\n        1. Gets a list of coins to trade from `coins_list` variable\n        2. Gets the minimum order amount for each coin in `coins_list` and saves it as a csv file called 'data/minimum_orders_coins'\n        3. For each coin in `coins_list`, gets its historical data, price, and whether or not it's available on Robinhood (i.e., if you can buy/sell it)\n            - Saves all that info into a dictionary called holdings dict which is\n    :return: The global variable `crypto_signals`\n    :doc-author: Trelent\n    \"\"\"",
+        "detail": "main",
         "documentation": {}
     },
     {
         "label": "signal_engine",
         "kind": 2,
-        "importPath": "alt_main_withgpt4",
-        "description": "alt_main_withgpt4",
-        "peekOfCode": "def signal_engine(df, coin):\n    #ic()\n    global signals_dict\n    global crypto_I_own\n    global stop_loss_percent\n    df = pd.DataFrame(df)\n    coin = str(coin)\n    df = df[['begins_at', 'open_price', 'close_price', 'high_price', 'low_price', 'volume']]\n    df = df.rename(columns={'begins_at': 'date', 'open_price': 'open', 'close_price': 'close', 'high_price': 'high', 'low_price': 'low', 'volume': 'volume'})\n    df['coin'] = coin",
-        "detail": "alt_main_withgpt4",
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def signal_engine(df, coin):\n    \"\"\"\n    The signal_engine function takes in a dataframe and a coin name.\n    It then performs technical analysis on the dataframe to determine if there is a buy, sell or hold signal.\n    The function returns three values: buy_signal, sell_signal and hold_signal which are all either 0 or 1.\n    :param df: Pass the dataframe of the coin we are analyzing\n    :param coin: Determine which coin to buy\n    :return: A buy signal, sell signal, and hold signal\n    :doc-author: Trelent\n    \"\"\"",
+        "detail": "main",
         "documentation": {}
     },
     {
         "label": "action_engine",
         "kind": 2,
-        "importPath": "alt_main_withgpt4",
-        "description": "alt_main_withgpt4",
-        "peekOfCode": "def action_engine():\n    \"\"\"\n    The action_engine function is the main function that executes all of the other functions.\n    It takes no arguments, but it does require a signals_dict variable to be defined in order to work properly.\n    The action_engine function will iterate through each coin in the signals_dict and execute an order based on\n    the signal values for that coin.\n    :return: A dictionary of signals for each coin\n    :doc-author: Trelent\n    \"\"\"\n    global signals_dict",
-        "detail": "alt_main_withgpt4",
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def action_engine():\n    \"\"\"\n    The action_engine function is the main function that executes orders based on signals.\n    It takes in a dictionary of coin symbols and their corresponding buy, sell, or hold signal.\n    The action_engine function then iterates through each coin symbol in the dictionary and\n    executes an order if it meets certain criteria:\n    :return: A dictionary of the form:\n    :doc-author: Trelent\n    \"\"\"\n    global signals_dict",
+        "detail": "main",
         "documentation": {}
     },
     {
         "label": "is_daytime",
         "kind": 2,
-        "importPath": "alt_main_withgpt4",
-        "description": "alt_main_withgpt4",
-        "peekOfCode": "def is_daytime():\n    #ic()\n    current_time = datetime.now(timezone('US/Central'))\n    current_hour = current_time.hour\n    if current_hour >= 8 and current_hour <= 20:\n        return True\n    else:\n        return False\nif __name__ == '__main__':\n    login_setup()",
-        "detail": "alt_main_withgpt4",
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def is_daytime():\n    #ic()\n    current_time = datetime.now(timezone('US/Central'))\n    current_hour = current_time.hour\n    if current_hour >= 8 and current_hour <= 20:\n        return True\n    else:\n        return False\n@sleep_and_retry\nasync def get_total_crypto_dollars():",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "main_looper",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def main_looper():\n    while True:\n        ic()\n        loop_count = 0\n        start_date = datetime.now(timezone('US/Central'))\n        BUYING_POWER = 0\n        starting_equity = BUYING_POWER\n        print(F'='*50)\n        print(Fore.GREEN + 'Buying Power is: {}'.format(BUYING_POWER) + Style.RESET_ALL)\n        print(Fore.GREEN + 'Total Profit is: ${}'.format(",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "stock_function_one",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def stock_function_one():\n    global BUYING_POWER\n    global stock_I_own\n    global stock_dict\n    global day_trade_count\n    global day_trade_limit\n    # get the top ten moving stocks of the day\n    top_ten_movers = r.get_top_movers('up')\n    # get the top ten stocks of the day\n    top_ten_stocks = top_ten_movers['results']",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "verboseMode",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "verboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys\ntracking_dict = {\n    'BTC':{\n        'last_buyin_price': 0.0, # the price of the last buyin\n        'last_buyin_usd': 0.0, # how much USD was spent on the last buyin\n        'last_buyin_amountcoins': 0.0, # how many coins were bought in the last buyin\n        'trigger_stoploss_price': 0.0, # the price at which the stoploss will trigger\n        'trigger_stoploss_coin_pct': 0.0, # the percent of holdings of the coin to sell at the stoploss\n        'last_buyin_time' : datetime.now(timezone('US/Eastern')), # the time of the last buyin\n        'last_buyin_total' : 0.0, # the total amount of the last buyin",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "tracking_dict",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "tracking_dict = {\n    'BTC':{\n        'last_buyin_price': 0.0, # the price of the last buyin\n        'last_buyin_usd': 0.0, # how much USD was spent on the last buyin\n        'last_buyin_amountcoins': 0.0, # how many coins were bought in the last buyin\n        'trigger_stoploss_price': 0.0, # the price at which the stoploss will trigger\n        'trigger_stoploss_coin_pct': 0.0, # the percent of holdings of the coin to sell at the stoploss\n        'last_buyin_time' : datetime.now(timezone('US/Eastern')), # the time of the last buyin\n        'last_buyin_total' : 0.0, # the total amount of the last buyin\n        'last_buyin_total_usd' : 0.0, # the total amount of the last buyin in USD",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "current_prices_dict",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "current_prices_dict = {}\nsignals_dict = {}\nminimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\nimport asyncio\nPERCENTAGE_IN_PLAY = 0.40 # 40% of buying power is in play at any given time\nticking_iterator = 0 # this is a global variable that is set to the number of times the loop has run\npercentage_in_play = PERCENTAGE_IN_PLAY # % of buying power is in play at any given time",
+        "detail": "main",
         "documentation": {}
     },
     {
         "label": "signals_dict",
         "kind": 5,
-        "importPath": "alt_main_withgpt4",
-        "description": "alt_main_withgpt4",
-        "peekOfCode": "signals_dict = {}\nminimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\npercentage_in_play = 0.60 # 60% of buying power is in play at any given time\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):",
-        "detail": "alt_main_withgpt4",
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "signals_dict = {}\nminimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\nimport asyncio\nPERCENTAGE_IN_PLAY = 0.40 # 40% of buying power is in play at any given time\nticking_iterator = 0 # this is a global variable that is set to the number of times the loop has run\npercentage_in_play = PERCENTAGE_IN_PLAY # % of buying power is in play at any given time\nloop_count = 0",
+        "detail": "main",
         "documentation": {}
     },
     {
         "label": "minimum_orders_coins",
         "kind": 5,
-        "importPath": "alt_main_withgpt4",
-        "description": "alt_main_withgpt4",
-        "peekOfCode": "minimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\npercentage_in_play = 0.60 # 60% of buying power is in play at any given time\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()",
-        "detail": "alt_main_withgpt4",
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "minimum_orders_coins = {}\nimport ast\nimport re\nimport pandas as pd\nimport asyncio\nPERCENTAGE_IN_PLAY = 0.40 # 40% of buying power is in play at any given time\nticking_iterator = 0 # this is a global variable that is set to the number of times the loop has run\npercentage_in_play = PERCENTAGE_IN_PLAY # % of buying power is in play at any given time\nloop_count = 0\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "PERCENTAGE_IN_PLAY",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "PERCENTAGE_IN_PLAY = 0.40 # 40% of buying power is in play at any given time\nticking_iterator = 0 # this is a global variable that is set to the number of times the loop has run\npercentage_in_play = PERCENTAGE_IN_PLAY # % of buying power is in play at any given time\nloop_count = 0\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\nverboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys\nBUYING_POWER = 0.0 #! this is a global variable that is set to your buying power\nTOTAL_CRYPTO_DOLLARS = 0.0 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\nthreshold_total_crypto_per_coin = 0.10 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "ticking_iterator",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "ticking_iterator = 0 # this is a global variable that is set to the number of times the loop has run\npercentage_in_play = PERCENTAGE_IN_PLAY # % of buying power is in play at any given time\nloop_count = 0\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\nverboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys\nBUYING_POWER = 0.0 #! this is a global variable that is set to your buying power\nTOTAL_CRYPTO_DOLLARS = 0.0 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\nthreshold_total_crypto_per_coin = 0.10 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\ncrypto_I_own = {} #! this is a global variable that is set to the coins you own",
+        "detail": "main",
         "documentation": {}
     },
     {
         "label": "percentage_in_play",
         "kind": 5,
-        "importPath": "alt_main_withgpt4",
-        "description": "alt_main_withgpt4",
-        "peekOfCode": "percentage_in_play = 0.60 # 60% of buying power is in play at any given time\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()",
-        "detail": "alt_main_withgpt4",
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "percentage_in_play = PERCENTAGE_IN_PLAY # % of buying power is in play at any given time\nloop_count = 0\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\nverboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys\nBUYING_POWER = 0.0 #! this is a global variable that is set to your buying power\nTOTAL_CRYPTO_DOLLARS = 0.0 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\nthreshold_total_crypto_per_coin = 0.10 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\ncrypto_I_own = {} #! this is a global variable that is set to the coins you own\n@sleep_and_retry",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "loop_count",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "loop_count = 0\nRESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\nverboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys\nBUYING_POWER = 0.0 #! this is a global variable that is set to your buying power\nTOTAL_CRYPTO_DOLLARS = 0.0 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\nthreshold_total_crypto_per_coin = 0.10 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\ncrypto_I_own = {} #! this is a global variable that is set to the coins you own\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):",
+        "detail": "main",
         "documentation": {}
     },
     {
         "label": "RESET",
         "kind": 5,
-        "importPath": "alt_main_withgpt4",
-        "description": "alt_main_withgpt4",
-        "peekOfCode": "RESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()\n    side = side.lower() if type(side) == str else str(side).lower()",
-        "detail": "alt_main_withgpt4",
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "RESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders\nstop_loss_percent = 0.05 # 5% stop loss\nverboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys\nBUYING_POWER = 0.0 #! this is a global variable that is set to your buying power\nTOTAL_CRYPTO_DOLLARS = 0.0 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\nthreshold_total_crypto_per_coin = 0.10 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\ncrypto_I_own = {} #! this is a global variable that is set to the coins you own\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"",
+        "detail": "main",
         "documentation": {}
     },
     {
         "label": "stop_loss_percent",
         "kind": 5,
-        "importPath": "alt_main_withgpt4",
-        "description": "alt_main_withgpt4",
-        "peekOfCode": "stop_loss_percent = 0.05 # 5% stop loss\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    #ic()\n    global BUYING_POWER\n    if symbol is None:\n        return\n    symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()\n    side = side.lower() if type(side) == str else str(side).lower()\n    amount_in = amount_in.lower() if side == 'sell' else 'dollars'",
-        "detail": "alt_main_withgpt4",
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "stop_loss_percent = 0.05 # 5% stop loss\nverboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys\nBUYING_POWER = 0.0 #! this is a global variable that is set to your buying power\nTOTAL_CRYPTO_DOLLARS = 0.0 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\nthreshold_total_crypto_per_coin = 0.10 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\ncrypto_I_own = {} #! this is a global variable that is set to the coins you own\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "verboseMode",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "verboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys\nBUYING_POWER = 0.0 #! this is a global variable that is set to your buying power\nTOTAL_CRYPTO_DOLLARS = 0.0 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\nthreshold_total_crypto_per_coin = 0.10 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\ncrypto_I_own = {} #! this is a global variable that is set to the coins you own\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.\n    :param symbol: Specify the crypto symbol you want to trade",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "BUYING_POWER",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "BUYING_POWER = 0.0 #! this is a global variable that is set to your buying power\nTOTAL_CRYPTO_DOLLARS = 0.0 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\nthreshold_total_crypto_per_coin = 0.10 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\ncrypto_I_own = {} #! this is a global variable that is set to the coins you own\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.\n    :param symbol: Specify the crypto symbol you want to trade\n    :param quantity_or_price: Determine the amount of crypto to buy or sell",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "TOTAL_CRYPTO_DOLLARS",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "TOTAL_CRYPTO_DOLLARS = 0.0 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\nthreshold_total_crypto_per_coin = 0.10 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\ncrypto_I_own = {} #! this is a global variable that is set to the coins you own\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.\n    :param symbol: Specify the crypto symbol you want to trade\n    :param quantity_or_price: Determine the amount of crypto to buy or sell\n    :param amount_in: Specify whether the quantity_or_price parameter is in dollars or shares",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "threshold_total_crypto_per_coin",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "threshold_total_crypto_per_coin = 0.10 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)\ncrypto_I_own = {} #! this is a global variable that is set to the coins you own\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.\n    :param symbol: Specify the crypto symbol you want to trade\n    :param quantity_or_price: Determine the amount of crypto to buy or sell\n    :param amount_in: Specify whether the quantity_or_price parameter is in dollars or shares\n    :param side: Determine whether to buy or sell",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_I_own",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "crypto_I_own = {} #! this is a global variable that is set to the coins you own\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.\n    :param symbol: Specify the crypto symbol you want to trade\n    :param quantity_or_price: Determine the amount of crypto to buy or sell\n    :param amount_in: Specify whether the quantity_or_price parameter is in dollars or shares\n    :param side: Determine whether to buy or sell\n    :param bp: Set the buying power for a buy order",
+        "detail": "main",
         "documentation": {}
     },
     {
         "label": "order_crypto",
         "kind": 2,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a crypto order.\n    :param symbol: Specify the coin you want to buy\n    :param quantity_or_price: Specify the amount of crypto you want to buy or sell\n    :param amount_in: Specify the amount of money you want to spend on buying a coin\n    :param side: Specify whether you want to buy or sell the coin\n    :return: A dictionary with the following keys:\n    :doc-author: Trelent\n    \"\"\"",
-        "detail": "main",
+        "importPath": "possible_refactoredmain",
+        "description": "possible_refactoredmain",
+        "peekOfCode": "def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.\n    :param symbol: Specify the crypto symbol you want to trade\n    :param quantity_or_price: Determine the amount of crypto to buy or sell\n    :param amount_in: Specify whether the quantity_or_price parameter is in dollars or shares\n    :param side: Determine whether to buy or sell\n    :param bp: Set the buying power for a buy order\n    :param timeInForce: Specify the duration of the order\n    :return: A dict with the following keys:",
+        "detail": "possible_refactoredmain",
         "documentation": {}
     },
     {
         "label": "login_setup",
         "kind": 2,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "def login_setup():\n    \"\"\"\n    The login_setup function is used to login to the robinhood account and get the account details.\n    :return: The account_details_df and the login\n    :doc-author: Trelent\n    \"\"\"\n    # this is where we will setup the accounts details df and login to robinhood\n    with open('config/credentials.json') as f:\n        credentials = json.load(f)\n    # login to robinhood",
-        "detail": "main",
+        "importPath": "possible_refactoredmain",
+        "description": "possible_refactoredmain",
+        "peekOfCode": "def login_setup():\n    \"\"\"\n    The login_setup function is used to log in to the Robinhood API and set up the necessary environment.\n    \"\"\"\n    logging.info('Trying to login...')\n    login_success = False\n    while not login_success:\n        try:\n            with open('config.json') as json_file:\n                config = json.load(json_file)",
+        "detail": "possible_refactoredmain",
         "documentation": {}
     },
     {
         "label": "robin_getter",
         "kind": 2,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "def robin_getter(coin):\n    \"\"\"\n    The robin_getter function is used to get the available crypto currencies, historical data and current price of a given coin.\n        Args:\n            coin (str): The name of the cryptocurrency you want to get information on.\n    :param coin: Get the data for that coin\n    :return: A tuple of 3 items\n    :doc-author: Trelent\n    \"\"\"\n    # this is where we will get the data from robinhood",
-        "detail": "main",
+        "importPath": "possible_refactoredmain",
+        "description": "possible_refactoredmain",
+        "peekOfCode": "def robin_getter(symbol, time_frame='day'):\n    \"\"\"\n    The robin_getter function is used to get the historical prices for a given symbol.\n    :param symbol: Specify the symbol you want to retrieve data for\n    :param time_frame: Specify the time frame for the historical data\n    :return: A pandas DataFrame with the historical prices\n    \"\"\"\n    global reset_every_minute\n    reset_every_minute = 0\n    while reset_every_minute == 0:",
+        "detail": "possible_refactoredmain",
         "documentation": {}
     },
     {
         "label": "get_crypto_positions_in_account",
         "kind": 2,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "def get_crypto_positions_in_account():\n    # Get all crypto positions\n    crypto_positions = r.crypto.get_crypto_positions()\n    # Initialize an empty dictionary to store the positions\n    positions_dict = {}\n    # Iterate over the positions and store the coin information in the dictionary\n    for position in crypto_positions:\n        # Get the coin symbol\n        symbol = position['currency']['code']\n        # Get the quantity of the coin",
-        "detail": "main",
+        "importPath": "possible_refactoredmain",
+        "description": "possible_refactoredmain",
+        "peekOfCode": "def get_crypto_positions_in_account():\n    \"\"\"\n    The get_crypto_positions_in_account function is used to retrieve the current positions in the account.\n    :return: A dict with the current positions in the account\n    \"\"\"\n    positions = r.crypto.get_crypto_positions(info=None)\n    if positions is not None and positions != []:\n        return {position['currency']['code']: float(position['quantity']) for position in positions}\n    else:\n        return {}",
+        "detail": "possible_refactoredmain",
         "documentation": {}
     },
     {
-        "label": "brain_module",
+        "label": "compute_signals",
         "kind": 2,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "def brain_module():\n    \"\"\"\n    The brain_module function is the main function that calls all of the other functions.\n    It will call robin_getter to get data from Robinhood, then it will call signal_engine to calculate signals for each coin, and finally it will call action_engine which takes actions based on those signals.\n    :return: The following:\n    :doc-author: Trelent\n    \"\"\"\n    # this is the main module that will call the other modules\n    coins_list = ['BTC', 'ETH', 'ADA', 'DOGE', 'MATIC', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'SOL', 'AVAX', 'XLM', 'BCH', 'XTZ']\n    # fill the minimum_orders_coins dict with the minimum order amount for each coin",
-        "detail": "main",
+        "importPath": "possible_refactoredmain",
+        "description": "possible_refactoredmain",
+        "peekOfCode": "def compute_signals(crypto_prices, coin):\n    \"\"\"\n    The compute_signals function is used to compute trading signals for a given cryptocurrency.\n    :param crypto_prices: A DataFrame with historical prices\n    :param coin: The cryptocurrency symbol\n    :return: A trading signal (buy or sell) for the cryptocurrency\n    \"\"\"\n    close_prices = crypto_prices['close']\n    stoch_rsi = TA.STOCHRSI(close_prices)\n    last_stoch_rsi = stoch_rsi[-1]",
+        "detail": "possible_refactoredmain",
         "documentation": {}
     },
     {
-        "label": "signal_engine",
+        "label": "process_signal",
         "kind": 2,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "def signal_engine(df, coin):\n    # this is where we will calculate the signals for buys and sells for each coin\n    # assume we are already logged in\n    # using finta to calculate the signals\n    # using robin_stocks to execute the buys and sells\n    # cast the inputs to the correct formats first\n    df = pd.DataFrame(df)\n    coin = str(coin) # make sure the coin is a string\n    # filter the df to only include the columns we need\n    df = df[['begins_at', 'open_price', 'close_price', 'high_price', 'low_price', 'volume']]",
-        "detail": "main",
+        "importPath": "possible_refactoredmain",
+        "description": "possible_refactoredmain",
+        "peekOfCode": "def process_signal(coin, signal):\n    \"\"\"\n    The process_signal function is used to process a trading signal for a given cryptocurrency.\n    :param coin: The cryptocurrency symbol\n    :param signal: The trading signal (buy, sell, or hold)\n    \"\"\"\n    global threshold_total_crypto_per_coin, minimum_orders_coins\n    if coin in crypto_I_own:\n        if signal == 'sell':\n            if verboseMode:",
+        "detail": "possible_refactoredmain",
         "documentation": {}
     },
     {
-        "label": "action_engine",
+        "label": "main",
         "kind": 2,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "def action_engine():\n    \"\"\"\n    The action_engine function is the main function that executes all of the buys and sells.\n    It uses order_crypto() to execute the buys and sells.\n    It always buys with 1% of current buying power (amount_in='dollars').\n    It always sells with 100% of current position (amount_in='amount').\n    The side parameter can be set to 'buy' or 'sell' to specify which action should be taken.  The symbol parameter specifies which coin should be bought or sold, while quantity_or_price specifies how much money should go into each buy order, or how many coins are in each sell order\n    :return: A dictionary of the positions after executing the buys and sells\n    :doc-author: Trelent\n    \"\"\"",
-        "detail": "main",
-        "documentation": {}
-    },
-    {
-        "label": "record_keeping_engine",
-        "kind": 2,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "def record_keeping_engine(coin, cost, quantity, side, current_price, buy_signal, sell_signal, hold_signal):\n    # cast the inputs to their proper types\n    coin = str(coin)\n    cost = float(cost)\n    quantity = float(quantity)\n    side = str(side)\n    current_price = float(current_price)\n    buy_signal = int(buy_signal) #note: this will throw an error if buy_signal is a float, so we need to cast it to an int\n    sell_signal = int(sell_signal)\n    hold_signal = int(hold_signal)",
-        "detail": "main",
-        "documentation": {}
-    },
-    {
-        "label": "is_daytime",
-        "kind": 2,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "def is_daytime():\n    # return true if it is daytime and false if it is nighttime in CST\n    # get the current time in CST\n    current_time = datetime.now(timezone('US/Central'))\n    # get the current hour\n    current_hour = current_time.hour\n    # if the current hour is between 8am and 8pm then return true\n    if current_hour >= 8 and current_hour <= 20:\n        return True\n    # otherwise return false",
-        "detail": "main",
+        "importPath": "possible_refactoredmain",
+        "description": "possible_refactoredmain",
+        "peekOfCode": "def main():\n    \"\"\"\n    The main function is the entry point of the script.\n    \"\"\"\n    global coins_list\n    login_setup()\n    while True:\n        try:\n            logging.info(f\"Current time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\")\n            print(\"---------------NEW TICK---------------\")",
+        "detail": "possible_refactoredmain",
         "documentation": {}
     },
     {
         "label": "signals_dict",
         "kind": 5,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "signals_dict = {} # initialize the signals dictionary\nminimum_orders_coins= {}\nfrom datetime import datetime\nfrom tqdm import tqdm\n\"\"\"\nfinta supports the following indicators:\n* Simple Moving Average 'SMA'\n* Simple Moving Median 'SMM'\n* Smoothed Simple Moving Average 'SSMA'\n* Exponential Moving Average 'EMA'",
-        "detail": "main",
+        "importPath": "possible_refactoredmain",
+        "description": "possible_refactoredmain",
+        "peekOfCode": "signals_dict = {}\nminimum_orders_coins = {}\ncrypto_I_own = {}\nBUYING_POWER = 0.0\nPERCENTAGE_IN_PLAY = 0.60\npercentage_in_play = PERCENTAGE_IN_PLAY\nthreshold_total_crypto_per_coin = 0.10\nverboseMode = True\nRESET = True\nstop_loss_percent = 0.05",
+        "detail": "possible_refactoredmain",
+        "documentation": {}
+    },
+    {
+        "label": "minimum_orders_coins",
+        "kind": 5,
+        "importPath": "possible_refactoredmain",
+        "description": "possible_refactoredmain",
+        "peekOfCode": "minimum_orders_coins = {}\ncrypto_I_own = {}\nBUYING_POWER = 0.0\nPERCENTAGE_IN_PLAY = 0.60\npercentage_in_play = PERCENTAGE_IN_PLAY\nthreshold_total_crypto_per_coin = 0.10\nverboseMode = True\nRESET = True\nstop_loss_percent = 0.05\nticking_iterator = 0",
+        "detail": "possible_refactoredmain",
+        "documentation": {}
+    },
+    {
+        "label": "crypto_I_own",
+        "kind": 5,
+        "importPath": "possible_refactoredmain",
+        "description": "possible_refactoredmain",
+        "peekOfCode": "crypto_I_own = {}\nBUYING_POWER = 0.0\nPERCENTAGE_IN_PLAY = 0.60\npercentage_in_play = PERCENTAGE_IN_PLAY\nthreshold_total_crypto_per_coin = 0.10\nverboseMode = True\nRESET = True\nstop_loss_percent = 0.05\nticking_iterator = 0\nTOTAL_CRYPTO_DOLLARS = 0.0",
+        "detail": "possible_refactoredmain",
+        "documentation": {}
+    },
+    {
+        "label": "BUYING_POWER",
+        "kind": 5,
+        "importPath": "possible_refactoredmain",
+        "description": "possible_refactoredmain",
+        "peekOfCode": "BUYING_POWER = 0.0\nPERCENTAGE_IN_PLAY = 0.60\npercentage_in_play = PERCENTAGE_IN_PLAY\nthreshold_total_crypto_per_coin = 0.10\nverboseMode = True\nRESET = True\nstop_loss_percent = 0.05\nticking_iterator = 0\nTOTAL_CRYPTO_DOLLARS = 0.0\ncoins_list = ['BTC', 'ETH', 'DOGE', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'AVAX', 'XLM', 'BCH', 'XTZ']",
+        "detail": "possible_refactoredmain",
+        "documentation": {}
+    },
+    {
+        "label": "PERCENTAGE_IN_PLAY",
+        "kind": 5,
+        "importPath": "possible_refactoredmain",
+        "description": "possible_refactoredmain",
+        "peekOfCode": "PERCENTAGE_IN_PLAY = 0.60\npercentage_in_play = PERCENTAGE_IN_PLAY\nthreshold_total_crypto_per_coin = 0.10\nverboseMode = True\nRESET = True\nstop_loss_percent = 0.05\nticking_iterator = 0\nTOTAL_CRYPTO_DOLLARS = 0.0\ncoins_list = ['BTC', 'ETH', 'DOGE', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'AVAX', 'XLM', 'BCH', 'XTZ']\n@sleep_and_retry",
+        "detail": "possible_refactoredmain",
+        "documentation": {}
+    },
+    {
+        "label": "percentage_in_play",
+        "kind": 5,
+        "importPath": "possible_refactoredmain",
+        "description": "possible_refactoredmain",
+        "peekOfCode": "percentage_in_play = PERCENTAGE_IN_PLAY\nthreshold_total_crypto_per_coin = 0.10\nverboseMode = True\nRESET = True\nstop_loss_percent = 0.05\nticking_iterator = 0\nTOTAL_CRYPTO_DOLLARS = 0.0\ncoins_list = ['BTC', 'ETH', 'DOGE', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'AVAX', 'XLM', 'BCH', 'XTZ']\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):",
+        "detail": "possible_refactoredmain",
+        "documentation": {}
+    },
+    {
+        "label": "threshold_total_crypto_per_coin",
+        "kind": 5,
+        "importPath": "possible_refactoredmain",
+        "description": "possible_refactoredmain",
+        "peekOfCode": "threshold_total_crypto_per_coin = 0.10\nverboseMode = True\nRESET = True\nstop_loss_percent = 0.05\nticking_iterator = 0\nTOTAL_CRYPTO_DOLLARS = 0.0\ncoins_list = ['BTC', 'ETH', 'DOGE', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'AVAX', 'XLM', 'BCH', 'XTZ']\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"",
+        "detail": "possible_refactoredmain",
+        "documentation": {}
+    },
+    {
+        "label": "verboseMode",
+        "kind": 5,
+        "importPath": "possible_refactoredmain",
+        "description": "possible_refactoredmain",
+        "peekOfCode": "verboseMode = True\nRESET = True\nstop_loss_percent = 0.05\nticking_iterator = 0\nTOTAL_CRYPTO_DOLLARS = 0.0\ncoins_list = ['BTC', 'ETH', 'DOGE', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'AVAX', 'XLM', 'BCH', 'XTZ']\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.",
+        "detail": "possible_refactoredmain",
+        "documentation": {}
+    },
+    {
+        "label": "RESET",
+        "kind": 5,
+        "importPath": "possible_refactoredmain",
+        "description": "possible_refactoredmain",
+        "peekOfCode": "RESET = True\nstop_loss_percent = 0.05\nticking_iterator = 0\nTOTAL_CRYPTO_DOLLARS = 0.0\ncoins_list = ['BTC', 'ETH', 'DOGE', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'AVAX', 'XLM', 'BCH', 'XTZ']\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.\n    :param symbol: Specify the crypto symbol you want to trade",
+        "detail": "possible_refactoredmain",
+        "documentation": {}
+    },
+    {
+        "label": "stop_loss_percent",
+        "kind": 5,
+        "importPath": "possible_refactoredmain",
+        "description": "possible_refactoredmain",
+        "peekOfCode": "stop_loss_percent = 0.05\nticking_iterator = 0\nTOTAL_CRYPTO_DOLLARS = 0.0\ncoins_list = ['BTC', 'ETH', 'DOGE', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'AVAX', 'XLM', 'BCH', 'XTZ']\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.\n    :param symbol: Specify the crypto symbol you want to trade\n    :param quantity_or_price: Determine the amount of crypto to buy or sell",
+        "detail": "possible_refactoredmain",
+        "documentation": {}
+    },
+    {
+        "label": "ticking_iterator",
+        "kind": 5,
+        "importPath": "possible_refactoredmain",
+        "description": "possible_refactoredmain",
+        "peekOfCode": "ticking_iterator = 0\nTOTAL_CRYPTO_DOLLARS = 0.0\ncoins_list = ['BTC', 'ETH', 'DOGE', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'AVAX', 'XLM', 'BCH', 'XTZ']\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.\n    :param symbol: Specify the crypto symbol you want to trade\n    :param quantity_or_price: Determine the amount of crypto to buy or sell\n    :param amount_in: Specify whether the quantity_or_price parameter is in dollars or shares",
+        "detail": "possible_refactoredmain",
+        "documentation": {}
+    },
+    {
+        "label": "TOTAL_CRYPTO_DOLLARS",
+        "kind": 5,
+        "importPath": "possible_refactoredmain",
+        "description": "possible_refactoredmain",
+        "peekOfCode": "TOTAL_CRYPTO_DOLLARS = 0.0\ncoins_list = ['BTC', 'ETH', 'DOGE', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'AVAX', 'XLM', 'BCH', 'XTZ']\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.\n    :param symbol: Specify the crypto symbol you want to trade\n    :param quantity_or_price: Determine the amount of crypto to buy or sell\n    :param amount_in: Specify whether the quantity_or_price parameter is in dollars or shares\n    :param side: Determine whether to buy or sell",
+        "detail": "possible_refactoredmain",
+        "documentation": {}
+    },
+    {
+        "label": "coins_list",
+        "kind": 5,
+        "importPath": "possible_refactoredmain",
+        "description": "possible_refactoredmain",
+        "peekOfCode": "coins_list = ['BTC', 'ETH', 'DOGE', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'AVAX', 'XLM', 'BCH', 'XTZ']\n@sleep_and_retry\ndef order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):\n    \"\"\"\n    The order_crypto function is used to place a buy or sell order for a given crypto currency.\n    :param symbol: Specify the crypto symbol you want to trade\n    :param quantity_or_price: Determine the amount of crypto to buy or sell\n    :param amount_in: Specify whether the quantity_or_price parameter is in dollars or shares\n    :param side: Determine whether to buy or sell\n    :param bp: Set the buying power for a buy order",
+        "detail": "possible_refactoredmain",
         "documentation": {}
     }
 ]
