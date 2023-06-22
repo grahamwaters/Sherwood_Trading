@@ -55,9 +55,13 @@ PERCENTAGE_IN_PLAY = 0.40 # 40% of buying power is in play at any given time
 ticking_iterator = 0 # this is a global variable that is set to the number of times the loop has run
 percentage_in_play = PERCENTAGE_IN_PLAY # % of buying power is in play at any given time
 loop_count = 0
+
 RESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders
+
 stop_loss_percent = 0.05 # 5% stop loss
+
 verboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys
+
 BUYING_POWER = 0.0 #! this is a global variable that is set to your buying power
 TOTAL_CRYPTO_DOLLARS = 0.0 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)
 threshold_total_crypto_per_coin = 0.10 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)
@@ -549,9 +553,11 @@ def signal_engine(df, coin):
     elif current_price == highest_price and rsi > 70:
         sell_signal += 1
     elif current_price == highest_price and rsi < 30:
+        ic()
         buy_signal += 1
     elif current_price == highest_price and macd > 0:
         # this could indicate a buy signal
+        ic()
         buy_signal += 1
     elif current_price == highest_price and macd < 0:
         sell_signal += 1
@@ -585,11 +591,13 @@ def signal_engine(df, coin):
         hold_signal = 1
     # No coin should represent more than 10% of the portfolio
     # if it does then hold on buys while proceeding with sells
-    for coin in crypto_I_own:
-        # await get_crypto_dollars(coin) # this will update the TOTAL_CRYPTO_DOLLARS variable #note: this would be the syntax if this was an async function, instead we will use the global variable
-        TOTAL_CRYPTO_DOLLARS += crypto_I_own[coin] * current_price # this will update the TOTAL_CRYPTO_DOLLARS variable
-        break
-    if TOTAL_CRYPTO_DOLLARS > TOTAL_CRYPTO_DOLLARS * threshold_total_crypto_per_coin: # if the total crypto dollars is greater than 10% of the portfolio
+    #todo - I commented down to line 598 "here" below
+    # for coin in crypto_I_own:
+    #     # await get_crypto_dollars(coin) # this will update the TOTAL_CRYPTO_DOLLARS variable #note: this would be the syntax if this was an async function, instead we will use the global variable
+    #     TOTAL_CRYPTO_DOLLARS += crypto_I_own[coin] * current_price # this will update the TOTAL_CRYPTO_DOLLARS variable
+    #     break
+    # todo--- here
+    # if TOTAL_CRYPTO_DOLLARS > TOTAL_CRYPTO_DOLLARS * threshold_total_crypto_per_coin: # if the total crypto dollars is greater than 10% of the portfolio
         if buy_signal == 1:
             buy_signal = 0
             hold_signal = 1
@@ -915,6 +923,10 @@ def main_looper():
                 time.sleep(1)
 # run the main looper function
 print('Starting main looper function...')
+
+if RESET:
+    time.sleep(120*3)
+
 login_setup()
 
 
