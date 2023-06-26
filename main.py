@@ -61,7 +61,9 @@ RESET = False #! this is a global variable that is set to True if you want to re
 stop_loss_percent = 0.05 # 5% stop loss
 
 verboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys
-
+# Set the maximum percentage of the portfolio that can be invested in a single currency
+MAX_INVESTMENT_PER_CURRENCY = 0.1  # 10%
+PLAYING_WITH = 0.80 # 80% of buying power is in play at any given time
 BUYING_POWER = 0.0 #! this is a global variable that is set to your buying power
 TOTAL_CRYPTO_DOLLARS = 0.0 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)
 threshold_total_crypto_per_coin = 0.10 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)
@@ -81,6 +83,7 @@ def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=
     """
     #ic()
     global BUYING_POWER
+
     if symbol is None:
         return
     symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()
@@ -129,7 +132,10 @@ def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=
         if verboseMode:
             print(Fore.GREEN + f'Buy order at ${quantity_or_price} of {symbol}' + Fore.RESET)
         pass
+    # After every transaction, check the balance of the portfolio
+    check_portfolio_balance()
     return
+
 def login_setup():
     """
     The login_setup function is used to log into the Robinhood API and return a dataframe of account details.
@@ -252,6 +258,28 @@ async def log_file_size_checker():
                 with open('logs/robinhood.log', 'w') as f:
                     f.writelines(lines[num_lines_to_remove:])
         await asyncio.sleep(1200)
+
+
+def check_portfolio_balance():
+    global crypto_I_own
+    global BUYING_POWER
+
+    # Calculate the total value of the portfolio
+    total_portfolio_value = sum(crypto_I_own.values()) + BUYING_POWER
+
+    # Check each currency's holdings
+    for coin, holdings in crypto_I_own.items():
+        # Calculate the value of the holdings for this currency
+        holdings_value = holdings * get_current_price(coin)
+
+        # If the value of this currency's holdings is more than the maximum allowed percentage of the total portfolio value
+        if holdings_value > total_portfolio_value * MAX_INVESTMENT_PER_CURRENCY:
+            # Calculate the amount of this currency that needs to be sold
+            amount_to_sell = (holdings_value - total_portfolio_value * MAX_INVESTMENT_PER_CURRENCY) / get_current_price(coin)
+
+            # Sell the necessary amount of this currency
+            order_crypto(symbol=coin, quantity_or_price=amount_to_sell, amount_in='amount', side='sell', bp=BUYING_POWER, timeInForce='gtc')
+
 
 @sleep_and_retry
 def get_account():
@@ -865,15 +893,16 @@ async def check_stop_loss_prices():
 # async function to check buying power every 3 minutes
 @sleep_and_retry
 async def update_buying_power():
-    ic()
+    global BUYING_POWER
     global crypto_I_own
     global tracking_dict
+    global PLAYING_WITH
     #& new method of stop loss
     #crypto_I_own = tracking_dict
 
     while True:
         account_details_df = pd.DataFrame(await asyncio.to_thread(r.profiles.load_account_profile, info=None), index=[0])
-        BUYING_POWER = float(account_details_df['onbp'])
+        BUYING_POWER = float(account_details_df['onbp']) * float(PLAYING_WITH)
         # remember to only use the percentage_in_play of the buying power to buy crypto
         if BUYING_POWER > 1.00:
             BUYING_POWER = BUYING_POWER * PERCENTAGE_IN_PLAY
