@@ -19,8 +19,7 @@ The bot uses three main functions to carry out its operations:
 After every transaction, the bot checks the balance of the portfolio and adjusts it if necessary to ensure that no more than a certain percentage of the portfolio is invested in a single currency.
 
 
-![image_of_profits](Screenshot 2023-06-27 at 3.36.18 PM.png)
-
+![image_of_profits](Screenshot_2023-06-27_at_3.36.18_PM.png)
 
 
 ## Installation and Usage
