@@ -1,32 +1,22 @@
-from finta import TA
-from colorama import Fore, Back, Style
-from datetime import datetime, timedelta
-import datetime
-import matplotlib.pyplot as plt, pandas as pd, numpy as np
-import logging, traceback, json, time, csv, os
-from robin_stocks import robinhood as r
+import asyncio
+import json
+import logging
+import os
+import random
 import statistics
-# import icecream
+import time
+import traceback
+from datetime import datetime
+
+import pandas as pd
+from colorama import Back, Fore, Style
+from finta import TA
 from icecream import ic
 from pytz import timezone
+from ratelimit import sleep_and_retry
+from robin_stocks import robinhood as r
 from tqdm import tqdm
-import random
-import os
-from time import sleep
-from ratelimit import limits, sleep_and_retry
-import asyncio
-from concurrent.futures import ThreadPoolExecutor
-from tqdm import tqdm
-from datetime import datetime
-from pytz import timezone
-from colorama import Fore, Back, Style
-#! ##############################
-#! ASYNC FUNCTIONS
-#! ##############################
-import asyncio
-from tqdm import tqdm
-from datetime import datetime
-from pytz import timezone
+
 # float(stop_loss_percent) = 0.05 # 5% stop loss #! this is a global variable that is set to the percent of the stop loss
 verboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys
 tracking_dict = {
@@ -45,9 +35,10 @@ current_prices_dict = {}
 signals_dict = {}
 minimum_orders_coins = {}
 import ast
-import re
-import pandas as pd
 import asyncio
+
+import pandas as pd
+
 PERCENTAGE_IN_PLAY = 0.40 # 40% of buying power is in play at any given time
 ticking_iterator = 0 # this is a global variable that is set to the number of times the loop has run
 percentage_in_play = PERCENTAGE_IN_PLAY # % of buying power is in play at any given time
