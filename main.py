@@ -275,8 +275,8 @@ def check_portfolio_balance():
         # If the value of this currency's holdings is more than the maximum allowed percentage of the total portfolio value
         if holdings_value > total_portfolio_value * MAX_INVESTMENT_PER_CURRENCY:
             # Calculate the amount of this currency that needs to be sold
-            amount_to_sell = (holdings_value - total_portfolio_value * MAX_INVESTMENT_PER_CURRENCY) / get_current_price(coin)
-
+            amount_to_sell = (holdings_value - total_portfolio_value * MAX_INVESTMENT_PER_CURRENCY) / float(r.crypto.get_crypto_quote(str(coin))['mark_price'])
+            print(f'Selling {amount_to_sell} {coin} to rebalance portfolio...')
             # Sell the necessary amount of this currency
             order_crypto(symbol=coin, quantity_or_price=amount_to_sell, amount_in='amount', side='sell', bp=BUYING_POWER, timeInForce='gtc')
 
