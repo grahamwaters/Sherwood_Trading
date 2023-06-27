@@ -259,16 +259,17 @@ async def log_file_size_checker():
                     f.writelines(lines[num_lines_to_remove:])
         await asyncio.sleep(1200)
 
-
+@sleep_and_retry
 def check_portfolio_balance():
     global crypto_I_own
     global BUYING_POWER
-    curpr = float(r.crypto.get_crypto_quote(str(coin))['mark_price'])
+
     # Calculate the total value of the portfolio
     total_portfolio_value = sum(crypto_I_own.values()) + BUYING_POWER
 
     # Check each currency's holdings
     for coin, holdings in crypto_I_own.items():
+        curpr = float(r.crypto.get_crypto_quote(str(coin))['mark_price'])
         # Calculate the value of the holdings for this currency
         holdings_value = holdings * curpr
 
