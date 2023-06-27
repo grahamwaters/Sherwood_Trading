@@ -263,19 +263,19 @@ async def log_file_size_checker():
 def check_portfolio_balance():
     global crypto_I_own
     global BUYING_POWER
-
+    curpr = float(r.crypto.get_crypto_quote(str(coin))['mark_price'])
     # Calculate the total value of the portfolio
     total_portfolio_value = sum(crypto_I_own.values()) + BUYING_POWER
 
     # Check each currency's holdings
     for coin, holdings in crypto_I_own.items():
         # Calculate the value of the holdings for this currency
-        holdings_value = holdings * get_current_price(coin)
+        holdings_value = holdings * curpr
 
         # If the value of this currency's holdings is more than the maximum allowed percentage of the total portfolio value
         if holdings_value > total_portfolio_value * MAX_INVESTMENT_PER_CURRENCY:
             # Calculate the amount of this currency that needs to be sold
-            amount_to_sell = (holdings_value - total_portfolio_value * MAX_INVESTMENT_PER_CURRENCY) / float(r.crypto.get_crypto_quote(str(coin))['mark_price'])
+            amount_to_sell = (holdings_value - total_portfolio_value * MAX_INVESTMENT_PER_CURRENCY) / curpr
             print(f'Selling {amount_to_sell} {coin} to rebalance portfolio...')
             # Sell the necessary amount of this currency
             order_crypto(symbol=coin, quantity_or_price=amount_to_sell, amount_in='amount', side='sell', bp=BUYING_POWER, timeInForce='gtc')
