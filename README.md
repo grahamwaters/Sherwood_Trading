@@ -1,7 +1,3 @@
-Sure, here's a draft for the README of your project:
-
----
-
 # Sherwood Trading Crypto Bot
 
 Sherwood Trading is a cryptocurrency trading bot designed to automate the process of buying and selling cryptocurrencies based on predefined rules and strategies. The bot is built with Python and uses the Robin Stocks API for executing trades.
