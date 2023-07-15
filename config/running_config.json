@@ -16,9 +16,13 @@
         "BCH",
         "XTZ"
     ],
-    "stop_loss_percentage": 0.05,
+    "stop_loss_percent": 0.05,
+    "stop_loss_prices": {
+        "BTC": 0,
+        "ETH": 0
+    },
     "take_profit_percentage": 0.15,
-    "buying_power": 101.25,
+    "buying_power": 100.87,
     "reset_mode": false,
     "verbose_mode": true,
     "trading_mode": "real",

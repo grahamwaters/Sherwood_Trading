@@ -38,7 +38,7 @@ from tqdm import tqdm
         "BCH",
         "XTZ"
     ],
-    "stop_loss_percentage": 0.05,
+    "stop_loss_percent": 0.05,
     "take_profit_percentage": 0.15,
     "buying_power": 101.25,
     "reset_mode": false,
@@ -272,7 +272,7 @@ class Trader:
             except Exception as e:
                 self.available_coins = 0
                 logging.error(f"Unable to get available coins... {e}")
-            self.stop_loss_percentage = float(config["stop_loss_percentage"])
+            self.stop_loss_percent = float(config["stop_loss_percent"])
             self.buying_power = float(config["buying_power"])
             self.take_profit_percentage = float(config["take_profit_percentage"])
             self.percent_to_use = float(
@@ -340,7 +340,7 @@ class Trader:
                     )
                     stop_loss_price = float(
                         position["cost_bases"][0]["direct_cost_basis"]
-                    ) * (1 - self.stop_loss_percentage)
+                    ) * (1 - self.stop_loss_percent)
                     if current_price <= stop_loss_price:
                         r.order_sell_crypto_limit(
                             position["currency"]["code"],
@@ -405,19 +405,19 @@ class Trader:
         except Exception as e:
             self.logger.error(f"Unable to update take profit percentage... {e}")
 
-    def update_stop_loss_percentage(self):
+    def update_stop_loss_percent(self):
         """
-        The update_stop_loss_percentage function updates the stop loss percentage from the Robinhood account and saves it to the `running_config.json` file in the `config` directory.
+        The update_stop_loss_percent function updates the stop loss percentage from the Robinhood account and saves it to the `running_config.json` file in the `config` directory.
         :return: None
         :doc-author: Trelent
         """
         try:
-            self.stop_loss_percentage = float(
+            self.stop_loss_percent = float(
                 r.load_account_profile()["crypto_max_liquidation_price_multiplier"]
             )
             with open("config/running_config.json", "r") as f:
                 config = json.load(f)
-                config["stop_loss_percentage"] = self.stop_loss_percentage
+                config["stop_loss_percent"] = self.stop_loss_percent
             with open("config/running_config.json", "w") as f:
                 json.dump(config, f, indent=4)
         except Exception as e:
@@ -472,7 +472,7 @@ class Trader:
                 ]  # this is the purchase price for this lot of coins
                 # stop loss price
                 df["stop_loss_price"] = df["purchase_price"] * (
-                    1 - self.stop_loss_percentage
+                    1 - self.stop_loss_percent
                 )  # this is the stop loss price for this lot of coins, which is the purchase price * (1 - stop loss percentage)
                 # take profit price (take_profit_percentage)
                 df["take_profit_price"] = df["purchase_price"] * (
@@ -767,12 +767,12 @@ class Utility:
             return False
 
     async def check_config(self):
-        # check the `running_config.json` file in the `config` directory and return the values for the available coins, the stop loss percentage, and buying power, as well as the percent_to_use and stop_loss_percentage which are generated in the Trader Class when it is initialized. They can be found in the config file though, at any time.
+        # check the `running_config.json` file in the `config` directory and return the values for the available coins, the stop loss percentage, and buying power, as well as the percent_to_use and stop_loss_percent which are generated in the Trader Class when it is initialized. They can be found in the config file though, at any time.
         with open("config/running_config.json", "r") as f:
             config = json.load(f)
             return (
                 config["available_coins"],
-                config["stop_loss_percentage"],
+                config["stop_loss_percent"],
                 config["buying_power"],
                 config["percent_to_use"],
             )
@@ -863,13 +863,13 @@ class Looper:
         """
         self.trader.buying_power = buying_power
 
-    def set_stop_loss_percentage(self, stop_loss_percentage):
+    def set_stop_loss_percent(self, stop_loss_percent):
         """
-        The set_stop_loss_percentage function sets the stop loss percentage for the Trader class.
-        :param stop_loss_percentage: The stop loss percentage to set
+        The set_stop_loss_percent function sets the stop loss percentage for the Trader class.
+        :param stop_loss_percent: The stop loss percentage to set
         :doc-author: Trelent
         """
-        self.trader.stop_loss_percentage = stop_loss_percentage
+        self.trader.stop_loss_percent = stop_loss_percent
 
 
 # now asyncronously begin the program
