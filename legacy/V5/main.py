@@ -259,10 +259,10 @@ def get_crypto_positions_in_account():
 
 
 
-def brain_module():
+def calculate_ta_indicators():
     """
-    The brain_module function is the main function that calls all of the other functions.
-    It will call robin_getter to get data from Robinhood, then it will call signal_engine to calculate signals for each coin, and finally it will call action_engine which takes actions based on those signals.
+    The calculate_ta_indicators function is the main function that calls all of the other functions.
+    It will call robin_getter to get data from Robinhood, then it will call signal_engine to calculate signals for each coin, and finally it will call trading_function which takes actions based on those signals.
 
     :return: The following:
     :doc-author: Trelent
@@ -374,7 +374,7 @@ def brain_module():
         logging.info('  Calculating signals for {}...'.format(coin))
         buy_signal, sell_signal, hold_signal = signal_engine(df, coin)
         signals_dict[coin] = [buy_signal, sell_signal, hold_signal]
-    # this is where we will call the action_engine
+    # this is where we will call the trading_function
     for coin in tqdm(coins_list):
         if coin == 'DOGE':
             continue
@@ -579,9 +579,9 @@ def signal_engine(df, coin):
 
     return buy_signal, sell_signal, hold_signal
 
-def action_engine():
+def trading_function():
     """
-    The action_engine function is the main function that executes all of the buys and sells.
+    The trading_function function is the main function that executes all of the buys and sells.
     It uses order_crypto() to execute the buys and sells.
     It always buys with 1% of current buying power (amount_in='dollars').
     It always sells with 100% of current position (amount_in='amount').
@@ -698,9 +698,9 @@ if __name__ == '__main__':
     login_setup()
     while True:
         # run brain module
-        brain_module()
+        calculate_ta_indicators()
         # run action engine
-        action_engine()
+        trading_function()
         # run record keeping engine
         #record_keeping_engine(coin, cost, quantity, side, current_price, buy_signal, sell_signal, hold_signal)
 

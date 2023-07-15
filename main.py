@@ -16,6 +16,9 @@ from pytz import timezone
 from ratelimit import sleep_and_retry
 from robin_stocks import robinhood as r
 from tqdm import tqdm
+import ast
+import asyncio
+import pandas as pd
 
 # float(stop_loss_percent) = 0.05 # 5% stop loss #! this is a global variable that is set to the percent of the stop loss
 verboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys
@@ -34,27 +37,22 @@ tracking_dict = {
 current_prices_dict = {}
 signals_dict = {}
 minimum_orders_coins = {}
-import ast
-import asyncio
-
-import pandas as pd
-
 PERCENTAGE_IN_PLAY = 0.40 # 40% of buying power is in play at any given time
 ticking_iterator = 0 # this is a global variable that is set to the number of times the loop has run
 percentage_in_play = PERCENTAGE_IN_PLAY # % of buying power is in play at any given time
 loop_count = 0
-RESET = False #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders
+RESET = True #! this is a global variable that is set to True if you want to reset your account and sell all positions and cancel all orders
 stop_loss_percent = 0.05 # 5% stop loss
 verboseMode = True #! this is a global variable that is set to True if you want to see all the print statements for sells and buys
 # Set the maximum percentage of the portfolio that can be invested in a single currency
 MAX_INVESTMENT_PER_CURRENCY = 0.1  # 10%
-PLAYING_WITH = 0.80 # 80% of buying power is in play at any given time
+PLAYING_WITH = 0.50 # 80% of buying power is in play at any given time
 BUYING_POWER = 0.0 #! this is a global variable that is set to your buying power
 TOTAL_CRYPTO_DOLLARS = 0.0 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)
 threshold_total_crypto_per_coin = 0.10 #! this is a global variable that is set to the total dollars you have in crypto (INVESTED)
 crypto_I_own = {} #! this is a global variable that is set to the coins you own
 @sleep_and_retry
-def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):
+def order_crypto(symbol, quantity_or_price, order_type='market', amount_in='dollars', side='buy', bp=None, timeInForce='gtc'):
     """
     The order_crypto function is used to place a buy or sell order for a given crypto currency.
     :param symbol: Specify the crypto symbol you want to trade
@@ -68,6 +66,10 @@ def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=
     """
     #ic()
     global BUYING_POWER
+
+    BUYING_POWER = PERCENTAGE_IN_PLAY * float(r.profiles.load_account_profile()['buying_power']) # set the buying power to 40% of the total buying power
+    bp = BUYING_POWER # set the buying power to 40% of the total buying power
+
     if symbol is None:
         return
     symbol = symbol.upper() if type(symbol) == str else str(symbol).upper()
@@ -75,11 +77,15 @@ def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=
     try:
         amount_in = amount_in.lower() if side == 'sell' else 'dollars'
         timeInForce = timeInForce.lower()
-    except Exception as e:
+    except Exception as ef:
         amount_in = float(amount_in)
         timeInForce = 'gtc'
+        ic()
+        print(Fore.RED + f'Error: {ef}' + Fore.RESET)
     #print(Fore.GREEN + f'{side} {quantity_or_price} {symbol}...' + Fore.RESET)
+    #^ The section below identifies the amount of buying power to use for the order, quantity_or_price, and the minimum order amount. If the quantity_or_price is greater than the buying power then the order is skipped.
     if side == 'buy':
+        # ic()
         profile = r.profiles.load_account_profile()
         os.environ['PROFILE'] = str(profile) # set an env variable for the profile
         if bp is None:
@@ -92,28 +98,23 @@ def order_crypto(symbol, quantity_or_price, amount_in='dollars', side='buy', bp=
             if verboseMode:
                 print(Fore.RED + f'Not enough buying power to buy {quantity_or_price} {symbol}...' + Fore.RESET)
             return
+        #^ else we have enough buying power to buy the quantity_or_price
+        # buy the quantity_or_price
+        r.orders.order_buy_crypto_by_price(symbol, quantity_or_price, timeInForce=timeInForce)
+        if verboseMode:
+            print(Fore.GREEN + f'Buying {quantity_or_price} {symbol}...' + Fore.RESET)
         time.sleep(random.randint(1, 3))
-        #print(f'Set quantity_or_price to {quantity_or_price} {symbol}...')
-        #print(f'Quantity_or_price is {quantity_or_price} {symbol}...')
-        #print(f'Buying power is {bp}...')
-        #print(f'Minimum order amount is {minimum_orders_coins.get(symbol, float("inf"))} {symbol}...')
-    try:
-        #print(f'Attempting a {side} order of {quantity_or_price} {symbol}...')
-        r.orders.order_crypto(symbol=str(symbol), quantityOrPrice=quantity_or_price, amountIn=amount_in, side=side, timeInForce='gtc', jsonify=True)
-        time.sleep(random.randint(1, 3))
-        #print(f'{side.capitalize()}ing {quantity_or_price} {symbol}...')
-        #print(Fore.GREEN + f'Passed try statement in order! {side}' + Fore.RESET)
-    except Exception as e:
-        print(Fore.RED + f'Failed try statement in order! {side} because \n{e}' + Fore.RESET)
+    #^ The code should reach this point if the order is a sell order
     if side == 'sell':
+        current_price = float(r.crypto.get_crypto_quote(symbol)['mark_price'])
         if verboseMode:
-            current_price = float(r.crypto.get_crypto_quote(symbol)['mark_price'])
             print(Fore.RED + f'Sell order for {quantity_or_price} {symbol} worth ${quantity_or_price*current_price}' + Fore.RESET)
-        pass
+        # sell the quantity_or_price
+        r.orders.order_sell_crypto_by_quantity(symbol, quantity_or_price, timeInForce=timeInForce)
+        time.sleep(random.randint(1, 3))
     else:
-        if verboseMode:
-            print(Fore.GREEN + f'Buy order at ${quantity_or_price} of {symbol}' + Fore.RESET)
-        pass
+        ic()
+
     # After every transaction, check the balance of the portfolio
     check_portfolio_balance()
     return
@@ -198,22 +199,32 @@ def resetter():
     :return: A boolean value
     :doc-author: Trelent
     """
+    #todo -- only happens when we are RESET = True and we have a position in crypto
     if RESET:
+        print(Fore.RED + "Resetting the portfolio..." + Fore.RESET)
         # sell all positions of crypto
         crypto_positions = r.crypto.get_crypto_positions()
         for position in crypto_positions:
-            symbol = position['currency']['code']
-            quantity = float(position['quantity_available'])
+            symbol = str(position['currency']['code'])
+            quantity = float(position['quantity_available']) * 0.80  # sell 80% of the position
+            if quantity < 0.0001:
+                continue
+            print(f'Selling {quantity} of {symbol}...')
             order_crypto(symbol,
                         amount_in='quantity',
                         quantity_or_price=quantity,
                         side='sell')
         # delete all buy orders
         orders = r.orders.get_all_open_crypto_orders()
-        for order in orders:
+        total_orders = len(orders)
+        for order in tqdm(orders, total=total_orders):
+            print('|', end = '')
+            #  print(f'Cancelling buy order {order["id"]}...')
             if order['side'] == 'buy':
                 r.orders.cancel_crypto_order(order['id'])
                 print(f'Cancelled buy order {order["id"]}...')
+
+    time.sleep(60*5) # wait 5 minutes
 # make an async function that checks the size of the log file and removes lines from the start of the file to maintain a rolling log of 1000 lines
 async def log_file_size_checker():
     """
@@ -234,22 +245,31 @@ async def log_file_size_checker():
         await asyncio.sleep(1200)
 @sleep_and_retry
 def check_portfolio_balance():
+    """
+    The check_portfolio_balance function is used to rebalance the portfolio.
+    It does this by checking each currency's holdings and selling any that are over the maximum allowed percentage of the total portfolio value.
+
+    :return: The total value of the portfolio
+    :doc-author: Trelent
+    """
+    selling_to_balance = False #todo - hacks
     global crypto_I_own
     global BUYING_POWER
     # Calculate the total value of the portfolio
     total_portfolio_value = sum(crypto_I_own.values()) + BUYING_POWER
     # Check each currency's holdings
-    for coin, holdings in crypto_I_own.items():
-        curpr = float(r.crypto.get_crypto_quote(str(coin))['mark_price'])
-        # Calculate the value of the holdings for this currency
-        holdings_value = holdings * curpr
-        # If the value of this currency's holdings is more than the maximum allowed percentage of the total portfolio value
-        if holdings_value > total_portfolio_value * MAX_INVESTMENT_PER_CURRENCY:
-            # Calculate the amount of this currency that needs to be sold
-            amount_to_sell = (holdings_value - total_portfolio_value * MAX_INVESTMENT_PER_CURRENCY) / curpr
-            print(f'Selling {amount_to_sell} {coin} to rebalance portfolio...')
-            # Sell the necessary amount of this currency
-            order_crypto(symbol=coin, quantity_or_price=amount_to_sell, amount_in='amount', side='sell', bp=BUYING_POWER, timeInForce='gtc')
+    if selling_to_balance:
+        for coin, holdings in crypto_I_own.items():
+            curpr = float(r.crypto.get_crypto_quote(str(coin))['mark_price'])
+            # Calculate the value of the holdings for this currency
+            holdings_value = holdings * curpr
+            # If the value of this currency's holdings is more than the maximum allowed percentage of the total portfolio value
+            if holdings_value > total_portfolio_value * MAX_INVESTMENT_PER_CURRENCY:
+                # Calculate the amount of this currency that needs to be sold
+                amount_to_sell = (holdings_value - total_portfolio_value * MAX_INVESTMENT_PER_CURRENCY) / curpr
+                print(f'Selling {amount_to_sell} {coin} to rebalance portfolio...')
+                # Sell the necessary amount of this currency
+                order_crypto(symbol=coin, quantity_or_price=amount_to_sell, amount_in='amount', side='sell', bp=BUYING_POWER, timeInForce='gtc')
 @sleep_and_retry
 def get_account():
     """
@@ -260,9 +280,9 @@ def get_account():
     #ic()
     account = r.profiles.load_account_profile(info=None)
     return account
-def brain_module():
+def calculate_ta_indicators():
     """
-    The brain_module function is the main function of this module. It does the following:
+    The calculate_ta_indicators function is the main function of this module. It does the following:
         1. Gets a list of coins to trade from `coins_list` variable
         2. Gets the minimum order amount for each coin in `coins_list` and saves it as a csv file called 'data/minimum_orders_coins'
         3. For each coin in `coins_list`, gets its historical data, price, and whether or not it's available on Robinhood (i.e., if you can buy/sell it)
@@ -602,11 +622,11 @@ def signal_engine(df, coin):
     #todo -- implement the deltaR strategy (check your ScanThing Files)
     return buy_signal, sell_signal, hold_signal
 @sleep_and_retry
-def action_engine():
+def trading_function():
     """
-    The action_engine function is the main function that executes orders based on signals.
+    The trading_function function is the main function that executes orders based on signals.
     It takes in a dictionary of coin symbols and their corresponding buy, sell, or hold signal.
-    The action_engine function then iterates through each coin symbol in the dictionary and
+    The trading_function function then iterates through each coin symbol in the dictionary and
     executes an order if it meets certain criteria:
     :return: A dictionary of the form:
     :doc-author: Trelent
@@ -746,8 +766,8 @@ async def main():
         print(Fore.YELLOW + 'Cancelling all outstanding orders...' + Fore.RESET)
         print(Fore.YELLOW + 'sleeping for 30 seconds...' + Fore.RESET)
         time.sleep(30)
-        await asyncio.to_thread(brain_module) # update signals
-        await asyncio.to_thread(action_engine) # execute orders
+        await asyncio.to_thread(calculate_ta_indicators) # update signals
+        await asyncio.to_thread(trading_function) # execute orders
         if loop_count % 20 == 0:
             # print our buying power, and profit since our start date
             print(f'BUYING_POWER: ${BUYING_POWER}')
@@ -862,6 +882,17 @@ async def update_buying_power():
         await asyncio.sleep(180) # sleep for 3 minutes
 # run the asynchronous functions to run the main function and the update BUYING_POWER function simultaneously
 async def run_async_functions(loop_count, BUYING_POWER):
+    """
+    The run_async_functions function is the main function that runs all of the other functions.
+    It will run them simultaneously, and it will also keep track of how many times it has looped.
+    The loop_count variable is used to determine when to update buying power, which happens every 10 loops.
+
+    :param loop_count: Keep track of how many times the loop has run
+    :param BUYING_POWER: Determine how much money to spend on each trade
+    :return: A coroutine object
+    :doc-author: Trelent
+    """
+
     ic()
     loop_count += 1
     # gather will run the functions simultaneously
@@ -872,7 +903,7 @@ async def run_async_functions(loop_count, BUYING_POWER):
 def main_looper():
     while True:
         ic()
-        loop_count = 0
+        loop_count_main = 0
         start_date = datetime.now(timezone('US/Central'))
         BUYING_POWER = 0
         starting_equity = BUYING_POWER
@@ -882,8 +913,8 @@ def main_looper():
             BUYING_POWER - starting_equity) + Style.RESET_ALL)
         try:
             asyncio.run(run_async_functions(loop_count, BUYING_POWER))
-        except Exception as e:
-            raise e
+        except Exception as ee:
+            raise ee
         while True:
             if loop_count % 20 == 0:
                 # print our buying power, and profit since our start date
@@ -896,84 +927,38 @@ def main_looper():
             print('Sleeping for 5 minutes...')
             for i in tqdm(range(300)):
                 time.sleep(1)
-# run the main looper function
-print('Starting main looper function...')
-if RESET:
-    time.sleep(120*3)
-login_setup()
-#& Stocks Functions
-#& Stock function one: buy one dollar of one of the top ten moving stocks of the day
-def stock_function_one():
+
+def main():
+    """
+    The main function is the main looper function. It will run every hour, and it will do the following:
+        1) Check if there are any open orders that need to be cancelled
+        2) Check if there are any positions that need to be sold (if we're in a sell state)
+        3) If we're in a buy state, check for new stocks to buy based on our criteria
+
+    :return: The main function
+    :doc-author: Trelent
+    """
+
     global BUYING_POWER
-    global stock_I_own
-    global stock_dict
-    global day_trade_count
-    global day_trade_limit
-    # get the top ten moving stocks of the day
-    top_ten_movers = r.get_top_movers('up')
-    # get the top ten stocks of the day
-    top_ten_stocks = top_ten_movers['results']
-    # get the top ten stocks of the day as a list
-    top_ten_stocks_list = [stock['symbol'] for stock in top_ten_stocks]
-    # get the top ten stocks of the day as a string
-    top_ten_stocks_string = ', '.join(top_ten_stocks_list)
-    # get the top ten stocks of the day as a dataframe
-    top_ten_stocks_df = pd.DataFrame(top_ten_stocks)
-    # get the top ten stocks of the day as a dataframe
-    top_ten_stocks_df = top_ten_stocks_df.set_index('symbol')
-    # get the top ten stocks of the day as a dataframe
-    top_ten_stocks_df = top_ten_stocks_df[['description', 'last_trade_price', 'last_extended_hours_trade_price', 'previous_close']]
-    # get the top ten stocks of the day as a dataframe
-    top_ten_stocks_df = top_ten_stocks_df.rename(columns={'description': 'name', 'last_trade_price': 'current_price', 'last_extended_hours_trade_price': 'after_hours_price', 'previous_close': 'previous_close_price'})
-    # now we have a dataframe of the top ten stocks of the day
-    # we can randomly pick one of these stocks to buy
-    # we want to buy a fractional share of one of these stocks valued at 1 dollar
-    # we can use the BUYING_POWER variable to determine how much of a fractional share we can buy
-    if BUYING_POWER > 2.00:
-        stock_spend = 1.05
-    else:
-        return
-    # randomly pick one of the top ten stocks of the day
-    stock_to_buy = random.choice(top_ten_stocks_list)
-    # get the current price of the stock
-    stock_price = top_ten_stocks_df.loc[stock_to_buy]['current_price']
-    # make a market buy order for the stock
-    try:
-        r.orders.order_buy_fractional_by_price(stock_to_buy, stock_spend)
-        # add the stock to the stock_I_own dictionary
-        stock_I_own[stock_to_buy] = stock_spend
-        # subtract the stock_spend from the BUYING_POWER
-        BUYING_POWER -= stock_spend
-        # log the purchase
-        logging.info(f'Purchased {stock_spend} of {stock_to_buy} at {stock_price}')
-        # print the purchase
-        print(f'Purchased {stock_spend} of {stock_to_buy} at {stock_price}')
-        day_trade_count += 1
-        # create a stop loss order for the stock at 1% below the current price
-        # get the current price of the stock
-        stock_price = top_ten_stocks_df.loc[stock_to_buy]['current_price']
-        # create a stop loss order for the stock at 5% below the current price
-        stop_loss_price = stock_price * 0.95
-        # create a stop loss order for the stock at 1% below the current price
-        r.orders.order_sell_stop_loss(stock_to_buy, stock_spend, stop_loss_price)
-        # log the stop loss order
-        logging.info(f'Stop loss order for {stock_to_buy} at {stop_loss_price}')
-        # print the stop loss order
-        print(f'Stop loss order for {stock_to_buy} at {stop_loss_price}')
-    except Exception as e:
-        logging.error(e)
-        print(e)
-if RESET:
-    areyousure = print(Fore.RED + 'warning destructive action, are you sure? Will commence in 10 seconds...' + Style.RESET_ALL)
-    time.sleep(10)
-    resetter()
-    time.sleep(120)
-try:
-    # login to robinhood
-    print(f'Logging in to Robinhood... and beginning main looper function...')
-    main_looper()
-except Exception as e:
-    # sleep 60 minutes if there's an error
-    time.sleep(3600)
-    # log the error
-    logging.error(e)
+    # run the main looper function
+    print('Starting main looper function...')
+    login_setup()
+    if RESET:
+        areyousure = print(Fore.RED + 'warning destructive action, are you sure? Will commence in 10 seconds...' + Style.RESET_ALL)
+        time.sleep(10)
+        resetter()
+        time.sleep(120)
+
+    while True:
+        try:
+            # login to robinhood
+            print(f'Logging in to Robinhood... and beginning main looper function...')
+            main_looper()
+        except Exception as e:
+            # sleep 60 minutes if there's an error
+            time.sleep(3600)
+            # log the error
+            logging.error(e)
+
+if __name__ == '__main__':
+    main()

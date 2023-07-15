@@ -144,9 +144,9 @@ async def get_account():
     account = await asyncio.to_thread(r.profiles.load_account_profile, info=None)
     return account
 
-async def brain_module():
+async def calculate_ta_indicators():
     """
-    The brain_module function is the main function of this program. It does the following:
+    The calculate_ta_indicators function is the main function of this program. It does the following:
         1) Gets a list of coins to trade from an env variable called COINS_LIST
         2) Gets a dictionary of crypto I own from an env variable called CRYPTO_I_OWN
         3) Creates a dataframe with columns for each coin in COINS_LIST and rows for each coin in CRYPTO_I OWN,
@@ -349,7 +349,7 @@ async def main():
     BUYING_POWER = float(new_func(account_details_df))
     print(Fore.GREEN + 'Buying Power: $' + '{:,.2f}'.format(BUYING_POWER) + Fore.RESET)
 
-    signals_dict = await brain_module()
+    signals_dict = await calculate_ta_indicators()
 
     for coin, signals in signals_dict.items():
         if signals['buy_signal']:

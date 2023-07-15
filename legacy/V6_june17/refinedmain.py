@@ -198,9 +198,9 @@ def get_account():
     """
     account = r.profiles.load_account_profile(info=None)
     return account
-def brain_module():
+def calculate_ta_indicators():
     """
-    The brain_module function is the main function of this module. It does the following:
+    The calculate_ta_indicators function is the main function of this module. It does the following:
         1. Gets a list of coins to trade from `coins_list` variable
         2. Gets the minimum order amount for each coin in `coins_list` and saves it as a csv file called 'data/minimum_orders_coins'
         3. For each coin in `coins_list`, gets its historical data, price, and whether or not it's available on Robinhood (i.e., if you can buy/sell it)
@@ -457,11 +457,11 @@ def signal_engine(df, coin):
             hold_signal = 0
             buy_signal = 0
     return buy_signal, sell_signal, hold_signal
-def action_engine():
+def trading_function():
     """
-    The action_engine function is the main function that executes orders based on signals.
+    The trading_function function is the main function that executes orders based on signals.
     It takes in a dictionary of coin symbols and their corresponding buy, sell, or hold signal.
-    The action_engine function then iterates through each coin symbol in the dictionary and
+    The trading_function function then iterates through each coin symbol in the dictionary and
     executes an order if it meets certain criteria:
     :return: A dictionary of the form:
     :doc-author: Trelent
@@ -575,8 +575,8 @@ async def main():
         print(Fore.YELLOW + 'Cancelling all outstanding orders...' + Fore.RESET)
         print(Fore.YELLOW + 'sleeping for 30 seconds...' + Fore.RESET)
         time.sleep(30)
-        await asyncio.to_thread(brain_module)
-        await asyncio.to_thread(action_engine)
+        await asyncio.to_thread(calculate_ta_indicators)
+        await asyncio.to_thread(trading_function)
         if loop_count % 20 == 0:
             print(f'BUYING_POWER: ${BUYING_POWER}')
             print(f'Profit: {BUYING_POWER - starting_equity}')

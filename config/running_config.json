@@ -1,0 +1,31 @@
+{
+    "available_coins": [
+        "BTC",
+        "ETH",
+        "DOGE",
+        "SHIB",
+        "ETC",
+        "UNI",
+        "AAVE",
+        "LTC",
+        "LINK",
+        "COMP",
+        "USDC",
+        "AVAX",
+        "XLM",
+        "BCH",
+        "XTZ"
+    ],
+    "stop_loss_percentage": 0.05,
+    "take_profit_percentage": 0.15,
+    "buying_power": 101.25,
+    "reset_mode": false,
+    "verbose_mode": true,
+    "trading_mode": "real",
+    "trading_fee": 0.0,
+    "play_with_pct": 0.4,
+    "coin_momentums": {
+        "BTC": 0,
+        "ETH": 0
+    }
+}
