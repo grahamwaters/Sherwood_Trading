@@ -84,7 +84,7 @@ async def get_crypto_positions_in_account():
         crypto_positions_dict[coin['currency']['code']] = coin
     return crypto_positions_dict
 
-async def brain_module(buying_power, crypto_i_own, coins_list):
+async def calculate_ta_indicators(buying_power, crypto_i_own, coins_list):
     pbar = tqdm(total=len(coins_list))
 
     while True:
@@ -258,7 +258,7 @@ async def main():
     coins_list = coins_list
     minimum_orders_coins = get_minimum_orders_coins()
     await asyncio.gather(
-        brain_module(buying_power, crypto_i_own, coins_list),
+        calculate_ta_indicators(buying_power, crypto_i_own, coins_list),
         get_total_crypto_dollars(total_crypto_dollars, crypto_i_own),
         get_total_crypto_value_in_dollars(total_crypto_value_in_dollars, crypto_i_own)
     )

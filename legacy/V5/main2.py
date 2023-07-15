@@ -154,7 +154,7 @@ def get_account():
     return account
 
 # Brain module function
-def brain_module():
+def calculate_ta_indicators():
     ic()
     global crypto_I_own
     global holdings_df
@@ -427,7 +427,7 @@ def signal_engine(df, coin):
     return buy_signal, sell_signal, hold_signal
 
 # Action engine function
-def action_engine():
+def trading_function():
     global signals_dict
     global crypto_I_own
     global loop_count
@@ -490,8 +490,8 @@ def is_daytime():
 # Main function
 async def main():
     while True:
-        await asyncio.to_thread(brain_module)
-        await asyncio.to_thread(action_engine)
+        await asyncio.to_thread(calculate_ta_indicators)
+        await asyncio.to_thread(trading_function)
         if is_daytime():
             print('daytime mode')
             print('Sleeping for 5 minutes...')
