@@ -1,17 +1,146 @@
 {
-    "BTC": 0.0,
-    "ETH": 0.0,
-    "DOGE": 0.0,
-    "SHIB": 0.0,
-    "ETC": 0.0,
-    "UNI": 0.0,
-    "AAVE": 0.0,
-    "LTC": 0.0,
-    "LINK": 0.0,
-    "COMP": 0.0,
-    "USDC": 0.0,
-    "AVAX": 0.0,
-    "XLM": 0.0,
-    "BCH": 0.0,
-    "XTZ": 0.0
+    "BTC": {
+        "orders":
+        [
+            {
+                "order_id": "1",
+                "order_type": "buy",
+                "order_price": 100000,
+                "order_amount": 0.1,
+                "order_status": "open"
+            }, {
+                "order_id": "2",
+                "order_type": "sell",
+                "order_price": 100000,
+                "order_amount": 0.1,
+                "order_status": "open"
+            }
+        ]
+    },
+    "ETH": {
+        "orders":
+        [
+            {
+                "order_id": "3",
+                "order_type": "buy",
+                "order_price": 100000,
+                "order_amount": 0.1,
+                "order_status": "open"
+            }, {
+                "order_id": "4",
+                "order_type": "sell",
+                "order_price": 100000,
+                "order_amount": 0.1,
+                "order_status": "open"
+            }
+        ]
+    },
+    "DOGE": {
+        "orders":
+        [
+            {
+                "order_id": "42",
+                "order_type": "buy",
+                "order_price": 100000,
+                "order_amount": 0.1,
+                "order_status": "open"
+            }, {
+                "order_id": "69",
+                "order_type": "sell",
+                "order_price": 100000,
+                "order_amount": 0.1,
+                "order_status": "open"
+            }
+        ]
+    },
+    "ETC": {
+        "orders":
+        [
+            {
+                "order_id": "63",
+                "order_type": "buy",
+                "order_price": 100000,
+                "order_amount": 0.1,
+                "order_status": "open"
+            }, {
+                "order_id": "74",
+                "order_type": "sell",
+                "order_price": 100000,
+                "order_amount": 0.1,
+                "order_status": "open"
+            }
+        ]
+    },
+    "SHIB": {
+        "orders":
+        [
+            {
+                "order_id": "12",
+                "order_type": "buy",
+                "order_price": 100000,
+                "order_amount": 0.1,
+                "order_status": "open"
+            }, {
+                "order_id": "332",
+                "order_type": "sell",
+                "order_price": 100000,
+                "order_amount": 0.1,
+                "order_status": "open"
+            }
+        ]
+    },
+    "UNI": {
+        "orders":
+        [
+            {
+                "order_id": "14",
+                "order_type": "buy",
+                "order_price": 100000,
+                "order_amount": 0.1,
+                "order_status": "open"
+            }, {
+                "order_id": "5",
+                "order_type": "sell",
+                "order_price": 100000,
+                "order_amount": 0.1,
+                "order_status": "open"
+            }
+        ]
+    },
+    "XRP": {
+        "orders":
+        [
+            {
+                "order_id": "781",
+                "order_type": "buy",
+                "order_price": 100000,
+                "order_amount": 0.1,
+                "order_status": "open"
+            }, {
+                "order_id": "123",
+                "order_type": "sell",
+                "order_price": 100000,
+                "order_amount": 0.1,
+                "order_status": "closed"
+            }
+        ]
+    },
+    "AAVE": {
+        "orders":
+        [
+            {
+                "order_id": "1",
+                "order_type": "buy",
+                "order_price": 100000,
+                "order_amount": 0.1,
+                "order_status": "open"
+            }, {
+                "order_id": "2",
+                "order_type": "sell",
+                "order_price": 100000,
+                "order_amount": 0.1,
+                "order_status": "open"
+            }
+        ]
+    }
 }

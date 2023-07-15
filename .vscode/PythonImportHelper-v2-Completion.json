@@ -1312,7 +1312,7 @@
         "documentation": {}
     },
     {
-        "label": "Fore",
+        "label": "Back",
         "importPath": "colorama",
         "description": "colorama",
         "isExtraImport": true,
@@ -1320,7 +1320,7 @@
         "documentation": {}
     },
     {
-        "label": "Back",
+        "label": "Fore",
         "importPath": "colorama",
         "description": "colorama",
         "isExtraImport": true,
@@ -1333,6 +1333,14 @@
         "description": "colorama",
         "isExtraImport": true,
         "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
         "documentation": {}
     },
     {
@@ -1841,6 +1849,22 @@
     },
     {
         "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
         "importPath": "ratelimit",
         "description": "ratelimit",
         "isExtraImport": true,
@@ -2412,30 +2436,6 @@
         "description": "legacy.V5.main2",
         "isExtraImport": true,
         "detail": "legacy.V5.main2",
-        "documentation": {}
-    },
-    {
-        "label": "Trader",
-        "importPath": "classes",
-        "description": "classes",
-        "isExtraImport": true,
-        "detail": "classes",
-        "documentation": {}
-    },
-    {
-        "label": "Looper",
-        "importPath": "classes",
-        "description": "classes",
-        "isExtraImport": true,
-        "detail": "classes",
-        "documentation": {}
-    },
-    {
-        "label": "Utility",
-        "importPath": "classes",
-        "description": "classes",
-        "isExtraImport": true,
-        "detail": "classes",
         "documentation": {}
     },
     {
@@ -5464,6 +5464,33 @@
         "description": "main_4",
         "peekOfCode": "def main():\n    stop_loss_percent = 0.05\n    coins = ['BTC', 'ETH', 'DOGE', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'AVAX', 'XLM', 'BCH', 'XTZ']\n    credentials = load_credentials('config/credentials.json')\n    trader = Trader(username=credentials['username'], password=credentials['password'])\n    stop_loss_prices = calculate_stop_loss_prices(coins, stop_loss_percent)\n    print(f'Stop loss prices: {stop_loss_prices}')\n    looper = Looper(trader)\n    asyncio.run(looper.main_looper(coins, stop_loss_prices))",
         "detail": "main_4",
+        "documentation": {}
+    },
+    {
+        "label": "Trader",
+        "kind": 6,
+        "importPath": "main_5",
+        "description": "main_5",
+        "peekOfCode": "class Trader:\n    \"\"\"\n    The Trader class provides functions for logging into Robinhood, resetting orders, generating trading signals, executing actions based on these signals, updating the buying power, and checking stop loss prices.\n    # Detailed Function Descriptions\n    1. login_setup: The login_setup function logs into Robinhood using the provided username and password.\n    2. resetter: The resetter function cancels all open orders and sells all positions. This function is used to reset the bot.\n    3. calculate_ta_indicators:\n        The calculate_ta_indicators function calculates different technical indicators and generates trading signals based on these indicators. The indicators are: EMA, MACD, RSI, Williams %R, Stochastic Oscillator, Bollinger Bands, and Parabolic SAR.\n        A boolean is generated based on these indicators. If the boolean is True, a buy signal is generated. If the boolean is False, a sell signal is generated. The signals are returned in a DataFrame.\n        :param coins: A list of coins to generate signals for",
+        "detail": "main_5",
+        "documentation": {}
+    },
+    {
+        "label": "Utility",
+        "kind": 6,
+        "importPath": "main_5",
+        "description": "main_5",
+        "peekOfCode": "class Utility:\n    def __init__(self):\n        self.logger = logging.getLogger(__name__)\n    async def log_file_size_checker(self):\n        \"\"\"\n        The log_file_size_checker function is an async function that checks the size of the log file and removes lines from the start of the file to maintain a rolling log of 1000 lines.\n        :return: None\n        :doc-author: Trelent\n        \"\"\"\n        while True:",
+        "detail": "main_5",
+        "documentation": {}
+    },
+    {
+        "label": "Looper",
+        "kind": 6,
+        "importPath": "main_5",
+        "description": "main_5",
+        "peekOfCode": "class Looper:\n    def __init__(self, trader: Trader):\n        \"\"\"\n        The Looper class provides functions for running asynchronous operations.\n        :param trader: An instance of the Trader class\n        :doc-author: Trelent\n        \"\"\"\n        self.trader = trader\n        # Set up logging\n        self.logger = logging.getLogger(\"looper\")",
+        "detail": "main_5",
         "documentation": {}
     }
 ]
