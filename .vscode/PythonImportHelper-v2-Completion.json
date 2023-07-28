@@ -218,6 +218,22 @@
         "documentation": {}
     },
     {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
         "label": "numpy",
         "kind": 6,
         "isExtraImport": true,
@@ -542,11 +558,43 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "pytz",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "pytz",
         "description": "pytz",
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
         "detail": "pytz",
         "documentation": {}
     },
@@ -1208,14 +1256,6 @@
         "documentation": {}
     },
     {
-        "label": "Back",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
         "label": "Fore",
         "importPath": "colorama",
         "description": "colorama",
@@ -1256,6 +1296,30 @@
         "documentation": {}
     },
     {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
         "label": "Fore",
         "importPath": "colorama",
         "description": "colorama",
@@ -1333,6 +1397,70 @@
         "description": "colorama",
         "isExtraImport": true,
         "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
         "documentation": {}
     },
     {
@@ -1880,6 +2008,22 @@
         "documentation": {}
     },
     {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
         "label": "time",
         "kind": 6,
         "isExtraImport": true,
@@ -2091,6 +2235,14 @@
         "importPath": "robin_stocks.robinhood",
         "description": "robin_stocks.robinhood",
         "detail": "robin_stocks.robinhood",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
         "documentation": {}
     },
     {
@@ -2355,6 +2507,15 @@
         "documentation": {}
     },
     {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
         "label": "exit",
         "importPath": "sys",
         "description": "sys",
@@ -2422,12 +2583,29 @@
         "documentation": {}
     },
     {
+        "label": "aiohttp",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "aiohttp",
+        "description": "aiohttp",
+        "detail": "aiohttp",
+        "documentation": {}
+    },
+    {
         "label": "pandas_ta",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "pandas_ta",
         "description": "pandas_ta",
         "detail": "pandas_ta",
+        "documentation": {}
+    },
+    {
+        "label": "stop_loss_percent",
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "isExtraImport": true,
+        "detail": "legacy.V5.main2",
         "documentation": {}
     },
     {
@@ -5071,6 +5249,42 @@
         "documentation": {}
     },
     {
+        "label": "trader",
+        "kind": 6,
+        "importPath": "ToT_main",
+        "description": "ToT_main",
+        "peekOfCode": "class trader:\n    def __init__(self):\n        self.buying_power = 0\n        self.crypto_holdings = {}\n        self.crypto_holdings_value = 0\n    async def get_historical_prices(self, coin):\n        async with aiohttp.ClientSession() as session:\n            return await session.get(f'https://api.robinhood.com/marketdata/forex/historicals/{coin}USDT/?bounds=24_7&interval=5minute&span=week')\n    async def get_crypto_holdings(self):\n        async with aiohttp.ClientSession() as session:",
+        "detail": "ToT_main",
+        "documentation": {}
+    },
+    {
+        "label": "Utility",
+        "kind": 6,
+        "importPath": "ToT_main_guido",
+        "description": "ToT_main_guido",
+        "peekOfCode": "class Utility:\n    def __init__(self):\n        self.logger = logging.getLogger('utility')\n        self.logger.setLevel(logging.INFO)\n        handler = logging.StreamHandler()\n        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')\n        handler.setFormatter(formatter)\n        self.logger.addHandler(handler)\n    def is_daytime(self):\n        return True",
+        "detail": "ToT_main_guido",
+        "documentation": {}
+    },
+    {
+        "label": "Trader",
+        "kind": 6,
+        "importPath": "ToT_main_guido",
+        "description": "ToT_main_guido",
+        "peekOfCode": "class Trader:\n    def __init__(self):\n        self.logger = logging.getLogger('trader')\n        self.logger.setLevel(logging.INFO)\n        handler = logging.StreamHandler()\n        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')\n        handler.setFormatter(formatter)\n        self.logger.addHandler(handler)\n    def resetter(self):\n        pass",
+        "detail": "ToT_main_guido",
+        "documentation": {}
+    },
+    {
+        "label": "Looper",
+        "kind": 6,
+        "importPath": "ToT_main_guido",
+        "description": "ToT_main_guido",
+        "peekOfCode": "class Looper:\n    def __init__(self, trader: Trader):\n        self.trader = trader\n        self.logger = logging.getLogger('looper')\n        self.logger.setLevel(logging.INFO)\n        handler = logging.StreamHandler()\n        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')\n        handler.setFormatter(formatter)\n        self.logger.addHandler(handler)\n    async def run_async_functions(self, loop_count, coins, stop_loss_prices):",
+        "detail": "ToT_main_guido",
+        "documentation": {}
+    },
+    {
         "label": "Trader",
         "kind": 6,
         "importPath": "classes",
@@ -5491,6 +5705,60 @@
         "description": "main_5",
         "peekOfCode": "class Looper:\n    def __init__(self, trader: Trader):\n        \"\"\"\n        The Looper class provides functions for running asynchronous operations.\n        :param trader: An instance of the Trader class\n        :doc-author: Trelent\n        \"\"\"\n        self.trader = trader\n        # Set up logging\n        self.logger = logging.getLogger(\"looper\")",
         "detail": "main_5",
+        "documentation": {}
+    },
+    {
+        "label": "Trader",
+        "kind": 6,
+        "importPath": "main_6",
+        "description": "main_6",
+        "peekOfCode": "class Trader:\n    \"\"\"\n    The Trader class provides functions for logging into Robinhood, resetting orders, generating trading signals, executing actions based on these signals, updating the buying power, and checking stop loss prices.\n    1. login_setup: The login_setup function logs into Robinhood using the provided username and password.\n    2. resetter: The resetter function cancels all open orders and sells all positions. This function is used to reset the bot.\n    3. calculate_ta_indicators:\n        The calculate_ta_indicators function calculates different technical indicators and generates trading signals based on these indicators. The indicators are: EMA, MACD, RSI, Williams %R, Stochastic Oscillator, Bollinger Bands, and Parabolic SAR.\n        A boolean is generated based on these indicators. If the boolean is True, a buy signal is generated. If the boolean is False, a sell signal is generated. The signals are returned in a DataFrame.\n        :param coins: A list of coins to generate signals for\n        :return: A DataFrame with the trading signals for each coin",
+        "detail": "main_6",
+        "documentation": {}
+    },
+    {
+        "label": "Utility",
+        "kind": 6,
+        "importPath": "main_6",
+        "description": "main_6",
+        "peekOfCode": "class Utility:\n    def __init__(self):\n        self.logger = logging.getLogger(__name__)\n    async def log_file_size_checker(self):\n        \"\"\"\n        The log_file_size_checker function is an async function that checks the size of the log file and removes lines from the start of the file to maintain a rolling log of 1000 lines.\n        :return: None\n        :doc-author: Trelent\n        \"\"\"\n        while True:",
+        "detail": "main_6",
+        "documentation": {}
+    },
+    {
+        "label": "Looper",
+        "kind": 6,
+        "importPath": "main_6",
+        "description": "main_6",
+        "peekOfCode": "class Looper:\n    def __init__(self, trader: Trader):\n        \"\"\"\n        The Looper class provides functions for running asynchronous operations.\n        :param trader: An instance of the Trader class\n        :doc-author: Trelent\n        \"\"\"\n        self.trader = trader\n        self.logger = logging.getLogger(\"looper\")\n        self.logger.setLevel(logging.INFO)",
+        "detail": "main_6",
+        "documentation": {}
+    },
+    {
+        "label": "Utility",
+        "kind": 6,
+        "importPath": "main_sock",
+        "description": "main_sock",
+        "peekOfCode": "class Utility:\n    def __init__(self):\n        self.logger = logging.getLogger('Utility')\n    async def log_file_size_checker(self):\n        \"\"\"\n        The log_file_size_checker function is a coroutine that checks the size of the log file.\n        If it exceeds 1000 lines, it will remove all but the last 1000 lines.\n        :param self: Represent the instance of the object itself\n        :return: A coroutine object, which is an awaitable\n        :doc-author: Trelent",
+        "detail": "main_sock",
+        "documentation": {}
+    },
+    {
+        "label": "Batch",
+        "kind": 6,
+        "importPath": "main_sock",
+        "description": "main_sock",
+        "peekOfCode": "class Batch:\n    def __init__(self, coin, purchase_price, quantity):\n        self.coin = coin\n        self.purchase_price = purchase_price\n        self.quantity = quantity\n        self.stop_loss_price = purchase_price * (1 - stop_loss_percent)\n    def check_stop_loss(self, current_price):\n        \"\"\"\n        The check_stop_loss function is used to determine if the current price of a stock has fallen below the stop loss price.\n            If it has, then we will sell our shares and take a loss.",
+        "detail": "main_sock",
+        "documentation": {}
+    },
+    {
+        "label": "Trader",
+        "kind": 6,
+        "importPath": "main_sock",
+        "description": "main_sock",
+        "peekOfCode": "class Trader:\n    def __init__(self, username, password):\n        self.username = username\n        self.password = password\n        self.logger = logging.getLogger('trader')\n        self.setup_logging()\n        self.login_setup()\n        self.batches = []\n    def setup_logging(self):\n        self.logger.setLevel(logging.INFO)",
+        "detail": "main_sock",
         "documentation": {}
     }
 ]

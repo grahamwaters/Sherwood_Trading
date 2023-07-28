@@ -7,3 +7,6 @@ legacy/version2/.DS_Store
 credentials.json
 config/.DS_Store
 .vscode/
+.DS_Store
+.vscode/PythonImportHelper-v2-Completion.json
+__pycache__/.DS_Store
