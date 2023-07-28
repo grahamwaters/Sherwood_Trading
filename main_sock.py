@@ -6,13 +6,23 @@ from robin_stocks import robinhood as r
 from datetime import datetime
 from pytz import timezone
 import asyncio
-from legacy.V5.main2 import stop_loss_percent
 from tqdm import tqdm
 from colorama import Fore, Style
 import os
 import time
 import json
-import sys
+import numpy as np
+
+#^Formatting Options
+# make all float point numbers display to 9 decimal places
+pd.set_option('display.float_format', lambda x: '%.9f' % x)
+# make all columns display
+pd.set_option('display.max_columns', None)
+
+#^Global Variables
+stop_loss_percent = 0.05 # The percentage of loss we are willing to take before selling
+verbose_mode = False # Set to True to see all the logging messages
+percent_to_use = 0.60 # The percentage of our portfolio we are willing to gamble with (i.e. buy crypto with during the session)
 
 class Utility:
     def __init__(self):
@@ -111,6 +121,37 @@ class Trader:
         except Exception as e:
             self.logger.error(f'Unable to login to Robinhood... {e}')
 
+    def get_total_crypto_dollars(self):
+        """
+        The get_total_crypto_dollars function calculates the total value of all crypto owned.
+        :return: The total value of all crypto owned
+        :doc-author: Trelent
+        """
+        try:
+            crypto_positions = r.get_crypto_positions()
+            total_crypto_dollars = 0
+            for position in crypto_positions:
+                total_crypto_dollars += float(position['quantity']) * float(r.crypto.get_crypto_quote(position['currency']['code'])['mark_price'])
+            return total_crypto_dollars
+        except Exception as e:
+            self.logger.error(f'Unable to get total value of crypto... {e}')
+            return 0
+
+    def update_buying_power(self):
+        """
+        The update_buying_power function updates the buying power of the user's account.
+        :return: The updated buying power
+        :doc-author: Trelent
+        """
+        try:
+            profile_info = r.load_account_profile() #^ This is the profile information for the user
+            cash_available = float(profile_info['cash_available_for_withdrawal']) #^ This is the amount of cash available to spend
+            crypto_dollars = self.get_total_crypto_dollars() #^ This is the total value of all crypto in dollars
+            buying_power = cash_available + crypto_dollars # This is the total buying power
+            return buying_power * percent_to_use
+        except Exception as e:
+            self.logger.error(f'Unable to update buying power... {e}')
+            return 0
     def resetter(self):
         try:
             open_orders = r.get_all_open_crypto_orders()
@@ -135,9 +176,6 @@ class Trader:
                 df['ema'] = df.close.ewm(span=50, adjust=False).mean()
                 df['macd_line'], df['signal_line'], df['macd_hist'] = ta.macd(df.close)
                 df['rsi'] = ta.rsi(df.close)
-                # df['williams'] = ta.williams_r(df.high, df.low, df.close)
-                # df['stochastic_k'], df['stochastic_d'] = ta.stoch(df.high, df.low, df.close)
-                # df['bollinger_l'], df['bollinger_m'], df['bollinger_u'] = ta.bollinger_bands(df.close)
                 df['buy_signal'] = ((df.macd_line > df.signal_line) & (df.rsi < 30)) #^ this indicates that the macd line has crossed above the signal line, and the rsi is below 30 --> buy
                 df['sell_signal'] = ((df.macd_line < df.signal_line) & (df.rsi > 70)) #^ this indicates that the macd line has crossed below the signal line, and the rsi is above 70 --> sell
                 signals.append({
@@ -154,6 +192,14 @@ class Trader:
             return pd.DataFrame()
 
     def trading_function(self, signals_df):
+        #^ first print how much we have in buying power, and how much we have in crypto (by value)
+        buying_power = self.update_buying_power() #^ this is the amount of buying power we have
+        crypto_value = self.get_total_crypto_dollars() #^ this is the value of all crypto in dollars
+        print(Fore.GREEN + f'Buying power: ${buying_power:.2f}' + Style.RESET_ALL)
+        print(Fore.GREEN + f'Crypto value: ${crypto_value:.2f}' + Style.RESET_ALL)
+        print(Fore.GREEN + f'Total value: ${buying_power + crypto_value:.2f}' + Style.RESET_ALL)
+        print(f'-'*20)
+
         try:
             crypto_positions = {position['currency']['code']: position for position in r.get_crypto_positions()}
             for _, row in signals_df.iterrows():
@@ -161,14 +207,23 @@ class Trader:
                 close_price = row['close']
                 indicators = row['indicators']
                 if row['buy_signal']:
-                    self.logger.info(f'Bought {coin} at {close_price} because:\n' + '\n'.join(f'- {key}: {value}' for key, value in indicators.items()))
+                    if verbose_mode:
+                        self.logger.info(Fore.GREEN + f'Bought {coin} at {close_price} because:\n' + '\n'.join(f'- {key}: {value}' for key, value in indicators.items()) + Style.RESET_ALL)
+                    else:
+                        self.logger.info(f'Bought {coin} at ${close_price}')
                     buying_power = self.update_buying_power()
+                    # We want to only use percent_to_use % of our buying power for the sessions trades. This keeps 100-percent_to_use % back as gaurenteed profit.
+                    buying_power = buying_power * percent_to_use
+
                     if buying_power > 0:
                         quantity = buying_power / close_price
                         r.order_buy_crypto_limit(symbol=coin, quantity=quantity, limitPrice=close_price, timeInForce='gtc')
-                        self.batches.append(Batch(coin, close_price, quantity))
+                        self.batches.append(Batch(coin, close_price, quantity)) #note: for gpt agents, the line here is contingent upon the line above being successful. We can't know that it is successful until we check the order status, later  on. So, for future refactorizations we should consider adapting this method of batch creation to include some sort of check to ensure that the order was successful before appending the batch to the list.
                 if row['sell_signal'] and coin in crypto_positions:
-                    self.logger.info(f'Sold {coin} at {close_price} because:\n' + '\n'.join(f'- {key}: {value}' for key, value in indicators.items()))
+                    if verbose_mode:
+                        self.logger.info(f'Sold {coin} at {close_price} because:\n' + '\n'.join(f'- {key}: {value}' for key, value in indicators.items()))
+                    else:
+                        self.logger.info(Fore.RED + f'Sold {coin} at ${close_price}' + Style.RESET_ALL)
                     position = crypto_positions[coin]
                     r.order_sell_crypto_limit(symbol=coin, quantity=position['quantity'], limitPrice=close_price, timeInForce='gtc')
                     self.batches = [batch for batch in self.batches if batch.coin != coin]
@@ -186,7 +241,7 @@ class Trader:
         except Exception as e:
             self.logger.error(f'Unable to check stop loss prices... {e}')
 
-with open('config.json') as f:
+with open('config/credentials.json') as f:
     config = json.load(f)
     username = config['username']
     password = config['password']

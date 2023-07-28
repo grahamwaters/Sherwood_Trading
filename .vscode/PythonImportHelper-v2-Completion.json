@@ -2507,15 +2507,6 @@
         "documentation": {}
     },
     {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
         "label": "exit",
         "importPath": "sys",
         "description": "sys",
@@ -2598,14 +2589,6 @@
         "importPath": "pandas_ta",
         "description": "pandas_ta",
         "detail": "pandas_ta",
-        "documentation": {}
-    },
-    {
-        "label": "stop_loss_percent",
-        "importPath": "legacy.V5.main2",
-        "description": "legacy.V5.main2",
-        "isExtraImport": true,
-        "detail": "legacy.V5.main2",
         "documentation": {}
     },
     {
@@ -5758,6 +5741,33 @@
         "importPath": "main_sock",
         "description": "main_sock",
         "peekOfCode": "class Trader:\n    def __init__(self, username, password):\n        self.username = username\n        self.password = password\n        self.logger = logging.getLogger('trader')\n        self.setup_logging()\n        self.login_setup()\n        self.batches = []\n    def setup_logging(self):\n        self.logger.setLevel(logging.INFO)",
+        "detail": "main_sock",
+        "documentation": {}
+    },
+    {
+        "label": "stop_loss_percent",
+        "kind": 5,
+        "importPath": "main_sock",
+        "description": "main_sock",
+        "peekOfCode": "stop_loss_percent = 0.05 # The percentage of loss we are willing to take before selling\nverbose_mode = False # Set to True to see all the logging messages\npercent_to_use = 0.60 # The percentage of our portfolio we are willing to gamble with (i.e. buy crypto with during the session)\nclass Utility:\n    def __init__(self):\n        self.logger = logging.getLogger('Utility')\n    async def log_file_size_checker(self):\n        \"\"\"\n        The log_file_size_checker function is a coroutine that checks the size of the log file.\n        If it exceeds 1000 lines, it will remove all but the last 1000 lines.",
+        "detail": "main_sock",
+        "documentation": {}
+    },
+    {
+        "label": "verbose_mode",
+        "kind": 5,
+        "importPath": "main_sock",
+        "description": "main_sock",
+        "peekOfCode": "verbose_mode = False # Set to True to see all the logging messages\npercent_to_use = 0.60 # The percentage of our portfolio we are willing to gamble with (i.e. buy crypto with during the session)\nclass Utility:\n    def __init__(self):\n        self.logger = logging.getLogger('Utility')\n    async def log_file_size_checker(self):\n        \"\"\"\n        The log_file_size_checker function is a coroutine that checks the size of the log file.\n        If it exceeds 1000 lines, it will remove all but the last 1000 lines.\n        :param self: Represent the instance of the object itself",
+        "detail": "main_sock",
+        "documentation": {}
+    },
+    {
+        "label": "percent_to_use",
+        "kind": 5,
+        "importPath": "main_sock",
+        "description": "main_sock",
+        "peekOfCode": "percent_to_use = 0.60 # The percentage of our portfolio we are willing to gamble with (i.e. buy crypto with during the session)\nclass Utility:\n    def __init__(self):\n        self.logger = logging.getLogger('Utility')\n    async def log_file_size_checker(self):\n        \"\"\"\n        The log_file_size_checker function is a coroutine that checks the size of the log file.\n        If it exceeds 1000 lines, it will remove all but the last 1000 lines.\n        :param self: Represent the instance of the object itself\n        :return: A coroutine object, which is an awaitable",
         "detail": "main_sock",
         "documentation": {}
     }
