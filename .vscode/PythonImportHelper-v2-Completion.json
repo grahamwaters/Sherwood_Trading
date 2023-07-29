@@ -242,6 +242,30 @@
         "documentation": {}
     },
     {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
         "label": "numpy",
         "kind": 6,
         "isExtraImport": true,
@@ -590,11 +614,59 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "pytz",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "pytz",
         "description": "pytz",
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
         "detail": "pytz",
         "documentation": {}
     },
@@ -1400,6 +1472,30 @@
         "documentation": {}
     },
     {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
         "label": "Fore",
         "importPath": "colorama",
         "description": "colorama",
@@ -1485,6 +1581,70 @@
         "description": "colorama",
         "isExtraImport": true,
         "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
         "documentation": {}
     },
     {
@@ -2033,6 +2193,22 @@
     },
     {
         "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
         "importPath": "ratelimit",
         "description": "ratelimit",
         "isExtraImport": true,
@@ -2664,6 +2840,15 @@
         "documentation": {}
     },
     {
+        "label": "configparser",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "configparser",
+        "description": "configparser",
+        "detail": "configparser",
+        "documentation": {}
+    },
+    {
         "label": "Trader",
         "importPath": "classes",
         "description": "classes",
@@ -2701,6 +2886,22 @@
         "description": "looper",
         "isExtraImport": true,
         "detail": "looper",
+        "documentation": {}
+    },
+    {
+        "label": "LinearRegression",
+        "importPath": "sklearn.linear_model",
+        "description": "sklearn.linear_model",
+        "isExtraImport": true,
+        "detail": "sklearn.linear_model",
+        "documentation": {}
+    },
+    {
+        "label": "trading_function",
+        "importPath": "legacy.V5.main",
+        "description": "legacy.V5.main",
+        "isExtraImport": true,
+        "detail": "legacy.V5.main",
         "documentation": {}
     },
     {
@@ -5692,6 +5893,60 @@
         "documentation": {}
     },
     {
+        "label": "Utility",
+        "kind": 6,
+        "importPath": "main_2b",
+        "description": "main_2b",
+        "peekOfCode": "class Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.\n        :doc-author: Trelent\n        \"\"\"\n        # Set up logging\n        self.logger = logging.getLogger('utility')\n        self.logger.setLevel(logging.INFO)\n        handler = logging.StreamHandler()",
+        "detail": "main_2b",
+        "documentation": {}
+    },
+    {
+        "label": "Trader",
+        "kind": 6,
+        "importPath": "main_2b",
+        "description": "main_2b",
+        "peekOfCode": "class Trader:\n    \"\"\"\n    The Trader class provides functions for logging into Robinhood, resetting orders, generating trading signals, executing actions based on these signals, updating the buying power, and checking stop loss prices.\n    # Detailed Function Descriptions\n    1. login_setup: The login_setup function logs into Robinhood using the provided username and password.\n    2. resetter: The resetter function cancels all open orders and sells all positions. This function is used to reset the bot.\n    3. calculate_ta_indicators:\n        The calculate_ta_indicators function calculates different technical indicators and generates trading signals based on these indicators. The indicators are: EMA, MACD, RSI, Williams %R, Stochastic Oscillator, Bollinger Bands, and Parabolic SAR.\n        A boolean is generated based on these indicators. If the boolean is True, a buy signal is generated. If the boolean is False, a sell signal is generated. The signals are returned in a DataFrame.\n        :param coins: A list of coins to generate signals for",
+        "detail": "main_2b",
+        "documentation": {}
+    },
+    {
+        "label": "Looper",
+        "kind": 6,
+        "importPath": "main_2b",
+        "description": "main_2b",
+        "peekOfCode": "class Looper:\n    def __init__(self, trader: Trader):\n        \"\"\"\n        The Looper class provides functions for running asynchronous operations.\n        :param trader: An instance of the Trader class\n        :doc-author: Trelent\n        \"\"\"\n        self.trader = trader\n        # Set up logging\n        self.logger = logging.getLogger('looper')",
+        "detail": "main_2b",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_stop_loss_prices",
+        "kind": 2,
+        "importPath": "main_2b",
+        "description": "main_2b",
+        "peekOfCode": "def calculate_stop_loss_prices(coins, stop_loss_percent):\n    stop_loss_prices = {}\n    for coin in coins:\n        try:\n            mark_price = float(r.crypto.get_crypto_quote(coin)['mark_price'])\n            stop_loss_price = mark_price - (mark_price * stop_loss_percent)\n            stop_loss_prices[coin] = stop_loss_price\n        except Exception as e:\n            print(f'Unable to calculate stop loss price for {coin}... {e}')\n    return stop_loss_prices",
+        "detail": "main_2b",
+        "documentation": {}
+    },
+    {
+        "label": "LOG_FILE",
+        "kind": 5,
+        "importPath": "main_2b",
+        "description": "main_2b",
+        "peekOfCode": "LOG_FILE = 'logs/crypto.log'\nLOG_FILE_SIZE_LIMIT = 50000000  # 50 MB\nclass Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.\n        :doc-author: Trelent\n        \"\"\"\n        # Set up logging\n        self.logger = logging.getLogger('utility')",
+        "detail": "main_2b",
+        "documentation": {}
+    },
+    {
+        "label": "LOG_FILE_SIZE_LIMIT",
+        "kind": 5,
+        "importPath": "main_2b",
+        "description": "main_2b",
+        "peekOfCode": "LOG_FILE_SIZE_LIMIT = 50000000  # 50 MB\nclass Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.\n        :doc-author: Trelent\n        \"\"\"\n        # Set up logging\n        self.logger = logging.getLogger('utility')\n        self.logger.setLevel(logging.INFO)",
+        "detail": "main_2b",
+        "documentation": {}
+    },
+    {
         "label": "first_time_init",
         "kind": 2,
         "importPath": "main_3",
@@ -5860,6 +6115,177 @@
         "description": "main_sock",
         "peekOfCode": "percent_to_use = 0.60 # The percentage of our portfolio we are willing to gamble with (i.e. buy crypto with during the session)\nclass Utility:\n    def __init__(self):\n        self.logger = logging.getLogger('Utility')\n    async def log_file_size_checker(self):\n        \"\"\"\n        The log_file_size_checker function is a coroutine that checks the size of the log file.\n        If it exceeds 1000 lines, it will remove all but the last 1000 lines.\n        :param self: Represent the instance of the object itself\n        :return: A coroutine object, which is an awaitable",
         "detail": "main_sock",
+        "documentation": {}
+    },
+    {
+        "label": "crypto",
+        "kind": 5,
+        "importPath": "testscript",
+        "description": "testscript",
+        "peekOfCode": "crypto = 'BTC'\n# Define the buy and sell thresholds\n# Get historical data\ndata = pd.DataFrame(r.crypto.get_crypto_historicals(crypto, interval='5minute', span='day'))\n# Calculate indicators\ndata.ta.ema(close='close', length=20, append=True)\ndata.ta.rsi(close='close', length=14, append=True)\ndata.ta.stoch(high='high', low='low', close='close', append=True)\ndata.ta.macd(close='close', append=True)\ndata.ta.willr(high='high', low='low', close='close', append=True)",
+        "detail": "testscript",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "testscript",
+        "description": "testscript",
+        "peekOfCode": "data = pd.DataFrame(r.crypto.get_crypto_historicals(crypto, interval='5minute', span='day'))\n# Calculate indicators\ndata.ta.ema(close='close', length=20, append=True)\ndata.ta.rsi(close='close', length=14, append=True)\ndata.ta.stoch(high='high', low='low', close='close', append=True)\ndata.ta.macd(close='close', append=True)\ndata.ta.willr(high='high', low='low', close='close', append=True)\ndata.ta.ichimoku(high='high', low='low', close='close', append=True)\ndata.ta.atr(high='high', low='low', close='close', append=True)\n# calculate the linear regression",
+        "detail": "testscript",
+        "documentation": {}
+    },
+    {
+        "label": "data['buy_points']",
+        "kind": 5,
+        "importPath": "testscript",
+        "description": "testscript",
+        "peekOfCode": "data['buy_points'] = calculate_buy_points(data, oversold_threshold=30)\ndata['sell_points'] = calculate_sell_points(data, overbought_threshold=70)\n# Define stop loss\nstop_loss_pct = 0.03\ndata['peak'] = data['close'].cummax()\ndata['stop_loss'] = data['peak'] * (1 - stop_loss_pct)\n# Define final buy and sell signals\ndata['buy'] = calculate_buy_signals(data, buy_threshold=7000)\ndata['sell'] = calculate_sell_signals(data)\n# Execute trades",
+        "detail": "testscript",
+        "documentation": {}
+    },
+    {
+        "label": "data['sell_points']",
+        "kind": 5,
+        "importPath": "testscript",
+        "description": "testscript",
+        "peekOfCode": "data['sell_points'] = calculate_sell_points(data, overbought_threshold=70)\n# Define stop loss\nstop_loss_pct = 0.03\ndata['peak'] = data['close'].cummax()\ndata['stop_loss'] = data['peak'] * (1 - stop_loss_pct)\n# Define final buy and sell signals\ndata['buy'] = calculate_buy_signals(data, buy_threshold=7000)\ndata['sell'] = calculate_sell_signals(data)\n# Execute trades\nfor i in range(1, len(data)):",
+        "detail": "testscript",
+        "documentation": {}
+    },
+    {
+        "label": "stop_loss_pct",
+        "kind": 5,
+        "importPath": "testscript",
+        "description": "testscript",
+        "peekOfCode": "stop_loss_pct = 0.03\ndata['peak'] = data['close'].cummax()\ndata['stop_loss'] = data['peak'] * (1 - stop_loss_pct)\n# Define final buy and sell signals\ndata['buy'] = calculate_buy_signals(data, buy_threshold=7000)\ndata['sell'] = calculate_sell_signals(data)\n# Execute trades\nfor i in range(1, len(data)):\n    # If we have a buy signal, then buy\n    if data['buy'][i]:",
+        "detail": "testscript",
+        "documentation": {}
+    },
+    {
+        "label": "data['peak']",
+        "kind": 5,
+        "importPath": "testscript",
+        "description": "testscript",
+        "peekOfCode": "data['peak'] = data['close'].cummax()\ndata['stop_loss'] = data['peak'] * (1 - stop_loss_pct)\n# Define final buy and sell signals\ndata['buy'] = calculate_buy_signals(data, buy_threshold=7000)\ndata['sell'] = calculate_sell_signals(data)\n# Execute trades\nfor i in range(1, len(data)):\n    # If we have a buy signal, then buy\n    if data['buy'][i]:\n        r.order_buy_crypto_limit(crypto, 1, data['close'][i])",
+        "detail": "testscript",
+        "documentation": {}
+    },
+    {
+        "label": "data['stop_loss']",
+        "kind": 5,
+        "importPath": "testscript",
+        "description": "testscript",
+        "peekOfCode": "data['stop_loss'] = data['peak'] * (1 - stop_loss_pct)\n# Define final buy and sell signals\ndata['buy'] = calculate_buy_signals(data, buy_threshold=7000)\ndata['sell'] = calculate_sell_signals(data)\n# Execute trades\nfor i in range(1, len(data)):\n    # If we have a buy signal, then buy\n    if data['buy'][i]:\n        r.order_buy_crypto_limit(crypto, 1, data['close'][i])\n    # If we have a sell signal, then sell",
+        "detail": "testscript",
+        "documentation": {}
+    },
+    {
+        "label": "data['buy']",
+        "kind": 5,
+        "importPath": "testscript",
+        "description": "testscript",
+        "peekOfCode": "data['buy'] = calculate_buy_signals(data, buy_threshold=7000)\ndata['sell'] = calculate_sell_signals(data)\n# Execute trades\nfor i in range(1, len(data)):\n    # If we have a buy signal, then buy\n    if data['buy'][i]:\n        r.order_buy_crypto_limit(crypto, 1, data['close'][i])\n    # If we have a sell signal, then sell\n    elif data['sell'][i]:\n        r.order_sell_crypto_limit(crypto, 1, data['close'][i])",
+        "detail": "testscript",
+        "documentation": {}
+    },
+    {
+        "label": "data['sell']",
+        "kind": 5,
+        "importPath": "testscript",
+        "description": "testscript",
+        "peekOfCode": "data['sell'] = calculate_sell_signals(data)\n# Execute trades\nfor i in range(1, len(data)):\n    # If we have a buy signal, then buy\n    if data['buy'][i]:\n        r.order_buy_crypto_limit(crypto, 1, data['close'][i])\n    # If we have a sell signal, then sell\n    elif data['sell'][i]:\n        r.order_sell_crypto_limit(crypto, 1, data['close'][i])",
+        "detail": "testscript",
+        "documentation": {}
+    },
+    {
+        "label": "Utility",
+        "kind": 6,
+        "importPath": "vanilla3",
+        "description": "vanilla3",
+        "peekOfCode": "class Utility:\n    def __init__(self):\n        pass\n    async def log_file_size_checker():\n        while True:\n            #ic()\n            with open('logs/robinhood.log', 'r') as f:\n                lines = f.readlines()\n                if len(lines) > 1000: # if the log file is greater than 1000 lines\n                    # find how many lines to remove",
+        "detail": "vanilla3",
+        "documentation": {}
+    },
+    {
+        "label": "Trader",
+        "kind": 6,
+        "importPath": "vanilla3",
+        "description": "vanilla3",
+        "peekOfCode": "class Trader:\n    def __init__(self, username, password):\n        self.username = username\n        self.password = password\n        # Set up logging\n        self.logger = logging.getLogger('trader')\n        self.logger.setLevel(logging.INFO)\n        handler = logging.StreamHandler()\n        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')\n        handler.setFormatter(formatter)",
+        "detail": "vanilla3",
+        "documentation": {}
+    },
+    {
+        "label": "Looper",
+        "kind": 6,
+        "importPath": "vanilla3",
+        "description": "vanilla3",
+        "peekOfCode": "class Looper:\n    def __init__(self, trader: Trader):\n        self.trader = trader\n        # Set up logging\n        self.logger = logging.getLogger('looper')\n        self.logger.setLevel(logging.INFO)\n        handler = logging.StreamHandler()\n        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')\n        handler.setFormatter(formatter)\n        self.logger.addHandler(handler)",
+        "detail": "vanilla3",
+        "documentation": {}
+    },
+    {
+        "label": "stop_loss_percent",
+        "kind": 5,
+        "importPath": "vanilla3",
+        "description": "vanilla3",
+        "peekOfCode": "stop_loss_percent = 0.05\nfrom tqdm import tqdm\nfrom colorama import Fore, Back, Style\nfrom legacy.V5.main import trading_function\nclass Utility:\n    def __init__(self):\n        pass\n    async def log_file_size_checker():\n        while True:\n            #ic()",
+        "detail": "vanilla3",
+        "documentation": {}
+    },
+    {
+        "label": "Utility",
+        "kind": 6,
+        "importPath": "vanilla_ice",
+        "description": "vanilla_ice",
+        "peekOfCode": "class Utility:\n    def __init__(self):\n        pass\n    async def log_file_size_checker(self):\n        while True:\n            with open('logs/robinhood.log', 'r') as f:\n                lines = f.readlines()\n                if len(lines) > 1000:  # if the log file is greater than 1000 lines\n                    num_lines_to_remove = len(lines) - 1000\n                    with open('logs/robinhood.log', 'w') as f:",
+        "detail": "vanilla_ice",
+        "documentation": {}
+    },
+    {
+        "label": "Trader",
+        "kind": 6,
+        "importPath": "vanilla_ice",
+        "description": "vanilla_ice",
+        "peekOfCode": "class Trader:\n    def __init__(self, username, password):\n        self.username = username\n        self.password = password\n        self.utility = Utility()\n        self.setup_logger()\n        self.login_setup()\n        self.stop_loss_prices = self.calculate_stop_loss_prices()\n    def login_setup(self):\n        try:",
+        "detail": "vanilla_ice",
+        "documentation": {}
+    },
+    {
+        "label": "Looper",
+        "kind": 6,
+        "importPath": "vanilla_ice",
+        "description": "vanilla_ice",
+        "peekOfCode": "class Looper:\n    def __init__(self, trader: Trader):\n        self.trader = trader\n        self.setup_logger()\n    def setup_logger(self):\n        self.logger = logging.getLogger('looper')\n        self.logger.setLevel(logging.INFO)\n        handler = logging.StreamHandler()\n        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')\n        handler.setFormatter(formatter)",
+        "detail": "vanilla_ice",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "vanilla_ice",
+        "description": "vanilla_ice",
+        "peekOfCode": "def main():\n    config = configparser.ConfigParser()\n    config.read('config/credentials.ini')\n    username = config['credentials']['username']\n    password = config['credentials']['password']\n    trader = Trader(username, password)\n    stop_loss_prices = {coin: float(r.crypto.get_crypto_quote(coin)['mark_price']) - (float(r.crypto.get_crypto_quote(coin)['mark_price']) * STOP_LOSS_PERCENT) for coin in COINS}\n    looper = Looper(trader)\n    asyncio.run(looper.main_looper(COINS, stop_loss_prices))\n# Run the program",
+        "detail": "vanilla_ice",
+        "documentation": {}
+    },
+    {
+        "label": "STOP_LOSS_PERCENT",
+        "kind": 5,
+        "importPath": "vanilla_ice",
+        "description": "vanilla_ice",
+        "peekOfCode": "STOP_LOSS_PERCENT = 0.05\nCOINS = ['BTC', 'ETH', 'DOGE', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'AVAX', 'XLM', 'BCH', 'XTZ']\n# Utility class\nclass Utility:\n    def __init__(self):\n        pass\n    async def log_file_size_checker(self):\n        while True:\n            with open('logs/robinhood.log', 'r') as f:\n                lines = f.readlines()",
+        "detail": "vanilla_ice",
+        "documentation": {}
+    },
+    {
+        "label": "COINS",
+        "kind": 5,
+        "importPath": "vanilla_ice",
+        "description": "vanilla_ice",
+        "peekOfCode": "COINS = ['BTC', 'ETH', 'DOGE', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'AVAX', 'XLM', 'BCH', 'XTZ']\n# Utility class\nclass Utility:\n    def __init__(self):\n        pass\n    async def log_file_size_checker(self):\n        while True:\n            with open('logs/robinhood.log', 'r') as f:\n                lines = f.readlines()\n                if len(lines) > 1000:  # if the log file is greater than 1000 lines",
+        "detail": "vanilla_ice",
         "documentation": {}
     }
 ]
