@@ -1,9 +1,10 @@
 import asyncio
 import logging
+import json
 import os
 import pickle
 from datetime import datetime
-
+from ratelimit import limits, sleep_and_retry
 import numpy as np
 import pandas as pd
 import pandas_ta as ta
@@ -19,9 +20,12 @@ from sklearn.preprocessing import StandardScaler
 from tqdm import tqdm
 import configparser
 from icecream import ic
+# from legacy.version2.main import sleep_and_retry
 
+buying_power = 0.00 # buying power
+min_buy = 1.00 # minimum amount to spend on a crypto
 sktrading = False
-
+percent_spend_on_crypto = 0.05
 class Utility:
     def __init__(self):
         """
@@ -111,6 +115,7 @@ class Trader:
         self.password = password
         # Set up logging
         self.logger = logging.getLogger('trader')
+        self.buying_power = 0
         self.logger.setLevel(logging.INFO)
         handler = logging.StreamHandler()
         formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -147,189 +152,253 @@ class Trader:
             self.logger.info('All positions sold.')
         except Exception as e:
             self.logger.error(f'Unable to reset orders and positions... {e}')
-    def calculate_ta_indicators(self, coins):
+    def log_file_size_checker(self):
         """
-        The calculate_ta_indicators function calculates different technical indicators and generates trading signals based on these indicators. The indicators are: EMA, MACD, RSI, Williams %R, Stochastic Oscillator, Bollinger Bands, and Parabolic SAR.
-        A boolean is generated based on these indicators. If the boolean is True, a buy signal is generated. If the boolean is False, a sell signal is generated. The signals are returned in a DataFrame.
-        :param coins: A list of coins to generate signals for
-        :return: A DataFrame with the trading signals for each coin
-        """
-        ic()
-        # Set some initial variables
-        # Set some initial variables
-        stop_loss_pct = 0.03  # Trailing stop loss percentage
-        overbought_threshold = 70  # RSI and Stochastic overbought threshold
-        oversold_threshold = 30  # RSI and Stochastic oversold threshold
-        buy_threshold = 7  # Threshold for buying
-        sell_threshold = 7  # Threshold for selling
-
-        try:
-            ic()
-            utility = Utility()
-            signals_df = pd.DataFrame()
-            for coin in coins:
-                # Get the historical data
-                print(Fore.YELLOW + f'Getting historical data for {coin}...' + Style.RESET_ALL)
-                df = utility.get_last_100_days(coin) # Get the last 100 days of data
-                if df is None:
-                    continue
-                try:
-                    print(Fore.YELLOW + f'\tCalculating technical indicators for {coin}...' + Style.RESET_ALL, end= '')
-                    # Calculate your indicators
-                    df.ta.ema(close='close', length=20, append=True)
-                    print('|', end='')
-                    df.ta.rsi(close='close', length=14, append=True)
-                    print('|', end='')
-                    df.ta.stoch(high='high', low='low', close='close', append=True)
-                    print('|', end='')
-                    df.ta.macd(close='close', append=True)
-                    print('|', end='')
-                    df.ta.willr(high='high', low='low', close='close', append=True)
-                    print('|', end='')
-                    df.ta.ichimoku(high='high', low='low', close='close', append=True)
-                    print('|', end='')
-                    df.ta.atr(high='high', low='low', close='close', append=True)
-                    print('|', end='')
-                    # Add some new indicators
-                    df.ta.alma(close='close', append=True)
-                    print('*', end='')
-                    # df.ta.cdl_pattern(open='open', high='high', low='low', close='close', append=True)
-                    print('*', end='')
-                    df.ta.cti(close='close', append=True)
-                    print('*', end='')
-                    df.ta.stc(close='close', append=True)
-                    print('*', end='')
-
-
-                    # Define your buy and sell points
-                    df['buy_points'] = (
-                        (df['close'] > df['EMA_20']).astype(int) +
-                        (df['RSI_14'] < oversold_threshold).astype(int) +
-                        (df['STOCHk_14_3_3'] < oversold_threshold).astype(int) +
-                        (df['MACD_12_26_9'] > df['MACDs_12_26_9']).astype(int) +
-                        (df['WILLR_14'] < -80).astype(int) +
-                        (df['ICHIMOKUa_9_26_52_26'] > df['close']).astype(int) +
-                        (df['ATR_14'] > df['ATR_14'].shift(1)).astype(int) +
-                        # new indicators
-                        (df['ALMA_9_0.85_6.0'] > df['close']).astype(int) +
-                        (df['CTI_10'] < 0).astype(int) +  # Assuming negative values are bullish
-                        (df['STC_50_3_3'] < oversold_threshold).astype(int)
-                    )
-
-                    df['sell_points'] = (
-                        (df['close'] < df['EMA_20']).astype(int) +
-                        (df['RSI_14'] > overbought_threshold).astype(int) +
-                        (df['STOCHk_14_3_3'] > overbought_threshold).astype(int) +
-                        (df['MACD_12_26_9'] < df['MACDs_12_26_9']).astype(int) +
-                        (df['WILLR_14'] > -20).astype(int) +
-                        (df['ICHIMOKUa_9_26_52_26'] < df['close']).astype(int) +
-                        (df['ATR_14'] < df['ATR_14'].shift(1)).astype(int) +
-                        # new indicators
-                        (df['ALMA_9_0.85_6.0'] < df['close']).astype(int) +
-                        (df['CTI_10'] > 0).astype(int) +  # Assuming positive values are bearish
-                        (df['STC_50_3_3'] > overbought_threshold).astype(int)
-                    )
-
-                    # Define your stop loss
-                    df['peak'] = df['close'].cummax()  # Running peak
-                    df['stop_loss'] = df['peak'] * (1 - stop_loss_pct)  # Trailing stop loss
-
-                    # Define your final buy and sell signals
-                    df['buy_signal'] = df['buy_points'] >= buy_threshold  # Buy when the buy_points are above the buy_threshold
-                    df['sell_signal'] = df['sell_points'] >= sell_threshold  # Sell when the sell_points are above the sell_threshold
-
-                    df['coin'] = coin
-                    signals_df = signals_df.append(df)
-
-                    return signals_df
-                except Exception as e:
-                    self.logger.error(f'Unable to generate trading signals... {e}')
-                    print(Fore.RED + f'Unable to generate trading signals... {e}' + Style.RESET_ALL)
-                    return pd.DataFrame()
-        except Exception as e:
-            self.logger.error(f'Unable to generate trading signals... {e}')
-            print(Fore.RED + f'Unable to generate trading signals... {e}' + Style.RESET_ALL)
-            return pd.DataFrame()
-
-    def trading_function(self, signals_df):
-        """
-        The trading_function function takes the trading signals generated by calculate_ta_indicators() and places trades accordingly.
-        :param signals_df: A DataFrame with the trading signals for each coin
+        The log_file_size_checker function checks if the log file is larger than 5 MB. If it is, the log file is deleted and a new log file is created.
         :doc-author: Trelent
         """
         try:
+            log_file_size = os.path.getsize('trader.log')
+            if log_file_size > 5000000:
+                os.remove('trader.log')
+                self.logger.info('Log file deleted.')
+                self.logger.info('Creating new log file...')
+                self.logger = logging.getLogger('trader')
+                self.logger.setLevel(logging.INFO)
+                handler = logging.StreamHandler()
+                formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+                handler.setFormatter(formatter)
+                self.logger.addHandler(handler)
+        except Exception as e:
+            self.logger.error(f'Unable to check log file size... {e}')
+
+    def calculate_ta_indicators(self, coins):
+        """
+        Calculate technical indicators and generate trading signals for a list of coins.
+        :param coins: A list of coins to generate signals for
+        :return: A DataFrame with the trading signals for each coin
+        """
+        # Set initial variables
+        stop_loss_pct = 0.03
+        overbought_threshold = 70
+        oversold_threshold = 30
+        buy_threshold = 7000
+        sell_threshold = 7000
+
+        utility = Utility()
+        signals_df = pd.DataFrame()
+
+        for coin in coins:
+            try:
+                print(f'Getting historical data and calculating indicators for {coin}...')
+                df = utility.get_last_100_days(coin)  # Get the last 100 days of data
+                if df is None:
+                    continue
+
+                # Calculate indicators
+                df.ta.ema(close='close', length=20, append=True)
+                df.ta.rsi(close='close', length=14, append=True)
+                df.ta.stoch(high='high', low='low', close='close', append=True)
+                df.ta.macd(close='close', append=True)
+                df.ta.willr(high='high', low='low', close='close', append=True)
+                df.ta.ichimoku(high='high', low='low', close='close', append=True)
+                df.ta.atr(high='high', low='low', close='close', append=True)
+                df.ta.alma(close='close', append=True)
+                df.ta.cti(close='close', append=True)
+                df.ta.stc(close='close', append=True)
+
+                # Define buy and sell points
+                df['buy_points'] = self.calculate_buy_points(df, oversold_threshold)
+                df['sell_points'] = self.calculate_sell_points(df, overbought_threshold)
+
+                # Define stop loss
+                df['peak'] = df['close'].cummax()
+                df['stop_loss'] = df['peak'] * (1 - stop_loss_pct)
+
+                # Define final buy and sell signals
+                df['buy'] = self.calculate_buy_signals(df, buy_threshold)
+                df['sell'] = self.calculate_sell_signals(df)
+
+                df['coin'] = coin
+                signals_df = signals_df.append(df)
+
+            except Exception as e:
+                self.logger.error(f'Unable to generate trading signals for {coin}... {e}')
+
+        return signals_df
+
+
+    def calculate_buy_points(self, df, oversold_threshold):
+        return (
+            (df['close'] > df['EMA_20']).astype(int) +
+            (df['RSI_14'] < oversold_threshold).astype(int) +
+            (df['STOCHk_14_3_3'] < oversold_threshold).astype(int) +
+            (df['MACD_12_26_9'] > df['MACDs_12_26_9']).astype(int) +
+            (df['WILLR_14'] < -80).astype(int) +
+            (df['IKS_26'] > df['close']).astype(int) +
+            (df['ATRr_14'] > df['ATRr_14'].shift(1)).astype(int) +
+            (df['ALMA_10_6.0_0.85'] > df['close']).astype(int) +
+            (df['CTI_12'] < 0).astype(int) +
+            (df['STC_10_12_26_0.5'] < oversold_threshold).astype(int)
+        )
+
+
+    def calculate_sell_points(self, df, overbought_threshold):
+        return (
+            (df['close'] < df['EMA_20']).astype(int) +
+            (df['RSI_14'] > overbought_threshold).astype(int) +
+            (df['STOCHk_14_3_3'] > overbought_threshold).astype(int) +
+            (df['MACD_12_26_9'] < df['MACDs_12_26_9']).astype(int) +
+            (df['WILLR_14'] > -20).astype(int) +
+            (df['IKS_26'] < df['close']).astype(int) +
+            (df['ATRr_14'] < df['ATRr_14'].shift(1)).astype(int) +
+            (df['ALMA_10_6.0_0.85'] < df['close']).astype(int) +
+            (df['CTI_12'] > 0).astype(int) +
+            (df['STC_10_12_26_0.5'] > overbought_threshold).astype(int)
+        )
+
+
+    def calculate_buy_signals(self, df, buy_threshold):
+        return (
+            (df['buy_points'] > 0) &
+            (df['close'] > buy_threshold) &
+            (df['close'] > df['stop_loss'])
+        ).astype(int)
+
+
+    def calculate_sell_signals(self, df):
+        return (
+            (df['sell_points'] > 0) |
+            (df['close'] < df['stop_loss'])
+        ).astype(int)
+
+
+    def trading_function(self, signals_df):
+        """
+        Execute trades based on the trading signals generated by calculate_ta_indicators().
+        :param signals_df: A DataFrame with the trading signals for each coin
+        """
+        coin_status = {}
+        # print the buying power of the account
+        print(f'Buying power: {buying_power} USD')
+        try:
             crypto_positions = r.get_crypto_positions()
             for index, row in signals_df.iterrows():
-                if row['buy_signal']:
-                    #* Create a nice little data viz block for the terminal that shows the TA indicators for why this position was bought
-                    block_text = f"""
-                    {row['coin']} bought at {row['close']} because:
-                    - MACD Line: {row['macd_line']}
-                    - Signal Line: {row['signal_line']}
-                    - RSI: {row['rsi']}
-                    - Williams %R: {row['williams']}
-                    - Stochastic K: {row['stochastic_k']}
-                    - Stochastic D: {row['stochastic_d']}
-                    """
-                    print(Fore.GREEN + block_text + Style.RESET_ALL)
-                    # Check if we have enough buying power to buy this coin
-                    buying_power = self.update_buying_power()
-                    if buying_power > 0:
-                        r.order_buy_crypto_limit(symbol=row['coin'],
-                                                    quantity = buying_power / row['close'],
-                                                    limitPrice = row['close'],
-                                                    timeInForce = 'gtc')
-                        self.logger.info(f'Bought {row["coin"]} at {row["close"]}.')
-                if row['sell_signal']:
-                    for position in crypto_positions:
-                        #* Create a nice little data viz block for the terminal that shows the TA indicators for why this position was sold
-                        block_text = f"""
-                        {row['coin']} sold at {row['close']} because:
-                        - MACD Line: {row['macd_line']}
-                        - Signal Line: {row['signal_line']}
-                        - RSI: {row['rsi']}
-                        - Williams %R: {row['williams']}
-                        - Stochastic K: {row['stochastic_k']}
-                        - Stochastic D: {row['stochastic_d']}
-                        """
-                        print(Fore.RED + block_text + Style.RESET_ALL)
-                        if position['currency']['code'] == row['coin']:
-                            r.order_sell_crypto_limit(symbol=row['coin'],
-                                                        quantity=position['quantity'],
-                                                        limitPrice=row['close'],
-                                                        timeInForce='gtc')
-                            self.logger.info(f'Sold {row["coin"]} at {row["close"]}.')
+                coin = row['coin']
+                buy_signal = row['buy']
+                sell_signal = row['sell']
+                close_price = row['close']
+
+                if buy_signal and coin not in coin_status:
+                    self.execute_buy(coin, close_price)
+                    #add the "bought" tag to the coins status in the dictionary
+                    coin_status[coin] = "bought"
+                elif sell_signal and coin not in coin_status:
+                    self.execute_sell(coin, close_price, crypto_positions)
+                    coin_status[coin] = "sold"
+
         except Exception as e:
             self.logger.error(f'Unable to execute trades... {e}')
+
+    @sleep_and_retry
+    def execute_buy(self, coin, close_price):
+        """
+        Execute a buy order for a specific coin if there is enough buying power.
+        :param coin: The coin to buy
+        :param close_price: The current close price of the coin
+        """
+        # update buying power and calculate how much to spend on crypto
+        buying_power = self.update_buying_power()
+        # buy percent_spend_on_crypto % of buying power worth of cryptocurrency
+        spend = self.buying_power * percent_spend_on_crypto
+        if spend < min_buy and buying_power > min_buy: spend = min_buy
+        buying_power = self.update_buying_power()
+        if buying_power > 0:
+            r.order_buy_crypto_limit(symbol=coin,
+                                    quantity=spend/close_price,
+                                    limitPrice=close_price,
+                                    timeInForce='gtc')
+
+            self.logger.info(f'Submitted Buy Order for {coin} at {close_price}. \n\tIt cost ${spend} USD')
+            # manually reduce buying power to account for delay in order execution
+            self.buying_power -= spend
+
+    @sleep_and_retry
+    def execute_sell(self, coin, close_price, crypto_positions):
+        """
+        Execute a sell order for a specific coin if it is currently owned.
+        :param coin: The coin to sell
+        :param close_price: The current close price of the coin
+        :param crypto_positions: The current crypto positions
+        """
+        for position in crypto_positions:
+            coin_code = position['currency']['code']
+            quantity = float(position['quantity'])
+            price_paid = float(position['cost_bases'][0]['direct_cost_basis'])
+            current_price = float(r.crypto.get_crypto_quote(coin_code)['mark_price'])
+
+            # Calculate unrealized profit/loss
+            unrealized_pl = (float(current_price) - float(price_paid)) * quantity
+
+            # Calculate unrealized profit/loss percentage
+            unrealized_plpc = unrealized_pl / price_paid * 100 if price_paid != 0 else 0
+
+            # Calculate equity
+            equity = current_price * quantity
+
+            # if the lot has dropped by 5% or more, sell it
+            # if the lot has gained by 10% or more, sell it
+            if unrealized_plpc <= -5 or unrealized_plpc >= 10:
+                print(f'Coin: {coin_code}\nQuantity: {quantity}\nPrice Paid: {price_paid}\nCurrent Price: {current_price}\nUnrealized P/L: {unrealized_pl}\nUnrealized P/L %: {unrealized_plpc}\nEquity: {equity}\n')
+
+                r.order_sell_crypto_limit(symbol=coin_code,
+                                          quantity=quantity,
+                                          limitPrice=close_price,
+                                          timeInForce='gtc')
+                print(Fore.RED + f'Sold {coin_code} at {close_price}.\n\tIt cost ${price_paid} USD\n\tIt is now worth ${equity} USD\n\tUnrealized P/L: {unrealized_pl}\n\tUnrealized P/L %: {unrealized_plpc}')
+                # self.logger.info(f'Sold {coin_code} at {close_price}.\n\tIt cost ${price_paid} USD\n\tIt is now worth ${equity} USD\n\tUnrealized P/L: {unrealized_pl}\n\tUnrealized P/L %: {unrealized_plpc}')
+            else:
+                self.logger.info(f'Sold {coin} at {close_price}.')
+
+
+
+    @sleep_and_retry
     def get_total_crypto_dollars(self):
         """
         The get_total_crypto_dollars function calculates the total value of all crypto owned.
         :return: The total value of all crypto owned
         :doc-author: Trelent
         """
-        ic()
         try:
             crypto_positions = r.get_crypto_positions()
             total_crypto_dollars = 0
+
             for position in crypto_positions:
                 total_crypto_dollars += float(position['quantity']) * float(r.crypto.get_crypto_quote(position['currency']['code'])['mark_price'])
+
             return total_crypto_dollars
+
         except Exception as e:
             self.logger.error(f'Unable to get total value of crypto... {e}')
             return 0
-
+    @sleep_and_retry
     def update_buying_power(self):
         """
         The update_buying_power function updates the buying power of the user's account.
         :return: The updated buying power
         :doc-author: Trelent
         """
-        ic()
+        # ic()
         try:
             profile_info = r.load_account_profile()
             cash_available = float(profile_info['cash_available_for_withdrawal'])
             crypto_dollars = self.get_total_crypto_dollars()
             buying_power = cash_available + crypto_dollars
+
+            # save the profile_info to a file for efficiency
+            with open('logs/profile_info.json', 'w') as f:
+                json.dump(profile_info, f)
+
             return buying_power
         except Exception as e:
             self.logger.error(f'Unable to update buying power... {e}')

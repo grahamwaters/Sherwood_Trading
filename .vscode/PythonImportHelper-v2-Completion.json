@@ -266,6 +266,22 @@
         "documentation": {}
     },
     {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
         "label": "numpy",
         "kind": 6,
         "isExtraImport": true,
@@ -638,11 +654,43 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "pytz",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "pytz",
         "description": "pytz",
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
         "detail": "pytz",
         "documentation": {}
     },
@@ -1632,6 +1680,70 @@
         "documentation": {}
     },
     {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
         "label": "tqdm",
         "importPath": "tqdm",
         "description": "tqdm",
@@ -2248,6 +2360,38 @@
         "documentation": {}
     },
     {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
         "label": "time",
         "kind": 6,
         "isExtraImport": true,
@@ -2345,6 +2489,14 @@
         "description": "os",
         "isExtraImport": true,
         "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "ic",
+        "importPath": "icecream",
+        "description": "icecream",
+        "isExtraImport": true,
+        "detail": "icecream",
         "documentation": {}
     },
     {
@@ -2932,6 +3084,14 @@
         "documentation": {}
     },
     {
+        "label": "RandomForestRegressor",
+        "importPath": "sklearn.ensemble",
+        "description": "sklearn.ensemble",
+        "isExtraImport": true,
+        "detail": "sklearn.ensemble",
+        "documentation": {}
+    },
+    {
         "label": "accuracy_score",
         "importPath": "sklearn.metrics",
         "description": "sklearn.metrics",
@@ -2964,6 +3124,30 @@
         "documentation": {}
     },
     {
+        "label": "accuracy_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_squared_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
         "label": "train_test_split",
         "importPath": "sklearn.model_selection",
         "description": "sklearn.model_selection",
@@ -2993,6 +3177,22 @@
         "description": "sklearn.pipeline",
         "isExtraImport": true,
         "detail": "sklearn.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "Pipeline",
+        "importPath": "sklearn.pipeline",
+        "description": "sklearn.pipeline",
+        "isExtraImport": true,
+        "detail": "sklearn.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "StandardScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
         "documentation": {}
     },
     {
@@ -6064,11 +6264,38 @@
         "documentation": {}
     },
     {
+        "label": "buying_power",
+        "kind": 5,
+        "importPath": "main_2",
+        "description": "main_2",
+        "peekOfCode": "buying_power = 0.00 # buying power\nmin_buy = 1.00 # minimum amount to spend on a crypto\nsktrading = False\npercent_spend_on_crypto = 0.05\nclass Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.\n        :doc-author: Trelent\n        \"\"\"",
+        "detail": "main_2",
+        "documentation": {}
+    },
+    {
+        "label": "min_buy",
+        "kind": 5,
+        "importPath": "main_2",
+        "description": "main_2",
+        "peekOfCode": "min_buy = 1.00 # minimum amount to spend on a crypto\nsktrading = False\npercent_spend_on_crypto = 0.05\nclass Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.\n        :doc-author: Trelent\n        \"\"\"\n        pass",
+        "detail": "main_2",
+        "documentation": {}
+    },
+    {
         "label": "sktrading",
         "kind": 5,
         "importPath": "main_2",
         "description": "main_2",
-        "peekOfCode": "sktrading = False\nclass Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.\n        :doc-author: Trelent\n        \"\"\"\n        pass\n    async def log_file_size_checker():\n        \"\"\"",
+        "peekOfCode": "sktrading = False\npercent_spend_on_crypto = 0.05\nclass Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.\n        :doc-author: Trelent\n        \"\"\"\n        pass\n    async def log_file_size_checker():",
+        "detail": "main_2",
+        "documentation": {}
+    },
+    {
+        "label": "percent_spend_on_crypto",
+        "kind": 5,
+        "importPath": "main_2",
+        "description": "main_2",
+        "peekOfCode": "percent_spend_on_crypto = 0.05\nclass Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.\n        :doc-author: Trelent\n        \"\"\"\n        pass\n    async def log_file_size_checker():\n        \"\"\"",
         "detail": "main_2",
         "documentation": {}
     },
@@ -6367,6 +6594,96 @@
         "description": "test",
         "peekOfCode": "class Trader:\n    def __init__(self, logger, utility_logger):\n        ic()\n        self.logger = logging.getLogger('trader')\n        self.logger.setLevel(logging.INFO)\n        handler = logging.StreamHandler()\n        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')\n        handler.setFormatter(formatter)\n        self.logger.addHandler(handler)\n        self.load_config() #^ this is the function that loads the config file and populates the variables",
         "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "Trader",
+        "kind": 6,
+        "importPath": "vanilla",
+        "description": "vanilla",
+        "peekOfCode": "class Trader:\n    def __init__(self, username, password):\n        self.username = username\n        self.password = password\n        self.logger = setup_logger('trader')\n        self.login_setup()\n    def login_setup(self):\n        r.login(self.username, self.password)\n        self.logger.info('Logged in to Robinhood')\n    def get_historical_prices(self, coin):",
+        "detail": "vanilla",
+        "documentation": {}
+    },
+    {
+        "label": "Looper",
+        "kind": 6,
+        "importPath": "vanilla",
+        "description": "vanilla",
+        "peekOfCode": "class Looper:\n    def __init__(self, trader):\n        self.trader = trader\n        self.logger = setup_logger('looper')\n    async def main_looper(self, coins, stop_loss_prices):\n        while True:\n            self.logger.info('Starting loop')\n            await self.loop(coins, stop_loss_prices)\n            self.logger.info('Finished loop')\n            await asyncio.sleep(60)",
+        "detail": "vanilla",
+        "documentation": {}
+    },
+    {
+        "label": "setup_logger",
+        "kind": 2,
+        "importPath": "vanilla",
+        "description": "vanilla",
+        "peekOfCode": "def setup_logger(name):\n    logger = logging.getLogger(name)\n    logger.setLevel(logging.INFO)\n    handler = logging.StreamHandler()\n    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')\n    handler.setFormatter(formatter)\n    logger.addHandler(handler)\n    return logger\nclass Trader:\n    def __init__(self, username, password):",
+        "detail": "vanilla",
+        "documentation": {}
+    },
+    {
+        "label": "get_credentials",
+        "kind": 2,
+        "importPath": "vanilla",
+        "description": "vanilla",
+        "peekOfCode": "def get_credentials():\n    config = configparser.ConfigParser()\n    config.read('config/credentials.ini')\n    credentials = {\n        \"username\": config['credentials']['username'],\n        \"password\": config['credentials']['password']\n    }\n    return credentials\ndef set_stop_loss_prices(coins, stop_loss_percent):\n    stop_loss_prices = {",
+        "detail": "vanilla",
+        "documentation": {}
+    },
+    {
+        "label": "set_stop_loss_prices",
+        "kind": 2,
+        "importPath": "vanilla",
+        "description": "vanilla",
+        "peekOfCode": "def set_stop_loss_prices(coins, stop_loss_percent):\n    stop_loss_prices = {\n        coin: float(r.crypto.get_crypto_quote(coin)['mark_price']) - (float(r.crypto.get_crypto_quote(coin)['mark_price']) * stop_loss_percent)\n        for coin in coins\n    }\n    return stop_loss_prices\nif __name__ == '__main__':\n    print('Starting program...')\n    stop_loss_percent = 0.05\n    coins = ['BTC', 'ETH', 'DOGE', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'AVAX', 'XLM', 'BCH', 'XTZ']",
+        "detail": "vanilla",
+        "documentation": {}
+    },
+    {
+        "label": "Trader",
+        "kind": 6,
+        "importPath": "vanilla_2",
+        "description": "vanilla_2",
+        "peekOfCode": "class Trader:\n    def __init__(self, username, password):\n        self.username = username\n        self.password = password\n        self.logger = setup_logger('trader')\n        self.login_setup()\n    def login_setup(self):\n        r.login(self.username, self.password)\n        self.logger.info('Logged in to Robinhood')\n    def get_historical_prices(self, coin):",
+        "detail": "vanilla_2",
+        "documentation": {}
+    },
+    {
+        "label": "Looper",
+        "kind": 6,
+        "importPath": "vanilla_2",
+        "description": "vanilla_2",
+        "peekOfCode": "class Looper:\n    def __init__(self, trader):\n        self.trader = trader\n        self.logger = setup_logger('looper')\n    async def main_looper(self, coins, stop_loss_prices):\n        while True:\n            self.logger.info('Starting loop')\n            await self.loop(coins, stop_loss_prices)\n            self.logger.info('Finished loop')\n            await asyncio.sleep(60)",
+        "detail": "vanilla_2",
+        "documentation": {}
+    },
+    {
+        "label": "setup_logger",
+        "kind": 2,
+        "importPath": "vanilla_2",
+        "description": "vanilla_2",
+        "peekOfCode": "def setup_logger(name):\n    logger = logging.getLogger(name)\n    logger.setLevel(logging.INFO)\n    handler = logging.StreamHandler()\n    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')\n    handler.setFormatter(formatter)\n    logger.addHandler(handler)\n    return logger\nclass Trader:\n    def __init__(self, username, password):",
+        "detail": "vanilla_2",
+        "documentation": {}
+    },
+    {
+        "label": "get_credentials",
+        "kind": 2,
+        "importPath": "vanilla_2",
+        "description": "vanilla_2",
+        "peekOfCode": "def get_credentials():\n    config = configparser.ConfigParser()\n    config.read('config/credentials.ini')\n    credentials = {\n        \"username\": config['credentials']['username'],\n        \"password\": config['credentials']['password']\n    }\n    return credentials\ndef set_stop_loss_prices(coins, stop_loss_percent):\n    stop_loss_prices = {",
+        "detail": "vanilla_2",
+        "documentation": {}
+    },
+    {
+        "label": "set_stop_loss_prices",
+        "kind": 2,
+        "importPath": "vanilla_2",
+        "description": "vanilla_2",
+        "peekOfCode": "def set_stop_loss_prices(coins, stop_loss_percent):\n    stop_loss_prices = {\n        coin: float(r.crypto.get_crypto_quote(coin)['mark_price']) - (float(r.crypto.get_crypto_quote(coin)['mark_price']) * stop_loss_percent)\n        for coin in coins\n    }\n    return stop_loss_prices\nif __name__ == '__main__':\n    print('Starting program...')\n    stop_loss_percent = 0.05\n    coins = ['BTC', 'ETH', 'DOGE', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'AVAX', 'XLM', 'BCH', 'XTZ']",
+        "detail": "vanilla_2",
         "documentation": {}
     }
 ]
