@@ -1,0 +1,87 @@
+2023-07-28 14:12:50,273 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 14:12:55,510 - trader - INFO - Buying power: $90.12
+2023-07-28 14:13:00,288 - trader - INFO - Crypto value: $71.84
+2023-07-28 14:13:00,289 - trader - ERROR - Unable to generate trading signals... __init__() missing 1 required positional argument: 'logger'
+2023-07-28 14:14:35,799 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 14:14:41,163 - trader - INFO - Buying power: $90.12
+2023-07-28 14:14:45,862 - trader - INFO - Crypto value: $71.84
+2023-07-28 14:14:45,864 - trader - ERROR - Unable to generate trading signals... __init__() missing 1 required positional argument: 'logger'
+2023-07-28 14:15:53,600 - trader - INFO - Buying power: $90.15
+2023-07-28 14:15:58,999 - trader - INFO - Crypto value: $71.87
+2023-07-28 14:15:58,999 - trader - ERROR - Unable to generate trading signals... __init__() missing 1 required positional argument: 'logger'
+2023-07-28 14:16:38,737 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 14:16:44,549 - trader - INFO - Buying power: $90.16
+2023-07-28 14:16:49,461 - trader - INFO - Crypto value: $71.88
+2023-07-28 14:16:49,463 - trader - ERROR - Unable to generate trading signals... __init__() missing 1 required positional argument: 'logger'
+2023-07-28 14:19:22,424 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 14:19:27,729 - trader - INFO - Buying power: $90.18
+2023-07-28 14:19:32,426 - trader - INFO - Crypto value: $71.92
+2023-07-28 14:19:32,716 - trader - ERROR - Unable to get historical data for "BTC". Error: 'NoneType' object is not subscriptable
+2023-07-28 14:19:32,717 - trader - ERROR - Unable to generate trading signals... 'NoneType' object has no attribute 'close'
+2023-07-28 14:20:56,036 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 14:21:01,811 - trader - INFO - Buying power: $90.19
+2023-07-28 14:21:06,535 - trader - INFO - Crypto value: $71.92
+2023-07-28 14:21:06,862 - trader - ERROR - Unable to get historical data for "BTC". Error: 'NoneType' object is not subscriptable
+2023-07-28 14:21:06,862 - trader - ERROR - Unable to generate trading signals... 'NoneType' object has no attribute 'close'
+2023-07-28 14:22:46,914 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 14:22:52,086 - trader - INFO - Buying power: $90.18
+2023-07-28 14:22:56,824 - trader - INFO - Crypto value: $71.91
+2023-07-28 14:24:02,950 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 14:24:08,289 - trader - INFO - Buying power: $90.13
+2023-07-28 14:24:12,778 - trader - INFO - Crypto value: $71.84
+2023-07-28 14:25:36,135 - trader - INFO - Buying power: $90.14
+2023-07-28 14:25:40,797 - trader - INFO - Crypto value: $71.88
+2023-07-28 14:31:33,363 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 14:37:32,519 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 14:38:41,588 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 14:39:06,843 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 14:42:25,316 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 14:51:24,449 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 14:51:43,608 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 14:53:36,606 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 14:57:20,560 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 14:58:12,507 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 14:58:53,596 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 14:59:07,726 - trader - ERROR - Unable to trade... 'sell_signal'
+2023-07-28 15:00:03,545 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 15:01:06,148 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 15:01:13,635 - trader - ERROR - Unable to trade... 'sell_signal'
+2023-07-28 15:01:33,914 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 15:01:41,248 - trader - ERROR - Unable to trade... 'sell_signal'
+2023-07-28 15:02:20,635 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 15:04:56,053 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 15:05:11,272 - trader - ERROR - Unable to trade... 'dict' object has no attribute 'buy_signal'
+2023-07-28 15:06:18,400 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 15:06:19,259 - trader - ERROR - Unable to generate trading signals... 'sell_signal'
+2023-07-28 15:06:19,812 - trader - ERROR - Unable to trade... Wrong number of items passed 0, placement implies 1
+2023-07-28 15:06:19,813 - trader - ERROR - Unable to generate trading signals... 'sell_signal'
+2023-07-28 15:08:11,684 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 15:09:03,321 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 15:09:04,189 - trader - ERROR - Unable to generate trading signals... local variable 'macd_line' referenced before assignment
+2023-07-28 15:09:04,844 - trader - ERROR - Unable to trade... Wrong number of items passed 0, placement implies 1
+2023-07-28 15:09:04,873 - trader - ERROR - Unable to generate trading signals... local variable 'macd_line' referenced before assignment
+2023-07-28 15:09:47,999 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 15:09:48,838 - trader - ERROR - Unable to generate trading signals... local variable 'rsi' referenced before assignment
+2023-07-28 15:09:49,252 - trader - ERROR - Unable to trade... Wrong number of items passed 0, placement implies 1
+2023-07-28 15:09:49,399 - trader - ERROR - Unable to generate trading signals... local variable 'rsi' referenced before assignment
+2023-07-28 15:10:49,954 - trader - ERROR - Unable to generate trading signals... local variable 'rsi' referenced before assignment
+2023-07-28 15:10:50,452 - trader - ERROR - Unable to generate trading signals... local variable 'rsi' referenced before assignment
+2023-07-28 15:10:50,511 - trader - ERROR - Unable to trade... Wrong number of items passed 0, placement implies 1
+2023-07-28 15:11:02,889 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 15:11:08,571 - trader - ERROR - Unable to generate trading signals... 'sell_signal'
+2023-07-28 15:11:09,057 - trader - ERROR - Unable to trade... Wrong number of items passed 0, placement implies 1
+2023-07-28 15:14:15,812 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 15:14:20,319 - trader - ERROR - Unable to generate trading signals... 'sell_signal'
+2023-07-28 15:14:22,714 - trader - ERROR - Unable to trade... Wrong number of items passed 0, placement implies 1
+2023-07-28 15:14:22,718 - trader - ERROR - Unable to generate trading signals... 'sell_signal'
+2023-07-28 15:15:40,320 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 15:15:44,619 - trader - ERROR - Unable to generate trading signals... 'sell_signal'
+2023-07-28 15:15:45,122 - trader - ERROR - Unable to generate trading signals... 'sell_signal'
+2023-07-28 15:15:45,181 - trader - ERROR - Unable to trade... Wrong number of items passed 0, placement implies 1
+2023-07-28 15:16:45,802 - trader - ERROR - Unable to generate trading signals... 'sell_signal'
+2023-07-28 15:16:46,359 - trader - ERROR - Unable to trade... Wrong number of items passed 0, placement implies 1
+2023-07-28 15:16:46,401 - trader - ERROR - Unable to generate trading signals... 'sell_signal'
+2023-07-28 15:16:53,564 - trader - INFO - Logged in to Robinhood successfully.
+2023-07-28 15:16:54,135 - trader - ERROR - Unable to generate trading signals... 'sell_signal'
+2023-07-28 15:16:54,677 - trader - ERROR - Unable to generate trading signals... 'sell_signal'
+2023-07-28 15:16:55,094 - trader - ERROR - Unable to trade... Wrong number of items passed 0, placement implies 1
