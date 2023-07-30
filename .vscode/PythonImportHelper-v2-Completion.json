@@ -266,6 +266,14 @@
         "documentation": {}
     },
     {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
         "label": "numpy",
         "kind": 6,
         "isExtraImport": true,
@@ -638,11 +646,27 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "pytz",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "pytz",
         "description": "pytz",
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
         "detail": "pytz",
         "documentation": {}
     },
@@ -1368,134 +1392,6 @@
         "documentation": {}
     },
     {
-        "label": "Back",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Fore",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Style",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Back",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Fore",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Style",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Fore",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Back",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Style",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Fore",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Back",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Style",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Fore",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Back",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Style",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
-        "label": "Fore",
-        "importPath": "colorama",
-        "description": "colorama",
-        "isExtraImport": true,
-        "detail": "colorama",
-        "documentation": {}
-    },
-    {
         "label": "Fore",
         "importPath": "colorama",
         "description": "colorama",
@@ -1576,6 +1472,158 @@
         "documentation": {}
     },
     {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
         "label": "Style",
         "importPath": "colorama",
         "description": "colorama",
@@ -1621,6 +1669,14 @@
         "description": "colorama",
         "isExtraImport": true,
         "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
         "documentation": {}
     },
     {
@@ -2468,6 +2524,14 @@
         "documentation": {}
     },
     {
+        "label": "ic",
+        "importPath": "icecream",
+        "description": "icecream",
+        "isExtraImport": true,
+        "detail": "icecream",
+        "documentation": {}
+    },
+    {
         "label": "pyotp",
         "kind": 6,
         "isExtraImport": true,
@@ -2840,15 +2904,6 @@
         "documentation": {}
     },
     {
-        "label": "pandas_ta",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pandas_ta",
-        "description": "pandas_ta",
-        "detail": "pandas_ta",
-        "documentation": {}
-    },
-    {
         "label": "configparser",
         "kind": 6,
         "isExtraImport": true,
@@ -2858,11 +2913,28 @@
         "documentation": {}
     },
     {
+        "label": "pandas_ta",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas_ta",
+        "description": "pandas_ta",
+        "detail": "pandas_ta",
+        "documentation": {}
+    },
+    {
         "label": "alive_progress",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "alive_progress",
         "description": "alive_progress",
+        "detail": "alive_progress",
+        "documentation": {}
+    },
+    {
+        "label": "alive_bar",
+        "importPath": "alive_progress",
+        "description": "alive_progress",
+        "isExtraImport": true,
         "detail": "alive_progress",
         "documentation": {}
     },
@@ -5580,6 +5652,51 @@
         "description": "ToT_main_guido",
         "peekOfCode": "class Looper:\n    def __init__(self, trader: Trader):\n        self.trader = trader\n        self.logger = logging.getLogger('looper')\n        self.logger.setLevel(logging.INFO)\n        handler = logging.StreamHandler()\n        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')\n        handler.setFormatter(formatter)\n        self.logger.addHandler(handler)\n    async def run_async_functions(self, loop_count, coins, stop_loss_prices):",
         "detail": "ToT_main_guido",
+        "documentation": {}
+    },
+    {
+        "label": "Utility",
+        "kind": 6,
+        "importPath": "best",
+        "description": "best",
+        "peekOfCode": "class Utility:\n    def __init__(self):\n        # Set up logging\n        self.logger = logging.getLogger('utility')\n        self.logger.setLevel(logging.INFO)\n        handler = logging.StreamHandler()\n        formatter = logging.Formatter(f'{Fore.BLUE}%(asctime)s{Style.RESET_ALL} - %(name)s - %(levelname)s - %(message)s')\n        handler.setFormatter(formatter)\n        self.logger.addHandler(handler)\n    async def log_file_size_checker(self):",
+        "detail": "best",
+        "documentation": {}
+    },
+    {
+        "label": "Trader",
+        "kind": 6,
+        "importPath": "best",
+        "description": "best",
+        "peekOfCode": "class Trader:\n    \"\"\"\n    The Trader class provides functions for logging into Robinhood, resetting orders, generating trading signals, executing actions based on these signals, updating the buying power, and checking stop loss prices.\n    # Detailed Function Descriptions\n    1. login_setup: The login_setup function logs into Robinhood using the provided username and password.\n    2. resetter: The resetter function cancels all open orders and sells all positions. This function is used to reset the bot.\n    3. calculate_ta_indicators:\n        The calculate_ta_indicators function calculates different technical indicators and generates trading signals based on these indicators. The indicators are: EMA, MACD, RSI, Williams %R, Stochastic Oscillator, Bollinger Bands, and Parabolic SAR.\n        A boolean is generated based on these indicators. If the boolean is True, a buy signal is generated. If the boolean is False, a sell signal is generated. The signals are returned in a DataFrame.\n        :param coins: A list of coins to generate signals for",
+        "detail": "best",
+        "documentation": {}
+    },
+    {
+        "label": "Looper",
+        "kind": 6,
+        "importPath": "best",
+        "description": "best",
+        "peekOfCode": "class Looper:\n    def __init__(self, trader: Trader):\n        \"\"\"\n        The Looper class provides functions for running asynchronous operations.\n        :param trader: An instance of the Trader class\n        :doc-author: Trelent\n        \"\"\"\n        self.trader = trader\n        self.utility = Utility() #needed for is_daytime()\n        # Set up logging",
+        "detail": "best",
+        "documentation": {}
+    },
+    {
+        "label": "PCT_SPEND",
+        "kind": 5,
+        "importPath": "best",
+        "description": "best",
+        "peekOfCode": "PCT_SPEND = 0.05 # 5% of buying power\nverbose_mode = False # Set to True to see more logging output\nfrom colorama import Fore, Back, Style\nclass Utility:\n    def __init__(self):\n        # Set up logging\n        self.logger = logging.getLogger('utility')\n        self.logger.setLevel(logging.INFO)\n        handler = logging.StreamHandler()\n        formatter = logging.Formatter(f'{Fore.BLUE}%(asctime)s{Style.RESET_ALL} - %(name)s - %(levelname)s - %(message)s')",
+        "detail": "best",
+        "documentation": {}
+    },
+    {
+        "label": "verbose_mode",
+        "kind": 5,
+        "importPath": "best",
+        "description": "best",
+        "peekOfCode": "verbose_mode = False # Set to True to see more logging output\nfrom colorama import Fore, Back, Style\nclass Utility:\n    def __init__(self):\n        # Set up logging\n        self.logger = logging.getLogger('utility')\n        self.logger.setLevel(logging.INFO)\n        handler = logging.StreamHandler()\n        formatter = logging.Formatter(f'{Fore.BLUE}%(asctime)s{Style.RESET_ALL} - %(name)s - %(levelname)s - %(message)s')\n        handler.setFormatter(formatter)",
+        "detail": "best",
         "documentation": {}
     },
     {
