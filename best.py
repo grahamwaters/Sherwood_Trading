@@ -15,6 +15,8 @@ import sys
 import time
 import os
 import random
+from ratelimit import limits, sleep_and_retry
+
 # from legacy.V5.main2 import stop_loss_percent
 from tqdm import tqdm
 
@@ -48,6 +50,8 @@ class Utility:
                     with open('logs/robinhood.log', 'w') as f:
                         f.writelines(lines[num_lines_to_remove:])
             await asyncio.sleep(1200)
+
+    @sleep_and_retry
     def get_last_100_days(self, coin):
         """
         The get_last_100_days function gets the last 100 days of a particular coin's data.
@@ -177,13 +181,34 @@ class Trader:
                 r.cancel_crypto_order(order['id'])
             print(Fore.GREEN + 'All open orders cancelled.')
             self.logger.info('All open orders cancelled.' + Style.RESET_ALL)
+
             crypto_positions = r.get_crypto_positions()
             for position in crypto_positions:
-                r.order_sell_crypto_limit(position['currency']['code'], position['quantity'], position['cost_bases'][0]['direct_cost_basis'])
-                print(Fore.YELLOW + f'Selling {position["currency"]["code"]} position...' + Style.RESET_ALL)
+
+
+                # determine the side of the order
+                side = 'sell'
+                amount_in = 'quantity'
+                quantity_or_price = str(position['quantity'])
+
+                if position['quantity'] == '0.00000000' or float(position['quantity']) == 0.0:
+                    continue
+
+                r.orders.order_crypto(
+                    symbol=str(position['currency']['code']),
+                    quantityOrPrice=float(quantity_or_price),
+                    amountIn=str(amount_in),
+                    side=side,
+                    timeInForce='gtc',
+                    jsonify=True
+                )
+                time.sleep(random.randint(1, 5))
+                print(Fore.GREEN + f'Sold {position["currency"]["code"]} at {position["cost_bases"][0]["direct_cost_basis"]}' + Fore.RESET)
+
             self.logger.info('All positions sold.')
         except Exception as e:
             self.logger.error(f'Unable to reset orders and positions... {e}')
+
     def calculate_ta_indicators(self, coins):
         """
         The calculate_ta_indicators function calculates different technical indicators and generates trading signals based on these indicators. The indicators are: EMA, MACD, RSI, Williams %R, Stochastic Oscillator, Bollinger Bands, and Parabolic SAR.
@@ -223,10 +248,33 @@ class Trader:
 
                     #^ coins name
                     df['coin'] = coin
+                    df['purchase_price'] = 0  # Initialize the purchase_price column with 0
+
+                    # Get crypto positions and update the purchase_price for the current coin
+                    # positions = r.crypto.get_crypto_positions()
+                    # for position in positions:
+                    #     if position['currency']['code'] == coin:
+                    #         df['purchase_price'] = float(position['cost_bases'][0]['direct_cost_basis'])
+
+                    #^ Take loss price
+                    # take_loss_pct = 0.05  # 5% take loss #todo -- make this come from the config file
+                    # for index, row in df.iterrows():
+                    #     df['take_loss_price'] = df['purchase_price'] * take_loss_pct
 
                     # Buying and selling signals
-                    df['buy_signal'] = ((df['macd_line'] > df['signal_line']) & (df['rsi'] < 30)) | ((df['stoch_k'] > df['stoch_d']) & (df['willr'] < -80))
-                    df['sell_signal'] = ((df['macd_line'] < df['signal_line']) & (df['rsi'] > 70)) | ((df['stoch_k'] < df['stoch_d']) & (df['willr'] > -20))
+                    # Buy when the MACD line crosses above the signal line and the RSI is below 30 (oversold) ignore the stochastic oscillator and williams %r
+                    df['buy_signal'] = ((df['macd_line'] > df['signal_line']) & (df['rsi'] < 30))
+                    # Sell when the MACD line crosses below the signal line and the RSI is above 70 (overbought) ignore the stochastic oscillator and williams %r
+                    df['sell_signal'] = ((df['macd_line'] < df['signal_line']) & (df['rsi'] > 70))
+                    # Also only sell if the coin's current price is greater than the purchase price OR if it is less than the take loss price
+                    # df['take_profit_signal'] = df['sell_signal'] & ((df['close'] > df['purchase_price']) | (df['close'] < df['take_loss_price']))
+                    # combine the two sell signals into one
+                    #& df['sell_signal'] = df['sell_signal'] | df['take_profit_signal']
+
+
+
+                    # update the MasterSignalDictionary with the current coin's signals
+                    # self.MasterSignalDictionary[coin] = df
 
                     if verbose_mode:
                         # if a buy signal is generated, print the buy signal as a line
@@ -241,6 +289,7 @@ class Trader:
             except Exception as e:
                 self.logger.error(f'Unable to generate trading signals... {e}')
                 return pd.DataFrame()
+
 
     def update_master_order_history(self, coin, close_price, spend_amount, side):
         # update Master Order History with new order
@@ -282,12 +331,12 @@ class Trader:
 
 
     def trading_function(self, signals_df):
-        buying_power = self.update_buying_power()
         """
         The trading_function function takes the trading signals generated by calculate_ta_indicators() and places trades accordingly.
         :param signals_df: A DataFrame with the trading signals for each coin
         :doc-author: Trelent
         """
+        buying_power = self.update_buying_power()
         try:
             crypto_positions = r.get_crypto_positions()
             print(f'We own {len(crypto_positions)} open positions.')
@@ -297,18 +346,33 @@ class Trader:
             # Create a set to track bought coins
             bought_coins = set()
 
-            for index, row in signals_df.iterrows():
+            for index, row in tqdm(signals_df.iterrows(), total=signals_df.shape[0]):
+
+                # check if the coin is already in our portfolio and skip if it is
+                if row['coin'] in crypto_positions:
+                    continue
                 if row['buy_signal'] and row['coin'] not in bought_coins:
                     # Check if we have enough buying power to buy this coin
                     if buying_power > 0:
                         # calculate the spend amount based on the buying power and the % of buying power to spend on each trade
                         spend_amount = buying_power * float(self.spend_pct) # pull from config file
+
+                        # determine the side of the order
+                        side = 'buy'
+                        amount_in = 'dollars'
+                        quantity_or_price = str(spend_amount / row['close'])
+
                         # place the buy order
-                        r.order_buy_crypto_limit(symbol=row['coin'],
-                                                quantity = spend_amount / row['close'],
-                                                limitPrice = row['close'],
-                                                timeInForce = 'gtc')
+                        r.orders.order_crypto(
+                            symbol=str(row['coin']),
+                            quantityOrPrice=float(quantity_or_price),
+                            amountIn=str(amount_in),
+                            side=side,
+                            timeInForce='gtc',
+                            jsonify=True
+                        )
                         time.sleep(random.randint(1, 5))
+
                         # update MasterOrderHistory
                         self.update_master_order_history(row['coin'], row['close'], spend_amount, 'buy')
 
@@ -338,10 +402,24 @@ class Trader:
                 # quantity = data['quantity']
                 # this is the price we bought the coin at
                 # price = data['price']
-                r.order_sell_crypto_limit(symbol=coin,
-                                        quantity=data['quantity'],
-                                        limitPrice=data['price'],
-                                        timeInForce='gtc')
+
+                # determine the side of the order
+                side = 'sell'
+                amount_in = 'quantity'
+                quantity_or_price = str(data['quantity'])
+
+                # if there are multiple . in the quantity_or_price, then it is an invalid quantity and we have to continue
+                if quantity_or_price.count('.') > 1:
+                    continue
+                # place the sell order
+                r.orders.order_crypto(
+                    symbol=str(coin),
+                    quantityOrPrice=float(quantity_or_price),
+                    amountIn=str(amount_in),
+                    side=side,
+                    timeInForce='gtc',
+                    jsonify=True
+                )
                 time.sleep(random.randint(1, 5))
                 print(Fore.GREEN + f'Sold {coin} at {data["price"]}' + Fore.RESET)
                 # print the profit/loss
@@ -353,6 +431,7 @@ class Trader:
                 self.update_master_order_history(coin, data['price'], data['quantity'], 'sell')
         except Exception as e:
             self.logger.error(f'Unable to execute trades... {e}')
+
 
     def get_total_crypto_dollars(self):
         """
@@ -406,8 +485,20 @@ class Trader:
                     for position in crypto_positions:
                         if position['currency']['code'] == coin:
                             print(f'Sold {coin} at {current_price} due to stop loss.')
-                            r.order_sell_crypto_limit(coin, position['quantity'], current_price)
-                            self.logger.info(f'Sold {coin} at {current_price} due to stop loss.')
+                            # determine the side of the order
+                            side = 'sell'
+                            amount_in = 'quantity'
+                            quantity_or_price = str(position['quantity'])
+                            r.orders.order_crypto(
+                                symbol=str(coin),
+                                quantityOrPrice=float(quantity_or_price),
+                                amountIn=str(amount_in),
+                                side=side,
+                                timeInForce='gtc',
+                                jsonify=True
+                            )
+                            time.sleep(random.randint(1, 5))
+                            print(Fore.GREEN + f'Sold {coin} at {position["price"]}' + Fore.RESET)
         except Exception as e:
             self.logger.error(f'Unable to check stop loss prices... {e}')
     def main(self, coins, stop_loss_prices):
@@ -463,6 +554,8 @@ class Looper:
         :doc-author: Trelent
         """
         try:
+            ic()
+            print(f'Loop count: {loop_count}')
             if loop_count % 10 == 0:
                 self.trader.update_buying_power()
                 # # update the inertia values every ten minutes by decrementing them unless they're already at one
@@ -470,11 +563,14 @@ class Looper:
                 #     if self.trader.inertia_values[coin] > 1:
                 #         # save the inertia values to a file
                 #         with open('inertia_values.json', 'w') as f:
-
+            ic()
             self.trader.main(coins, stop_loss_prices)
             # run all async functions simultaneously
             # log_file_size_checker included to prevent log file from getting too large
+            print(f'awaiting the async function: utility -> log_file_size_checker')
             await self.utility.log_file_size_checker()
+            print('finished the async function: utility -> log_file_size_checker')
+
         except Exception as e:
             self.logger.error(f'Unable to run async functions... {e}')
     async def main_looper(self, coins, stop_loss_prices):
@@ -490,7 +586,10 @@ class Looper:
         loop_count = 0
         while True:
             try:
+                print(Fore.YELLOW + f'Loop count: {loop_count}' + Fore.RESET)
+                ic()
                 await self.run_async_functions(loop_count, coins, stop_loss_prices)
+                print(f'Finished running async functions...')
                 loop_count += 1
                 # use alive progress to show a sleep bar for ten minutes
                 with alive_bar(600, bar='blocks', spinner='dots_waves') as bar:

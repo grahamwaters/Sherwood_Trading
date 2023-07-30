@@ -2256,6 +2256,22 @@
         "documentation": {}
     },
     {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
         "label": "sleep_and_retry",
         "importPath": "ratelimit",
         "description": "ratelimit",
