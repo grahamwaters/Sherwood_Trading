@@ -14,11 +14,24 @@ import os
 from tqdm import tqdm
 from colorama import Fore, Back, Style
 from ratelimit import limits, sleep_and_retry
-
+from icecream import ic
+from legacy.V1.supportmaterial import M
+from typing import Optional
 #^ Global Variables
 LOG_FILE = 'logs/crypto.log'
 LOG_FILE_SIZE_LIMIT = 50000000  # 50 MB
+signals_df = pd.DataFrame()
 
+#^ I want a master DataFrame which will hold Historical Data for all coins
+MasterHistoricalData = {}
+#^ I want a master DataFrame which will hold Technical Analysis for all coins
+MasterTechnicalAnalysis = {}
+#^ I want a master DataFrame which will hold Signals for all coins
+MasterSignals = {}
+#^ I want a master DataFrame which will hold Positions for all coins
+MasterPositions = {}
+#^ I want a master DataFrame which will hold Orders for all coins
+MasterOrders = {}
 
 class Utility:
     def __init__(self):
@@ -30,7 +43,7 @@ class Utility:
         self.logger = logging.getLogger('utility')
         self.logger.setLevel(logging.INFO)
         handler = logging.StreamHandler()
-        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        formatter = logging.Formatter(f'{Fore.BLUE}%(asctime)s{Style.RESET_ALL} - %(name)s - %(levelname)s - %(message)s')
         handler.setFormatter(formatter)
         self.logger.addHandler(handler)
         pass
@@ -38,24 +51,66 @@ class Utility:
     #*fixed
     def get_last_100_days(self, coin):
         try:
-            df = self.get_historical_data(coin)
-            df = self.process_historical_data(df)
+            dfO = self.get_historical_data(coin) #^ Updates the MasterHistoricalData
+            self.logger.info(f'Processing historical data for {coin}...')
+            df = MasterHistoricalData[coin] #^ Gets the df from the MasterHistoricalData which was just updated
+            self.logger.info(f'Updated MasterHistoricalData for {coin}...')
+            df = self.process_historical_data(df, coin) #^ Processes the df
+            self.logger.info(f'Processed historical data for {coin}...')
             return df
         except Exception as e:
             self.logger.error(f'Unable to get historical data for {coin}... {e}')
             return pd.DataFrame()
     #*fixed
     def get_historical_data(self, coin):
-        #^ Fixed ->'robin_stocks.robinhood' has no attribute 'get_historicals'
-        return pd.DataFrame(r.get_crypto_historicals(coin,
-                                                     interval='hour', span='3month'))
+        try:
+            #^ Fixed ->'robin_stocks.robinhood' has no attribute 'get_historicals'
+            #^the fix for ValueError('Wrong number of items passed 6, placement implies 1') is below
+            df = pd.DataFrame(r.crypto.get_crypto_historicals(coin, span='week', interval='5minute', bounds='24_7', info=None))
+            #explained: the above line gets the historical data for the coin, and puts it into a df
+            # we want ['begins_at', 'open_price', 'close_price', 'high_price', 'low_price', 'volume', 'session', 'interpolated', 'symbol'] to map to ['begins_at', 'open', 'close', 'high', 'low', 'volume', 'session', 'interpolated', 'symbol']
+            df.rename(columns={'open_price': 'open', 'close_price': 'close', 'high_price': 'high', 'low_price': 'low'}, inplace=True)
+            #^ Save the df to the MasterHistoricalData
+            MasterHistoricalData[coin] = df
+            return df
+        except Exception as e:
+            self.logger.error(f'Unable to get historical data for {coin}... {e}')
+            ic()
+            return pd.DataFrame()
     #*fixed
-    def process_historical_data(self, df):
-        df = df.set_index('begins_at')
-        df.index = pd.to_datetime(df.index)
-        df[['open', 'high', 'low', 'close']] = df[['open', 'high', 'low', 'close']].apply(pd.to_numeric)
-        df = df[df.volume != '0']
-        df = df.iloc[-100:]
+    def process_historical_data(self, df, coin):
+        # MasterHistoricalData should be a global variable, and should be a dictionary of dataframes with the key being the coin. This way, we can access the historical data for any coin by calling MasterHistoricalData[coin] and it will return the dataframe for that coin. We have a subset of this dataframe as "df" here in this function. We can use this function to process the data for any coin, and then save it back to the MasterHistoricalData[coin] dataframe.
+        try:
+            #^ Process Step 1: Convert the 'begins_at' column to datetime
+            df['begins_at'] = pd.to_datetime(df['begins_at'])
+            #^ Process Step 2: Set the 'begins_at' column as the index
+            #^ Process Step 3: Drop the 'interpolated' column
+            df.drop(columns=['interpolated'], inplace=True)
+            #^ Process Step 4: Set the 'begins_at' column as the index
+            # df.set_index('begins_at', inplace=True)
+            #^ Process Step 5: Convert the 'open', 'close', 'high', and 'low' columns to floats
+            df['open'] = df['open'].astype(float)
+            df['close'] = df['close'].astype(float)
+            df['high'] = df['high'].astype(float)
+            df['low'] = df['low'].astype(float)
+            #^ Process Step 6: Add the 'coin' column
+            df['coin'] = coin
+            #^ Process Step 7: Add the 'volume' column
+            df['volume'] = df['volume'].astype(float)
+            #^ Process Step 8: Add the 'timeframe' column
+            df['timeframe'] = '5minute'
+            #^ Process Step 9: Add the 'span' column
+            df['span'] = 'week'
+            #^ Process Step 10: Add the 'bounds' column
+            df['bounds'] = '24_7'
+            #^ Process Step 11: Add the 'info' column
+            df['info'] = None
+            #^ Process Step 12: Add the 'session' column
+            df['session'] = 'reg'
+        except Exception as e:
+            self.logger.error(f'Unable to process historical data for {coin}...')
+        #^ Save it anyway in the MasterHistoricalData under the key of the coin
+        MasterHistoricalData[coin] = df #note: this should be a global variable
         return df
 
     def is_daytime(self):
@@ -70,8 +125,9 @@ class Utility:
             return []
 
     def get_tradable_coins(self):
-        coins = r.get_crypto_info()
-        return [coin['symbol'] for coin in coins if coin['tradability'] == 'tradable']
+        coins = r.crypto.get_crypto_currency_pairs()
+        coins = [coin['quote_currency']['code'] for coin in coins if coin['tradability'] == 'tradable']
+        return coins
 
 
 class Trader:
@@ -111,7 +167,7 @@ class Trader:
         self.logger = logging.getLogger('trader')
         self.logger.setLevel(logging.INFO)
         handler = logging.StreamHandler()
-        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        formatter = logging.Formatter(f'{Fore.YELLOW}%(asctime)s{Style.RESET_ALL} - %(name)s - %(levelname)s - %(message)s')
         handler.setFormatter(formatter)
         self.logger.addHandler(handler)
         # Login to Robinhood
@@ -156,31 +212,31 @@ class Trader:
         self.sell_all_positions()
 
 
-    async def calculate_ta_indicators(self, coins):
-        signals_df = pd.DataFrame()
-        utility = Utility()
+    def calculate_ta_indicators(self, coins):
+        # Go through each coin in the coins list, and the associated df in the MasterHistoricalData dict and calculate the indicators: EMA, MACD, RSI, Williams %R, Stochastic Oscillator, Bollinger Bands, then generate a buy/sell signal based on these indicators
+        # Return a DataFrame with the signals for each coin
+
+        # Initialize the DataFrame
+        signals_df = pd.DataFrame(columns=['coin', 'buy_signal', 'close', 'ema', 'macd', 'rsi', 'williams', 'stochastic', 'bollinger', 'sell_signal'])
+        # Go through each coin in the coins list
         for coin in coins:
             try:
-                df = await self.calculate_single_coin_indicators(coin, utility)
-                signals_df = signals_df.append(df)
+                # Get the df for the coin
+                df = self.MasterHistoricalData[coin]
             except Exception as e:
-                self.logger.error(f'Unable to generate trading signals for {coin}... {e}')
+                self.logger.error(f'Unable to calculate indicators for {coin}... {e}')
+        # Return the signals_df DataFrame
         return signals_df
+    async def trim_to_last_row(self,df: pd.DataFrame):
+        return df.tail(1)
 
-    async def calculate_single_coin_indicators(self, coin, utility):
-        df = utility.get_last_100_days(coin)
-        df['sma'] = df.close.rolling(window=50).mean()
-        df['ema'] = df.close.ewm(span=50, adjust=False).mean()
-        df['macd_line'], df['signal_line'], df['macd_hist'] = ta.macd(df.close)
-        df['rsi'] = ta.rsi(df.close)
-        df['williams'] = ta.williams_r(df.high, df.low, df.close)
-        df['stochastic_k'], df['stochastic_d'] = ta.stoch(df.high, df.low, df.close)
-        df['bollinger_l'], df['bollinger_m'], df['bollinger_u'] = ta.bollinger_bands(df.close)
-        df['buy_signal'] = ((df.macd_line > df.signal_line) & (df.rsi < 30)) | ((df.stochastic_k > df.stochastic_d) & (df.williams < -80))
-        df['sell_signal'] = ((df.macd_line < df.signal_line) & (df.rsi > 70)) | ((df.stochastic_k < df.stochastic_d) & (df.williams > -20))
-        return df
+    def add_coin_name(self,df: pd.DataFrame, coin: str):
+        df['coin'] = coin
+
+
 
     async def trading_function(self, coins, signals_df):
+        ic()
         for coin in coins:
             try:
                 self.handle_buy_signals(coin, signals_df)
@@ -190,13 +246,21 @@ class Trader:
 
     def handle_buy_signals(self, coin, signals_df):
         if 'buy_signal' in signals_df.columns and 'close' in signals_df.columns and signals_df.at[coin, 'buy_signal'] and self.buying_power > signals_df.at[coin, 'close']:
-            r.order_buy_crypto_limit(coin, self.buying_power / signals_df.at[coin, 'close'], signals_df.at[coin, 'close'])
+            r.order_buy_crypto_limit(
+                symbol = coin,
+                quantity=self.buying_power / signals_df.at[coin, 'close'],
+                limitPrice=signals_df.at[coin, 'close']
+                )
             self.buying_power -= signals_df.at[coin, 'close']
-            self.logger.info(f'Purchased {coin}.')
+            self.logger.info(f'Purchased {coin} for {signals_df.at[coin, "close"]}. leaving ${self.buying_power} in buying power.')
 
     def handle_sell_signals(self, coin, signals_df):
         if 'sell_signal' in signals_df.columns and 'quantity' in signals_df.columns and 'close' in signals_df.columns and signals_df.at[coin, 'sell_signal']:
-            r.order_sell_crypto_limit(coin, signals_df.at[coin, 'quantity'], signals_df.at[coin, 'close'])
+            r.order_sell_crypto_limit(
+                symbol = coin,
+                quantity=signals_df.at[coin, 'quantity'],
+                limitPrice=signals_df.at[coin, 'close']
+                )
             self.buying_power += signals_df.at[coin, 'close']
             self.logger.info(f'Sold {coin}.')
 
@@ -304,7 +368,7 @@ class Looper:
         self.logger = logging.getLogger('looper')
         self.logger.setLevel(logging.INFO)
         handler = logging.StreamHandler()
-        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        formatter = logging.Formatter(f'{Fore.CYAN}%(asctime)s{Style.RESET_ALL} - %(name)s - %(levelname)s - %(message)s')
         handler.setFormatter(formatter)
         self.logger.addHandler(handler)
 

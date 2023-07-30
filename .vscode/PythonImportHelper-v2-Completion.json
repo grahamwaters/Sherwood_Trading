@@ -2452,6 +2452,22 @@
         "documentation": {}
     },
     {
+        "label": "ic",
+        "importPath": "icecream",
+        "description": "icecream",
+        "isExtraImport": true,
+        "detail": "icecream",
+        "documentation": {}
+    },
+    {
+        "label": "ic",
+        "importPath": "icecream",
+        "description": "icecream",
+        "isExtraImport": true,
+        "detail": "icecream",
+        "documentation": {}
+    },
+    {
         "label": "pyotp",
         "kind": 6,
         "isExtraImport": true,
@@ -2739,6 +2755,15 @@
         "documentation": {}
     },
     {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
         "label": "exit",
         "importPath": "sys",
         "description": "sys",
@@ -2824,28 +2849,53 @@
         "documentation": {}
     },
     {
-        "label": "stop_loss_percent",
-        "importPath": "legacy.V5.main2",
-        "description": "legacy.V5.main2",
-        "isExtraImport": true,
-        "detail": "legacy.V5.main2",
-        "documentation": {}
-    },
-    {
-        "label": "stop_loss_percent",
-        "importPath": "legacy.V5.main2",
-        "description": "legacy.V5.main2",
-        "isExtraImport": true,
-        "detail": "legacy.V5.main2",
-        "documentation": {}
-    },
-    {
         "label": "configparser",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "configparser",
         "description": "configparser",
         "detail": "configparser",
+        "documentation": {}
+    },
+    {
+        "label": "alive_progress",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "alive_progress",
+        "description": "alive_progress",
+        "detail": "alive_progress",
+        "documentation": {}
+    },
+    {
+        "label": "alive_bar",
+        "importPath": "alive_progress",
+        "description": "alive_progress",
+        "isExtraImport": true,
+        "detail": "alive_progress",
+        "documentation": {}
+    },
+    {
+        "label": "stop_loss_percent",
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "isExtraImport": true,
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
+        "label": "M",
+        "importPath": "legacy.V1.supportmaterial",
+        "description": "legacy.V1.supportmaterial",
+        "isExtraImport": true,
+        "detail": "legacy.V1.supportmaterial",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
         "documentation": {}
     },
     {
@@ -5843,7 +5893,7 @@
         "kind": 6,
         "importPath": "main_2",
         "description": "main_2",
-        "peekOfCode": "class Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.\n        :doc-author: Trelent\n        \"\"\"\n        pass\n    async def log_file_size_checker():\n        \"\"\"\n        The log_file_size_checker function is an async function that checks the size of the log file and removes lines from the start of the file to maintain a rolling log of 1000 lines.",
+        "peekOfCode": "class Utility:\n    def __init__(self):\n        # Set up logging\n        self.logger = logging.getLogger('utility')\n        self.logger.setLevel(logging.INFO)\n        handler = logging.StreamHandler()\n        formatter = logging.Formatter(f'{Fore.BLUE}%(asctime)s{Style.RESET_ALL} - %(name)s - %(levelname)s - %(message)s')\n        handler.setFormatter(formatter)\n        self.logger.addHandler(handler)\n        pass",
         "detail": "main_2",
         "documentation": {}
     },
@@ -5861,7 +5911,7 @@
         "kind": 6,
         "importPath": "main_2",
         "description": "main_2",
-        "peekOfCode": "class Looper:\n    def __init__(self, trader: Trader):\n        \"\"\"\n        The Looper class provides functions for running asynchronous operations.\n        :param trader: An instance of the Trader class\n        :doc-author: Trelent\n        \"\"\"\n        self.trader = trader\n        # Set up logging\n        self.logger = logging.getLogger('looper')",
+        "peekOfCode": "class Looper:\n    def __init__(self, trader: Trader):\n        \"\"\"\n        The Looper class provides functions for running asynchronous operations.\n        :param trader: An instance of the Trader class\n        :doc-author: Trelent\n        \"\"\"\n        self.trader = trader\n        self.utility = Utility() #needed for is_daytime()\n        # Set up logging",
         "detail": "main_2",
         "documentation": {}
     },
@@ -5933,7 +5983,7 @@
         "kind": 5,
         "importPath": "main_2b",
         "description": "main_2b",
-        "peekOfCode": "LOG_FILE = 'logs/crypto.log'\nLOG_FILE_SIZE_LIMIT = 50000000  # 50 MB\nclass Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.\n        :doc-author: Trelent\n        \"\"\"\n        # Set up logging\n        self.logger = logging.getLogger('utility')",
+        "peekOfCode": "LOG_FILE = 'logs/crypto.log'\nLOG_FILE_SIZE_LIMIT = 50000000  # 50 MB\nsignals_df = pd.DataFrame()\n#^ I want a master DataFrame which will hold Historical Data for all coins\nMasterHistoricalData = {}\n#^ I want a master DataFrame which will hold Technical Analysis for all coins\nMasterTechnicalAnalysis = {}\n#^ I want a master DataFrame which will hold Signals for all coins\nMasterSignals = {}\n#^ I want a master DataFrame which will hold Positions for all coins",
         "detail": "main_2b",
         "documentation": {}
     },
@@ -5942,7 +5992,61 @@
         "kind": 5,
         "importPath": "main_2b",
         "description": "main_2b",
-        "peekOfCode": "LOG_FILE_SIZE_LIMIT = 50000000  # 50 MB\nclass Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.\n        :doc-author: Trelent\n        \"\"\"\n        # Set up logging\n        self.logger = logging.getLogger('utility')\n        self.logger.setLevel(logging.INFO)",
+        "peekOfCode": "LOG_FILE_SIZE_LIMIT = 50000000  # 50 MB\nsignals_df = pd.DataFrame()\n#^ I want a master DataFrame which will hold Historical Data for all coins\nMasterHistoricalData = {}\n#^ I want a master DataFrame which will hold Technical Analysis for all coins\nMasterTechnicalAnalysis = {}\n#^ I want a master DataFrame which will hold Signals for all coins\nMasterSignals = {}\n#^ I want a master DataFrame which will hold Positions for all coins\nMasterPositions = {}",
+        "detail": "main_2b",
+        "documentation": {}
+    },
+    {
+        "label": "signals_df",
+        "kind": 5,
+        "importPath": "main_2b",
+        "description": "main_2b",
+        "peekOfCode": "signals_df = pd.DataFrame()\n#^ I want a master DataFrame which will hold Historical Data for all coins\nMasterHistoricalData = {}\n#^ I want a master DataFrame which will hold Technical Analysis for all coins\nMasterTechnicalAnalysis = {}\n#^ I want a master DataFrame which will hold Signals for all coins\nMasterSignals = {}\n#^ I want a master DataFrame which will hold Positions for all coins\nMasterPositions = {}\n#^ I want a master DataFrame which will hold Orders for all coins",
+        "detail": "main_2b",
+        "documentation": {}
+    },
+    {
+        "label": "MasterHistoricalData",
+        "kind": 5,
+        "importPath": "main_2b",
+        "description": "main_2b",
+        "peekOfCode": "MasterHistoricalData = {}\n#^ I want a master DataFrame which will hold Technical Analysis for all coins\nMasterTechnicalAnalysis = {}\n#^ I want a master DataFrame which will hold Signals for all coins\nMasterSignals = {}\n#^ I want a master DataFrame which will hold Positions for all coins\nMasterPositions = {}\n#^ I want a master DataFrame which will hold Orders for all coins\nMasterOrders = {}\nclass Utility:",
+        "detail": "main_2b",
+        "documentation": {}
+    },
+    {
+        "label": "MasterTechnicalAnalysis",
+        "kind": 5,
+        "importPath": "main_2b",
+        "description": "main_2b",
+        "peekOfCode": "MasterTechnicalAnalysis = {}\n#^ I want a master DataFrame which will hold Signals for all coins\nMasterSignals = {}\n#^ I want a master DataFrame which will hold Positions for all coins\nMasterPositions = {}\n#^ I want a master DataFrame which will hold Orders for all coins\nMasterOrders = {}\nclass Utility:\n    def __init__(self):\n        \"\"\"",
+        "detail": "main_2b",
+        "documentation": {}
+    },
+    {
+        "label": "MasterSignals",
+        "kind": 5,
+        "importPath": "main_2b",
+        "description": "main_2b",
+        "peekOfCode": "MasterSignals = {}\n#^ I want a master DataFrame which will hold Positions for all coins\nMasterPositions = {}\n#^ I want a master DataFrame which will hold Orders for all coins\nMasterOrders = {}\nclass Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.\n        :doc-author: Trelent",
+        "detail": "main_2b",
+        "documentation": {}
+    },
+    {
+        "label": "MasterPositions",
+        "kind": 5,
+        "importPath": "main_2b",
+        "description": "main_2b",
+        "peekOfCode": "MasterPositions = {}\n#^ I want a master DataFrame which will hold Orders for all coins\nMasterOrders = {}\nclass Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.\n        :doc-author: Trelent\n        \"\"\"\n        # Set up logging",
+        "detail": "main_2b",
+        "documentation": {}
+    },
+    {
+        "label": "MasterOrders",
+        "kind": 5,
+        "importPath": "main_2b",
+        "description": "main_2b",
+        "peekOfCode": "MasterOrders = {}\nclass Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.\n        :doc-author: Trelent\n        \"\"\"\n        # Set up logging\n        self.logger = logging.getLogger('utility')\n        self.logger.setLevel(logging.INFO)",
         "detail": "main_2b",
         "documentation": {}
     },

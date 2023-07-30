@@ -50487,3 +50487,1963 @@ Name: date, Length: 288, dtype: object
 2023-07-29 17:00:53,271 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
 2023-07-29 17:01:05,929 Finished executing orders for 2023-07-29 17:01:05.929291-05:00...
 2023-07-29 17:03:53,712 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:21:06,463 Started
+2023-07-29 19:21:06,514 Using selector: KqueueSelector
+2023-07-29 19:21:06,588 Starting new HTTPS connection (1): nummus.robinhood.com:443
+2023-07-29 19:21:06,644 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:21:06,969 https://nummus.robinhood.com:443 "GET /holdings/ HTTP/1.1" 200 24089
+2023-07-29 19:21:07,165 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:07,391 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:07,487 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/3d961844-d360-45fc-989b-f6fca761d511/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:21:07,667 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:07,754 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/3d961844-d360-45fc-989b-f6fca761d511/ HTTP/1.1" 200 449
+2023-07-29 19:21:07,909 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:08,059 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:08,225 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/76637d50-c702-4ed1-bcb5-5b0732a81f48/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:21:08,406 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:08,497 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/76637d50-c702-4ed1-bcb5-5b0732a81f48/ HTTP/1.1" 200 452
+2023-07-29 19:21:08,645 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:08,901 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:09,006 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/6f2afc32-702e-41ad-b232-ed26b77c1943/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:21:09,382 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:09,442 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/6f2afc32-702e-41ad-b232-ed26b77c1943/ HTTP/1.1" 200 401
+2023-07-29 19:21:09,659 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:09,906 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:09,999 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/1ef78e1b-049b-4f12-90e5-555dcf2fe204/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:21:10,204 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:10,290 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/1ef78e1b-049b-4f12-90e5-555dcf2fe204/ HTTP/1.1" 200 423
+2023-07-29 19:21:10,512 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:10,757 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:10,881 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/b668301c-44f9-4fbf-88e4-8140846f15ba/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:21:11,031 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:11,129 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/b668301c-44f9-4fbf-88e4-8140846f15ba/ HTTP/1.1" 200 403
+2023-07-29 19:21:11,288 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:11,541 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:11,680 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/2d189ddb-bc0d-4aa4-bd6b-cd72e6679cd0/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:21:11,929 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:12,028 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/2d189ddb-bc0d-4aa4-bd6b-cd72e6679cd0/ HTTP/1.1" 200 439
+2023-07-29 19:21:12,251 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:12,434 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:12,569 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/7b577ce3-489d-4269-9408-796a0d1abb3a/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:21:12,732 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:12,829 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/7b577ce3-489d-4269-9408-796a0d1abb3a/ HTTP/1.1" 200 423
+2023-07-29 19:21:12,944 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:13,069 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:13,234 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/33316259-af8c-4f31-86a4-c5c07e12d625/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:21:13,439 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:13,535 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/33316259-af8c-4f31-86a4-c5c07e12d625/ HTTP/1.1" 200 428
+2023-07-29 19:21:13,693 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:13,851 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:13,955 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/f649e71a-543b-4fd8-9faa-bc6c2c9e3d21/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:21:14,141 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:14,298 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/f649e71a-543b-4fd8-9faa-bc6c2c9e3d21/ HTTP/1.1" 200 449
+2023-07-29 19:21:14,445 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:14,607 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:14,709 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/383280b1-ff53-43fc-9c84-f01afd0989cd/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:21:14,869 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:14,932 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/383280b1-ff53-43fc-9c84-f01afd0989cd/ HTTP/1.1" 200 435
+2023-07-29 19:21:15,089 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:15,332 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:15,461 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/9f0a3a2e-e72e-4361-bf15-91d962487922/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:21:15,765 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:15,856 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/9f0a3a2e-e72e-4361-bf15-91d962487922/ HTTP/1.1" 200 444
+2023-07-29 19:21:16,012 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:16,195 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:16,329 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/715af4b3-26d0-4cd0-ad07-7a1cf5dc734a/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:21:16,493 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:16,590 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/715af4b3-26d0-4cd0-ad07-7a1cf5dc734a/ HTTP/1.1" 200 449
+2023-07-29 19:21:16,724 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:16,892 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:17,089 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/3a3d9131-b627-4782-95e6-aeb874558e99/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:21:17,344 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:17,441 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/3a3d9131-b627-4782-95e6-aeb874558e99/ HTTP/1.1" 200 381
+2023-07-29 19:21:17,598 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:17,812 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:17,945 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/0cdc8c93-fbda-462f-94b7-26353d87a009/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:21:18,134 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:18,224 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/0cdc8c93-fbda-462f-94b7-26353d87a009/ HTTP/1.1" 200 395
+2023-07-29 19:21:18,391 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:18,579 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:18,719 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/f62a25b6-31c0-4c92-846d-3c8105627b62/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:21:18,869 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:18,997 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/f62a25b6-31c0-4c92-846d-3c8105627b62/ HTTP/1.1" 200 437
+2023-07-29 19:21:19,122 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:19,358 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:19,485 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/7a04fe7a-e3a8-4a07-8c35-d0fec9f35569/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:21:19,668 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:19,766 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/7a04fe7a-e3a8-4a07-8c35-d0fec9f35569/ HTTP/1.1" 200 449
+2023-07-29 19:21:19,921 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:20,081 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:20,216 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/2f2b77c4-e426-4271-ae49-18d5cb296d3a/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:21:20,405 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:20,502 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/2f2b77c4-e426-4271-ae49-18d5cb296d3a/ HTTP/1.1" 200 438
+2023-07-29 19:21:20,666 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:20,826 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:20,935 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:21:21,186 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:21,282 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/ HTTP/1.1" 200 434
+2023-07-29 19:21:21,358 Calculating signals...
+2023-07-29 19:21:21,362   Calculating signals for BTC...
+2023-07-29 19:21:21,373   df date: 0      2023-07-29T00:20:00Z
+1      2023-07-29T00:25:00Z
+2      2023-07-29T00:30:00Z
+3      2023-07-29T00:35:00Z
+4      2023-07-29T00:40:00Z
+               ...         
+283    2023-07-29T23:55:00Z
+284    2023-07-30T00:00:00Z
+285    2023-07-30T00:05:00Z
+286    2023-07-30T00:10:00Z
+287    2023-07-30T00:15:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:21:21,373 casting df data to floats...
+2023-07-29 19:21:21,409 current price: 29356.815, rsi: 51.18865104139688 --> buy signal increased by 1 to 2
+2023-07-29 19:21:21,411   Calculating signals for ETH...
+2023-07-29 19:21:21,417   df date: 0      2023-07-29T00:20:00Z
+1      2023-07-29T00:25:00Z
+2      2023-07-29T00:30:00Z
+3      2023-07-29T00:35:00Z
+4      2023-07-29T00:40:00Z
+               ...         
+283    2023-07-29T23:55:00Z
+284    2023-07-30T00:00:00Z
+285    2023-07-30T00:05:00Z
+286    2023-07-30T00:10:00Z
+287    2023-07-30T00:15:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:21:21,418 casting df data to floats...
+2023-07-29 19:21:21,444 current price: 1880.11816425, rsi: 45.11036773969422 --> buy signal increased by 1 to 2
+2023-07-29 19:21:21,446   Calculating signals for ADA...
+2023-07-29 19:21:21,452   df date: 0      2023-07-29T00:20:00Z
+1      2023-07-29T00:25:00Z
+2      2023-07-29T00:30:00Z
+3      2023-07-29T00:35:00Z
+4      2023-07-29T00:40:00Z
+               ...         
+283    2023-07-29T23:55:00Z
+284    2023-07-30T00:00:00Z
+285    2023-07-30T00:05:00Z
+286    2023-07-30T00:10:00Z
+287    2023-07-30T00:15:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:21:21,452 casting df data to floats...
+2023-07-29 19:21:21,478 current price: 0.3127, rsi: 50.72417421584066 --> buy signal increased by 1 to 2
+2023-07-29 19:21:21,481   Calculating signals for DOG...
+2023-07-29 19:21:21,486   df date: 0      2023-07-29T00:20:00Z
+1      2023-07-29T00:25:00Z
+2      2023-07-29T00:30:00Z
+3      2023-07-29T00:35:00Z
+4      2023-07-29T00:40:00Z
+               ...         
+283    2023-07-29T23:55:00Z
+284    2023-07-30T00:00:00Z
+285    2023-07-30T00:05:00Z
+286    2023-07-30T00:10:00Z
+287    2023-07-30T00:15:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:21:21,486 casting df data to floats...
+2023-07-29 19:21:21,512 current price: 0.080305, rsi: 50.058276572272774 --> sell signal increased by 1 to 1
+2023-07-29 19:21:21,514   Calculating signals for MAT...
+2023-07-29 19:21:21,520   df date: 0      2023-07-29T00:20:00Z
+1      2023-07-29T00:25:00Z
+2      2023-07-29T00:30:00Z
+3      2023-07-29T00:35:00Z
+4      2023-07-29T00:40:00Z
+               ...         
+283    2023-07-29T23:55:00Z
+284    2023-07-30T00:00:00Z
+285    2023-07-30T00:05:00Z
+286    2023-07-30T00:10:00Z
+287    2023-07-30T00:15:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:21:21,520 casting df data to floats...
+2023-07-29 19:21:21,546 current price: 0.7181, rsi: 44.10278751822497 --> buy signal increased by 1 to 2
+2023-07-29 19:21:21,548   Calculating signals for SHI...
+2023-07-29 19:21:21,554   df date: 0      2023-07-29T00:20:00Z
+1      2023-07-29T00:25:00Z
+2      2023-07-29T00:30:00Z
+3      2023-07-29T00:35:00Z
+4      2023-07-29T00:40:00Z
+               ...         
+283    2023-07-29T23:55:00Z
+284    2023-07-30T00:00:00Z
+285    2023-07-30T00:05:00Z
+286    2023-07-30T00:10:00Z
+287    2023-07-30T00:15:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:21:21,554 casting df data to floats...
+2023-07-29 19:21:21,580 current price: 8.55e-06, rsi: 54.23795701316688 --> sell signal increased by 1 to 1
+2023-07-29 19:21:21,583   Calculating signals for ETC...
+2023-07-29 19:21:21,588   df date: 0      2023-07-29T00:20:00Z
+1      2023-07-29T00:25:00Z
+2      2023-07-29T00:30:00Z
+3      2023-07-29T00:35:00Z
+4      2023-07-29T00:40:00Z
+               ...         
+283    2023-07-29T23:55:00Z
+284    2023-07-30T00:00:00Z
+285    2023-07-30T00:05:00Z
+286    2023-07-30T00:10:00Z
+287    2023-07-30T00:15:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:21:21,588 casting df data to floats...
+2023-07-29 19:21:21,615 current price: 18.5855, rsi: 50.66239259024395 --> buy signal increased by 1 to 2
+2023-07-29 19:21:21,617   Calculating signals for UNI...
+2023-07-29 19:21:21,622   df date: 0      2023-07-29T00:20:00Z
+1      2023-07-29T00:25:00Z
+2      2023-07-29T00:30:00Z
+3      2023-07-29T00:35:00Z
+4      2023-07-29T00:40:00Z
+               ...         
+283    2023-07-29T23:55:00Z
+284    2023-07-30T00:00:00Z
+285    2023-07-30T00:05:00Z
+286    2023-07-30T00:10:00Z
+287    2023-07-30T00:15:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:21:21,622 casting df data to floats...
+2023-07-29 19:21:21,648 current price: 6.331, rsi: 52.947360537148185 --> sell signal increased by 1 to 1
+2023-07-29 19:21:21,650   Calculating signals for AAV...
+2023-07-29 19:21:21,655   df date: 0      2023-07-29T00:20:00Z
+1      2023-07-29T00:25:00Z
+2      2023-07-29T00:30:00Z
+3      2023-07-29T00:35:00Z
+4      2023-07-29T00:40:00Z
+               ...         
+283    2023-07-29T23:55:00Z
+284    2023-07-30T00:00:00Z
+285    2023-07-30T00:05:00Z
+286    2023-07-30T00:10:00Z
+287    2023-07-30T00:15:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:21:21,655 casting df data to floats...
+2023-07-29 19:21:21,682 current price: 74.525, rsi: 55.651547569188565 --> buy signal increased by 1 to 2
+2023-07-29 19:21:21,684   Calculating signals for LTC...
+2023-07-29 19:21:21,689   df date: 0      2023-07-29T00:20:00Z
+1      2023-07-29T00:25:00Z
+2      2023-07-29T00:30:00Z
+3      2023-07-29T00:35:00Z
+4      2023-07-29T00:40:00Z
+               ...         
+283    2023-07-29T23:55:00Z
+284    2023-07-30T00:00:00Z
+285    2023-07-30T00:05:00Z
+286    2023-07-30T00:10:00Z
+287    2023-07-30T00:15:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:21:21,689 casting df data to floats...
+2023-07-29 19:21:21,716 current price: 94.295, rsi: 58.51197251325165 --> buy signal increased by 1 to 2
+2023-07-29 19:21:21,718   Calculating signals for LIN...
+2023-07-29 19:21:21,723   df date: 0      2023-07-29T00:20:00Z
+1      2023-07-29T00:25:00Z
+2      2023-07-29T00:30:00Z
+3      2023-07-29T00:35:00Z
+4      2023-07-29T00:40:00Z
+               ...         
+283    2023-07-29T23:55:00Z
+284    2023-07-30T00:00:00Z
+285    2023-07-30T00:05:00Z
+286    2023-07-30T00:10:00Z
+287    2023-07-30T00:15:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:21:21,723 casting df data to floats...
+2023-07-29 19:21:21,749 current price: 7.8135, rsi: 35.61434145989247 --> buy signal increased by 1 to 2
+2023-07-29 19:21:21,751   Calculating signals for COM...
+2023-07-29 19:21:21,757   df date: 0      2023-07-29T00:20:00Z
+1      2023-07-29T00:25:00Z
+2      2023-07-29T00:30:00Z
+3      2023-07-29T00:35:00Z
+4      2023-07-29T00:40:00Z
+               ...         
+283    2023-07-29T23:55:00Z
+284    2023-07-30T00:00:00Z
+285    2023-07-30T00:05:00Z
+286    2023-07-30T00:10:00Z
+287    2023-07-30T00:15:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:21:21,757 casting df data to floats...
+2023-07-29 19:21:21,783 current price: 71.789975, rsi: 33.82191765000984 --> buy signal increased by 1 to 1
+2023-07-29 19:21:21,785   Calculating signals for USD...
+2023-07-29 19:21:21,791   df date: 0      2023-07-29T00:20:00Z
+1      2023-07-29T00:25:00Z
+2      2023-07-29T00:30:00Z
+3      2023-07-29T00:35:00Z
+4      2023-07-29T00:40:00Z
+               ...         
+283    2023-07-29T23:55:00Z
+284    2023-07-30T00:00:00Z
+285    2023-07-30T00:05:00Z
+286    2023-07-30T00:10:00Z
+287    2023-07-30T00:15:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:21:21,791 casting df data to floats...
+2023-07-29 19:21:21,819   Calculating signals for SOL...
+2023-07-29 19:21:21,824   df date: 0      2023-07-29T00:20:00Z
+1      2023-07-29T00:25:00Z
+2      2023-07-29T00:30:00Z
+3      2023-07-29T00:35:00Z
+4      2023-07-29T00:40:00Z
+               ...         
+283    2023-07-29T23:55:00Z
+284    2023-07-30T00:00:00Z
+285    2023-07-30T00:05:00Z
+286    2023-07-30T00:10:00Z
+287    2023-07-30T00:15:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:21:21,824 casting df data to floats...
+2023-07-29 19:21:21,850 current price: 25.14, rsi: 39.662411253437625 --> buy signal increased by 1 to 2
+2023-07-29 19:21:21,852   Calculating signals for AVA...
+2023-07-29 19:21:21,857   df date: 0      2023-07-29T00:20:00Z
+1      2023-07-29T00:25:00Z
+2      2023-07-29T00:30:00Z
+3      2023-07-29T00:35:00Z
+4      2023-07-29T00:40:00Z
+               ...         
+283    2023-07-29T23:55:00Z
+284    2023-07-30T00:00:00Z
+285    2023-07-30T00:05:00Z
+286    2023-07-30T00:10:00Z
+287    2023-07-30T00:15:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:21:21,857 casting df data to floats...
+2023-07-29 19:21:21,884 current price: 13.2265, rsi: 45.05233851647598 --> buy signal increased by 1 to 2
+2023-07-29 19:21:21,887   Calculating signals for XLM...
+2023-07-29 19:21:21,892   df date: 0      2023-07-29T00:20:00Z
+1      2023-07-29T00:25:00Z
+2      2023-07-29T00:30:00Z
+3      2023-07-29T00:35:00Z
+4      2023-07-29T00:40:00Z
+               ...         
+283    2023-07-29T23:55:00Z
+284    2023-07-30T00:00:00Z
+285    2023-07-30T00:05:00Z
+286    2023-07-30T00:10:00Z
+287    2023-07-30T00:15:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:21:21,893 casting df data to floats...
+2023-07-29 19:21:21,922 current price: 0.158506645, rsi: 47.26536682161078 --> buy signal increased by 1 to 1
+2023-07-29 19:21:21,925   Calculating signals for BCH...
+2023-07-29 19:21:21,931   df date: 0      2023-07-29T00:20:00Z
+1      2023-07-29T00:25:00Z
+2      2023-07-29T00:30:00Z
+3      2023-07-29T00:35:00Z
+4      2023-07-29T00:40:00Z
+               ...         
+283    2023-07-29T23:55:00Z
+284    2023-07-30T00:00:00Z
+285    2023-07-30T00:05:00Z
+286    2023-07-30T00:10:00Z
+287    2023-07-30T00:15:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:21:21,931 casting df data to floats...
+2023-07-29 19:21:21,961 current price: 241.775, rsi: 53.3980868319182 --> buy signal increased by 1 to 2
+2023-07-29 19:21:21,964   Calculating signals for XTZ...
+2023-07-29 19:21:21,970   df date: 0      2023-07-29T00:20:00Z
+1      2023-07-29T00:25:00Z
+2      2023-07-29T00:30:00Z
+3      2023-07-29T00:35:00Z
+4      2023-07-29T00:40:00Z
+               ...         
+283    2023-07-29T23:55:00Z
+284    2023-07-30T00:00:00Z
+285    2023-07-30T00:05:00Z
+286    2023-07-30T00:10:00Z
+287    2023-07-30T00:15:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:21:21,970 casting df data to floats...
+2023-07-29 19:21:22,001 current price: 0.8406, rsi: 47.39661766675387 --> buy signal increased by 1 to 2
+2023-07-29 19:21:22,074 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:21:22,219 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:22,307 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/3d961844-d360-45fc-989b-f6fca761d511/ HTTP/1.1" 200 453
+2023-07-29 19:21:22,379 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:21:22,591 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:22,680 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/76637d50-c702-4ed1-bcb5-5b0732a81f48/ HTTP/1.1" 200 449
+2023-07-29 19:21:22,753 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:21:22,903 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:22,990 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/6f2afc32-702e-41ad-b232-ed26b77c1943/ HTTP/1.1" 200 401
+2023-07-29 19:21:26,224 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:26,312 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/6f2afc32-702e-41ad-b232-ed26b77c1943/ HTTP/1.1" 200 401
+2023-07-29 19:21:26,391 https://nummus.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 1299
+2023-07-29 19:21:26,486 https://nummus.robinhood.com:443 "POST /orders/ HTTP/1.1" 400 64
+2023-07-29 19:21:29,581 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:21:29,801 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:29,898 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/7b577ce3-489d-4269-9408-796a0d1abb3a/ HTTP/1.1" 200 423
+2023-07-29 19:21:29,987 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:21:30,142 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:30,239 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/383280b1-ff53-43fc-9c84-f01afd0989cd/ HTTP/1.1" 200 432
+2023-07-29 19:21:30,324 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:21:30,541 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:30,709 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/0cdc8c93-fbda-462f-94b7-26353d87a009/ HTTP/1.1" 200 395
+2023-07-29 19:21:30,795 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:21:30,954 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:31,050 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/2f2b77c4-e426-4271-ae49-18d5cb296d3a/ HTTP/1.1" 200 437
+2023-07-29 19:21:31,137 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:21:31,258 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:31,352 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/ HTTP/1.1" 200 434
+2023-07-29 19:21:32,519 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:21:32,618 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/ HTTP/1.1" 200 434
+2023-07-29 19:21:32,763 https://nummus.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 1299
+2023-07-29 19:21:32,855 https://nummus.robinhood.com:443 "POST /orders/ HTTP/1.1" 400 97
+2023-07-29 19:21:34,014 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:36:10,234 Started
+2023-07-29 19:36:10,268 Using selector: KqueueSelector
+2023-07-29 19:36:10,339 Starting new HTTPS connection (1): nummus.robinhood.com:443
+2023-07-29 19:36:10,405 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:36:10,631 https://nummus.robinhood.com:443 "GET /holdings/ HTTP/1.1" 200 24089
+2023-07-29 19:36:10,863 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:11,039 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:11,167 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/3d961844-d360-45fc-989b-f6fca761d511/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:36:11,352 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:11,448 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/3d961844-d360-45fc-989b-f6fca761d511/ HTTP/1.1" 200 438
+2023-07-29 19:36:11,612 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:11,859 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:11,996 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/76637d50-c702-4ed1-bcb5-5b0732a81f48/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:36:12,248 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:12,340 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/76637d50-c702-4ed1-bcb5-5b0732a81f48/ HTTP/1.1" 200 452
+2023-07-29 19:36:12,553 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:12,743 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:12,874 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/6f2afc32-702e-41ad-b232-ed26b77c1943/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:36:13,123 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:13,214 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/6f2afc32-702e-41ad-b232-ed26b77c1943/ HTTP/1.1" 200 401
+2023-07-29 19:36:13,395 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:13,794 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:13,926 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/1ef78e1b-049b-4f12-90e5-555dcf2fe204/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:36:14,178 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:14,275 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/1ef78e1b-049b-4f12-90e5-555dcf2fe204/ HTTP/1.1" 200 437
+2023-07-29 19:36:14,425 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:14,623 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:14,739 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/b668301c-44f9-4fbf-88e4-8140846f15ba/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:36:15,033 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:15,131 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/b668301c-44f9-4fbf-88e4-8140846f15ba/ HTTP/1.1" 200 403
+2023-07-29 19:36:15,285 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:15,472 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:15,603 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/2d189ddb-bc0d-4aa4-bd6b-cd72e6679cd0/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:36:15,790 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:15,883 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/2d189ddb-bc0d-4aa4-bd6b-cd72e6679cd0/ HTTP/1.1" 200 450
+2023-07-29 19:36:16,040 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:16,223 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:16,358 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/7b577ce3-489d-4269-9408-796a0d1abb3a/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:36:16,559 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:16,653 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/7b577ce3-489d-4269-9408-796a0d1abb3a/ HTTP/1.1" 200 422
+2023-07-29 19:36:16,801 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:16,988 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:17,113 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/33316259-af8c-4f31-86a4-c5c07e12d625/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:36:17,261 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:17,395 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/33316259-af8c-4f31-86a4-c5c07e12d625/ HTTP/1.1" 200 429
+2023-07-29 19:36:17,554 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:17,742 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:17,878 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/f649e71a-543b-4fd8-9faa-bc6c2c9e3d21/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:36:18,065 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:18,157 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/f649e71a-543b-4fd8-9faa-bc6c2c9e3d21/ HTTP/1.1" 200 448
+2023-07-29 19:36:18,284 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:18,519 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:18,647 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/383280b1-ff53-43fc-9c84-f01afd0989cd/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:36:18,802 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:18,929 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/383280b1-ff53-43fc-9c84-f01afd0989cd/ HTTP/1.1" 200 446
+2023-07-29 19:36:19,092 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:19,280 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:19,380 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/9f0a3a2e-e72e-4361-bf15-91d962487922/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:36:19,567 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:19,654 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/9f0a3a2e-e72e-4361-bf15-91d962487922/ HTTP/1.1" 200 443
+2023-07-29 19:36:19,815 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:19,997 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:20,134 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/715af4b3-26d0-4cd0-ad07-7a1cf5dc734a/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:36:20,341 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:20,440 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/715af4b3-26d0-4cd0-ad07-7a1cf5dc734a/ HTTP/1.1" 200 440
+2023-07-29 19:36:20,565 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:20,927 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:21,051 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/3a3d9131-b627-4782-95e6-aeb874558e99/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:36:21,197 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:21,287 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/3a3d9131-b627-4782-95e6-aeb874558e99/ HTTP/1.1" 200 382
+2023-07-29 19:36:21,435 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:21,625 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:21,752 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/0cdc8c93-fbda-462f-94b7-26353d87a009/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:36:21,926 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:22,016 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/0cdc8c93-fbda-462f-94b7-26353d87a009/ HTTP/1.1" 200 395
+2023-07-29 19:36:22,168 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:22,341 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:22,470 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/f62a25b6-31c0-4c92-846d-3c8105627b62/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:36:22,712 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:22,803 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/f62a25b6-31c0-4c92-846d-3c8105627b62/ HTTP/1.1" 200 438
+2023-07-29 19:36:23,007 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:23,197 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:23,327 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/7a04fe7a-e3a8-4a07-8c35-d0fec9f35569/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:36:23,508 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:23,601 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/7a04fe7a-e3a8-4a07-8c35-d0fec9f35569/ HTTP/1.1" 200 445
+2023-07-29 19:36:23,818 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:23,980 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:24,054 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/2f2b77c4-e426-4271-ae49-18d5cb296d3a/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:36:24,239 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:24,302 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/2f2b77c4-e426-4271-ae49-18d5cb296d3a/ HTTP/1.1" 200 435
+2023-07-29 19:36:24,446 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:24,632 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:24,754 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:36:24,954 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:25,048 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/ HTTP/1.1" 200 432
+2023-07-29 19:36:25,113 Calculating signals...
+2023-07-29 19:36:25,117   Calculating signals for BTC...
+2023-07-29 19:36:25,128   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:36:25,128 casting df data to floats...
+2023-07-29 19:36:25,167 current price: 29327.62, rsi: 35.194251199574325 --> buy signal increased by 1 to 2
+2023-07-29 19:36:25,170   Calculating signals for ETH...
+2023-07-29 19:36:25,176   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:36:25,176 casting df data to floats...
+2023-07-29 19:36:25,206 current price: 1878.94, rsi: 38.15423268350851 --> buy signal increased by 1 to 2
+2023-07-29 19:36:25,208   Calculating signals for ADA...
+2023-07-29 19:36:25,216   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:36:25,217 casting df data to floats...
+2023-07-29 19:36:25,246 current price: 0.3122, rsi: 41.312057290977066 --> buy signal increased by 1 to 2
+2023-07-29 19:36:25,248   Calculating signals for DOG...
+2023-07-29 19:36:25,254   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:36:25,255 casting df data to floats...
+2023-07-29 19:36:25,284 current price: 0.079875, rsi: 37.321865733794034 --> buy signal increased by 1 to 2
+2023-07-29 19:36:25,287   Calculating signals for MAT...
+2023-07-29 19:36:25,293   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:36:25,293 casting df data to floats...
+2023-07-29 19:36:25,323 current price: 0.7166, rsi: 34.95249720182878 --> buy signal increased by 1 to 2
+2023-07-29 19:36:25,326   Calculating signals for SHI...
+2023-07-29 19:36:25,333   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:36:25,333 casting df data to floats...
+2023-07-29 19:36:25,363 current price: 8.5e-06, rsi: 44.09526852184743 --> buy signal increased by 1 to 2
+2023-07-29 19:36:25,366   Calculating signals for ETC...
+2023-07-29 19:36:25,373   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:36:25,373 casting df data to floats...
+2023-07-29 19:36:25,407 current price: 18.5635, rsi: 43.886061600522574 --> buy signal increased by 1 to 2
+2023-07-29 19:36:25,410   Calculating signals for UNI...
+2023-07-29 19:36:25,418   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:36:25,418 casting df data to floats...
+2023-07-29 19:36:25,451 current price: 6.317, rsi: 47.25194928390567 --> buy signal increased by 1 to 2
+2023-07-29 19:36:25,455   Calculating signals for AAV...
+2023-07-29 19:36:25,461   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:36:25,462 casting df data to floats...
+2023-07-29 19:36:25,496 current price: 74.355, rsi: 49.097116198512175 --> buy signal increased by 1 to 2
+2023-07-29 19:36:25,499   Calculating signals for LTC...
+2023-07-29 19:36:25,506   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:36:25,506 casting df data to floats...
+2023-07-29 19:36:25,539 current price: 93.95064, rsi: 51.070909617114474 --> buy signal increased by 1 to 2
+2023-07-29 19:36:25,541   Calculating signals for LIN...
+2023-07-29 19:36:25,547   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:36:25,547 casting df data to floats...
+2023-07-29 19:36:25,576 current price: 7.807, rsi: 36.36016522565936 --> buy signal increased by 1 to 2
+2023-07-29 19:36:25,578   Calculating signals for COM...
+2023-07-29 19:36:25,585   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:36:25,585 casting df data to floats...
+2023-07-29 19:36:25,613 current price: 71.7443155, rsi: 35.6993198665232 --> buy signal increased by 1 to 1
+2023-07-29 19:36:25,616   Calculating signals for USD...
+2023-07-29 19:36:25,622   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:36:25,622 casting df data to floats...
+2023-07-29 19:36:25,653   Calculating signals for SOL...
+2023-07-29 19:36:25,658   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:36:25,658 casting df data to floats...
+2023-07-29 19:36:25,687 current price: 25.09, rsi: 36.07673119480221 --> buy signal increased by 1 to 1
+2023-07-29 19:36:25,689   Calculating signals for AVA...
+2023-07-29 19:36:25,695   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:36:25,696 casting df data to floats...
+2023-07-29 19:36:25,725 current price: 13.2135, rsi: 39.96348702380748 --> buy signal increased by 1 to 1
+2023-07-29 19:36:25,727   Calculating signals for XLM...
+2023-07-29 19:36:25,734   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:36:25,734 casting df data to floats...
+2023-07-29 19:36:25,763 current price: 0.157936325, rsi: 36.82724352010366 --> buy signal increased by 1 to 1
+2023-07-29 19:36:25,766   Calculating signals for BCH...
+2023-07-29 19:36:25,772   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:36:25,772 casting df data to floats...
+2023-07-29 19:36:25,802 current price: 241.16, rsi: 42.30548938266636 --> buy signal increased by 1 to 2
+2023-07-29 19:36:25,804   Calculating signals for XTZ...
+2023-07-29 19:36:25,810   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:36:25,810 casting df data to floats...
+2023-07-29 19:36:25,840 current price: 0.8394, rsi: 40.94262550083557 --> buy signal increased by 1 to 2
+2023-07-29 19:36:25,918 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:36:26,062 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:26,151 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/33316259-af8c-4f31-86a4-c5c07e12d625/ HTTP/1.1" 200 429
+2023-07-29 19:36:27,303 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:27,391 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/33316259-af8c-4f31-86a4-c5c07e12d625/ HTTP/1.1" 200 429
+2023-07-29 19:36:27,471 https://nummus.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 1299
+2023-07-29 19:36:27,555 https://nummus.robinhood.com:443 "POST /orders/ HTTP/1.1" 400 148
+2023-07-29 19:36:30,656 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:36:30,789 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:30,919 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/383280b1-ff53-43fc-9c84-f01afd0989cd/ HTTP/1.1" 200 446
+2023-07-29 19:36:31,153 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:31,248 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/7a04fe7a-e3a8-4a07-8c35-d0fec9f35569/ HTTP/1.1" 200 445
+2023-07-29 19:36:31,473 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:36:31,566 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/7a04fe7a-e3a8-4a07-8c35-d0fec9f35569/ HTTP/1.1" 200 444
+2023-07-29 19:36:31,708 https://nummus.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 1299
+2023-07-29 19:36:31,868 https://nummus.robinhood.com:443 "POST /orders/ HTTP/1.1" 400 73
+2023-07-29 19:36:35,032 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:36:55,039 Finished executing orders for 2023-07-29 19:36:55.038694-05:00...
+2023-07-29 19:39:10,526 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:39:46,539 Started
+2023-07-29 19:39:46,575 Using selector: KqueueSelector
+2023-07-29 19:39:46,668 Starting new HTTPS connection (1): nummus.robinhood.com:443
+2023-07-29 19:39:46,707 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:39:47,184 https://nummus.robinhood.com:443 "GET /holdings/ HTTP/1.1" 200 24089
+2023-07-29 19:39:47,383 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:47,560 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:47,686 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/3d961844-d360-45fc-989b-f6fca761d511/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:39:47,870 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:47,963 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/3d961844-d360-45fc-989b-f6fca761d511/ HTTP/1.1" 200 437
+2023-07-29 19:39:48,116 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:48,292 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:48,416 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/76637d50-c702-4ed1-bcb5-5b0732a81f48/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:39:48,574 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:48,696 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/76637d50-c702-4ed1-bcb5-5b0732a81f48/ HTTP/1.1" 200 426
+2023-07-29 19:39:48,913 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:49,159 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:49,257 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/6f2afc32-702e-41ad-b232-ed26b77c1943/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:39:49,542 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:49,633 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/6f2afc32-702e-41ad-b232-ed26b77c1943/ HTTP/1.1" 200 401
+2023-07-29 19:39:49,857 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:50,108 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:50,229 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/1ef78e1b-049b-4f12-90e5-555dcf2fe204/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:39:50,475 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:50,568 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/1ef78e1b-049b-4f12-90e5-555dcf2fe204/ HTTP/1.1" 200 434
+2023-07-29 19:39:50,711 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:50,895 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:51,018 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/b668301c-44f9-4fbf-88e4-8140846f15ba/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:39:51,199 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:51,287 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/b668301c-44f9-4fbf-88e4-8140846f15ba/ HTTP/1.1" 200 403
+2023-07-29 19:39:51,446 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:51,705 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:51,831 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/2d189ddb-bc0d-4aa4-bd6b-cd72e6679cd0/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:39:52,007 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:52,095 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/2d189ddb-bc0d-4aa4-bd6b-cd72e6679cd0/ HTTP/1.1" 200 451
+2023-07-29 19:39:52,214 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:52,369 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:52,500 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/7b577ce3-489d-4269-9408-796a0d1abb3a/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:39:52,681 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:52,771 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/7b577ce3-489d-4269-9408-796a0d1abb3a/ HTTP/1.1" 200 423
+2023-07-29 19:39:52,918 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:53,087 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:53,213 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/33316259-af8c-4f31-86a4-c5c07e12d625/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:39:53,396 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:53,484 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/33316259-af8c-4f31-86a4-c5c07e12d625/ HTTP/1.1" 200 407
+2023-07-29 19:39:53,637 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:53,884 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:54,016 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/f649e71a-543b-4fd8-9faa-bc6c2c9e3d21/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:39:54,217 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:54,304 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/f649e71a-543b-4fd8-9faa-bc6c2c9e3d21/ HTTP/1.1" 200 448
+2023-07-29 19:39:54,461 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:54,655 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:54,769 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/383280b1-ff53-43fc-9c84-f01afd0989cd/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:39:54,953 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:55,048 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/383280b1-ff53-43fc-9c84-f01afd0989cd/ HTTP/1.1" 200 446
+2023-07-29 19:39:55,170 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:55,367 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:55,506 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/9f0a3a2e-e72e-4361-bf15-91d962487922/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:39:55,687 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:55,785 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/9f0a3a2e-e72e-4361-bf15-91d962487922/ HTTP/1.1" 200 443
+2023-07-29 19:39:55,938 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:56,117 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:56,249 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/715af4b3-26d0-4cd0-ad07-7a1cf5dc734a/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:39:56,427 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:56,516 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/715af4b3-26d0-4cd0-ad07-7a1cf5dc734a/ HTTP/1.1" 200 441
+2023-07-29 19:39:56,640 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:56,794 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:56,922 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/3a3d9131-b627-4782-95e6-aeb874558e99/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:39:57,119 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:57,213 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/3a3d9131-b627-4782-95e6-aeb874558e99/ HTTP/1.1" 200 382
+2023-07-29 19:39:57,438 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:57,627 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:57,756 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/0cdc8c93-fbda-462f-94b7-26353d87a009/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:39:57,962 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:58,059 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/0cdc8c93-fbda-462f-94b7-26353d87a009/ HTTP/1.1" 200 395
+2023-07-29 19:39:58,340 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:58,585 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:58,717 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/f62a25b6-31c0-4c92-846d-3c8105627b62/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:39:58,908 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:59,004 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/f62a25b6-31c0-4c92-846d-3c8105627b62/ HTTP/1.1" 200 428
+2023-07-29 19:39:59,165 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:59,348 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:59,476 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/7a04fe7a-e3a8-4a07-8c35-d0fec9f35569/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:39:59,667 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:39:59,768 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/7a04fe7a-e3a8-4a07-8c35-d0fec9f35569/ HTTP/1.1" 200 444
+2023-07-29 19:40:00,012 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:40:00,199 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:40:00,332 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/2f2b77c4-e426-4271-ae49-18d5cb296d3a/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:40:00,489 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:40:00,586 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/2f2b77c4-e426-4271-ae49-18d5cb296d3a/ HTTP/1.1" 200 440
+2023-07-29 19:40:00,754 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:40:00,914 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:40:01,047 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:40:01,238 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:40:01,329 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/ HTTP/1.1" 200 438
+2023-07-29 19:40:01,415 Calculating signals...
+2023-07-29 19:40:01,418   Calculating signals for BTC...
+2023-07-29 19:40:01,428   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:40:01,428 casting df data to floats...
+2023-07-29 19:40:01,462 current price: 29327.62, rsi: 35.194251199574325 --> buy signal increased by 1 to 2
+2023-07-29 19:40:01,465   Calculating signals for ETH...
+2023-07-29 19:40:01,470   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:40:01,470 casting df data to floats...
+2023-07-29 19:40:01,497 current price: 1878.94, rsi: 38.15423268350851 --> buy signal increased by 1 to 2
+2023-07-29 19:40:01,499   Calculating signals for ADA...
+2023-07-29 19:40:01,504   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:40:01,504 casting df data to floats...
+2023-07-29 19:40:01,531 current price: 0.3121, rsi: 39.552993895323446 --> buy signal increased by 1 to 2
+2023-07-29 19:40:01,533   Calculating signals for DOG...
+2023-07-29 19:40:01,538   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:40:01,538 casting df data to floats...
+2023-07-29 19:40:01,564 current price: 0.079875, rsi: 37.321865733794034 --> buy signal increased by 1 to 2
+2023-07-29 19:40:01,566   Calculating signals for MAT...
+2023-07-29 19:40:01,572   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:40:01,572 casting df data to floats...
+2023-07-29 19:40:01,599 current price: 0.7167, rsi: 35.471745671462244 --> buy signal increased by 1 to 2
+2023-07-29 19:40:01,601   Calculating signals for SHI...
+2023-07-29 19:40:01,606   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:40:01,607 casting df data to floats...
+2023-07-29 19:40:01,633 current price: 8.5e-06, rsi: 44.09526852184743 --> buy signal increased by 1 to 2
+2023-07-29 19:40:01,636   Calculating signals for ETC...
+2023-07-29 19:40:01,641   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:40:01,641 casting df data to floats...
+2023-07-29 19:40:01,667 current price: 18.5635, rsi: 43.886061600522574 --> buy signal increased by 1 to 2
+2023-07-29 19:40:01,669   Calculating signals for UNI...
+2023-07-29 19:40:01,674   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:40:01,675 casting df data to floats...
+2023-07-29 19:40:01,701 current price: 6.317, rsi: 47.25194928390567 --> buy signal increased by 1 to 2
+2023-07-29 19:40:01,703   Calculating signals for AAV...
+2023-07-29 19:40:01,708   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:40:01,708 casting df data to floats...
+2023-07-29 19:40:01,735 current price: 74.355, rsi: 49.097116198512175 --> buy signal increased by 1 to 2
+2023-07-29 19:40:01,737   Calculating signals for LTC...
+2023-07-29 19:40:01,743   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:40:01,743 casting df data to floats...
+2023-07-29 19:40:01,772 current price: 93.95064, rsi: 51.070909617114474 --> buy signal increased by 1 to 2
+2023-07-29 19:40:01,774   Calculating signals for LIN...
+2023-07-29 19:40:01,780   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:40:01,780 casting df data to floats...
+2023-07-29 19:40:01,807 current price: 7.807, rsi: 36.36016522565936 --> buy signal increased by 1 to 2
+2023-07-29 19:40:01,809   Calculating signals for COM...
+2023-07-29 19:40:01,815   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:40:01,815 casting df data to floats...
+2023-07-29 19:40:01,840 current price: 71.7443155, rsi: 35.6993198665232 --> buy signal increased by 1 to 1
+2023-07-29 19:40:01,842   Calculating signals for USD...
+2023-07-29 19:40:01,848   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:40:01,848 casting df data to floats...
+2023-07-29 19:40:01,875   Calculating signals for SOL...
+2023-07-29 19:40:01,881   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:40:01,882 casting df data to floats...
+2023-07-29 19:40:01,908 current price: 25.09, rsi: 36.07673119480221 --> buy signal increased by 1 to 1
+2023-07-29 19:40:01,910   Calculating signals for AVA...
+2023-07-29 19:40:01,917   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:40:01,917 casting df data to floats...
+2023-07-29 19:40:01,947 current price: 13.2135, rsi: 39.96348702380748 --> buy signal increased by 1 to 1
+2023-07-29 19:40:01,949   Calculating signals for XLM...
+2023-07-29 19:40:01,955   df date: 0      2023-07-29T00:35:00Z
+1      2023-07-29T00:40:00Z
+2      2023-07-29T00:45:00Z
+3      2023-07-29T00:50:00Z
+4      2023-07-29T00:55:00Z
+               ...         
+283    2023-07-30T00:10:00Z
+284    2023-07-30T00:15:00Z
+285    2023-07-30T00:20:00Z
+286    2023-07-30T00:25:00Z
+287    2023-07-30T00:30:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:40:01,955 casting df data to floats...
+2023-07-29 19:40:01,985 current price: 0.157936325, rsi: 36.82724352010366 --> buy signal increased by 1 to 1
+2023-07-29 19:40:01,987   Calculating signals for BCH...
+2023-07-29 19:40:01,993   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:40:01,993 casting df data to floats...
+2023-07-29 19:40:02,023 current price: 241.875, rsi: 55.00670946144475 --> sell signal increased by 1 to 1
+2023-07-29 19:40:02,026   Calculating signals for XTZ...
+2023-07-29 19:40:02,032   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:40:02,032 casting df data to floats...
+2023-07-29 19:40:02,060 current price: 0.8399, rsi: 44.60765884357769 --> buy signal increased by 1 to 2
+2023-07-29 19:40:02,143 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:40:02,360 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:40:02,457 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/33316259-af8c-4f31-86a4-c5c07e12d625/ HTTP/1.1" 200 429
+2023-07-29 19:40:05,690 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:40:05,787 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/33316259-af8c-4f31-86a4-c5c07e12d625/ HTTP/1.1" 200 404
+2023-07-29 19:40:05,863 https://nummus.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 1299
+2023-07-29 19:40:05,960 https://nummus.robinhood.com:443 "POST /orders/ HTTP/1.1" 400 148
+2023-07-29 19:40:07,051 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:40:07,273 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:40:07,369 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/383280b1-ff53-43fc-9c84-f01afd0989cd/ HTTP/1.1" 200 445
+2023-07-29 19:40:07,537 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:40:07,639 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/7a04fe7a-e3a8-4a07-8c35-d0fec9f35569/ HTTP/1.1" 200 444
+2023-07-29 19:40:07,879 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:40:07,972 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/7a04fe7a-e3a8-4a07-8c35-d0fec9f35569/ HTTP/1.1" 200 444
+2023-07-29 19:40:08,105 https://nummus.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 1299
+2023-07-29 19:40:08,322 https://nummus.robinhood.com:443 "POST /orders/ HTTP/1.1" 400 73
+2023-07-29 19:40:12,449 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:40:12,604 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:40:12,702 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/ HTTP/1.1" 200 438
+2023-07-29 19:40:13,941 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:40:14,035 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/ HTTP/1.1" 200 437
+2023-07-29 19:40:14,185 https://nummus.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 1299
+2023-07-29 19:40:14,339 https://nummus.robinhood.com:443 "POST /orders/ HTTP/1.1" 400 97
+2023-07-29 19:40:15,505 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:40:35,509 Finished executing orders for 2023-07-29 19:40:35.508246-05:00...
+2023-07-29 19:41:21,012 Started
+2023-07-29 19:41:21,048 Using selector: KqueueSelector
+2023-07-29 19:41:21,133 Starting new HTTPS connection (1): nummus.robinhood.com:443
+2023-07-29 19:41:21,165 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:41:21,628 https://nummus.robinhood.com:443 "GET /holdings/ HTTP/1.1" 200 24089
+2023-07-29 19:41:21,839 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:22,019 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:22,155 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/3d961844-d360-45fc-989b-f6fca761d511/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:41:22,313 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:22,438 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/3d961844-d360-45fc-989b-f6fca761d511/ HTTP/1.1" 200 439
+2023-07-29 19:41:22,597 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:22,779 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:22,906 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/76637d50-c702-4ed1-bcb5-5b0732a81f48/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:41:23,092 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:23,185 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/76637d50-c702-4ed1-bcb5-5b0732a81f48/ HTTP/1.1" 200 439
+2023-07-29 19:41:23,340 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:23,584 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:23,718 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/6f2afc32-702e-41ad-b232-ed26b77c1943/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:41:23,973 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:24,070 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/6f2afc32-702e-41ad-b232-ed26b77c1943/ HTTP/1.1" 200 401
+2023-07-29 19:41:24,187 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:24,426 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:24,568 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/1ef78e1b-049b-4f12-90e5-555dcf2fe204/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:41:24,748 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:24,836 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/1ef78e1b-049b-4f12-90e5-555dcf2fe204/ HTTP/1.1" 200 423
+2023-07-29 19:41:25,050 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:25,235 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:25,369 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/b668301c-44f9-4fbf-88e4-8140846f15ba/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:41:25,641 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:25,736 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/b668301c-44f9-4fbf-88e4-8140846f15ba/ HTTP/1.1" 200 403
+2023-07-29 19:41:25,891 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:26,108 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:26,266 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/2d189ddb-bc0d-4aa4-bd6b-cd72e6679cd0/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:41:26,587 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:26,643 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/2d189ddb-bc0d-4aa4-bd6b-cd72e6679cd0/ HTTP/1.1" 200 451
+2023-07-29 19:41:26,869 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:27,015 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:27,116 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/7b577ce3-489d-4269-9408-796a0d1abb3a/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:41:27,299 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:27,386 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/7b577ce3-489d-4269-9408-796a0d1abb3a/ HTTP/1.1" 200 424
+2023-07-29 19:41:27,502 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:27,684 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:27,811 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/33316259-af8c-4f31-86a4-c5c07e12d625/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:41:28,065 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:28,155 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/33316259-af8c-4f31-86a4-c5c07e12d625/ HTTP/1.1" 200 428
+2023-07-29 19:41:28,303 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:28,458 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:28,614 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/f649e71a-543b-4fd8-9faa-bc6c2c9e3d21/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:41:28,758 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:28,848 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/f649e71a-543b-4fd8-9faa-bc6c2c9e3d21/ HTTP/1.1" 200 449
+2023-07-29 19:41:28,967 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:29,152 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:29,282 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/383280b1-ff53-43fc-9c84-f01afd0989cd/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:41:29,471 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:29,573 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/383280b1-ff53-43fc-9c84-f01afd0989cd/ HTTP/1.1" 200 447
+2023-07-29 19:41:29,724 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:29,906 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:30,036 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/9f0a3a2e-e72e-4361-bf15-91d962487922/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:41:30,236 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:30,330 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/9f0a3a2e-e72e-4361-bf15-91d962487922/ HTTP/1.1" 200 444
+2023-07-29 19:41:30,474 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:30,665 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:30,794 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/715af4b3-26d0-4cd0-ad07-7a1cf5dc734a/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:41:31,021 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:31,116 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/715af4b3-26d0-4cd0-ad07-7a1cf5dc734a/ HTTP/1.1" 200 441
+2023-07-29 19:41:31,274 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:31,460 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:31,554 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/3a3d9131-b627-4782-95e6-aeb874558e99/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:41:31,766 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:31,867 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/3a3d9131-b627-4782-95e6-aeb874558e99/ HTTP/1.1" 200 382
+2023-07-29 19:41:32,021 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:32,239 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:32,364 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/0cdc8c93-fbda-462f-94b7-26353d87a009/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:41:32,520 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:32,611 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/0cdc8c93-fbda-462f-94b7-26353d87a009/ HTTP/1.1" 200 395
+2023-07-29 19:41:32,819 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:32,973 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:33,076 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/f62a25b6-31c0-4c92-846d-3c8105627b62/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:41:33,332 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:33,429 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/f62a25b6-31c0-4c92-846d-3c8105627b62/ HTTP/1.1" 200 439
+2023-07-29 19:41:33,583 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:33,728 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:33,857 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/7a04fe7a-e3a8-4a07-8c35-d0fec9f35569/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:41:34,057 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:34,148 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/7a04fe7a-e3a8-4a07-8c35-d0fec9f35569/ HTTP/1.1" 200 451
+2023-07-29 19:41:34,293 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:34,478 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:34,607 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/2f2b77c4-e426-4271-ae49-18d5cb296d3a/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:41:34,792 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:34,889 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/2f2b77c4-e426-4271-ae49-18d5cb296d3a/ HTTP/1.1" 200 438
+2023-07-29 19:41:35,041 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:35,193 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:35,356 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:41:35,551 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:35,640 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/ HTTP/1.1" 200 433
+2023-07-29 19:41:35,705 Calculating signals...
+2023-07-29 19:41:35,709   Calculating signals for BTC...
+2023-07-29 19:41:35,721   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:41:35,721 casting df data to floats...
+2023-07-29 19:41:35,760 current price: 29342.715, rsi: 45.75277943111297 --> buy signal increased by 1 to 2
+2023-07-29 19:41:35,763   Calculating signals for ETH...
+2023-07-29 19:41:35,769   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:41:35,769 casting df data to floats...
+2023-07-29 19:41:35,798 current price: 1879.585, rsi: 43.91409794040167 --> buy signal increased by 1 to 2
+2023-07-29 19:41:35,800   Calculating signals for ADA...
+2023-07-29 19:41:35,806   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:41:35,806 casting df data to floats...
+2023-07-29 19:41:35,839   Calculating signals for DOG...
+2023-07-29 19:41:35,845   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:41:35,846 casting df data to floats...
+2023-07-29 19:41:35,876 current price: 0.08002, rsi: 42.93222708761014 --> buy signal increased by 1 to 2
+2023-07-29 19:41:35,879   Calculating signals for MAT...
+2023-07-29 19:41:35,884   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:41:35,885 casting df data to floats...
+2023-07-29 19:41:35,911 current price: 0.7176, rsi: 43.593557419162195 --> buy signal increased by 1 to 2
+2023-07-29 19:41:35,913   Calculating signals for SHI...
+2023-07-29 19:41:35,919   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:41:35,919 casting df data to floats...
+2023-07-29 19:41:35,944 current price: 8.52e-06, rsi: 48.5199340705165 --> buy signal increased by 1 to 2
+2023-07-29 19:41:35,947   Calculating signals for ETC...
+2023-07-29 19:41:35,952   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:41:35,952 casting df data to floats...
+2023-07-29 19:41:35,977 current price: 18.577, rsi: 48.53710427476936 --> buy signal increased by 1 to 2
+2023-07-29 19:41:35,980   Calculating signals for UNI...
+2023-07-29 19:41:35,985   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:41:35,985 casting df data to floats...
+2023-07-29 19:41:36,011 current price: 6.3215, rsi: 48.978951928434945 --> buy signal increased by 1 to 2
+2023-07-29 19:41:36,013   Calculating signals for AAV...
+2023-07-29 19:41:36,018   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:41:36,018 casting df data to floats...
+2023-07-29 19:41:36,046   Calculating signals for LTC...
+2023-07-29 19:41:36,052   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:41:36,052 casting df data to floats...
+2023-07-29 19:41:36,078 current price: 94.23, rsi: 56.57305706572627 --> buy signal increased by 1 to 2
+2023-07-29 19:41:36,080   Calculating signals for LIN...
+2023-07-29 19:41:36,086   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:41:36,086 casting df data to floats...
+2023-07-29 19:41:36,111 current price: 7.8185, rsi: 42.86079537780499 --> buy signal increased by 1 to 2
+2023-07-29 19:41:36,113   Calculating signals for COM...
+2023-07-29 19:41:36,119   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:41:36,119 casting df data to floats...
+2023-07-29 19:41:36,144 current price: 71.9192585, rsi: 44.21297836854221 --> sell signal increased by 1 to 2
+2023-07-29 19:41:36,146   Calculating signals for USD...
+2023-07-29 19:41:36,151   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:41:36,152 casting df data to floats...
+2023-07-29 19:41:36,180   Calculating signals for SOL...
+2023-07-29 19:41:36,185   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:41:36,185 casting df data to floats...
+2023-07-29 19:41:36,213 current price: 25.13, rsi: 42.636153779952394 --> buy signal increased by 1 to 1
+2023-07-29 19:41:36,215   Calculating signals for AVA...
+2023-07-29 19:41:36,221   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:41:36,222 casting df data to floats...
+2023-07-29 19:41:36,251 current price: 13.2335, rsi: 50.77306071020678 --> sell signal increased by 1 to 1
+2023-07-29 19:41:36,253   Calculating signals for XLM...
+2023-07-29 19:41:36,259   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:41:36,259 casting df data to floats...
+2023-07-29 19:41:36,288 current price: 0.15816349, rsi: 42.61410606752553 --> buy signal increased by 1 to 1
+2023-07-29 19:41:36,290   Calculating signals for BCH...
+2023-07-29 19:41:36,296   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:41:36,296 casting df data to floats...
+2023-07-29 19:41:36,325 current price: 241.885, rsi: 55.14481704861179 --> sell signal increased by 1 to 1
+2023-07-29 19:41:36,328   Calculating signals for XTZ...
+2023-07-29 19:41:36,334   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:41:36,334 casting df data to floats...
+2023-07-29 19:41:36,359 current price: 0.83975, rsi: 43.55681900126983 --> buy signal increased by 1 to 2
+2023-07-29 19:41:36,438 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:41:36,589 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:36,681 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/3d961844-d360-45fc-989b-f6fca761d511/ HTTP/1.1" 200 436
+2023-07-29 19:41:36,759 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:41:36,906 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:36,995 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/76637d50-c702-4ed1-bcb5-5b0732a81f48/ HTTP/1.1" 200 439
+2023-07-29 19:41:37,068 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:41:37,221 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:37,316 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/6f2afc32-702e-41ad-b232-ed26b77c1943/ HTTP/1.1" 200 401
+2023-07-29 19:41:38,545 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:38,637 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/6f2afc32-702e-41ad-b232-ed26b77c1943/ HTTP/1.1" 200 401
+2023-07-29 19:41:38,724 https://nummus.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 1299
+2023-07-29 19:41:38,813 https://nummus.robinhood.com:443 "POST /orders/ HTTP/1.1" 400 64
+2023-07-29 19:41:39,910 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:41:40,079 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:40,168 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/7b577ce3-489d-4269-9408-796a0d1abb3a/ HTTP/1.1" 200 424
+2023-07-29 19:41:40,240 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:41:40,390 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:40,545 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/33316259-af8c-4f31-86a4-c5c07e12d625/ HTTP/1.1" 200 407
+2023-07-29 19:41:41,774 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:41,868 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/33316259-af8c-4f31-86a4-c5c07e12d625/ HTTP/1.1" 200 407
+2023-07-29 19:41:42,020 https://nummus.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 1299
+2023-07-29 19:41:42,103 https://nummus.robinhood.com:443 "POST /orders/ HTTP/1.1" 400 148
+2023-07-29 19:41:44,180 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:41:44,350 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:44,445 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/383280b1-ff53-43fc-9c84-f01afd0989cd/ HTTP/1.1" 200 446
+2023-07-29 19:41:44,535 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:41:44,697 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:44,792 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/ HTTP/1.1" 200 433
+2023-07-29 19:41:45,993 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:41:46,118 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/ HTTP/1.1" 200 433
+2023-07-29 19:41:46,185 https://nummus.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 1299
+2023-07-29 19:41:46,275 https://nummus.robinhood.com:443 "POST /orders/ HTTP/1.1" 400 97
+2023-07-29 19:41:48,434 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:42:08,442 Finished executing orders for 2023-07-29 19:42:08.441523-05:00...
+2023-07-29 19:44:01,363 Started
+2023-07-29 19:44:01,398 Using selector: KqueueSelector
+2023-07-29 19:44:01,526 Starting new HTTPS connection (1): nummus.robinhood.com:443
+2023-07-29 19:44:01,539 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:44:01,873 https://nummus.robinhood.com:443 "GET /holdings/ HTTP/1.1" 200 24089
+2023-07-29 19:44:02,155 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:02,353 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:02,481 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/3d961844-d360-45fc-989b-f6fca761d511/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:44:02,659 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:02,750 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/3d961844-d360-45fc-989b-f6fca761d511/ HTTP/1.1" 200 438
+2023-07-29 19:44:02,975 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:03,161 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:03,294 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/76637d50-c702-4ed1-bcb5-5b0732a81f48/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:44:03,466 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:03,553 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/76637d50-c702-4ed1-bcb5-5b0732a81f48/ HTTP/1.1" 200 442
+2023-07-29 19:44:03,719 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:03,968 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:04,098 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/6f2afc32-702e-41ad-b232-ed26b77c1943/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:44:04,279 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:04,369 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/6f2afc32-702e-41ad-b232-ed26b77c1943/ HTTP/1.1" 200 401
+2023-07-29 19:44:04,580 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:04,733 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:04,898 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/1ef78e1b-049b-4f12-90e5-555dcf2fe204/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:44:05,145 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:05,234 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/1ef78e1b-049b-4f12-90e5-555dcf2fe204/ HTTP/1.1" 200 436
+2023-07-29 19:44:05,384 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:05,576 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:05,704 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/b668301c-44f9-4fbf-88e4-8140846f15ba/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:44:05,853 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:05,943 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/b668301c-44f9-4fbf-88e4-8140846f15ba/ HTTP/1.1" 200 403
+2023-07-29 19:44:06,099 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:06,282 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:06,416 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/2d189ddb-bc0d-4aa4-bd6b-cd72e6679cd0/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:44:06,567 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:06,657 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/2d189ddb-bc0d-4aa4-bd6b-cd72e6679cd0/ HTTP/1.1" 200 439
+2023-07-29 19:44:06,772 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:06,925 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:07,053 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/7b577ce3-489d-4269-9408-796a0d1abb3a/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:44:07,199 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:07,260 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/7b577ce3-489d-4269-9408-796a0d1abb3a/ HTTP/1.1" 200 431
+2023-07-29 19:44:07,404 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:07,556 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:07,679 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/33316259-af8c-4f31-86a4-c5c07e12d625/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:44:07,896 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:07,984 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/33316259-af8c-4f31-86a4-c5c07e12d625/ HTTP/1.1" 200 426
+2023-07-29 19:44:08,133 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:08,282 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:08,405 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/f649e71a-543b-4fd8-9faa-bc6c2c9e3d21/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:44:08,591 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:08,684 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/f649e71a-543b-4fd8-9faa-bc6c2c9e3d21/ HTTP/1.1" 200 425
+2023-07-29 19:44:08,843 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:09,024 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:09,156 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/383280b1-ff53-43fc-9c84-f01afd0989cd/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:44:09,331 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:09,421 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/383280b1-ff53-43fc-9c84-f01afd0989cd/ HTTP/1.1" 200 443
+2023-07-29 19:44:09,566 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:09,723 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:09,875 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/9f0a3a2e-e72e-4361-bf15-91d962487922/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:44:10,122 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:10,213 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/9f0a3a2e-e72e-4361-bf15-91d962487922/ HTTP/1.1" 200 455
+2023-07-29 19:44:10,361 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:10,507 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:10,666 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/715af4b3-26d0-4cd0-ad07-7a1cf5dc734a/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:44:10,809 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:10,869 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/715af4b3-26d0-4cd0-ad07-7a1cf5dc734a/ HTTP/1.1" 200 438
+2023-07-29 19:44:10,980 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:11,196 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:11,325 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/3a3d9131-b627-4782-95e6-aeb874558e99/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:44:11,479 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:11,572 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/3a3d9131-b627-4782-95e6-aeb874558e99/ HTTP/1.1" 200 382
+2023-07-29 19:44:11,694 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:11,872 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:11,998 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/0cdc8c93-fbda-462f-94b7-26353d87a009/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:44:12,149 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:12,239 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/0cdc8c93-fbda-462f-94b7-26353d87a009/ HTTP/1.1" 200 395
+2023-07-29 19:44:12,398 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:12,595 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:12,720 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/f62a25b6-31c0-4c92-846d-3c8105627b62/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:44:12,879 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:13,003 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/f62a25b6-31c0-4c92-846d-3c8105627b62/ HTTP/1.1" 200 438
+2023-07-29 19:44:13,161 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:13,321 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:13,452 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/7a04fe7a-e3a8-4a07-8c35-d0fec9f35569/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:44:13,635 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:13,723 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/7a04fe7a-e3a8-4a07-8c35-d0fec9f35569/ HTTP/1.1" 200 450
+2023-07-29 19:44:13,878 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:14,137 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:14,267 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/2f2b77c4-e426-4271-ae49-18d5cb296d3a/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:44:14,455 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:14,549 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/2f2b77c4-e426-4271-ae49-18d5cb296d3a/ HTTP/1.1" 200 439
+2023-07-29 19:44:14,704 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:14,892 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:15,022 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
+2023-07-29 19:44:15,211 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:15,308 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/ HTTP/1.1" 200 433
+2023-07-29 19:44:15,410 Calculating signals...
+2023-07-29 19:44:15,415   Calculating signals for BTC...
+2023-07-29 19:44:15,426   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:44:15,426 casting df data to floats...
+2023-07-29 19:44:15,462 current price: 29342.715, rsi: 45.75277943111297 --> buy signal increased by 1 to 2
+2023-07-29 19:44:15,464   Calculating signals for ETH...
+2023-07-29 19:44:15,470   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:44:15,470 casting df data to floats...
+2023-07-29 19:44:15,496 current price: 1879.585, rsi: 43.91409794040167 --> buy signal increased by 1 to 2
+2023-07-29 19:44:15,498   Calculating signals for ADA...
+2023-07-29 19:44:15,503   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:44:15,503 casting df data to floats...
+2023-07-29 19:44:15,529 current price: 0.3126, rsi: 50.25021123016099 --> sell signal increased by 1 to 1
+2023-07-29 19:44:15,531   Calculating signals for DOG...
+2023-07-29 19:44:15,536   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:44:15,536 casting df data to floats...
+2023-07-29 19:44:15,562 current price: 0.08002, rsi: 42.93222708761014 --> buy signal increased by 1 to 2
+2023-07-29 19:44:15,564   Calculating signals for MAT...
+2023-07-29 19:44:15,570   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:44:15,570 casting df data to floats...
+2023-07-29 19:44:15,596 current price: 0.7176, rsi: 43.593557419162195 --> buy signal increased by 1 to 2
+2023-07-29 19:44:15,598   Calculating signals for SHI...
+2023-07-29 19:44:15,604   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:44:15,604 casting df data to floats...
+2023-07-29 19:44:15,630 current price: 8.52e-06, rsi: 48.5199340705165 --> buy signal increased by 1 to 2
+2023-07-29 19:44:15,632   Calculating signals for ETC...
+2023-07-29 19:44:15,637   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:44:15,637 casting df data to floats...
+2023-07-29 19:44:15,663 current price: 18.577, rsi: 48.53710427476936 --> buy signal increased by 1 to 2
+2023-07-29 19:44:15,665   Calculating signals for UNI...
+2023-07-29 19:44:15,671   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:44:15,671 casting df data to floats...
+2023-07-29 19:44:15,698 current price: 6.3215, rsi: 48.978951928434945 --> buy signal increased by 1 to 2
+2023-07-29 19:44:15,700   Calculating signals for AAV...
+2023-07-29 19:44:15,705   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:44:15,705 casting df data to floats...
+2023-07-29 19:44:15,734   Calculating signals for LTC...
+2023-07-29 19:44:15,739   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:44:15,739 casting df data to floats...
+2023-07-29 19:44:15,765 current price: 94.23, rsi: 56.57305706572627 --> buy signal increased by 1 to 2
+2023-07-29 19:44:15,767   Calculating signals for LIN...
+2023-07-29 19:44:15,773   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:44:15,773 casting df data to floats...
+2023-07-29 19:44:15,799 current price: 7.8185, rsi: 42.86079537780499 --> buy signal increased by 1 to 2
+2023-07-29 19:44:15,801   Calculating signals for COM...
+2023-07-29 19:44:15,806   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:44:15,807 casting df data to floats...
+2023-07-29 19:44:15,833 current price: 71.9192585, rsi: 44.21297836854221 --> sell signal increased by 1 to 2
+2023-07-29 19:44:15,850   Calculating signals for USD...
+2023-07-29 19:44:15,859   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:44:15,859 casting df data to floats...
+2023-07-29 19:44:15,889   Calculating signals for SOL...
+2023-07-29 19:44:15,895   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:44:15,895 casting df data to floats...
+2023-07-29 19:44:15,922 current price: 25.13, rsi: 42.636153779952394 --> buy signal increased by 1 to 1
+2023-07-29 19:44:15,925   Calculating signals for AVA...
+2023-07-29 19:44:15,931   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:44:15,932 casting df data to floats...
+2023-07-29 19:44:15,960 current price: 13.2335, rsi: 50.77306071020678 --> sell signal increased by 1 to 1
+2023-07-29 19:44:15,962   Calculating signals for XLM...
+2023-07-29 19:44:15,969   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:44:15,969 casting df data to floats...
+2023-07-29 19:44:15,998 current price: 0.15816349, rsi: 42.61410606752553 --> buy signal increased by 1 to 1
+2023-07-29 19:44:16,000   Calculating signals for BCH...
+2023-07-29 19:44:16,006   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:44:16,006 casting df data to floats...
+2023-07-29 19:44:16,035 current price: 241.885, rsi: 55.14481704861179 --> sell signal increased by 1 to 1
+2023-07-29 19:44:16,038   Calculating signals for XTZ...
+2023-07-29 19:44:16,045   df date: 0      2023-07-29T00:40:00Z
+1      2023-07-29T00:45:00Z
+2      2023-07-29T00:50:00Z
+3      2023-07-29T00:55:00Z
+4      2023-07-29T01:00:00Z
+               ...         
+283    2023-07-30T00:15:00Z
+284    2023-07-30T00:20:00Z
+285    2023-07-30T00:25:00Z
+286    2023-07-30T00:30:00Z
+287    2023-07-30T00:35:00Z
+Name: date, Length: 288, dtype: object
+2023-07-29 19:44:16,045 casting df data to floats...
+2023-07-29 19:44:16,071 current price: 0.83975, rsi: 43.55681900126983 --> buy signal increased by 1 to 2
+2023-07-29 19:44:16,143 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:44:16,364 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:16,458 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/3d961844-d360-45fc-989b-f6fca761d511/ HTTP/1.1" 200 439
+2023-07-29 19:44:16,543 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:44:16,695 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:16,785 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/76637d50-c702-4ed1-bcb5-5b0732a81f48/ HTTP/1.1" 200 458
+2023-07-29 19:44:16,860 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:44:17,006 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:17,099 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/7b577ce3-489d-4269-9408-796a0d1abb3a/ HTTP/1.1" 200 421
+2023-07-29 19:44:17,179 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:44:17,333 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:17,428 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/33316259-af8c-4f31-86a4-c5c07e12d625/ HTTP/1.1" 200 429
+2023-07-29 19:44:19,592 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:19,684 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/33316259-af8c-4f31-86a4-c5c07e12d625/ HTTP/1.1" 200 426
+2023-07-29 19:44:19,761 https://nummus.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 1299
+2023-07-29 19:44:19,927 https://nummus.robinhood.com:443 "POST /orders/ HTTP/1.1" 400 148
+2023-07-29 19:44:22,013 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:44:22,167 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:22,260 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/383280b1-ff53-43fc-9c84-f01afd0989cd/ HTTP/1.1" 200 445
+2023-07-29 19:44:22,343 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
+2023-07-29 19:44:22,503 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:22,598 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/ HTTP/1.1" 200 434
+2023-07-29 19:44:24,764 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-29 19:44:24,858 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/ HTTP/1.1" 200 434
+2023-07-29 19:44:24,993 https://nummus.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 1299
+2023-07-29 19:44:25,082 https://nummus.robinhood.com:443 "POST /orders/ HTTP/1.1" 400 97

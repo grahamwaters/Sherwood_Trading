@@ -1,20 +1,29 @@
 import logging
+import configparser
 import pandas as pd
 import pandas_ta as ta
 import robin_stocks as rstocks
 from robin_stocks import robinhood as r
 from datetime import datetime
 from pytz import timezone
+import alive_progress
+import traceback
+from alive_progress import alive_bar
+from icecream import ic
 import asyncio
-from legacy.V5.main2 import stop_loss_percent
+import sys
+# from legacy.V5.main2 import stop_loss_percent
 from tqdm import tqdm
 from colorama import Fore, Back, Style
 class Utility:
     def __init__(self):
-        """
-        The Utility class provides utility functions such as getting historical data and checking if it's daytime.
-        :doc-author: Trelent
-        """
+        # Set up logging
+        self.logger = logging.getLogger('utility')
+        self.logger.setLevel(logging.INFO)
+        handler = logging.StreamHandler()
+        formatter = logging.Formatter(f'{Fore.BLUE}%(asctime)s{Style.RESET_ALL} - %(name)s - %(levelname)s - %(message)s')
+        handler.setFormatter(formatter)
+        self.logger.addHandler(handler)
         pass
     async def log_file_size_checker():
         """
@@ -86,6 +95,7 @@ class Trader:
         :param coins: A list of coins to check the stop loss price for
         :return: None
     """
+
     def __init__(self, username, password):
         """
         The Trader class provides functions for logging into Robinhood, resetting orders, generating trading signals,
@@ -100,11 +110,39 @@ class Trader:
         self.logger = logging.getLogger('trader')
         self.logger.setLevel(logging.INFO)
         handler = logging.StreamHandler()
-        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        formatter = logging.Formatter(f'{Fore.YELLOW}%(asctime)s{Style.RESET_ALL} - %(name)s - %(levelname)s - %(message)s')
         handler.setFormatter(formatter)
         self.logger.addHandler(handler)
+
+        # Add the exception hook to log uncaught exceptions
+        sys.excepthook = self.handle_uncaught_exception
+
         # Login to Robinhood
         self.login_setup()
+
+    def handle_uncaught_exception(self, exc_type, exc_value, exc_traceback):
+        """
+        Custom exception hook to log uncaught exceptions with traceback.
+        """
+        self.logger.error("Uncaught exception occurred:", exc_info=(exc_type, exc_value, exc_traceback))
+
+
+    # async def log_file_size_checker(self):
+    #     """
+    #     The log_file_size_checker function checks the size of the log file and removes lines from the start of the file to maintain a rolling log of 1000 lines.
+    #     :return: None
+    #     :doc-author: Trelent
+    #     """
+    #     while True:
+    #         #ic()
+    #         with open('logs/robinhood.log', 'r') as f:
+    #             lines = f.readlines()
+    #             if len(lines) > 1000:
+    #                 num_lines_to_remove = len(lines) - 1000
+    #                 with open('logs/robinhood.log', 'w') as f:
+    #                     f.writelines(lines[num_lines_to_remove:])
+    #         await asyncio.sleep(1200)
+
     def login_setup(self):
         """
         The login_setup function logs into Robinhood using the provided username and password.
@@ -130,6 +168,7 @@ class Trader:
             crypto_positions = r.get_crypto_positions()
             for position in crypto_positions:
                 r.order_sell_crypto_limit(position['currency']['code'], position['quantity'], position['cost_bases'][0]['direct_cost_basis'])
+                print(Fore.YELLOW + f'Selling {position["currency"]["code"]} position...' + Style.RESET_ALL)
             self.logger.info('All positions sold.')
         except Exception as e:
             self.logger.error(f'Unable to reset orders and positions... {e}')
@@ -140,25 +179,46 @@ class Trader:
         :param coins: A list of coins to generate signals for
         :return: A DataFrame with the trading signals for each coin
         """
-        try:
-            utility = Utility()
-            signals_df = pd.DataFrame()
-            for coin in coins:
-                df = utility.get_last_100_days(coin)
-                df['sma'] = df.close.rolling(window=50).mean()
-                df['ema'] = df.close.ewm(span=50, adjust=False).mean()
-                df['macd_line'], df['signal_line'], df['macd_hist'] = ta.macd(df.close)
-                df['rsi'] = ta.rsi(df.close)
-                df['williams'] = ta.williams_r(df.high, df.low, df.close)
-                df['stochastic_k'], df['stochastic_d'] = ta.stoch(df.high, df.low, df.close)
-                df['bollinger_l'], df['bollinger_m'], df['bollinger_u'] = ta.bollinger_bands(df.close)
-                df['buy_signal'] = ((df.macd_line > df.signal_line) & (df.rsi < 30)) | ((df.stochastic_k > df.stochastic_d) & (df.williams < -80))
-                df['sell_signal'] = ((df.macd_line < df.signal_line) & (df.rsi > 70)) | ((df.stochastic_k < df.stochastic_d) & (df.williams > -20))
-                signals_df = signals_df.append(df)
-            return signals_df
-        except Exception as e:
-            self.logger.error(f'Unable to generate trading signals... {e}')
-            return pd.DataFrame()
+        with alive_bar(len(coins)) as living_bar:
+            try:
+                utility = Utility()
+                signals_df = pd.DataFrame()
+
+                for coin in coins:
+                    # update the bar on each iteration with the coin name
+                    living_bar.text(f'Calculating TA indicators for {coin}...')
+                    df = utility.get_last_100_days(coin)
+                    df['sma'] = df.close.rolling(window=50).mean()
+                    df['ema'] = df.close.ewm(span=50, adjust=False).mean()
+                    macd_result = ta.macd(df.close)
+                    df['macd_line'] = macd_result['MACD_12_26_9']
+                    df['signal_line'] = macd_result['MACDs_12_26_9']
+                    df['macd_hist'] = macd_result['MACDh_12_26_9']
+                    df['rsi'] = ta.rsi(df.close)
+                    #^ Bollinger Bands
+                    bbands_result = ta.bbands(close=df.close)
+                    df['lower_bb'] = bbands_result['BBL_5_2.0']
+                    df['middle_bb'] = bbands_result['BBM_5_2.0']
+                    df['upper_bb'] = bbands_result['BBU_5_2.0']
+                    df['bb_width'] = bbands_result['BBB_5_2.0']
+                    df['bb_percent'] = bbands_result['BBP_5_2.0']
+                    #^ Williams %R
+                    df['willr'] = ta.willr(high=df.high, low=df.low, close=df.close)
+                    #^ Stochastic Oscillator
+                    stoch_result = ta.stoch(high=df.high, low=df.low, close=df.close)
+                    df['stoch_k'] = stoch_result['STOCHk_14_3_3']
+                    df['stoch_d'] = stoch_result['STOCHd_14_3_3']
+
+                    # Buying and selling signals
+                    df['buy_signal'] = ((df['macd_line'] > df['signal_line']) & (df['rsi'] < 30)) | ((df['stoch_k'] > df['stoch_d']) & (df['willr'] < -80))
+                    df['sell_signal'] = ((df['macd_line'] < df['signal_line']) & (df['rsi'] > 70)) | ((df['stoch_k'] < df['stoch_d']) & (df['willr'] > -20))
+
+                    signals_df = signals_df.append(df)
+                    living_bar()
+                return signals_df
+            except Exception as e:
+                self.logger.error(f'Unable to generate trading signals... {e}')
+                return pd.DataFrame()
     def trading_function(self, signals_df):
         """
         The trading_function function takes the trading signals generated by calculate_ta_indicators() and places trades accordingly.
@@ -167,46 +227,29 @@ class Trader:
         """
         try:
             crypto_positions = r.get_crypto_positions()
-            for index, row in signals_df.iterrows():
-                if row['buy_signal']:
-                    #* Create a nice little data viz block for the terminal that shows the TA indicators for why this position was bought
-                    block_text = f"""
-                    {row['coin']} bought at {row['close']} because:
-                    - MACD Line: {row['macd_line']}
-                    - Signal Line: {row['signal_line']}
-                    - RSI: {row['rsi']}
-                    - Williams %R: {row['williams']}
-                    - Stochastic K: {row['stochastic_k']}
-                    - Stochastic D: {row['stochastic_d']}
-                    """
-                    print(Fore.GREEN + block_text + Style.RESET_ALL)
-                    # Check if we have enough buying power to buy this coin
-                    buying_power = self.update_buying_power()
-                    if buying_power > 0:
-                        r.order_buy_crypto_limit(symbol=row['coin'],
-                                                    quantity = buying_power / row['close'],
-                                                    limitPrice = row['close'],
-                                                    timeInForce = 'gtc')
-                        self.logger.info(f'Bought {row["coin"]} at {row["close"]}.')
-                if row['sell_signal']:
-                    for position in crypto_positions:
-                        #* Create a nice little data viz block for the terminal that shows the TA indicators for why this position was sold
-                        block_text = f"""
-                        {row['coin']} sold at {row['close']} because:
-                        - MACD Line: {row['macd_line']}
-                        - Signal Line: {row['signal_line']}
-                        - RSI: {row['rsi']}
-                        - Williams %R: {row['williams']}
-                        - Stochastic K: {row['stochastic_k']}
-                        - Stochastic D: {row['stochastic_d']}
-                        """
-                        print(Fore.RED + block_text + Style.RESET_ALL)
-                        if position['currency']['code'] == row['coin']:
-                            r.order_sell_crypto_limit(symbol=row['coin'],
-                                                        quantity=position['quantity'],
-                                                        limitPrice=row['close'],
-                                                        timeInForce='gtc')
-                            self.logger.info(f'Sold {row["coin"]} at {row["close"]}.')
+            print(f'We own {len(crypto_positions)} open positions.')
+            with alive_bar(len(signals_df)) as living_bar2:
+                for index, row in signals_df.iterrows():
+                    # update the bar on each iteration with the details of the position
+                    living_bar2.text(f'Checking {row["coin"]} | buy: {row["buy_signal"]} | sell: {row["sell_signal"]} |')
+                    if row['buy_signal']:
+                        # Check if we have enough buying power to buy this coin
+                        buying_power = self.update_buying_power()
+                        if buying_power > 0:
+                            r.order_buy_crypto_limit(symbol=row['coin'],
+                                                        quantity = buying_power / row['close'],
+                                                        limitPrice = row['close'],
+                                                        timeInForce = 'gtc')
+                            self.logger.info(f'Bought {row["coin"]} at {row["close"]}.')
+                    if row['sell_signal']:
+                        for position in crypto_positions:
+                            if position['currency']['code'] == row['coin']:
+                                r.order_sell_crypto_limit(symbol=row['coin'],
+                                                            quantity=position['quantity'],
+                                                            limitPrice=row['close'],
+                                                            timeInForce='gtc')
+                                self.logger.info(f'Sold {row["coin"]} at {row["close"]}.')
+                    living_bar2() # update the bar
         except Exception as e:
             self.logger.error(f'Unable to execute trades... {e}')
     def get_total_crypto_dollars(self):
@@ -253,6 +296,7 @@ class Trader:
                     crypto_positions = r.get_crypto_positions()
                     for position in crypto_positions:
                         if position['currency']['code'] == coin:
+                            print(f'Sold {coin} at {current_price} due to stop loss.')
                             r.order_sell_crypto_limit(coin, position['quantity'], current_price)
                             self.logger.info(f'Sold {coin} at {current_price} due to stop loss.')
         except Exception as e:
@@ -287,11 +331,12 @@ class Looper:
         :doc-author: Trelent
         """
         self.trader = trader
+        self.utility = Utility() #needed for is_daytime()
         # Set up logging
         self.logger = logging.getLogger('looper')
         self.logger.setLevel(logging.INFO)
         handler = logging.StreamHandler()
-        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        formatter = logging.Formatter(f'{Fore.CYAN}%(asctime)s{Style.RESET_ALL} - %(name)s - %(levelname)s - %(message)s')
         handler.setFormatter(formatter)
         self.logger.addHandler(handler)
     async def run_async_functions(self, loop_count, coins, stop_loss_prices):
@@ -311,7 +356,7 @@ class Looper:
             self.trader.main(coins, stop_loss_prices)
             # run all async functions simultaneously
             # log_file_size_checker included to prevent log file from getting too large
-            self.trader.log_file_size_checker()
+            utility.log_file_size_checker()
         except Exception as e:
             self.logger.error(f'Unable to run async functions... {e}')
     async def main_looper(self, coins, stop_loss_prices):
@@ -336,9 +381,15 @@ class Looper:
 if __name__ == '__main__':
     stop_loss_percent = 0.05 #^ set the stop loss percent at 5% (of the invested amount)
     coins = ['BTC', 'ETH', 'DOGE', 'SHIB', 'ETC', 'UNI', 'AAVE', 'LTC', 'LINK', 'COMP', 'USDC', 'AVAX', 'XLM', 'BCH', 'XTZ']
+    # using ini file to store credentials
+    config = configparser.ConfigParser()
+    config.read('config/credentials.ini')
+    username = config['credentials']['username']
+    password = config['credentials']['password']
+    #^ create an instance of the Robinhood class
+    trader = Trader(username = username, password = password) #^ create an instance of the Trader class
     #^ set stop losses for each coin by multiplying the current price by the stop loss percent (0.05) and subtracting that from the current price (to get the stop loss price).
     stop_loss_prices = {coin: float(r.crypto.get_crypto_quote(coin)['mark_price']) - (float(r.crypto.get_crypto_quote(coin)['mark_price']) * stop_loss_percent) for coin in coins}
     print(f'Stop loss prices: {stop_loss_prices}')
-    trader = Trader() #^ create an instance of the Trader class
     looper = Looper(trader) #^ create an instance of the Looper class (which will run the Trader class)
     asyncio.run(looper.main_looper(coins, stop_loss_prices)) #^ run the main_looper function

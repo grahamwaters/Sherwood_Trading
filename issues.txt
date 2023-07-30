@@ -1,0 +1,1580 @@
+[{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Expected \":\"",
+	"source": "Pylance",
+	"startLineNumber": 362,
+	"startColumn": 16,
+	"endLineNumber": 362,
+	"endColumn": 25
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#9",
+	"code": {
+		"value": "E0001:syntax-error",
+		"target": {
+			"$mid": 1,
+			"path": "/en/latest/user_guide/messages/error/syntax-error.html",
+			"scheme": "https",
+			"authority": "pylint.readthedocs.io"
+		}
+	},
+	"severity": 8,
+	"message": "Parsing failed: 'invalid syntax (<unknown>, line 362)'",
+	"source": "Pylint",
+	"startLineNumber": 362,
+	"startColumn": 17,
+	"endLineNumber": 362,
+	"endColumn": 17
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Expected expression",
+	"source": "Pylance",
+	"startLineNumber": 363,
+	"startColumn": 9,
+	"endLineNumber": 363,
+	"endColumn": 10
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Expected expression",
+	"source": "Pylance",
+	"startLineNumber": 364,
+	"startColumn": 9,
+	"endLineNumber": 364,
+	"endColumn": 10
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 376,
+	"startColumn": 13,
+	"endLineNumber": 376,
+	"endColumn": 32
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 376,
+	"startColumn": 33,
+	"endLineNumber": 376,
+	"endColumn": 41
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 376,
+	"startColumn": 49,
+	"endLineNumber": 376,
+	"endColumn": 53
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 376,
+	"startColumn": 54,
+	"endLineNumber": 376,
+	"endColumn": 62
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 376,
+	"startColumn": 63,
+	"endLineNumber": 376,
+	"endColumn": 67
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 376,
+	"startColumn": 68,
+	"endLineNumber": 376,
+	"endColumn": 72
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 376,
+	"startColumn": 73,
+	"endLineNumber": 376,
+	"endColumn": 76
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 376,
+	"startColumn": 77,
+	"endLineNumber": 376,
+	"endColumn": 79
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 376,
+	"startColumn": 80,
+	"endLineNumber": 376,
+	"endColumn": 83
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 376,
+	"startColumn": 84,
+	"endLineNumber": 376,
+	"endColumn": 89
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 376,
+	"startColumn": 90,
+	"endLineNumber": 376,
+	"endColumn": 99
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Expected member name after \".\"",
+	"source": "Pylance",
+	"startLineNumber": 376,
+	"startColumn": 99,
+	"endLineNumber": 376,
+	"endColumn": 100
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 377,
+	"startColumn": 12,
+	"endLineNumber": 377,
+	"endColumn": 16
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 377,
+	"startColumn": 17,
+	"endLineNumber": 377,
+	"endColumn": 20
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 377,
+	"startColumn": 21,
+	"endLineNumber": 377,
+	"endColumn": 25
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 377,
+	"startColumn": 26,
+	"endLineNumber": 377,
+	"endColumn": 40
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Expected expression",
+	"source": "Pylance",
+	"startLineNumber": 377,
+	"startColumn": 42,
+	"endLineNumber": 377,
+	"endColumn": 45
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 13,
+	"endLineNumber": 378,
+	"endColumn": 23
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 24,
+	"endLineNumber": 378,
+	"endColumn": 32
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 41,
+	"endLineNumber": 378,
+	"endColumn": 43
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 44,
+	"endLineNumber": 378,
+	"endColumn": 53
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 54,
+	"endLineNumber": 378,
+	"endColumn": 58
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 59,
+	"endLineNumber": 378,
+	"endColumn": 61
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 62,
+	"endLineNumber": 378,
+	"endColumn": 68
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 69,
+	"endLineNumber": 378,
+	"endColumn": 75
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 76,
+	"endLineNumber": 378,
+	"endColumn": 81
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 89,
+	"endLineNumber": 378,
+	"endColumn": 96
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 97,
+	"endLineNumber": 378,
+	"endColumn": 102
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 103,
+	"endLineNumber": 378,
+	"endColumn": 105
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 106,
+	"endLineNumber": 378,
+	"endColumn": 111
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Expected member name after \".\"",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 111,
+	"endLineNumber": 378,
+	"endColumn": 112
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Expected expression",
+	"source": "Pylance",
+	"startLineNumber": 379,
+	"startColumn": 9,
+	"endLineNumber": 379,
+	"endColumn": 10
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Expected expression",
+	"source": "Pylance",
+	"startLineNumber": 380,
+	"startColumn": 9,
+	"endLineNumber": 380,
+	"endColumn": 10
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Expected expression",
+	"source": "Pylance",
+	"startLineNumber": 381,
+	"startColumn": 9,
+	"endLineNumber": 381,
+	"endColumn": 10
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Expected expression",
+	"source": "Pylance",
+	"startLineNumber": 382,
+	"startColumn": 9,
+	"endLineNumber": 382,
+	"endColumn": 10
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Expected expression",
+	"source": "Pylance",
+	"startLineNumber": 383,
+	"startColumn": 9,
+	"endLineNumber": 383,
+	"endColumn": 10
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 396,
+	"startColumn": 13,
+	"endLineNumber": 396,
+	"endColumn": 24
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 396,
+	"startColumn": 25,
+	"endLineNumber": 396,
+	"endColumn": 33
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 396,
+	"startColumn": 41,
+	"endLineNumber": 396,
+	"endColumn": 45
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 396,
+	"startColumn": 46,
+	"endLineNumber": 396,
+	"endColumn": 50
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 396,
+	"startColumn": 51,
+	"endLineNumber": 396,
+	"endColumn": 59
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 396,
+	"startColumn": 64,
+	"endLineNumber": 396,
+	"endColumn": 68
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 396,
+	"startColumn": 69,
+	"endLineNumber": 396,
+	"endColumn": 72
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 396,
+	"startColumn": 73,
+	"endLineNumber": 396,
+	"endColumn": 78
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 396,
+	"startColumn": 79,
+	"endLineNumber": 396,
+	"endColumn": 83
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 396,
+	"startColumn": 91,
+	"endLineNumber": 396,
+	"endColumn": 94
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 396,
+	"startColumn": 95,
+	"endLineNumber": 396,
+	"endColumn": 104
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Expected expression",
+	"source": "Pylance",
+	"startLineNumber": 396,
+	"startColumn": 105,
+	"endLineNumber": 397,
+	"endColumn": 1
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Unexpected indentation",
+	"source": "Pylance",
+	"startLineNumber": 397,
+	"startColumn": 1,
+	"endLineNumber": 397,
+	"endColumn": 13
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 397,
+	"startColumn": 14,
+	"endLineNumber": 397,
+	"endColumn": 15
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Expected expression",
+	"source": "Pylance",
+	"startLineNumber": 397,
+	"startColumn": 14,
+	"endLineNumber": 397,
+	"endColumn": 15
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Statements must be separated by newlines or semicolons",
+	"source": "Pylance",
+	"startLineNumber": 398,
+	"startColumn": 14,
+	"endLineNumber": 398,
+	"endColumn": 15
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Expected expression",
+	"source": "Pylance",
+	"startLineNumber": 398,
+	"startColumn": 14,
+	"endLineNumber": 398,
+	"endColumn": 15
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Expected expression",
+	"source": "Pylance",
+	"startLineNumber": 400,
+	"startColumn": 9,
+	"endLineNumber": 400,
+	"endColumn": 10
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Expected expression",
+	"source": "Pylance",
+	"startLineNumber": 401,
+	"startColumn": 9,
+	"endLineNumber": 401,
+	"endColumn": 10
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "Expected expression",
+	"source": "Pylance",
+	"startLineNumber": 402,
+	"startColumn": 9,
+	"endLineNumber": 402,
+	"endColumn": 10
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"severity": 8,
+	"message": "String literal is unterminated",
+	"source": "Pylance",
+	"startLineNumber": 403,
+	"startColumn": 9,
+	"endLineNumber": 421,
+	"endColumn": 93
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"os\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 294,
+	"startColumn": 16,
+	"endLineNumber": 294,
+	"endColumn": 18
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"os\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 295,
+	"startColumn": 13,
+	"endLineNumber": 295,
+	"endColumn": 15
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"train_test_split\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 313,
+	"startColumn": 48,
+	"endLineNumber": 313,
+	"endColumn": 64
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"RandomForestRegressor\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 316,
+	"startColumn": 21,
+	"endLineNumber": 316,
+	"endColumn": 42
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"np\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 322,
+	"startColumn": 37,
+	"endLineNumber": 322,
+	"endColumn": 39
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"np\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 325,
+	"startColumn": 32,
+	"endLineNumber": 325,
+	"endColumn": 34
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"np\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 326,
+	"startColumn": 33,
+	"endLineNumber": 326,
+	"endColumn": 35
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"accuracy_score\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 336,
+	"startColumn": 24,
+	"endLineNumber": 336,
+	"endColumn": 38
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"sktrading\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 338,
+	"startColumn": 16,
+	"endLineNumber": 338,
+	"endColumn": 25
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"pickle\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 361,
+	"startColumn": 21,
+	"endLineNumber": 361,
+	"endColumn": 27
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"The\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 376,
+	"startColumn": 9,
+	"endLineNumber": 376,
+	"endColumn": 12
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"run_async_functions\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 376,
+	"startColumn": 13,
+	"endLineNumber": 376,
+	"endColumn": 32
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"the\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 376,
+	"startColumn": 45,
+	"endLineNumber": 376,
+	"endColumn": 48
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"main\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 376,
+	"startColumn": 49,
+	"endLineNumber": 376,
+	"endColumn": 53
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"that\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 376,
+	"startColumn": 63,
+	"endLineNumber": 376,
+	"endColumn": 67
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"runs\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 376,
+	"startColumn": 68,
+	"endLineNumber": 376,
+	"endColumn": 72
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"of\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 376,
+	"startColumn": 77,
+	"endLineNumber": 376,
+	"endColumn": 79
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"the\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 376,
+	"startColumn": 80,
+	"endLineNumber": 376,
+	"endColumn": 83
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"other\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 376,
+	"startColumn": 84,
+	"endLineNumber": 376,
+	"endColumn": 89
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"It\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 377,
+	"startColumn": 9,
+	"endLineNumber": 377,
+	"endColumn": 11
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"will\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 377,
+	"startColumn": 12,
+	"endLineNumber": 377,
+	"endColumn": 16
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"run\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 377,
+	"startColumn": 17,
+	"endLineNumber": 377,
+	"endColumn": 20
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"them\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 377,
+	"startColumn": 21,
+	"endLineNumber": 377,
+	"endColumn": 25
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"The\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 9,
+	"endLineNumber": 378,
+	"endColumn": 12
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"loop_count\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 13,
+	"endLineNumber": 378,
+	"endColumn": 23
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"variable\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 24,
+	"endLineNumber": 378,
+	"endColumn": 32
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"used\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 36,
+	"endLineNumber": 378,
+	"endColumn": 40
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"to\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 41,
+	"endLineNumber": 378,
+	"endColumn": 43
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"determine\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 44,
+	"endLineNumber": 378,
+	"endColumn": 53
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"when\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 54,
+	"endLineNumber": 378,
+	"endColumn": 58
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"to\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 59,
+	"endLineNumber": 378,
+	"endColumn": 61
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"update\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 62,
+	"endLineNumber": 378,
+	"endColumn": 68
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"buying\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 69,
+	"endLineNumber": 378,
+	"endColumn": 75
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"power\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 76,
+	"endLineNumber": 378,
+	"endColumn": 81
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"which\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 83,
+	"endLineNumber": 378,
+	"endColumn": 88
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"happens\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 89,
+	"endLineNumber": 378,
+	"endColumn": 96
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"every\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 378,
+	"startColumn": 97,
+	"endLineNumber": 378,
+	"endColumn": 102
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"The\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 396,
+	"startColumn": 9,
+	"endLineNumber": 396,
+	"endColumn": 12
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"main_looper\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 396,
+	"startColumn": 13,
+	"endLineNumber": 396,
+	"endColumn": 24
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"the\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 396,
+	"startColumn": 37,
+	"endLineNumber": 396,
+	"endColumn": 40
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"main\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 396,
+	"startColumn": 41,
+	"endLineNumber": 396,
+	"endColumn": 45
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"loop\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 396,
+	"startColumn": 46,
+	"endLineNumber": 396,
+	"endColumn": 50
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"will\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 396,
+	"startColumn": 64,
+	"endLineNumber": 396,
+	"endColumn": 68
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"run\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 396,
+	"startColumn": 69,
+	"endLineNumber": 396,
+	"endColumn": 72
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"every\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 396,
+	"startColumn": 73,
+	"endLineNumber": 396,
+	"endColumn": 78
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"hour\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 396,
+	"startColumn": 79,
+	"endLineNumber": 396,
+	"endColumn": 83
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"do\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 396,
+	"startColumn": 88,
+	"endLineNumber": 396,
+	"endColumn": 90
+},{
+	"resource": "/Users/grahamwaters/Library/Mobile Documents/com~apple~CloudDocs/Sherwood_Trading/main_2_modified.py",
+	"owner": "_generated_diagnostic_collection_name_#13",
+	"code": {
+		"value": "reportUndefinedVariable",
+		"target": {
+			"$mid": 1,
+			"path": "/microsoft/pyright/blob/main/docs/configuration.md",
+			"scheme": "https",
+			"authority": "github.com",
+			"fragment": "reportUndefinedVariable"
+		}
+	},
+	"severity": 4,
+	"message": "\"the\" is not defined",
+	"source": "Pylance",
+	"startLineNumber": 396,
+	"startColumn": 91,
+	"endLineNumber": 396,
+	"endColumn": 94
+}]
