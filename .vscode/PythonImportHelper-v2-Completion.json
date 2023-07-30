@@ -5893,7 +5893,7 @@
         "kind": 6,
         "importPath": "main_2",
         "description": "main_2",
-        "peekOfCode": "class Utility:\n    def __init__(self):\n        # Set up logging\n        self.logger = logging.getLogger('utility')\n        self.logger.setLevel(logging.INFO)\n        handler = logging.StreamHandler()\n        formatter = logging.Formatter(f'{Fore.BLUE}%(asctime)s{Style.RESET_ALL} - %(name)s - %(levelname)s - %(message)s')\n        handler.setFormatter(formatter)\n        self.logger.addHandler(handler)\n        pass",
+        "peekOfCode": "class Utility:\n    def __init__(self):\n        # Set up logging\n        self.logger = logging.getLogger('utility')\n        self.logger.setLevel(logging.INFO)\n        handler = logging.StreamHandler()\n        formatter = logging.Formatter(f'{Fore.BLUE}%(asctime)s{Style.RESET_ALL} - %(name)s - %(levelname)s - %(message)s')\n        handler.setFormatter(formatter)\n        self.logger.addHandler(handler)\n    async def log_file_size_checker(self):",
         "detail": "main_2",
         "documentation": {}
     },
@@ -5912,6 +5912,24 @@
         "importPath": "main_2",
         "description": "main_2",
         "peekOfCode": "class Looper:\n    def __init__(self, trader: Trader):\n        \"\"\"\n        The Looper class provides functions for running asynchronous operations.\n        :param trader: An instance of the Trader class\n        :doc-author: Trelent\n        \"\"\"\n        self.trader = trader\n        self.utility = Utility() #needed for is_daytime()\n        # Set up logging",
+        "detail": "main_2",
+        "documentation": {}
+    },
+    {
+        "label": "PCT_SPEND",
+        "kind": 5,
+        "importPath": "main_2",
+        "description": "main_2",
+        "peekOfCode": "PCT_SPEND = 0.05 # 5% of buying power\nverbose_mode = False # Set to True to see more logging output\nfrom colorama import Fore, Back, Style\nclass Utility:\n    def __init__(self):\n        # Set up logging\n        self.logger = logging.getLogger('utility')\n        self.logger.setLevel(logging.INFO)\n        handler = logging.StreamHandler()\n        formatter = logging.Formatter(f'{Fore.BLUE}%(asctime)s{Style.RESET_ALL} - %(name)s - %(levelname)s - %(message)s')",
+        "detail": "main_2",
+        "documentation": {}
+    },
+    {
+        "label": "verbose_mode",
+        "kind": 5,
+        "importPath": "main_2",
+        "description": "main_2",
+        "peekOfCode": "verbose_mode = False # Set to True to see more logging output\nfrom colorama import Fore, Back, Style\nclass Utility:\n    def __init__(self):\n        # Set up logging\n        self.logger = logging.getLogger('utility')\n        self.logger.setLevel(logging.INFO)\n        handler = logging.StreamHandler()\n        formatter = logging.Formatter(f'{Fore.BLUE}%(asctime)s{Style.RESET_ALL} - %(name)s - %(levelname)s - %(message)s')\n        handler.setFormatter(formatter)",
         "detail": "main_2",
         "documentation": {}
     },
