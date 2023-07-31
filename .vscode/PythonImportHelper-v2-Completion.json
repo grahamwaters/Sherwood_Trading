@@ -2113,6 +2113,14 @@
         "documentation": {}
     },
     {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
         "label": "logging",
         "kind": 6,
         "isExtraImport": true,
@@ -2571,6 +2579,15 @@
         "documentation": {}
     },
     {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
         "label": "exit",
         "importPath": "sys",
         "description": "sys",
@@ -2656,12 +2673,64 @@
         "documentation": {}
     },
     {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
         "label": "configparser",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "configparser",
         "description": "configparser",
         "detail": "configparser",
+        "documentation": {}
+    },
+    {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
+        "documentation": {}
+    },
+    {
+        "label": "alive_progress",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "alive_progress",
+        "description": "alive_progress",
+        "detail": "alive_progress",
+        "documentation": {}
+    },
+    {
+        "label": "alive_bar",
+        "importPath": "alive_progress",
+        "description": "alive_progress",
+        "isExtraImport": true,
+        "detail": "alive_progress",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_ta_indicators",
+        "importPath": "legacy.V5.main",
+        "description": "legacy.V5.main",
+        "isExtraImport": true,
+        "detail": "legacy.V5.main",
         "documentation": {}
     },
     {
@@ -5674,6 +5743,15 @@
         "documentation": {}
     },
     {
+        "label": "positions",
+        "kind": 5,
+        "importPath": "main_2",
+        "description": "main_2",
+        "peekOfCode": "positions = r.crypto.get_crypto_positions()\nprint(f'found {len(positions)} positions.')\nfor position in tqdm(positions):\n    # print(position)\n    if position['currency']['code'] == crypto:\n        pos_dict = position['currency']\n        min_order_size = float(pos_dict['increment'])\n        coin_holdings = float(position['quantity_available'])\n\"\"\"\nconfig = configparser.ConfigParser()",
+        "detail": "main_2",
+        "documentation": {}
+    },
+    {
         "label": "config",
         "kind": 5,
         "importPath": "main_2",
@@ -5687,7 +5765,7 @@
         "kind": 5,
         "importPath": "main_2",
         "description": "main_2",
-        "peekOfCode": "coins = config['trading']['coins'].split(', ')\nstop_loss_percent = float(config['trading']['stop_loss_percent'])\ncoins = [coin.strip() for coin in coins]\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging']['verbose_mode']\ndebug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.\n# initialize the Trader class\nclass Utility:",
+        "peekOfCode": "coins = config['trading']['coins'].split(', ')\nstop_loss_percent = float(config['trading']['stop_loss_percent'])\ncoins = [coin.strip() for coin in coins]\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging']['verbose_mode']\ndebug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.\n#^ Global Variables\nusing_trading_function = False # this variable is used to determine if the trading function is currently being used to trade or not. If it is, the trading function will not be called again until it is done trading.",
         "detail": "main_2",
         "documentation": {}
     },
@@ -5696,7 +5774,7 @@
         "kind": 5,
         "importPath": "main_2",
         "description": "main_2",
-        "peekOfCode": "stop_loss_percent = float(config['trading']['stop_loss_percent'])\ncoins = [coin.strip() for coin in coins]\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging']['verbose_mode']\ndebug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.\n# initialize the Trader class\nclass Utility:\n    def __init__(self):",
+        "peekOfCode": "stop_loss_percent = float(config['trading']['stop_loss_percent'])\ncoins = [coin.strip() for coin in coins]\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging']['verbose_mode']\ndebug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.\n#^ Global Variables\nusing_trading_function = False # this variable is used to determine if the trading function is currently being used to trade or not. If it is, the trading function will not be called again until it is done trading.\nlot_details_list = []",
         "detail": "main_2",
         "documentation": {}
     },
@@ -5705,7 +5783,7 @@
         "kind": 5,
         "importPath": "main_2",
         "description": "main_2",
-        "peekOfCode": "coins = [coin.strip() for coin in coins]\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging']['verbose_mode']\ndebug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.\n# initialize the Trader class\nclass Utility:\n    def __init__(self):\n        \"\"\"",
+        "peekOfCode": "coins = [coin.strip() for coin in coins]\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging']['verbose_mode']\ndebug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.\n#^ Global Variables\nusing_trading_function = False # this variable is used to determine if the trading function is currently being used to trade or not. If it is, the trading function will not be called again until it is done trading.\nlot_details_list = []\n#^ Logging Setup",
         "detail": "main_2",
         "documentation": {}
     },
@@ -5714,7 +5792,7 @@
         "kind": 5,
         "importPath": "main_2",
         "description": "main_2",
-        "peekOfCode": "percent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging']['verbose_mode']\ndebug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.\n# initialize the Trader class\nclass Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.",
+        "peekOfCode": "percent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging']['verbose_mode']\ndebug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.\n#^ Global Variables\nusing_trading_function = False # this variable is used to determine if the trading function is currently being used to trade or not. If it is, the trading function will not be called again until it is done trading.\nlot_details_list = []\n#^ Logging Setup\nif not os.path.exists('logs'):",
         "detail": "main_2",
         "documentation": {}
     },
@@ -5723,7 +5801,7 @@
         "kind": 5,
         "importPath": "main_2",
         "description": "main_2",
-        "peekOfCode": "verbose_mode = config['logging']['verbose_mode']\ndebug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.\n# initialize the Trader class\nclass Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.\n        :doc-author: Trelent",
+        "peekOfCode": "verbose_mode = config['logging']['verbose_mode']\ndebug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.\n#^ Global Variables\nusing_trading_function = False # this variable is used to determine if the trading function is currently being used to trade or not. If it is, the trading function will not be called again until it is done trading.\nlot_details_list = []\n#^ Logging Setup\nif not os.path.exists('logs'):\n    os.makedirs('logs')",
         "detail": "main_2",
         "documentation": {}
     },
@@ -5732,7 +5810,7 @@
         "kind": 5,
         "importPath": "main_2",
         "description": "main_2",
-        "peekOfCode": "debug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.\n# initialize the Trader class\nclass Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.\n        :doc-author: Trelent\n        \"\"\"",
+        "peekOfCode": "debug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.\n#^ Global Variables\nusing_trading_function = False # this variable is used to determine if the trading function is currently being used to trade or not. If it is, the trading function will not be called again until it is done trading.\nlot_details_list = []\n#^ Logging Setup\nif not os.path.exists('logs'):\n    os.makedirs('logs')\nlogging.basicConfig(filename='logs/robinhood.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')",
         "detail": "main_2",
         "documentation": {}
     },
@@ -5741,7 +5819,7 @@
         "kind": 5,
         "importPath": "main_2",
         "description": "main_2",
-        "peekOfCode": "reset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.\n# initialize the Trader class\nclass Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.\n        :doc-author: Trelent\n        \"\"\"\n        pass",
+        "peekOfCode": "reset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.\n#^ Global Variables\nusing_trading_function = False # this variable is used to determine if the trading function is currently being used to trade or not. If it is, the trading function will not be called again until it is done trading.\nlot_details_list = []\n#^ Logging Setup\nif not os.path.exists('logs'):\n    os.makedirs('logs')\nlogging.basicConfig(filename='logs/robinhood.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')\n#^ Robinhood Login Setup",
         "detail": "main_2",
         "documentation": {}
     },
@@ -5750,7 +5828,25 @@
         "kind": 5,
         "importPath": "main_2",
         "description": "main_2",
-        "peekOfCode": "minimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.\n# initialize the Trader class\nclass Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.\n        :doc-author: Trelent\n        \"\"\"\n        pass\n    async def log_file_size_checker():",
+        "peekOfCode": "minimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.\n#^ Global Variables\nusing_trading_function = False # this variable is used to determine if the trading function is currently being used to trade or not. If it is, the trading function will not be called again until it is done trading.\nlot_details_list = []\n#^ Logging Setup\nif not os.path.exists('logs'):\n    os.makedirs('logs')\nlogging.basicConfig(filename='logs/robinhood.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')\n#^ Robinhood Login Setup\n#? rstocks.login(username=config['robinhood']['username'], password=config['robinhood']['password'])",
+        "detail": "main_2",
+        "documentation": {}
+    },
+    {
+        "label": "using_trading_function",
+        "kind": 5,
+        "importPath": "main_2",
+        "description": "main_2",
+        "peekOfCode": "using_trading_function = False # this variable is used to determine if the trading function is currently being used to trade or not. If it is, the trading function will not be called again until it is done trading.\nlot_details_list = []\n#^ Logging Setup\nif not os.path.exists('logs'):\n    os.makedirs('logs')\nlogging.basicConfig(filename='logs/robinhood.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')\n#^ Robinhood Login Setup\n#? rstocks.login(username=config['robinhood']['username'], password=config['robinhood']['password'])\n#^ Utility Class\nclass Utility:",
+        "detail": "main_2",
+        "documentation": {}
+    },
+    {
+        "label": "lot_details_list",
+        "kind": 5,
+        "importPath": "main_2",
+        "description": "main_2",
+        "peekOfCode": "lot_details_list = []\n#^ Logging Setup\nif not os.path.exists('logs'):\n    os.makedirs('logs')\nlogging.basicConfig(filename='logs/robinhood.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')\n#^ Robinhood Login Setup\n#? rstocks.login(username=config['robinhood']['username'], password=config['robinhood']['password'])\n#^ Utility Class\nclass Utility:\n    def __init__(self):",
         "detail": "main_2",
         "documentation": {}
     },

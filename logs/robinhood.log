@@ -1,1000 +1,1001 @@
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:12,389 casting df data to floats...
-2023-07-31 13:26:12,418 current price: 29169.855, rsi: 38.536068211753225 --> buy signal increased by 1 to 1
-2023-07-31 13:26:12,421   Calculating signals for ETH...
-2023-07-31 13:26:12,427   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:12,427 casting df data to floats...
-2023-07-31 13:26:12,456 current price: 1858.275, rsi: 42.27388404274085 --> buy signal increased by 1 to 1
-2023-07-31 13:26:12,459   Calculating signals for ADA...
-2023-07-31 13:26:12,467   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:12,467 casting df data to floats...
-2023-07-31 13:26:12,504 current price: 0.3105, rsi: 35.18634168500131 --> buy signal increased by 1 to 1
-2023-07-31 13:26:12,506   Calculating signals for DOG...
-2023-07-31 13:26:12,513   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:12,513 casting df data to floats...
-2023-07-31 13:26:12,547 current price: 0.077944175, rsi: 35.60381456298349 --> buy signal increased by 1 to 1
-2023-07-31 13:26:12,549   Calculating signals for MAT...
-2023-07-31 13:26:12,557   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:12,557 casting df data to floats...
-2023-07-31 13:26:12,589 current price: 0.6902, rsi: 34.40724681522228 --> buy signal increased by 1 to 1
-2023-07-31 13:26:12,592   Calculating signals for SHI...
-2023-07-31 13:26:12,598   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:12,599 casting df data to floats...
-2023-07-31 13:26:12,635 current price: 8.435e-06, rsi: 34.99724113054586 --> buy signal increased by 1 to 2
-2023-07-31 13:26:12,637   Calculating signals for ETC...
-2023-07-31 13:26:12,644   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:12,644 casting df data to floats...
-2023-07-31 13:26:12,678 current price: 18.559, rsi: 39.05339738104629 --> buy signal increased by 1 to 1
-2023-07-31 13:26:12,680   Calculating signals for UNI...
-2023-07-31 13:26:12,688   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:12,690 casting df data to floats...
-2023-07-31 13:26:12,722 current price: 6.5531578, rsi: 46.32607935699795 --> buy signal increased by 1 to 2
-2023-07-31 13:26:12,725   Calculating signals for AAV...
-2023-07-31 13:26:12,732   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:12,732 casting df data to floats...
-2023-07-31 13:26:12,763 current price: 67.342169, rsi: 21.983084881110273 --> buy signal increased by 1 to 1
-2023-07-31 13:26:12,765   Calculating signals for LTC...
-2023-07-31 13:26:12,771   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:12,771 casting df data to floats...
-2023-07-31 13:26:12,799 current price: 92.605, rsi: 54.222223082035015 --> buy signal increased by 1 to 1
-2023-07-31 13:26:12,802   Calculating signals for LIN...
-2023-07-31 13:26:12,809   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:12,809 casting df data to floats...
-2023-07-31 13:26:12,837 current price: 7.5964864, rsi: 51.342262119505385 --> buy signal increased by 1 to 1
-2023-07-31 13:26:12,839   Calculating signals for COM...
-2023-07-31 13:26:12,845   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:12,845 casting df data to floats...
-2023-07-31 13:26:12,873   Calculating signals for USD...
-2023-07-31 13:26:12,879   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:12,879 casting df data to floats...
-2023-07-31 13:26:12,908   Calculating signals for SOL...
-2023-07-31 13:26:12,914   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:12,914 casting df data to floats...
-2023-07-31 13:26:13,015 current price: 23.87, rsi: 32.221416015738754 --> buy signal increased by 1 to 1
-2023-07-31 13:26:13,027   Calculating signals for AVA...
-2023-07-31 13:26:13,047   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:13,048 casting df data to floats...
-2023-07-31 13:26:21,625 Started
-2023-07-31 13:26:21,659 Using selector: KqueueSelector
-2023-07-31 13:26:21,726 Starting new HTTPS connection (1): nummus.robinhood.com:443
-2023-07-31 13:26:21,791 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
-2023-07-31 13:26:22,137 https://nummus.robinhood.com:443 "GET /holdings/ HTTP/1.1" 200 24074
-2023-07-31 13:26:22,446 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:22,680 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:22,877 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/3d961844-d360-45fc-989b-f6fca761d511/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:26:23,128 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:23,353 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/3d961844-d360-45fc-989b-f6fca761d511/ HTTP/1.1" 200 427
-2023-07-31 13:26:23,694 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:24,165 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:24,338 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/76637d50-c702-4ed1-bcb5-5b0732a81f48/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:26:24,667 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:24,847 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/76637d50-c702-4ed1-bcb5-5b0732a81f48/ HTTP/1.1" 200 425
-2023-07-31 13:26:25,177 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:25,505 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:25,688 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/6f2afc32-702e-41ad-b232-ed26b77c1943/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:26:25,973 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:26,118 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/6f2afc32-702e-41ad-b232-ed26b77c1943/ HTTP/1.1" 200 398
-2023-07-31 13:26:26,398 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:26,611 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:26,760 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/1ef78e1b-049b-4f12-90e5-555dcf2fe204/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:26:26,937 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:27,110 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/1ef78e1b-049b-4f12-90e5-555dcf2fe204/ HTTP/1.1" 200 425
-2023-07-31 13:26:27,289 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:27,465 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:27,816 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/b668301c-44f9-4fbf-88e4-8140846f15ba/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:26:27,992 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:28,168 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/b668301c-44f9-4fbf-88e4-8140846f15ba/ HTTP/1.1" 200 402
-2023-07-31 13:26:28,344 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:28,519 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:28,632 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/2d189ddb-bc0d-4aa4-bd6b-cd72e6679cd0/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:26:28,809 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:29,159 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/2d189ddb-bc0d-4aa4-bd6b-cd72e6679cd0/ HTTP/1.1" 200 434
-2023-07-31 13:26:29,320 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:29,512 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:29,639 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/7b577ce3-489d-4269-9408-796a0d1abb3a/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:26:29,800 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:29,903 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/7b577ce3-489d-4269-9408-796a0d1abb3a/ HTTP/1.1" 200 414
-2023-07-31 13:26:30,063 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:30,231 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:30,331 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/33316259-af8c-4f31-86a4-c5c07e12d625/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:26:30,597 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:30,688 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/33316259-af8c-4f31-86a4-c5c07e12d625/ HTTP/1.1" 200 427
-2023-07-31 13:26:30,855 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:31,030 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:31,179 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/f649e71a-543b-4fd8-9faa-bc6c2c9e3d21/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:26:31,329 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:31,425 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/f649e71a-543b-4fd8-9faa-bc6c2c9e3d21/ HTTP/1.1" 200 442
-2023-07-31 13:26:31,581 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:31,760 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:31,892 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/383280b1-ff53-43fc-9c84-f01afd0989cd/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:26:32,137 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:32,226 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/383280b1-ff53-43fc-9c84-f01afd0989cd/ HTTP/1.1" 200 427
-2023-07-31 13:26:32,371 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:32,557 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:32,684 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/9f0a3a2e-e72e-4361-bf15-91d962487922/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:26:32,872 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:32,962 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/9f0a3a2e-e72e-4361-bf15-91d962487922/ HTTP/1.1" 200 437
-2023-07-31 13:26:33,121 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:33,374 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:33,503 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/715af4b3-26d0-4cd0-ad07-7a1cf5dc734a/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:26:33,689 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:33,782 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/715af4b3-26d0-4cd0-ad07-7a1cf5dc734a/ HTTP/1.1" 200 453
-2023-07-31 13:26:33,942 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:34,126 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:34,225 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/3a3d9131-b627-4782-95e6-aeb874558e99/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:26:34,419 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:34,561 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/3a3d9131-b627-4782-95e6-aeb874558e99/ HTTP/1.1" 200 382
-2023-07-31 13:26:34,690 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:34,900 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:35,035 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/0cdc8c93-fbda-462f-94b7-26353d87a009/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:26:35,224 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:35,321 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/0cdc8c93-fbda-462f-94b7-26353d87a009/ HTTP/1.1" 200 395
-2023-07-31 13:26:35,446 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:35,605 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:35,737 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/f62a25b6-31c0-4c92-846d-3c8105627b62/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:26:35,920 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:36,017 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/f62a25b6-31c0-4c92-846d-3c8105627b62/ HTTP/1.1" 200 451
-2023-07-31 13:26:36,250 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:36,425 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:36,557 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/7a04fe7a-e3a8-4a07-8c35-d0fec9f35569/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:26:36,742 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:36,872 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/7a04fe7a-e3a8-4a07-8c35-d0fec9f35569/ HTTP/1.1" 200 437
-2023-07-31 13:26:36,990 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:37,188 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:37,259 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/2f2b77c4-e426-4271-ae49-18d5cb296d3a/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:26:37,484 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:37,579 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/2f2b77c4-e426-4271-ae49-18d5cb296d3a/ HTTP/1.1" 200 429
-2023-07-31 13:26:37,703 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:37,856 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:37,954 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:26:38,148 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:38,237 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/ HTTP/1.1" 200 435
-2023-07-31 13:26:38,309 Calculating signals...
-2023-07-31 13:26:38,314   Calculating signals for BTC...
-2023-07-31 13:26:38,326   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:38,327 casting df data to floats...
-2023-07-31 13:26:38,365 current price: 29169.855, rsi: 38.536068211753225 --> buy signal increased by 1 to 1
-2023-07-31 13:26:38,367   Calculating signals for ETH...
-2023-07-31 13:26:38,373   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:38,373 casting df data to floats...
-2023-07-31 13:26:38,403 current price: 1858.275, rsi: 42.27388404274085 --> buy signal increased by 1 to 1
-2023-07-31 13:26:38,407   Calculating signals for ADA...
-2023-07-31 13:26:38,413   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:38,414 casting df data to floats...
-2023-07-31 13:26:38,445 current price: 0.3105, rsi: 34.94030409684484 --> buy signal increased by 1 to 1
-2023-07-31 13:26:38,447   Calculating signals for DOG...
-2023-07-31 13:26:38,453   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:38,453 casting df data to floats...
-2023-07-31 13:26:38,483 current price: 0.077944175, rsi: 35.60381456298349 --> buy signal increased by 1 to 1
-2023-07-31 13:26:38,485   Calculating signals for MAT...
-2023-07-31 13:26:38,492   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:38,493 casting df data to floats...
-2023-07-31 13:26:38,521 current price: 0.6902, rsi: 34.40724681522228 --> buy signal increased by 1 to 1
-2023-07-31 13:26:38,524   Calculating signals for SHI...
-2023-07-31 13:26:38,530   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:38,530 casting df data to floats...
-2023-07-31 13:26:38,560 current price: 8.435e-06, rsi: 34.99724113054586 --> buy signal increased by 1 to 2
-2023-07-31 13:26:38,562   Calculating signals for ETC...
-2023-07-31 13:26:38,568   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:38,568 casting df data to floats...
-2023-07-31 13:26:38,598 current price: 18.559, rsi: 39.05339738104629 --> buy signal increased by 1 to 1
-2023-07-31 13:26:38,600   Calculating signals for UNI...
-2023-07-31 13:26:38,606   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:38,606 casting df data to floats...
-2023-07-31 13:26:38,635 current price: 6.5531578, rsi: 46.32607935699795 --> buy signal increased by 1 to 2
-2023-07-31 13:26:38,637   Calculating signals for AAV...
-2023-07-31 13:26:38,642   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:38,642 casting df data to floats...
-2023-07-31 13:26:38,671 current price: 67.342169, rsi: 21.983084881110273 --> buy signal increased by 1 to 1
-2023-07-31 13:26:38,673   Calculating signals for LTC...
-2023-07-31 13:26:38,680   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:38,680 casting df data to floats...
-2023-07-31 13:26:38,711 current price: 92.605, rsi: 54.222223082035015 --> buy signal increased by 1 to 1
-2023-07-31 13:26:38,713   Calculating signals for LIN...
-2023-07-31 13:26:38,719   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:38,719 casting df data to floats...
-2023-07-31 13:26:38,753 current price: 7.5964864, rsi: 51.342262119505385 --> buy signal increased by 1 to 1
-2023-07-31 13:26:38,755   Calculating signals for COM...
-2023-07-31 13:26:38,761   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:38,762 casting df data to floats...
-2023-07-31 13:26:38,792   Calculating signals for USD...
-2023-07-31 13:26:38,798   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:38,798 casting df data to floats...
-2023-07-31 13:26:38,828   Calculating signals for SOL...
-2023-07-31 13:26:38,834   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:38,834 casting df data to floats...
-2023-07-31 13:26:38,863 current price: 23.87, rsi: 32.14202497187986 --> buy signal increased by 1 to 1
-2023-07-31 13:26:38,865   Calculating signals for AVA...
-2023-07-31 13:26:38,870   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:38,870 casting df data to floats...
-2023-07-31 13:26:38,898 current price: 12.923, rsi: 41.02878777775134 --> buy signal increased by 1 to 1
-2023-07-31 13:26:38,900   Calculating signals for XLM...
-2023-07-31 13:26:38,906   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:38,907 casting df data to floats...
-2023-07-31 13:26:38,933 current price: 0.15324707, rsi: 41.06715957095308 --> buy signal increased by 1 to 1
-2023-07-31 13:26:38,935   Calculating signals for BCH...
-2023-07-31 13:26:38,942   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:38,942 casting df data to floats...
-2023-07-31 13:26:38,969 current price: 250.04, rsi: 56.761845459707594 --> buy signal increased by 1 to 1
-2023-07-31 13:26:38,971   Calculating signals for XTZ...
-2023-07-31 13:26:38,977   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:26:38,977 casting df data to floats...
-2023-07-31 13:26:39,004 current price: 0.8245, rsi: 35.693836478619005 --> buy signal increased by 1 to 1
-2023-07-31 13:26:39,089 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
-2023-07-31 13:26:39,258 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:39,354 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/33316259-af8c-4f31-86a4-c5c07e12d625/ HTTP/1.1" 200 430
-2023-07-31 13:26:41,589 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:41,679 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/33316259-af8c-4f31-86a4-c5c07e12d625/ HTTP/1.1" 200 440
-2023-07-31 13:26:41,837 https://nummus.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 1299
-2023-07-31 13:26:42,002 https://nummus.robinhood.com:443 "POST /orders/ HTTP/1.1" 400 148
-2023-07-31 13:26:45,231 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:45,321 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/ HTTP/1.1" 200 434
-2023-07-31 13:26:45,547 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:26:45,646 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/ HTTP/1.1" 200 434
-2023-07-31 13:26:45,719 https://nummus.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 1299
-2023-07-31 13:26:45,869 https://nummus.robinhood.com:443 "POST /orders/ HTTP/1.1" 400 97
-2023-07-31 13:26:50,019 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
-2023-07-31 13:27:10,027 Finished executing orders for 2023-07-31 13:27:10.025772-05:00...
-2023-07-31 13:27:36,401 Started
-2023-07-31 13:27:36,456 Using selector: KqueueSelector
-2023-07-31 13:27:36,587 Starting new HTTPS connection (1): nummus.robinhood.com:443
-2023-07-31 13:27:36,621 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
-2023-07-31 13:27:37,016 https://nummus.robinhood.com:443 "GET /holdings/ HTTP/1.1" 200 24074
-2023-07-31 13:27:37,289 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:37,543 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:37,681 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/3d961844-d360-45fc-989b-f6fca761d511/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:27:37,862 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:37,955 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/3d961844-d360-45fc-989b-f6fca761d511/ HTTP/1.1" 200 426
-2023-07-31 13:27:38,111 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:38,300 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:38,430 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/76637d50-c702-4ed1-bcb5-5b0732a81f48/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:27:38,572 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:38,697 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/76637d50-c702-4ed1-bcb5-5b0732a81f48/ HTTP/1.1" 200 423
-2023-07-31 13:27:38,849 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:39,029 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:39,157 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/6f2afc32-702e-41ad-b232-ed26b77c1943/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:27:39,441 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:39,567 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/6f2afc32-702e-41ad-b232-ed26b77c1943/ HTTP/1.1" 200 398
-2023-07-31 13:27:39,722 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:39,879 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:40,012 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/1ef78e1b-049b-4f12-90e5-555dcf2fe204/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:27:40,177 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:40,269 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/1ef78e1b-049b-4f12-90e5-555dcf2fe204/ HTTP/1.1" 200 439
-2023-07-31 13:27:40,415 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:40,599 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:40,728 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/b668301c-44f9-4fbf-88e4-8140846f15ba/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:27:40,883 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:40,969 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/b668301c-44f9-4fbf-88e4-8140846f15ba/ HTTP/1.1" 200 402
-2023-07-31 13:27:41,115 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:41,295 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:41,394 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/2d189ddb-bc0d-4aa4-bd6b-cd72e6679cd0/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:27:41,641 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:41,733 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/2d189ddb-bc0d-4aa4-bd6b-cd72e6679cd0/ HTTP/1.1" 200 435
-2023-07-31 13:27:41,879 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:42,069 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:42,194 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/7b577ce3-489d-4269-9408-796a0d1abb3a/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:27:42,359 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:42,447 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/7b577ce3-489d-4269-9408-796a0d1abb3a/ HTTP/1.1" 200 426
-2023-07-31 13:27:42,604 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:42,770 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:42,926 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/33316259-af8c-4f31-86a4-c5c07e12d625/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:27:43,091 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:43,180 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/33316259-af8c-4f31-86a4-c5c07e12d625/ HTTP/1.1" 200 430
-2023-07-31 13:27:43,330 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:43,481 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:43,587 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/f649e71a-543b-4fd8-9faa-bc6c2c9e3d21/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:27:43,775 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:43,869 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/f649e71a-543b-4fd8-9faa-bc6c2c9e3d21/ HTTP/1.1" 200 441
-2023-07-31 13:27:44,019 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:44,200 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:44,321 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/383280b1-ff53-43fc-9c84-f01afd0989cd/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:27:44,506 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:44,596 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/383280b1-ff53-43fc-9c84-f01afd0989cd/ HTTP/1.1" 200 428
-2023-07-31 13:27:44,713 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:44,924 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:45,055 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/9f0a3a2e-e72e-4361-bf15-91d962487922/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:27:45,235 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:45,324 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/9f0a3a2e-e72e-4361-bf15-91d962487922/ HTTP/1.1" 200 435
-2023-07-31 13:27:45,442 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:45,660 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:45,787 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/715af4b3-26d0-4cd0-ad07-7a1cf5dc734a/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:27:45,964 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:46,056 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/715af4b3-26d0-4cd0-ad07-7a1cf5dc734a/ HTTP/1.1" 200 434
-2023-07-31 13:27:46,217 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:46,392 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:46,485 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/3a3d9131-b627-4782-95e6-aeb874558e99/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:27:46,666 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:46,758 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/3a3d9131-b627-4782-95e6-aeb874558e99/ HTTP/1.1" 200 382
-2023-07-31 13:27:46,919 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:47,103 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:47,231 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/0cdc8c93-fbda-462f-94b7-26353d87a009/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:27:47,376 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:47,467 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/0cdc8c93-fbda-462f-94b7-26353d87a009/ HTTP/1.1" 200 395
-2023-07-31 13:27:47,586 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:47,742 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:47,867 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/f62a25b6-31c0-4c92-846d-3c8105627b62/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:27:48,040 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:48,129 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/f62a25b6-31c0-4c92-846d-3c8105627b62/ HTTP/1.1" 200 450
-2023-07-31 13:27:48,282 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:48,427 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:48,524 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/7a04fe7a-e3a8-4a07-8c35-d0fec9f35569/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:27:48,697 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:48,756 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/7a04fe7a-e3a8-4a07-8c35-d0fec9f35569/ HTTP/1.1" 200 439
-2023-07-31 13:27:48,915 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:49,062 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:49,220 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/2f2b77c4-e426-4271-ae49-18d5cb296d3a/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:27:49,404 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:49,493 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/2f2b77c4-e426-4271-ae49-18d5cb296d3a/ HTTP/1.1" 200 432
-2023-07-31 13:27:49,656 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:49,833 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:49,927 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:27:50,110 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:50,200 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/ HTTP/1.1" 200 433
-2023-07-31 13:27:50,264 Calculating signals...
-2023-07-31 13:27:50,271   Calculating signals for BTC...
-2023-07-31 13:27:50,285   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:27:50,286 casting df data to floats...
-2023-07-31 13:27:50,327 current price: 29169.855, rsi: 38.536068211753225 --> buy signal increased by 1 to 1
-2023-07-31 13:27:50,329   Calculating signals for ETH...
-2023-07-31 13:27:50,335   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:27:50,335 casting df data to floats...
-2023-07-31 13:27:50,365 current price: 1858.275, rsi: 42.27388404274085 --> buy signal increased by 1 to 1
-2023-07-31 13:27:50,368   Calculating signals for ADA...
-2023-07-31 13:27:50,375   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:27:50,376 casting df data to floats...
-2023-07-31 13:27:50,405 current price: 0.3105, rsi: 34.77282792489413 --> buy signal increased by 1 to 1
-2023-07-31 13:27:50,407   Calculating signals for DOG...
-2023-07-31 13:27:50,414   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:27:50,414 casting df data to floats...
-2023-07-31 13:27:50,454 current price: 0.077944175, rsi: 35.60381456298349 --> buy signal increased by 1 to 1
-2023-07-31 13:27:50,457   Calculating signals for MAT...
-2023-07-31 13:27:50,464   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:27:50,464 casting df data to floats...
-2023-07-31 13:27:50,495 current price: 0.6902, rsi: 34.40724681522228 --> buy signal increased by 1 to 1
-2023-07-31 13:27:50,497   Calculating signals for SHI...
-2023-07-31 13:27:50,503   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:27:50,504 casting df data to floats...
-2023-07-31 13:27:50,540 current price: 8.435e-06, rsi: 34.99724113054586 --> buy signal increased by 1 to 2
-2023-07-31 13:27:50,542   Calculating signals for ETC...
-2023-07-31 13:27:50,549   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:27:50,549 casting df data to floats...
-2023-07-31 13:27:50,580 current price: 18.559, rsi: 39.05339738104629 --> buy signal increased by 1 to 1
-2023-07-31 13:27:50,582   Calculating signals for UNI...
-2023-07-31 13:27:50,589   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:27:50,589 casting df data to floats...
-2023-07-31 13:27:50,618 current price: 6.5531578, rsi: 46.32607935699795 --> buy signal increased by 1 to 2
-2023-07-31 13:27:50,621   Calculating signals for AAV...
-2023-07-31 13:27:50,628   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:27:50,628 casting df data to floats...
-2023-07-31 13:27:50,663 current price: 67.342169, rsi: 21.983084881110273 --> buy signal increased by 1 to 1
-2023-07-31 13:27:50,665   Calculating signals for LTC...
-2023-07-31 13:27:50,672   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:27:50,672 casting df data to floats...
-2023-07-31 13:27:50,704 current price: 92.605, rsi: 54.222223082035015 --> buy signal increased by 1 to 1
-2023-07-31 13:27:50,706   Calculating signals for LIN...
-2023-07-31 13:27:50,712   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:27:50,712 casting df data to floats...
-2023-07-31 13:27:50,742 current price: 7.5964864, rsi: 51.342262119505385 --> buy signal increased by 1 to 1
-2023-07-31 13:27:50,745   Calculating signals for COM...
-2023-07-31 13:27:50,750   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:27:50,750 casting df data to floats...
-2023-07-31 13:27:50,783   Calculating signals for USD...
-2023-07-31 13:27:50,791   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:27:50,791 casting df data to floats...
-2023-07-31 13:27:50,822   Calculating signals for SOL...
-2023-07-31 13:27:50,828   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:27:50,828 casting df data to floats...
-2023-07-31 13:27:50,860 current price: 23.87, rsi: 32.13849302797421 --> buy signal increased by 1 to 1
-2023-07-31 13:27:50,862   Calculating signals for AVA...
-2023-07-31 13:27:50,869   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:27:50,869 casting df data to floats...
-2023-07-31 13:27:50,901 current price: 12.923, rsi: 41.02878777775134 --> buy signal increased by 1 to 1
-2023-07-31 13:27:50,903   Calculating signals for XLM...
-2023-07-31 13:27:50,909   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:27:50,909 casting df data to floats...
-2023-07-31 13:27:50,942 current price: 0.15324707, rsi: 41.06715957095308 --> buy signal increased by 1 to 1
-2023-07-31 13:27:50,944   Calculating signals for BCH...
-2023-07-31 13:27:50,951   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:27:50,951 casting df data to floats...
-2023-07-31 13:27:50,991 current price: 250.04, rsi: 56.761845459707594 --> buy signal increased by 1 to 1
-2023-07-31 13:27:50,994   Calculating signals for XTZ...
-2023-07-31 13:27:51,002   df date: 0      2023-07-30T18:25:00Z
-1      2023-07-30T18:30:00Z
-2      2023-07-30T18:35:00Z
-3      2023-07-30T18:40:00Z
-4      2023-07-30T18:45:00Z
-               ...         
-283    2023-07-31T18:00:00Z
-284    2023-07-31T18:05:00Z
-285    2023-07-31T18:10:00Z
-286    2023-07-31T18:15:00Z
-287    2023-07-31T18:20:00Z
-Name: date, Length: 288, dtype: object
-2023-07-31 13:27:51,002 casting df data to floats...
-2023-07-31 13:27:51,043 current price: 0.8245, rsi: 35.693836478619005 --> buy signal increased by 1 to 1
-2023-07-31 13:27:51,137 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
-2023-07-31 13:27:51,299 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:51,397 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/33316259-af8c-4f31-86a4-c5c07e12d625/ HTTP/1.1" 200 430
-2023-07-31 13:27:52,554 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:52,645 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/33316259-af8c-4f31-86a4-c5c07e12d625/ HTTP/1.1" 200 426
-2023-07-31 13:27:52,720 https://nummus.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 1299
-2023-07-31 13:27:52,808 https://nummus.robinhood.com:443 "POST /orders/ HTTP/1.1" 400 148
-2023-07-31 13:27:55,969 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:56,057 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/ HTTP/1.1" 200 416
-2023-07-31 13:27:56,321 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:27:56,413 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/022bb5c2-d394-4e1c-a8c0-5b16ce1eab8d/ HTTP/1.1" 200 415
-2023-07-31 13:27:56,484 https://nummus.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 1299
-2023-07-31 13:27:56,565 https://nummus.robinhood.com:443 "POST /orders/ HTTP/1.1" 400 97
-2023-07-31 13:28:00,707 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
-2023-07-31 13:28:20,714 Finished executing orders for 2023-07-31 13:28:20.712329-05:00...
-2023-07-31 13:30:36,748 https://api.robinhood.com:443 "GET /accounts/ HTTP/1.1" 200 3019
-2023-07-31 13:33:21,611 Resetting dropped connection: nummus.robinhood.com
-2023-07-31 13:33:22,050 https://nummus.robinhood.com:443 "GET /holdings/ HTTP/1.1" 200 24074
-2023-07-31 13:33:22,230 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:33:22,441 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:33:22,554 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/3d961844-d360-45fc-989b-f6fca761d511/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:33:22,837 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:33:22,968 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/3d961844-d360-45fc-989b-f6fca761d511/ HTTP/1.1" 200 427
-2023-07-31 13:33:23,125 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:33:23,288 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:33:23,622 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/76637d50-c702-4ed1-bcb5-5b0732a81f48/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:33:23,780 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:33:24,015 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/76637d50-c702-4ed1-bcb5-5b0732a81f48/ HTTP/1.1" 200 436
-2023-07-31 13:33:24,191 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:33:24,368 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:33:24,663 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/6f2afc32-702e-41ad-b232-ed26b77c1943/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:33:24,821 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:33:25,095 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/6f2afc32-702e-41ad-b232-ed26b77c1943/ HTTP/1.1" 200 398
-2023-07-31 13:33:25,257 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:33:25,588 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:33:25,690 https://api.robinhood.com:443 "GET /marketdata/forex/historicals/1ef78e1b-049b-4f12-90e5-555dcf2fe204/?interval=5minute&span=day&bounds=24_7 HTTP/1.1" 200 None
-2023-07-31 13:33:25,983 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
-2023-07-31 13:33:26,113 https://api.robinhood.com:443 "GET /marketdata/forex/quotes/1ef78e1b-049b-4f12-90e5-555dcf2fe204/ HTTP/1.1" 200 437
-2023-07-31 13:33:26,245 https://nummus.robinhood.com:443 "GET /currency_pairs/ HTTP/1.1" 200 62032
+2023-07-31 15:23:26,679 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,679 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,680 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,680 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,681 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,682 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,682 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,683 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,683 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,684 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,684 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,685 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,686 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,686 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,687 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,687 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,688 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,689 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,689 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,690 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,690 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,691 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,692 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,692 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,693 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,693 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,694 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,695 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,695 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,696 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,697 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,698 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,698 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,699 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,699 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,700 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,700 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,701 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,701 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,702 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,702 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,703 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,704 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,704 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,705 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,706 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,707 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,707 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,708 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,709 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,709 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,710 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,710 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,711 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,711 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,712 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,712 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,713 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,713 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,714 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,714 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,715 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,716 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,716 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,717 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,717 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,718 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,718 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,719 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,719 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,720 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,720 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,721 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,722 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,723 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,724 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,724 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,725 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,726 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,726 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,727 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,727 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,728 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,728 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,729 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,729 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,730 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,730 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,731 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,731 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,732 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,733 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,733 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,733 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,734 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,734 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,735 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,736 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,736 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,736 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,737 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,738 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,738 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,739 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,740 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,740 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,741 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,742 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,742 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,744 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,745 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,745 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,746 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,747 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,747 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,748 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,748 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,749 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,749 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,750 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,750 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,751 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,751 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,752 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,752 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,753 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,753 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,754 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,755 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,756 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,757 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,757 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,758 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,758 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,759 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,759 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,759 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,760 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,761 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,761 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,761 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,762 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,762 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,763 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,763 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,764 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,764 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,765 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,766 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,766 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,767 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,767 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,768 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,768 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,769 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,769 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,770 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,770 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,771 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,771 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,772 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,773 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,774 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,774 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,775 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,775 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,776 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,777 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,777 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,778 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,778 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,779 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,779 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,780 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,780 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,781 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,781 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,782 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,782 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,783 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,783 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,784 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,784 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,785 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,785 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,786 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,786 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,787 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,788 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,790 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,790 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,791 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,791 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,792 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,793 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,794 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,795 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,795 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,796 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,796 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,797 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,797 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,798 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,798 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,799 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,800 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,800 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,801 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,801 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,802 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,802 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,803 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,803 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,804 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,805 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,806 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,806 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,807 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,807 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,808 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,808 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,809 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,809 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,810 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,811 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,811 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,812 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,812 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,813 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,813 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,814 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,814 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,815 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,815 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,816 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,816 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,817 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,817 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,818 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,818 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,819 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,819 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,820 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,820 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,821 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,823 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,824 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,824 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,825 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,825 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,826 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,826 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,827 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,827 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,828 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,828 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,829 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,829 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,829 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,830 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,831 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,831 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,832 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,832 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,833 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,833 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,834 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,834 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,835 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,835 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,836 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,836 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,837 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,837 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,838 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,838 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,839 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,840 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,841 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,841 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,842 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,842 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,843 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,843 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,844 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,844 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,845 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,846 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,846 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,847 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,847 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,848 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,848 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,849 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,849 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,850 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,850 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,851 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,851 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,852 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,852 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,853 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,854 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,854 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,856 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,857 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,858 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,858 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,859 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,860 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,860 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,861 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,861 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,862 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,862 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,863 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,863 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,864 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,864 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,865 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,865 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,866 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,867 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,867 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,868 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,868 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,869 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,869 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,870 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,870 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,871 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,872 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,872 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,873 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,874 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,875 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,875 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,876 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,876 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,877 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,877 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,878 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,879 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,879 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,880 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,880 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,881 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,881 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,882 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,882 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,883 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,883 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,884 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,884 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,885 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,885 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,886 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,886 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,887 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,888 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,888 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,889 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,890 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,891 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,891 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,892 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,893 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,893 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,894 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,894 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,895 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,895 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,896 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,896 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,897 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,898 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,898 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,899 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,900 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,900 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,901 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,902 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,902 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,903 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,903 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,904 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,904 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,905 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,906 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,907 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,908 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,909 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,909 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,910 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,910 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,911 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,912 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,912 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,913 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,913 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,914 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,915 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,915 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,916 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,916 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,917 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,917 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,918 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,918 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,919 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,919 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,920 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,921 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,922 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,923 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,924 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,925 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,926 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,926 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,927 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,927 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,928 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,929 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,930 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,930 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,931 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,932 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,932 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,933 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,934 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,934 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,935 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,936 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,937 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,938 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,939 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,940 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,941 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,942 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,942 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,943 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,944 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,945 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,946 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,946 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,948 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,948 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,949 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,950 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,950 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,951 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,952 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,953 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,953 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,954 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,954 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,955 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,956 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,956 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,957 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,958 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,959 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,959 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,960 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,960 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,961 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,962 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,962 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,963 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,964 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,965 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,965 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,966 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,967 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,968 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,969 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,971 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,973 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,974 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,976 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,977 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,977 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,978 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,979 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,980 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,980 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,981 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,981 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,982 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,983 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,983 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,984 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,984 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,985 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,986 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,986 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,987 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,988 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,990 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,992 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,992 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,993 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,993 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,994 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,995 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,995 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,996 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,996 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,997 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,998 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:26,999 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,000 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,002 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,003 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,004 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,005 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,005 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,006 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,007 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,008 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,009 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,009 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,010 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,010 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,011 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,011 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,012 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,013 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,014 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,014 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,015 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,016 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,016 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,017 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,017 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,018 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,019 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,020 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,020 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,021 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,022 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,024 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,025 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,026 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,027 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,027 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,028 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,029 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,029 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,030 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,031 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,031 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,032 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,032 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,033 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,033 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,034 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,035 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,036 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,037 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,038 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,039 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,040 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,040 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,041 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,041 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,042 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,043 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,043 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,044 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,044 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,045 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,046 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,047 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,047 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,048 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,048 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,049 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,050 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,050 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,051 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,051 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,052 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,052 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,053 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,054 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,054 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,055 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,055 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,056 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,057 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,058 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,058 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,059 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,060 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,061 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,061 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,062 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,062 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,063 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,063 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,064 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,065 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,065 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,066 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,067 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,067 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,068 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,068 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,069 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,069 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,070 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,070 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,071 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,072 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,074 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,075 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,075 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,076 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,076 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,077 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,078 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,078 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,079 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,080 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,080 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,081 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,082 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,082 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,083 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,083 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,084 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,084 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,085 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,085 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,086 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,086 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,087 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,087 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,088 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,089 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,090 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,091 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,092 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,093 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,093 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,094 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,094 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,095 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,096 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,096 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,097 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,097 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,098 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,098 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,099 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,099 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,100 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,101 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,101 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,102 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,102 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,103 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,103 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,104 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,105 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,107 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,108 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,108 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,109 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,109 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,110 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,110 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,111 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,111 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,112 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,112 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,113 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,114 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,115 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,115 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,116 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,116 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,117 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,117 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,118 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,118 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,119 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,119 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,120 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,121 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,121 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,122 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,123 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,124 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,124 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,125 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,126 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,126 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,127 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,128 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,128 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,129 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,129 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,130 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,130 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,131 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,131 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,132 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,132 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,133 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,133 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,134 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,134 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,135 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,135 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,136 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,137 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,138 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,140 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,142 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,142 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,143 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,144 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,144 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,145 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,145 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,146 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,146 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,147 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,148 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,148 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,149 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,149 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,150 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,150 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,151 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,151 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,152 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,152 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,153 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,153 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,154 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,154 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,155 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,156 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,157 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,157 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,158 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,158 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,159 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,159 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,160 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,160 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,161 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,161 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,162 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,162 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,163 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,163 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,164 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,164 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,165 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,165 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,166 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,166 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,167 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,167 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,168 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,168 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,169 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,169 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,170 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,170 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,171 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,172 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,173 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,173 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,174 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,174 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,175 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,175 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,176 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,177 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,178 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,180 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,181 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,182 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,183 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,185 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,186 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,188 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,190 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,192 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,197 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,199 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,201 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,202 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,206 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,207 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,208 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,208 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,210 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,210 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,211 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,211 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,212 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,212 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,213 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,214 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,216 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,216 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,217 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,217 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,218 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,218 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,219 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,224 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,225 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,227 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,255 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,270 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,273 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,274 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,275 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,277 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,278 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,279 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,279 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,280 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,282 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,284 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,286 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,289 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,290 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,291 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,292 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,294 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,296 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,297 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,298 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,300 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,301 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,302 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,302 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,303 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,307 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,309 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,310 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,311 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,312 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,314 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,315 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,315 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,316 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,317 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,318 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,319 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,326 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,328 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,330 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,332 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,334 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,334 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,335 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,344 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,347 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,350 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,360 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,362 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,363 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,363 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,364 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,364 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,365 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,366 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,366 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,367 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,367 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,368 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,372 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,372 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,373 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,374 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,374 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,375 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,375 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,376 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,377 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,377 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,378 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,378 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,379 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,380 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,380 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,381 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,381 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,382 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,383 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,383 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,384 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,384 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,385 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,385 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,386 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,386 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,386 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,389 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,392 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,394 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,396 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,397 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,398 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,398 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,400 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,406 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,409 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,410 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,412 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,414 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,416 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,418 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,420 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,421 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,424 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,425 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,426 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,428 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,434 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,442 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,446 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,446 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,447 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,448 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,448 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,449 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,449 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,450 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,450 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,451 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,451 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,452 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,452 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,453 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,453 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,454 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,455 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:27,456 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
+2023-07-31 15:23:48,973 - INFO - Logged in to Robinhood successfully.
+2023-07-31 15:27:10,642 - INFO - Logged in to Robinhood successfully.
+2023-07-31 15:34:07,954 - INFO - Logged in to Robinhood successfully.
+2023-07-31 15:36:55,917 - INFO - Logged in to Robinhood successfully.
+2023-07-31 15:39:56,092 - INFO - Logged in to Robinhood successfully.
+2023-07-31 15:43:51,962 - INFO - Logged in to Robinhood successfully.
+2023-07-31 15:44:22,202 - INFO - Logged in to Robinhood successfully.
+2023-07-31 15:44:38,385 - ERROR - Unable to generate trading signals... order_crypto() got an unexpected keyword argument 'stopPrice'
+2023-07-31 15:45:00,936 - INFO - Logged in to Robinhood successfully.
+2023-07-31 15:45:49,615 - INFO - Logged in to Robinhood successfully.
+2023-07-31 15:47:23,919 - INFO - Logged in to Robinhood successfully.
+2023-07-31 15:55:27,584 - INFO - Logged in to Robinhood successfully.
+2023-07-31 15:55:36,296 - INFO - Buy order response: {'account_id': '61f33e4c-8cc5-497e-a296-f0f9691a030e', 'average_price': None, 'cancel_url': 'https://nummus.robinhood.com/orders/64c81fc7-8891-414c-841c-c8ff29d7c105/cancel/', 'created_at': '2023-07-31T16:55:35.978573-04:00', 'cumulative_quantity': '0.000000000000000000', 'currency_code': 'BTC', 'currency_pair_id': '3d961844-d360-45fc-989b-f6fca761d511', 'entered_amount': None, 'entered_price': '0.990000000000000000', 'executions': [], 'funding_source_id': '634403c5-27cc-4f55-a7f6-9a75b46a5c2b', 'id': '64c81fc7-8891-414c-841c-c8ff29d7c105', 'initiator_id': None, 'initiator_type': None, 'is_quantity_variable': False, 'is_visible_to_user': True, 'last_transaction_at': None, 'limit_price': None, 'price': '29152.080000000000000000', 'quantity': '0.000034000000000000', 'ref_id': '305750ec-0fce-40fb-9f32-848314f93603', 'rounded_executed_notional': '0.00', 'side': 'buy', 'state': 'unconfirmed', 'stop_price': None, 'time_in_force': 'gtc', 'type': 'limit', 'updated_at': '2023-07-31T16:55:36.282393-04:00'}
+2023-07-31 15:55:36,439 - INFO - Sell order response: {'quantity': ['Ensure that there are no more than 18 decimal places.']}
+2023-07-31 15:55:37,895 - INFO - Buy order response: {'account_id': '61f33e4c-8cc5-497e-a296-f0f9691a030e', 'average_price': None, 'cancel_url': 'https://nummus.robinhood.com/orders/64c81fc9-9726-47d5-a3e2-68cad505444c/cancel/', 'created_at': '2023-07-31T16:55:37.514878-04:00', 'cumulative_quantity': '0.000000000000000000', 'currency_code': 'ETH', 'currency_pair_id': '76637d50-c702-4ed1-bcb5-5b0732a81f48', 'entered_amount': None, 'entered_price': '1.000000000000000000', 'executions': [], 'funding_source_id': '634403c5-27cc-4f55-a7f6-9a75b46a5c2b', 'id': '64c81fc9-9726-47d5-a3e2-68cad505444c', 'initiator_id': None, 'initiator_type': None, 'is_quantity_variable': False, 'is_visible_to_user': True, 'last_transaction_at': None, 'limit_price': None, 'price': '1856.370000000000000000', 'quantity': '0.000539000000000000', 'ref_id': 'bb448f43-2194-4bf5-b13e-6f65f82f3aef', 'rounded_executed_notional': '0.00', 'side': 'buy', 'state': 'unconfirmed', 'stop_price': None, 'time_in_force': 'gtc', 'type': 'limit', 'updated_at': '2023-07-31T16:55:37.809611-04:00'}
+2023-07-31 15:55:38,039 - INFO - Sell order response: {'quantity': ['Ensure that there are no more than 18 decimal places.']}
+2023-07-31 15:55:39,274 - INFO - Buy order response: {'price': ['Please round your order price to the nearest cent and try placing your order again.']}
+2023-07-31 15:55:39,424 - INFO - Sell order response: {'price': ['Please round your order price to the nearest cent and try placing your order again.']}
+2023-07-31 15:55:40,119 - INFO - Buy order response: {'price': ['Please round your order price to the nearest cent and try placing your order again.']}
+2023-07-31 15:55:40,260 - INFO - Sell order response: {'price': ['Please round your order price to the nearest cent and try placing your order again.']}
+2023-07-31 15:55:41,796 - INFO - Buy order response: {'price': ['Please round your order price to the nearest cent and try placing your order again.']}
+2023-07-31 15:55:41,933 - INFO - Sell order response: {'price': ['Please round your order price to the nearest cent and try placing your order again.']}
+2023-07-31 15:55:43,812 - INFO - Buy order response: {'price': ['Please round your order price to the nearest cent and try placing your order again.']}
+2023-07-31 15:55:43,969 - INFO - Sell order response: {'price': ['Please round your order price to the nearest cent and try placing your order again.']}
+2023-07-31 15:55:46,466 - INFO - Buy order response: {'price': ['Please round your order price to the nearest cent and try placing your order again.']}
+2023-07-31 15:55:47,002 - INFO - Sell order response: {'price': ['Please round your order price to the nearest cent and try placing your order again.']}
+2023-07-31 15:57:35,537 - INFO - Logged in to Robinhood successfully.
+2023-07-31 15:57:48,285 - INFO - Buy order response: {'account_id': '61f33e4c-8cc5-497e-a296-f0f9691a030e', 'average_price': None, 'cancel_url': 'https://nummus.robinhood.com/orders/64c8204b-7da2-4685-a1ce-dc58e0e2c622/cancel/', 'created_at': '2023-07-31T16:57:47.916058-04:00', 'cumulative_quantity': '0.000000000000000000', 'currency_code': 'BTC', 'currency_pair_id': '3d961844-d360-45fc-989b-f6fca761d511', 'entered_amount': None, 'entered_price': '0.990000000000000000', 'executions': [], 'funding_source_id': '634403c5-27cc-4f55-a7f6-9a75b46a5c2b', 'id': '64c8204b-7da2-4685-a1ce-dc58e0e2c622', 'initiator_id': None, 'initiator_type': None, 'is_quantity_variable': False, 'is_visible_to_user': True, 'last_transaction_at': None, 'limit_price': None, 'price': '29155.000000000000000000', 'quantity': '0.000034000000000000', 'ref_id': 'd4e1307d-d440-43b2-8999-c0c6107de12e', 'rounded_executed_notional': '0.00', 'side': 'buy', 'state': 'unconfirmed', 'stop_price': None, 'time_in_force': 'gtc', 'type': 'limit', 'updated_at': '2023-07-31T16:57:48.245012-04:00'}
+2023-07-31 15:57:48,805 - INFO - Sell order response: {'quantity': ['Ensure that there are no more than 18 decimal places.']}
+2023-07-31 15:57:50,567 - INFO - Buy order response: {'account_id': '61f33e4c-8cc5-497e-a296-f0f9691a030e', 'average_price': None, 'cancel_url': 'https://nummus.robinhood.com/orders/64c8204e-5bdc-43ee-a7f6-a5aea828896c/cancel/', 'created_at': '2023-07-31T16:57:50.121970-04:00', 'cumulative_quantity': '0.000000000000000000', 'currency_code': 'ETH', 'currency_pair_id': '76637d50-c702-4ed1-bcb5-5b0732a81f48', 'entered_amount': None, 'entered_price': '1.000000000000000000', 'executions': [], 'funding_source_id': '634403c5-27cc-4f55-a7f6-9a75b46a5c2b', 'id': '64c8204e-5bdc-43ee-a7f6-a5aea828896c', 'initiator_id': None, 'initiator_type': None, 'is_quantity_variable': False, 'is_visible_to_user': True, 'last_transaction_at': None, 'limit_price': None, 'price': '1856.370000000000000000', 'quantity': '0.000539000000000000', 'ref_id': '27a4933a-8051-4e20-ad58-982b96550787', 'rounded_executed_notional': '0.00', 'side': 'buy', 'state': 'unconfirmed', 'stop_price': None, 'time_in_force': 'gtc', 'type': 'limit', 'updated_at': '2023-07-31T16:57:50.520340-04:00'}
+2023-07-31 15:57:50,768 - INFO - Sell order response: {'quantity': ['Ensure that there are no more than 18 decimal places.']}
+2023-07-31 15:57:53,845 - INFO - Buy order response: {'account_id': '61f33e4c-8cc5-497e-a296-f0f9691a030e', 'average_price': None, 'cancel_url': 'https://nummus.robinhood.com/orders/64c82051-e94a-48b4-bd07-13a8084d6f8b/cancel/', 'created_at': '2023-07-31T16:57:53.499810-04:00', 'cumulative_quantity': '0.000000000000000000', 'currency_code': 'SHIB', 'currency_pair_id': '2d189ddb-bc0d-4aa4-bd6b-cd72e6679cd0', 'entered_amount': None, 'entered_price': '0.990000000000000000', 'executions': [], 'funding_source_id': '634403c5-27cc-4f55-a7f6-9a75b46a5c2b', 'id': '64c82051-e94a-48b4-bd07-13a8084d6f8b', 'initiator_id': None, 'initiator_type': None, 'is_quantity_variable': False, 'is_visible_to_user': True, 'last_transaction_at': None, 'limit_price': None, 'price': '0.000008000000000000', 'quantity': '125000.000000000000000000', 'ref_id': 'e82e5672-8ff6-4256-8c9d-90226589450e', 'rounded_executed_notional': '0.00', 'side': 'buy', 'state': 'unconfirmed', 'stop_price': None, 'time_in_force': 'gtc', 'type': 'market', 'updated_at': '2023-07-31T16:57:53.819661-04:00'}
+2023-07-31 15:57:54,125 - INFO - Sell order response: {'non_field_errors': ['Not enough SHIB: You can sell at most 0 of SHIB.']}
+2023-07-31 15:57:55,624 - INFO - Buy order response: {'account_id': '61f33e4c-8cc5-497e-a296-f0f9691a030e', 'average_price': None, 'cancel_url': 'https://nummus.robinhood.com/orders/64c82053-678e-4812-b1f2-4787a3cb78b1/cancel/', 'created_at': '2023-07-31T16:57:55.348679-04:00', 'cumulative_quantity': '0.000000000000000000', 'currency_code': 'ETC', 'currency_pair_id': '7b577ce3-489d-4269-9408-796a0d1abb3a', 'entered_amount': None, 'entered_price': '1.000000000000000000', 'executions': [], 'funding_source_id': '634403c5-27cc-4f55-a7f6-9a75b46a5c2b', 'id': '64c82053-678e-4812-b1f2-4787a3cb78b1', 'initiator_id': None, 'initiator_type': None, 'is_quantity_variable': False, 'is_visible_to_user': True, 'last_transaction_at': None, 'limit_price': None, 'price': '18.450000000000000000', 'quantity': '0.054200000000000000', 'ref_id': '54b5b1f2-0dd6-4461-b704-4a5d5c7acc55', 'rounded_executed_notional': '0.00', 'side': 'buy', 'state': 'unconfirmed', 'stop_price': None, 'time_in_force': 'gtc', 'type': 'limit', 'updated_at': '2023-07-31T16:57:55.613838-04:00'}
+2023-07-31 15:57:55,834 - INFO - Sell order response: {'non_field_errors': ['Not enough ETC: You can sell at most 0 of ETC.']}
+2023-07-31 15:59:43,324 - INFO - Logged in to Robinhood successfully.
+2023-07-31 16:01:59,966 - INFO - Logged in to Robinhood successfully.
+2023-07-31 16:10:55,417 - INFO - Logged in to Robinhood successfully.
+2023-07-31 16:11:08,926 - ERROR - Unable to generate trading signals... 'NoneType' object is not subscriptable
+2023-07-31 16:12:09,127 - INFO - Logged in to Robinhood successfully.
+2023-07-31 16:12:22,217 - ERROR - Unable to correct volume for  ETH... 'NoneType' object is not subscriptable
+2023-07-31 16:13:25,273 - INFO - Logged in to Robinhood successfully.
+2023-07-31 16:17:31,216 - INFO - Logged in to Robinhood successfully.
+2023-07-31 16:20:09,348 - INFO - Logged in to Robinhood successfully.
+2023-07-31 16:20:17,055 - ERROR - Unable to generate trading signals... '<' not supported between instances of 'float' and 'str'
+2023-07-31 16:21:27,657 - INFO - Logged in to Robinhood successfully.
+2023-07-31 16:21:35,801 - ERROR - Unable to generate trading signals... could not convert string to float: 'MACD_12_26_9'
+2023-07-31 16:22:20,906 - INFO - Logged in to Robinhood successfully.
+2023-07-31 16:22:28,378 - ERROR - Unable to generate trading signals... cannot convert the series to <class 'float'>
+2023-07-31 16:23:34,193 - INFO - Logged in to Robinhood successfully.
+2023-07-31 16:28:23,339 - INFO - Logged in to Robinhood successfully.
+2023-07-31 16:28:49,697 - ERROR - Unable to generate trading signals... Cannot perform 'or_' with a dtyped [bool] array and scalar of type [bool]
+2023-07-31 16:31:01,133 - INFO - Logged in to Robinhood successfully.

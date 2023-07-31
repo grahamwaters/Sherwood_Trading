@@ -1,3 +1,4 @@
+import json
 import logging
 import pandas as pd
 import pandas_ta as ta
@@ -6,13 +7,23 @@ from robin_stocks import robinhood as r
 from datetime import datetime
 from pytz import timezone
 import asyncio
+import uuid
 import time
+import math
 import os
 from tqdm import tqdm
 from colorama import Fore, Back, Style
 from icecream import ic
 import configparser
-
+import sys
+import traceback
+import warnings
+import alive_progress
+from alive_progress import alive_bar
+import random
+import numpy as np
+from time import sleep
+from legacy.V5.main import calculate_ta_indicators
 #^ load the relevant variables from the .ini credentials file in config/
 # [trading]
 # coins = BTC, ETH, DOGE, SHIB, ETC, UNI, AAVE, LTC, LINK, COMP, AVAX, XLM, BCH, XTZ
@@ -23,6 +34,38 @@ import configparser
 # verbose_mode = True
 # debug_verbose = True
 # reset_positions = False
+"""
+Notes
+r.crypto.get_crypto_quote(position['currency']['code'])['mark_price']
+use the format above to get the current price of a coin in USD
+
+ordering crypto should use this syntax:
+    r.orders.order_crypto(
+        symbol = coin,
+        amountIn = 'dollars', # or 'quantity'
+        side = 'buy',
+        quantityOrPrice = buy_cost,#buy_cost / float(df.close.iloc[-1]), # this is the amount of the coin to buy in units of the coin
+        limitPrice = df.close.iloc[-1],
+        timeInForce = 'gtc',
+        jsonify = True
+    )
+
+Increments apply to each kind of coin
+    r.crypto.get_crypto_info('BTC')['min_order_size'] # this is the minimum amount of BTC that can be bought at a time
+# Get crypto positions
+positions = r.crypto.get_crypto_positions()
+print(f'found {len(positions)} positions.')
+for position in tqdm(positions):
+    # print(position)
+    if position['currency']['code'] == crypto:
+        pos_dict = position['currency']
+        min_order_size = float(pos_dict['increment'])
+        coin_holdings = float(position['quantity_available'])
+
+
+"""
+
+
 
 config = configparser.ConfigParser()
 config.read('config/credentials.ini')
@@ -34,9 +77,17 @@ verbose_mode = config['logging']['verbose_mode']
 debug_verbose = config['logging']['debug_verbose']
 reset_positions = config['logging']['reset_positions']
 minimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.
-# initialize the Trader class
+#^ Global Variables
+using_trading_function = False # this variable is used to determine if the trading function is currently being used to trade or not. If it is, the trading function will not be called again until it is done trading.
+lot_details_list = []
 
-
+#^ Logging Setup
+if not os.path.exists('logs'):
+    os.makedirs('logs')
+logging.basicConfig(filename='logs/robinhood.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+#^ Robinhood Login Setup
+#? rstocks.login(username=config['robinhood']['username'], password=config['robinhood']['password'])
+#^ Utility Class
 class Utility:
     def __init__(self):
         """
@@ -147,6 +198,23 @@ class Trader:
             self.logger.info('Logged in to Robinhood successfully.')
         except Exception as e:
             self.logger.error(f'Unable to login to Robinhood... {e}')
+
+
+
+
+    def correct_volume(self, volume, coin):
+        try:
+            while ' ' in coin:
+                coin = coin.replace(
+                    ' ',''
+                )
+            min_order_size = float(r.crypto.get_crypto_info(coin)['min_order_size'])
+            corrected_volume = math.ceil(volume / min_order_size) * min_order_size
+        except Exception as e:
+            self.logger.error(f'Unable to correct volume for {coin}... {e}')
+            corrected_volume = volume
+        return corrected_volume
+
     def resetter(self):
         """
         The resetter function cancels all open orders and sells all positions.
@@ -163,12 +231,38 @@ class Trader:
             crypto_positions = r.get_crypto_positions()
             for position in crypto_positions:
                 #note: keep at least minimum_usd_per_position in each position (USD) value not coin value.
-                if float(position['quantity']) * float(position['cost_bases'][0]['direct_cost_basis']) < minimum_usd_per_position: # if position is less than minimum_usd_per_position
+                #^ dict_keys(['account_id', 'cost_bases', 'created_at', 'currency', 'currency_pair_id', 'id', 'quantity', 'quantity_available', 'quantity_held', 'quantity_held_for_buy', 'quantity_held_for_sell', 'quantity_staked', 'quantity_transferable', 'updated_at'])
+                # Convert 'quantity' and 'direct_cost_basis' to float before performing the comparison
+                quantity = float(position['quantity'])
+                direct_cost_basis = float(position['cost_bases'][0]['direct_cost_basis'])
+                # equity = float(quantity) * float(position['quote']['mark_price'][-1])
+                # Compare the result of the multiplication with the minimum threshold
+                if quantity * direct_cost_basis < minimum_usd_per_position:
+                    # if position is less than minimum_usd_per_position
                     # then skip it
                     continue
                 else:
                     ic()
-                    r.order_sell_crypto_limit(position['currency']['code'], position['quantity'], position['cost_bases'][0]['direct_cost_basis'])
+                    # if position is greater than minimum_usd_per_position
+                    # then sell it
+                    if position['quantity'] == '0.00000000':
+                        continue
+                    else:
+                        try:
+                            # get the quote of the coins price currently
+                            quote = r.crypto.get_crypto_quote(position['currency']['code'])['mark_price']
+                            # sell the coin at the current price
+                            quote = float(quote)
+
+                            r.orders.order_sell_crypto_limit(
+                                symbol = position['currency']['code'],
+                                quantity = position['quantity'],
+                                limitPrice = quote,
+                                timeInForce = 'gtc'
+                            )
+                        except Exception as e:
+                            self.logger.error(f'Unable to sell {position["quantity"]} {position["currency"]["code"]}... {e}')
+
                     self.logger.info(f'Sold {position["quantity"]} {position["currency"]["code"]}.')
             self.logger.info('All positions sold.')
         except Exception as e:
@@ -185,8 +279,21 @@ class Trader:
         try:
             utility = Utility()
             signals_df = pd.DataFrame()
+            # read config file
+            config = configparser.ConfigParser()
+            config.read('config/credentials.ini')
+            # get pct_to_buy_with from config file
+            pct_to_buy_with = config['trading']['percent_to_use'] #*fixed
+            pct_to_buy_with = float(pct_to_buy_with)
+            pct_to_buy_per_trade = config['trading']['percent_to_spend_per_trade'] #* fixed
+            pct_to_buy_per_trade = float(pct_to_buy_per_trade)
+            print(f'Checking Available Buying Power...')
+            total_money = float(r.load_account_profile()['crypto_buying_power']) * pct_to_buy_with
+            print(f'Available Buying Power: ${total_money}', end='')
+            print(f' * {pct_to_buy_with} = ${total_money * pct_to_buy_with}')
+            available_money = total_money * pct_to_buy_with
             for coin in coins:
-                # ic()
+                print(f'Calculating technical indicators for {coin}...')
                 df = utility.get_last_100_days(coin)
                 df['coin'] = coin #^ add coin name to df
                 df['sma'] = df.close.rolling(window=50).mean()
@@ -199,28 +306,158 @@ class Trader:
 
                 # ['BBL_5_2.0', 'BBM_5_2.0', 'BBU_5_2.0', 'BBB_5_2.0', 'BBP_5_2.0']
                 # the above are the column names for the bollinger bands, these must be put into df as columns on the left of the "=" sign then self.bollinger(df) must be put on the right of the "=" sign
-                df['bollinger_l'], df['bollinger_m'], df['bollinger_u'], df['bollinger_b'], df['BBP_5_2.0'] = ta.bbands(df.close, length=5, std=2) #^ Fixes error in bollinger_bands (length and std must be specified)
+                df[['bollinger_l', 'bollinger_m', 'bollinger_u', 'bollinger_b', 'BBP_5_2.0']] = ta.bbands(df['close'], length=5, std=2)
+
                 # df['bollinger_l'], df['bollinger_m'], df['bollinger_u'] = self.bollinger(df) #^ Fixes error in bollinger_bands
 
 
+                # to prevent errors, cast all columns to float that are indicators
+                # df['sma'] = df['sma'].astype(float)
+                # df['ema'] = df['ema'].astype(float)
+                # df['macd_line'] = df['macd_line'].astype(float)
+                # df['signal_line'] = df['signal_line'].astype(float)
+                # df['macd_hist'] = df['macd_hist'].astype(float)
+                # df['rsi'] = df['rsi'].astype(float)
+                # df['williams'] = df['williams'].astype(float)
+                # df['stochastic_k'] = df['stochastic_k'].astype(float)
+                # df['stochastic_d'] = df['stochastic_d'].astype(float)
+                # df['bollinger_l'] = df['bollinger_l'].astype(float)
+                # df['bollinger_m'] = df['bollinger_m'].astype(float)
+                # df['bollinger_u'] = df['bollinger_u'].astype(float)
+                # df['bollinger_b'] = df['bollinger_b'].astype(float)
+                # df['BBP_5_2.0'] = df['BBP_5_2.0'].astype(float)
+
 
                 df['buy_signal'] = ((df.macd_line > df.signal_line) & (df.rsi < 30)) | ((df.stochastic_k > df.stochastic_d) & (df.williams < -80))
+                # sell when macd_line crosses below signal_line and rsi is greater than 70
                 df['sell_signal'] = ((df.macd_line < df.signal_line) & (df.rsi > 70)) | ((df.stochastic_k < df.stochastic_d) & (df.williams > -20))
+                # if the price is greater than the upper bollinger band, the price is going up, so hold all positions and do not sell them yet because the price is going up
+                # df['buy_signal'] = df['buy_signal'] & (df.close > df.bollinger_u)
+                # also sell when the price is less than the lower bollinger band because this means the price is going down
+
+                #note: this is where you left off 4.30 PM 7/31/2023
+                # df['sell_signal'] = df['sell_signal'] | df.close.iloc[-1] < df.bollinger_l.iloc[-1]
 
 
 
 
+                print(Fore.GREEN + f'BUY SIGNAL [{coin}]: {df.buy_signal.iloc[-1]}' + Style.RESET_ALL, Fore.RED + f'SELL SIGNAL [{coin}]: {df.sell_signal.iloc[-1]}' + Style.RESET_ALL)
 
+                #******************** This is Hacking Trades Into Indicators ********************
+                if df.buy_signal.iloc[-1] == True: # if buy signal is true
+                    # print(f'Buy signal for {coin}: {df.buy_signal.iloc[-1]}', end=' ')
+                    # print(f'${available_money} to buy with')
+                    # Buy the Greater of these two values:
+                    # 1. The pct_to_buy_per_trade of the available_money to buy with (pct_to_buy_per_trade is the percent of the available_money to buy with)
+                    # 2. The minimum_usd_per_position (minimum_usd_per_position is the minimum amount of USD to buy with) of the coin
+                    # 3. $1.00 USD worth of the coin
 
+                    buy_cost = max(float(available_money) * float(pct_to_buy_per_trade), float(config['trading']['minimum_usd_per_position']), 1.00)
+                    buy_cost = float(buy_cost) # cast buy_cost to float
+                    available_money = float(available_money) # cast available_money to float
+                    # print(f'buy_cost: {buy_cost}')
+                    # Now that we know how much to buy, we can submit an order using the r.orders.order_buy_crypto_limit() function
+                    # Round the limit price to the nearest cent
+                    rounded_limit_price = round(df.close.iloc[-1], 2)
 
+                    buy_order_response = r.orders.order_crypto(
+                        symbol = coin,
+                        amountIn = 'dollars', # or 'quantity'
+                        side = 'buy',
+                        quantityOrPrice = buy_cost,#buy_cost / float(df.close.iloc[-1]), # this is the amount of the coin to buy in units of the coin
+                        limitPrice = rounded_limit_price,
+                        timeInForce = 'gtc',
+                        jsonify = True
+                    )
+                    # self.logger.info(f'Buy order response: {buy_order_response}')
+                    # also submit the stop loss order for the coin
+                    print(f'Submitting a stop loss order as well at {df.close.iloc[-1] - stop_loss_percent * df.close.iloc[-1]}')
+                    sell_order_response = r.orders.order_crypto(
+                        symbol = coin,
+                        amountIn = 'quantity', # or 'quantity'
+                        side = 'sell',
+                        quantityOrPrice = self.correct_volume(
+                            volume = float(buy_cost / float(df.close.iloc[-1])),
+                            coin = coin), # this is the amount of the coin to buy in units of the coin
+                        limitPrice = round(df.close.iloc[-1] - stop_loss_percent * df.close.iloc[-1],2), # this is the stop loss price (the price at which the coin will be sold if it drops below this price)
+                        timeInForce = 'gtc',
+                        jsonify = True
+                    )
+                    # self.logger.info(f'Sell order response: {sell_order_response}')
+                    lot_details = {
+                        'coin': coin,
+                        'id': uuid.uuid4().hex,
+                        'buy_cost': buy_cost,
+                        'buy_price': round(df.close.iloc[-1],2),
+                        'stop_loss_price': round(df.close.iloc[-1] - stop_loss_percent * df.close.iloc[-1],2),
+                        'buy_order_response': buy_order_response
+                    }
+                    lot_details_list.append(lot_details)
+                    # save the lot_details_list to a file
+                    with open('lot_details_list.json', 'w') as f:
+                        json.dump(lot_details_list, f, indent=4)
+                    # Now that we have bought the coin, we need to update the available_money variable
+                    available_money -= buy_cost
+                    print(Fore.GREEN + f'(+) Bought {buy_cost} worth of {coin} at {df.close.iloc[-1]}\n\t I have ${available_money} left to buy with after purchase.\n\tBuying Options: {float(available_money) * float(pct_to_buy_per_trade)} | {float(config["trading"]["minimum_usd_per_position"])} | $1.00 ' + Fore.RESET)
+                elif df.sell_signal.iloc[-1] == True: # if sell signal is true
+                    print(f'Sell signal for {coin}: {df.sell_signal.iloc[-1]}')
 
-                print(f'Buy signal for {coin}: {df.buy_signal.iloc[-1]}')
-                print(f'Sell signal for {coin}: {df.sell_signal.iloc[-1]}')
+                    # Get current positions
+                    positions = r.get_crypto_positions()
+                    coin_volume_owned = 0.0
+
+                    # Check if you have the coin in your positions
+                    for position in positions:
+                        if position['currency']['code'] == coin:
+                            coin_volume_owned = float(position['quantity'])
+                            break
+
+                    if coin_volume_owned != 0.0:
+                        # Calculate the current value of the coin in USD
+                        coin_current_value_usd = coin_volume_owned * float(df.close.iloc[-1])
+
+                        # We can sell if we have more than the minimum_usd_per_position
+                        if coin_current_value_usd > float(config['trading']['minimum_usd_per_position']):
+                            volume_to_sell_usd = min(coin_current_value_usd - float(config['trading']['minimum_usd_per_position']), available_money * pct_to_buy_per_trade, 1.00)
+
+                            # Submit an order using the r.orders.order_sell_crypto_limit() function
+                            r.orders.order_crypto(
+                                symbol = coin,
+                                amountIn = 'quantity', # in coins
+                                side = 'sell',
+                                quantityOrPrice = volume_to_sell_usd / float(df.close.iloc[-1]), # this is the amount of the coin to sell in units of the coin
+                                limitPrice = df.close.iloc[-1],
+                                timeInForce = 'gtc',
+                                jsonify = True
+                            )
+                            # time.sleep(random.randint(1, 5))
+                            # cancel all sell orders for the coin now
+                            r.orders.cancel_all_crypto_orders(coin)
+                    else:
+                        print(f"No {coin} positions to sell.")
+                else:
+                    pass # no buy or sell signal
+
+                #print(f'Buy signal for {coin}: {df.buy_signal.iloc[-1]}')
+                #print(f'Sell signal for {coin}: {df.sell_signal.iloc[-1]}')
                 signals_df = signals_df.append(df)
             return signals_df
         except Exception as e:
             self.logger.error(f'Unable to generate trading signals... {e}')
             return pd.DataFrame()
+
+
+    def log_file_size_checker(self):
+        # Check the size of the log files (if it has more than 1000 lines, delete the lines from the top of the file until it has 1000 lines)
+        try:
+            with open('logs/robinhood.log', 'r') as f:
+                lines = f.readlines()
+                if len(lines) > 1000:
+                    with open('logs/robinhood.log', 'w') as f:
+                        f.writelines(lines[-1000:])
+        except Exception as e:
+            self.logger.error(f'Unable to check log file size... {e}')
+
 
 
 
@@ -238,21 +475,24 @@ class Trader:
                 if row['buy_signal']:
                     buying_power = self.update_buying_power()
                     if buying_power > 0:
-                        r.order.buy_crypto_limit(symbol=row['coin'],
-                                                    quantity = buying_power / row['close'],
-                                                    limitPrice = row['close'],
-                                                    timeInForce = 'gtc')
-                        self.logger.info(f'Bought {row["coin"]} at {row["close"]}.')
-                        buying_power -= float(cash_available)
+                        # ic()
+                        logging.info(f'would buy {row["coin"]} at {row["close"]}, but commented out for testing.')
+                        #r.order.buy_crypto_limit(symbol=row['coin'],
+                                                    # quantity = buying_power / row['close'],
+                                                    # limitPrice = row['close'],
+                                                    # timeInForce = 'gtc')
+                        #self.logger.info(f'Bought {row["coin"]} at {row["close"]}.')
+                        #buying_power -= float(cash_available)
                 if row['sell_signal']:
                     for position in crypto_positions:
                         if position['currency']['code'] == row['coin']:
                             ic()
-                            r.order.sell_crypto_limit(symbol=row['coin'],
-                                                        quantity = position['quantity'],
-                                                        limitPrice = row['close'],
-                                                        timeInForce = 'gtc')
-                            self.logger.info(f'Sold {row["coin"]} at {row["close"]}.')
+                            logging.info(f'would sell {row["coin"]} at {row["close"]}, but commented out for testing.')
+                            #r.order.sell_crypto_limit(symbol=row['coin'],
+                                                        # quantity = position['quantity'],
+                                                        # limitPrice = row['close'],
+                                                        # timeInForce = 'gtc')
+                            # self.logger.info(f'Sold {row["coin"]} at {row["close"]}.')
 
         except Exception as e:
             self.logger.error(f'Unable to execute trades... {e}')
@@ -309,28 +549,7 @@ class Trader:
                             self.logger.info(f'Sold {coin} at {current_price} due to stop loss.')
         except Exception as e:
             self.logger.error(f'Unable to check stop loss prices... {e}')
-    def main(self, coins, stop_loss_prices):
-        """
-        The main function is the main function. It will do the following:
-            1) Check if there are any open orders that need to be cancelled
-            2) Check if there are any positions that need to be sold (if we're in a sell state)
-            3) If we're in a buy state, check for new stocks to buy based on our criteria
-        :param coins: A list of coins to check
-        :param stop_loss_prices: A dictionary with the stop loss price for each coin
-        :return: The main function
-        :doc-author: Trelent
-        """
-        try:
-            utility = Utility()
-            if utility.is_daytime():
-                self.resetter()
-                signals_df = self.calculate_ta_indicators(coins)
-                self.trading_function(signals_df)
-                self.check_stop_loss_prices(coins, stop_loss_prices)
-            else:
-                self.logger.info('It is not daytime. The main function will not run.')
-        except Exception as e:
-            self.logger.error(f'Unable to run main function... {e}')
+
 class Looper:
     def __init__(self, trader: Trader):
         """
@@ -361,7 +580,7 @@ class Looper:
             if loop_count % 10 == 0:
                 # update buying power every 10 loops
                 self.trader.update_buying_power()
-            self.trader.main(coins, stop_loss_prices)
+            # self.trader.main(coins, stop_loss_prices)
             # run all async functions simultaneously
             # log_file_size_checker included to prevent log file from getting too large
             self.trader.log_file_size_checker()
@@ -380,9 +599,22 @@ class Looper:
         loop_count = 0
         while True:
             try:
-                await self.run_async_functions(loop_count, coins, stop_loss_prices)
+                # load coins list from config file
+                config_file = configparser.ConfigParser()
+                config_file.read('config/credentials.ini')
+                coins = config_file['trading']['coins'].split(',')
+                #^ run the calculate_ta_indicators function to calculate the technical analysis indicators for each coin and buy/sell by the indicators
+                trader.calculate_ta_indicators(coins)
+                #^ run the check_stop_loss_prices function to check if the current price is lower than the stop loss price for any owned coin
+                await self.run_async_functions(
+                    loop_count, coins, stop_loss_prices
+                    )
                 loop_count += 1
-                await asyncio.sleep(3600)  # Sleep for an hour
+                # use alive progress to display a five minute timer
+                with alive_bar(300, bar='blocks', spinner='dots_waves2') as foobar:
+                    for i in range(300):
+                        sleep(1)
+                        foobar()
             except Exception as e:
                 self.logger.error(f'Error in main loop... {e}')
 # run the program
