@@ -40,7 +40,7 @@ class Utility:
         :doc-author: Trelent
         """
         while True:
-            #ic()
+            ##*ic()
             with open('logs/robinhood.log', 'r') as f:
                 lines = f.readlines()
                 if len(lines) > 1000: # if the log file is greater than 1000 lines
@@ -49,7 +49,7 @@ class Utility:
                     # remove the first num_lines_to_remove lines
                     with open('logs/robinhood.log', 'w') as f:
                         f.writelines(lines[num_lines_to_remove:])
-            await asyncio.sleep(1200)
+            await asyncio.sleep(60)
 
     @sleep_and_retry
     def get_last_100_days(self, coin):
@@ -66,6 +66,7 @@ class Utility:
             df = df.loc[:, ['close_price', 'open_price', 'high_price', 'low_price']]
             df = df.rename(columns={'close_price': 'close', 'open_price': 'open', 'high_price': 'high', 'low_price': 'low'})
             df = df.apply(pd.to_numeric)
+            #note: could add coin name to df here too
             return df
         except Exception as e:
             print(f'Unable to get data for {coin}... {e}')
@@ -134,6 +135,10 @@ class Trader:
         self.looper = Looper(
             self
             ) # create an instance of the Looper class
+        self.master_order_history = [] # this is a list of all the orders that have been placed
+        self.master_order_history_file = 'logs/master_order_history.csv' # this is the file that the master order history is saved to
+        self.master_order_history_df = pd.DataFrame() # this is the master order history dataframe
+        self.master_order_history_df_file = 'logs/master_order_history_df.csv' # this is the file that the master order history dataframe is saved to
 
 
         # Login to Robinhood
@@ -209,19 +214,34 @@ class Trader:
         except Exception as e:
             self.logger.error(f'Unable to reset orders and positions... {e}')
 
+
     def calculate_ta_indicators(self, coins):
         """
-        The calculate_ta_indicators function calculates different technical indicators and generates trading signals based on these indicators. The indicators are: EMA, MACD, RSI, Williams %R, Stochastic Oscillator, Bollinger Bands, and Parabolic SAR.
-        A boolean is generated based on these indicators. If the boolean is True, a buy signal is generated. If the boolean is False, a sell signal is generated. The signals are returned in a DataFrame.
+        The calculate_ta_indicators function calculates different technical indicators and generates trading signals based on these indicators.
+        The indicators are: EMA, MACD, RSI, Williams %R, Stochastic Oscillator, Bollinger Bands, and Parabolic SAR.
+        A boolean is generated based on these indicators. If the boolean is True, a buy signal is generated. If the boolean is False, a sell signal is generated.
+        The signals are returned in a DataFrame.
         :param coins: A list of coins to generate signals for
         :return: A DataFrame with the trading signals for each coin
         """
-        with alive_bar(len(coins)) as living_bar:
-            try:
-                utility = Utility()
-                signals_df = pd.DataFrame()
+        try:
+            utility = Utility()
+            signals_df = pd.DataFrame()
+            bought_coins = set()
+            sell_positions = {}
+            crypto_positions = []  # list of coins in the portfolio
+            buying_power = 0  # available funds for buying crypto
+
+            # fill the dictionary with the coin names and 0s for the values
+            sell_positions = dict.fromkeys(coins, 0)
+
+            with alive_bar(len(coins)) as living_bar:
 
                 for coin in coins:
+                    if coin not in crypto_positions:
+                        print(Fore.RED + f'Coin is not in crypto positions list {coin} ...' + Style.RESET_ALL)
+                    if coin not in sell_positions.keys():
+                        sell_positions[coin] = 0
                     # update the bar on each iteration with the coin name
                     living_bar.text(f'Calculating TA indicators for {coin}...')
                     df = utility.get_last_100_days(coin)
@@ -232,63 +252,114 @@ class Trader:
                     df['signal_line'] = macd_result['MACDs_12_26_9']
                     df['macd_hist'] = macd_result['MACDh_12_26_9']
                     df['rsi'] = ta.rsi(df.close)
-                    #^ Bollinger Bands
+                    # Bollinger Bands
                     bbands_result = ta.bbands(close=df.close)
                     df['lower_bb'] = bbands_result['BBL_5_2.0']
                     df['middle_bb'] = bbands_result['BBM_5_2.0']
                     df['upper_bb'] = bbands_result['BBU_5_2.0']
                     df['bb_width'] = bbands_result['BBB_5_2.0']
                     df['bb_percent'] = bbands_result['BBP_5_2.0']
-                    #^ Williams %R
+                    # Williams %R
                     df['willr'] = ta.willr(high=df.high, low=df.low, close=df.close)
-                    #^ Stochastic Oscillator
+                    # Stochastic Oscillator
                     stoch_result = ta.stoch(high=df.high, low=df.low, close=df.close)
                     df['stoch_k'] = stoch_result['STOCHk_14_3_3']
                     df['stoch_d'] = stoch_result['STOCHd_14_3_3']
+                    df['coin'] = coin # add the coin name to the DataFrame
 
-                    #^ coins name
-                    df['coin'] = coin
-                    df['purchase_price'] = 0  # Initialize the purchase_price column with 0
+                    # add buy_signal and sell_signal columns to the DataFrame
+                    df['buy_signal'] = False
+                    df['sell_signal'] = False
+                    #! buy when the macd line crosses above the signal line (macd_hist > 0) and the rsi is below 30
+                    df.loc[(df['macd_hist'] > 0) & (df['rsi'] < 30), 'buy_signal'] = True # set buy_signal to True when the macd_hist is greater than 0 and the rsi is less than 30
+                    #! sell when the macd line crosses below the signal line (macd_hist < 0) and the rsi is above 70
+                    df.loc[(df['macd_hist'] < 0) & (df['rsi'] > 70), 'sell_signal'] = True # set sell_signal to True when the macd_hist is less than 0 and the rsi is greater than 70
+                    #print a count of the number of buy and sell signals
+                    print(f'Buy signals: {df.buy_signal.sum()}')
+                    print(f'Sell signals: {df.sell_signal.sum()}')
 
-                    # Get crypto positions and update the purchase_price for the current coin
-                    # positions = r.crypto.get_crypto_positions()
-                    # for position in positions:
-                    #     if position['currency']['code'] == coin:
-                    #         df['purchase_price'] = float(position['cost_bases'][0]['direct_cost_basis'])
+                    buying_score = df.buy_signal.sum()
+                    selling_score = df.sell_signal.sum()
 
-                    #^ Take loss price
-                    # take_loss_pct = 0.05  # 5% take loss #todo -- make this come from the config file
-                    # for index, row in df.iterrows():
-                    #     df['take_loss_price'] = df['purchase_price'] * take_loss_pct
+                    if buying_score > selling_score:
+                        # buy the coin
+                        spend_amount = max(buying_power * float(self.spend_pct), 1.00) # pull from config file
 
-                    # Buying and selling signals
-                    # Buy when the MACD line crosses above the signal line and the RSI is below 30 (oversold) ignore the stochastic oscillator and williams %r
-                    df['buy_signal'] = ((df['macd_line'] > df['signal_line']) & (df['rsi'] < 30))
-                    # Sell when the MACD line crosses below the signal line and the RSI is above 70 (overbought) ignore the stochastic oscillator and williams %r
-                    df['sell_signal'] = ((df['macd_line'] < df['signal_line']) & (df['rsi'] > 70))
-                    # Also only sell if the coin's current price is greater than the purchase price OR if it is less than the take loss price
-                    # df['take_profit_signal'] = df['sell_signal'] & ((df['close'] > df['purchase_price']) | (df['close'] < df['take_loss_price']))
-                    # combine the two sell signals into one
-                    #& df['sell_signal'] = df['sell_signal'] | df['take_profit_signal']
+                        side = 'buy'
+                        amount_in = 'dollars'
+                        quantity_or_price = str(spend_amount)
+
+                        r.orders.order_crypto(
+                            symbol=coin,
+                            quantityOrPrice=float(quantity_or_price),
+                            amountIn=str(amount_in),
+                            side=side,
+                            timeInForce='gtc',
+                            jsonify=True
+                        )
+                        time.sleep(random.randint(1, 5))
+
+                        # update the master order history
+                        self.update_master_order_history(
+                            coin = coin,
+                            close_price = df.close.iloc[-1],
+                            spend_amount = spend_amount,
+                            side = side
+                        )
+                        # print out the order that we just placed
+                        print(f'Order placed for {quantity_or_price} {amount_in} of {coin} at {datetime.now()}')
+                        buying_power -= spend_amount
+                        bought_coins.add(coin)
+                    elif selling_score > buying_score:
+                        # sell the coin
+                        # get the quantity of the coin in the portfolio
+                        # using r.get_crypto_positions()
+                        time.sleep(0.1) #micropause
+                        # ic() #todo ---- it's getting stuck here >> Calculating TA indicators for BTC...Error: The keyword "BTC" is not a key in the dictionary.
+                        try:
+                            quantity = float(r.get_crypto_positions(coin)[0]['quantity_available'])
+                        except:
+                            quantity = 0 #todo it passes here
 
 
-
-                    # update the MasterSignalDictionary with the current coin's signals
-                    # self.MasterSignalDictionary[coin] = df
-
-                    if verbose_mode:
-                        # if a buy signal is generated, print the buy signal as a line
-                        if df['buy_signal'].iloc[-1]:
-                            print(Fore.GREEN + f'Buy signal generated for {coin}.' + Style.RESET_ALL)
-                        # if a sell signal is generated, print the sell signal as a line
-                        if df['sell_signal'].iloc[-1]:
-                            print(Fore.RED + f'Sell signal generated for {coin}.' + Style.RESET_ALL)
-                    signals_df = signals_df.append(df)
+                        # wait to sell coins until we have owned them at least 1 hour (3600 seconds)
+                        quantity_coin_minimum_ownable_inusd = 1.00 # in usd
+                        # get the equivalent quantity of the coin in the coin's usd value
+                        quantity_coin_minimum_ownable = quantity_coin_minimum_ownable_inusd / df.close.iloc[-1]
+                        # if we own the coin and the quantity is greater than the minimum ownable quantity and we have owned the coin for at least 1 hour
+                        if coin in bought_coins and quantity > 0 \
+                            and (datetime.now() - self.master_order_history[coin]['time']).seconds > 3600 \
+                            and quantity > quantity_coin_minimum_ownable:
+                            side = 'sell'
+                            amount_in = 'quantity'
+                            quantity_or_price = str(quantity)
+                            r.orders.order_crypto(
+                                symbol=coin,
+                                quantityOrPrice=float(quantity_or_price),
+                                amountIn=str(amount_in),
+                                side=side,
+                                timeInForce='gtc',
+                                jsonify=True
+                            )
+                            time.sleep(random.randint(1, 5))
+                            self.update_master_order_history(coin, quantity_or_price, side)
+                            # print out the order that we just placed
+                            print(f'Order placed for {quantity_or_price} {amount_in} of {coin} at {datetime.now()}')
+                            buying_power += quantity
+                            bought_coins.remove(coin)
+                        else:
+                            print(f'No {coin} to sell')
+                    else:
+                        print(f'No action to take for {coin}')
+                    # update the bar after each coin
                     living_bar()
-                return signals_df
-            except Exception as e:
-                self.logger.error(f'Unable to generate trading signals... {e}')
-                return pd.DataFrame()
+                print(f'Buying power: {buying_power}')
+        except Exception as e:
+            print(f'Error: {e}')
+            pass
+        return signals_df
+
+
 
 
     def update_master_order_history(self, coin, close_price, spend_amount, side):
@@ -554,8 +625,8 @@ class Looper:
         :doc-author: Trelent
         """
         try:
-            ic()
-            print(f'Loop count: {loop_count}')
+            #*ic()
+            # print(f'Loop count: {loop_count}')
             if loop_count % 10 == 0:
                 self.trader.update_buying_power()
                 # # update the inertia values every ten minutes by decrementing them unless they're already at one
@@ -563,12 +634,15 @@ class Looper:
                 #     if self.trader.inertia_values[coin] > 1:
                 #         # save the inertia values to a file
                 #         with open('inertia_values.json', 'w') as f:
-            ic()
+            #*ic()
             self.trader.main(coins, stop_loss_prices)
             # run all async functions simultaneously
             # log_file_size_checker included to prevent log file from getting too large
             print(f'awaiting the async function: utility -> log_file_size_checker')
-            await self.utility.log_file_size_checker()
+            # await self.utility.log_file_size_checker()
+            # don't await the log_file_size_checker function because it will cause the program to hang, and we don't want that
+            await asyncio.gather(self.trader.main(coins, stop_loss_prices), self.utility.log_file_size_checker())
+            # instead, we'll just sleep for 5 seconds
             print('finished the async function: utility -> log_file_size_checker')
 
         except Exception as e:
@@ -587,14 +661,15 @@ class Looper:
         while True:
             try:
                 print(Fore.YELLOW + f'Loop count: {loop_count}' + Fore.RESET)
-                ic()
+                #*ic()
                 await self.run_async_functions(loop_count, coins, stop_loss_prices)
                 print(f'Finished running async functions...')
                 loop_count += 1
                 # use alive progress to show a sleep bar for ten minutes
-                with alive_bar(600, bar='blocks', spinner='dots_waves') as bar:
+
+                with alive_bar(600, bar='blocks', spinner='dots_waves') as bar_m:
                     for i in range(600):
-                        bar()
+                        bar_m()
                         await asyncio.sleep(1)
             except Exception as e:
                 self.logger.error(f'Error in main loop... {e}')
