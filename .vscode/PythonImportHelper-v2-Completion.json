@@ -2276,6 +2276,14 @@
         "documentation": {}
     },
     {
+        "label": "ic",
+        "importPath": "icecream",
+        "description": "icecream",
+        "isExtraImport": true,
+        "detail": "icecream",
+        "documentation": {}
+    },
+    {
         "label": "pyotp",
         "kind": 6,
         "isExtraImport": true,
@@ -2648,11 +2656,12 @@
         "documentation": {}
     },
     {
-        "label": "stop_loss_percent",
-        "importPath": "legacy.V5.main2",
-        "description": "legacy.V5.main2",
+        "label": "configparser",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "legacy.V5.main2",
+        "importPath": "configparser",
+        "description": "configparser",
+        "detail": "configparser",
         "documentation": {}
     },
     {
@@ -5661,6 +5670,87 @@
         "importPath": "main_2",
         "description": "main_2",
         "peekOfCode": "class Looper:\n    def __init__(self, trader: Trader):\n        \"\"\"\n        The Looper class provides functions for running asynchronous operations.\n        :param trader: An instance of the Trader class\n        :doc-author: Trelent\n        \"\"\"\n        self.trader = trader\n        # Set up logging\n        self.logger = logging.getLogger('looper')",
+        "detail": "main_2",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "main_2",
+        "description": "main_2",
+        "peekOfCode": "config = configparser.ConfigParser()\nconfig.read('config/credentials.ini')\ncoins = config['trading']['coins'].split(', ')\nstop_loss_percent = float(config['trading']['stop_loss_percent'])\ncoins = [coin.strip() for coin in coins]\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging']['verbose_mode']\ndebug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.",
+        "detail": "main_2",
+        "documentation": {}
+    },
+    {
+        "label": "coins",
+        "kind": 5,
+        "importPath": "main_2",
+        "description": "main_2",
+        "peekOfCode": "coins = config['trading']['coins'].split(', ')\nstop_loss_percent = float(config['trading']['stop_loss_percent'])\ncoins = [coin.strip() for coin in coins]\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging']['verbose_mode']\ndebug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.\n# initialize the Trader class\nclass Utility:",
+        "detail": "main_2",
+        "documentation": {}
+    },
+    {
+        "label": "stop_loss_percent",
+        "kind": 5,
+        "importPath": "main_2",
+        "description": "main_2",
+        "peekOfCode": "stop_loss_percent = float(config['trading']['stop_loss_percent'])\ncoins = [coin.strip() for coin in coins]\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging']['verbose_mode']\ndebug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.\n# initialize the Trader class\nclass Utility:\n    def __init__(self):",
+        "detail": "main_2",
+        "documentation": {}
+    },
+    {
+        "label": "coins",
+        "kind": 5,
+        "importPath": "main_2",
+        "description": "main_2",
+        "peekOfCode": "coins = [coin.strip() for coin in coins]\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging']['verbose_mode']\ndebug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.\n# initialize the Trader class\nclass Utility:\n    def __init__(self):\n        \"\"\"",
+        "detail": "main_2",
+        "documentation": {}
+    },
+    {
+        "label": "percent_to_use",
+        "kind": 5,
+        "importPath": "main_2",
+        "description": "main_2",
+        "peekOfCode": "percent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging']['verbose_mode']\ndebug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.\n# initialize the Trader class\nclass Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.",
+        "detail": "main_2",
+        "documentation": {}
+    },
+    {
+        "label": "verbose_mode",
+        "kind": 5,
+        "importPath": "main_2",
+        "description": "main_2",
+        "peekOfCode": "verbose_mode = config['logging']['verbose_mode']\ndebug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.\n# initialize the Trader class\nclass Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.\n        :doc-author: Trelent",
+        "detail": "main_2",
+        "documentation": {}
+    },
+    {
+        "label": "debug_verbose",
+        "kind": 5,
+        "importPath": "main_2",
+        "description": "main_2",
+        "peekOfCode": "debug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.\n# initialize the Trader class\nclass Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.\n        :doc-author: Trelent\n        \"\"\"",
+        "detail": "main_2",
+        "documentation": {}
+    },
+    {
+        "label": "reset_positions",
+        "kind": 5,
+        "importPath": "main_2",
+        "description": "main_2",
+        "peekOfCode": "reset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.\n# initialize the Trader class\nclass Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.\n        :doc-author: Trelent\n        \"\"\"\n        pass",
+        "detail": "main_2",
+        "documentation": {}
+    },
+    {
+        "label": "minimum_usd_per_position",
+        "kind": 5,
+        "importPath": "main_2",
+        "description": "main_2",
+        "peekOfCode": "minimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.\n# initialize the Trader class\nclass Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.\n        :doc-author: Trelent\n        \"\"\"\n        pass\n    async def log_file_size_checker():",
         "detail": "main_2",
         "documentation": {}
     },
