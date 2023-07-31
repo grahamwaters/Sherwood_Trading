@@ -1,18 +1,3 @@
-2023-07-31 15:23:26,679 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
-2023-07-31 15:23:26,679 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
-2023-07-31 15:23:26,680 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
-2023-07-31 15:23:26,680 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
-2023-07-31 15:23:26,681 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
-2023-07-31 15:23:26,682 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
-2023-07-31 15:23:26,682 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
-2023-07-31 15:23:26,683 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
-2023-07-31 15:23:26,683 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
-2023-07-31 15:23:26,684 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
-2023-07-31 15:23:26,684 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
-2023-07-31 15:23:26,685 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
-2023-07-31 15:23:26,686 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
-2023-07-31 15:23:26,686 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
-2023-07-31 15:23:26,687 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
 2023-07-31 15:23:26,687 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
 2023-07-31 15:23:26,688 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
 2023-07-31 15:23:26,689 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
@@ -999,3 +984,18 @@
 2023-07-31 16:28:23,339 - INFO - Logged in to Robinhood successfully.
 2023-07-31 16:28:49,697 - ERROR - Unable to generate trading signals... Cannot perform 'or_' with a dtyped [bool] array and scalar of type [bool]
 2023-07-31 16:31:01,133 - INFO - Logged in to Robinhood successfully.
+2023-07-31 16:55:13,280 - INFO - Logged in to Robinhood successfully.
+2023-07-31 17:01:26,582 - INFO - Logged in to Robinhood successfully.
+2023-07-31 18:05:38,503 - INFO - Logged in to Robinhood successfully.
+2023-07-31 18:06:26,281 - INFO - Logged in to Robinhood successfully.
+2023-07-31 18:12:24,253 - INFO - Logged in to Robinhood successfully.
+2023-07-31 18:13:48,524 - INFO - Logged in to Robinhood successfully.
+2023-07-31 18:15:50,862 - INFO - Logged in to Robinhood successfully.
+2023-07-31 18:16:35,293 - INFO - Logged in to Robinhood successfully.
+2023-07-31 18:17:54,229 - INFO - Logged in to Robinhood successfully.
+2023-07-31 18:18:10,943 - ERROR - Unable to generate trading signals... cancel_all_crypto_orders() takes 0 positional arguments but 1 was given
+2023-07-31 18:20:24,788 - INFO - Logged in to Robinhood successfully.
+2023-07-31 18:23:58,620 - INFO - Logged in to Robinhood successfully.
+2023-07-31 18:24:53,865 - INFO - Logged in to Robinhood successfully.
+2023-07-31 18:26:26,358 - INFO - Logged in to Robinhood successfully.
+2023-07-31 18:27:45,550 - INFO - Logged in to Robinhood successfully.

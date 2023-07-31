@@ -23,8 +23,9 @@ from alive_progress import alive_bar
 import random
 import numpy as np
 from time import sleep
-from legacy.V5.main import calculate_ta_indicators
+# from legacy.V5.main import calculate_ta_indicators
 #^ load the relevant variables from the .ini credentials file in config/
+
 # [trading]
 # coins = BTC, ETH, DOGE, SHIB, ETC, UNI, AAVE, LTC, LINK, COMP, AVAX, XLM, BCH, XTZ
 # stop_loss_percent = 0.05
@@ -66,7 +67,7 @@ for position in tqdm(positions):
 """
 
 
-
+#^ Starting out with the basics
 config = configparser.ConfigParser()
 config.read('config/credentials.ini')
 coins = config['trading']['coins'].split(', ')
@@ -77,6 +78,7 @@ verbose_mode = config['logging']['verbose_mode']
 debug_verbose = config['logging']['debug_verbose']
 reset_positions = config['logging']['reset_positions']
 minimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.
+
 #^ Global Variables
 using_trading_function = False # this variable is used to determine if the trading function is currently being used to trade or not. If it is, the trading function will not be called again until it is done trading.
 lot_details_list = []
@@ -293,6 +295,7 @@ class Trader:
             print(f' * {pct_to_buy_with} = ${total_money * pct_to_buy_with}')
             available_money = total_money * pct_to_buy_with
             for coin in coins:
+                coin = coin.replace(' ', '')
                 print(f'Calculating technical indicators for {coin}...')
                 df = utility.get_last_100_days(coin)
                 df['coin'] = coin #^ add coin name to df
@@ -311,22 +314,6 @@ class Trader:
                 # df['bollinger_l'], df['bollinger_m'], df['bollinger_u'] = self.bollinger(df) #^ Fixes error in bollinger_bands
 
 
-                # to prevent errors, cast all columns to float that are indicators
-                # df['sma'] = df['sma'].astype(float)
-                # df['ema'] = df['ema'].astype(float)
-                # df['macd_line'] = df['macd_line'].astype(float)
-                # df['signal_line'] = df['signal_line'].astype(float)
-                # df['macd_hist'] = df['macd_hist'].astype(float)
-                # df['rsi'] = df['rsi'].astype(float)
-                # df['williams'] = df['williams'].astype(float)
-                # df['stochastic_k'] = df['stochastic_k'].astype(float)
-                # df['stochastic_d'] = df['stochastic_d'].astype(float)
-                # df['bollinger_l'] = df['bollinger_l'].astype(float)
-                # df['bollinger_m'] = df['bollinger_m'].astype(float)
-                # df['bollinger_u'] = df['bollinger_u'].astype(float)
-                # df['bollinger_b'] = df['bollinger_b'].astype(float)
-                # df['BBP_5_2.0'] = df['BBP_5_2.0'].astype(float)
-
 
                 df['buy_signal'] = ((df.macd_line > df.signal_line) & (df.rsi < 30)) | ((df.stochastic_k > df.stochastic_d) & (df.williams < -80))
                 # sell when macd_line crosses below signal_line and rsi is greater than 70
@@ -336,9 +323,24 @@ class Trader:
                 # also sell when the price is less than the lower bollinger band because this means the price is going down
 
                 #note: this is where you left off 4.30 PM 7/31/2023
-                # df['sell_signal'] = df['sell_signal'] | df.close.iloc[-1] < df.bollinger_l.iloc[-1]
+                df['sell_signal'] = df['sell_signal'] | (df.close.iloc[-1] < df.bollinger_l.iloc[-1])
 
+                # if the rsi has gone above 70 more than once in the last 4 hours then sell the entire position
+                # the code runs every ten minutes
+                # so 4 hours is 24 ten minute intervals
+                # so if the rsi has gone above 70 more than once in the last 24 ten minute intervals then sell the entire position
+                df['sell_signal'] = df['sell_signal'] | (df.rsi > 70).rolling(window=24).sum() > 1
 
+                # also set sell signal to true if the price is the highest it has been in the past 3 hours (18 ten minute intervals)
+                df['sell_signal'] = df['sell_signal'] | (df.close >= df.close.rolling(window=18).max())
+
+                # check the last 10 minutes buy and sell signals and if there is a sell signal then set the sell signal to True
+                # check if any are True in the column for sell_signal and if so then set the sell signal to True
+                df['sell_signal'] = df['sell_signal'] | df.sell_signal.iloc[-10:].any()
+                #todo: .any() is very broad. If you can make this be (majority of the last 10 minutes) then that would be better
+
+                if verbose_mode:
+                    print(df[['close', 'bollinger_l', 'bollinger_m', 'bollinger_u', 'bollinger_b', 'BBP_5_2.0', 'buy_signal', 'sell_signal']].tail(10))
 
 
                 print(Fore.GREEN + f'BUY SIGNAL [{coin}]: {df.buy_signal.iloc[-1]}' + Style.RESET_ALL, Fore.RED + f'SELL SIGNAL [{coin}]: {df.sell_signal.iloc[-1]}' + Style.RESET_ALL)
@@ -371,7 +373,7 @@ class Trader:
                     )
                     # self.logger.info(f'Buy order response: {buy_order_response}')
                     # also submit the stop loss order for the coin
-                    print(f'Submitting a stop loss order as well at {df.close.iloc[-1] - stop_loss_percent * df.close.iloc[-1]}')
+                    print(Fore.YELLOW + f'Submitting a stop loss order as well at {df.close.iloc[-1] - stop_loss_percent * df.close.iloc[-1]}' + Style.RESET_ALL)
                     sell_order_response = r.orders.order_crypto(
                         symbol = coin,
                         amountIn = 'quantity', # or 'quantity'
@@ -421,7 +423,7 @@ class Trader:
                             volume_to_sell_usd = min(coin_current_value_usd - float(config['trading']['minimum_usd_per_position']), available_money * pct_to_buy_per_trade, 1.00)
 
                             # Submit an order using the r.orders.order_sell_crypto_limit() function
-                            r.orders.order_crypto(
+                            sell_order_response = r.orders.order_crypto(
                                 symbol = coin,
                                 amountIn = 'quantity', # in coins
                                 side = 'sell',
@@ -430,9 +432,23 @@ class Trader:
                                 timeInForce = 'gtc',
                                 jsonify = True
                             )
+                            print(Fore.RED + f'(-) Sold {volume_to_sell_usd} worth of {coin} at {df.close.iloc[-1]}' + Fore.RESET)
                             # time.sleep(random.randint(1, 5))
                             # cancel all sell orders for the coin now
-                            r.orders.cancel_all_crypto_orders(coin)
+                            # get the order ids for all orders that are for this coin
+                            coin_order_ids = []
+                            orders = r.orders.get_all_crypto_orders()
+                            print('I am cancelling all other sell orders for this coin...')
+                            # skip this latest sell order that we just placed
+                            for order in tqdm(orders):
+                                if order['side'] == 'sell' and order['currency_pair_id'] == coin:
+                                    coin_order_ids.append(order['id'])
+                            # cancel all orders for this coin (other than the latest sell order)
+                            for order_id in tqdm(coin_order_ids):
+                                if order_id != sell_order_response['id']:
+                                    print(f'Cancelling order {order_id}')
+                                    r.orders.cancel_crypto_order(order_id)
+
                     else:
                         print(f"No {coin} positions to sell.")
                 else:
@@ -586,6 +602,35 @@ class Looper:
             self.trader.log_file_size_checker()
         except Exception as e:
             self.logger.error(f'Unable to run async functions... {e}')
+
+    async def print_gui():
+        # Fetch the necessary data
+        open_orders = r.get_all_open_crypto_orders()
+        positions = r.get_crypto_positions()
+        profile = r.load_account_profile()
+
+        # Calculate the total equity and profit/loss
+        total_equity = float(profile['equity'])
+        buying_power = float(profile['crypto_buying_power'])
+        profit_loss = total_equity - buying_power
+        profit_loss_percent = (profit_loss / buying_power) * 100
+
+        # Print the GUI
+        print("Orders in the Pipeline:")
+        print("- Open Orders:")
+        for order in open_orders:
+            print(f"-- {order['side'].capitalize()} order for {order['symbol']}")
+        print("- Open Positions:")
+        for position in positions:
+            print(f"-- We have {len(positions)} positions open")
+            print("- Details on Our Progress:")
+            print(f"-- We have ${buying_power:.2f} in buying power")
+            print(f"-- Our Equity is ${total_equity:.2f}")
+            print(f"-- Our Profit/Loss is ${profit_loss:.2f}")
+            print(f"-- Our Profit/Loss Percent is {profit_loss_percent:.2f}%")
+
+
+
     async def main_looper(self, coins, stop_loss_prices):
         """
         The main_looper function is the main loop function. It will run every hour and do the following:
@@ -598,6 +643,14 @@ class Looper:
         """
         loop_count = 0
         while True:
+            #^ Reevaluate the config file every iteration
+            stop_loss_percent = float(config['trading']['stop_loss_percent'])
+            coins = [coin.strip() for coin in coins]
+            percent_to_use = float(config['trading']['percent_to_use'])
+            verbose_mode = config['logging']['verbose_mode']
+            debug_verbose = config['logging']['debug_verbose']
+            reset_positions = config['logging']['reset_positions']
+            minimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.
             try:
                 # load coins list from config file
                 config_file = configparser.ConfigParser()
@@ -617,6 +670,22 @@ class Looper:
                         foobar()
             except Exception as e:
                 self.logger.error(f'Error in main loop... {e}')
+
+            await self.print_gui()
+            #^ I'd like to print a little GUI of open orders and positions here A template is below:
+            # Orders in the Pipeline:
+            # - Open Orders:
+            # -- (5) Buy orders for BTC, ETH, LTC, DOGE, and BCH
+            # -- (1) Sell order for BTC
+            # -- (4) Stop loss sells in place for the coins BTC, ETH, LTC, and DOGE
+            # - Open Positions:
+            # -- We have BTC, ETH, LTC, DOGE, and BCH
+            # - Details on Our Progress:
+            # -- We have $1000.00 in buying power
+            # -- Our Equity is $1589.32
+            # -- Our Profit/Loss is $589.32
+            # -- Our Profit/Loss Percent is 58.93%
+
 # run the program
 if __name__ == '__main__':
     #^ set stop losses for each coin by multiplying the current price by the stop loss percent (0.05) and subtracting that from the current price (to get the stop loss price).

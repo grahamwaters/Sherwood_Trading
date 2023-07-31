@@ -2726,14 +2726,6 @@
         "documentation": {}
     },
     {
-        "label": "calculate_ta_indicators",
-        "importPath": "legacy.V5.main",
-        "description": "legacy.V5.main",
-        "isExtraImport": true,
-        "detail": "legacy.V5.main",
-        "documentation": {}
-    },
-    {
         "label": "stop_loss_percent",
         "importPath": "legacy.V5.main2",
         "description": "legacy.V5.main2",
@@ -5747,7 +5739,7 @@
         "kind": 5,
         "importPath": "main_2",
         "description": "main_2",
-        "peekOfCode": "positions = r.crypto.get_crypto_positions()\nprint(f'found {len(positions)} positions.')\nfor position in tqdm(positions):\n    # print(position)\n    if position['currency']['code'] == crypto:\n        pos_dict = position['currency']\n        min_order_size = float(pos_dict['increment'])\n        coin_holdings = float(position['quantity_available'])\n\"\"\"\nconfig = configparser.ConfigParser()",
+        "peekOfCode": "positions = r.crypto.get_crypto_positions()\nprint(f'found {len(positions)} positions.')\nfor position in tqdm(positions):\n    # print(position)\n    if position['currency']['code'] == crypto:\n        pos_dict = position['currency']\n        min_order_size = float(pos_dict['increment'])\n        coin_holdings = float(position['quantity_available'])\n\"\"\"\n#^ Starting out with the basics",
         "detail": "main_2",
         "documentation": {}
     },
