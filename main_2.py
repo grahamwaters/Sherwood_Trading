@@ -26,15 +26,6 @@ from time import sleep
 # from legacy.V5.main import calculate_ta_indicators
 #^ load the relevant variables from the .ini credentials file in config/
 
-# [trading]
-# coins = BTC, ETH, DOGE, SHIB, ETC, UNI, AAVE, LTC, LINK, COMP, AVAX, XLM, BCH, XTZ
-# stop_loss_percent = 0.05
-# percent_to_use = 0.8
-
-# [logging]
-# verbose_mode = True
-# debug_verbose = True
-# reset_positions = False
 """
 Notes
 r.crypto.get_crypto_quote(position['currency']['code'])['mark_price']
@@ -63,7 +54,7 @@ for position in tqdm(positions):
         min_order_size = float(pos_dict['increment'])
         coin_holdings = float(position['quantity_available'])
 
-
+#todo: Future implementations need to consider batching the sells at the end of the loop so the price doesn't change on the buys before the buys are executed.
 """
 
 
@@ -644,6 +635,8 @@ class Looper:
         loop_count = 0
         while True:
             #^ Reevaluate the config file every iteration
+            config = configparser.ConfigParser()
+            config.read('config/credentials.ini')
             stop_loss_percent = float(config['trading']['stop_loss_percent'])
             coins = [coin.strip() for coin in coins]
             percent_to_use = float(config['trading']['percent_to_use'])

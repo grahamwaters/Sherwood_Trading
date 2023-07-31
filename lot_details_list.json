@@ -1,15 +1,15 @@
 [
     {
         "coin": "COMP",
-        "id": "7b048f2436df4eb6988f074510d8cf10",
+        "id": "bfccd4c7511347e1a0ff9087fc081d91",
         "buy_cost": 1.0,
         "buy_price": 66.06,
         "stop_loss_price": 62.76,
         "buy_order_response": {
             "account_id": "61f33e4c-8cc5-497e-a296-f0f9691a030e",
             "average_price": null,
-            "cancel_url": "https://nummus.robinhood.com/orders/64c842fd-7f8b-4f68-993b-1fe5256c94af/cancel/",
-            "created_at": "2023-07-31T19:25:49.893522-04:00",
+            "cancel_url": "https://nummus.robinhood.com/orders/64c843a1-533f-48a0-a6c2-ea3a5922ca96/cancel/",
+            "created_at": "2023-07-31T19:28:33.604676-04:00",
             "cumulative_quantity": "0.000000000000000000",
             "currency_code": "COMP",
             "currency_pair_id": "715af4b3-26d0-4cd0-ad07-7a1cf5dc734a",
@@ -17,7 +17,7 @@
             "entered_price": "1.000000000000000000",
             "executions": [],
             "funding_source_id": "634403c5-27cc-4f55-a7f6-9a75b46a5c2b",
-            "id": "64c842fd-7f8b-4f68-993b-1fe5256c94af",
+            "id": "64c843a1-533f-48a0-a6c2-ea3a5922ca96",
             "initiator_id": null,
             "initiator_type": null,
             "is_quantity_variable": false,
@@ -26,19 +26,19 @@
             "limit_price": null,
             "price": "66.060000000000000000",
             "quantity": "0.015100000000000000",
-            "ref_id": "8072c821-d4cd-4ac4-8d42-91d689e9b98b",
+            "ref_id": "9ffe845b-c4ec-47dc-bdb7-c76154cd9f94",
             "rounded_executed_notional": "0.00",
             "side": "buy",
             "state": "unconfirmed",
             "stop_price": null,
             "time_in_force": "gtc",
             "type": "limit",
-            "updated_at": "2023-07-31T19:25:50.205076-04:00"
+            "updated_at": "2023-07-31T19:28:33.908284-04:00"
         }
     },
     {
         "coin": "XLM",
-        "id": "17d136cccd0c4e409c0030f607445dd7",
+        "id": "c3a45c501be7480388649467a4d0b841",
         "buy_cost": 1.0,
         "buy_price": 0.15,
         "stop_loss_price": 0.14,

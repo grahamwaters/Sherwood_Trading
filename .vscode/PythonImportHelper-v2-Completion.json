@@ -5739,7 +5739,7 @@
         "kind": 5,
         "importPath": "main_2",
         "description": "main_2",
-        "peekOfCode": "positions = r.crypto.get_crypto_positions()\nprint(f'found {len(positions)} positions.')\nfor position in tqdm(positions):\n    # print(position)\n    if position['currency']['code'] == crypto:\n        pos_dict = position['currency']\n        min_order_size = float(pos_dict['increment'])\n        coin_holdings = float(position['quantity_available'])\n\"\"\"\n#^ Starting out with the basics",
+        "peekOfCode": "positions = r.crypto.get_crypto_positions()\nprint(f'found {len(positions)} positions.')\nfor position in tqdm(positions):\n    # print(position)\n    if position['currency']['code'] == crypto:\n        pos_dict = position['currency']\n        min_order_size = float(pos_dict['increment'])\n        coin_holdings = float(position['quantity_available'])\n#todo: Future implementations need to consider batching the sells at the end of the loop so the price doesn't change on the buys before the buys are executed.\n\"\"\"",
         "detail": "main_2",
         "documentation": {}
     },

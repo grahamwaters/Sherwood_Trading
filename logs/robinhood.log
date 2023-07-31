@@ -1,4 +1,3 @@
-2023-07-31 15:23:26,687 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
 2023-07-31 15:23:26,688 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
 2023-07-31 15:23:26,689 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
 2023-07-31 15:23:26,689 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
