@@ -1,9 +1,3 @@
-2023-07-31 15:23:26,688 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
-2023-07-31 15:23:26,689 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
-2023-07-31 15:23:26,689 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
-2023-07-31 15:23:26,690 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
-2023-07-31 15:23:26,690 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
-2023-07-31 15:23:26,691 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
 2023-07-31 15:23:26,692 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
 2023-07-31 15:23:26,692 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
 2023-07-31 15:23:26,693 - ERROR - Error in main loop... 'Trader' object has no attribute 'check_open_orders'
@@ -998,3 +992,11 @@
 2023-07-31 18:24:53,865 - INFO - Logged in to Robinhood successfully.
 2023-07-31 18:26:26,358 - INFO - Logged in to Robinhood successfully.
 2023-07-31 18:27:45,550 - INFO - Logged in to Robinhood successfully.
+2023-07-31 18:31:06,057 - INFO - Logged in to Robinhood successfully.
+2023-07-31 18:32:39,170 - INFO - Logged in to Robinhood successfully.
+2023-07-31 18:39:23,745 - INFO - Logged in to Robinhood successfully.
+2023-07-31 18:50:48,555 - INFO - Logged in to Robinhood successfully.
+2023-07-31 18:58:25,262 - INFO - Logged in to Robinhood successfully.
+2023-07-31 19:16:28,388 - INFO - Logged in to Robinhood successfully.
+2023-07-31 22:11:17,418 - INFO - Logged in to Robinhood successfully.
+2023-07-31 22:12:04,666 - INFO - Logged in to Robinhood successfully.

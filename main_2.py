@@ -208,6 +208,26 @@ class Trader:
             corrected_volume = volume
         return corrected_volume
 
+    def stop_loss_checker(self, coins):
+        # check if the current price is below the stop loss price
+        # if it is, sell the coin
+
+        ic()
+        try:
+            crypto_positions = r.get_crypto_positions()
+            for position in crypto_positions:
+                coin = position['currency']['code']
+                if coin in coins:
+                    current_price = float(position['cost_bases'][0]['direct_cost_basis'])
+                    stop_loss_price = float(position['cost_bases'][0]['direct_cost_basis']) * (1 - self.stop_loss_percentage)
+                    if current_price <= stop_loss_price:
+                        self.logger.info(f'Stop loss triggered for {coin}. Selling...')
+                        r.orders.order_sell_crypto_by_quantity(coin, position['quantity_available'])
+                        self.logger.info(f'Sold {coin} at {current_price}.')
+        except Exception as e:
+            self.logger.error(f'Unable to check stop loss prices... {e}')
+
+
     def resetter(self):
         """
         The resetter function cancels all open orders and sells all positions.
@@ -275,6 +295,7 @@ class Trader:
             # read config file
             config = configparser.ConfigParser()
             config.read('config/credentials.ini')
+            verbose_mode = config['logging']['verbose_mode']
             # get pct_to_buy_with from config file
             pct_to_buy_with = config['trading']['percent_to_use'] #*fixed
             pct_to_buy_with = float(pct_to_buy_with)
@@ -594,14 +615,14 @@ class Looper:
         except Exception as e:
             self.logger.error(f'Unable to run async functions... {e}')
 
-    async def print_gui():
+    async def print_gui(self):
         # Fetch the necessary data
         open_orders = r.get_all_open_crypto_orders()
         positions = r.get_crypto_positions()
         profile = r.load_account_profile()
 
         # Calculate the total equity and profit/loss
-        total_equity = float(profile['equity'])
+        total_equity = float(profile['cash']) + float(profile['portfolio_cash'])
         buying_power = float(profile['crypto_buying_power'])
         profit_loss = total_equity - buying_power
         profit_loss_percent = (profit_loss / buying_power) * 100
@@ -610,15 +631,15 @@ class Looper:
         print("Orders in the Pipeline:")
         print("- Open Orders:")
         for order in open_orders:
-            print(f"-- {order['side'].capitalize()} order for {order['symbol']}")
+            print(f"-- {order['side'].capitalize()} order for {order['currency_code']} at ${order['price']} for {order['quantity']}")
         print("- Open Positions:")
-        for position in positions:
-            print(f"-- We have {len(positions)} positions open")
-            print("- Details on Our Progress:")
-            print(f"-- We have ${buying_power:.2f} in buying power")
-            print(f"-- Our Equity is ${total_equity:.2f}")
-            print(f"-- Our Profit/Loss is ${profit_loss:.2f}")
-            print(f"-- Our Profit/Loss Percent is {profit_loss_percent:.2f}%")
+
+        print(f"-- We have {len(positions)} positions open")
+        print("- Details on Our Progress:")
+        print(f"-- We have ${buying_power:.2f} in buying power")
+        print(f"-- Our Equity is ${total_equity:.2f}")
+        print(f"-- Our Profit/Loss is ${profit_loss:.2f}")
+        print(f"-- Our Profit/Loss Percent is {profit_loss_percent:.2f}%")
 
 
 
@@ -644,14 +665,21 @@ class Looper:
             debug_verbose = config['logging']['debug_verbose']
             reset_positions = config['logging']['reset_positions']
             minimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.
+            # cancel any open orders
+            self.trader.cancel_open_orders()
+            r.orders.cancel_all_crypto_orders()
             try:
+
                 # load coins list from config file
                 config_file = configparser.ConfigParser()
                 config_file.read('config/credentials.ini')
                 coins = config_file['trading']['coins'].split(',')
+
+                self.stop_loss_checker(coins, stop_loss_prices)
                 #^ run the calculate_ta_indicators function to calculate the technical analysis indicators for each coin and buy/sell by the indicators
                 trader.calculate_ta_indicators(coins)
                 #^ run the check_stop_loss_prices function to check if the current price is lower than the stop loss price for any owned coin
+
                 await self.run_async_functions(
                     loop_count, coins, stop_loss_prices
                     )
@@ -665,6 +693,7 @@ class Looper:
                 self.logger.error(f'Error in main loop... {e}')
 
             await self.print_gui()
+
             #^ I'd like to print a little GUI of open orders and positions here A template is below:
             # Orders in the Pipeline:
             # - Open Orders:
