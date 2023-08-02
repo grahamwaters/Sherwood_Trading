@@ -11,3 +11,4 @@ config/.DS_Store
 .vscode/PythonImportHelper-v2-Completion.json
 __pycache__/.DS_Store
 config/credentials.ini
+.DS_Store
