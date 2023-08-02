@@ -12,3 +12,4 @@ config/.DS_Store
 __pycache__/.DS_Store
 config/credentials.ini
 .DS_Store
+.DS_Store
