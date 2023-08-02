@@ -1,5 +1,642 @@
 [
     {
+        "label": "configparser",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "configparser",
+        "description": "configparser",
+        "detail": "configparser",
+        "documentation": {}
+    },
+    {
+        "label": "feedparser",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "feedparser",
+        "description": "feedparser",
+        "detail": "feedparser",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "nltk",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "nltk",
+        "description": "nltk",
+        "detail": "nltk",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "seaborn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "seaborn",
+        "description": "seaborn",
+        "detail": "seaborn",
+        "documentation": {}
+    },
+    {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "newspaper",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "newspaper",
+        "description": "newspaper",
+        "detail": "newspaper",
+        "documentation": {}
+    },
+    {
+        "label": "Article",
+        "importPath": "newspaper",
+        "description": "newspaper",
+        "isExtraImport": true,
+        "detail": "newspaper",
+        "documentation": {}
+    },
+    {
+        "label": "Article",
+        "importPath": "newspaper",
+        "description": "newspaper",
+        "isExtraImport": true,
+        "detail": "newspaper",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "newspaper",
+        "description": "newspaper",
+        "isExtraImport": true,
+        "detail": "newspaper",
+        "documentation": {}
+    },
+    {
+        "label": "ArticleException",
+        "importPath": "newspaper",
+        "description": "newspaper",
+        "isExtraImport": true,
+        "detail": "newspaper",
+        "documentation": {}
+    },
+    {
+        "label": "SentimentIntensityAnalyzer",
+        "importPath": "nltk.sentiment.vader",
+        "description": "nltk.sentiment.vader",
+        "isExtraImport": true,
+        "detail": "nltk.sentiment.vader",
+        "documentation": {}
+    },
+    {
+        "label": "SentimentIntensityAnalyzer",
+        "importPath": "nltk.sentiment.vader",
+        "description": "nltk.sentiment.vader",
+        "isExtraImport": true,
+        "detail": "nltk.sentiment.vader",
+        "documentation": {}
+    },
+    {
+        "label": "SentimentIntensityAnalyzer",
+        "importPath": "nltk.sentiment.vader",
+        "description": "nltk.sentiment.vader",
+        "isExtraImport": true,
+        "detail": "nltk.sentiment.vader",
+        "documentation": {}
+    },
+    {
+        "label": "word_tokenize",
+        "importPath": "nltk.tokenize",
+        "description": "nltk.tokenize",
+        "isExtraImport": true,
+        "detail": "nltk.tokenize",
+        "documentation": {}
+    },
+    {
+        "label": "stopwords",
+        "importPath": "nltk.corpus",
+        "description": "nltk.corpus",
+        "isExtraImport": true,
+        "detail": "nltk.corpus",
+        "documentation": {}
+    },
+    {
+        "label": "WordNetLemmatizer",
+        "importPath": "nltk.stem",
+        "description": "nltk.stem",
+        "isExtraImport": true,
+        "detail": "nltk.stem",
+        "documentation": {}
+    },
+    {
+        "label": "LatentDirichletAllocation",
+        "importPath": "sklearn.decomposition",
+        "description": "sklearn.decomposition",
+        "isExtraImport": true,
+        "detail": "sklearn.decomposition",
+        "documentation": {}
+    },
+    {
+        "label": "CountVectorizer",
+        "importPath": "sklearn.feature_extraction.text",
+        "description": "sklearn.feature_extraction.text",
+        "isExtraImport": true,
+        "detail": "sklearn.feature_extraction.text",
+        "documentation": {}
+    },
+    {
+        "label": "cosine_similarity",
+        "importPath": "sklearn.metrics.pairwise",
+        "description": "sklearn.metrics.pairwise",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics.pairwise",
+        "documentation": {}
+    },
+    {
+        "label": "parser",
+        "importPath": "dateutil",
+        "description": "dateutil",
+        "isExtraImport": true,
+        "detail": "dateutil",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "Options",
+        "importPath": "selenium.webdriver.chrome.options",
+        "description": "selenium.webdriver.chrome.options",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.options",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
         "label": "asyncio",
         "kind": 6,
         "isExtraImport": true,
@@ -242,12 +879,11 @@
         "documentation": {}
     },
     {
-        "label": "numpy",
-        "kind": 6,
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
         "isExtraImport": true,
-        "importPath": "numpy",
-        "description": "numpy",
-        "detail": "numpy",
+        "detail": "robin_stocks",
         "documentation": {}
     },
     {
@@ -260,341 +896,19 @@
         "documentation": {}
     },
     {
-        "label": "pandas",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pandas",
-        "description": "pandas",
-        "detail": "pandas",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "datetime",
-        "description": "datetime",
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
         "label": "pytz",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "pytz",
         "description": "pytz",
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
         "detail": "pytz",
         "documentation": {}
     },
@@ -1488,6 +1802,38 @@
         "documentation": {}
     },
     {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
         "label": "tqdm",
         "importPath": "tqdm",
         "description": "tqdm",
@@ -2080,6 +2426,22 @@
         "documentation": {}
     },
     {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
         "label": "time",
         "kind": 6,
         "isExtraImport": true,
@@ -2118,24 +2480,6 @@
         "description": "time",
         "isExtraImport": true,
         "detail": "time",
-        "documentation": {}
-    },
-    {
-        "label": "logging",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "logging",
-        "description": "logging",
-        "detail": "logging",
-        "documentation": {}
-    },
-    {
-        "label": "requests",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "requests",
-        "description": "requests",
-        "detail": "requests",
         "documentation": {}
     },
     {
@@ -2185,6 +2529,14 @@
         "description": "os",
         "isExtraImport": true,
         "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "ic",
+        "importPath": "icecream",
+        "description": "icecream",
+        "isExtraImport": true,
+        "detail": "icecream",
         "documentation": {}
     },
     {
@@ -2352,85 +2704,11 @@
         "documentation": {}
     },
     {
-        "label": "nltk",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "nltk",
-        "description": "nltk",
-        "detail": "nltk",
-        "documentation": {}
-    },
-    {
-        "label": "BeautifulSoup",
-        "importPath": "bs4",
-        "description": "bs4",
-        "isExtraImport": true,
-        "detail": "bs4",
-        "documentation": {}
-    },
-    {
-        "label": "BeautifulSoup",
-        "importPath": "bs4",
-        "description": "bs4",
-        "isExtraImport": true,
-        "detail": "bs4",
-        "documentation": {}
-    },
-    {
         "label": "fuzz",
         "importPath": "fuzzywuzzy",
         "description": "fuzzywuzzy",
         "isExtraImport": true,
         "detail": "fuzzywuzzy",
-        "documentation": {}
-    },
-    {
-        "label": "newspaper",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "newspaper",
-        "description": "newspaper",
-        "detail": "newspaper",
-        "documentation": {}
-    },
-    {
-        "label": "Article",
-        "importPath": "newspaper",
-        "description": "newspaper",
-        "isExtraImport": true,
-        "detail": "newspaper",
-        "documentation": {}
-    },
-    {
-        "label": "Config",
-        "importPath": "newspaper",
-        "description": "newspaper",
-        "isExtraImport": true,
-        "detail": "newspaper",
-        "documentation": {}
-    },
-    {
-        "label": "ArticleException",
-        "importPath": "newspaper",
-        "description": "newspaper",
-        "isExtraImport": true,
-        "detail": "newspaper",
-        "documentation": {}
-    },
-    {
-        "label": "SentimentIntensityAnalyzer",
-        "importPath": "nltk.sentiment.vader",
-        "description": "nltk.sentiment.vader",
-        "isExtraImport": true,
-        "detail": "nltk.sentiment.vader",
-        "documentation": {}
-    },
-    {
-        "label": "SentimentIntensityAnalyzer",
-        "importPath": "nltk.sentiment.vader",
-        "description": "nltk.sentiment.vader",
-        "isExtraImport": true,
-        "detail": "nltk.sentiment.vader",
         "documentation": {}
     },
     {
@@ -2457,15 +2735,6 @@
         "importPath": "yfinance",
         "description": "yfinance",
         "detail": "yfinance",
-        "documentation": {}
-    },
-    {
-        "label": "matplotlib.pyplot",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "matplotlib.pyplot",
-        "description": "matplotlib.pyplot",
-        "detail": "matplotlib.pyplot",
         "documentation": {}
     },
     {
@@ -2550,15 +2819,6 @@
         "importPath": "ast",
         "description": "ast",
         "detail": "ast",
-        "documentation": {}
-    },
-    {
-        "label": "re",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
         "documentation": {}
     },
     {
@@ -2691,24 +2951,6 @@
         "documentation": {}
     },
     {
-        "label": "configparser",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "configparser",
-        "description": "configparser",
-        "detail": "configparser",
-        "documentation": {}
-    },
-    {
-        "label": "warnings",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "warnings",
-        "description": "warnings",
-        "detail": "warnings",
-        "documentation": {}
-    },
-    {
         "label": "alive_progress",
         "kind": 6,
         "isExtraImport": true,
@@ -2719,6 +2961,30 @@
     },
     {
         "label": "alive_bar",
+        "importPath": "alive_progress",
+        "description": "alive_progress",
+        "isExtraImport": true,
+        "detail": "alive_progress",
+        "documentation": {}
+    },
+    {
+        "label": "alive_bar",
+        "importPath": "alive_progress",
+        "description": "alive_progress",
+        "isExtraImport": true,
+        "detail": "alive_progress",
+        "documentation": {}
+    },
+    {
+        "label": "alive_bar",
+        "importPath": "alive_progress",
+        "description": "alive_progress",
+        "isExtraImport": true,
+        "detail": "alive_progress",
+        "documentation": {}
+    },
+    {
+        "label": "config_handler",
         "importPath": "alive_progress",
         "description": "alive_progress",
         "isExtraImport": true,
@@ -2771,6 +3037,267 @@
         "description": "looper",
         "isExtraImport": true,
         "detail": "looper",
+        "documentation": {}
+    },
+    {
+        "label": "standardize_date",
+        "kind": 2,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "def standardize_date(unstructured_date):\n    dt = parser.parse(unstructured_date)\n    return dt.strftime('%Y-%m-%dT%H:%M:%S%z')\ndef preprocess_text(text):\n    text = re.sub(r'[^a-zA-Z0-9]', ' ', text.lower())\n    words = word_tokenize(text)\n    words = [word for word in words if word not in stop_words]\n    words = [lemmatizer.lemmatize(word) for word in words]\n    logging.info(f'Preprocessed text: {len(words)} words; most common: {pd.Series(words).value_counts().head(5).index.tolist()}')\n    return ' '.join(words)",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_text",
+        "kind": 2,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "def preprocess_text(text):\n    text = re.sub(r'[^a-zA-Z0-9]', ' ', text.lower())\n    words = word_tokenize(text)\n    words = [word for word in words if word not in stop_words]\n    words = [lemmatizer.lemmatize(word) for word in words]\n    logging.info(f'Preprocessed text: {len(words)} words; most common: {pd.Series(words).value_counts().head(5).index.tolist()}')\n    return ' '.join(words)\ndef scrape_robinhood_article(url):\n    try:\n        logging.info(f\"Scraping the article at {url}\")",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_robinhood_article",
+        "kind": 2,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "def scrape_robinhood_article(url):\n    try:\n        logging.info(f\"Scraping the article at {url}\")\n        response = requests.get(url)\n        if response.status_code == 200:\n            soup = BeautifulSoup(response.content, 'html.parser')\n            article_text = soup.find(\"div\", {\"class\": \"article__content\"}).get_text()\n            return article_text\n        else:\n            return None",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_robinhood_news_main_feed",
+        "kind": 2,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "def scrape_robinhood_news_main_feed(url):\n    # don't quit the driver after scraping, so we can reuse it. This is useful for scraping multiple pages. Also, user will need to log in to Robinhood once.\n    # options = Options()\n    # chrome_driver_path = 'config/chromedriver'\n    # options.add_argument('--headless')\n    # driver = webdriver.Chrome(chrome_driver_path, options=options)\n    links = []\n    try:\n        driver.get(url)\n        for i in range(10):",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "sentiment_and_topic_analysis",
+        "kind": 2,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "def sentiment_and_topic_analysis(processed_text):\n    sentiment_score = sentiment_analyzer.polarity_scores(processed_text)['compound']\n    sentiment.append(sentiment_score)\n    bullish_words = ['buy', 'bullish', 'long', 'up']\n    bearish_words = ['sell', 'bearish', 'short', 'down']\n    num_bullish = len(re.findall(r'\\b(?:' + '|'.join(bullish_words) + r')\\b', processed_text))\n    num_bearish = len(re.findall(r'\\b(?:' + '|'.join(bearish_words) + r')\\b', processed_text))\n    if num_bullish > num_bearish:\n        bullish_bearish.append('Bullish')\n    elif num_bearish > num_bullish:",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "process_feeds",
+        "kind": 2,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "def process_feeds(rss_feeds):\n    with alive_bar(len(rss_feeds.values())) as bar:\n        for rss_url in rss_feeds.values():\n            feed = feedparser.parse(rss_url)\n            for entry in feed.entries:\n                bar.text(f\"Processing {entry.title}\")\n                try:\n                    if (datetime.now() - datetime.strptime(standardize_date(entry.published), '%Y-%m-%dT%H:%M:%S+00:00')).total_seconds() < 14400:\n                        processed_text = preprocess_text(entry.summary)\n                        sentiment_and_topic_analysis(processed_text)",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "process_robinhood_articles",
+        "kind": 2,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "def process_robinhood_articles(coin):\n    # process robinhoods news articles on that coin\n    main_page_coin = f'https://robinhood.com/crypto/{str(coin).upper()}/news'\n    # find the robinhood_news_urls on that page using scrape_robinhood_news_main_feed\n    robinhood_news_urls = scrape_robinhood_news_main_feed(main_page_coin)\n    # set up the lists to store the sentiment, bullish_bearish, and topic\n    sentiment = []\n    bullish_bearish = []\n    topic = []\n    coin = []",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "generate_suggestion",
+        "kind": 2,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "def generate_suggestion(row):\n    if row['Bullish/Bearish'] == 'Bullish' and row['Sentiment'] > 0:\n        return 'Buy'\n    elif row['Bullish/Bearish'] == 'Bearish' and row['Sentiment'] < 0:\n        return 'Sell'\n    else:\n        return 'Hold'\ndf['Suggestion'] = df.apply(generate_suggestion, axis=1)\nprint(df)",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "config = configparser.ConfigParser()\nconfig.read('config/credentials.ini')\ncoins = config['trading']['coins'].split(',')\nrobinhood_news_urls = {}\nreddit_rss_feeds = {}\ncoinbase_rss_feeds = {}\ncoin_telegraph_rss_feeds = {}\n# login elements for Robinhood\npassword_field_css_selector = config['robinhood']['password_selector_main_page']\npassword_field_id = config['robinhood']['password_field_id']",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "coins",
+        "kind": 5,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "coins = config['trading']['coins'].split(',')\nrobinhood_news_urls = {}\nreddit_rss_feeds = {}\ncoinbase_rss_feeds = {}\ncoin_telegraph_rss_feeds = {}\n# login elements for Robinhood\npassword_field_css_selector = config['robinhood']['password_selector_main_page']\npassword_field_id = config['robinhood']['password_field_id']\nusername_field_css_selector = config['robinhood']['username_selector_main_page']\nlogin_button_css_selector = config['robinhood']['login_button_css_selector']",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood_news_urls",
+        "kind": 5,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "robinhood_news_urls = {}\nreddit_rss_feeds = {}\ncoinbase_rss_feeds = {}\ncoin_telegraph_rss_feeds = {}\n# login elements for Robinhood\npassword_field_css_selector = config['robinhood']['password_selector_main_page']\npassword_field_id = config['robinhood']['password_field_id']\nusername_field_css_selector = config['robinhood']['username_selector_main_page']\nlogin_button_css_selector = config['robinhood']['login_button_css_selector']\nfor coin in coins:",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "reddit_rss_feeds",
+        "kind": 5,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "reddit_rss_feeds = {}\ncoinbase_rss_feeds = {}\ncoin_telegraph_rss_feeds = {}\n# login elements for Robinhood\npassword_field_css_selector = config['robinhood']['password_selector_main_page']\npassword_field_id = config['robinhood']['password_field_id']\nusername_field_css_selector = config['robinhood']['username_selector_main_page']\nlogin_button_css_selector = config['robinhood']['login_button_css_selector']\nfor coin in coins:\n    coin = coin.strip().lower()",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "coinbase_rss_feeds",
+        "kind": 5,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "coinbase_rss_feeds = {}\ncoin_telegraph_rss_feeds = {}\n# login elements for Robinhood\npassword_field_css_selector = config['robinhood']['password_selector_main_page']\npassword_field_id = config['robinhood']['password_field_id']\nusername_field_css_selector = config['robinhood']['username_selector_main_page']\nlogin_button_css_selector = config['robinhood']['login_button_css_selector']\nfor coin in coins:\n    coin = coin.strip().lower()\n    robinhood_news_urls[coin] = config['robinhood_crypto_news_urls'][str(coin)]",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "coin_telegraph_rss_feeds",
+        "kind": 5,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "coin_telegraph_rss_feeds = {}\n# login elements for Robinhood\npassword_field_css_selector = config['robinhood']['password_selector_main_page']\npassword_field_id = config['robinhood']['password_field_id']\nusername_field_css_selector = config['robinhood']['username_selector_main_page']\nlogin_button_css_selector = config['robinhood']['login_button_css_selector']\nfor coin in coins:\n    coin = coin.strip().lower()\n    robinhood_news_urls[coin] = config['robinhood_crypto_news_urls'][str(coin)]\n    coinbase_rss_feeds[coin] = config['coinbase_rss_feeds'][str(coin)]",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "password_field_css_selector",
+        "kind": 5,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "password_field_css_selector = config['robinhood']['password_selector_main_page']\npassword_field_id = config['robinhood']['password_field_id']\nusername_field_css_selector = config['robinhood']['username_selector_main_page']\nlogin_button_css_selector = config['robinhood']['login_button_css_selector']\nfor coin in coins:\n    coin = coin.strip().lower()\n    robinhood_news_urls[coin] = config['robinhood_crypto_news_urls'][str(coin)]\n    coinbase_rss_feeds[coin] = config['coinbase_rss_feeds'][str(coin)]\n    coin_telegraph_rss_feeds[coin] = config['coin_telegraph_rss_feeds'][str(coin)]\n    reddit_rss_feeds[coin] = config['reddit_rss_feeds'][str(coin)]",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "password_field_id",
+        "kind": 5,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "password_field_id = config['robinhood']['password_field_id']\nusername_field_css_selector = config['robinhood']['username_selector_main_page']\nlogin_button_css_selector = config['robinhood']['login_button_css_selector']\nfor coin in coins:\n    coin = coin.strip().lower()\n    robinhood_news_urls[coin] = config['robinhood_crypto_news_urls'][str(coin)]\n    coinbase_rss_feeds[coin] = config['coinbase_rss_feeds'][str(coin)]\n    coin_telegraph_rss_feeds[coin] = config['coin_telegraph_rss_feeds'][str(coin)]\n    reddit_rss_feeds[coin] = config['reddit_rss_feeds'][str(coin)]\nsentiment_analyzer = SentimentIntensityAnalyzer()",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "username_field_css_selector",
+        "kind": 5,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "username_field_css_selector = config['robinhood']['username_selector_main_page']\nlogin_button_css_selector = config['robinhood']['login_button_css_selector']\nfor coin in coins:\n    coin = coin.strip().lower()\n    robinhood_news_urls[coin] = config['robinhood_crypto_news_urls'][str(coin)]\n    coinbase_rss_feeds[coin] = config['coinbase_rss_feeds'][str(coin)]\n    coin_telegraph_rss_feeds[coin] = config['coin_telegraph_rss_feeds'][str(coin)]\n    reddit_rss_feeds[coin] = config['reddit_rss_feeds'][str(coin)]\nsentiment_analyzer = SentimentIntensityAnalyzer()\nsentiment = []",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "login_button_css_selector",
+        "kind": 5,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "login_button_css_selector = config['robinhood']['login_button_css_selector']\nfor coin in coins:\n    coin = coin.strip().lower()\n    robinhood_news_urls[coin] = config['robinhood_crypto_news_urls'][str(coin)]\n    coinbase_rss_feeds[coin] = config['coinbase_rss_feeds'][str(coin)]\n    coin_telegraph_rss_feeds[coin] = config['coin_telegraph_rss_feeds'][str(coin)]\n    reddit_rss_feeds[coin] = config['reddit_rss_feeds'][str(coin)]\nsentiment_analyzer = SentimentIntensityAnalyzer()\nsentiment = []\nbullish_bearish = []",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "sentiment_analyzer",
+        "kind": 5,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "sentiment_analyzer = SentimentIntensityAnalyzer()\nsentiment = []\nbullish_bearish = []\ntopic = []\nlemmatizer = WordNetLemmatizer()\nstop_words = set(stopwords.words('english'))\n# start a selenium driver to scrape Robinhood Crypto News\noptions = Options()\nchrome_driver_path = 'config/chromedriver'\ndriver = webdriver.Chrome(chrome_driver_path, options=options)",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "sentiment",
+        "kind": 5,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "sentiment = []\nbullish_bearish = []\ntopic = []\nlemmatizer = WordNetLemmatizer()\nstop_words = set(stopwords.words('english'))\n# start a selenium driver to scrape Robinhood Crypto News\noptions = Options()\nchrome_driver_path = 'config/chromedriver'\ndriver = webdriver.Chrome(chrome_driver_path, options=options)\n# open RobinHoods login page",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "bullish_bearish",
+        "kind": 5,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "bullish_bearish = []\ntopic = []\nlemmatizer = WordNetLemmatizer()\nstop_words = set(stopwords.words('english'))\n# start a selenium driver to scrape Robinhood Crypto News\noptions = Options()\nchrome_driver_path = 'config/chromedriver'\ndriver = webdriver.Chrome(chrome_driver_path, options=options)\n# open RobinHoods login page\ndriver.get('https://robinhood.com/login')",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "topic",
+        "kind": 5,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "topic = []\nlemmatizer = WordNetLemmatizer()\nstop_words = set(stopwords.words('english'))\n# start a selenium driver to scrape Robinhood Crypto News\noptions = Options()\nchrome_driver_path = 'config/chromedriver'\ndriver = webdriver.Chrome(chrome_driver_path, options=options)\n# open RobinHoods login page\ndriver.get('https://robinhood.com/login')\ndef standardize_date(unstructured_date):",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "lemmatizer",
+        "kind": 5,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "lemmatizer = WordNetLemmatizer()\nstop_words = set(stopwords.words('english'))\n# start a selenium driver to scrape Robinhood Crypto News\noptions = Options()\nchrome_driver_path = 'config/chromedriver'\ndriver = webdriver.Chrome(chrome_driver_path, options=options)\n# open RobinHoods login page\ndriver.get('https://robinhood.com/login')\ndef standardize_date(unstructured_date):\n    dt = parser.parse(unstructured_date)",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "stop_words",
+        "kind": 5,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "stop_words = set(stopwords.words('english'))\n# start a selenium driver to scrape Robinhood Crypto News\noptions = Options()\nchrome_driver_path = 'config/chromedriver'\ndriver = webdriver.Chrome(chrome_driver_path, options=options)\n# open RobinHoods login page\ndriver.get('https://robinhood.com/login')\ndef standardize_date(unstructured_date):\n    dt = parser.parse(unstructured_date)\n    return dt.strftime('%Y-%m-%dT%H:%M:%S%z')",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "options",
+        "kind": 5,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "options = Options()\nchrome_driver_path = 'config/chromedriver'\ndriver = webdriver.Chrome(chrome_driver_path, options=options)\n# open RobinHoods login page\ndriver.get('https://robinhood.com/login')\ndef standardize_date(unstructured_date):\n    dt = parser.parse(unstructured_date)\n    return dt.strftime('%Y-%m-%dT%H:%M:%S%z')\ndef preprocess_text(text):\n    text = re.sub(r'[^a-zA-Z0-9]', ' ', text.lower())",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "chrome_driver_path",
+        "kind": 5,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "chrome_driver_path = 'config/chromedriver'\ndriver = webdriver.Chrome(chrome_driver_path, options=options)\n# open RobinHoods login page\ndriver.get('https://robinhood.com/login')\ndef standardize_date(unstructured_date):\n    dt = parser.parse(unstructured_date)\n    return dt.strftime('%Y-%m-%dT%H:%M:%S%z')\ndef preprocess_text(text):\n    text = re.sub(r'[^a-zA-Z0-9]', ' ', text.lower())\n    words = word_tokenize(text)",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "driver = webdriver.Chrome(chrome_driver_path, options=options)\n# open RobinHoods login page\ndriver.get('https://robinhood.com/login')\ndef standardize_date(unstructured_date):\n    dt = parser.parse(unstructured_date)\n    return dt.strftime('%Y-%m-%dT%H:%M:%S%z')\ndef preprocess_text(text):\n    text = re.sub(r'[^a-zA-Z0-9]', ' ', text.lower())\n    words = word_tokenize(text)\n    words = [word for word in words if word not in stop_words]",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "df = pd.DataFrame({'Sentiment': sentiment, 'Bullish/Bearish': bullish_bearish,\n                   'Suggestion': None, 'Topic': topic}, index=coins)\ndef generate_suggestion(row):\n    if row['Bullish/Bearish'] == 'Bullish' and row['Sentiment'] > 0:\n        return 'Buy'\n    elif row['Bullish/Bearish'] == 'Bearish' and row['Sentiment'] < 0:\n        return 'Sell'\n    else:\n        return 'Hold'\ndf['Suggestion'] = df.apply(generate_suggestion, axis=1)",
+        "detail": "config.redo",
+        "documentation": {}
+    },
+    {
+        "label": "df['Suggestion']",
+        "kind": 5,
+        "importPath": "config.redo",
+        "description": "config.redo",
+        "peekOfCode": "df['Suggestion'] = df.apply(generate_suggestion, axis=1)\nprint(df)",
+        "detail": "config.redo",
         "documentation": {}
     },
     {
@@ -6038,6 +6565,294 @@
         "description": "main_sock",
         "peekOfCode": "percent_to_use = 0.60 # The percentage of our portfolio we are willing to gamble with (i.e. buy crypto with during the session)\nclass Utility:\n    def __init__(self):\n        self.logger = logging.getLogger('Utility')\n    async def log_file_size_checker(self):\n        \"\"\"\n        The log_file_size_checker function is a coroutine that checks the size of the log file.\n        If it exceeds 1000 lines, it will remove all but the last 1000 lines.\n        :param self: Represent the instance of the object itself\n        :return: A coroutine object, which is an awaitable",
         "detail": "main_sock",
+        "documentation": {}
+    },
+    {
+        "label": "signals",
+        "kind": 5,
+        "importPath": "pseudocode",
+        "description": "pseudocode",
+        "peekOfCode": "signals = {\n    'bbands': {\n        'buy': 'price < lower',\n        'sell': 'price > upper'\n    },\n    'cdl_pattern': {\n        'buy': 'cdl_pattern > 0',\n        'sell': 'cdl_pattern < 0'\n    },\n    'ema': {",
+        "detail": "pseudocode",
+        "documentation": {}
+    },
+    {
+        "label": "Z_SCORE_THRESHOLD",
+        "kind": 5,
+        "importPath": "pseudocode",
+        "description": "pseudocode",
+        "peekOfCode": "Z_SCORE_THRESHOLD = 2\n# Get the historical price data for the stock\nprice_data = get_price_data(stock)\n# Calculate the Z-Score for the stock\nz_score = calculate_z_score(price_data)\n# Calculate the moving average for the stock\nmoving_average = calculate_moving_average(price_data)\n# Get the trading volume data for the stock\nvolume_data = get_volume_data(stock)\n# Calculate the Bollinger Bands for the stock",
+        "detail": "pseudocode",
+        "documentation": {}
+    },
+    {
+        "label": "price_data",
+        "kind": 5,
+        "importPath": "pseudocode",
+        "description": "pseudocode",
+        "peekOfCode": "price_data = get_price_data(stock)\n# Calculate the Z-Score for the stock\nz_score = calculate_z_score(price_data)\n# Calculate the moving average for the stock\nmoving_average = calculate_moving_average(price_data)\n# Get the trading volume data for the stock\nvolume_data = get_volume_data(stock)\n# Calculate the Bollinger Bands for the stock\nbollinger_bands = calculate_bollinger_bands(price_data)\n# Mean Reversion Strategy",
+        "detail": "pseudocode",
+        "documentation": {}
+    },
+    {
+        "label": "z_score",
+        "kind": 5,
+        "importPath": "pseudocode",
+        "description": "pseudocode",
+        "peekOfCode": "z_score = calculate_z_score(price_data)\n# Calculate the moving average for the stock\nmoving_average = calculate_moving_average(price_data)\n# Get the trading volume data for the stock\nvolume_data = get_volume_data(stock)\n# Calculate the Bollinger Bands for the stock\nbollinger_bands = calculate_bollinger_bands(price_data)\n# Mean Reversion Strategy\nif z_score > Z_SCORE_THRESHOLD:\n    # The stock's price is significantly above the mean, potential sell signal",
+        "detail": "pseudocode",
+        "documentation": {}
+    },
+    {
+        "label": "moving_average",
+        "kind": 5,
+        "importPath": "pseudocode",
+        "description": "pseudocode",
+        "peekOfCode": "moving_average = calculate_moving_average(price_data)\n# Get the trading volume data for the stock\nvolume_data = get_volume_data(stock)\n# Calculate the Bollinger Bands for the stock\nbollinger_bands = calculate_bollinger_bands(price_data)\n# Mean Reversion Strategy\nif z_score > Z_SCORE_THRESHOLD:\n    # The stock's price is significantly above the mean, potential sell signal\n    sell_stock(stock)\nelif z_score < -Z_SCORE_THRESHOLD:",
+        "detail": "pseudocode",
+        "documentation": {}
+    },
+    {
+        "label": "volume_data",
+        "kind": 5,
+        "importPath": "pseudocode",
+        "description": "pseudocode",
+        "peekOfCode": "volume_data = get_volume_data(stock)\n# Calculate the Bollinger Bands for the stock\nbollinger_bands = calculate_bollinger_bands(price_data)\n# Mean Reversion Strategy\nif z_score > Z_SCORE_THRESHOLD:\n    # The stock's price is significantly above the mean, potential sell signal\n    sell_stock(stock)\nelif z_score < -Z_SCORE_THRESHOLD:\n    # The stock's price is significantly below the mean, potential buy signal\n    buy_stock(stock)",
+        "detail": "pseudocode",
+        "documentation": {}
+    },
+    {
+        "label": "bollinger_bands",
+        "kind": 5,
+        "importPath": "pseudocode",
+        "description": "pseudocode",
+        "peekOfCode": "bollinger_bands = calculate_bollinger_bands(price_data)\n# Mean Reversion Strategy\nif z_score > Z_SCORE_THRESHOLD:\n    # The stock's price is significantly above the mean, potential sell signal\n    sell_stock(stock)\nelif z_score < -Z_SCORE_THRESHOLD:\n    # The stock's price is significantly below the mean, potential buy signal\n    buy_stock(stock)\n# Bollinger Bands Strategy\nif price_data > bollinger_bands.upper_band and z_score > Z_SCORE_THRESHOLD:",
+        "detail": "pseudocode",
+        "documentation": {}
+    },
+    {
+        "label": "get_quantity",
+        "kind": 2,
+        "importPath": "redo3",
+        "description": "redo3",
+        "peekOfCode": "def get_quantity(coin_name):\n    positions = r.crypto.get_crypto_positions()\n    positions_dict = {}\n    for position in positions:\n        positions_dict[position['currency']['code']] = float(position['quantity'])\n    return positions_dict.get(coin_name, 0)\n@sleep_and_retry\ndef get_current_price(coin_name):\n    quote = r.crypto.get_crypto_quote(coin_name)\n    return float(quote['mark_price'])",
+        "detail": "redo3",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_price",
+        "kind": 2,
+        "importPath": "redo3",
+        "description": "redo3",
+        "peekOfCode": "def get_current_price(coin_name):\n    quote = r.crypto.get_crypto_quote(coin_name)\n    return float(quote['mark_price'])\n# Function to update the portfolio positions\n@sleep_and_retry\ndef update_portfolio():\n    positions = r.crypto.get_crypto_positions()\n    positions_dict = {}\n    for position in positions:\n        positions_dict[position['currency']['code']] = float(position['quantity'])",
+        "detail": "redo3",
+        "documentation": {}
+    },
+    {
+        "label": "update_portfolio",
+        "kind": 2,
+        "importPath": "redo3",
+        "description": "redo3",
+        "peekOfCode": "def update_portfolio():\n    positions = r.crypto.get_crypto_positions()\n    positions_dict = {}\n    for position in positions:\n        positions_dict[position['currency']['code']] = float(position['quantity'])\n    return positions_dict\n# Function to buy a coin\n@sleep_and_retry\ndef buy_coin(coin_name, amount, current_price):\n    amount_to_buy = float(amount) / float(current_price)",
+        "detail": "redo3",
+        "documentation": {}
+    },
+    {
+        "label": "buy_coin",
+        "kind": 2,
+        "importPath": "redo3",
+        "description": "redo3",
+        "peekOfCode": "def buy_coin(coin_name, amount, current_price):\n    amount_to_buy = float(amount) / float(current_price)\n    buying_usd = round(float(amount_to_buy), 2)\n    buy_cost = round(float(buying_usd) * float(current_price), 2)\n    result = r.orders.order_crypto(\n        symbol=str(coin_name).upper(),\n        amountIn='dollars',\n        side='buy',\n        quantityOrPrice=float(buy_cost),\n        limitPrice=float(current_price),",
+        "detail": "redo3",
+        "documentation": {}
+    },
+    {
+        "label": "sell_coin",
+        "kind": 2,
+        "importPath": "redo3",
+        "description": "redo3",
+        "peekOfCode": "def sell_coin(coin_name):\n    positions_dict = update_portfolio()\n    amount_held = float(positions_dict.get(coin_name, 0))\n    current_price = float(get_current_price(coin_name))\n    result = r.orders.order_crypto(\n        symbol=coin_name,\n        amountIn='quantity',\n        side='sell',\n        quantityOrPrice=float(amount_held),\n        limitPrice=float(current_price),",
+        "detail": "redo3",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_ta_indicators",
+        "kind": 2,
+        "importPath": "redo3",
+        "description": "redo3",
+        "peekOfCode": "def calculate_ta_indicators(coins):\n    global buy_in\n    minimum_buy_usd = float(config['trading']['minimum_usd_per_trade'])\n    # strip whitespace from the coins list\n    coins = [coin.strip() for coin in coins]\n    # load the working dataframe from the csv\n    buy_in = float(buy_in) # 2% of the buying power that we have not already spent\n    try:\n        working_dataframe = pd.read_csv('data/working.csv')\n    except:",
+        "detail": "redo3",
+        "documentation": {}
+    },
+    {
+        "label": "PCT_SPEND",
+        "kind": 5,
+        "importPath": "redo3",
+        "description": "redo3",
+        "peekOfCode": "PCT_SPEND = 0.05 # 5% of buying power\nverbose_mode = True # Set to True to see more logging output\nfrom colorama import Back, Fore, Style\nfrom ratelimit import limits, sleep_and_retry\n## Load credentials from config/credentials.ini\nconfig = configparser.ConfigParser()\nconfig.read('config/credentials.ini')\n# Define variables from config\ncoins = [coin.strip() for coin in config['trading']['coins'].split(', ')]\nstop_loss_percent = float(config['trading']['stop_loss_percent'])",
+        "detail": "redo3",
+        "documentation": {}
+    },
+    {
+        "label": "verbose_mode",
+        "kind": 5,
+        "importPath": "redo3",
+        "description": "redo3",
+        "peekOfCode": "verbose_mode = True # Set to True to see more logging output\nfrom colorama import Back, Fore, Style\nfrom ratelimit import limits, sleep_and_retry\n## Load credentials from config/credentials.ini\nconfig = configparser.ConfigParser()\nconfig.read('config/credentials.ini')\n# Define variables from config\ncoins = [coin.strip() for coin in config['trading']['coins'].split(', ')]\nstop_loss_percent = float(config['trading']['stop_loss_percent'])\npercent_to_use = float(config['trading']['percent_to_use'])",
+        "detail": "redo3",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "redo3",
+        "description": "redo3",
+        "peekOfCode": "config = configparser.ConfigParser()\nconfig.read('config/credentials.ini')\n# Define variables from config\ncoins = [coin.strip() for coin in config['trading']['coins'].split(', ')]\nstop_loss_percent = float(config['trading']['stop_loss_percent'])\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging'].getboolean('verbose_mode')\ndebug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])",
+        "detail": "redo3",
+        "documentation": {}
+    },
+    {
+        "label": "coins",
+        "kind": 5,
+        "importPath": "redo3",
+        "description": "redo3",
+        "peekOfCode": "coins = [coin.strip() for coin in config['trading']['coins'].split(', ')]\nstop_loss_percent = float(config['trading']['stop_loss_percent'])\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging'].getboolean('verbose_mode')\ndebug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nprofit_threshold = 0.10",
+        "detail": "redo3",
+        "documentation": {}
+    },
+    {
+        "label": "stop_loss_percent",
+        "kind": 5,
+        "importPath": "redo3",
+        "description": "redo3",
+        "peekOfCode": "stop_loss_percent = float(config['trading']['stop_loss_percent'])\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging'].getboolean('verbose_mode')\ndebug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nprofit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent",
+        "detail": "redo3",
+        "documentation": {}
+    },
+    {
+        "label": "percent_to_use",
+        "kind": 5,
+        "importPath": "redo3",
+        "description": "redo3",
+        "peekOfCode": "percent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging'].getboolean('verbose_mode')\ndebug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nprofit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe",
+        "detail": "redo3",
+        "documentation": {}
+    },
+    {
+        "label": "verbose_mode",
+        "kind": 5,
+        "importPath": "redo3",
+        "description": "redo3",
+        "peekOfCode": "verbose_mode = config['logging'].getboolean('verbose_mode')\ndebug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nprofit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe\nworking_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])",
+        "detail": "redo3",
+        "documentation": {}
+    },
+    {
+        "label": "debug_verbose",
+        "kind": 5,
+        "importPath": "redo3",
+        "description": "redo3",
+        "peekOfCode": "debug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nprofit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe\nworking_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])\n# Log in to the Robinhood API",
+        "detail": "redo3",
+        "documentation": {}
+    },
+    {
+        "label": "reset_positions",
+        "kind": 5,
+        "importPath": "redo3",
+        "description": "redo3",
+        "peekOfCode": "reset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nprofit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe\nworking_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])\n# Log in to the Robinhood API\nusername = config['robinhood']['username']",
+        "detail": "redo3",
+        "documentation": {}
+    },
+    {
+        "label": "minimum_usd_per_position",
+        "kind": 5,
+        "importPath": "redo3",
+        "description": "redo3",
+        "peekOfCode": "minimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nprofit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe\nworking_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])\n# Log in to the Robinhood API\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']",
+        "detail": "redo3",
+        "documentation": {}
+    },
+    {
+        "label": "pct_to_buy_with",
+        "kind": 5,
+        "importPath": "redo3",
+        "description": "redo3",
+        "peekOfCode": "pct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nprofit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe\nworking_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])\n# Log in to the Robinhood API\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)",
+        "detail": "redo3",
+        "documentation": {}
+    },
+    {
+        "label": "pct_to_buy_per_trade",
+        "kind": 5,
+        "importPath": "redo3",
+        "description": "redo3",
+        "peekOfCode": "pct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nprofit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe\nworking_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])\n# Log in to the Robinhood API\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")",
+        "detail": "redo3",
+        "documentation": {}
+    },
+    {
+        "label": "profit_threshold",
+        "kind": 5,
+        "importPath": "redo3",
+        "description": "redo3",
+        "peekOfCode": "profit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe\nworking_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])\n# Log in to the Robinhood API\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")\n# Function to get current price for a coin",
+        "detail": "redo3",
+        "documentation": {}
+    },
+    {
+        "label": "buy_in",
+        "kind": 5,
+        "importPath": "redo3",
+        "description": "redo3",
+        "peekOfCode": "buy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe\nworking_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])\n# Log in to the Robinhood API\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")\n# Function to get current price for a coin\n@sleep_and_retry",
+        "detail": "redo3",
+        "documentation": {}
+    },
+    {
+        "label": "working_dataframe",
+        "kind": 5,
+        "importPath": "redo3",
+        "description": "redo3",
+        "peekOfCode": "working_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])\n# Log in to the Robinhood API\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")\n# Function to get current price for a coin\n@sleep_and_retry\ndef get_quantity(coin_name):\n    positions = r.crypto.get_crypto_positions()",
+        "detail": "redo3",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "redo3",
+        "description": "redo3",
+        "peekOfCode": "username = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")\n# Function to get current price for a coin\n@sleep_and_retry\ndef get_quantity(coin_name):\n    positions = r.crypto.get_crypto_positions()\n    positions_dict = {}\n    for position in positions:",
+        "detail": "redo3",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "redo3",
+        "description": "redo3",
+        "peekOfCode": "password = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")\n# Function to get current price for a coin\n@sleep_and_retry\ndef get_quantity(coin_name):\n    positions = r.crypto.get_crypto_positions()\n    positions_dict = {}\n    for position in positions:\n        positions_dict[position['currency']['code']] = float(position['quantity'])",
+        "detail": "redo3",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 5,
+        "importPath": "redo3",
+        "description": "redo3",
+        "peekOfCode": "login = r.login(username, password)\nprint(f\"Logged in as {username}\")\n# Function to get current price for a coin\n@sleep_and_retry\ndef get_quantity(coin_name):\n    positions = r.crypto.get_crypto_positions()\n    positions_dict = {}\n    for position in positions:\n        positions_dict[position['currency']['code']] = float(position['quantity'])\n    return positions_dict.get(coin_name, 0)",
+        "detail": "redo3",
+        "documentation": {}
+    },
+    {
+        "label": "get_crypto_market_data_livecoinwatch",
+        "kind": 2,
+        "importPath": "usewhenyouwantlivedata",
+        "description": "usewhenyouwantlivedata",
+        "peekOfCode": "def get_crypto_market_data_livecoinwatch():\n  payload = json.dumps({\n    \"currency\": \"USD\",\n    \"sort\": \"rank\",\n    \"order\": \"ascending\",\n    \"offset\": 0,\n    \"limit\": 50,\n    \"meta\": True\n  })\n  headers = {",
+        "detail": "usewhenyouwantlivedata",
         "documentation": {}
     }
 ]

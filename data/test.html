@@ -1,0 +1,20 @@
+
+<body>
+<div class="livecoinwatch-widget-1" lcw-coin="BTC" lcw-base="USD" lcw-secondary="BTC" lcw-period="d" lcw-color-tx="#ffffff" lcw-color-pr="#fcb900" lcw-color-bg="#1f2434" lcw-border-w="1"></div>
+<script>
+  // Function to load external scripts dynamically
+  function loadScript(url, callback) {
+    const script = document.createElement("script");
+    script.src = url;
+    script.defer = true;
+    script.onload = callback;
+    document.body.appendChild(script);
+  }
+
+  // Call the loadScript function to load the LiveCoinWatch widget script
+  loadScript("https://www.livecoinwatch.com/static/lcw-widget.js", function() {
+    // The script has been loaded, and the widget is now available
+    // If you need to perform any additional actions after the script is loaded, you can do it here.
+  });
+</script>
+</body>

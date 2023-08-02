@@ -1,0 +1,80 @@
+ERROR:root:Error scraping the article at https://robinhood.com/crypto/BTC/news: 'NoneType' object has no attribute 'findChildren'
+ERROR:root:Error processing the article at https://robinhood.com/crypto/BTC/news
+ERROR:root:Error scraping the article at https://robinhood.com/crypto/ETH/news: 'NoneType' object has no attribute 'findChildren'
+ERROR:root:Error processing the article at https://robinhood.com/crypto/ETH/news
+ERROR:root:Error scraping the article at https://robinhood.com/crypto/DOGE/news: 'NoneType' object has no attribute 'findChildren'
+ERROR:root:Error processing the article at https://robinhood.com/crypto/DOGE/news
+ERROR:root:Error scraping the article at https://robinhood.com/crypto/SHIB/news: 'NoneType' object has no attribute 'findChildren'
+ERROR:root:Error processing the article at https://robinhood.com/crypto/SHIB/news
+ERROR:root:Error scraping the article at https://robinhood.com/crypto/ETC/news: 'NoneType' object has no attribute 'findChildren'
+ERROR:root:Error processing the article at https://robinhood.com/crypto/ETC/news
+ERROR:root:Error scraping the article at https://robinhood.com/crypto/UNI/news: 'NoneType' object has no attribute 'findChildren'
+ERROR:root:Error processing the article at https://robinhood.com/crypto/UNI/news
+ERROR:root:Error scraping the article at https://robinhood.com/crypto/AAVE/news: 'NoneType' object has no attribute 'findChildren'
+ERROR:root:Error processing the article at https://robinhood.com/crypto/AAVE/news
+ERROR:root:Error scraping the article at https://robinhood.com/crypto/LTC/news: 'NoneType' object has no attribute 'findChildren'
+ERROR:root:Error processing the article at https://robinhood.com/crypto/LTC/news
+ERROR:root:Error scraping the article at https://robinhood.com/crypto/LINK/news: 'NoneType' object has no attribute 'findChildren'
+ERROR:root:Error processing the article at https://robinhood.com/crypto/LINK/news
+ERROR:root:Error scraping the article at https://robinhood.com/crypto/COMP/news: 'NoneType' object has no attribute 'findChildren'
+ERROR:root:Error processing the article at https://robinhood.com/crypto/COMP/news
+ERROR:root:Error scraping the article at https://robinhood.com/crypto/AVAX/news: 'NoneType' object has no attribute 'findChildren'
+ERROR:root:Error processing the article at https://robinhood.com/crypto/AVAX/news
+ERROR:root:Error scraping the article at https://robinhood.com/crypto/XLM/news: 'NoneType' object has no attribute 'findChildren'
+ERROR:root:Error processing the article at https://robinhood.com/crypto/XLM/news
+ERROR:root:Error scraping the article at https://robinhood.com/crypto/BCH/news: 'NoneType' object has no attribute 'findChildren'
+ERROR:root:Error processing the article at https://robinhood.com/crypto/BCH/news
+ERROR:root:Error scraping the article at https://robinhood.com/crypto/XTZ/news: 'NoneType' object has no attribute 'findChildren'
+ERROR:root:Error processing the article at https://robinhood.com/crypto/XTZ/news
+ERROR:root:Error scraping the article at https://robinhood.com/crypto/BTC/news: 'NoneType' object has no attribute 'findChildren'
+ERROR:root:Error processing the article at https://robinhood.com/crypto/BTC/news
+ERROR:root:Error scraping the article at https://robinhood.com/crypto/BTC/news: 'NoneType' object has no attribute 'findChildren'
+ERROR:root:Error accessing https://robinhood.com/crypto/BTC/news with Selenium: name 'time' is not defined
+ERROR:root:Error scraping the article at https://robinhood.com/crypto/BTC/news: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000104a3c6b8 chromedriver + 4937400
+1   chromedriver                        0x0000000104a33b73 chromedriver + 4901747
+2   chromedriver                        0x00000001045f1616 chromedriver + 435734
+3   chromedriver                        0x0000000104634e0f chromedriver + 712207
+4   chromedriver                        0x00000001046350a1 chromedriver + 712865
+5   chromedriver                        0x00000001046769a4 chromedriver + 981412
+6   chromedriver                        0x000000010465903d chromedriver + 860221
+7   chromedriver                        0x0000000104673e76 chromedriver + 970358
+8   chromedriver                        0x0000000104658de3 chromedriver + 859619
+9   chromedriver                        0x0000000104626d7f chromedriver + 654719
+10  chromedriver                        0x00000001046280de chromedriver + 659678
+11  chromedriver                        0x00000001049f82ad chromedriver + 4657837
+12  chromedriver                        0x00000001049fd130 chromedriver + 4677936
+13  chromedriver                        0x0000000104a03def chromedriver + 4705775
+14  chromedriver                        0x00000001049fe05a chromedriver + 4681818
+15  chromedriver                        0x00000001049d092c chromedriver + 4495660
+16  chromedriver                        0x0000000104a1b838 chromedriver + 4802616
+17  chromedriver                        0x0000000104a1b9b7 chromedriver + 4802999
+18  chromedriver                        0x0000000104a2c99f chromedriver + 4872607
+19  libsystem_pthread.dylib             0x00007ff80142f259 _pthread_start + 125
+20  libsystem_pthread.dylib             0x00007ff80142ac7b thread_start + 15
+
+ERROR:root:Error scraping the article at https://robinhood.com/crypto/BTC/news: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102ca06b8 chromedriver + 4937400
+1   chromedriver                        0x0000000102c97b73 chromedriver + 4901747
+2   chromedriver                        0x0000000102855616 chromedriver + 435734
+3   chromedriver                        0x0000000102898e0f chromedriver + 712207
+4   chromedriver                        0x00000001028990a1 chromedriver + 712865
+5   chromedriver                        0x00000001028da9a4 chromedriver + 981412
+6   chromedriver                        0x00000001028bd03d chromedriver + 860221
+7   chromedriver                        0x00000001028d7e76 chromedriver + 970358
+8   chromedriver                        0x00000001028bcde3 chromedriver + 859619
+9   chromedriver                        0x000000010288ad7f chromedriver + 654719
+10  chromedriver                        0x000000010288c0de chromedriver + 659678
+11  chromedriver                        0x0000000102c5c2ad chromedriver + 4657837
+12  chromedriver                        0x0000000102c61130 chromedriver + 4677936
+13  chromedriver                        0x0000000102c67def chromedriver + 4705775
+14  chromedriver                        0x0000000102c6205a chromedriver + 4681818
+15  chromedriver                        0x0000000102c3492c chromedriver + 4495660
+16  chromedriver                        0x0000000102c7f838 chromedriver + 4802616
+17  chromedriver                        0x0000000102c7f9b7 chromedriver + 4802999
+18  chromedriver                        0x0000000102c9099f chromedriver + 4872607
+19  libsystem_pthread.dylib             0x00007ff80142f259 _pthread_start + 125
+20  libsystem_pthread.dylib             0x00007ff80142ac7b thread_start + 15
+

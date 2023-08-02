@@ -666,8 +666,9 @@ class Looper:
             reset_positions = config['logging']['reset_positions']
             minimum_usd_per_position = float(config['trading']['minimum_usd_per_position']) #note: this is the minimum amount of USD that must be invested at any given time in each position. All trades must keep this in mind.
             # cancel any open orders
-            self.trader.cancel_open_orders()
             r.orders.cancel_all_crypto_orders()
+            # self.trader.cancel_open_orders()
+            # r.orders.cancel_all_crypto_orders()
             try:
 
                 # load coins list from config file
@@ -675,7 +676,7 @@ class Looper:
                 config_file.read('config/credentials.ini')
                 coins = config_file['trading']['coins'].split(',')
 
-                self.stop_loss_checker(coins, stop_loss_prices)
+                # self.stop_loss_checker(coins, stop_loss_prices)
                 #^ run the calculate_ta_indicators function to calculate the technical analysis indicators for each coin and buy/sell by the indicators
                 trader.calculate_ta_indicators(coins)
                 #^ run the check_stop_loss_prices function to check if the current price is lower than the stop loss price for any owned coin
