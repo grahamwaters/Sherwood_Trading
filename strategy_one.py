@@ -5,6 +5,7 @@ import asyncio
 import configparser
 import logging
 import os
+import pytz
 import random
 import sys
 import time
@@ -39,7 +40,8 @@ debug_verbose = config['logging'].getboolean('debug_verbose')
 reset_positions = config['logging'].getboolean('reset_positions')
 minimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])
 pct_to_buy_with = float(config['trading']['percent_to_use'])
-pct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])
+# pct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])
+pct_to_buy_per_trade = 0.02
 profit_threshold = 0.10
 buy_in = 0.02 # 2% of the buying power that we have not already spent
 # working_dataframe
@@ -50,6 +52,12 @@ password = config['robinhood']['password']
 login = r.login(username, password)
 print(f"Logged in as {username}")
 # Function to get current price for a coin
+
+total_money = float(r.load_account_profile()['crypto_buying_power']) * float(pct_to_buy_with)
+# save the total money we have to spend to total_money.txt in data/ folder
+with open('data/total_money.txt', 'w') as f:
+    f.write(str(total_money))
+
 
 @sleep_and_retry
 def get_quantity(coin_name):
@@ -86,6 +94,9 @@ def buy_coin(coin_name, amount, current_price):
         timeInForce='gtc',
         jsonify=True
     )
+    # save result to a file
+    with open('data/buy_orders.txt', 'a') as f:
+        f.write(f'{result}\n')
     return result
 # Function to sell a coin
 @sleep_and_retry
@@ -102,6 +113,9 @@ def sell_coin(coin_name):
         timeInForce='gtc',
         jsonify=True
     )
+    # save result to a file
+    with open('data/sell_orders.txt', 'a') as f:
+        f.write(f'{result}\n')
     return result
 # Function to calculate technical indicators and generate trading signals
 def calculate_ta_indicators(coins):
@@ -117,7 +131,9 @@ def calculate_ta_indicators(coins):
         # create the working dataframe if it doesn't exist
         working_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])
     pct_to_buy_with = float(config['trading']['percent_to_use']) if config['trading']['percent_to_use'] else 0.02
-    total_money = float(r.load_account_profile()['crypto_buying_power']) * float(pct_to_buy_with)
+    with open('data/total_money.txt', 'r') as f:
+        total_money = float(f.read())
+    print(f'Total Money: ${total_money}')
     print(f'Available Buying Power: ${total_money}', end='')
     print(f' * {pct_to_buy_with} = ${total_money * pct_to_buy_with}')
     available_money = total_money * pct_to_buy_with
@@ -281,19 +297,81 @@ def calculate_ta_indicators(coins):
             elif working_dataframe[working_dataframe['coin'] == coin][signal].iloc[-1] == -1:
                 print(f'{coin} triggered a sell signal for {signal}')
     # print the total money
-    print(f'Total money: ${total_money}')
+    account_money = float(r.load_account_profile()['crypto_buying_power'])
+    print(f'Total money: ${total_money} [funds in reserve: ${account_money-total_money}]')
 # Main loop to run the program indefinitely
 from alive_progress import alive_bar, config_handler
 # Set the bar style
 config_handler.set_global(length=50, spinner='classic', bar='blocks')
 while True:
+    # read total_money from the `total_money.txt` file in the data folder
+    with open('data/total_money.txt', 'r') as f:
+        total_money = float(f.read())
+    # cancel all outstanding orders
+
+
+    # if the time is between 11:30 PM and 12:30 AM, then don't cancel orders, because our scheduled orders will be placed at 12:00 AM
+    if pytz.timezone('US/Eastern').localize(datetime.now()).hour >= 23 or pytz.timezone('US/Eastern').localize(datetime.now()).hour < 1:
+        print(f'Waiting for 30 minutes before canceling orders...')
+        with alive_bar(60, title='Sleeping', bar='blocks', spinner='classic') as bar:
+            for i in range(30):
+                time.sleep(1)
+        r.orders.cancel_all_crypto_orders()
+    else:
+        r.orders.cancel_all_crypto_orders()
+        print(f'Canceled all orders')
+    time.sleep(20)
+    print(f'Calculating Indicators...')
     calculate_ta_indicators(coins)
-    print(f'Waiting for {config["trading"]["interval"]} minutes...')
-    with alive_bar(int(config['trading']['interval']) * 60, title='Processing', bar='smooth') as bar:
-        for i in range(int(config['trading']['interval']) * 60):
+    # check if it is daytime or nighttime (9:30 ET to 16:00 ET)
+    if pytz.timezone('US/Eastern').localize(datetime.now()).hour >= 9 and pytz.timezone('US/Eastern').localize(datetime.now()).hour < 16: #& 9:30 ET to 16:00 ET
+        daytime = True
+        interval = int(config['trading']['daytime_interval'])
+    else:
+        daytime = False
+        interval = int(config['trading']['nightime_interval'])
+    print(f'Waiting for {interval} minutes...')
+    interval = int(interval)
+    with alive_bar(int(interval) * 60, title='Sleeping', bar='blocks', spinner='classic') as bar:
+        for i in range(interval * 60):
             time.sleep(1)
-            bar.text(f'Processing {i+1}/{int(config["trading"]["interval"]) * 60}')
+            bar.text(f'Processing {i+1}/{int(interval) * 60}')
             bar()
+    #^ Update any changes that we made to the config file
+    config = configparser.ConfigParser()
+    config.read('config/credentials.ini')
+    # Define variables from config
+    if pytz.timezone('US/Eastern').localize(datetime.now()).hour >= 9 and pytz.timezone('US/Eastern').localize(datetime.now()).hour < 16:
+        percent_to_use = float(config['trading']['percent_to_use'])
+        pct_to_buy_with = float(config['trading']['percent_to_use_night'])
+        coins = [coin.strip() for coin in config['trading']['coins'].split(', ')]
+        pct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])
+    else:
+        percent_to_use = float(config['trading']['percent_to_use_night'])
+        coins = config['trading']['night_time_coins']
+        coins = [coin.strip() for coin in coins.split(', ')]
+        pct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade_night'])
+        pct_to_buy_with = float(config['trading']['percent_to_use_night'])
+    stop_loss_percent = float(config['trading']['stop_loss_percent'])
+
+    verbose_mode = config['logging'].getboolean('verbose_mode')
+    debug_verbose = config['logging'].getboolean('debug_verbose')
+    reset_positions = config['logging'].getboolean('reset_positions')
+    minimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])
+
+    if pytz.timezone('US/Eastern').localize(datetime.now()).hour >= 9 and pytz.timezone('US/Eastern').localize(datetime.now()).hour < 16:
+        daytime = True
+        interval = int(config['trading']['daytime_interval'])
+        coins = [coin.strip() for coin in config['trading']['coins'].split(', ')]
+        percent_to_spend_per_trade_day = float(config['trading']['percent_to_spend_per_trade'])
+    else:
+        daytime = False
+        interval = int(config['trading']['nightime_interval'])
+        coins = [coin.strip() for coin in config['trading']['nighttime_coins'].split(', ')]
+        percent_to_spend_per_trade_night = float(config['trading']['percent_to_spend_per_trade_night'])
+
+
+
 # Areas for future dev.
 # trend
 # volatility

@@ -476,6 +476,62 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "newspaper",
         "kind": 6,
         "isExtraImport": true,
@@ -887,6 +943,14 @@
         "documentation": {}
     },
     {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
         "label": "json",
         "kind": 6,
         "isExtraImport": true,
@@ -901,6 +965,14 @@
         "isExtraImport": true,
         "importPath": "pytz",
         "description": "pytz",
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
         "detail": "pytz",
         "documentation": {}
     },
@@ -1826,6 +1898,38 @@
         "documentation": {}
     },
     {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
         "label": "tqdm",
         "importPath": "tqdm",
         "description": "tqdm",
@@ -2483,6 +2587,14 @@
         "documentation": {}
     },
     {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -2644,6 +2756,14 @@
         "documentation": {}
     },
     {
+        "label": "ic",
+        "importPath": "icecream",
+        "description": "icecream",
+        "isExtraImport": true,
+        "detail": "icecream",
+        "documentation": {}
+    },
+    {
         "label": "pyotp",
         "kind": 6,
         "isExtraImport": true,
@@ -2658,6 +2778,14 @@
         "isExtraImport": true,
         "importPath": "robin_stocks.robinhood",
         "description": "robin_stocks.robinhood",
+        "detail": "robin_stocks.robinhood",
+        "documentation": {}
+    },
+    {
+        "label": "crypto",
+        "importPath": "robin_stocks.robinhood",
+        "description": "robin_stocks.robinhood",
+        "isExtraImport": true,
         "detail": "robin_stocks.robinhood",
         "documentation": {}
     },
@@ -2992,6 +3120,14 @@
         "documentation": {}
     },
     {
+        "label": "alive_bar",
+        "importPath": "alive_progress",
+        "description": "alive_progress",
+        "isExtraImport": true,
+        "detail": "alive_progress",
+        "documentation": {}
+    },
+    {
         "label": "stop_loss_percent",
         "importPath": "legacy.V5.main2",
         "description": "legacy.V5.main2",
@@ -3037,6 +3173,46 @@
         "description": "looper",
         "isExtraImport": true,
         "detail": "looper",
+        "documentation": {}
+    },
+    {
+        "label": "relative_strength_index",
+        "importPath": "pyti.relative_strength_index",
+        "description": "pyti.relative_strength_index",
+        "isExtraImport": true,
+        "detail": "pyti.relative_strength_index",
+        "documentation": {}
+    },
+    {
+        "label": "relative_strength_index",
+        "importPath": "pyti.relative_strength_index",
+        "description": "pyti.relative_strength_index",
+        "isExtraImport": true,
+        "detail": "pyti.relative_strength_index",
+        "documentation": {}
+    },
+    {
+        "label": "argrelextrema",
+        "importPath": "scipy.signal",
+        "description": "scipy.signal",
+        "isExtraImport": true,
+        "detail": "scipy.signal",
+        "documentation": {}
+    },
+    {
+        "label": "argrelextrema",
+        "importPath": "scipy.signal",
+        "description": "scipy.signal",
+        "isExtraImport": true,
+        "detail": "scipy.signal",
+        "documentation": {}
+    },
+    {
+        "label": "RSI",
+        "importPath": "talib",
+        "description": "talib",
+        "isExtraImport": true,
+        "detail": "talib",
         "documentation": {}
     },
     {
@@ -6633,217 +6809,541 @@
     {
         "label": "get_quantity",
         "kind": 2,
-        "importPath": "redo3",
-        "description": "redo3",
+        "importPath": "strategy_one",
+        "description": "strategy_one",
         "peekOfCode": "def get_quantity(coin_name):\n    positions = r.crypto.get_crypto_positions()\n    positions_dict = {}\n    for position in positions:\n        positions_dict[position['currency']['code']] = float(position['quantity'])\n    return positions_dict.get(coin_name, 0)\n@sleep_and_retry\ndef get_current_price(coin_name):\n    quote = r.crypto.get_crypto_quote(coin_name)\n    return float(quote['mark_price'])",
-        "detail": "redo3",
+        "detail": "strategy_one",
         "documentation": {}
     },
     {
         "label": "get_current_price",
         "kind": 2,
-        "importPath": "redo3",
-        "description": "redo3",
+        "importPath": "strategy_one",
+        "description": "strategy_one",
         "peekOfCode": "def get_current_price(coin_name):\n    quote = r.crypto.get_crypto_quote(coin_name)\n    return float(quote['mark_price'])\n# Function to update the portfolio positions\n@sleep_and_retry\ndef update_portfolio():\n    positions = r.crypto.get_crypto_positions()\n    positions_dict = {}\n    for position in positions:\n        positions_dict[position['currency']['code']] = float(position['quantity'])",
-        "detail": "redo3",
+        "detail": "strategy_one",
         "documentation": {}
     },
     {
         "label": "update_portfolio",
         "kind": 2,
-        "importPath": "redo3",
-        "description": "redo3",
+        "importPath": "strategy_one",
+        "description": "strategy_one",
         "peekOfCode": "def update_portfolio():\n    positions = r.crypto.get_crypto_positions()\n    positions_dict = {}\n    for position in positions:\n        positions_dict[position['currency']['code']] = float(position['quantity'])\n    return positions_dict\n# Function to buy a coin\n@sleep_and_retry\ndef buy_coin(coin_name, amount, current_price):\n    amount_to_buy = float(amount) / float(current_price)",
-        "detail": "redo3",
+        "detail": "strategy_one",
         "documentation": {}
     },
     {
         "label": "buy_coin",
         "kind": 2,
-        "importPath": "redo3",
-        "description": "redo3",
+        "importPath": "strategy_one",
+        "description": "strategy_one",
         "peekOfCode": "def buy_coin(coin_name, amount, current_price):\n    amount_to_buy = float(amount) / float(current_price)\n    buying_usd = round(float(amount_to_buy), 2)\n    buy_cost = round(float(buying_usd) * float(current_price), 2)\n    result = r.orders.order_crypto(\n        symbol=str(coin_name).upper(),\n        amountIn='dollars',\n        side='buy',\n        quantityOrPrice=float(buy_cost),\n        limitPrice=float(current_price),",
-        "detail": "redo3",
+        "detail": "strategy_one",
         "documentation": {}
     },
     {
         "label": "sell_coin",
         "kind": 2,
-        "importPath": "redo3",
-        "description": "redo3",
+        "importPath": "strategy_one",
+        "description": "strategy_one",
         "peekOfCode": "def sell_coin(coin_name):\n    positions_dict = update_portfolio()\n    amount_held = float(positions_dict.get(coin_name, 0))\n    current_price = float(get_current_price(coin_name))\n    result = r.orders.order_crypto(\n        symbol=coin_name,\n        amountIn='quantity',\n        side='sell',\n        quantityOrPrice=float(amount_held),\n        limitPrice=float(current_price),",
-        "detail": "redo3",
+        "detail": "strategy_one",
         "documentation": {}
     },
     {
         "label": "calculate_ta_indicators",
         "kind": 2,
-        "importPath": "redo3",
-        "description": "redo3",
+        "importPath": "strategy_one",
+        "description": "strategy_one",
         "peekOfCode": "def calculate_ta_indicators(coins):\n    global buy_in\n    minimum_buy_usd = float(config['trading']['minimum_usd_per_trade'])\n    # strip whitespace from the coins list\n    coins = [coin.strip() for coin in coins]\n    # load the working dataframe from the csv\n    buy_in = float(buy_in) # 2% of the buying power that we have not already spent\n    try:\n        working_dataframe = pd.read_csv('data/working.csv')\n    except:",
-        "detail": "redo3",
+        "detail": "strategy_one",
         "documentation": {}
     },
     {
         "label": "PCT_SPEND",
         "kind": 5,
-        "importPath": "redo3",
-        "description": "redo3",
+        "importPath": "strategy_one",
+        "description": "strategy_one",
         "peekOfCode": "PCT_SPEND = 0.05 # 5% of buying power\nverbose_mode = True # Set to True to see more logging output\nfrom colorama import Back, Fore, Style\nfrom ratelimit import limits, sleep_and_retry\n## Load credentials from config/credentials.ini\nconfig = configparser.ConfigParser()\nconfig.read('config/credentials.ini')\n# Define variables from config\ncoins = [coin.strip() for coin in config['trading']['coins'].split(', ')]\nstop_loss_percent = float(config['trading']['stop_loss_percent'])",
-        "detail": "redo3",
+        "detail": "strategy_one",
         "documentation": {}
     },
     {
         "label": "verbose_mode",
         "kind": 5,
-        "importPath": "redo3",
-        "description": "redo3",
+        "importPath": "strategy_one",
+        "description": "strategy_one",
         "peekOfCode": "verbose_mode = True # Set to True to see more logging output\nfrom colorama import Back, Fore, Style\nfrom ratelimit import limits, sleep_and_retry\n## Load credentials from config/credentials.ini\nconfig = configparser.ConfigParser()\nconfig.read('config/credentials.ini')\n# Define variables from config\ncoins = [coin.strip() for coin in config['trading']['coins'].split(', ')]\nstop_loss_percent = float(config['trading']['stop_loss_percent'])\npercent_to_use = float(config['trading']['percent_to_use'])",
-        "detail": "redo3",
+        "detail": "strategy_one",
         "documentation": {}
     },
     {
         "label": "config",
         "kind": 5,
-        "importPath": "redo3",
-        "description": "redo3",
+        "importPath": "strategy_one",
+        "description": "strategy_one",
         "peekOfCode": "config = configparser.ConfigParser()\nconfig.read('config/credentials.ini')\n# Define variables from config\ncoins = [coin.strip() for coin in config['trading']['coins'].split(', ')]\nstop_loss_percent = float(config['trading']['stop_loss_percent'])\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging'].getboolean('verbose_mode')\ndebug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])",
-        "detail": "redo3",
+        "detail": "strategy_one",
         "documentation": {}
     },
     {
         "label": "coins",
         "kind": 5,
-        "importPath": "redo3",
-        "description": "redo3",
-        "peekOfCode": "coins = [coin.strip() for coin in config['trading']['coins'].split(', ')]\nstop_loss_percent = float(config['trading']['stop_loss_percent'])\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging'].getboolean('verbose_mode')\ndebug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nprofit_threshold = 0.10",
-        "detail": "redo3",
+        "importPath": "strategy_one",
+        "description": "strategy_one",
+        "peekOfCode": "coins = [coin.strip() for coin in config['trading']['coins'].split(', ')]\nstop_loss_percent = float(config['trading']['stop_loss_percent'])\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging'].getboolean('verbose_mode')\ndebug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\n# pct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\npct_to_buy_per_trade = 0.02",
+        "detail": "strategy_one",
         "documentation": {}
     },
     {
         "label": "stop_loss_percent",
         "kind": 5,
-        "importPath": "redo3",
-        "description": "redo3",
-        "peekOfCode": "stop_loss_percent = float(config['trading']['stop_loss_percent'])\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging'].getboolean('verbose_mode')\ndebug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nprofit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent",
-        "detail": "redo3",
+        "importPath": "strategy_one",
+        "description": "strategy_one",
+        "peekOfCode": "stop_loss_percent = float(config['trading']['stop_loss_percent'])\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging'].getboolean('verbose_mode')\ndebug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\n# pct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\npct_to_buy_per_trade = 0.02\nprofit_threshold = 0.10",
+        "detail": "strategy_one",
         "documentation": {}
     },
     {
         "label": "percent_to_use",
         "kind": 5,
-        "importPath": "redo3",
-        "description": "redo3",
-        "peekOfCode": "percent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging'].getboolean('verbose_mode')\ndebug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nprofit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe",
-        "detail": "redo3",
+        "importPath": "strategy_one",
+        "description": "strategy_one",
+        "peekOfCode": "percent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging'].getboolean('verbose_mode')\ndebug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\n# pct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\npct_to_buy_per_trade = 0.02\nprofit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent",
+        "detail": "strategy_one",
         "documentation": {}
     },
     {
         "label": "verbose_mode",
         "kind": 5,
-        "importPath": "redo3",
-        "description": "redo3",
-        "peekOfCode": "verbose_mode = config['logging'].getboolean('verbose_mode')\ndebug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nprofit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe\nworking_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])",
-        "detail": "redo3",
+        "importPath": "strategy_one",
+        "description": "strategy_one",
+        "peekOfCode": "verbose_mode = config['logging'].getboolean('verbose_mode')\ndebug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\n# pct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\npct_to_buy_per_trade = 0.02\nprofit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe",
+        "detail": "strategy_one",
         "documentation": {}
     },
     {
         "label": "debug_verbose",
         "kind": 5,
-        "importPath": "redo3",
-        "description": "redo3",
-        "peekOfCode": "debug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nprofit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe\nworking_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])\n# Log in to the Robinhood API",
-        "detail": "redo3",
+        "importPath": "strategy_one",
+        "description": "strategy_one",
+        "peekOfCode": "debug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\n# pct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\npct_to_buy_per_trade = 0.02\nprofit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe\nworking_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])",
+        "detail": "strategy_one",
         "documentation": {}
     },
     {
         "label": "reset_positions",
         "kind": 5,
-        "importPath": "redo3",
-        "description": "redo3",
-        "peekOfCode": "reset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nprofit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe\nworking_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])\n# Log in to the Robinhood API\nusername = config['robinhood']['username']",
-        "detail": "redo3",
+        "importPath": "strategy_one",
+        "description": "strategy_one",
+        "peekOfCode": "reset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\n# pct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\npct_to_buy_per_trade = 0.02\nprofit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe\nworking_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])\n# Log in to the Robinhood API",
+        "detail": "strategy_one",
         "documentation": {}
     },
     {
         "label": "minimum_usd_per_position",
         "kind": 5,
-        "importPath": "redo3",
-        "description": "redo3",
-        "peekOfCode": "minimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nprofit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe\nworking_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])\n# Log in to the Robinhood API\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']",
-        "detail": "redo3",
+        "importPath": "strategy_one",
+        "description": "strategy_one",
+        "peekOfCode": "minimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\n# pct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\npct_to_buy_per_trade = 0.02\nprofit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe\nworking_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])\n# Log in to the Robinhood API\nusername = config['robinhood']['username']",
+        "detail": "strategy_one",
         "documentation": {}
     },
     {
         "label": "pct_to_buy_with",
         "kind": 5,
-        "importPath": "redo3",
-        "description": "redo3",
-        "peekOfCode": "pct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nprofit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe\nworking_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])\n# Log in to the Robinhood API\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)",
-        "detail": "redo3",
+        "importPath": "strategy_one",
+        "description": "strategy_one",
+        "peekOfCode": "pct_to_buy_with = float(config['trading']['percent_to_use'])\n# pct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\npct_to_buy_per_trade = 0.02\nprofit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe\nworking_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])\n# Log in to the Robinhood API\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']",
+        "detail": "strategy_one",
         "documentation": {}
     },
     {
         "label": "pct_to_buy_per_trade",
         "kind": 5,
-        "importPath": "redo3",
-        "description": "redo3",
-        "peekOfCode": "pct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nprofit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe\nworking_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])\n# Log in to the Robinhood API\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")",
-        "detail": "redo3",
+        "importPath": "strategy_one",
+        "description": "strategy_one",
+        "peekOfCode": "pct_to_buy_per_trade = 0.02\nprofit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe\nworking_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])\n# Log in to the Robinhood API\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")",
+        "detail": "strategy_one",
         "documentation": {}
     },
     {
         "label": "profit_threshold",
         "kind": 5,
-        "importPath": "redo3",
-        "description": "redo3",
+        "importPath": "strategy_one",
+        "description": "strategy_one",
         "peekOfCode": "profit_threshold = 0.10\nbuy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe\nworking_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])\n# Log in to the Robinhood API\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")\n# Function to get current price for a coin",
-        "detail": "redo3",
+        "detail": "strategy_one",
         "documentation": {}
     },
     {
         "label": "buy_in",
         "kind": 5,
-        "importPath": "redo3",
-        "description": "redo3",
-        "peekOfCode": "buy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe\nworking_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])\n# Log in to the Robinhood API\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")\n# Function to get current price for a coin\n@sleep_and_retry",
-        "detail": "redo3",
+        "importPath": "strategy_one",
+        "description": "strategy_one",
+        "peekOfCode": "buy_in = 0.02 # 2% of the buying power that we have not already spent\n# working_dataframe\nworking_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])\n# Log in to the Robinhood API\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")\n# Function to get current price for a coin\ntotal_money = float(r.load_account_profile()['crypto_buying_power']) * float(pct_to_buy_with)",
+        "detail": "strategy_one",
         "documentation": {}
     },
     {
         "label": "working_dataframe",
         "kind": 5,
-        "importPath": "redo3",
-        "description": "redo3",
-        "peekOfCode": "working_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])\n# Log in to the Robinhood API\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")\n# Function to get current price for a coin\n@sleep_and_retry\ndef get_quantity(coin_name):\n    positions = r.crypto.get_crypto_positions()",
-        "detail": "redo3",
+        "importPath": "strategy_one",
+        "description": "strategy_one",
+        "peekOfCode": "working_dataframe = pd.DataFrame(columns=['coin', 'rsi', 'macd', 'macd_signal', 'macd_hist', 'run_id', 'timestamp', 'price'])\n# Log in to the Robinhood API\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")\n# Function to get current price for a coin\ntotal_money = float(r.load_account_profile()['crypto_buying_power']) * float(pct_to_buy_with)\n# save the total money we have to spend to total_money.txt in data/ folder\nwith open('data/total_money.txt', 'w') as f:",
+        "detail": "strategy_one",
         "documentation": {}
     },
     {
         "label": "username",
         "kind": 5,
-        "importPath": "redo3",
-        "description": "redo3",
-        "peekOfCode": "username = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")\n# Function to get current price for a coin\n@sleep_and_retry\ndef get_quantity(coin_name):\n    positions = r.crypto.get_crypto_positions()\n    positions_dict = {}\n    for position in positions:",
-        "detail": "redo3",
+        "importPath": "strategy_one",
+        "description": "strategy_one",
+        "peekOfCode": "username = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")\n# Function to get current price for a coin\ntotal_money = float(r.load_account_profile()['crypto_buying_power']) * float(pct_to_buy_with)\n# save the total money we have to spend to total_money.txt in data/ folder\nwith open('data/total_money.txt', 'w') as f:\n    f.write(str(total_money))\n@sleep_and_retry",
+        "detail": "strategy_one",
         "documentation": {}
     },
     {
         "label": "password",
         "kind": 5,
-        "importPath": "redo3",
-        "description": "redo3",
-        "peekOfCode": "password = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")\n# Function to get current price for a coin\n@sleep_and_retry\ndef get_quantity(coin_name):\n    positions = r.crypto.get_crypto_positions()\n    positions_dict = {}\n    for position in positions:\n        positions_dict[position['currency']['code']] = float(position['quantity'])",
-        "detail": "redo3",
+        "importPath": "strategy_one",
+        "description": "strategy_one",
+        "peekOfCode": "password = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")\n# Function to get current price for a coin\ntotal_money = float(r.load_account_profile()['crypto_buying_power']) * float(pct_to_buy_with)\n# save the total money we have to spend to total_money.txt in data/ folder\nwith open('data/total_money.txt', 'w') as f:\n    f.write(str(total_money))\n@sleep_and_retry\ndef get_quantity(coin_name):",
+        "detail": "strategy_one",
         "documentation": {}
     },
     {
         "label": "login",
         "kind": 5,
-        "importPath": "redo3",
-        "description": "redo3",
-        "peekOfCode": "login = r.login(username, password)\nprint(f\"Logged in as {username}\")\n# Function to get current price for a coin\n@sleep_and_retry\ndef get_quantity(coin_name):\n    positions = r.crypto.get_crypto_positions()\n    positions_dict = {}\n    for position in positions:\n        positions_dict[position['currency']['code']] = float(position['quantity'])\n    return positions_dict.get(coin_name, 0)",
-        "detail": "redo3",
+        "importPath": "strategy_one",
+        "description": "strategy_one",
+        "peekOfCode": "login = r.login(username, password)\nprint(f\"Logged in as {username}\")\n# Function to get current price for a coin\ntotal_money = float(r.load_account_profile()['crypto_buying_power']) * float(pct_to_buy_with)\n# save the total money we have to spend to total_money.txt in data/ folder\nwith open('data/total_money.txt', 'w') as f:\n    f.write(str(total_money))\n@sleep_and_retry\ndef get_quantity(coin_name):\n    positions = r.crypto.get_crypto_positions()",
+        "detail": "strategy_one",
+        "documentation": {}
+    },
+    {
+        "label": "total_money",
+        "kind": 5,
+        "importPath": "strategy_one",
+        "description": "strategy_one",
+        "peekOfCode": "total_money = float(r.load_account_profile()['crypto_buying_power']) * float(pct_to_buy_with)\n# save the total money we have to spend to total_money.txt in data/ folder\nwith open('data/total_money.txt', 'w') as f:\n    f.write(str(total_money))\n@sleep_and_retry\ndef get_quantity(coin_name):\n    positions = r.crypto.get_crypto_positions()\n    positions_dict = {}\n    for position in positions:\n        positions_dict[position['currency']['code']] = float(position['quantity'])",
+        "detail": "strategy_one",
+        "documentation": {}
+    },
+    {
+        "label": "buy_coin",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def buy_coin(coin_name, amount):\n    try:\n        current_price = get_current_price(coin_name)\n        amount_to_buy = float(amount) / float(current_price)\n        buying_usd = round(float(amount_to_buy), 2)\n        buy_cost = round(float(buying_usd) * float(current_price), 2)\n        result = r.orders.order_crypto(\n            symbol=str(coin_name).upper(),\n            amountIn='dollars',\n            side='buy',",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "sell_coin",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def sell_coin(coin_name):\n    try:\n        current_price = get_current_price(coin_name)\n        holdings = r.crypto.get_crypto_positions(info=None)\n        coin_holdings = [coin for coin in holdings if coin['currency']['code'] == coin_name]\n        amount_to_sell = float(coin_holdings[0]['quantity'])\n        result = r.orders.order_crypto(\n            symbol=coin_name,\n            amountIn='quantity',\n            side='sell',",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_rsi",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def calculate_rsi(data, period):\n    delta = data.diff()\n    up, down = delta.copy(), delta.copy()\n    up[up < 0] = 0\n    down[down > 0] = 0\n    average_gain = up.rolling(window=period).mean()\n    average_loss = abs(down.rolling(window=period).mean())\n    rs = average_gain / average_loss\n    rsi = 100 - (100 / (1 + rs))\n    return rsi",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_macd",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def calculate_macd(data, short_period, long_period):\n    short_ema = data.ewm(span=short_period, adjust=False).mean()\n    long_ema = data.ewm(span=long_period, adjust=False).mean()\n    macd_line = short_ema - long_ema\n    signal_line = macd_line.ewm(span=9, adjust=False).mean()\n    return macd_line, signal_line\nimport yfinance as yf\ndef calculate_ema(data, window):\n    return data.ewm(span=window, adjust=False).mean()\n# Download historical data",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_ema",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def calculate_ema(data, window):\n    return data.ewm(span=window, adjust=False).mean()\n# Download historical data\ndata = yf.download('BTC-USD', start='2020-01-01', end='2022-12-31')\n# Calculate MACD\nmacd_line, signal_line = calculate_macd(data['Close'], 12, 26)\nimport pandas as pd\nimport yfinance as yf\nfrom pyti.relative_strength_index import relative_strength_index as rsi\ndef calculate_ema(data, window):",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_ema",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def calculate_ema(data, window):\n    return data.ewm(span=window, adjust=False).mean()\ndef calculate_macd(data, short_window, long_window):\n    short_ema = calculate_ema(data, short_window)\n    long_ema = calculate_ema(data, long_window)\n    macd_line = short_ema - long_ema\n    signal_line = calculate_ema(macd_line, 9)\n    return macd_line, signal_line\n# Download historical data\ndata = yf.download('BTC-USD', start='2020-01-01', end='2022-12-31')",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_macd",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def calculate_macd(data, short_window, long_window):\n    short_ema = calculate_ema(data, short_window)\n    long_ema = calculate_ema(data, long_window)\n    macd_line = short_ema - long_ema\n    signal_line = calculate_ema(macd_line, 9)\n    return macd_line, signal_line\n# Download historical data\ndata = yf.download('BTC-USD', start='2020-01-01', end='2022-12-31')\n# Calculate MACD\nmacd_line, signal_line = calculate_macd(data['Close'], 12, 26)",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "get_local_peaks",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def get_local_peaks(data):\n    peaks = argrelextrema(data, np.greater)\n    return peaks\ndef calculate_percentage_change(old_price, new_price):\n    return ((new_price - old_price) / old_price) * 100\nfrom datetime import datetime, timedelta\nimport pytz\n# Function to sell a coin\n@sleep_and_retry\ndef sell_coin(coin_name):",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_percentage_change",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def calculate_percentage_change(old_price, new_price):\n    return ((new_price - old_price) / old_price) * 100\nfrom datetime import datetime, timedelta\nimport pytz\n# Function to sell a coin\n@sleep_and_retry\ndef sell_coin(coin_name):\n    current_price = float(get_current_price(coin_name))\n    holdings = r.crypto.get_crypto_positions(info=None)\n    coin_holdings = [coin for coin in holdings if coin['currency']['code'] == coin_name]",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "sell_coin",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def sell_coin(coin_name):\n    current_price = float(get_current_price(coin_name))\n    holdings = r.crypto.get_crypto_positions(info=None)\n    coin_holdings = [coin for coin in holdings if coin['currency']['code'] == coin_name]\n    amount_to_sell = float(coin_holdings[0]['quantity'])\n    result = r.orders.order_crypto(\n        symbol=coin_name,\n        amountIn='quantity',\n        side='sell',\n        quantityOrPrice=float(amount_to_sell),",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "stop_loss_strategy",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def stop_loss_strategy(coin_name, percentage_drop_threshold=5):\n    # Get the current time in EST\n    current_time = datetime.now(pytz.timezone('US/Eastern'))\n    # Check if it's 11 PM EST\n    if current_time.hour == 23:\n        # Get the current price and the price 24 hours ago\n        current_price = float(get_current_price(coin_name))\n        past_price = float(get_past_price(coin_name, current_time - timedelta(days=1)))\n        # Calculate the percentage change\n        percentage_change = calculate_percentage_change(past_price, current_price)",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "get_local_peaks",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def get_local_peaks(data):\n    peaks = argrelextrema(data, np.greater)\n    return peaks\ndef calculate_percentage_change(old_price, new_price):\n    return ((new_price - old_price) / old_price) * 100\nfrom datetime import datetime, timedelta\nimport pytz\n# Function to sell a coin\n@sleep_and_retry\ndef sell_coin(coin_name):",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_percentage_change",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def calculate_percentage_change(old_price, new_price):\n    return ((new_price - old_price) / old_price) * 100\nfrom datetime import datetime, timedelta\nimport pytz\n# Function to sell a coin\n@sleep_and_retry\ndef sell_coin(coin_name):\n    current_price = float(get_current_price(coin_name))\n    holdings = r.crypto.get_crypto_positions(info=None)\n    coin_holdings = [coin for coin in holdings if coin['currency']['code'] == coin_name]",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "sell_coin",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def sell_coin(coin_name):\n    current_price = float(get_current_price(coin_name))\n    holdings = r.crypto.get_crypto_positions(info=None)\n    coin_holdings = [coin for coin in holdings if coin['currency']['code'] == coin_name]\n    amount_to_sell = float(coin_holdings[0]['quantity'])\n    result = r.orders.order_crypto(\n        symbol=coin_name,\n        amountIn='quantity',\n        side='sell',\n        quantityOrPrice=float(amount_to_sell),",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "stop_loss_strategy",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def stop_loss_strategy(coin_name, percentage_drop_threshold=5):\n    # Get the current time in EST\n    current_time = datetime.now(pytz.timezone('US/Eastern'))\n    # Check if it's 11 PM EST\n    if current_time.hour == 23:\n        # Get the current price and the price 24 hours ago\n        current_price = float(get_current_price(coin_name))\n        past_price = float(get_past_price(coin_name, current_time - timedelta(days=1)))\n        # Calculate the percentage change\n        percentage_change = calculate_percentage_change(past_price, current_price)",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_ema",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def calculate_ema(data, window):\n    return data.ewm(span=window, adjust=False).mean()\ndef calculate_macd(data, short_window, long_window):\n    short_ema = calculate_ema(data, short_window)\n    long_ema = calculate_ema(data, long_window)\n    macd_line = short_ema - long_ema\n    signal_line = calculate_ema(macd_line, 9)\n    return macd_line, signal_line\n# Download historical data\ndata = yf.download('BTC-USD', start='2020-01-01', end='2022-12-31')",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_macd",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def calculate_macd(data, short_window, long_window):\n    short_ema = calculate_ema(data, short_window)\n    long_ema = calculate_ema(data, long_window)\n    macd_line = short_ema - long_ema\n    signal_line = calculate_ema(macd_line, 9)\n    return macd_line, signal_line\n# Download historical data\ndata = yf.download('BTC-USD', start='2020-01-01', end='2022-12-31')\n# Calculate MACD\nmacd_line, signal_line = calculate_macd(data['Close'], 12, 26)",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "strategy_1",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def strategy_1(coin):\n    logging.info(f\"Running strategy 1 for {coin}\")\n    # Get the RSI data\n    price_data = r.crypto.get_crypto_historicals(coin, interval='hour', span='day')\n    price_data = pd.DataFrame(price_data)\n    price_data['close_price'] = price_data['close_price'].astype(float)\n    rsi_data = calculate_rsi(price_data['close_price'], 14)\n    # Check if RSI goes below 20\n    if rsi_data[-1] < 20:\n        logging.info(f\"RSI for {coin} is below 20\")",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "strategy_2",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def strategy_2(coin):\n    # Get the RSI data\n    rsi_data = calculate_rsi(coin, 14)\n    # Check if RSI goes above 80\n    if rsi_data[-1] > 80:\n        # Trigger a limit sell of the coin\n        sell_coin(coin)\nimport robin_stocks as r\ndef trailing_stop_loss(coin_name, percentage_drop):\n    holdings = r.crypto.get_crypto_positions(info=None)",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "trailing_stop_loss",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def trailing_stop_loss(coin_name, percentage_drop):\n    holdings = r.crypto.get_crypto_positions(info=None)\n    coin_holdings = [coin for coin in holdings if coin['currency']['code'] == coin_name]\n    if not coin_holdings:\n        print(f\"No holdings for {coin_name}\")\n        return\n    initial_price = float(coin_holdings[0]['cost_bases'][0]['direct_cost_basis'])\n    P_lowest = initial_price\n    while True:\n        current_price = get_current_price(coin_name)",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_price",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def get_current_price(coin_name):\n    return float(r.crypto.get_crypto_quote(coin_name, info='mark_price'))\ndef sell_coin(coin_name):\n    current_price = get_current_price(coin_name)\n    holdings = r.crypto.get_crypto_positions(info=None)\n    coin_holdings = [coin for coin in holdings if coin['currency']['code'] == coin_name]\n    amount_to_sell = float(coin_holdings[0]['quantity'])\n    result = r.orders.order_crypto(\n        symbol=coin_name,\n        amountIn='quantity',",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "sell_coin",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def sell_coin(coin_name):\n    current_price = get_current_price(coin_name)\n    holdings = r.crypto.get_crypto_positions(info=None)\n    coin_holdings = [coin for coin in holdings if coin['currency']['code'] == coin_name]\n    amount_to_sell = float(coin_holdings[0]['quantity'])\n    result = r.orders.order_crypto(\n        symbol=coin_name,\n        amountIn='quantity',\n        side='sell',\n        quantityOrPrice=float(amount_to_sell),",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_rsi_strength",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def calculate_rsi_strength(coin_name):\n    rsi_strength = 0.0\n    rsi_prev = 0.0\n    # Get the historical prices for the coin in the last 2 hours\n    historical_prices = crypto.get_crypto_historicals(coin_name, interval='5minute', span='2hour')\n    # Calculate the RSI for each price point\n    close_prices = [float(data['close_price']) for data in historical_prices]\n    rsi_values = RSI(close_prices)\n    # Calculate the RSI strength\n    for rsi in rsi_values:",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "sell_coin",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def sell_coin(coin_name):\n    current_price = float(crypto.get_crypto_quote(coin_name)['mark_price'])\n    holdings = crypto.get_crypto_positions(info=None)\n    coin_holdings = [coin for coin in holdings if coin['currency']['code'] == coin_name]\n    amount_to_sell = float(coin_holdings[0]['quantity'])\n    result = crypto.order_sell_crypto_limit(coin_name, amount_to_sell, current_price)\n    return result\n# Main function to implement the strategy\ndef rsi_strength_strategy(coin_name):\n    while True:",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "rsi_strength_strategy",
+        "kind": 2,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "def rsi_strength_strategy(coin_name):\n    while True:\n        rsi_strength = calculate_rsi_strength(coin_name)\n        if rsi_strength > rsi_strength_threshold:\n            sell_result = sell_coin(coin_name)\n            print(f'Sold {coin_name} due to high RSI strength: {rsi_strength}')\n            print(sell_result)\n        time.sleep(300)  # Sleep for 5 minutes",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "data = yf.download('BTC-USD', start='2020-01-01', end='2022-12-31')\n# Calculate MACD\nmacd_line, signal_line = calculate_macd(data['Close'], 12, 26)\nimport pandas as pd\nimport yfinance as yf\nfrom pyti.relative_strength_index import relative_strength_index as rsi\ndef calculate_ema(data, window):\n    return data.ewm(span=window, adjust=False).mean()\ndef calculate_macd(data, short_window, long_window):\n    short_ema = calculate_ema(data, short_window)",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "data = yf.download('BTC-USD', start='2020-01-01', end='2022-12-31')\n# Calculate MACD\nmacd_line, signal_line = calculate_macd(data['Close'], 12, 26)\n# Calculate RSI\ndata['RSI'] = rsi(data['Close'], 14)\n# Initialize holding status\nholding = False\n# Iterate over data\nfor i in range(1, len(data)):\n    # Check if RSI is below 20",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "data['RSI']",
+        "kind": 5,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "data['RSI'] = rsi(data['Close'], 14)\n# Initialize holding status\nholding = False\n# Iterate over data\nfor i in range(1, len(data)):\n    # Check if RSI is below 20\n    if data['RSI'].iloc[i] < 20:\n        # Check if MACD line crosses signal line from below\n        if macd_line.iloc[i] > signal_line.iloc[i] and macd_line.iloc[i-1] < signal_line.iloc[i-1]:\n            if holding:",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "holding",
+        "kind": 5,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "holding = False\n# Iterate over data\nfor i in range(1, len(data)):\n    # Check if RSI is below 20\n    if data['RSI'].iloc[i] < 20:\n        # Check if MACD line crosses signal line from below\n        if macd_line.iloc[i] > signal_line.iloc[i] and macd_line.iloc[i-1] < signal_line.iloc[i-1]:\n            if holding:\n                print(f\"Sell at {data['Close'].iloc[i]}\")\n                holding = False",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "data = yf.download('BTC-USD', start='2020-01-01', end='2022-12-31')\n# Calculate MACD\nmacd_line, signal_line = calculate_macd(data['Close'], 12, 26)\n# Calculate RSI\ndata['RSI'] = rsi(data['Close'], 14)\n# Initialize holding status\nholding = False\n# Iterate over data\nfor i in range(1, len(data)):\n    # Check if RSI is below 20",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "data['RSI']",
+        "kind": 5,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "data['RSI'] = rsi(data['Close'], 14)\n# Initialize holding status\nholding = False\n# Iterate over data\nfor i in range(1, len(data)):\n    # Check if RSI is below 20\n    if data['RSI'].iloc[i] < 20:\n        # Check if MACD line crosses signal line from below\n        if macd_line.iloc[i] > signal_line.iloc[i] and macd_line.iloc[i-1] < signal_line.iloc[i-1]:\n            if holding:",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "holding",
+        "kind": 5,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "holding = False\n# Iterate over data\nfor i in range(1, len(data)):\n    # Check if RSI is below 20\n    if data['RSI'].iloc[i] < 20:\n        # Check if MACD line crosses signal line from below\n        if macd_line.iloc[i] > signal_line.iloc[i] and macd_line.iloc[i-1] < signal_line.iloc[i-1]:\n            if holding:\n                print(f\"Sell at {data['Close'].iloc[i]}\")\n                holding = False",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "rsi_low_limit",
+        "kind": 5,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "rsi_low_limit = 20\nrsi_high_limit = 70\n# Define the RSI strength threshold\nrsi_strength_threshold = 2.0\n# Function to calculate RSI Strength\ndef calculate_rsi_strength(coin_name):\n    rsi_strength = 0.0\n    rsi_prev = 0.0\n    # Get the historical prices for the coin in the last 2 hours\n    historical_prices = crypto.get_crypto_historicals(coin_name, interval='5minute', span='2hour')",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "rsi_high_limit",
+        "kind": 5,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "rsi_high_limit = 70\n# Define the RSI strength threshold\nrsi_strength_threshold = 2.0\n# Function to calculate RSI Strength\ndef calculate_rsi_strength(coin_name):\n    rsi_strength = 0.0\n    rsi_prev = 0.0\n    # Get the historical prices for the coin in the last 2 hours\n    historical_prices = crypto.get_crypto_historicals(coin_name, interval='5minute', span='2hour')\n    # Calculate the RSI for each price point",
+        "detail": "temp",
+        "documentation": {}
+    },
+    {
+        "label": "rsi_strength_threshold",
+        "kind": 5,
+        "importPath": "temp",
+        "description": "temp",
+        "peekOfCode": "rsi_strength_threshold = 2.0\n# Function to calculate RSI Strength\ndef calculate_rsi_strength(coin_name):\n    rsi_strength = 0.0\n    rsi_prev = 0.0\n    # Get the historical prices for the coin in the last 2 hours\n    historical_prices = crypto.get_crypto_historicals(coin_name, interval='5minute', span='2hour')\n    # Calculate the RSI for each price point\n    close_prices = [float(data['close_price']) for data in historical_prices]\n    rsi_values = RSI(close_prices)",
+        "detail": "temp",
         "documentation": {}
     },
     {
