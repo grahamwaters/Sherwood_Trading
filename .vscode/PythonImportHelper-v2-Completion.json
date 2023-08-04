@@ -484,6 +484,46 @@
         "documentation": {}
     },
     {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -517,6 +557,14 @@
     },
     {
         "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -951,6 +999,38 @@
         "documentation": {}
     },
     {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
+        "label": "robinhood",
+        "importPath": "robin_stocks",
+        "description": "robin_stocks",
+        "isExtraImport": true,
+        "detail": "robin_stocks",
+        "documentation": {}
+    },
+    {
         "label": "json",
         "kind": 6,
         "isExtraImport": true,
@@ -965,6 +1045,22 @@
         "isExtraImport": true,
         "importPath": "pytz",
         "description": "pytz",
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
+        "detail": "pytz",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "pytz",
+        "description": "pytz",
+        "isExtraImport": true,
         "detail": "pytz",
         "documentation": {}
     },
@@ -1874,6 +1970,30 @@
         "documentation": {}
     },
     {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
         "label": "Back",
         "importPath": "colorama",
         "description": "colorama",
@@ -1919,6 +2039,78 @@
         "description": "colorama",
         "isExtraImport": true,
         "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Fore",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Back",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "Style",
+        "importPath": "colorama",
+        "description": "colorama",
+        "isExtraImport": true,
+        "detail": "colorama",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
         "documentation": {}
     },
     {
@@ -2546,6 +2738,22 @@
         "documentation": {}
     },
     {
+        "label": "limits",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
+        "label": "sleep_and_retry",
+        "importPath": "ratelimit",
+        "description": "ratelimit",
+        "isExtraImport": true,
+        "detail": "ratelimit",
+        "documentation": {}
+    },
+    {
         "label": "time",
         "kind": 6,
         "isExtraImport": true,
@@ -2764,6 +2972,14 @@
         "documentation": {}
     },
     {
+        "label": "ic",
+        "importPath": "icecream",
+        "description": "icecream",
+        "isExtraImport": true,
+        "detail": "icecream",
+        "documentation": {}
+    },
+    {
         "label": "pyotp",
         "kind": 6,
         "isExtraImport": true,
@@ -2819,6 +3035,22 @@
         "isExtraImport": true,
         "importPath": "random",
         "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "uniform",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
         "detail": "random",
         "documentation": {}
     },
@@ -3136,6 +3368,14 @@
         "documentation": {}
     },
     {
+        "label": "stop_loss_percent",
+        "importPath": "legacy.V5.main2",
+        "description": "legacy.V5.main2",
+        "isExtraImport": true,
+        "detail": "legacy.V5.main2",
+        "documentation": {}
+    },
+    {
         "label": "Trader",
         "importPath": "classes",
         "description": "classes",
@@ -3176,6 +3416,30 @@
         "documentation": {}
     },
     {
+        "label": "argrelextrema",
+        "importPath": "scipy.signal",
+        "description": "scipy.signal",
+        "isExtraImport": true,
+        "detail": "scipy.signal",
+        "documentation": {}
+    },
+    {
+        "label": "argrelextrema",
+        "importPath": "scipy.signal",
+        "description": "scipy.signal",
+        "isExtraImport": true,
+        "detail": "scipy.signal",
+        "documentation": {}
+    },
+    {
+        "label": "argrelextrema",
+        "importPath": "scipy.signal",
+        "description": "scipy.signal",
+        "isExtraImport": true,
+        "detail": "scipy.signal",
+        "documentation": {}
+    },
+    {
         "label": "relative_strength_index",
         "importPath": "pyti.relative_strength_index",
         "description": "pyti.relative_strength_index",
@@ -3192,19 +3456,19 @@
         "documentation": {}
     },
     {
-        "label": "argrelextrema",
-        "importPath": "scipy.signal",
-        "description": "scipy.signal",
+        "label": "relative_strength_index",
+        "importPath": "pyti.relative_strength_index",
+        "description": "pyti.relative_strength_index",
         "isExtraImport": true,
-        "detail": "scipy.signal",
+        "detail": "pyti.relative_strength_index",
         "documentation": {}
     },
     {
-        "label": "argrelextrema",
-        "importPath": "scipy.signal",
-        "description": "scipy.signal",
+        "label": "d",
+        "importPath": "legacy.V1.supportmaterial",
+        "description": "legacy.V1.supportmaterial",
         "isExtraImport": true,
-        "detail": "scipy.signal",
+        "detail": "legacy.V1.supportmaterial",
         "documentation": {}
     },
     {
@@ -6069,6 +6333,33 @@
         "documentation": {}
     },
     {
+        "label": "signals_df['buy_signal']",
+        "kind": 5,
+        "importPath": "# Cast to floats and add conditions",
+        "description": "# Cast to floats and add conditions",
+        "peekOfCode": "signals_df['buy_signal'] = (\n    (float(df['ema'])) > float(df['sma']) &\n    (float(df['rsi']) < 30) &\n    (float(df['williams']) < -80) &\n    (float(df['close']) < float(df['bollinger_lower_band'])) &\n    (float(df['close']) < float(df['sma'])) &\n    (float(df['close']) < float(df['ema'])) &\n    (float(float(macd_line)) > float(macd_signal))\n)\n# Cast to floats and add conditions",
+        "detail": "# Cast to floats and add conditions",
+        "documentation": {}
+    },
+    {
+        "label": "signals_df['sell_signal']",
+        "kind": 5,
+        "importPath": "# Cast to floats and add conditions",
+        "description": "# Cast to floats and add conditions",
+        "peekOfCode": "signals_df['sell_signal'] = (\n    (float(df['ema'])) < float(df['sma']) &\n    (float(df['rsi']) > 70) &\n    (float(df['williams']) > -20) &\n    (float(df['close']) > float(df['bollinger_upper_band'])) &\n    (float(df['close']) > float(df['sma'])) &\n    (float(df['close']) > float(df['ema'])) &\n    (float(float(macd_line)) < float(macd_signal))\n)\n# Drop the NaNs from the DataFrame",
+        "detail": "# Cast to floats and add conditions",
+        "documentation": {}
+    },
+    {
+        "label": "signals_df",
+        "kind": 5,
+        "importPath": "# Cast to floats and add conditions",
+        "description": "# Cast to floats and add conditions",
+        "peekOfCode": "signals_df = signals_df.dropna()\n# Print the DataFrame",
+        "detail": "# Cast to floats and add conditions",
+        "documentation": {}
+    },
+    {
         "label": "trader",
         "kind": 6,
         "importPath": "ToT_main",
@@ -6744,6 +7035,321 @@
         "documentation": {}
     },
     {
+        "label": "Utility",
+        "kind": 6,
+        "importPath": "old_but_functioning",
+        "description": "old_but_functioning",
+        "peekOfCode": "class Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.\n        :doc-author: Trelent\n        \"\"\"\n        pass\n    async def log_file_size_checker():\n        \"\"\"\n        The log_file_size_checker function is an async function that checks the size of the log file and removes lines from the start of the file to maintain a rolling log of 1000 lines.",
+        "detail": "old_but_functioning",
+        "documentation": {}
+    },
+    {
+        "label": "Trader",
+        "kind": 6,
+        "importPath": "old_but_functioning",
+        "description": "old_but_functioning",
+        "peekOfCode": "class Trader:\n    \"\"\"\n    The Trader class provides functions for logging into Robinhood, resetting orders, generating trading signals, executing actions based on these signals, updating the buying power, and checking stop loss prices.\n    # Detailed Function Descriptions\n    1. login_setup: The login_setup function logs into Robinhood using the provided username and password.\n    2. resetter: The resetter function cancels all open orders and sells all positions. This function is used to reset the bot.\n    3. calculate_ta_indicators:\n        The calculate_ta_indicators function calculates different technical indicators and generates trading signals based on these indicators. The indicators are: EMA, MACD, RSI, Williams %R, Stochastic Oscillator, Bollinger Bands, and Parabolic SAR.\n        A boolean is generated based on these indicators. If the boolean is True, a buy signal is generated. If the boolean is False, a sell signal is generated. The signals are returned in a DataFrame.\n        :param coins: A list of coins to generate signals for",
+        "detail": "old_but_functioning",
+        "documentation": {}
+    },
+    {
+        "label": "Looper",
+        "kind": 6,
+        "importPath": "old_but_functioning",
+        "description": "old_but_functioning",
+        "peekOfCode": "class Looper:\n    def __init__(self, trader: Trader):\n        \"\"\"\n        The Looper class provides functions for running asynchronous operations.\n        :param trader: An instance of the Trader class\n        :doc-author: Trelent\n        \"\"\"\n        self.trader = trader\n        # Set up logging\n        self.logger = logging.getLogger('looper')",
+        "detail": "old_but_functioning",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "old_but_functioning",
+        "description": "old_but_functioning",
+        "peekOfCode": "config = configparser.ConfigParser()\nconfig.read('config/credentials.ini')\ncoins = config['trading']['coins'].split(', ')\nstop_loss_percent = float(config['trading']['stop_loss_percent'])\ncoins = [coin.strip() for coin in coins]\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging']['verbose_mode']\ndebug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])",
+        "detail": "old_but_functioning",
+        "documentation": {}
+    },
+    {
+        "label": "coins",
+        "kind": 5,
+        "importPath": "old_but_functioning",
+        "description": "old_but_functioning",
+        "peekOfCode": "coins = config['trading']['coins'].split(', ')\nstop_loss_percent = float(config['trading']['stop_loss_percent'])\ncoins = [coin.strip() for coin in coins]\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging']['verbose_mode']\ndebug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\n# minimum_usd_to_use = float(config['trading']['minimum_usd_to_use'])\nover_ride = config['trading']['over_ride']",
+        "detail": "old_but_functioning",
+        "documentation": {}
+    },
+    {
+        "label": "stop_loss_percent",
+        "kind": 5,
+        "importPath": "old_but_functioning",
+        "description": "old_but_functioning",
+        "peekOfCode": "stop_loss_percent = float(config['trading']['stop_loss_percent'])\ncoins = [coin.strip() for coin in coins]\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging']['verbose_mode']\ndebug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\n# minimum_usd_to_use = float(config['trading']['minimum_usd_to_use'])\nover_ride = config['trading']['over_ride']\n#^ Logging",
+        "detail": "old_but_functioning",
+        "documentation": {}
+    },
+    {
+        "label": "coins",
+        "kind": 5,
+        "importPath": "old_but_functioning",
+        "description": "old_but_functioning",
+        "peekOfCode": "coins = [coin.strip() for coin in coins]\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging']['verbose_mode']\ndebug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\n# minimum_usd_to_use = float(config['trading']['minimum_usd_to_use'])\nover_ride = config['trading']['over_ride']\n#^ Logging\n# Set up logging",
+        "detail": "old_but_functioning",
+        "documentation": {}
+    },
+    {
+        "label": "percent_to_use",
+        "kind": 5,
+        "importPath": "old_but_functioning",
+        "description": "old_but_functioning",
+        "peekOfCode": "percent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging']['verbose_mode']\ndebug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\n# minimum_usd_to_use = float(config['trading']['minimum_usd_to_use'])\nover_ride = config['trading']['over_ride']\n#^ Logging\n# Set up logging\nlogger = logging.getLogger('trader')",
+        "detail": "old_but_functioning",
+        "documentation": {}
+    },
+    {
+        "label": "verbose_mode",
+        "kind": 5,
+        "importPath": "old_but_functioning",
+        "description": "old_but_functioning",
+        "peekOfCode": "verbose_mode = config['logging']['verbose_mode']\ndebug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\n# minimum_usd_to_use = float(config['trading']['minimum_usd_to_use'])\nover_ride = config['trading']['over_ride']\n#^ Logging\n# Set up logging\nlogger = logging.getLogger('trader')\nlogger.setLevel(logging.INFO)",
+        "detail": "old_but_functioning",
+        "documentation": {}
+    },
+    {
+        "label": "debug_verbose",
+        "kind": 5,
+        "importPath": "old_but_functioning",
+        "description": "old_but_functioning",
+        "peekOfCode": "debug_verbose = config['logging']['debug_verbose']\nreset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\n# minimum_usd_to_use = float(config['trading']['minimum_usd_to_use'])\nover_ride = config['trading']['over_ride']\n#^ Logging\n# Set up logging\nlogger = logging.getLogger('trader')\nlogger.setLevel(logging.INFO)\n# Create file handler which logs even debug messages",
+        "detail": "old_but_functioning",
+        "documentation": {}
+    },
+    {
+        "label": "reset_positions",
+        "kind": 5,
+        "importPath": "old_but_functioning",
+        "description": "old_but_functioning",
+        "peekOfCode": "reset_positions = config['logging']['reset_positions']\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\n# minimum_usd_to_use = float(config['trading']['minimum_usd_to_use'])\nover_ride = config['trading']['over_ride']\n#^ Logging\n# Set up logging\nlogger = logging.getLogger('trader')\nlogger.setLevel(logging.INFO)\n# Create file handler which logs even debug messages\nfh = logging.FileHandler('logs/robinhood.log')",
+        "detail": "old_but_functioning",
+        "documentation": {}
+    },
+    {
+        "label": "minimum_usd_per_position",
+        "kind": 5,
+        "importPath": "old_but_functioning",
+        "description": "old_but_functioning",
+        "peekOfCode": "minimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\n# minimum_usd_to_use = float(config['trading']['minimum_usd_to_use'])\nover_ride = config['trading']['over_ride']\n#^ Logging\n# Set up logging\nlogger = logging.getLogger('trader')\nlogger.setLevel(logging.INFO)\n# Create file handler which logs even debug messages\nfh = logging.FileHandler('logs/robinhood.log')\nfh.setLevel(logging.DEBUG)",
+        "detail": "old_but_functioning",
+        "documentation": {}
+    },
+    {
+        "label": "over_ride",
+        "kind": 5,
+        "importPath": "old_but_functioning",
+        "description": "old_but_functioning",
+        "peekOfCode": "over_ride = config['trading']['over_ride']\n#^ Logging\n# Set up logging\nlogger = logging.getLogger('trader')\nlogger.setLevel(logging.INFO)\n# Create file handler which logs even debug messages\nfh = logging.FileHandler('logs/robinhood.log')\nfh.setLevel(logging.DEBUG)\n# Create console handler with a higher log level\nch = logging.StreamHandler()",
+        "detail": "old_but_functioning",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "old_but_functioning",
+        "description": "old_but_functioning",
+        "peekOfCode": "logger = logging.getLogger('trader')\nlogger.setLevel(logging.INFO)\n# Create file handler which logs even debug messages\nfh = logging.FileHandler('logs/robinhood.log')\nfh.setLevel(logging.DEBUG)\n# Create console handler with a higher log level\nch = logging.StreamHandler()\nif verbose_mode == 'True':\n    ch.setLevel(logging.INFO)\nelse:",
+        "detail": "old_but_functioning",
+        "documentation": {}
+    },
+    {
+        "label": "fh",
+        "kind": 5,
+        "importPath": "old_but_functioning",
+        "description": "old_but_functioning",
+        "peekOfCode": "fh = logging.FileHandler('logs/robinhood.log')\nfh.setLevel(logging.DEBUG)\n# Create console handler with a higher log level\nch = logging.StreamHandler()\nif verbose_mode == 'True':\n    ch.setLevel(logging.INFO)\nelse:\n    ch.setLevel(logging.WARNING)\n# Create formatter and add it to the handlers\nformatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')",
+        "detail": "old_but_functioning",
+        "documentation": {}
+    },
+    {
+        "label": "ch",
+        "kind": 5,
+        "importPath": "old_but_functioning",
+        "description": "old_but_functioning",
+        "peekOfCode": "ch = logging.StreamHandler()\nif verbose_mode == 'True':\n    ch.setLevel(logging.INFO)\nelse:\n    ch.setLevel(logging.WARNING)\n# Create formatter and add it to the handlers\nformatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')\nch.setFormatter(formatter)\nfh.setFormatter(formatter)\n# Add the handlers to the logger",
+        "detail": "old_but_functioning",
+        "documentation": {}
+    },
+    {
+        "label": "formatter",
+        "kind": 5,
+        "importPath": "old_but_functioning",
+        "description": "old_but_functioning",
+        "peekOfCode": "formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')\nch.setFormatter(formatter)\nfh.setFormatter(formatter)\n# Add the handlers to the logger\nlogger.addHandler(ch)\nlogger.addHandler(fh)\nclass Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.",
+        "detail": "old_but_functioning",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "paper",
+        "description": "paper",
+        "peekOfCode": "config = configparser.ConfigParser()\nconfig.read('config/credentials.ini')\ncoins = [coin.strip() for coin in config['trading']['coins'].split(', ')]\nstop_loss_percent = float(config['trading']['stop_loss_percent'])\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging'].getboolean('verbose_mode')\ndebug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])",
+        "detail": "paper",
+        "documentation": {}
+    },
+    {
+        "label": "coins",
+        "kind": 5,
+        "importPath": "paper",
+        "description": "paper",
+        "peekOfCode": "coins = [coin.strip() for coin in config['trading']['coins'].split(', ')]\nstop_loss_percent = float(config['trading']['stop_loss_percent'])\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging'].getboolean('verbose_mode')\ndebug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nusername = config['robinhood']['username']",
+        "detail": "paper",
+        "documentation": {}
+    },
+    {
+        "label": "stop_loss_percent",
+        "kind": 5,
+        "importPath": "paper",
+        "description": "paper",
+        "peekOfCode": "stop_loss_percent = float(config['trading']['stop_loss_percent'])\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging'].getboolean('verbose_mode')\ndebug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']",
+        "detail": "paper",
+        "documentation": {}
+    },
+    {
+        "label": "percent_to_use",
+        "kind": 5,
+        "importPath": "paper",
+        "description": "paper",
+        "peekOfCode": "percent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging'].getboolean('verbose_mode')\ndebug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)",
+        "detail": "paper",
+        "documentation": {}
+    },
+    {
+        "label": "verbose_mode",
+        "kind": 5,
+        "importPath": "paper",
+        "description": "paper",
+        "peekOfCode": "verbose_mode = config['logging'].getboolean('verbose_mode')\ndebug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")",
+        "detail": "paper",
+        "documentation": {}
+    },
+    {
+        "label": "debug_verbose",
+        "kind": 5,
+        "importPath": "paper",
+        "description": "paper",
+        "peekOfCode": "debug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")\nprint(f'coins: {coins}')",
+        "detail": "paper",
+        "documentation": {}
+    },
+    {
+        "label": "reset_positions",
+        "kind": 5,
+        "importPath": "paper",
+        "description": "paper",
+        "peekOfCode": "reset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")\nprint(f'coins: {coins}')\nprint(f'stop_loss_percent: {stop_loss_percent}')",
+        "detail": "paper",
+        "documentation": {}
+    },
+    {
+        "label": "minimum_usd_per_position",
+        "kind": 5,
+        "importPath": "paper",
+        "description": "paper",
+        "peekOfCode": "minimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")\nprint(f'coins: {coins}')\nprint(f'stop_loss_percent: {stop_loss_percent}')\nprint(f'=' * 20)",
+        "detail": "paper",
+        "documentation": {}
+    },
+    {
+        "label": "pct_to_buy_with",
+        "kind": 5,
+        "importPath": "paper",
+        "description": "paper",
+        "peekOfCode": "pct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")\nprint(f'coins: {coins}')\nprint(f'stop_loss_percent: {stop_loss_percent}')\nprint(f'=' * 20)\nlogging.basicConfig(level=logging.INFO)",
+        "detail": "paper",
+        "documentation": {}
+    },
+    {
+        "label": "pct_to_buy_per_trade",
+        "kind": 5,
+        "importPath": "paper",
+        "description": "paper",
+        "peekOfCode": "pct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")\nprint(f'coins: {coins}')\nprint(f'stop_loss_percent: {stop_loss_percent}')\nprint(f'=' * 20)\nlogging.basicConfig(level=logging.INFO)\n# Initialize paper trading variables",
+        "detail": "paper",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "paper",
+        "description": "paper",
+        "peekOfCode": "username = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")\nprint(f'coins: {coins}')\nprint(f'stop_loss_percent: {stop_loss_percent}')\nprint(f'=' * 20)\nlogging.basicConfig(level=logging.INFO)\n# Initialize paper trading variables\ncash = 10000.0  # Starting cash",
+        "detail": "paper",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "paper",
+        "description": "paper",
+        "peekOfCode": "password = config['robinhood']['password']\nlogin = r.login(username, password)\nprint(f\"Logged in as {username}\")\nprint(f'coins: {coins}')\nprint(f'stop_loss_percent: {stop_loss_percent}')\nprint(f'=' * 20)\nlogging.basicConfig(level=logging.INFO)\n# Initialize paper trading variables\ncash = 10000.0  # Starting cash\nportfolio = {coin: 0 for coin in coins}  # Starting portfolio",
+        "detail": "paper",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 5,
+        "importPath": "paper",
+        "description": "paper",
+        "peekOfCode": "login = r.login(username, password)\nprint(f\"Logged in as {username}\")\nprint(f'coins: {coins}')\nprint(f'stop_loss_percent: {stop_loss_percent}')\nprint(f'=' * 20)\nlogging.basicConfig(level=logging.INFO)\n# Initialize paper trading variables\ncash = 10000.0  # Starting cash\nportfolio = {coin: 0 for coin in coins}  # Starting portfolio\ntrade_history = []  # Trade history",
+        "detail": "paper",
+        "documentation": {}
+    },
+    {
+        "label": "cash",
+        "kind": 5,
+        "importPath": "paper",
+        "description": "paper",
+        "peekOfCode": "cash = 10000.0  # Starting cash\nportfolio = {coin: 0 for coin in coins}  # Starting portfolio\ntrade_history = []  # Trade history\npnl = 0  # Profit and loss\nasset_value = cash  # Total asset value\nasync def get_current_price(symbol):\n    current_price = r.crypto.get_crypto_quote(symbol, info='mark_price')\n    return float(current_price)\nasync def place_order(symbol, order_type, price, stop_loss=None, take_profit=None):\n    global cash, portfolio, trade_history, pnl, asset_value",
+        "detail": "paper",
+        "documentation": {}
+    },
+    {
+        "label": "portfolio",
+        "kind": 5,
+        "importPath": "paper",
+        "description": "paper",
+        "peekOfCode": "portfolio = {coin: 0 for coin in coins}  # Starting portfolio\ntrade_history = []  # Trade history\npnl = 0  # Profit and loss\nasset_value = cash  # Total asset value\nasync def get_current_price(symbol):\n    current_price = r.crypto.get_crypto_quote(symbol, info='mark_price')\n    return float(current_price)\nasync def place_order(symbol, order_type, price, stop_loss=None, take_profit=None):\n    global cash, portfolio, trade_history, pnl, asset_value\n    delay = randint(1, 3)  # Random delay of 1-3 seconds",
+        "detail": "paper",
+        "documentation": {}
+    },
+    {
+        "label": "trade_history",
+        "kind": 5,
+        "importPath": "paper",
+        "description": "paper",
+        "peekOfCode": "trade_history = []  # Trade history\npnl = 0  # Profit and loss\nasset_value = cash  # Total asset value\nasync def get_current_price(symbol):\n    current_price = r.crypto.get_crypto_quote(symbol, info='mark_price')\n    return float(current_price)\nasync def place_order(symbol, order_type, price, stop_loss=None, take_profit=None):\n    global cash, portfolio, trade_history, pnl, asset_value\n    delay = randint(1, 3)  # Random delay of 1-3 seconds\n    await asyncio.sleep(delay)",
+        "detail": "paper",
+        "documentation": {}
+    },
+    {
+        "label": "pnl",
+        "kind": 5,
+        "importPath": "paper",
+        "description": "paper",
+        "peekOfCode": "pnl = 0  # Profit and loss\nasset_value = cash  # Total asset value\nasync def get_current_price(symbol):\n    current_price = r.crypto.get_crypto_quote(symbol, info='mark_price')\n    return float(current_price)\nasync def place_order(symbol, order_type, price, stop_loss=None, take_profit=None):\n    global cash, portfolio, trade_history, pnl, asset_value\n    delay = randint(1, 3)  # Random delay of 1-3 seconds\n    await asyncio.sleep(delay)\n    slippage = uniform(-0.01, 0.01)  # Random slippage of -1% to 1%",
+        "detail": "paper",
+        "documentation": {}
+    },
+    {
+        "label": "asset_value",
+        "kind": 5,
+        "importPath": "paper",
+        "description": "paper",
+        "peekOfCode": "asset_value = cash  # Total asset value\nasync def get_current_price(symbol):\n    current_price = r.crypto.get_crypto_quote(symbol, info='mark_price')\n    return float(current_price)\nasync def place_order(symbol, order_type, price, stop_loss=None, take_profit=None):\n    global cash, portfolio, trade_history, pnl, asset_value\n    delay = randint(1, 3)  # Random delay of 1-3 seconds\n    await asyncio.sleep(delay)\n    slippage = uniform(-0.01, 0.01)  # Random slippage of -1% to 1%\n    price *= (1 + slippage)",
+        "detail": "paper",
+        "documentation": {}
+    },
+    {
         "label": "signals",
         "kind": 5,
         "importPath": "pseudocode",
@@ -7029,6 +7635,240 @@
         "description": "strategy_one",
         "peekOfCode": "total_money = float(r.load_account_profile()['crypto_buying_power']) * float(pct_to_buy_with)\n# save the total money we have to spend to total_money.txt in data/ folder\nwith open('data/total_money.txt', 'w') as f:\n    f.write(str(total_money))\n@sleep_and_retry\ndef get_quantity(coin_name):\n    positions = r.crypto.get_crypto_positions()\n    positions_dict = {}\n    for position in positions:\n        positions_dict[position['currency']['code']] = float(position['quantity'])",
         "detail": "strategy_one",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_price",
+        "kind": 2,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "def get_current_price(symbol):\n    current_price = r.crypto.get_crypto_quote(symbol, info='mark_price')\n    return float(current_price)\n# Get crypto positions\npositions = r.crypto.get_crypto_positions()\nprint(f'found {len(positions)} positions.')\n# Initialize an empty dictionary to store the minimum order sizes\nmin_order_sizes = {}\nfor position in positions:\n    # Extract the cryptocurrency code and minimum order size",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "buy_coin",
+        "kind": 2,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "def buy_coin(coin_name, amount, minimum_usd_per_trade=minimum_usd_per_trade, verbose_mode=False):\n    global min_order_sizes\n    # if the amount is more precise than the minimum order size, round it to the nearest order sizes increment\n    if amount < min_order_sizes[coin_name]:\n        # set the amount to the minimum order size (in dollars)\n        amount = round(min_order_sizes[coin_name],2)\n    else:\n        # round the amount to the nearest order size increment (e.g. $0.01 for BTC)\n        amount = round((amount / min_order_sizes[coin_name]) * min_order_sizes[coin_name],2)\n    buying_usd = max(float(amount), minimum_usd_per_trade)",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "sell_coin",
+        "kind": 2,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "def sell_coin(coin_name, stop_loss_trigger_price=None, verbose_mode=False):\n    #* SCENARIO B: A Stop Loss Order\n    if stop_loss_trigger_price is not None:\n        try:\n            holdings = r.crypto.get_crypto_positions(info=None)\n            coin_holdings = [coin for coin in holdings if coin['currency']['code'] == coin_name]\n            amount_to_sell = float(coin_holdings[0]['quantity'])\n            if verbose_mode:\n                print(Fore.YELLOW + f' > we have {amount_to_sell} {coin_name} to sell' + Fore.RESET)\n            result = r.orders.order_sell_crypto_by_price(",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_rsi",
+        "kind": 2,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "def calculate_rsi(data, period):\n    \"\"\"\n    The calculate_rsi function takes in a dataframe and a period, and returns the RSI for that period.\n    The function first calculates the difference between each row of data, then creates two new columns: up and down.\n    Up is equal to all positive values from delta, while down is equal to all negative values from delta.\n    Then we calculate average_gain by taking the mean of up over our specified window (period). We do this again with average_loss but take absolute value so we don't have any negative numbers.\n    :param data: Pass in the dataframe that contains the coin price\n    :param period: Determine the number of days used to calculate the rsi\n    :return: A series with the rsi values for each day\n    :doc-author: Trelent",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_macd",
+        "kind": 2,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "def calculate_macd(dataframe_list, short_period, long_period):\n    \"\"\"\n    The calculate_macd function takes in a dataframe and two periods, short_period and long_period.\n    It then calculates the exponential moving average of the dataframe using both periods.\n    The difference between these two averages is called the macd line. The signal line is calculated by taking an EMA of this macd line.\n    :param data: Pass in the dataframe, short_period is used to set the period for the short ema and long_period is used to set the period for long ema\n    :param short_period: Calculate the short-term exponential moving average (ema)\n    :param long_period: Calculate the long exponential moving average\n    :return: A tuple of two pandas series\n    :doc-author: Trelent",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_ema",
+        "kind": 2,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "def calculate_ema(data, window):\n    \"\"\"\n    The calculate_ema function takes in a dataframe and a window size, and returns the exponential moving average of that dataframe.\n    :param data: Pass in the dataframe that we want to calculate the ema for\n    :param window: Specify the number of days to use in the calculation\n    :return: The exponential moving average of the data\n    :doc-author: Trelent\n    \"\"\"\n    return data.ewm(span=window, adjust=False).mean()\ndef get_our_data(coin):",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "get_our_data",
+        "kind": 2,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "def get_our_data(coin):\n    # Download historical data\n    data = r.crypto.get_crypto_historicals(str(coin).upper(), interval='5minute', span='week', info=None)\n    # Calculate MACD\n    # convert 'close_price','open_price','high_price','low_price' to float\n    # go through each of the rows in the columns and convert to float\n    for row in data:\n        for key in row:\n            try:\n                row[key] = float(row[key])",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "config = configparser.ConfigParser()\nconfig.read('config/credentials.ini')\ncoins = [coin.strip() for coin in config['trading']['coins'].split(', ')]\nstop_loss_percent = float(config['trading']['stop_loss_percent'])\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging'].getboolean('verbose_mode')\ndebug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\nminimum_usd_per_trade = float(config['trading']['minimum_usd_per_trade'])",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "coins",
+        "kind": 5,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "coins = [coin.strip() for coin in config['trading']['coins'].split(', ')]\nstop_loss_percent = float(config['trading']['stop_loss_percent'])\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging'].getboolean('verbose_mode')\ndebug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\nminimum_usd_per_trade = float(config['trading']['minimum_usd_per_trade'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "stop_loss_percent",
+        "kind": 5,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "stop_loss_percent = float(config['trading']['stop_loss_percent'])\npercent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging'].getboolean('verbose_mode')\ndebug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\nminimum_usd_per_trade = float(config['trading']['minimum_usd_per_trade'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nusername = config['robinhood']['username']",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "percent_to_use",
+        "kind": 5,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "percent_to_use = float(config['trading']['percent_to_use'])\nverbose_mode = config['logging'].getboolean('verbose_mode')\ndebug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\nminimum_usd_per_trade = float(config['trading']['minimum_usd_per_trade'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "verbose_mode",
+        "kind": 5,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "verbose_mode = config['logging'].getboolean('verbose_mode')\ndebug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\nminimum_usd_per_trade = float(config['trading']['minimum_usd_per_trade'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "debug_verbose",
+        "kind": 5,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "debug_verbose = config['logging'].getboolean('debug_verbose')\nreset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\nminimum_usd_per_trade = float(config['trading']['minimum_usd_per_trade'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\n# Set up logging",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "reset_positions",
+        "kind": 5,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "reset_positions = config['logging'].getboolean('reset_positions')\nminimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\nminimum_usd_per_trade = float(config['trading']['minimum_usd_per_trade'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\n# Set up logging\nlogging.basicConfig(filename='crypto_trading.log', level=logging.INFO)",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "minimum_usd_per_position",
+        "kind": 5,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "minimum_usd_per_position = float(config['trading']['minimum_usd_per_position'])\nminimum_usd_per_trade = float(config['trading']['minimum_usd_per_trade'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\n# Set up logging\nlogging.basicConfig(filename='crypto_trading.log', level=logging.INFO)\nlogging.info(f\"Logged in as {username}\")",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "minimum_usd_per_trade",
+        "kind": 5,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "minimum_usd_per_trade = float(config['trading']['minimum_usd_per_trade'])\npct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\n# Set up logging\nlogging.basicConfig(filename='crypto_trading.log', level=logging.INFO)\nlogging.info(f\"Logged in as {username}\")\nprint(f'coins: {coins}')",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "pct_to_buy_with",
+        "kind": 5,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "pct_to_buy_with = float(config['trading']['percent_to_use'])\npct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\n# Set up logging\nlogging.basicConfig(filename='crypto_trading.log', level=logging.INFO)\nlogging.info(f\"Logged in as {username}\")\nprint(f'coins: {coins}')\nprint(f'stop_loss_percent: {stop_loss_percent}')",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "pct_to_buy_per_trade",
+        "kind": 5,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "pct_to_buy_per_trade = float(config['trading']['percent_to_spend_per_trade'])\nusername = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\n# Set up logging\nlogging.basicConfig(filename='crypto_trading.log', level=logging.INFO)\nlogging.info(f\"Logged in as {username}\")\nprint(f'coins: {coins}')\nprint(f'stop_loss_percent: {stop_loss_percent}')\nprint(f'=' * 20)",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "username = config['robinhood']['username']\npassword = config['robinhood']['password']\nlogin = r.login(username, password)\n# Set up logging\nlogging.basicConfig(filename='crypto_trading.log', level=logging.INFO)\nlogging.info(f\"Logged in as {username}\")\nprint(f'coins: {coins}')\nprint(f'stop_loss_percent: {stop_loss_percent}')\nprint(f'=' * 20)\n@sleep_and_retry",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "password = config['robinhood']['password']\nlogin = r.login(username, password)\n# Set up logging\nlogging.basicConfig(filename='crypto_trading.log', level=logging.INFO)\nlogging.info(f\"Logged in as {username}\")\nprint(f'coins: {coins}')\nprint(f'stop_loss_percent: {stop_loss_percent}')\nprint(f'=' * 20)\n@sleep_and_retry\n@limits(calls=5, period=1)",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 5,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "login = r.login(username, password)\n# Set up logging\nlogging.basicConfig(filename='crypto_trading.log', level=logging.INFO)\nlogging.info(f\"Logged in as {username}\")\nprint(f'coins: {coins}')\nprint(f'stop_loss_percent: {stop_loss_percent}')\nprint(f'=' * 20)\n@sleep_and_retry\n@limits(calls=5, period=1)\ndef get_current_price(symbol):",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "positions",
+        "kind": 5,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "positions = r.crypto.get_crypto_positions()\nprint(f'found {len(positions)} positions.')\n# Initialize an empty dictionary to store the minimum order sizes\nmin_order_sizes = {}\nfor position in positions:\n    # Extract the cryptocurrency code and minimum order size\n    crypto_code = position['currency']['code']\n    min_order_size = float(position['currency']['increment'])\n    # Add the minimum order size to the dictionary\n    min_order_sizes[crypto_code] = min_order_size",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "min_order_sizes",
+        "kind": 5,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "min_order_sizes = {}\nfor position in positions:\n    # Extract the cryptocurrency code and minimum order size\n    crypto_code = position['currency']['code']\n    min_order_size = float(position['currency']['increment'])\n    # Add the minimum order size to the dictionary\n    min_order_sizes[crypto_code] = min_order_size\nprint(min_order_sizes)\ntime.sleep(1)\n# Function to buy a coin",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "portfolio",
+        "kind": 5,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "portfolio = r.account.build_holdings()\nlogging.info(f\"Initial portfolio: {portfolio}\")\n# Log initial cash\ncash = r.profiles.load_account_profile(info='portfolio_cash')\ncash = float(cash)\nlogging.info(f\"Initial cash: {cash}\")\nwhile True:\n    # update the ini variables\n    coins = [coin.strip() for coin in config['trading']['coins'].split(', ')]\n    # stop_loss_percent = float(config['trading']['stop_loss_percent'])",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "cash",
+        "kind": 5,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "cash = r.profiles.load_account_profile(info='portfolio_cash')\ncash = float(cash)\nlogging.info(f\"Initial cash: {cash}\")\nwhile True:\n    # update the ini variables\n    coins = [coin.strip() for coin in config['trading']['coins'].split(', ')]\n    # stop_loss_percent = float(config['trading']['stop_loss_percent'])\n    # percent_to_use = float(config['trading']['percent_to_use'])\n    # verbose_mode = config['logging'].getboolean('verbose_mode')\n    # debug_verbose = config['logging'].getboolean('debug_verbose')",
+        "detail": "support_resistance",
+        "documentation": {}
+    },
+    {
+        "label": "cash",
+        "kind": 5,
+        "importPath": "support_resistance",
+        "description": "support_resistance",
+        "peekOfCode": "cash = float(cash)\nlogging.info(f\"Initial cash: {cash}\")\nwhile True:\n    # update the ini variables\n    coins = [coin.strip() for coin in config['trading']['coins'].split(', ')]\n    # stop_loss_percent = float(config['trading']['stop_loss_percent'])\n    # percent_to_use = float(config['trading']['percent_to_use'])\n    # verbose_mode = config['logging'].getboolean('verbose_mode')\n    # debug_verbose = config['logging'].getboolean('debug_verbose')\n    # reset_positions = config['logging'].getboolean('reset_positions')",
+        "detail": "support_resistance",
         "documentation": {}
     },
     {
@@ -7353,6 +8193,33 @@
         "description": "usewhenyouwantlivedata",
         "peekOfCode": "def get_crypto_market_data_livecoinwatch():\n  payload = json.dumps({\n    \"currency\": \"USD\",\n    \"sort\": \"rank\",\n    \"order\": \"ascending\",\n    \"offset\": 0,\n    \"limit\": 50,\n    \"meta\": True\n  })\n  headers = {",
         "detail": "usewhenyouwantlivedata",
+        "documentation": {}
+    },
+    {
+        "label": "Utility",
+        "kind": 6,
+        "importPath": "waitforit",
+        "description": "waitforit",
+        "peekOfCode": "class Utility:\n    def __init__(self):\n        \"\"\"\n        The Utility class provides utility functions such as getting historical data and checking if it's daytime.\n        :doc-author: Trelent\n        \"\"\"\n        pass\n    async def log_file_size_checker():\n        \"\"\"\n        The log_file_size_checker function is an async function that checks the size of the log file and removes lines from the start of the file to maintain a rolling log of 1000 lines.",
+        "detail": "waitforit",
+        "documentation": {}
+    },
+    {
+        "label": "Trader",
+        "kind": 6,
+        "importPath": "waitforit",
+        "description": "waitforit",
+        "peekOfCode": "class Trader:\n    \"\"\"\n    The Trader class provides functions for logging into Robinhood, resetting orders, generating trading signals, executing actions based on these signals, updating the buying power, and checking stop loss prices.\n    # Detailed Function Descriptions\n    1. login_setup: The login_setup function logs into Robinhood using the provided username and password.\n    2. resetter: The resetter function cancels all open orders and sells all positions. This function is used to reset the bot.\n    3. calculate_ta_indicators:\n        The calculate_ta_indicators function calculates different technical indicators and generates trading signals based on these indicators. The indicators are: EMA, MACD, RSI, Williams %R, Stochastic Oscillator, Bollinger Bands, and Parabolic SAR.\n        A boolean is generated based on these indicators. If the boolean is True, a buy signal is generated. If the boolean is False, a sell signal is generated. The signals are returned in a DataFrame.\n        :param coins: A list of coins to generate signals for",
+        "detail": "waitforit",
+        "documentation": {}
+    },
+    {
+        "label": "Looper",
+        "kind": 6,
+        "importPath": "waitforit",
+        "description": "waitforit",
+        "peekOfCode": "class Looper:\n    def __init__(self, trader: Trader):\n        \"\"\"\n        The Looper class provides functions for running asynchronous operations.\n        :param trader: An instance of the Trader class\n        :doc-author: Trelent\n        \"\"\"\n        self.trader = trader\n        # Set up logging\n        self.logger = logging.getLogger('looper')",
+        "detail": "waitforit",
         "documentation": {}
     }
 ]

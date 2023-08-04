@@ -543,7 +543,10 @@ while True:
         main_looper()
     except Exception as e:
         # cancel_all_orders on exception
-        r.orders.cancel_all_crypto_orders()
+        try:
+            r.orders.cancel_all_crypto_orders()
+        except Exception as e:
+            logging.info(f'Unable to cancel all orders...{e}')
         logging.info(f'Exception occurred...{e}')
         print(f'Exception occurred...{e}')
         print('Sleeping for 5 minutes...')
